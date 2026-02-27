@@ -1,0 +1,4 @@
+#env variables please don't play around with this
+
+.env
+.env.*
