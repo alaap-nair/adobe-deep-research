@@ -1,0 +1,21 @@
+head,relation,tail,evidence
+Glycolysis,occurs_in,cells,Glycolysis is the first major stage of cellular respiration. It occurs in the cytosol and does not require oxygen.
+Glycolysis,produces,ATP,"Glycolysis produces a net gain of ATP and reduces NAD⁺ to NADH, which carries high-energy electrons."
+Glycolysis,produces,NADH,"Glycolysis produces a net gain of ATP and reduces NAD⁺ to NADH, which carries high-energy electrons."
+Glycolysis,converts_to,pyruvate,"During glycolysis, one molecule of glucose is broken down into two molecules of pyruvate."
+pyruvate,converts_to,acetyl-CoA,"If oxygen is available, pyruvate is transported into the mitochondrion. There, pyruvate is converted into acetyl-CoA, releasing carbon dioxide and producing additional NADH."
+pyruvate,produces,NADH,"If oxygen is available, pyruvate is transported into the mitochondrion. There, pyruvate is converted into acetyl-CoA, releasing carbon dioxide and producing additional NADH."
+pyruvate,produces,carbon dioxide,"If oxygen is available, pyruvate is transported into the mitochondrion. There, pyruvate is converted into acetyl-CoA, releasing carbon dioxide and producing additional NADH."
+acetyl-CoA,enters,citric acid cycle,"Acetyl-CoA enters the citric acid cycle (also called the Krebs cycle or TCA cycle), a series of reactions in the mitochondrial matrix that generates carbon dioxide, NADH, and FADH₂."
+citric acid cycle,produces,NADH,"The citric acid cycle produces a small amount of ATP directly, but its primary role is to generate electron carriers."
+citric acid cycle,produces,FADH₂,"The citric acid cycle produces a small amount of ATP directly, but its primary role is to generate electron carriers."
+citric acid cycle,produces,carbon dioxide,"The citric acid cycle produces a small amount of ATP directly, but its primary role is to generate electron carriers."
+citric acid cycle,produces,ATP,"The citric acid cycle produces a small amount of ATP directly, but its primary role is to generate electron carriers."
+NADH,donates_electrons_to,electron transport chain,NADH and FADH₂ donate electrons to the ETC.
+FADH₂,donates_electrons_to,electron transport chain,NADH and FADH₂ donate electrons to the ETC.
+electron transport chain,uses,protons,"As electrons move through protein complexes in the chain, their energy is used to pump protons (H⁺) from the matrix into the intermembrane space, creating a proton gradient."
+electron transport chain,produces,proton gradient,"As electrons move through protein complexes in the chain, their energy is used to pump protons (H⁺) from the matrix into the intermembrane space, creating a proton gradient."
+ATP synthase,uses,proton gradient,ATP synthase uses the proton gradient to produce ATP in a process called chemiosmosis.
+ATP synthase,produces,ATP,ATP synthase uses the proton gradient to produce ATP in a process called chemiosmosis.
+oxygen,accepts_electrons_from,electron transport chain,Oxygen accepts electrons at the end of the electron transport chain and combines with protons to form water.
+oxygen,produces,water,Oxygen accepts electrons at the end of the electron transport chain and combines with protons to form water.
