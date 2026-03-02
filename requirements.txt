@@ -1,3 +1,4 @@
 #add the requirements from the tools you specifically need to use
 python-dotenv
 requests
+gliner
