@@ -4,7 +4,7 @@ import os
 from extract_entitites import extract_entities
 from extract_triples import extract_triples
 
-MODEL_NAME = "mistralai/mistral-small-3.1-24b-instruct:free"
+MODEL_NAME = "meta-llama/llama-3.1-8b-instruct"
 
 # Project root (parent of src/)
 _ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

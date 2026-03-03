@@ -7,7 +7,7 @@ load_dotenv()
 
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
-MODEL_NAME = "mistralai/mistral-small-3.1-24b-instruct:free"
+MODEL_NAME = "meta-llama/llama-3.1-8b-instruct"
 
 ALLOWED_RELATIONS = [
     "occurs_in",
