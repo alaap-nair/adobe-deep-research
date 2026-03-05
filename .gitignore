@@ -3,5 +3,4 @@
 .env
 .env.*
 project_context.md
-outputs/
 __pycache__/
