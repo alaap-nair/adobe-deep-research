@@ -122,11 +122,23 @@ def extract_triples(text):
 
     try:
         data = parse_llm_json(raw)
-        return data.get("triples", [])
+        raw_triples = data.get("triples", [])
     except json.JSONDecodeError as e:
         print(f"JSON parse error: {e}")
         print("Raw response:", raw[:500])
         return []
+
+    # Validate each triple against the schema
+    from schema import Triple
+
+    validated = []
+    for i, t in enumerate(raw_triples):
+        try:
+            triple = Triple(**t)
+            validated.append(triple.model_dump())
+        except Exception as e:
+            print(f"  Warning: skipping triple {i}: {e}")
+    return validated
 
 
 if __name__ == "__main__":

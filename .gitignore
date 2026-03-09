@@ -4,3 +4,4 @@
 .env.*
 project_context.md
 __pycache__/
+*.pdf

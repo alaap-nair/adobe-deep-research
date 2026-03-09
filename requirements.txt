@@ -1,3 +1,6 @@
 #add the requirements from the tools you specifically need to use
 python-dotenv
 requests
+pydantic>=2.0
+pymupdf
+# llama-parse  # optional, uncomment if using LlamaParse backend
