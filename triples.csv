@@ -1,22 +1,17 @@
 head,relation,tail,evidence
-Glycolysis,occurs_in,cells,Glycolysis is the first major stage of cellular respiration. It occurs in the cytosol and does not require oxygen.
-Glycolysis,produces,ATP,"Glycolysis produces a net gain of ATP and reduces NAD⁺ to NADH, which carries high-energy electrons."
-Glycolysis,produces,NADH,"Glycolysis produces a net gain of ATP and reduces NAD⁺ to NADH, which carries high-energy electrons."
-Glycolysis,converts_to,pyruvate,"During glycolysis, one molecule of glucose is broken down into two molecules of pyruvate."
-pyruvate,converts_to,acetyl-CoA,"If oxygen is available, pyruvate is transported into the mitochondrion. There, pyruvate is converted into acetyl-CoA, releasing carbon dioxide and producing additional NADH."
-pyruvate,produces,NADH,"If oxygen is available, pyruvate is transported into the mitochondrion. There, pyruvate is converted into acetyl-CoA, releasing carbon dioxide and producing additional NADH."
-pyruvate,produces,carbon dioxide,"If oxygen is available, pyruvate is transported into the mitochondrion. There, pyruvate is converted into acetyl-CoA, releasing carbon dioxide and producing additional NADH."
-acetyl-CoA,enters,citric acid cycle,"Acetyl-CoA enters the citric acid cycle (also called the Krebs cycle or TCA cycle), a series of reactions in the mitochondrial matrix that generates carbon dioxide, NADH, and FADH₂."
-citric acid cycle,produces,NADH,"The citric acid cycle produces a small amount of ATP directly, but its primary role is to generate electron carriers."
-citric acid cycle,produces,FADH₂,"The citric acid cycle produces a small amount of ATP directly, but its primary role is to generate electron carriers."
-citric acid cycle,produces,carbon dioxide,"The citric acid cycle produces a small amount of ATP directly, but its primary role is to generate electron carriers."
-citric acid cycle,produces,ATP,"The citric acid cycle produces a small amount of ATP directly, but its primary role is to generate electron carriers."
-NADH,donates_electrons_to,electron transport chain,NADH and FADH₂ donate electrons to the ETC.
-FADH₂,donates_electrons_to,electron transport chain,NADH and FADH₂ donate electrons to the ETC.
-electron transport chain,uses,protons,"As electrons move through protein complexes in the chain, their energy is used to pump protons (H⁺) from the matrix into the intermembrane space, creating a proton gradient."
-electron transport chain,produces,proton gradient,"As electrons move through protein complexes in the chain, their energy is used to pump protons (H⁺) from the matrix into the intermembrane space, creating a proton gradient."
-ATP synthase,uses,proton gradient,ATP synthase uses the proton gradient to produce ATP in a process called chemiosmosis.
-ATP synthase,produces,ATP,ATP synthase uses the proton gradient to produce ATP in a process called chemiosmosis.
-oxygen,accepts_electrons_from,electron transport chain,Oxygen accepts electrons at the end of the electron transport chain and combines with protons to form water.
-oxygen,produces,water,Oxygen accepts electrons at the end of the electron transport chain and combines with protons to form water.
-
+Glycolysis,occurs_in,cytoplasm,Glycolysis takes place in the cytoplasm of both prokaryotic and eukaryotic cells.
+Glycolysis,uses,ATP,Glycolysis begins with the energy investment phase which requires 2 ATP to phosphorylate the starting glucose molecule.
+Glycolysis,produces,pyruvate,"Glycolysis begins with glucose and produces two pyruvate molecules, four new ATP molecules, and two molecules of NADH."
+Glycolysis,produces,ATP,"Glycolysis begins with glucose and produces two pyruvate molecules, four new ATP molecules, and two molecules of NADH."
+Glycolysis,produces,NADH,"Glycolysis begins with glucose and produces two pyruvate molecules, four new ATP molecules, and two molecules of NADH."
+Glucose,converts_to,glucose-6-phosphate,"The first step in glycolysis (Figure 7.8) is catalyzed by hexokinase, an enzyme with broad specificity that catalyzes the phosphorylation of six-carbon sugars."
+Glucose-6-phosphate,converts_to,fructose-6-phosphate,"In the second step of glycolysis, an isomerase converts glucose-6-phosphate into one of its isomers, fructose-6-phosphate (this isomer has a phosphate attached at the location of the sixth carbon of the ring)."
+Fructose-6-phosphate,converts_to,"fructose-1,6-bisphosphate","The third step is the phosphorylation of fructose-6-phosphate, catalyzed by the enzyme phosphofructokinase."
+"Fructose-1,6-bisphosphate",converts_to,dihydroxyacetone phosphate and glyceraldehyde-3-phosphate,"The fourth step in glycolysis employs an enzyme, aldolase, to cleave fructose-1,6-bisphosphate into two three-carbon isomers: dihydroxyacetone phosphate and glyceraldehyde-3-phosphate."
+Dihydroxyacetone phosphate,converts_to,glyceraldehyde-3-phosphate,"In the fifth step, an isomerase transforms the dihydroxyacetone-phosphate into its isomer, glyceraldehyde-3-phosphate."
+Glyceraldehyde-3-phosphate,converts_to,"1,3-bisphosphoglycerate","The sixth step in glycolysis (Figure 7.9) oxidizes the sugar (glyceraldehyde-3-phosphate), extracting high-energy electrons, which are picked up by the electron carrier NAD, producing NADH."
+"1,3-bisphosphoglycerate",converts_to,ATP,"In the seventh step, catalyzed by phosphoglycerate kinase (an enzyme named for the reverse reaction), 1,3-bisphosphoglycerate donates a high-energy phosphate to ADP, forming one molecule of ATP."
+2-phosphoglycerate,converts_to,phosphoenolpyruvate,"Enolase catalyzes the ninth step. This enzyme causes 2-phosphoglycerate to lose water from its structure; this is a dehydration reaction, resulting in the formation of a double bond that increases the potential energy in the remaining phosphate bond and produces phosphoenolpyruvate (PEP)."
+Phosphoenolpyruvate,converts_to,pyruvate,"The last step in glycolysis is catalyzed by the enzyme pyruvate kinase (the enzyme in this case is named for the reverse reaction of pyruvate’s conversion into PEP) and results in the production of a second ATP molecule by substrate-level phosphorylation and the compound pyruvic acid (or its salt form, pyruvate)."
+Glucose,uses,GLUT proteins,"Glucose enters heterotrophic cells in two ways. One method is through secondary active transport in which the transport takes place against the glucose concentration gradient. The other mechanism uses a group of integral proteins called GLUT proteins, also known as glucose transporter proteins."
+NADH,donates_electrons_to,ATP,"If oxygen is available in the system, the NADH will be oxidized readily, though indirectly, and the high-energy electrons from the hydrogen released in this process will be used to produce ATP."

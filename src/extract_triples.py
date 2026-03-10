@@ -2,25 +2,13 @@ import os
 import json
 import requests
 from dotenv import load_dotenv
+from schema import ALLOWED_RELATIONS
 
 load_dotenv()
 
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
-
 MODEL_NAME = "meta-llama/llama-3.1-8b-instruct"
 
-ALLOWED_RELATIONS = [
-    "occurs_in",
-    "produces",
-    "converts_to",
-    "uses",
-    "requires",
-    "inhibits",
-    "activates",
-    "transports_to",
-    "donates_electrons_to",
-    "accepts_electrons_from"
-]
 
 def extract_triples(text, entities):
 
