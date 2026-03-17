@@ -14,6 +14,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from extract_triples import extract_triples, MODEL_NAME
 from extract_entitites import extract_entities
 from schema import ExtractionResult
+from graph_schema import build_graph_objects
+from visualize_graph import visualize_from_triples
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -76,6 +78,30 @@ def main():
     else:
         out_path = save_output(triples, entities)
     print(f"\nSaved to {out_path}")
+
+    # 7. Build structured graph objects
+    entities_structured, relations_structured = build_graph_objects(triples)
+
+    # 8. Build knowledge graph (Neo4j) -- skip if unavailable
+    if "--no-graph" not in sys.argv:
+        try:
+            from build_graph import build_graph as ingest_graph
+            ingest_graph(triples)
+        except Exception as e:
+            print(f"Neo4j ingestion skipped: {e}")
+
+    # 9. Build vector store (Qdrant) -- skip if unavailable
+    if "--no-graph" not in sys.argv:
+        try:
+            from build_vectorstore import build_vectorstore
+            build_vectorstore(entities_structured, relations_structured)
+        except Exception as e:
+            print(f"Qdrant ingestion skipped: {e}")
+
+    # 10. Generate visualization (always runs -- no external service needed)
+    viz_path = os.path.join(ROOT, "outputs", "graph_visualization.html")
+    visualize_from_triples(entities_structured, relations_structured, viz_path)
+    print(f"Visualization saved to {viz_path}")
 
 
 if __name__ == "__main__":

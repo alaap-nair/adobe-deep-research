@@ -5,3 +5,5 @@
 project_context.md
 __pycache__/
 *.pdf
+CLAUDE.md
+qdrant_data/
