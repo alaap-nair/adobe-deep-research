@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Pipeline Output",
+  "description": "Full pipeline output for quality verification: entities (GLiNER) + triples (LLM)",
+  "type": "object",
+  "required": ["entities", "triples"],
+  "properties": {
+    "entities": {
+      "type": "array",
+      "description": "Unique entity strings from GLiNER (node types: Protein, Enzyme, Molecule, etc.)",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "triples": {
+      "type": "array",
+      "description": "Knowledge graph edges (head, relation, tail, evidence)",
+      "items": {
+        "type": "object",
+        "required": ["head", "relation", "tail", "evidence"],
+        "properties": {
+          "head": { "type": "string", "minLength": 1 },
+          "relation": { "type": "string", "enum": [
+            "occurs_in", "produces", "converts_to", "uses", "requires",
+            "inhibits", "activates", "transports_to", "donates_electrons_to", "accepts_electrons_from"
+          ]},
+          "tail": { "type": "string", "minLength": 1 },
+          "evidence": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -2,7 +2,7 @@ import os
 import json
 import requests
 from dotenv import load_dotenv
-from schema import ALLOWED_RELATIONS
+from src.schema import ALLOWED_RELATIONS
 
 load_dotenv()
 

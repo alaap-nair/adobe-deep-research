@@ -2,10 +2,10 @@ import json
 import csv
 import os
 import sys
-from extract_entitites import extract_entities
-from extract_triples import extract_triples
-from schema import validate_triples, validate_pipeline_output
-from parse_pdf import pdf_to_text
+from src.extract_entitites import extract_entities
+from src.extract_triples import extract_triples
+from src.schema import validate_triples, validate_pipeline_output
+from src.parse_pdf import pdf_to_text
 
 MODEL_NAME = "meta-llama/llama-3.1-8b-instruct"
 

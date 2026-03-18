@@ -1,4 +1,15 @@
-#env variables please don't play around with this
-
+# env
 .env
 .env.*
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# outputs
+triples.csv
+
+# local data artifacts (do not commit)
+*.pdf
