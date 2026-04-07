@@ -1,0 +1,4 @@
+python-dotenv
+requests
+neo4j
+sentence-transformers
