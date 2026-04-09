@@ -51,7 +51,10 @@ def save_output(triples, entities, path=None):
 
 def main():
     # 1. Load passage (optional CLI arg)
-    input_path = sys.argv[1] if len(sys.argv) > 1 else None
+    cli_args = sys.argv[1:]
+    skip_external_stores = "--no-graph" in cli_args
+    input_candidates = [arg for arg in cli_args if arg != "--no-graph"]
+    input_path = input_candidates[0] if input_candidates else None
     text = load_passage(input_path)
     print(f"Loaded passage ({len(text)} chars)")
 
@@ -83,7 +86,7 @@ def main():
     entities_structured, relations_structured = build_graph_objects(triples)
 
     # 8. Build knowledge graph (Neo4j) -- skip if unavailable
-    if "--no-graph" not in sys.argv:
+    if not skip_external_stores:
         try:
             from build_graph import build_graph as ingest_graph
             ingest_graph(triples)
@@ -91,10 +94,15 @@ def main():
             print(f"Neo4j ingestion skipped: {e}")
 
     # 9. Build vector store (Qdrant) -- skip if unavailable
-    if "--no-graph" not in sys.argv:
+    if not skip_external_stores:
         try:
             from build_vectorstore import build_vectorstore
-            build_vectorstore(entities_structured, relations_structured)
+            build_vectorstore(
+                entities_structured,
+                relations_structured,
+                source_text=text,
+                source_name=input_path or "passage.txt",
+            )
         except Exception as e:
             print(f"Qdrant ingestion skipped: {e}")
 

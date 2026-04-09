@@ -8,16 +8,28 @@ If you accidentally commit a key, revoke it immediately.
 Please add a .env file in the root of the repo. In your .env file, add this:
 OPENROUTER_API_KEY=sk-xxxxxxxxxxxxxxxx
 
+## Setup
 
-Install:
-pip install python-dotenv
+Install dependencies with:
 
-"from dotenv import load_dotenv
-import os
+```bash
+pip install -r requirements.txt
+```
 
-load_dotenv()
+## Ingest
 
-API_KEY = os.getenv("OPENROUTER_API_KEY")
+Build the triples, graph, and vector stores before asking questions:
 
-if not API_KEY:
-    raise ValueError("OPENROUTER_API_KEY not found in environment")"
+```bash
+python3 src/run_all.py data/passage.txt
+```
+
+## Ask
+
+Query the system with the CLI deliverable:
+
+```bash
+python3 ask.py "What does glycolisis produce"
+```
+
+The command should print JSON with `question`, `answer`, `citations`, and `reasoning`, and also write matching files under `outputs/answers/`.

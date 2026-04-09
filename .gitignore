@@ -4,6 +4,10 @@
 .env.*
 project_context.md
 __pycache__/
+.venv/
 *.pdf
 CLAUDE.md
 qdrant_data/
+outputs/graph_visualization.html
+outputs/triples_passage.json
+outputs/answers/*_trace.json

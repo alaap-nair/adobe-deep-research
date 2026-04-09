@@ -1,0 +1,10 @@
+{
+  "question": "What does glycolisis produce",
+  "answer": "ATP",
+  "citations": [
+    "chunk:passage:1 | data/passage.txt | produces a net gain of ATP and reduces NAD⁺ to NADH, which carries high-energy electrons. If oxygen is available, pyr...",
+    "chunk:passage:0 | data/passage.txt | Title: Cellular Respiration Overview (Glycolysis → TCA Cycle → ETC) Cellular respiration is the process by which cell...",
+    "triple:c5205ad717b50135 | glycolysis --[produces]--> ATP"
+  ],
+  "reasoning": "Matched entities: glycolysis. Traversed graph edges: glycolysis --[produces]--> ATP; glycolysis --[is]--> first major stage; glycolysis --[occurs in]--> cytosol. Graph evidence: \"Glycolysis produces a net gain of ATP and reduces NAD⁺ to NADH, which carries high-energy electrons.\". The context explicitly states that glycolysis produces a net gain of ATP."
+}

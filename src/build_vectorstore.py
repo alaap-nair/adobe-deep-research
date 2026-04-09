@@ -29,6 +29,9 @@ from config import (
     EMBEDDING_DIM,
     ENTITY_COLLECTION,
     EVIDENCE_COLLECTION,
+    CHUNK_COLLECTION,
+    CHUNK_MAX_CHARS,
+    CHUNK_OVERLAP,
 )
 from graph_schema import (
     GraphEntity,
@@ -36,11 +39,19 @@ from graph_schema import (
     build_graph_objects,
     to_qdrant_id,
 )
+from chunking import build_chunk_records
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Module-level model cache
 _model = None
+
+
+def get_model_dimension(model: SentenceTransformer) -> int:
+    """Return the embedding dimension across sentence-transformers versions."""
+    if hasattr(model, "get_embedding_dimension"):
+        return model.get_embedding_dimension()
+    return model.get_sentence_embedding_dimension()
 
 
 def get_embedding_model() -> SentenceTransformer:
@@ -80,9 +91,9 @@ def get_client(url=None, port=None, api_key=None, path=None) -> QdrantClient:
 
 
 def create_collections(client: QdrantClient, dim: int = None):
-    """Create the entity and evidence collections if they don't exist."""
+    """Create the entity, evidence, and chunk collections if they don't exist."""
     dim = dim or EMBEDDING_DIM
-    for name in [ENTITY_COLLECTION, EVIDENCE_COLLECTION]:
+    for name in [ENTITY_COLLECTION, EVIDENCE_COLLECTION, CHUNK_COLLECTION]:
         if not client.collection_exists(name):
             client.create_collection(
                 collection_name=name,
@@ -142,11 +153,40 @@ def upsert_evidence_vectors(
     client.upsert(collection_name=EVIDENCE_COLLECTION, points=points)
 
 
+def upsert_chunk_vectors(
+    client: QdrantClient,
+    chunks: list[dict],
+    model: SentenceTransformer = None,
+):
+    """Embed chunk text and upsert into the chunks collection."""
+    if not chunks:
+        return
+    texts = [chunk["text"] for chunk in chunks]
+    vectors = embed_texts(texts, model)
+    points = [
+        PointStruct(
+            id=to_qdrant_id(chunk["chunk_id"]),
+            vector=vec,
+            payload={
+                "chunk_id": chunk["chunk_id"],
+                "text": chunk["text"],
+                "source_name": chunk["source_name"],
+                "chunk_index": chunk["chunk_index"],
+            },
+        )
+        for chunk, vec in zip(chunks, vectors)
+    ]
+    client.upsert(collection_name=CHUNK_COLLECTION, points=points)
+
+
 def build_vectorstore(
     entities: list[GraphEntity],
     relations: list[GraphRelation],
     client: QdrantClient = None,
     model: SentenceTransformer = None,
+    chunks: list[dict] = None,
+    source_text: str = None,
+    source_name: str = "source",
 ):
     """
     Main entry point: embed and upsert entities + evidence into Qdrant.
@@ -156,6 +196,9 @@ def build_vectorstore(
         relations: Structured graph relations.
         client: Optional Qdrant client (uses default from config if None).
         model: Optional pre-loaded SentenceTransformer model.
+        chunks: Optional pre-built chunk records to index.
+        source_text: Optional raw source text to chunk and index if chunks are not passed.
+        source_name: Label used when generating chunk ids from source_text.
     """
     close_client = False
     if client is None:
@@ -166,13 +209,25 @@ def build_vectorstore(
         model = get_embedding_model()
 
     try:
-        create_collections(client, model.get_sentence_embedding_dimension())
+        create_collections(client, get_model_dimension(model))
         upsert_entity_vectors(client, entities, model)
         upsert_evidence_vectors(client, relations, model)
+        if chunks is None and source_text:
+            chunks = build_chunk_records(
+                source_text,
+                source_name=source_name,
+                max_chars=CHUNK_MAX_CHARS,
+                overlap=CHUNK_OVERLAP,
+            )
+        upsert_chunk_vectors(client, chunks or [], model)
 
         ent_count = client.count(ENTITY_COLLECTION).count
         ev_count = client.count(EVIDENCE_COLLECTION).count
-        print(f"Qdrant: {ent_count} entity vectors, {ev_count} evidence vectors")
+        chunk_count = client.count(CHUNK_COLLECTION).count
+        print(
+            f"Qdrant: {ent_count} entity vectors, {ev_count} evidence vectors, "
+            f"{chunk_count} chunk vectors"
+        )
     finally:
         if close_client:
             client.close()

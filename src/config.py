@@ -32,3 +32,15 @@ EMBEDDING_DIM = int(os.getenv("EMBEDDING_DIM", "1024"))
 # Qdrant collection names
 ENTITY_COLLECTION = "entities"
 EVIDENCE_COLLECTION = "evidence"
+CHUNK_COLLECTION = os.getenv("CHUNK_COLLECTION", "chunks")
+
+# Chunking defaults for source text ingestion
+CHUNK_MAX_CHARS = int(os.getenv("CHUNK_MAX_CHARS", "700"))
+CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "100"))
+
+# Query-time defaults
+QA_MODEL = os.getenv("QA_MODEL", os.getenv("MODEL_NAME", ""))
+QA_TOP_K_CHUNKS = int(os.getenv("QA_TOP_K_CHUNKS", "5"))
+QA_TOP_K_ENTITIES = int(os.getenv("QA_TOP_K_ENTITIES", "3"))
+QA_TOP_K_EVIDENCE = int(os.getenv("QA_TOP_K_EVIDENCE", "5"))
+QA_GRAPH_HOPS = int(os.getenv("QA_GRAPH_HOPS", "2"))
