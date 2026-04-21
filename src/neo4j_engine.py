@@ -83,6 +83,24 @@ MERGE (:Entity {name: n})
         with self._session() as s:
             s.run(q, names=names).consume()
 
+    def list_entity_names(self) -> list[str]:
+        with self._session() as session:
+            result = session.run("MATCH (e:Entity) RETURN e.name AS name")
+            return [record["name"] for record in result]
+    def traverse_from_entities(self, entity_names: list[str], *, hop_min: int = 1, hop_max: int = 2, limit: int = 20) -> list[dict]:
+            q = """
+        UNWIND $names AS name
+        MATCH (e:Entity {name: name})
+        MATCH path = (e)-[*1..{hop_max}]-(other:Entity)
+        WITH relationships(path) AS rels, nodes(path) AS ns
+        UNWIND rels AS r
+        RETURN startNode(r).name AS head, type(r) AS relation, endNode(r).name AS tail, r.evidence AS evidence
+        LIMIT $limit
+        """.replace("{hop_max}", str(hop_max))
+            with self._session() as session:
+                rows = session.run(q, names=entity_names, limit=limit).data()
+            return rows
+
     def upsert_triples(self, triples: list[dict]):
         """
         triples: [{head, relation, tail, evidence}]

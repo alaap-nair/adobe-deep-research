@@ -5,9 +5,17 @@ Requires `MISTRAL_API_KEY` in your environment (e.g. via `.env`).
 """
 
 import os
+from dotenv import load_dotenv
+
+
+def _get(obj, key, default=None):
+    if isinstance(obj, dict):
+        return obj.get(key, default)
+    return getattr(obj, key, default)
 
 
 def pdf_to_text(path, page_range=None, model=None):
+    load_dotenv()
     """
     Extract text from a PDF using Mistral OCR.
 
@@ -21,11 +29,16 @@ def pdf_to_text(path, page_range=None, model=None):
         A single string (markdown) with pages joined by newlines.
     """
     try:
+        # Older SDK style
         from mistralai import Mistral
-    except ImportError as e:
-        raise ImportError(
-            "Mistral client is required for OCR parsing. Install with: pip install mistralai"
-        ) from e
+    except Exception:
+        try:
+            # Newer SDK style
+            from mistralai.client import Mistral
+        except Exception as e:
+            raise ImportError(
+                "Mistral client is required for OCR parsing. Install with: pip install mistralai"
+            ) from e
 
     api_key = os.getenv("MISTRAL_API_KEY")
     if not api_key:
@@ -52,7 +65,7 @@ def pdf_to_text(path, page_range=None, model=None):
             document={"file_id": uploaded.id},
         )
 
-        pages = getattr(res, "pages", None) or res.get("pages", [])
+        pages = _get(res, "pages", None) or []
         if not pages:
             return ""
 
@@ -60,11 +73,11 @@ def pdf_to_text(path, page_range=None, model=None):
             start, end = page_range
             start = max(0, start)
             end = max(start, end)
-            pages = [p for p in pages if start <= (p.get("index", 0) - 1) < end]
+            pages = [p for p in pages if start <= (_get(p, "index", 0) - 1) < end]
 
         parts = []
         for p in pages:
-            md = p.get("markdown", "")
+            md = _get(p, "markdown", "")
             if md:
                 parts.append(md)
 
