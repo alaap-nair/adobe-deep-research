@@ -1,0 +1,20 @@
+[
+  {
+    "user_input": "What happens during mitosis?",
+    "response": "Mitosis is the process of nuclear division. In prophase chromosomes condense, in metaphase they align at the equator, in anaphase sister chromatids separate, and in telophase nuclear envelopes reform.",
+    "retrieved_contexts": [
+      "Mitosis is the process of nuclear division. In prophase, chromosomes condense and the spindle begins to form. In metaphase, chromosomes line up at the cell's equator. In anaphase, sister chromatids separate and move to opposite poles. In telophase, nuclear envelopes reform around the separated chromosomes.",
+      "Cytokinesis usually follows mitosis and divides the cytoplasm into two daughter cells."
+    ],
+    "reference": "During mitosis, the nucleus divides through prophase, metaphase, anaphase, and telophase, producing two sets of separated chromosomes."
+  },
+  {
+    "user_input": "Where does the oxygen released in photosynthesis come from?",
+    "response": "The oxygen released in photosynthesis comes from the splitting of water molecules during the light-dependent reactions.",
+    "retrieved_contexts": [
+      "Oxygen released during photosynthesis comes from the splitting of water molecules during the light-dependent reactions.",
+      "The Calvin cycle uses ATP and NADPH to fix carbon dioxide into organic molecules."
+    ],
+    "reference": "The oxygen released during photosynthesis originates from water molecules that are split in the light-dependent reactions."
+  }
+]
