@@ -30,9 +30,12 @@ def load_text(path=None):
     with open(path, "r", encoding="utf-8", errors="replace") as f:
         return f.read()
 
-def save_triples_to_csv(triples, path=None):
+def save_triples_to_csv(triples, path=None, input_name=None):
     if path is None:
-        path = os.path.join(_ROOT, "triples.csv")
+        if input_name:
+            path = os.path.join(_ROOT, f"triples_{input_name}.csv")
+        else:
+            path = os.path.join(_ROOT, "triples.csv")
     with open(path, "w", newline="") as csvfile:
         writer = csv.writer(csvfile)
 
@@ -50,6 +53,7 @@ def save_triples_to_csv(triples, path=None):
 def main():
     # Optional: python src/run_all.py [path_to_pdf_or_txt]
     input_path = sys.argv[1] if len(sys.argv) > 1 else None
+    input_name = os.path.splitext(os.path.basename(input_path if input_path else "default"))[0]
     text = load_text(input_path)
     print("Input loaded (chars):", len(text))
 
@@ -82,7 +86,7 @@ def main():
         print("Pipeline output schema: valid")
 
     # Save valid triples to CSV
-    save_triples_to_csv(valid_triples)
+    save_triples_to_csv(valid_triples, input_name=input_name)
     print("Triples saved to triples.csv")
 
 if __name__ == "__main__":
