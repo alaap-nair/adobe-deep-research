@@ -1,15 +1,10 @@
-# env
-.env
-.env.*
-
-# python
+.venv/
+.venv_ragas/
 __pycache__/
 *.pyc
+.env
+.env.*
+results/
+.idea/
 venv/
-.venv/
-
-# outputs
-triples.csv
-
-# local data artifacts (do not commit)
-*.pdf
+.DS_Store
