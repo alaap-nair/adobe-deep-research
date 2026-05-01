@@ -66,7 +66,7 @@ def main():
     triples = graph_data.get("triples", [])
 
     print("\nModel used:", MODEL_NAME)
-    print("Number of triples (raw):", len(triples))
+    print("Number of triples (canonicalized + grounded):", len(triples))
 
     # Schema validation for output quality
     valid_triples, errors = validate_triples(triples)

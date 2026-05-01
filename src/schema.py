@@ -21,6 +21,39 @@ ALLOWED_RELATIONS = [
     "accepts_electrons_from",
 ]
 
+# Common free-form variants mapped into the ontology used by ALLOWED_RELATIONS.
+RELATION_ALIASES = {
+    "occur in": "occurs_in",
+    "occurs in": "occurs_in",
+    "happens in": "occurs_in",
+    "located in": "occurs_in",
+    "takes place in": "occurs_in",
+    "produce": "produces",
+    "produces": "produces",
+    "creates": "produces",
+    "generates": "produces",
+    "converted to": "converts_to",
+    "converts to": "converts_to",
+    "turns into": "converts_to",
+    "uses": "uses",
+    "consumes": "uses",
+    "needs": "requires",
+    "requires": "requires",
+    "depends on": "requires",
+    "inhibits": "inhibits",
+    "blocks": "inhibits",
+    "suppresses": "inhibits",
+    "activates": "activates",
+    "stimulates": "activates",
+    "promotes": "activates",
+    "transports to": "transports_to",
+    "moves to": "transports_to",
+    "donates electrons to": "donates_electrons_to",
+    "gives electrons to": "donates_electrons_to",
+    "accepts electrons from": "accepts_electrons_from",
+    "receives electrons from": "accepts_electrons_from",
+}
+
 REQUIRED_KEYS = ("head", "relation", "tail", "evidence")
 
 # Schema directory (project root / schema)
@@ -94,6 +127,17 @@ def validate_triple(triple, index=0):
     if rel not in ALLOWED_RELATIONS:
         return False, f"[{index}] relation '{rel}' not in allowed list"
     return True, None
+
+
+def canonicalize_relation(relation: str) -> str:
+    """Map free-form relation strings into the fixed ontology when possible."""
+    rel = (relation or "").strip().lower().replace("-", " ").replace("_", " ")
+    rel = " ".join(rel.split())
+    if rel in RELATION_ALIASES:
+        return RELATION_ALIASES[rel]
+    if rel in ALLOWED_RELATIONS:
+        return rel
+    return relation
 
 
 def validate_triples(triples):

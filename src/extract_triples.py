@@ -1,14 +1,85 @@
-from src.schema import ALLOWED_RELATIONS
+from src.schema import ALLOWED_RELATIONS, canonicalize_relation
 import os
 import json
+import re
 import requests
 from dotenv import load_dotenv
 
 load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
-print("API KEY LOADED:", OPENROUTER_API_KEY is not None)
 
 MODEL_NAME = "meta-llama/llama-3.1-8b-instruct"
+
+
+def _normalize_ws(text: str) -> str:
+    return re.sub(r"\s+", " ", text or "").strip()
+
+
+def _entity_lookup(entities):
+    by_norm = {}
+    for entity in entities or []:
+        cleaned = _normalize_ws(str(entity))
+        if cleaned:
+            by_norm[cleaned.lower()] = cleaned
+    return by_norm
+
+
+def _canonicalize_entity(raw: str, entity_by_norm: dict[str, str]) -> str:
+    cleaned = _normalize_ws(raw)
+    if not cleaned:
+        return ""
+    return entity_by_norm.get(cleaned.lower(), cleaned)
+
+
+def _grounded_in_text(text: str, evidence: str, head: str, tail: str) -> bool:
+    """
+    Require grounding in source text.
+    Preferred: evidence span appears in text.
+    Fallback: both head and tail appear in text.
+    """
+    text_norm = _normalize_ws(text).lower()
+    ev_norm = _normalize_ws(evidence).lower()
+    head_norm = _normalize_ws(head).lower()
+    tail_norm = _normalize_ws(tail).lower()
+    if ev_norm and ev_norm in text_norm:
+        return True
+    return bool(head_norm and tail_norm and head_norm in text_norm and tail_norm in text_norm)
+
+
+def _clean_and_canonicalize_triples(payload: dict, text: str, entities) -> dict:
+    triples = payload.get("triples", []) if isinstance(payload, dict) else []
+    if not isinstance(triples, list):
+        return {"triples": []}
+    entity_by_norm = _entity_lookup(entities)
+    cleaned = []
+    seen = set()
+    for item in triples:
+        if not isinstance(item, dict):
+            continue
+        head = _canonicalize_entity(item.get("head", ""), entity_by_norm)
+        tail = _canonicalize_entity(item.get("tail", ""), entity_by_norm)
+        relation = canonicalize_relation(str(item.get("relation", "")).strip())
+        evidence = _normalize_ws(str(item.get("evidence", "")))
+
+        if not head or not tail or relation not in ALLOWED_RELATIONS:
+            continue
+        if not _grounded_in_text(text, evidence, head, tail):
+            continue
+
+        key = (head.lower(), relation, tail.lower())
+        if key in seen:
+            continue
+        seen.add(key)
+        cleaned.append(
+            {
+                "head": head,
+                "relation": relation,
+                "tail": tail,
+                "evidence": evidence,
+            }
+        )
+    return {"triples": cleaned}
+
 
 def extract_triples(text, entities):
     prompt = f"""
@@ -26,6 +97,8 @@ Only use the following relation types:
 Return ONLY valid JSON.
 Do not include explanations.
 Do not include markdown.
+Do not invent entity names outside the provided entity list.
+Evidence must be an exact quote from the input text.
 If unsure, return an empty list.
 
 Expected format:
@@ -95,7 +168,8 @@ Expected format:
                 content = "\n".join(lines)
 
             try:
-                return json.loads(content)
+                parsed = json.loads(content)
+                return _clean_and_canonicalize_triples(parsed, text, entities)
             except json.JSONDecodeError:
                 print("JSON parsing failed:")
                 print(content[:500])
