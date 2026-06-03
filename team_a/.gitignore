@@ -1,0 +1,10 @@
+.venv/
+.venv_ragas/
+__pycache__/
+*.pyc
+.env
+.env.*
+results/
+.idea/
+venv/
+.DS_Store

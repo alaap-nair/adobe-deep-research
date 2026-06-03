@@ -1,0 +1,60 @@
+{
+  "description": "Mean RAGAS scores; before = baseline assignment outputs, after = Workstream 3 Neo4j pipeline.",
+  "before_results_file": "before_results.txt",
+  "after_results_file": "after_results.txt",
+  "comparison": {
+    "metrics": [
+      {
+        "metric_key": "answer_correctness",
+        "metric": "Answer Correctness",
+        "before": 0.4518129981653911,
+        "after": 0.292745652837306,
+        "delta_after_minus_before": -0.159067
+      },
+      {
+        "metric_key": "answer_relevancy",
+        "metric": "Answer Relevancy",
+        "before": 0.5152066306821147,
+        "after": 0.4675990676483593,
+        "delta_after_minus_before": -0.047608
+      },
+      {
+        "metric_key": "context_recall",
+        "metric": "Context Recall",
+        "before": 0.2916666666666667,
+        "after": 0.5416666666666666,
+        "delta_after_minus_before": 0.25
+      },
+      {
+        "metric_key": "faithfulness",
+        "metric": "Faithfulness",
+        "before": 0.05555555555555555,
+        "after": 0.9427083333333334,
+        "delta_after_minus_before": 0.887153
+      },
+      {
+        "metric_key": "llm_context_precision_without_reference",
+        "metric": "Context Precision (without reference)",
+        "before": 0.0,
+        "after": 0.6319444444128473,
+        "delta_after_minus_before": 0.631944
+      }
+    ],
+    "before_means": {
+      "faithfulness": 0.05555555555555555,
+      "answer_relevancy": 0.5152066306821147,
+      "llm_context_precision_without_reference": 0.0,
+      "context_recall": 0.2916666666666667,
+      "answer_correctness": 0.4518129981653911
+    },
+    "after_means": {
+      "faithfulness": 0.9427083333333334,
+      "answer_relevancy": 0.4675990676483593,
+      "llm_context_precision_without_reference": 0.6319444444128473,
+      "context_recall": 0.5416666666666666,
+      "answer_correctness": 0.292745652837306
+    }
+  },
+  "markdown_table": "# RAGAS: baseline vs improved\n\n| Metric | Before | After | \u0394 (After \u2212 Before) |\n|--------|--------|-------|----------------------|\n| Answer Correctness | 0.4518129981653911 | 0.292745652837306 | -0.159067 |\n| Answer Relevancy | 0.5152066306821147 | 0.4675990676483593 | -0.047608 |\n| Context Recall | 0.2916666666666667 | 0.5416666666666666 | 0.25 |\n| Faithfulness | 0.05555555555555555 | 0.9427083333333334 | 0.887153 |\n| Context Precision (without reference) | 0.0 | 0.6319444444128473 | 0.631944 |\n",
+  "report_text": "Answer Correctness:\n  Before: 0.4518\n  After: 0.2927\n  Improvement: -0.1591\n\nAnswer Relevancy:\n  Before: 0.5152\n  After: 0.4676\n  Improvement: -0.0476\n\nContext Recall:\n  Before: 0.2917\n  After: 0.5417\n  Improvement: +0.2500\n\nFaithfulness:\n  Before: 0.0556\n  After: 0.9427\n  Improvement: +0.8872\n\nContext Precision (without reference):\n  Before: 0.0000\n  After: 0.6319\n  Improvement: +0.6319\n"
+}
