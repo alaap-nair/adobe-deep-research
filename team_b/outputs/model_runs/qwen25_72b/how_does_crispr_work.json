@@ -1,0 +1,9 @@
+{
+  "question": "How does CRISPR work?",
+  "answer": "I don't know based on the provided context.",
+  "citations": [
+    "chunk:15_1_the_genetic_code_biology_2e_openstax:5 | 15.1 The Genetic Code - Biology 2e _ OpenStax.txt | that gives rise to the incredible variation of protein structure and function. The Central Dogma: DNA Encodes RNA; RN...",
+    "chunk:14_4_dna_replication_in_prokaryotes_biology_2e_openstax:15 | 14.4 DNA Replication in Prokaryotes - Biology 2e _ OpenStax.txt | by removal of the RNA nucleotides by the addition of DNA nucleotides. The nicks that remain between the newly synthes..."
+  ],
+  "reasoning": "Matched entities: rna editing, phage dna was injected into the cell, rna processing. Traversed graph edges: guide RNAs --[mediates]--> RNA editing; guide RNAs --[interacts with]--> pre-mRNA; pre-mRNA --[is edited by]--> RNA editing. Graph evidence: \"This process is entirely mediated by RNA molecules. That is, guide RNAs—rather than proteins—serve as the catalysts in RNA editing.\". The provided context does not contain specific information about how CRISPR works."
+}

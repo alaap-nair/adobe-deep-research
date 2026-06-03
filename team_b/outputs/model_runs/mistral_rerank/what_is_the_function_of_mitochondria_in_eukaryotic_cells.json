@@ -1,0 +1,8 @@
+{
+  "question": "What is the function of mitochondria in eukaryotic cells?",
+  "answer": "supply the cell with chemical energy",
+  "citations": [
+    "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:4 | 15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt | other eukaryotes, have organelles called mitochondria that supply the cell with chemical energy. Mitochondria are org..."
+  ],
+  "reasoning": "Matched entities: mitochondria, eukaryotic pre-mrna, germ cells. Traversed graph edges: trypanosomes --[contains]--> mitochondria; trypanosomes --[causes]--> sleeping sickness; mitochondria --[express]--> DNA. Graph evidence: \"Trypanosomes, and virtually all other eukaryotes, have organelles called mitochondria that supply the cell with chemical energy.\". The context explicitly states that mitochondria in eukaryotic cells supply the cell with chemical energy."
+}

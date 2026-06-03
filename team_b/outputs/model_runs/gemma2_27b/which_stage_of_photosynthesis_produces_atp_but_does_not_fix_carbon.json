@@ -1,0 +1,9 @@
+{
+  "question": "Which stage of photosynthesis produces ATP but does NOT fix carbon?",
+  "answer": "Calvin cycle",
+  "citations": [
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:4 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules 1/8 Figure 8.18 Light re...",
+    "chunk:8_1_overview_of_photosynthesis_biology_2e_openstax:17 | data/8.1 Overview of Photosynthesis - Biology 2e _ OpenStax.pdf | 6/8 Figure 8.7 Photosynthesis takes place in two stages: light-dependent reactions and the Calvin cycle. Light-depend..."
+  ],
+  "reasoning": "Matched entities: atp, photosynthesis, 5-carbon sugar. Traversed graph edges: ATP synthase --[forms]--> ATP; ATP synthase --[attaches]--> a third phosphate group to ADP; Calvin cycle --[consumes]--> ATP. Graph evidence: \"The energy released by the hydrogen ion stream allows ATP synthase to attach a third phosphate group to ADP, which forms a molecule of ATP (Figure 8.17).\". The Calvin cycle consumes ATP and carbon dioxide but produces G3P, which is a sugar."
+}

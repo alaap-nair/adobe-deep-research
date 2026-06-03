@@ -1,0 +1,8 @@
+{
+  "question": "What is the role of nitrogen-fixing bacteria in the nitrogen cycle?",
+  "answer": "contributing nitrogenous compounds to the association",
+  "citations": [
+    "chunk:24_3_ecology_of_fungi_biology_2e_openstax:21 | data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf | the fungus nor the photosynthetic organism can survive alone outside of the symbiotic relationship. The body of a lic..."
+  ],
+  "reasoning": "Matched entities: bacterial transformation, calvin cycle, nitrogenous bases. Traversed graph edges: Frederick Griffith --[reported]--> bacterial transformation; Frederick Griffith --[conducted experiments with]--> Streptococcus pneumoniae; Frederick Griffith --[concluded]--> transforming principle. Graph evidence: \"British bacteriologist Frederick Griffith reported the first demonstration of bacterial transformation—a process in which external DNA is taken up by a cell, thereby changing its morphology and physiology.\". The context mentions that some cyanobacteria, which are a type of nitrogen-fixing bacteria, fix nitrogen from the atmosphere and contribute nitrogenous compounds to their symbiotic associations. This indicates their role in the nitrogen cycle."
+}

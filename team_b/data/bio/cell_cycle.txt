@@ -1,0 +1,5 @@
+The cell cycle is the ordered sequence of events that a cell goes through as it grows and divides. Interphase includes the G1, S, and G2 phases. During the S phase, DNA is replicated so each chromosome consists of two sister chromatids.
+
+Mitosis is the process of nuclear division. In prophase, chromosomes condense and the spindle begins to form. In metaphase, chromosomes line up at the cell's equator. In anaphase, sister chromatids separate and move to opposite poles. In telophase, nuclear envelopes reform around the separated chromosomes.
+
+Cytokinesis usually follows mitosis and divides the cytoplasm into two daughter cells. The result is two genetically similar daughter cells, assuming no mutation has occurred.

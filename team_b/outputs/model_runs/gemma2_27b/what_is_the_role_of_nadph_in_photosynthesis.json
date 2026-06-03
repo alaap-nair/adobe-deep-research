@@ -1,0 +1,9 @@
+{
+  "question": "What is the role of NADPH in photosynthesis?",
+  "answer": "NADPH is used to convert 3-PGA into G3P.",
+  "citations": [
+    "chunk:8_2_the_light_dependent_reactions_of_photosynthesis_biology_2e_openstax:26 | data/8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e _ OpenStax.pdf | of water adds protons to the lumen, and reduction of NADPH removes protons from the stroma. The net result is a low p...",
+    "chunk:8_2_the_light_dependent_reactions_of_photosynthesis_biology_2e_openstax:19 | data/8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e _ OpenStax.pdf | a spectrophotometer, scientists can identify which wavelengths of light an organism can absorb. Additional methods fo..."
+  ],
+  "reasoning": "Matched entities: nadph, photosynthesis. Traversed graph edges: Calvin cycle --[consumes]--> NADPH; Calvin cycle --[consumes]--> carbon dioxide; Calvin cycle --[produces]--> G3P. Graph evidence: \"ATP and NADPH are used to convert the six molecules of 3-PGA into six molecules of a chemical called glyceraldehyde 3-phosphate (G3P).\". NADPH is consumed in the Calvin cycle to convert 3-PGA into G3P."
+}

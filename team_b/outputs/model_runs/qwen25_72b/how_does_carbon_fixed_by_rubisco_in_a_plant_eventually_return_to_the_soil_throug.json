@@ -1,0 +1,9 @@
+{
+  "question": "How does carbon fixed by RuBisCO in a plant eventually return to the soil through fungal activity?",
+  "answer": "Carbon fixed by RuBisCO in a plant is used to produce carbohydrates, which are supplied to fungi in mycorrhizal associations. The fungi, in turn, can release carbon into the soil as they decompose organic matter or die.",
+  "citations": [
+    "triple:b79d2ec5117c2f69 | plants --[supply products of photosynthesis]--> fungi",
+    "chunk:24_3_ecology_of_fungi_biology_2e_openstax:5 | data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf | either released into the substrate or remain bound to the outside of the fungal cell wall. Large molecules are broken..."
+  ],
+  "reasoning": "Matched entities: rubisco, soil, 5-carbon sugar. Traversed graph edges: RuBisCO --[catalyzes]--> reaction between CO2 and RuBP; RuBisCO --[catalyzes]--> formation of 3-PGA; RuBisCO --[catalyzes]--> carbon fixation. Graph evidence: \"RuBisCO catalyzes a reaction between CO2 and RuBP. For each CO2 molecule that reacts with one RuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form.\". Plants supply the products of photosynthesis, including carbohydrates, to fungi in mycorrhizal associations. Fungi can release carbon into the soil through decomposition of organic matter or when they die."
+}

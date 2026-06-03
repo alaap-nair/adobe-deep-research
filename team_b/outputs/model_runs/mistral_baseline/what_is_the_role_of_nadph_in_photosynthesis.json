@@ -1,0 +1,9 @@
+{
+  "question": "What is the role of NADPH in photosynthesis?",
+  "answer": "NADPH is used to convert solar energy into chemical energy and supports the light-independent reactions and fuels the assembly of sugar molecules.",
+  "citations": [
+    "chunk:8_2_the_light_dependent_reactions_of_photosynthesis_biology_2e_openstax:19 | data/8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e _ OpenStax.pdf | a spectrophotometer, scientists can identify which wavelengths of light an organism can absorb. Additional methods fo...",
+    "triple:b4c802a45b59eac3 | photosystem i --[reduces]--> nadp to nadph"
+  ],
+  "reasoning": "Matched entities: nadph, photosynthesis. Traversed graph edges: Calvin cycle --[consumes]--> NADPH; Calvin cycle --[consumes]--> carbon dioxide; Calvin cycle --[produces]--> G3P. Graph evidence: \"ATP and NADPH are used to convert the six molecules of 3-PGA into six molecules of a chemical called glyceraldehyde 3-phosphate (G3P).\". The context states that NADPH is produced in the light-dependent reactions of photosynthesis and is used to support the light-independent reactions, which are crucial for the assembly of sugar molecules. Additionally, photosystem I reduces NADP+ to NADPH, which is a key step in the process."
+}

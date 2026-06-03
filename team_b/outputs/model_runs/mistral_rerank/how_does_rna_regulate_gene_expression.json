@@ -1,0 +1,9 @@
+{
+  "question": "How does RNA regulate gene expression?",
+  "answer": "RNA regulates gene expression through RNA editing and by regulating transcription factors.",
+  "citations": [
+    "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:7 | 15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt | for this additional step in pre-mRNA processing? One possibility is that the mitochondria, being remnants of ancient...",
+    "chunk:15_3_eukaryotic_transcription_biology_2e_openstax:7 | 15.3 Eukaryotic Transcription - Biology 2e _ OpenStax.txt | the growing polypeptide chain. Small nuclear RNAs have a variety of functions, including “splicing” pre-mRNAs and reg..."
+  ],
+  "reasoning": "Matched entities: rna, mutations in repair genes. Traversed graph edges: RNA --[contains]--> ribose; DNA --[is copied to]--> RNA; Oswald Avery --[used enzymes to degrade]--> DNA. Graph evidence: \"The sugar is deoxyribose in DNA and ribose in RNA.\". The context mentions that RNA editing may be a method for regulating gene expression, and small nuclear RNAs have functions including regulating transcription factors."
+}

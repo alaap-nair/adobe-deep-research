@@ -1,0 +1,9 @@
+{
+  "question": "How do fungi obtain nutrients?",
+  "answer": "Fungi obtain nutrients by releasing exoenzymes to digest complex organic compounds externally, then absorbing the smaller molecules through their hyphae.",
+  "citations": [
+    "chunk:24_1_characteristics_of_fungi_biology_2e_openstax:23 | data/24.1 Characteristics of Fungi - Biology 2e _ OpenStax.pdf | 6/11 the hyphae, where they process nutrients in the environment. Then, the smaller molecules produced by this extern...",
+    "chunk:24_1_characteristics_of_fungi_biology_2e_openstax:22 | data/24.1 Characteristics of Fungi - Biology 2e _ OpenStax.pdf | and beer production. Nutrition Like animals, fungi are heterotrophs; they use complex organic compounds as a source o..."
+  ],
+  "reasoning": "Matched entities: fungi. Traversed graph edges: Chytridiomycota --[belongs to]--> fungi; Chytrids --[are]--> Chytridiomycota; Ascomycota --[belongs to]--> fungi. Graph evidence: \"The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).\". Fungi are heterotrophs that release exoenzymes to break down complex organic compounds in their environment. The resulting smaller molecules are then absorbed through the hyphae of the fungus."
+}

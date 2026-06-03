@@ -1,0 +1,504 @@
+{
+  "question": "What is the role of tRNA in translation?",
+  "generated_at": "2026-05-01T07:04:30.373960+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "role",
+        "trna",
+        "translation",
+        "role trna",
+        "trna translation",
+        "role trna translation"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:trna",
+          "name": "trna",
+          "matched_text": "trna",
+          "matched_alias": "trna",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:alteration_of_the_translational_reading_frame",
+          "name": "alteration of the translational reading frame",
+          "matched_text": "translation",
+          "matched_alias": "alteration of the translational reading frame",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        },
+        {
+          "entity_id": "ent:trnas",
+          "name": "trnas",
+          "matched_text": "What is the role of tRNA in translation?",
+          "matched_alias": "trnas",
+          "score": 0.798,
+          "match_type": "semantic"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:10",
+          "text": "it is surprising that tRNAs can fit so much specificity into such a small\npackage.\n\nConsider that tRNAs need to interact with three factors: 1) they must be recognized by the correct\naminoacyl synthetase (see below); 2) they must be recognized by ribosomes; and 3) they must bind to the correct\nsequence in mRNA. FIGURE 15.16 The ribosome and its function. The ribosome is responsible for translating the mRNA into protein. A. The ribosome consists\nof a large and small ribosomal subunit. Assembly of the subunits on the mRNA forms three tRNA binding sites. B. During translation,\ncharged tRNAs enter the Acceptor site, and the anticodon on the tRNA base pairs with the codon in the mRNA.",
+          "source_name": "15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt",
+          "chunk_index": 10,
+          "snippet": "it is surprising that tRNAs can fit so much specificity into such a small\npackage.\n\nConsider that tRNAs need to interact with three factors: 1) they must be recognized by the correct\naminoacyl synthetase (see below); 2) they must be recognized by ribosomes; and 3) they must bind to the correct\nsequence in mRNA. FIGURE 15.16 The ribosome and its function. The ribosome is responsible for translating",
+          "score": 0.81073716160188
+        },
+        {
+          "chunk_id": "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:7",
+          "text": "template, whereas the large subunit sequentially binds tRNAs.\n\nEach mRNA molecule is\nsimultaneously translated by many ribosomes, all synthesizing protein in the same direction: reading the mRNA\nfrom 5' to 3' and synthesizing the polypeptide from the N terminus to the C terminus. The complete mRNA/poly-\nribosome structure is called a polysome. tRNAs\nThe tRNAs are structural RNA molecules that were transcribed from genes by RNA polymerase III. Depending on\nthe species, 40 to 60 types of tRNAs exist in the cytoplasm. Transfer RNAs serve as adaptor molecules. Each tRNA\ncarries a specific amino acid and recognizes one or more of the mRNA codons that define the order of amino acids in\na protein.",
+          "source_name": "15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt",
+          "chunk_index": 7,
+          "snippet": "template, whereas the large subunit sequentially binds tRNAs.\n\nEach mRNA molecule is\nsimultaneously translated by many ribosomes, all synthesizing protein in the same direction: reading the mRNA\nfrom 5' to 3' and synthesizing the polypeptide from the N terminus to the C terminus. The complete mRNA/poly-\nribosome structure is called a polysome. tRNAs\nThe tRNAs are structural RNA molecules that were",
+          "score": 0.7663586062933213
+        },
+        {
+          "chunk_id": "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:8",
+          "text": "and recognizes one or more of the mRNA codons that define the order of amino acids in\na protein.\n\nAminoacyl-tRNAs bind to the ribosome and add the corresponding amino acid to the polypeptide chain. Therefore, tRNAs are the molecules that actually “translate” the language of RNA into the language of proteins. Of the 64 possible mRNA codons—or triplet combinations of A, U, G, and C—three specify the termination of protein\n15.5 • Ribosomes and Protein Synthesis\n407",
+          "source_name": "15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt",
+          "chunk_index": 8,
+          "snippet": "and recognizes one or more of the mRNA codons that define the order of amino acids in\na protein.\n\nAminoacyl-tRNAs bind to the ribosome and add the corresponding amino acid to the polypeptide chain. Therefore, tRNAs are the molecules that actually “translate” the language of RNA into the language of proteins. Of the 64 possible mRNA codons—or triplet combinations of A, U, G, and C—three specify the",
+          "score": 0.7599602974505069
+        },
+        {
+          "chunk_id": "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:14",
+          "text": "covalent bond formation between the\ntRNA and the correct amino acid in preparation for translation.\n\nBecause there are multiple amino acids, there are multiple different tRNA\nsynthetases. All of the synthetases require energy, in the form of ATP, to make sure the correct amino acid is attached to the tRNA with the\ncorrect anticodon sequence. Credit: Rao, A., Ryan, K. and Tag, A. Department of Biology, Texas A&M University. The Mechanism of Protein Synthesis\nAs with mRNA synthesis, protein synthesis can be divided into three phases: initiation, elongation, and termination. The process of translation is similar in prokaryotes and eukaryotes. Here we’ll explore how translation occurs in E.",
+          "source_name": "15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt",
+          "chunk_index": 14,
+          "snippet": "covalent bond formation between the\ntRNA and the correct amino acid in preparation for translation.\n\nBecause there are multiple amino acids, there are multiple different tRNA\nsynthetases. All of the synthetases require energy, in the form of ATP, to make sure the correct amino acid is attached to the tRNA with the\ncorrect anticodon sequence. Credit: Rao, A., Ryan, K. and Tag, A. Department of Biol",
+          "score": 0.7574141097568773
+        },
+        {
+          "chunk_id": "chunk:15_3_eukaryotic_transcription_biology_2e_openstax:6",
+          "text": "extensive processing after transcription but before translation.\n\nFor clarity, this module’s discussion\nof transcription and translation in eukaryotes will use the term “mRNAs” to describe only the mature, processed\nmolecules that are ready to be translated. RNA polymerase II is responsible for transcribing the overwhelming\nmajority of eukaryotic genes. RNA polymerase III is also located in the nucleus. This polymerase transcribes a variety of structural RNAs that\nincludes the 5S pre-rRNA, transfer pre-RNAs (pre-tRNAs), and small nuclear pre-RNAs. The tRNAs have a critical\nrole in translation; they serve as the “adaptor molecules” between the mRNA template and the growing polypeptide\nchain.",
+          "source_name": "15.3 Eukaryotic Transcription - Biology 2e _ OpenStax.txt",
+          "chunk_index": 6,
+          "snippet": "extensive processing after transcription but before translation.\n\nFor clarity, this module’s discussion\nof transcription and translation in eukaryotes will use the term “mRNAs” to describe only the mature, processed\nmolecules that are ready to be translated. RNA polymerase II is responsible for transcribing the overwhelming\nmajority of eukaryotic genes. RNA polymerase III is also located in the nu",
+          "score": 0.7537021683132537
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:11e89c1472f0ad51",
+          "head_entity_id": "ent:ribosome",
+          "tail_entity_id": "ent:aminoacyl-trna",
+          "relation": "binds",
+          "evidence": "During translation elongation, the mRNA template provides tRNA binding specificity.",
+          "head_name": "ribosome",
+          "tail_name": "aminoacyl-tRNA",
+          "score": 0.7789302647752485
+        },
+        {
+          "triple_id": "triple:e574042f41f4e440",
+          "head_entity_id": "ent:aminoacyl-trna_synthetases",
+          "tail_entity_id": "ent:covalent_bond_formation",
+          "relation": "catalyze",
+          "evidence": "Aminoacyl-tRNA synthetases catalyze covalent bond formation between the tRNA and the correct amino acid in preparation for translation.",
+          "head_name": "aminoacyl-tRNA synthetases",
+          "tail_name": "covalent bond formation",
+          "score": 0.7595673073802677
+        },
+        {
+          "triple_id": "triple:31c277e1d622a50d",
+          "head_entity_id": "ent:ribosome",
+          "tail_entity_id": "ent:mrna",
+          "relation": "translates",
+          "evidence": "The ribosome is responsible for translating the mRNA into protein.",
+          "head_name": "ribosome",
+          "tail_name": "mRNA",
+          "score": 0.7439450015060979
+        },
+        {
+          "triple_id": "triple:9ea18d997da987e9",
+          "head_entity_id": "ent:trna",
+          "tail_entity_id": "ent:mrna_codon",
+          "relation": "recognizes",
+          "evidence": "Each tRNA carries a specific amino acid and recognizes one or more of the mRNA codons that define the order of amino acids in a protein.",
+          "head_name": "tRNA",
+          "tail_name": "mRNA codon",
+          "score": 0.7188683390234925
+        },
+        {
+          "triple_id": "triple:6f151611792fe6b7",
+          "head_entity_id": "ent:pre-trnas",
+          "tail_entity_id": "ent:nucleus",
+          "relation": "are processed in",
+          "evidence": "Pre-tRNAs are transcribed and processed in the nucleus and then released into the cytoplasm where they are linked to free amino acids for protein synthesis.",
+          "head_name": "pre-tRNAs",
+          "tail_name": "nucleus",
+          "score": 0.7020322596484072
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:trna",
+        "ent:alteration_of_the_translational_reading_frame",
+        "ent:trnas",
+        "ent:ribosome",
+        "ent:aminoacyl-trna",
+        "ent:aminoacyl-trna_synthetases",
+        "ent:covalent_bond_formation",
+        "ent:mrna",
+        "ent:mrna_codon",
+        "ent:pre-trnas",
+        "ent:nucleus"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "trna",
+          "entity_id": "ent:trna",
+          "original_names": [
+            "tRNA"
+          ]
+        },
+        {
+          "name": "amino acid",
+          "entity_id": "ent:amino_acid",
+          "original_names": [
+            "amino acid"
+          ]
+        },
+        {
+          "name": "ribosome",
+          "entity_id": "ent:ribosome",
+          "original_names": [
+            "ribosome"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "aminoacyl-trna",
+          "entity_id": "ent:aminoacyl-trna",
+          "original_names": [
+            "aminoacyl-tRNA"
+          ]
+        },
+        {
+          "name": "polypeptides",
+          "entity_id": "ent:polypeptides",
+          "original_names": [
+            "polypeptides"
+          ]
+        },
+        {
+          "name": "trnas",
+          "entity_id": "ent:trnas",
+          "original_names": [
+            "tRNAs"
+          ]
+        },
+        {
+          "name": "peptide bond formation",
+          "entity_id": "ent:peptide_bond_formation",
+          "original_names": [
+            "peptide bond formation"
+          ]
+        },
+        {
+          "name": "mrna template",
+          "entity_id": "ent:mrna_template",
+          "original_names": [
+            "mRNA template"
+          ]
+        },
+        {
+          "name": "rrnas",
+          "entity_id": "ent:rrnas",
+          "original_names": [
+            "rRNAs"
+          ]
+        },
+        {
+          "name": "mrna codon",
+          "entity_id": "ent:mrna_codon",
+          "original_names": [
+            "mRNA codon"
+          ]
+        },
+        {
+          "name": "anticodon",
+          "entity_id": "ent:anticodon",
+          "original_names": [
+            "anticodon"
+          ]
+        },
+        {
+          "name": "three-dimensional structure",
+          "entity_id": "ent:three-dimensional_structure",
+          "original_names": [
+            "three-dimensional structure"
+          ]
+        },
+        {
+          "name": "alteration of the translational reading frame",
+          "entity_id": "ent:alteration_of_the_translational_reading_frame",
+          "original_names": [
+            "alteration of the translational reading frame"
+          ]
+        },
+        {
+          "name": "frameshift mutation",
+          "entity_id": "ent:frameshift_mutation",
+          "original_names": [
+            "frameshift mutation"
+          ]
+        },
+        {
+          "name": "three nucleotides",
+          "entity_id": "ent:three_nucleotides",
+          "original_names": [
+            "three nucleotides"
+          ]
+        },
+        {
+          "name": "ribosomes",
+          "entity_id": "ent:ribosomes",
+          "original_names": [
+            "ribosomes"
+          ]
+        },
+        {
+          "name": "protein",
+          "entity_id": "ent:protein",
+          "original_names": [
+            "protein"
+          ]
+        },
+        {
+          "name": "rna polymerase",
+          "entity_id": "ent:rna_polymerase",
+          "original_names": [
+            "RNA polymerase"
+          ]
+        },
+        {
+          "name": "prokaryotic rna polymerase",
+          "entity_id": "ent:prokaryotic_rna_polymerase",
+          "original_names": [
+            "Prokaryotic RNA polymerase"
+          ]
+        },
+        {
+          "name": "peptidyl transferase",
+          "entity_id": "ent:peptidyl_transferase",
+          "original_names": [
+            "peptidyl transferase"
+          ]
+        },
+        {
+          "name": "rna polymerase i",
+          "entity_id": "ent:rna_polymerase_i",
+          "original_names": [
+            "RNA polymerase I"
+          ]
+        },
+        {
+          "name": "aminoacyl-trna synthetases",
+          "entity_id": "ent:aminoacyl-trna_synthetases",
+          "original_names": [
+            "aminoacyl-tRNA synthetases"
+          ]
+        },
+        {
+          "name": "covalent bond formation",
+          "entity_id": "ent:covalent_bond_formation",
+          "original_names": [
+            "covalent bond formation"
+          ]
+        },
+        {
+          "name": "pre-rrnas",
+          "entity_id": "ent:pre-rrnas",
+          "original_names": [
+            "pre-rRNAs"
+          ]
+        },
+        {
+          "name": "dna",
+          "entity_id": "ent:dna",
+          "original_names": [
+            "DNA"
+          ]
+        },
+        {
+          "name": "dna template strand",
+          "entity_id": "ent:dna_template_strand",
+          "original_names": [
+            "DNA template strand"
+          ]
+        },
+        {
+          "name": "α, α, β, β', and σ subunits",
+          "entity_id": "ent:α,_α,_β,_β',_and_σ_subunits",
+          "original_names": [
+            "α, α, β, β', and σ subunits"
+          ]
+        },
+        {
+          "name": "pre-trnas",
+          "entity_id": "ent:pre-trnas",
+          "original_names": [
+            "pre-tRNAs"
+          ]
+        },
+        {
+          "name": "methylation",
+          "entity_id": "ent:methylation",
+          "original_names": [
+            "methylation"
+          ]
+        },
+        {
+          "name": "nucleus",
+          "entity_id": "ent:nucleus",
+          "original_names": [
+            "nucleus"
+          ]
+        },
+        {
+          "name": "rna polymerase ii",
+          "entity_id": "ent:rna_polymerase_ii",
+          "original_names": [
+            "RNA polymerase II"
+          ]
+        },
+        {
+          "name": "rna polymerase iii",
+          "entity_id": "ent:rna_polymerase_iii",
+          "original_names": [
+            "RNA polymerase III"
+          ]
+        },
+        {
+          "name": "promoter",
+          "entity_id": "ent:promoter",
+          "original_names": [
+            "promoter"
+          ]
+        },
+        {
+          "name": "protein-coding nuclear pre-mrnas",
+          "entity_id": "ent:protein-coding_nuclear_pre-mrnas",
+          "original_names": [
+            "protein-coding nuclear pre-mRNAs"
+          ]
+        },
+        {
+          "name": "α-amanitin",
+          "entity_id": "ent:α-amanitin",
+          "original_names": [
+            "α-amanitin"
+          ]
+        },
+        {
+          "name": "pre-mrnas",
+          "entity_id": "ent:pre-mrnas",
+          "original_names": [
+            "pre-mRNAs"
+          ]
+        },
+        {
+          "name": "5s rrna, trnas, and small nuclear rnas",
+          "entity_id": "ent:5s_rrna,_trnas,_and_small_nuclear_rnas",
+          "original_names": [
+            "5S rRNA, tRNAs, and small nuclear RNAs"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:amino_acid",
+          "evidence": "Each tRNA carries a specific amino acid and recognizes one or more of the mRNA codons that define the order of amino acids in a protein.",
+          "target_name": "amino acid",
+          "source_entity_id": "ent:trna",
+          "triple_id": "triple:c86686a8bc967e19",
+          "source_name": "tRNA",
+          "relation": "carries"
+        },
+        {
+          "target_entity_id": "ent:trna",
+          "evidence": "During translation elongation, the mRNA template provides tRNA binding specificity.",
+          "target_name": "tRNA",
+          "source_entity_id": "ent:ribosome",
+          "triple_id": "triple:4734e9edec40b3d5",
+          "source_name": "ribosome",
+          "relation": "binds"
+        },
+        {
+          "target_entity_id": "ent:mrna",
+          "evidence": "The ribosome is responsible for translating the mRNA into protein.",
+          "target_name": "mRNA",
+          "source_entity_id": "ent:ribosome",
+          "triple_id": "triple:31c277e1d622a50d",
+          "source_name": "ribosome",
+          "relation": "translates"
+        },
+        {
+          "target_entity_id": "ent:mrna",
+          "evidence": "During translation elongation, the mRNA template provides tRNA binding specificity.",
+          "target_name": "mRNA",
+          "source_entity_id": "ent:ribosome",
+          "triple_id": "triple:f7f51a1dc9772b91",
+          "source_name": "ribosome",
+          "relation": "binds"
+        },
+        {
+          "target_entity_id": "ent:aminoacyl-trna",
+          "evidence": "During translation elongation, the mRNA template provides tRNA binding specificity.",
+          "target_name": "aminoacyl-tRNA",
+          "source_entity_id": "ent:ribosome",
+          "triple_id": "triple:11e89c1472f0ad51",
+          "source_name": "ribosome",
+          "relation": "binds"
+        },
+        {
+          "target_entity_id": "ent:polypeptides",
+          "evidence": "A ribosome is a complex macromolecule composed of structural and catalytic rRNAs, and many distinct polypeptides.",
+          "target_name": "polypeptides",
+          "source_entity_id": "ent:ribosome",
+          "triple_id": "triple:4e4234933c7f6eed",
+          "source_name": "ribosome",
+          "relation": "consists of"
+        },
+        {
+          "target_entity_id": "ent:trnas",
+          "evidence": "The small subunit is responsible for binding the mRNA template, whereas the large subunit sequentially binds tRNAs.",
+          "target_name": "tRNAs",
+          "source_entity_id": "ent:ribosome",
+          "triple_id": "triple:fc05b13c9fc7d6d5",
+          "source_name": "ribosome",
+          "relation": "binds"
+        },
+        {
+          "target_entity_id": "ent:peptide_bond_formation",
+          "evidence": "This reaction is catalyzed by ribosomes and generates one water molecule.",
+          "target_name": "peptide bond formation",
+          "source_entity_id": "ent:ribosome",
+          "triple_id": "triple:152e406e1bef3f11",
+          "source_name": "ribosome",
+          "relation": "catalyzes"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What is the role of tRNA in translation?",
+    "answer": "tRNA carries a specific amino acid and recognizes the corresponding codon on the mRNA, ensuring the correct amino acid is added to the growing polypeptide chain.",
+    "citations": [
+      "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:10 | 15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt | it is surprising that tRNAs can fit so much specificity into such a small package. Consider that tRNAs need to intera...",
+      "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:7 | 15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt | template, whereas the large subunit sequentially binds tRNAs. Each mRNA molecule is simultaneously translated by many..."
+    ],
+    "reasoning": "Matched entities: trna, alteration of the translational reading frame. Traversed graph edges: tRNA --[carries]--> amino acid; ribosome --[binds]--> tRNA; ribosome --[translates]--> mRNA. Graph evidence: \"Each tRNA carries a specific amino acid and recognizes one or more of the mRNA codons that define the order of amino acids in a protein.\". tRNA carries a specific amino acid and recognizes the corresponding codon on the mRNA, ensuring the correct amino acid is added to the growing polypeptide chain."
+  }
+}

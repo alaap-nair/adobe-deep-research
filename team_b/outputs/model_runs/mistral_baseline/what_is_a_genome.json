@@ -1,0 +1,9 @@
+{
+  "question": "What is a genome?",
+  "answer": "I don't know based on the provided context.",
+  "citations": [
+    "chunk:15_1_the_genetic_code_biology_2e_openstax:0 | 15.1 The Genetic Code - Biology 2e _ OpenStax.txt | INTRODUCTION CHAPTER 15 Genes and Proteins 15.1 The Genetic Code 15.2 Prokaryotic Transcription 15.3 Eukaryotic Trans...",
+    "chunk:15_3_eukaryotic_transcription_biology_2e_openstax:20 | 15.3 Eukaryotic Transcription - Biology 2e _ OpenStax.txt | elongation and termination. Although the enzymatic process of elongation is essentially the same in eukaryotes and pr..."
+  ],
+  "reasoning": "Matched entities: neanderthal genome. Traversed graph edges: Neanderthal genome --[has]--> 2 to 3 percent greater similarity to people living outside Africa; Neanderthal genome --[contains]--> DNA segments similar to contemporary human sequences; Neanderthal genome --[was sequenced by]--> Richard E. Green et al.. Graph evidence: \"After comparing the sequences, the researchers found that the Neanderthal genome had 2 to 3 percent greater similarity to people living outside Africa than to people in Africa.\". The provided context does not contain any information that directly defines what a genome is."
+}

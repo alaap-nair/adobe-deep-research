@@ -1,0 +1,9 @@
+{
+  "question": "Why is RNA only a single helix?",
+  "answer": "RNA is single stranded because it folds into a three-dimensional structure through local regions of base pairing stabilized by intramolecular hydrogen bonding.",
+  "citations": [
+    "chunk:15_3_eukaryotic_transcription_biology_2e_openstax:4 | 15.3 Eukaryotic Transcription - Biology 2e _ OpenStax.txt | considered structural RNAs because they have a cellular role but are not translated into protein. The rRNAs are compo...",
+    "chunk:15_2_prokaryotic_transcription_biology_2e_openstax:5 | 15.2 Prokaryotic Transcription - Biology 2e _ OpenStax.txt | always proceeds from the same DNA strand for each gene, which is called the template strand. The mRNA product is comp..."
+  ],
+  "reasoning": "Matched entities: rna, dna helix, single six-membered ring structure. Traversed graph edges: RNA --[contains]--> ribose; DNA --[is copied to]--> RNA; Oswald Avery --[used enzymes to degrade]--> DNA. Graph evidence: \"The sugar is deoxyribose in DNA and ribose in RNA.\". The provided text states that RNA takes on a three-dimensional structure through local regions of base pairing stabilized by intramolecular hydrogen bonding."
+}

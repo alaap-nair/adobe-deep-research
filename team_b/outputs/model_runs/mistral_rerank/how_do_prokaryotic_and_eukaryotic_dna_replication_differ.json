@@ -1,0 +1,9 @@
+{
+  "question": "How do prokaryotic and eukaryotic DNA replication differ?",
+  "answer": "Prokaryotic and eukaryotic DNA replication differ in the number of origins of replication, rate of replication, types of DNA polymerases, presence of telomerase, and RNA primer removal mechanisms.",
+  "citations": [
+    "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:3 | 14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt | replication, a pre-replication complex is made with other initiator proteins. Helicase and other proteins are then re...",
+    "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:1 | 14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt | cycle. There are multiple origins of replication on each eukaryotic chromosome; humans can have up to 100,000 origins..."
+  ],
+  "reasoning": "Matched entities: dna, replication, eukaryotic pre-mrna. Traversed graph edges: Oswald Avery --[used enzymes to degrade]--> DNA; Oswald Avery --[isolated]--> S strain; Oswald Avery --[concluded]--> DNA was the transforming principle. Graph evidence: \"They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.\". The context provides a table comparing prokaryotic and eukaryotic DNA replication, highlighting differences in the number of origins of replication, rate of replication, types of DNA polymerases, presence of telomerase, and RNA primer removal mechanisms. Additionally, it mentions that eukaryotic DNA is bound to histones, which must be removed and replaced during replication, contributing to a slower replication rate."
+}

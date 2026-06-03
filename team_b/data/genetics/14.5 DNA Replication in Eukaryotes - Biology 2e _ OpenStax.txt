@@ -1,0 +1,101 @@
+LINK TO LEARNING
+Review the full process of DNA replication here (https://openstax.org/l/replication_DNA).
+14.5 DNA Replication in Eukaryotes
+LEARNING OBJECTIVES
+By the end of this section, you will be able to do the following:
+•
+Discuss the similarities and differences between DNA replication in eukaryotes and prokaryotes
+•
+State the role of telomerase in DNA replication
+Eukaryotic genomes are much more complex and larger in size than prokaryotic genomes. Eukaryotes also have a
+number of different linear chromosomes. The human genome has 3 billion base pairs per haploid set of
+chromosomes, and 6 billion base pairs are replicated during the S phase of the cell cycle. There are multiple origins
+of replication on each eukaryotic chromosome; humans can have up to 100,000 origins of replication across the
+genome. The rate of replication is approximately 100 nucleotides per second, much slower than prokaryotic
+replication. In yeast, which is a eukaryote, special sequences known as autonomously replicating sequences (ARS)
+are found on the chromosomes. These are equivalent to the origin of replication in E. coli.
+The number of DNA polymerases in eukaryotes is much more than in prokaryotes: 14 are known, of which five are
+known to have major roles during replication and have been well studied. They are known as pol α, pol β, pol γ, pol
+δ, and pol ε.
+The essential steps of replication are the same as in prokaryotes. Before replication can start, the DNA has to be
+made available as a template. Eukaryotic DNA is bound to basic proteins known as histones to form structures
+called nucleosomes. Histones must be removed and then replaced during the replication process, which helps to
+account for the lower replication rate in eukaryotes. The chromatin (the complex between DNA and proteins) may
+undergo some chemical modifications, so that the DNA may be able to slide off the proteins or be accessible to the
+enzymes of the DNA replication machinery. At the origin of replication, a pre-replication complex is made with other
+initiator proteins. Helicase and other proteins are then recruited to start the replication process (Table 14.2).
+Difference between Prokaryotic and Eukaryotic Replication
+Property
+Prokaryotes
+Eukaryotes
+Origin of replication
+Single
+Multiple
+Rate of replication
+1000 nucleotides/s
+50 to 100 nucleotides/s
+DNA polymerase types
+5
+14
+Telomerase
+Not present
+Present
+RNA primer removal
+DNA pol I
+RNase H
+Strand elongation
+DNA pol III
+Pol α, pol δ, pol ε
+Sliding clamp
+Sliding clamp
+PCNA
+TABLE 14.2
+A helicase using the energy from ATP hydrolysis opens up the DNA helix. Replication forks are formed at each
+replication origin as the DNA unwinds. The opening of the double helix causes over-winding, or supercoiling, in the
+DNA ahead of the replication fork. These are resolved with the action of topoisomerases. Primers are formed by the
+enzyme primase, and using the primer, DNA pol can start synthesis. Three major DNA polymerases are then
+378
+14 • DNA Structure and Function
+Access for free at openstax.org
+
+
+involved: α, δ and ε. DNA pol α adds a short (20 to 30 nucleotides) DNA fragment to the RNA primer on both
+strands, and then hands off to a second polymerase. While the leading strand is continuously synthesized by the
+enzyme pol ε, the lagging strand is synthesized by pol δ. A sliding clamp protein known as PCNA (proliferating cell
+nuclear antigen) holds the DNA pol in place so that it does not slide off the DNA. As pol δ runs into the primer RNA
+on the lagging strand, it displaces it from the DNA template. The displaced primer RNA is then removed by RNase H
+(AKA flap endonuclease) and replaced with DNA nucleotides. The Okazaki fragments in the lagging strand are
+joined after the replacement of the RNA primers with DNA. The gaps that remain are sealed by DNA ligase, which
+forms the phosphodiester bond.
+Telomere replication
+Unlike prokaryotic chromosomes, eukaryotic chromosomes are linear. As you’ve learned, the enzyme DNA pol can
+add nucleotides only in the 5' to 3' direction. In the leading strand, synthesis continues until the end of the
+chromosome is reached. On the lagging strand, DNA is synthesized in short stretches, each of which is initiated by a
+separate primer. When the replication fork reaches the end of the linear chromosome, there is no way to replace the
+primer on the 5’ end of the lagging strand. The DNA at the ends of the chromosome thus remains unpaired, and over
+time these ends, called telomeres, may get progressively shorter as cells continue to divide.
+Telomeres comprise repetitive sequences that code for no particular gene. In humans, a six-base-pair sequence,
+TTAGGG, is repeated 100 to 1000 times in the telomere regions. In a way, these telomeres protect the genes from
+getting deleted as cells continue to divide. The telomeres are added to the ends of chromosomes by a separate
+enzyme, telomerase (Figure 14.16), whose discovery helped in the understanding of how these repetitive
+chromosome ends are maintained. The telomerase enzyme contains a catalytic part and a built-in RNA template. It
+attaches to the end of the chromosome, and DNA nucleotides complementary to the RNA template are added on the
+3' end of the DNA strand. Once the 3' end of the lagging strand template is sufficiently elongated, DNA polymerase
+can add the nucleotides complementary to the ends of the chromosomes. Thus, the ends of the chromosomes are
+replicated.
+14.5 • DNA Replication in Eukaryotes
+379
+
+
+FIGURE 14.15 The ends of linear chromosomes are maintained by the action of the telomerase enzyme. Credit: Rao, A. and Fletcher, S.
+Department of Biology, Texas A&M University.
+Telomerase is typically active in germ cells and adult stem cells. It is not active in adult somatic cells. For their
+discovery of telomerase and its action, Elizabeth Blackburn, Carol W. Greider, and Jack W. Szostak (Figure 14.16)
+received the Nobel Prize for Medicine and Physiology in 2009. Later research using HeLa cells (obtained from
+Henrietta Lacks) confirmed that telomerase is present in human cells. And in 2001, researchers including Diane L.
+Wright found that telomerase is necessary for cells in human embryos to rapidly proliferate.
+FIGURE 14.16 Elizabeth Blackburn, 2009 Nobel Laureate, is one of the scientists who discovered how telomerase works. (credit: US
+Embassy Sweden)
+380
+14 • DNA Structure and Function
+Access for free at openstax.org

@@ -1,0 +1,28 @@
+Nodes:                 296
+Relationships:         235
+Avg degree:            1.59
+Distinct relations:    156
+
+Top entities by surface-form count:
+    2  animals
+    2  chloroplasts
+    2  chytrids
+    2  energy carriers
+    2  ergot
+    2  fungi
+    2  light-dependent reactions
+    2  light-independent reactions
+    2  photoautotrophs
+    2  photosynthesis
+
+Top 10 relation labels:
+    15  produce
+     8  causes
+     6  is a
+     6  include
+     5  produces
+     5  have
+     4  contain
+     4  contains
+     4  absorb
+     3  stores energy in

@@ -1,0 +1,8 @@
+{
+  "question": "What does 'reduction' mean in the context of the Calvin cycle?",
+  "answer": "the gain of an electron by an atom or molecule",
+  "citations": [
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:9 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | CO is “fixed” from an inorganic form into organic molecules. Stage 2: Reduction ATP and NADPH are used to convert the..."
+  ],
+  "reasoning": "Matched entities: calvin cycle. Traversed graph edges: calvin cycle --[produces]--> g3p; calvin cycle --[converts to]--> g3p; calvin cycle --[consumes]--> atp. Graph evidence: \"The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration.\". The context describes the Calvin cycle's stage 2 as 'reduction', explaining that it involves the gain of electrons by 3-PGA, which is the definition of reduction."
+}

@@ -1,0 +1,9 @@
+{
+  "question": "How does the wobble hypothesis explain codon degeneracy?",
+  "answer": "I don't know based on the provided context.",
+  "citations": [
+    "chunk:15_1_the_genetic_code_biology_2e_openstax:13 | 15.1 The Genetic Code - Biology 2e _ OpenStax.txt | asparagine (Asn). Others get the purine half of their block, like glutamate (Glu) and lysine (Lys). Note that some am...",
+    "chunk:15_1_the_genetic_code_biology_2e_openstax:14 | 15.1 The Genetic Code - Biology 2e _ OpenStax.txt | aspartate (Asp) and glutamate (Glu), which occupy the GA* block, are both negatively charged. This nuance of the gene..."
+  ],
+  "reasoning": "Matched entities: nonsense codons. Traversed graph edges: nonsense codons --[terminate]--> protein synthesis; silent mutations --[are usually due to]--> substitution in the third base of a codon; codons --[define]--> amino acids. Graph evidence: \"In addition to codons that instruct the addition of a specific amino acid to a polypeptide chain, three of the 64 codons terminate protein synthesis and release the polypeptide from the translation machinery.\". The provided context does not contain any information about the wobble hypothesis or its explanation of codon degeneracy."
+}

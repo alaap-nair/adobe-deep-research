@@ -1,0 +1,9 @@
+{
+  "question": "What are the differences between the codons in DNA and RNA?",
+  "answer": "DNA codons consist of nucleotide triplets that define amino acids, while RNA codons consist of nucleotide triplets that define amino acids in mRNA.",
+  "citations": [
+    "triple:2da1a65549eed6de | AUG --[serves as]--> the start codon",
+    "triple:9ea18d997da987e9 | tRNA --[recognizes]--> mRNA codon"
+  ],
+  "reasoning": "Matched entities: codons, dna, rna. Traversed graph edges: codons --[define]--> amino acids; genes --[specify the sequences of]--> amino acids; codons --[are encoded by]--> nucleotide triplets. Graph evidence: \"Each amino acid is defined by a three-nucleotide sequence called the triplet codon.\". The differences between DNA and RNA codons are based on the roles they play in encoding amino acids. DNA codons consist of nucleotide triplets that define amino acids, while RNA codons consist of nucleotide triplets that define amino acids in mRNA. The central dogma describes DNA encoding RNA, which in turn encodes protein. DNA contains deoxyribose, whereas RNA contains ribose. tRNA recognizes mRNA codons, indicating its role in protein synthesis."
+}

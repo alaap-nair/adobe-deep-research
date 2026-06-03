@@ -1,0 +1,8 @@
+{
+  "question": "What are the major phyla of the kingdom Fungi covered in the chapter?",
+  "answer": "Chytridiomycota, Zygomycota, Ascomycota, Basidiomycota, Glomeromycota",
+  "citations": [
+    "chunk:24_2_classifications_of_fungi_biology_2e_openstax:0 | data/24.2 Classifications of Fungi - Biology 2e _ OpenStax.pdf | 24.2 Classifications of Fungi Learning Objectives By the end of this section, you will be able to do the following: I..."
+  ],
+  "reasoning": "Matched entities: fungi. Traversed graph edges: Chytridiomycota --[belongs to]--> fungi; Chytrids --[are]--> Chytridiomycota; Ascomycota --[belongs to]--> fungi. Graph evidence: \"The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).\". The context provides a list of the five major phyla of fungi: Chytridiomycota, Zygomycota, Ascomycota, Basidiomycota, and Glomeromycota, as covered in the chapter."
+}

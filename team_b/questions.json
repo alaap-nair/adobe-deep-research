@@ -1,0 +1,122 @@
+[
+  {
+    "id": "g1",
+    "question": "Which radioactive element was used to label the protein coat in the Hershey-Chase experiment?",
+    "category": "single-hop",
+    "expected_difficulty": "Standard"
+  },
+  {
+    "id": "g2",
+    "question": "What is the structural difference between purines and pyrimidines in DNA?",
+    "category": "single-hop",
+    "expected_difficulty": "Standard"
+  },
+  {
+    "id": "g3",
+    "question": "What enzyme unwinds the DNA during replication in E. coli?",
+    "category": "single-hop",
+    "expected_difficulty": "Standard"
+  },
+  {
+    "id": "g4",
+    "question": "What is the role of the TATA box in eukaryotic promoters?",
+    "category": "single-hop",
+    "expected_difficulty": "Standard"
+  },
+  {
+    "id": "g5",
+    "question": "What are the two types of mycorrhizae mentioned in the text?",
+    "category": "single-hop",
+    "expected_difficulty": "Standard"
+  },
+  {
+    "id": "g6",
+    "question": "How did Hershey and Chase determine that DNA, not protein, was the genetic material? Combine the facts about the radioactive elements used and the results of their experiments.",
+    "category": "multi-hop",
+    "expected_difficulty": "Multi-hop"
+  },
+  {
+    "id": "g7",
+    "question": "Explain the process of DNA replication in E. coli, including the role of the origin of replication and the formation of replication forks.",
+    "category": "multi-hop",
+    "expected_difficulty": "Multi-hop"
+  },
+  {
+    "id": "g8",
+    "question": "Describe the steps involved in the proofreading and repair of DNA during replication.",
+    "category": "multi-hop",
+    "expected_difficulty": "Multi-hop"
+  },
+  {
+    "id": "g9",
+    "question": "Compare the structure and function of the genetic code for aspartate (Asp) and glutamate (Glu).",
+    "category": "multi-hop",
+    "expected_difficulty": "Multi-hop"
+  },
+  {
+    "id": "g10",
+    "question": "Explain the role of RNA polymerase in prokaryotic transcription and how it recognizes promoters.",
+    "category": "multi-hop",
+    "expected_difficulty": "Multi-hop"
+  },
+  {
+    "id": "g11",
+    "question": "How do the light-dependent and light-independent reactions of photosynthesis differ in their requirements and products?",
+    "category": "cross-chapter",
+    "expected_difficulty": "Multi-hop"
+  },
+  {
+    "id": "g12",
+    "question": "Compare the role of fungi in the nutrient cycle with their role in the pharmaceutical industry.",
+    "category": "cross-chapter",
+    "expected_difficulty": "Multi-hop"
+  },
+  {
+    "id": "g13",
+    "question": "Explain the differences in DNA replication between prokaryotes and eukaryotes, focusing on the role of telomeres.",
+    "category": "cross-chapter",
+    "expected_difficulty": "Multi-hop"
+  },
+  {
+    "id": "g14",
+    "question": "Describe the process of RNA editing in trypanosomes and its significance in pre-mRNA processing.",
+    "category": "cross-chapter",
+    "expected_difficulty": "Multi-hop"
+  },
+  {
+    "id": "g15",
+    "question": "How do the structures of the 20 amino acids found in proteins contribute to the diversity of protein functions?",
+    "category": "cross-chapter",
+    "expected_difficulty": "Multi-hop"
+  },
+  {
+    "id": "g16",
+    "question": "What is the role of the Release Factor protein in translation termination, and how does it differ from the role of tRNAs?",
+    "category": "system-breaker",
+    "expected_difficulty": "System Breaker"
+  },
+  {
+    "id": "g17",
+    "question": "Explain why a frameshift mutation resulting in the insertion of three nucleotides is often less deleterious than a mutation resulting in the insertion of one nucleotide.",
+    "category": "system-breaker",
+    "expected_difficulty": "System Breaker"
+  },
+  {
+    "id": "g18",
+    "question": "What specific sub-step in the process of DNA replication is responsible for the proofreading and correction of errors, and which enzyme is involved?",
+    "category": "system-breaker",
+    "expected_difficulty": "System Breaker"
+  },
+  {
+    "id": "g19",
+    "question": "Describe the evolutionary significance of RNA editing in mammals such as rats, rabbits, and humans, and how it differs from RNA editing in trypanosomes.",
+    "category": "system-breaker",
+    "expected_difficulty": "System Breaker"
+  },
+  {
+    "id": "g20",
+    "question": "What is the role of the Hartig net in ectomycorrhizae, and how does it differ from the role of the mantle?",
+    "category": "system-breaker",
+    "expected_difficulty": "System Breaker"
+  }
+]

@@ -1,0 +1,680 @@
+{
+  "question": "What is CRISPR?",
+  "generated_at": "2026-05-01T06:52:55.321545+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "crispr"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:rna_editing",
+          "name": "rna editing",
+          "matched_text": "What is CRISPR?",
+          "matched_alias": "rna editing",
+          "score": 0.7078,
+          "match_type": "semantic"
+        },
+        {
+          "entity_id": "ent:dna_ligase",
+          "name": "dna ligase",
+          "matched_text": "What is CRISPR?",
+          "matched_alias": "dna ligase",
+          "score": 0.6329,
+          "match_type": "semantic"
+        },
+        {
+          "entity_id": "ent:telomerase",
+          "name": "telomerase",
+          "matched_text": "What is CRISPR?",
+          "matched_alias": "telomerase",
+          "score": 0.6244,
+          "match_type": "semantic"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:14_6_dna_repair_biology_2e_openstax:5",
+          "text": "by the correct\none. FIGURE 14.17 Proofreading by DNA polymerase corrects errors during replication.\n\nSome errors are not corrected during replication, but are instead corrected after replication is completed; this type\nof repair is known as mismatch repair (Figure 14.18). Specific repair enzymes recognize the mispaired nucleotide\nand excise part of the strand that contains it; the excised region is then resynthesized. If the mismatch remains\n2\nJaskelioff et al., “Telomerase reactivation reverses tissue degeneration in aged telomerase-deficient mice,” Nature 469 (2011): 102-7. 14.6 • DNA Repair\n381",
+          "source_name": "14.6 DNA Repair - Biology 2e _ OpenStax.txt",
+          "chunk_index": 5,
+          "snippet": "by the correct\none. FIGURE 14.17 Proofreading by DNA polymerase corrects errors during replication.\n\nSome errors are not corrected during replication, but are instead corrected after replication is completed; this type\nof repair is known as mismatch repair (Figure 14.18). Specific repair enzymes recognize the mispaired nucleotide\nand excise part of the strand that contains it; the excised region i",
+          "score": 0.5873001563479314
+        },
+        {
+          "chunk_id": "chunk:14_1_historical_basis_of_modern_understanding_biology_2e_openstax:10",
+          "text": "The\ndecisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that\nDNA was indeed the genetic material and not proteins. Chase and Hershey were studying a bacteriophage—a virus\nthat infects bacteria. Viruses typically have a simple structure: a protein coat, called the capsid, and a nucleic acid\ncore that contains the genetic material (either DNA or RNA). The bacteriophage infects the host bacterial cell by\nattaching to its surface, and then it injects its nucleic acids inside the cell. The phage DNA makes multiple copies of\nitself using the host machinery, and eventually the host cell bursts, releasing a large number of bacteriophages.",
+          "source_name": "14.1 Historical Basis of Modern Understanding - Biology 2e _ OpenStax.txt",
+          "chunk_index": 10,
+          "snippet": "The\ndecisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that\nDNA was indeed the genetic material and not proteins. Chase and Hershey were studying a bacteriophage—a virus\nthat infects bacteria. Viruses typically have a simple structure: a protein coat, called the capsid, and a nucleic acid\ncore that contains the genetic material (either DNA or ",
+          "score": 0.5817324731318709
+        },
+        {
+          "chunk_id": "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:7",
+          "text": "strand, DNA is synthesized in short stretches, each of which is initiated by a\nseparate primer.\n\nWhen the replication fork reaches the end of the linear chromosome, there is no way to replace the\nprimer on the 5’ end of the lagging strand. The DNA at the ends of the chromosome thus remains unpaired, and over\ntime these ends, called telomeres, may get progressively shorter as cells continue to divide. Telomeres comprise repetitive sequences that code for no particular gene. In humans, a six-base-pair sequence,\nTTAGGG, is repeated 100 to 1000 times in the telomere regions. In a way, these telomeres protect the genes from\ngetting deleted as cells continue to divide.",
+          "source_name": "14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 7,
+          "snippet": "strand, DNA is synthesized in short stretches, each of which is initiated by a\nseparate primer.\n\nWhen the replication fork reaches the end of the linear chromosome, there is no way to replace the\nprimer on the 5’ end of the lagging strand. The DNA at the ends of the chromosome thus remains unpaired, and over\ntime these ends, called telomeres, may get progressively shorter as cells continue to divi",
+          "score": 0.5666720056451957
+        },
+        {
+          "chunk_id": "chunk:15_1_the_genetic_code_biology_2e_openstax:5",
+          "text": "that gives rise to the incredible variation of protein\nstructure and function.\n\nThe Central Dogma: DNA Encodes RNA; RNA Encodes Protein\nThe flow of genetic information in cells from DNA to mRNA to protein is described by the central\ndogma (Figure 15.3), which states that genes specify the sequence of mRNAs, which in turn\nspecify the sequence of amino acids making up all proteins. The decoding of one molecule to\nanother is performed by specific proteins and RNAs. Because the information stored in DNA is so\ncentral to cellular function, it makes intuitive sense that the cell would make mRNA copies of this\ninformation for protein synthesis, while keeping the DNA itself intact and protected.",
+          "source_name": "15.1 The Genetic Code - Biology 2e _ OpenStax.txt",
+          "chunk_index": 5,
+          "snippet": "that gives rise to the incredible variation of protein\nstructure and function.\n\nThe Central Dogma: DNA Encodes RNA; RNA Encodes Protein\nThe flow of genetic information in cells from DNA to mRNA to protein is described by the central\ndogma (Figure 15.3), which states that genes specify the sequence of mRNAs, which in turn\nspecify the sequence of amino acids making up all proteins. The decoding of o",
+          "score": 0.5637830891452494
+        },
+        {
+          "chunk_id": "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:7",
+          "text": "for this additional step in pre-mRNA processing?\n\nOne possibility is that the mitochondria,\nbeing remnants of ancient prokaryotes, have an equally ancient RNA-based method for regulating gene expression. In support of this hypothesis, edits made to pre-mRNAs differ depending on cellular conditions. Although\nspeculative, the process of RNA editing may be a holdover from a primordial time when RNA molecules, instead of\nproteins, were responsible for catalyzing reactions. 5' Capping\nWhile the pre-mRNA is still being synthesized, a 7-methylguanosine cap is added to the 5' end of the growing\ntranscript by a phosphate linkage. This functional group protects the nascent mRNA from degradation.",
+          "source_name": "15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 7,
+          "snippet": "for this additional step in pre-mRNA processing?\n\nOne possibility is that the mitochondria,\nbeing remnants of ancient prokaryotes, have an equally ancient RNA-based method for regulating gene expression. In support of this hypothesis, edits made to pre-mRNAs differ depending on cellular conditions. Although\nspeculative, the process of RNA editing may be a holdover from a primordial time when RNA m",
+          "score": 0.5607459551525191
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:3199af3ab9024d96",
+          "head_entity_id": "ent:guide_rnas",
+          "tail_entity_id": "ent:rna_editing",
+          "relation": "mediates",
+          "evidence": "This process is entirely mediated by RNA molecules. That is, guide RNAs—rather than proteins—serve as the catalysts in RNA editing.",
+          "head_name": "guide RNAs",
+          "tail_name": "RNA editing",
+          "score": 0.5949525991993093
+        },
+        {
+          "triple_id": "triple:f05018931bdf932f",
+          "head_entity_id": "ent:mrna",
+          "tail_entity_id": "ent:protein",
+          "relation": "encodes",
+          "evidence": "The flow of genetic information in cells from DNA to mRNA to protein is described by the central dogma, which states that genes specify the sequence of mRNAs, which in turn specify the sequence of amino acids making up all proteins.",
+          "head_name": "mRNA",
+          "tail_name": "protein",
+          "score": 0.5864039585408114
+        },
+        {
+          "triple_id": "triple:4e4234933c7f6eed",
+          "head_entity_id": "ent:ribosome",
+          "tail_entity_id": "ent:polypeptides",
+          "relation": "consists of",
+          "evidence": "A ribosome is a complex macromolecule composed of structural and catalytic rRNAs, and many distinct polypeptides.",
+          "head_name": "ribosome",
+          "tail_name": "polypeptides",
+          "score": 0.5765172215067033
+        },
+        {
+          "triple_id": "triple:f2075d31571fe616",
+          "head_entity_id": "ent:pre-mrna",
+          "tail_entity_id": "ent:rna_editing",
+          "relation": "undergoes",
+          "evidence": "RNA editing is not just a phenomenon of trypanosomes. In the mitochondria of some plants, almost all pre-mRNAs are edited.",
+          "head_name": "pre-mRNA",
+          "tail_name": "RNA editing",
+          "score": 0.5698836654917563
+        },
+        {
+          "triple_id": "triple:9b017839f9d4a263",
+          "head_entity_id": "ent:telomerase",
+          "tail_entity_id": "ent:rna_template",
+          "relation": "contains",
+          "evidence": "The telomerase enzyme contains a catalytic part and a built-in RNA template.",
+          "head_name": "telomerase",
+          "tail_name": "RNA template",
+          "score": 0.5682120355143983
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:rna_editing",
+        "ent:dna_ligase",
+        "ent:telomerase",
+        "ent:guide_rnas",
+        "ent:mrna",
+        "ent:protein",
+        "ent:ribosome",
+        "ent:polypeptides",
+        "ent:pre-mrna",
+        "ent:rna_template"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "rna editing",
+          "entity_id": "ent:rna_editing",
+          "original_names": [
+            "RNA editing"
+          ]
+        },
+        {
+          "name": "guide rnas",
+          "entity_id": "ent:guide_rnas",
+          "original_names": [
+            "guide RNAs"
+          ]
+        },
+        {
+          "name": "pre-mrna",
+          "entity_id": "ent:pre-mrna",
+          "original_names": [
+            "pre-mRNA"
+          ]
+        },
+        {
+          "name": "rna processing",
+          "entity_id": "ent:rna_processing",
+          "original_names": [
+            "RNA processing"
+          ]
+        },
+        {
+          "name": "rna-stabilizing proteins",
+          "entity_id": "ent:rna-stabilizing_proteins",
+          "original_names": [
+            "RNA-stabilizing proteins"
+          ]
+        },
+        {
+          "name": "intron removal",
+          "entity_id": "ent:intron_removal",
+          "original_names": [
+            "intron removal"
+          ]
+        },
+        {
+          "name": "3' poly-a tail addition",
+          "entity_id": "ent:3'_poly-a_tail_addition",
+          "original_names": [
+            "3' Poly-A Tail addition"
+          ]
+        },
+        {
+          "name": "exons",
+          "entity_id": "ent:exons",
+          "original_names": [
+            "exons"
+          ]
+        },
+        {
+          "name": "5' capping",
+          "entity_id": "ent:5'_capping",
+          "original_names": [
+            "5' capping"
+          ]
+        },
+        {
+          "name": "introns",
+          "entity_id": "ent:introns",
+          "original_names": [
+            "introns"
+          ]
+        },
+        {
+          "name": "mitochondrial dna",
+          "entity_id": "ent:mitochondrial_dna",
+          "original_names": [
+            "mitochondrial DNA"
+          ]
+        },
+        {
+          "name": "dna ligase",
+          "entity_id": "ent:dna_ligase",
+          "original_names": [
+            "DNA ligase"
+          ]
+        },
+        {
+          "name": "nicks",
+          "entity_id": "ent:nicks",
+          "original_names": [
+            "nicks"
+          ]
+        },
+        {
+          "name": "gaps",
+          "entity_id": "ent:gaps",
+          "original_names": [
+            "gaps"
+          ]
+        },
+        {
+          "name": "dna polymerase i",
+          "entity_id": "ent:dna_polymerase_i",
+          "original_names": [
+            "DNA polymerase I"
+          ]
+        },
+        {
+          "name": "phosphodiester bonds",
+          "entity_id": "ent:phosphodiester_bonds",
+          "original_names": [
+            "phosphodiester bonds"
+          ]
+        },
+        {
+          "name": "nucleotides",
+          "entity_id": "ent:nucleotides",
+          "original_names": [
+            "nucleotides"
+          ]
+        },
+        {
+          "name": "phosphodiester linkage",
+          "entity_id": "ent:phosphodiester_linkage",
+          "original_names": [
+            "phosphodiester linkage"
+          ]
+        },
+        {
+          "name": "telomerase",
+          "entity_id": "ent:telomerase",
+          "original_names": [
+            "telomerase"
+          ]
+        },
+        {
+          "name": "germ cells and adult stem cells",
+          "entity_id": "ent:germ_cells_and_adult_stem_cells",
+          "original_names": [
+            "germ cells and adult stem cells"
+          ]
+        },
+        {
+          "name": "telomeres",
+          "entity_id": "ent:telomeres",
+          "original_names": [
+            "telomeres"
+          ]
+        },
+        {
+          "name": "rna template",
+          "entity_id": "ent:rna_template",
+          "original_names": [
+            "RNA template"
+          ]
+        },
+        {
+          "name": "age-related conditions",
+          "entity_id": "ent:age-related_conditions",
+          "original_names": [
+            "age-related conditions"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "three nucleotides",
+          "entity_id": "ent:three_nucleotides",
+          "original_names": [
+            "three nucleotides"
+          ]
+        },
+        {
+          "name": "ribosomes",
+          "entity_id": "ent:ribosomes",
+          "original_names": [
+            "ribosomes"
+          ]
+        },
+        {
+          "name": "pre-rrnas",
+          "entity_id": "ent:pre-rrnas",
+          "original_names": [
+            "pre-rRNAs"
+          ]
+        },
+        {
+          "name": "protein",
+          "entity_id": "ent:protein",
+          "original_names": [
+            "protein"
+          ]
+        },
+        {
+          "name": "dna",
+          "entity_id": "ent:dna",
+          "original_names": [
+            "DNA"
+          ]
+        },
+        {
+          "name": "rna polymerase",
+          "entity_id": "ent:rna_polymerase",
+          "original_names": [
+            "RNA polymerase"
+          ]
+        },
+        {
+          "name": "dna template strand",
+          "entity_id": "ent:dna_template_strand",
+          "original_names": [
+            "DNA template strand"
+          ]
+        },
+        {
+          "name": "prokaryotic rna polymerase",
+          "entity_id": "ent:prokaryotic_rna_polymerase",
+          "original_names": [
+            "Prokaryotic RNA polymerase"
+          ]
+        },
+        {
+          "name": "α, α, β, β', and σ subunits",
+          "entity_id": "ent:α,_α,_β,_β',_and_σ_subunits",
+          "original_names": [
+            "α, α, β, β', and σ subunits"
+          ]
+        },
+        {
+          "name": "ribosome",
+          "entity_id": "ent:ribosome",
+          "original_names": [
+            "ribosome"
+          ]
+        },
+        {
+          "name": "trna",
+          "entity_id": "ent:trna",
+          "original_names": [
+            "tRNA"
+          ]
+        },
+        {
+          "name": "aminoacyl-trna",
+          "entity_id": "ent:aminoacyl-trna",
+          "original_names": [
+            "aminoacyl-tRNA"
+          ]
+        },
+        {
+          "name": "polypeptides",
+          "entity_id": "ent:polypeptides",
+          "original_names": [
+            "polypeptides"
+          ]
+        },
+        {
+          "name": "trnas",
+          "entity_id": "ent:trnas",
+          "original_names": [
+            "tRNAs"
+          ]
+        },
+        {
+          "name": "peptide bond formation",
+          "entity_id": "ent:peptide_bond_formation",
+          "original_names": [
+            "peptide bond formation"
+          ]
+        },
+        {
+          "name": "mrna template",
+          "entity_id": "ent:mrna_template",
+          "original_names": [
+            "mRNA template"
+          ]
+        },
+        {
+          "name": "rrnas",
+          "entity_id": "ent:rrnas",
+          "original_names": [
+            "rRNAs"
+          ]
+        },
+        {
+          "name": "oswald avery",
+          "entity_id": "ent:oswald_avery",
+          "original_names": [
+            "Oswald Avery"
+          ]
+        },
+        {
+          "name": "histones",
+          "entity_id": "ent:histones",
+          "original_names": [
+            "histones"
+          ]
+        },
+        {
+          "name": "deoxyribose",
+          "entity_id": "ent:deoxyribose",
+          "original_names": [
+            "deoxyribose"
+          ]
+        },
+        {
+          "name": "two strands",
+          "entity_id": "ent:two_strands",
+          "original_names": [
+            "two strands"
+          ]
+        },
+        {
+          "name": "moves toward the positive electrode",
+          "entity_id": "ent:moves_toward_the_positive_electrode",
+          "original_names": [
+            "moves toward the positive electrode"
+          ]
+        },
+        {
+          "name": "gel electrophoresis",
+          "entity_id": "ent:gel_electrophoresis",
+          "original_names": [
+            "gel electrophoresis"
+          ]
+        },
+        {
+          "name": "dna-specific dye",
+          "entity_id": "ent:dna-specific_dye",
+          "original_names": [
+            "DNA-specific dye"
+          ]
+        },
+        {
+          "name": "double helix",
+          "entity_id": "ent:double_helix",
+          "original_names": [
+            "double helix"
+          ]
+        },
+        {
+          "name": "nitrogenous bases",
+          "entity_id": "ent:nitrogenous_bases",
+          "original_names": [
+            "nitrogenous bases"
+          ]
+        },
+        {
+          "name": "new complementary strand",
+          "entity_id": "ent:new_complementary_strand",
+          "original_names": [
+            "new complementary strand"
+          ]
+        },
+        {
+          "name": "replication",
+          "entity_id": "ent:replication",
+          "original_names": [
+            "replication"
+          ]
+        },
+        {
+          "name": "helicase",
+          "entity_id": "ent:helicase",
+          "original_names": [
+            "Helicase"
+          ]
+        },
+        {
+          "name": "dna polymerase",
+          "entity_id": "ent:dna_polymerase",
+          "original_names": [
+            "DNA polymerase"
+          ]
+        },
+        {
+          "name": "rna",
+          "entity_id": "ent:rna",
+          "original_names": [
+            "RNA"
+          ]
+        },
+        {
+          "name": "genes",
+          "entity_id": "ent:genes",
+          "original_names": [
+            "genes"
+          ]
+        },
+        {
+          "name": "mitochondria",
+          "entity_id": "ent:mitochondria",
+          "original_names": [
+            "mitochondria"
+          ]
+        },
+        {
+          "name": "amino acid",
+          "entity_id": "ent:amino_acid",
+          "original_names": [
+            "amino acid"
+          ]
+        },
+        {
+          "name": "mrna codon",
+          "entity_id": "ent:mrna_codon",
+          "original_names": [
+            "mRNA codon"
+          ]
+        },
+        {
+          "name": "three-dimensional structure",
+          "entity_id": "ent:three-dimensional_structure",
+          "original_names": [
+            "three-dimensional structure"
+          ]
+        },
+        {
+          "name": "peptidyl transferase",
+          "entity_id": "ent:peptidyl_transferase",
+          "original_names": [
+            "peptidyl transferase"
+          ]
+        },
+        {
+          "name": "rna polymerase i",
+          "entity_id": "ent:rna_polymerase_i",
+          "original_names": [
+            "RNA polymerase I"
+          ]
+        },
+        {
+          "name": "eukaryotic pre-mrna",
+          "entity_id": "ent:eukaryotic_pre-mrna",
+          "original_names": [
+            "eukaryotic pre-mRNA"
+          ]
+        },
+        {
+          "name": "splicing",
+          "entity_id": "ent:splicing",
+          "original_names": [
+            "splicing"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:rna_editing",
+          "evidence": "This process is entirely mediated by RNA molecules. That is, guide RNAs—rather than proteins—serve as the catalysts in RNA editing.",
+          "target_name": "RNA editing",
+          "source_entity_id": "ent:guide_rnas",
+          "triple_id": "triple:3199af3ab9024d96",
+          "source_name": "guide RNAs",
+          "relation": "mediates"
+        },
+        {
+          "target_entity_id": "ent:pre-mrna",
+          "evidence": "One or more of these molecules interacts by complementary base pairing with some of the nucleotides in the pre-mRNA transcript.",
+          "target_name": "pre-mRNA",
+          "source_entity_id": "ent:guide_rnas",
+          "triple_id": "triple:2bcd52c14157fb23",
+          "source_name": "guide RNAs",
+          "relation": "interacts with"
+        },
+        {
+          "target_entity_id": "ent:rna_editing",
+          "evidence": "In rare cases, the mRNA transcript can be 'edited' after it is transcribed.",
+          "target_name": "RNA editing",
+          "source_entity_id": "ent:pre-mrna",
+          "triple_id": "triple:ca8f9d0bd58a41df",
+          "source_name": "pre-mRNA",
+          "relation": "is edited by"
+        },
+        {
+          "target_entity_id": "ent:rna_processing",
+          "evidence": "After transcription, eukaryotic pre-mRNAs must undergo several processing steps before they can be translated.",
+          "target_name": "RNA processing",
+          "source_entity_id": "ent:pre-mrna",
+          "triple_id": "triple:39c6c000d5bd5ad0",
+          "source_name": "pre-mRNA",
+          "relation": "undergoes"
+        },
+        {
+          "target_entity_id": "ent:rna-stabilizing_proteins",
+          "evidence": "Pre-mRNAs are first coated in RNA-stabilizing proteins; these protect the pre-mRNA from degradation while it is processed and exported out of the nucleus.",
+          "target_name": "RNA-stabilizing proteins",
+          "source_entity_id": "ent:pre-mrna",
+          "triple_id": "triple:ed75ac3783d1f29d",
+          "source_name": "pre-mRNA",
+          "relation": "is coated in"
+        },
+        {
+          "target_entity_id": "ent:intron_removal",
+          "evidence": "The three most important steps of pre-mRNA processing are the addition of stabilizing and signaling factors at the 5' and 3' ends of the molecule, and the removal of the introns.",
+          "target_name": "intron removal",
+          "source_entity_id": "ent:pre-mrna",
+          "triple_id": "triple:509bfec925c7b180",
+          "source_name": "pre-mRNA",
+          "relation": "undergoes"
+        },
+        {
+          "target_entity_id": "ent:3'_poly-a_tail_addition",
+          "evidence": "An enzyme called poly-A polymerase then adds a string of approximately 200 A residues, called the poly-A tail.",
+          "target_name": "3' Poly-A Tail addition",
+          "source_entity_id": "ent:pre-mrna",
+          "triple_id": "triple:b88bdb1d59d14087",
+          "source_name": "pre-mRNA",
+          "relation": "undergoes"
+        },
+        {
+          "target_entity_id": "ent:exons",
+          "evidence": "Eukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they are expressed).",
+          "target_name": "exons",
+          "source_entity_id": "ent:pre-mrna",
+          "triple_id": "triple:e0d0d6310fd8b66c",
+          "source_name": "pre-mRNA",
+          "relation": "contains"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What is CRISPR?",
+    "answer": "I don't know based on the provided context.",
+    "citations": [
+      "chunk:14_6_dna_repair_biology_2e_openstax:5 | 14.6 DNA Repair - Biology 2e _ OpenStax.txt | by the correct one. FIGURE 14.17 Proofreading by DNA polymerase corrects errors during replication. Some errors are n...",
+      "chunk:14_1_historical_basis_of_modern_understanding_biology_2e_openstax:10 | 14.1 Historical Basis of Modern Understanding - Biology 2e _ OpenStax.txt | The decisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that DN..."
+    ],
+    "reasoning": "Matched entities: rna editing, dna ligase, telomerase. Traversed graph edges: guide RNAs --[mediates]--> RNA editing; guide RNAs --[interacts with]--> pre-mRNA; pre-mRNA --[is edited by]--> RNA editing. Graph evidence: \"This process is entirely mediated by RNA molecules. That is, guide RNAs—rather than proteins—serve as the catalysts in RNA editing.\". The provided context does not contain any information about CRISPR."
+  }
+}

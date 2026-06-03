@@ -1,0 +1,10 @@
+{
+  "question": "What is the primary function of RNA?",
+  "answer": "The primary function of RNA is to serve as an intermediary molecule in the central dogma of molecular biology, where it is transcribed from DNA and then translated into proteins.",
+  "citations": [
+    "chunk:15_1_the_genetic_code_biology_2e_openstax:5 | 15.1 The Genetic Code - Biology 2e _ OpenStax.txt | that gives rise to the incredible variation of protein structure and function. The Central Dogma: DNA Encodes RNA; RN...",
+    "triple:1c252d05061d0790 | transcription --[generates]--> messenger RNA (mRNA)",
+    "triple:31c277e1d622a50d | ribosome --[translates]--> mRNA"
+  ],
+  "reasoning": "Matched entities: rna, improved function of the intestines. Traversed graph edges: RNA --[contains]--> ribose; DNA --[is copied to]--> RNA; Oswald Avery --[used enzymes to degrade]--> DNA. Graph evidence: \"The sugar is deoxyribose in DNA and ribose in RNA.\". The central dogma of molecular biology, as described in the retrieved chunks, outlines the flow of genetic information from DNA to RNA to protein. RNA, specifically mRNA, is generated through transcription and is then translated by ribosomes into proteins."
+}

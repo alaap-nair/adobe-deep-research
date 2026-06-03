@@ -1,0 +1,9 @@
+{
+  "question": "What is the role of tRNA in translation?",
+  "answer": "tRNAs are the molecules that actually “translate” the language of RNA into the language of proteins. Each tRNA carries a specific amino acid and recognizes one or more of the mRNA codons that define the order of amino acids in a protein.",
+  "citations": [
+    "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:8 | 15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt | and recognizes one or more of the mRNA codons that define the order of amino acids in a protein. Aminoacyl-tRNAs bind...",
+    "triple:9ea18d997da987e9 | tRNA --[recognizes]--> mRNA codon"
+  ],
+  "reasoning": "Matched entities: trna, alteration of the translational reading frame. Traversed graph edges: tRNA --[carries]--> amino acid; ribosome --[binds]--> tRNA; ribosome --[translates]--> mRNA. Graph evidence: \"Each tRNA carries a specific amino acid and recognizes one or more of the mRNA codons that define the order of amino acids in a protein.\". The context explicitly states that tRNAs are the molecules that translate RNA into proteins and that they carry specific amino acids and recognize mRNA codons, which defines their role in translation."
+}

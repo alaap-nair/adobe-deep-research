@@ -1,0 +1,9 @@
+{
+  "question": "How does carbon fixed by RuBisCO in a plant eventually return to the soil through fungal activity?",
+  "answer": "Through mycorrhizal fungi",
+  "citations": [
+    "chunk:24_3_ecology_of_fungi_biology_2e_openstax:9 | data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf | mycorrhizal partners. In a mycorrhizal association, the fungal mycelia use their extensive network of hyphae and larg...",
+    "chunk:24_3_ecology_of_fungi_biology_2e_openstax:5 | data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf | either released into the substrate or remain bound to the outside of the fungal cell wall. Large molecules are broken..."
+  ],
+  "reasoning": "Matched entities: rubisco, soil, 5-carbon sugar. Traversed graph edges: RuBisCO --[catalyzes]--> reaction between CO2 and RuBP; RuBisCO --[catalyzes]--> formation of 3-PGA; RuBisCO --[catalyzes]--> carbon fixation. Graph evidence: \"RuBisCO catalyzes a reaction between CO2 and RuBP. For each CO2 molecule that reacts with one RuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form.\". RuBisCO fixes carbon in plants. Mycorrhizal fungi form associations with plants, channeling water and minerals from the soil into the plant. The plant supplies the products of photosynthesis to the fungi."
+}

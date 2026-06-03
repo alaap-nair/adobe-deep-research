@@ -1,0 +1,469 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 44,
+  "num_entities": 64,
+  "entities": [
+    "3' and 5' ends of the damaged base",
+    "DNA ligase",
+    "DNA polymerase",
+    "UV rays",
+    "active telomerase",
+    "addition of a base",
+    "age-related conditions",
+    "alteration of the translational reading frame",
+    "cancer",
+    "cancerous cells",
+    "damaged bases",
+    "deletion",
+    "environmental agent",
+    "exposure to chemicals",
+    "exposure to environmental agent",
+    "extension of telomeres",
+    "frameshift mutation",
+    "germ cells",
+    "impaired tissue injury responses",
+    "improved function of the intestines",
+    "improved function of the spleen",
+    "improved function of the testes",
+    "insertion",
+    "mismatch repair enzymes",
+    "mispaired nucleotide",
+    "mistakes during DNA replication",
+    "mutations",
+    "mutations in repair genes",
+    "newly added base",
+    "nucleotide excision repair",
+    "organ system failure",
+    "part of the strand",
+    "phosphodiester bond",
+    "phosphodiester linkage",
+    "piece of DNA from one chromosome getting translocated to another chromosome",
+    "point mutations",
+    "purine being replaced by a pyrimidine, or vice versa",
+    "purine or pyrimidine being replaced by a base of the same kind",
+    "reduced DNA damage",
+    "removal of a base",
+    "repeated regions of the same amino acid",
+    "reversed neurodegeneration",
+    "segment of DNA",
+    "shortened telomeres",
+    "silent mutations",
+    "single base pair",
+    "skin lesions",
+    "somatic cells",
+    "spontaneous mutations",
+    "stem cell depletion",
+    "stop codon",
+    "substitution in the third base of a codon",
+    "telomerase",
+    "telomerase reactivation",
+    "telomerase-deficient mice",
+    "tissue atrophy",
+    "transition substitution",
+    "translocation",
+    "transversion substitution",
+    "trinucleotide repeat expansions",
+    "wrong nucleotide",
+    "wrongly incorporated bases",
+    "x-rays",
+    "xeroderma pigmentosa"
+  ],
+  "triples": [
+    {
+      "head": "telomerase",
+      "head_type": "Enzyme",
+      "relation": "reverses",
+      "relation_type": "INHIBITS",
+      "tail": "age-related conditions",
+      "tail_type": "Process",
+      "evidence": "In 2010, scientists found that telomerase can reverse some age-related conditions in mice."
+    },
+    {
+      "head": "telomerase-deficient mice",
+      "head_type": "Organism",
+      "relation": "have",
+      "relation_type": "LOCATED_IN",
+      "tail": "tissue atrophy",
+      "tail_type": "Process",
+      "evidence": "Telomerase-deficient mice were used in these studies; these mice have tissue atrophy, stem cell depletion, organ system failure, and impaired tissue injury responses."
+    },
+    {
+      "head": "telomerase-deficient mice",
+      "head_type": "Organism",
+      "relation": "have",
+      "relation_type": "LOCATED_IN",
+      "tail": "stem cell depletion",
+      "tail_type": "Process",
+      "evidence": "Telomerase-deficient mice were used in these studies; these mice have tissue atrophy, stem cell depletion, organ system failure, and impaired tissue injury responses."
+    },
+    {
+      "head": "telomerase-deficient mice",
+      "head_type": "Organism",
+      "relation": "have",
+      "relation_type": "LOCATED_IN",
+      "tail": "organ system failure",
+      "tail_type": "Process",
+      "evidence": "Telomerase-deficient mice were used in these studies; these mice have tissue atrophy, stem cell depletion, organ system failure, and impaired tissue injury responses."
+    },
+    {
+      "head": "telomerase-deficient mice",
+      "head_type": "Organism",
+      "relation": "have",
+      "relation_type": "LOCATED_IN",
+      "tail": "impaired tissue injury responses",
+      "tail_type": "Process",
+      "evidence": "Telomerase-deficient mice were used in these studies; these mice have tissue atrophy, stem cell depletion, organ system failure, and impaired tissue injury responses."
+    },
+    {
+      "head": "telomerase reactivation",
+      "head_type": "Process",
+      "relation": "causes",
+      "relation_type": "CONVERTS_TO",
+      "tail": "extension of telomeres",
+      "tail_type": "Process",
+      "evidence": "Telomerase reactivation in these mice caused extension of telomeres, reduced DNA damage, reversed neurodegeneration, and improved the function of the testes, spleen, and intestines."
+    },
+    {
+      "head": "telomerase reactivation",
+      "head_type": "Process",
+      "relation": "causes",
+      "relation_type": "CONVERTS_TO",
+      "tail": "reduced DNA damage",
+      "tail_type": "Process",
+      "evidence": "Telomerase reactivation in these mice caused extension of telomeres, reduced DNA damage, reversed neurodegeneration, and improved the function of the testes, spleen, and intestines."
+    },
+    {
+      "head": "telomerase reactivation",
+      "head_type": "Process",
+      "relation": "causes",
+      "relation_type": "CONVERTS_TO",
+      "tail": "reversed neurodegeneration",
+      "tail_type": "Process",
+      "evidence": "Telomerase reactivation in these mice caused extension of telomeres, reduced DNA damage, reversed neurodegeneration, and improved the function of the testes, spleen, and intestines."
+    },
+    {
+      "head": "telomerase reactivation",
+      "head_type": "Process",
+      "relation": "causes",
+      "relation_type": "CONVERTS_TO",
+      "tail": "improved function of the testes",
+      "tail_type": "Process",
+      "evidence": "Telomerase reactivation in these mice caused extension of telomeres, reduced DNA damage, reversed neurodegeneration, and improved the function of the testes, spleen, and intestines."
+    },
+    {
+      "head": "telomerase reactivation",
+      "head_type": "Process",
+      "relation": "causes",
+      "relation_type": "CONVERTS_TO",
+      "tail": "improved function of the spleen",
+      "tail_type": "Process",
+      "evidence": "Telomerase reactivation in these mice caused extension of telomeres, reduced DNA damage, reversed neurodegeneration, and improved the function of the testes, spleen, and intestines."
+    },
+    {
+      "head": "telomerase reactivation",
+      "head_type": "Process",
+      "relation": "causes",
+      "relation_type": "CONVERTS_TO",
+      "tail": "improved function of the intestines",
+      "tail_type": "Process",
+      "evidence": "Telomerase reactivation in these mice caused extension of telomeres, reduced DNA damage, reversed neurodegeneration, and improved the function of the testes, spleen, and intestines."
+    },
+    {
+      "head": "cancerous cells",
+      "head_type": "Organism",
+      "relation": "have",
+      "relation_type": "LOCATED_IN",
+      "tail": "shortened telomeres",
+      "tail_type": "Process",
+      "evidence": "Scientists have observed that cancerous cells have considerably shortened telomeres and that telomerase is active in these cells."
+    },
+    {
+      "head": "cancerous cells",
+      "head_type": "Organism",
+      "relation": "have",
+      "relation_type": "LOCATED_IN",
+      "tail": "active telomerase",
+      "tail_type": "Process",
+      "evidence": "Scientists have observed that cancerous cells have considerably shortened telomeres and that telomerase is active in these cells."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "corrects",
+      "relation_type": "CATALYZES",
+      "tail": "mistakes during DNA replication",
+      "tail_type": "Process",
+      "evidence": "Most of the mistakes during DNA replication are promptly corrected by the proofreading ability of DNA polymerase itself."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "reads",
+      "relation_type": "BINDS",
+      "tail": "newly added base",
+      "tail_type": "Molecule",
+      "evidence": "In proofreading, the DNA pol reads the newly added base before adding the next one, so a correction can be made."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "checks",
+      "relation_type": "BINDS",
+      "tail": "newly added base",
+      "tail_type": "Molecule",
+      "evidence": "The polymerase checks whether the newly added base has paired correctly with the base in the template strand."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "makes a cut",
+      "relation_type": "CATALYZES",
+      "tail": "phosphodiester bond",
+      "tail_type": "Molecule",
+      "evidence": "If an incorrect base has been added, the enzyme makes a cut at the phosphodiester bond and releases the wrong nucleotide."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "releases",
+      "relation_type": "RELEASES",
+      "tail": "wrong nucleotide",
+      "tail_type": "Molecule",
+      "evidence": "If an incorrect base has been added, the enzyme makes a cut at the phosphodiester bond and releases the wrong nucleotide."
+    },
+    {
+      "head": "mismatch repair enzymes",
+      "head_type": "Enzyme",
+      "relation": "recognize",
+      "relation_type": "BINDS",
+      "tail": "mispaired nucleotide",
+      "tail_type": "Molecule",
+      "evidence": "Specific repair enzymes recognize the mispaired nucleotide and excise part of the strand that contains it."
+    },
+    {
+      "head": "mismatch repair enzymes",
+      "head_type": "Enzyme",
+      "relation": "excise",
+      "relation_type": "CATALYZES",
+      "tail": "part of the strand",
+      "tail_type": "Molecule",
+      "evidence": "Specific repair enzymes recognize the mispaired nucleotide and excise part of the strand that contains it."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "removes",
+      "relation_type": "CATALYZES",
+      "tail": "wrongly incorporated bases",
+      "tail_type": "Molecule",
+      "evidence": "Thus, DNA polymerase is able to remove the wrongly incorporated bases from the newly synthesized, non-methylated strand."
+    },
+    {
+      "head": "nucleotide excision repair",
+      "head_type": "Process",
+      "relation": "removes",
+      "relation_type": "CATALYZES",
+      "tail": "damaged bases",
+      "tail_type": "Molecule",
+      "evidence": "Another type of repair mechanism, nucleotide excision repair, is similar to mismatch repair, except that it is used to remove damaged bases rather than mismatched ones."
+    },
+    {
+      "head": "nucleotide excision repair",
+      "head_type": "Process",
+      "relation": "makes a cut",
+      "relation_type": "CATALYZES",
+      "tail": "3' and 5' ends of the damaged base",
+      "tail_type": "Molecule",
+      "evidence": "The repair enzymes replace abnormal bases by making a cut on both the 3' and 5' ends of the damaged base."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "replaces",
+      "relation_type": "CATALYZES",
+      "tail": "segment of DNA",
+      "tail_type": "Molecule",
+      "evidence": "The segment of DNA is removed and replaced with the correctly paired nucleotides by the action of DNA pol."
+    },
+    {
+      "head": "DNA ligase",
+      "head_type": "Enzyme",
+      "relation": "seals",
+      "relation_type": "CATALYZES",
+      "tail": "phosphodiester linkage",
+      "tail_type": "Molecule",
+      "evidence": "Once the bases are filled in, the remaining gap is sealed with a phosphodiester linkage catalyzed by DNA ligase."
+    },
+    {
+      "head": "xeroderma pigmentosa",
+      "head_type": "Process",
+      "relation": "causes",
+      "relation_type": "CONVERTS_TO",
+      "tail": "skin lesions",
+      "tail_type": "Process",
+      "evidence": "Exposure to sunlight results in skin lesions."
+    },
+    {
+      "head": "mutations",
+      "head_type": "Process",
+      "relation": "result from",
+      "relation_type": "PRODUCES",
+      "tail": "exposure to chemicals",
+      "tail_type": "Process",
+      "evidence": "Induced mutations are those that result from an exposure to chemicals, UV rays, x-rays, or some other environmental agent."
+    },
+    {
+      "head": "mutations",
+      "head_type": "Process",
+      "relation": "result from",
+      "relation_type": "PRODUCES",
+      "tail": "UV rays",
+      "tail_type": "Process",
+      "evidence": "Induced mutations are those that result from an exposure to chemicals, UV rays, x-rays, or some other environmental agent."
+    },
+    {
+      "head": "mutations",
+      "head_type": "Process",
+      "relation": "result from",
+      "relation_type": "PRODUCES",
+      "tail": "x-rays",
+      "tail_type": "Process",
+      "evidence": "Induced mutations are those that result from an exposure to chemicals, UV rays, x-rays, or some other environmental agent."
+    },
+    {
+      "head": "mutations",
+      "head_type": "Process",
+      "relation": "result from",
+      "relation_type": "PRODUCES",
+      "tail": "environmental agent",
+      "tail_type": "Process",
+      "evidence": "Induced mutations are those that result from an exposure to chemicals, UV rays, x-rays, or some other environmental agent."
+    },
+    {
+      "head": "spontaneous mutations",
+      "head_type": "Process",
+      "relation": "occur without",
+      "relation_type": "INHIBITS",
+      "tail": "exposure to environmental agent",
+      "tail_type": "Process",
+      "evidence": "Spontaneous mutations occur without any exposure to any environmental agent."
+    },
+    {
+      "head": "point mutations",
+      "head_type": "Process",
+      "relation": "affect",
+      "relation_type": "CONVERTS_TO",
+      "tail": "single base pair",
+      "tail_type": "Molecule",
+      "evidence": "Point mutations are those mutations that affect a single base pair."
+    },
+    {
+      "head": "transition substitution",
+      "head_type": "Process",
+      "relation": "refers to",
+      "relation_type": "CONVERTS_TO",
+      "tail": "purine or pyrimidine being replaced by a base of the same kind",
+      "tail_type": "Process",
+      "evidence": "Transition substitution refers to a purine or pyrimidine being replaced by a base of the same kind."
+    },
+    {
+      "head": "transversion substitution",
+      "head_type": "Process",
+      "relation": "refers to",
+      "relation_type": "CONVERTS_TO",
+      "tail": "purine being replaced by a pyrimidine, or vice versa",
+      "tail_type": "Process",
+      "evidence": "Transversion substitution refers to a purine being replaced by a pyrimidine, or vice versa."
+    },
+    {
+      "head": "silent mutations",
+      "head_type": "Process",
+      "relation": "are usually due to",
+      "relation_type": "PRODUCES",
+      "tail": "substitution in the third base of a codon",
+      "tail_type": "Process",
+      "evidence": "Silent mutations are usually due to a substitution in the third base of a codon, which often represents the same amino acid as the original codon."
+    },
+    {
+      "head": "point mutations",
+      "head_type": "Process",
+      "relation": "generate",
+      "relation_type": "PRODUCES",
+      "tail": "stop codon",
+      "tail_type": "Molecule",
+      "evidence": "Point mutations that generate a stop codon can terminate a protein early."
+    },
+    {
+      "head": "trinucleotide repeat expansions",
+      "head_type": "Process",
+      "relation": "result in",
+      "relation_type": "PRODUCES",
+      "tail": "repeated regions of the same amino acid",
+      "tail_type": "Process",
+      "evidence": "These are called trinucleotide repeat expansions and result in repeated regions of the same amino acid."
+    },
+    {
+      "head": "insertion",
+      "head_type": "Process",
+      "relation": "results in",
+      "relation_type": "PRODUCES",
+      "tail": "addition of a base",
+      "tail_type": "Process",
+      "evidence": "Mutations can also be the result of the addition of a base, known as an insertion."
+    },
+    {
+      "head": "deletion",
+      "head_type": "Process",
+      "relation": "results in",
+      "relation_type": "PRODUCES",
+      "tail": "removal of a base",
+      "tail_type": "Process",
+      "evidence": "Mutations can also be the result of the addition of a base, known as an insertion, or the removal of a base, also known as deletion."
+    },
+    {
+      "head": "frameshift mutation",
+      "head_type": "Process",
+      "relation": "results in",
+      "relation_type": "PRODUCES",
+      "tail": "alteration of the translational reading frame",
+      "tail_type": "Process",
+      "evidence": "If an insertion or deletion results in the alteration of the translational reading frame (a frameshift mutation), the resultant protein is usually nonfunctional."
+    },
+    {
+      "head": "translocation",
+      "head_type": "Process",
+      "relation": "results in",
+      "relation_type": "PRODUCES",
+      "tail": "piece of DNA from one chromosome getting translocated to another chromosome",
+      "tail_type": "Process",
+      "evidence": "Sometimes a piece of DNA from one chromosome may get translocated to another chromosome or to another region of the same chromosome; this is also known as translocation."
+    },
+    {
+      "head": "mutations in repair genes",
+      "head_type": "Process",
+      "relation": "cause",
+      "relation_type": "PRODUCES",
+      "tail": "cancer",
+      "tail_type": "Process",
+      "evidence": "Mutations in repair genes have been known to cause cancer."
+    },
+    {
+      "head": "mutations",
+      "head_type": "Process",
+      "relation": "affect",
+      "relation_type": "CONVERTS_TO",
+      "tail": "somatic cells",
+      "tail_type": "Organism",
+      "evidence": "If many mutations accumulate in a somatic cell, they may lead to problems such as the uncontrolled cell division observed in cancer."
+    },
+    {
+      "head": "mutations",
+      "head_type": "Process",
+      "relation": "affect",
+      "relation_type": "CONVERTS_TO",
+      "tail": "germ cells",
+      "tail_type": "Organism",
+      "evidence": "If a mutation takes place in germ cells, the mutation will be passed on to the next generation, as in the case of hemophilia and xeroderma pigmentosa."
+    }
+  ]
+}

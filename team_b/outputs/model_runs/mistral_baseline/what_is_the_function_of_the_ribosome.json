@@ -1,0 +1,8 @@
+{
+  "question": "What is the function of the ribosome?",
+  "answer": "translating the mRNA into protein",
+  "citations": [
+    "triple:31c277e1d622a50d | ribosome --[translates]--> mRNA"
+  ],
+  "reasoning": "Matched entities: ribosome, improved function of the intestines. Traversed graph edges: ribosome --[translates]--> mRNA; mRNA --[is read in groups of]--> three nucleotides; mRNA --[is translated on]--> ribosomes. Graph evidence: \"The ribosome is responsible for translating the mRNA into protein.\". The evidence directly states that the ribosome is responsible for translating mRNA into protein."
+}

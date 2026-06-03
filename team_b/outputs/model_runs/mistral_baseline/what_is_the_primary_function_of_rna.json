@@ -1,0 +1,9 @@
+{
+  "question": "What is the primary function of RNA?",
+  "answer": "RNA encodes protein",
+  "citations": [
+    "chunk:15_1_the_genetic_code_biology_2e_openstax:5 | 15.1 The Genetic Code - Biology 2e _ OpenStax.txt | that gives rise to the incredible variation of protein structure and function. The Central Dogma: DNA Encodes RNA; RN...",
+    "triple:0ab8fe5e588f5741 | DNA --[encodes]--> RNA"
+  ],
+  "reasoning": "Matched entities: rna, improved function of the intestines. Traversed graph edges: RNA --[contains]--> ribose; DNA --[is copied to]--> RNA; Oswald Avery --[used enzymes to degrade]--> DNA. Graph evidence: \"The sugar is deoxyribose in DNA and ribose in RNA.\". The context explicitly states that RNA encodes protein, which is a primary function of RNA."
+}

@@ -1,0 +1,8 @@
+{
+  "question": "What are the three stages of the Calvin cycle?",
+  "answer": "fixation, reduction, and regeneration",
+  "citations": [
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:5 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration. Stage 1: Fixation I..."
+  ],
+  "reasoning": "Matched entities: calvin cycle, three-dimensional structure. Traversed graph edges: Calvin cycle --[consumes]--> carbon dioxide; Photosynthesis --[requires]--> carbon dioxide; Calvin cycle --[produces]--> G3P. Graph evidence: \"In the stroma, in addition to CO2, two other components are present to initiate the light-independent reactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three molecules of ribulose bisphosphate (RuBP).\". The text explicitly states that the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration."
+}

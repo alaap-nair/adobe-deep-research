@@ -1,0 +1,12 @@
+{
+  "question": "Which molecule produced by the light-dependent reactions provides the reducing power needed during the reduction stage of the Calvin cycle?",
+  "answer": "NADPH",
+  "citations": [
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:4 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules 1/8 Figure 8.18 Light re...",
+    "chunk:8_2_the_light_dependent_reactions_of_photosynthesis_biology_2e_openstax:19 | data/8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e _ OpenStax.pdf | a spectrophotometer, scientists can identify which wavelengths of light an organism can absorb. Additional methods fo...",
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:1 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | for long-term energy storage. The products of the light-dependent reactions, ATP and NADPH, have lifespans in the ran...",
+    "chunk:8_1_overview_of_photosynthesis_biology_2e_openstax:17 | data/8.1 Overview of Photosynthesis - Biology 2e _ OpenStax.pdf | 6/8 Figure 8.7 Photosynthesis takes place in two stages: light-dependent reactions and the Calvin cycle. Light-depend...",
+    "chunk:8_1_overview_of_photosynthesis_biology_2e_openstax:15 | data/8.1 Overview of Photosynthesis - Biology 2e _ OpenStax.pdf | from sunlight is absorbed by chlorophyll and that energy is converted into stored chemical energy. In the light-indep..."
+  ],
+  "reasoning": "Matched entities: calvin cycle, carbohydrate molecules, light-dependent reactions. Traversed graph edges: calvin cycle --[produces]--> g3p; calvin cycle --[converts to]--> g3p; calvin cycle --[consumes]--> atp. Graph evidence: \"The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration.\". The light-dependent reactions produce ATP and NADPH. NADPH is an energy-carrying molecule that provides the reducing power needed during the reduction stage of the Calvin cycle."
+}

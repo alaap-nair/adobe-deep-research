@@ -1,0 +1,103 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 9,
+  "num_entities": 13,
+  "entities": [
+    "Beauveria bassiana",
+    "Neurospora crassa",
+    "antibiotics",
+    "biological control agent",
+    "emerald ash borer",
+    "fermentation",
+    "fungi",
+    "model research organisms",
+    "modern genetics",
+    "mycorrhizal relationship",
+    "nutrient cycle",
+    "population of damaging pests",
+    "productivity of farm land"
+  ],
+  "triples": [
+    {
+      "head": "fungi",
+      "head_type": "Organism",
+      "relation": "are part of",
+      "relation_type": "PART_OF",
+      "tail": "nutrient cycle",
+      "tail_type": "Process",
+      "evidence": "As we have seen, fungi influence the well-being of human populations on a large scale because they are part of the nutrient cycle in ecosystems."
+    },
+    {
+      "head": "fungi",
+      "head_type": "Organism",
+      "relation": "help to control",
+      "relation_type": "REGULATES",
+      "tail": "population of damaging pests",
+      "tail_type": "Process",
+      "evidence": "As animal pathogens, fungi help to control the population of damaging pests."
+    },
+    {
+      "head": "Beauveria bassiana",
+      "head_type": "Organism",
+      "relation": "is being tested as",
+      "relation_type": "PART_OF",
+      "tail": "biological control agent",
+      "tail_type": "Process",
+      "evidence": "the fungus Beauveria bassiana is being tested as a possible biological control agent for the recent spread of emerald ash borer a beetle that feeds on ash trees."
+    },
+    {
+      "head": "Beauveria bassiana",
+      "head_type": "Organism",
+      "relation": "parasitizes",
+      "relation_type": "PARASITIC_ON",
+      "tail": "emerald ash borer",
+      "tail_type": "Organism",
+      "evidence": "It is in turn parasitized by a pathogenic fungus (Beauveria bassiana) that holds promise as a biological insecticide."
+    },
+    {
+      "head": "mycorrhizal relationship",
+      "head_type": "Process",
+      "relation": "is essential for",
+      "relation_type": "PART_OF",
+      "tail": "productivity of farm land",
+      "tail_type": "Process",
+      "evidence": "The mycorrhizal relationship between fungi and plant roots is essential for the productivity of farm land."
+    },
+    {
+      "head": "fungi",
+      "head_type": "Organism",
+      "relation": "are used in",
+      "relation_type": "PART_OF",
+      "tail": "fermentation",
+      "tail_type": "Process",
+      "evidence": "Fermentation\u2014of grains to produce beer, and of fruits to produce wine\u2014is an ancient art that humans in most cultures have practiced for millennia."
+    },
+    {
+      "head": "fungi",
+      "head_type": "Organism",
+      "relation": "produce",
+      "relation_type": "PRODUCES",
+      "tail": "antibiotics",
+      "tail_type": "Molecule",
+      "evidence": "Antibiotics are naturally produced by fungi to kill or inhibit the growth of bacteria, limiting their competition in the natural environment."
+    },
+    {
+      "head": "fungi",
+      "head_type": "Organism",
+      "relation": "are important as",
+      "relation_type": "PART_OF",
+      "tail": "model research organisms",
+      "tail_type": "Process",
+      "evidence": "As simple eukaryotic organisms, fungi are important model research organisms."
+    },
+    {
+      "head": "Neurospora crassa",
+      "head_type": "Organism",
+      "relation": "achieved advances in",
+      "relation_type": "PART_OF",
+      "tail": "modern genetics",
+      "tail_type": "Process",
+      "evidence": "Many advances in modern genetics were achieved by the use of the red bread mold Neurospora crassa."
+    }
+  ]
+}

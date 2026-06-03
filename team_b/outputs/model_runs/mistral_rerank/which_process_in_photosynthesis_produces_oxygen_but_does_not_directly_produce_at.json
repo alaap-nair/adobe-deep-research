@@ -1,0 +1,8 @@
+{
+  "question": "Which process in photosynthesis produces oxygen but does NOT directly produce ATP?",
+  "answer": "light-dependent reactions",
+  "citations": [
+    "triple:a8e0bdc03ce9232c | photosynthesis --[consists of]--> light-dependent reactions"
+  ],
+  "reasoning": "Matched entities: atp, oxygen, photosynthesis. Traversed graph edges: ATP synthase --[forms]--> ATP; ATP synthase --[attaches]--> a third phosphate group to ADP; Calvin cycle --[consumes]--> ATP. Graph evidence: \"The energy released by the hydrogen ion stream allows ATP synthase to attach a third phosphate group to ADP, which forms a molecule of ATP (Figure 8.17).\". The light-dependent reactions of photosynthesis are known to produce oxygen as a byproduct. The context does not mention ATP production in these reactions, while it does mention ATP production in other contexts, implying that the light-dependent reactions do not directly produce ATP."
+}

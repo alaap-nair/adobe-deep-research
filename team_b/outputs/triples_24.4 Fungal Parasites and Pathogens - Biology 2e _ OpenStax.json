@@ -1,0 +1,158 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 14,
+  "num_entities": 23,
+  "entities": [
+    "Aspergillus",
+    "Batrachochytrium dendrobatidis",
+    "Candida sp.",
+    "Claviceps purpurea",
+    "Dutch elm disease",
+    "Histoplasma capsulatum",
+    "Ophiostoma ulmi",
+    "Pseudogymnoascus destructans",
+    "aflatoxins",
+    "decline of the world\u2019s frog population",
+    "dermatophytes",
+    "ergot",
+    "ergot's alkaloid toxins",
+    "fungi",
+    "histoplasmosis",
+    "mycosis",
+    "mycotoxicosis",
+    "opportunistic mycoses",
+    "parasites",
+    "pathogens",
+    "ringworm",
+    "tissue decay",
+    "white-nose syndrome"
+  ],
+  "triples": [
+    {
+      "head": "fungi",
+      "head_type": "Organism",
+      "relation": "are",
+      "relation_type": "BELONGS_TO",
+      "tail": "parasites",
+      "tail_type": "EcologicalRole",
+      "evidence": "Parasitism describes a symbiotic relationship in which one member of the association benefits at the expense of the other."
+    },
+    {
+      "head": "fungi",
+      "head_type": "Organism",
+      "relation": "are",
+      "relation_type": "BELONGS_TO",
+      "tail": "pathogens",
+      "tail_type": "EcologicalRole",
+      "evidence": "Parasitism describes a symbiotic relationship in which one member of the association benefits at the expense of the other."
+    },
+    {
+      "head": "fungi",
+      "head_type": "Organism",
+      "relation": "cause",
+      "relation_type": "INHIBITS",
+      "tail": "tissue decay",
+      "tail_type": "Process",
+      "evidence": "Many plant pathogens are fungi that cause tissue decay and the eventual death of the host (Figure 24.26)."
+    },
+    {
+      "head": "Claviceps purpurea",
+      "head_type": "Organism",
+      "relation": "causes",
+      "relation_type": "INHIBITS",
+      "tail": "ergot",
+      "tail_type": "Process",
+      "evidence": "For example, the fungus Claviceps purpurea causes ergot, a disease of cereal crops (especially of rye)."
+    },
+    {
+      "head": "Claviceps purpurea",
+      "head_type": "Organism",
+      "relation": "produces",
+      "relation_type": "PRODUCES",
+      "tail": "ergot's alkaloid toxins",
+      "tail_type": "Molecule",
+      "evidence": "Although the fungus reduces the yield of cereals, the effects of the ergot's alkaloid toxins on humans and animals are of much greater significance."
+    },
+    {
+      "head": "Aspergillus",
+      "head_type": "Organism",
+      "relation": "releases",
+      "relation_type": "RELEASES",
+      "tail": "aflatoxins",
+      "tail_type": "Molecule",
+      "evidence": "Aflatoxins are toxic, carcinogenic compounds released by fungi of the genus Aspergillus."
+    },
+    {
+      "head": "fungi",
+      "head_type": "Organism",
+      "relation": "cause",
+      "relation_type": "INHIBITS",
+      "tail": "mycosis",
+      "tail_type": "Process",
+      "evidence": "A mycosis is a fungal disease that results from infection and direct damage due to the growth and infiltration of the fungus."
+    },
+    {
+      "head": "fungi",
+      "head_type": "Organism",
+      "relation": "cause",
+      "relation_type": "INHIBITS",
+      "tail": "mycotoxicosis",
+      "tail_type": "Process",
+      "evidence": "Mycotoxicosis is the poisoning of humans (and other animals) by foods contaminated by fungal toxins (mycotoxins)."
+    },
+    {
+      "head": "Batrachochytrium dendrobatidis",
+      "head_type": "Organism",
+      "relation": "causes",
+      "relation_type": "INHIBITS",
+      "tail": "decline of the world\u2019s frog population",
+      "tail_type": "Process",
+      "evidence": "For example, the decline of the world\u2019s frog population in recent years is caused (in part) by the chytrid fungus Batrachochytrium dendrobatidis."
+    },
+    {
+      "head": "Pseudogymnoascus destructans",
+      "head_type": "Organism",
+      "relation": "causes",
+      "relation_type": "INHIBITS",
+      "tail": "white-nose syndrome",
+      "tail_type": "Process",
+      "evidence": "It is caused by the cold-loving fungus Pseudogymnoascus destructans, which disseminates its deadly spores in caves where bats hibernate."
+    },
+    {
+      "head": "dermatophytes",
+      "head_type": "Organism",
+      "relation": "cause",
+      "relation_type": "INHIBITS",
+      "tail": "ringworm",
+      "tail_type": "Process",
+      "evidence": "They are also called \u201cringworms\u201d because of the red ring they cause on skin."
+    },
+    {
+      "head": "Histoplasma capsulatum",
+      "head_type": "Organism",
+      "relation": "causes",
+      "relation_type": "INHIBITS",
+      "tail": "histoplasmosis",
+      "tail_type": "Process",
+      "evidence": "Histoplasmosis is caused by the dimorphic fungus Histoplasma capsulatum."
+    },
+    {
+      "head": "Candida sp.",
+      "head_type": "Organism",
+      "relation": "cause",
+      "relation_type": "INHIBITS",
+      "tail": "opportunistic mycoses",
+      "tail_type": "Process",
+      "evidence": "Patients in the late stages of AIDS suffer from opportunistic mycoses that can be life threatening."
+    },
+    {
+      "head": "Ophiostoma ulmi",
+      "head_type": "Organism",
+      "relation": "causes",
+      "relation_type": "INHIBITS",
+      "tail": "Dutch elm disease",
+      "tail_type": "Process",
+      "evidence": "Dutch elm disease is a fungal infestation that affects many species of elm (Ulmus) in North America."
+    }
+  ]
+}

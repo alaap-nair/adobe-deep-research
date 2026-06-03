@@ -1,0 +1,9 @@
+{
+  "question": "What does telomerase do?",
+  "answer": "Telomerase adds telomeres to the ends of chromosomes.",
+  "citations": [
+    "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:8 | 14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt | as cells continue to divide. The telomeres are added to the ends of chromosomes by a separate enzyme, telomerase (Fig...",
+    "triple:a05414325fa58407 | telomerase --[adds]--> telomeres"
+  ],
+  "reasoning": "Matched entities: telomerase. Traversed graph edges: telomerase --[adds]--> telomeres; telomerase --[is active in]--> germ cells and adult stem cells; telomerase --[contains]--> RNA template. Graph evidence: \"The telomeres are added to the ends of chromosomes by a separate enzyme, telomerase.\". The context explicitly states that telomerase adds telomeres to the ends of chromosomes."
+}

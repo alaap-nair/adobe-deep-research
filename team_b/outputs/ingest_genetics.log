@@ -1,0 +1,90 @@
+Will ingest 11 genetics sections
+
+=== 14.1 Historical Basis of Modern Understanding - Biology 2e _ OpenStax.txt ===
+  extracted 17 triples, 21 entities (26.1s)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Neo4j: 154 nodes, 145 relationships
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 7093.86it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Qdrant: 151 entity vectors, 145 evidence vectors, 219 chunk vectors
+  total: 32.6s
+
+=== 14.2 DNA Structure and Sequencing - Biology 2e _ OpenStax.txt ===
+  extracted 47 triples, 64 entities (25.1s)
+Neo4j: 217 nodes, 191 relationships
+Qdrant: 214 entity vectors, 191 evidence vectors, 248 chunk vectors
+  total: 28.6s
+
+=== 14.3 Basics of DNA Replication - Biology 2e _ OpenStax.txt ===
+  Warning: skipping triple 9: 1 validation error for Triple
+relation_type
+  Value error, Unknown relation type 'SUPPORTS'. Allowed: ['ABSORBS', 'BELONGS_TO', 'BINDS', 'CATALYZES', 'CONSISTS_OF', 'CONSUMES', 'CONVERTS_TO', 'DECOMPOSES', 'ENCODES', 'INHIBITS', 'LOCATED_IN', 'MUTUALISTIC_WITH', 'OCCURS_IN', 'PAIRS_WITH', 'PARASITIC_ON', 'PART_OF', 'PRODUCES', 'REGULATES', 'RELEASES', 'REPLICATES', 'TRANSCRIBES_TO', 'TRANSLATES_TO'] [type=value_error, input_value='SUPPORTS', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  extracted 9 triples, 14 entities (11.9s)
+Neo4j: 230 nodes, 200 relationships
+Qdrant: 227 entity vectors, 200 evidence vectors, 254 chunk vectors
+  total: 12.8s
+
+=== 14.4 DNA Replication in Prokaryotes - Biology 2e _ OpenStax.txt ===
+  Warning: skipping triple 12: 1 validation error for Triple
+head_type
+  Value error, Unknown node type 'Protein'. Allowed: ['CellularStructure', 'ChemicalReaction', 'EcologicalRole', 'Enzyme', 'Gene', 'GeneticElement', 'Molecule', 'Organism', 'Pathway', 'Process', 'TaxonomicGroup'] [type=value_error, input_value='Protein', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Warning: skipping triple 24: 1 validation error for Triple
+head_type
+  Value error, Unknown node type 'Protein'. Allowed: ['CellularStructure', 'ChemicalReaction', 'EcologicalRole', 'Enzyme', 'Gene', 'GeneticElement', 'Molecule', 'Organism', 'Pathway', 'Process', 'TaxonomicGroup'] [type=value_error, input_value='Protein', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  extracted 28 triples, 19 entities (17.8s)
+Neo4j: 244 nodes, 216 relationships
+Qdrant: 241 entity vectors, 216 evidence vectors, 274 chunk vectors
+  total: 21.2s
+
+=== 14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt ===
+  extracted 12 triples, 21 entities (9.3s)
+Neo4j: 258 nodes, 227 relationships
+Qdrant: 255 entity vectors, 227 evidence vectors, 285 chunk vectors
+  total: 10.6s
+
+=== 14.6 DNA Repair - Biology 2e _ OpenStax.txt ===
+  extracted 44 triples, 64 entities (33.3s)
+Neo4j: 319 nodes, 271 relationships
+Qdrant: 316 entity vectors, 271 evidence vectors, 302 chunk vectors
+  total: 37.7s
+
+=== 15.1 The Genetic Code - Biology 2e _ OpenStax.txt ===
+  extracted 15 triples, 21 entities (10.3s)
+Neo4j: 337 nodes, 286 relationships
+Qdrant: 334 entity vectors, 286 evidence vectors, 321 chunk vectors
+  total: 12.2s
+
+=== 15.2 Prokaryotic Transcription - Biology 2e _ OpenStax.txt ===
+  extracted 10 triples, 14 entities (11.5s)
+Neo4j: 348 nodes, 296 relationships
+Qdrant: 345 entity vectors, 296 evidence vectors, 339 chunk vectors
+  total: 17.3s
+
+=== 15.3 Eukaryotic Transcription - Biology 2e _ OpenStax.txt ===
+  extracted 16 triples, 14 entities (37.4s)
+Neo4j: 361 nodes, 309 relationships
+Qdrant: 358 entity vectors, 309 evidence vectors, 362 chunk vectors
+  total: 39.1s
+
+=== 15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt ===
+  extracted 26 triples, 23 entities (21.6s)
+Neo4j: 381 nodes, 332 relationships
+Qdrant: 378 entity vectors, 332 evidence vectors, 378 chunk vectors
+  total: 24.8s
+
+=== 15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt ===
+  extracted 16 triples, 16 entities (9.4s)
+Neo4j: 395 nodes, 348 relationships
+Qdrant: 392 entity vectors, 348 evidence vectors, 410 chunk vectors
+  total: 12.4s
+
+Done: 11 OK, 0 failed

@@ -1,0 +1,10 @@
+{
+  "question": "What role do fungi play in nutrient cycling in ecosystems?",
+  "answer": "Fungi are an important part of ecosystem nutrient cycles. They play a major role as decomposers and recyclers, making it possible for members of the other kingdoms to be supplied with nutrients and live. Fungal exoenzymes break down insoluble compounds, such as cellulose and lignin of dead wood, into readily absorbable glucose molecules, releasing carbon, nitrogen, and other elements into the environment.",
+  "citations": [
+    "chunk:24_3_ecology_of_fungi_biology_2e_openstax:4 | data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf | 2e | OpenStax https://openstax.org/books/biology-2e/pages/24-3-ecology-of-fungi 1/9 Figure 24.19 Bracket fungi. Fungi...",
+    "chunk:24_3_ecology_of_fungi_biology_2e_openstax:2 | data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf | sandy soil of the southwestern United States. Fungi that parasitize coral reefs live in the ocean. However, most memb...",
+    "chunk:24_1_characteristics_of_fungi_biology_2e_openstax:24 | data/24.1 Characteristics of Fungi - Biology 2e _ OpenStax.pdf | material derived mainly from plants. Fungal exoenzymes are able to break down insoluble compounds, such as the cellul..."
+  ],
+  "reasoning": "Matched entities: fungi, nutrient cycle. Traversed graph edges: chytridiomycota --[belongs to]--> fungi; chytrids --[are]--> chytridiomycota; zygomycota --[belongs to]--> fungi. Graph evidence: \"The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).\". The context provides information on the role of fungi in nutrient cycling, highlighting their function as decomposers and recyclers. It also mentions the ability of fungal exoenzymes to break down complex organic compounds, releasing essential nutrients into the environment."
+}

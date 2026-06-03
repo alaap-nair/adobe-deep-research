@@ -1,0 +1,113 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 10,
+  "num_entities": 14,
+  "entities": [
+    "-10 and -35 regions",
+    "DNA template strand",
+    "Prokaryotic RNA polymerase",
+    "Prokaryotic cell",
+    "Promoter",
+    "RNA polymerase",
+    "Rho protein",
+    "Rho-dependent termination",
+    "genes",
+    "mRNA",
+    "membrane-bound nuclei",
+    "promoter",
+    "\u03b1, \u03b1, \u03b2, \u03b2', and \u03c3 subunits",
+    "\u03c3 subunit"
+  ],
+  "triples": [
+    {
+      "head": "RNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "transcribes",
+      "relation_type": "TRANSCRIBES_TO",
+      "tail": "mRNA",
+      "tail_type": "Molecule",
+      "evidence": "RNA is synthesized in its 5'-3' direction, using the enzyme RNA polymerase."
+    },
+    {
+      "head": "RNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "binds to",
+      "relation_type": "BINDS",
+      "tail": "DNA template strand",
+      "tail_type": "Molecule",
+      "evidence": "The \u03b2' subunit binds the DNA template strand."
+    },
+    {
+      "head": "\u03c3 subunit",
+      "head_type": "Enzyme",
+      "relation": "binds to",
+      "relation_type": "BINDS",
+      "tail": "promoter",
+      "tail_type": "GeneticElement",
+      "evidence": "The \u03c3 subunit of prokaryotic RNA polymerase recognizes consensus sequences found in the promoter region upstream of the transcription start site."
+    },
+    {
+      "head": "Prokaryotic RNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "consists of",
+      "relation_type": "CONSISTS_OF",
+      "tail": "\u03b1, \u03b1, \u03b2, \u03b2', and \u03c3 subunits",
+      "tail_type": "Molecule",
+      "evidence": "In E. coli, the polymerase is composed of five polypeptide subunits, two of which are identical."
+    },
+    {
+      "head": "Prokaryotic RNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "transcribes",
+      "relation_type": "TRANSCRIBES_TO",
+      "tail": "mRNA",
+      "tail_type": "Molecule",
+      "evidence": "Prokaryotes use the same RNA polymerase to transcribe all of their genes."
+    },
+    {
+      "head": "Promoter",
+      "head_type": "GeneticElement",
+      "relation": "located upstream of",
+      "relation_type": "LOCATED_IN",
+      "tail": "genes",
+      "tail_type": "Gene",
+      "evidence": "In most cases, promoters exist upstream of the genes they regulate."
+    },
+    {
+      "head": "\u03c3 subunit",
+      "head_type": "Enzyme",
+      "relation": "binds to",
+      "relation_type": "BINDS",
+      "tail": "-10 and -35 regions",
+      "tail_type": "GeneticElement",
+      "evidence": "The \u03c3 subunit of prokaryotic RNA polymerase recognizes consensus sequences found in the promoter region upstream of the transcription start site."
+    },
+    {
+      "head": "Rho protein",
+      "head_type": "Molecule",
+      "relation": "controls",
+      "relation_type": "REGULATES",
+      "tail": "Rho-dependent termination",
+      "tail_type": "Process",
+      "evidence": "Rho-dependent termination is controlled by the rho (\u03c1) protein, which tracks along behind the polymerase on the growing mRNA chain."
+    },
+    {
+      "head": "RNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "synthesizes",
+      "relation_type": "PRODUCES",
+      "tail": "mRNA",
+      "tail_type": "Molecule",
+      "evidence": "The core enzyme to proceed along the DNA template, synthesizing mRNA in the 5' to 3' direction."
+    },
+    {
+      "head": "Prokaryotic cell",
+      "head_type": "CellularStructure",
+      "relation": "lacks",
+      "relation_type": "LOCATED_IN",
+      "tail": "membrane-bound nuclei",
+      "tail_type": "CellularStructure",
+      "evidence": "A bacterial chromosome is a closed circle that, unlike eukaryotic chromosomes, is not organized around histone proteins."
+    }
+  ]
+}

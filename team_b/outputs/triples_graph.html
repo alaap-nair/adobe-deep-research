@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1>Knowledge Graph</h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1>Knowledge Graph</h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 750px;
+                 background-color: #1a1a2e;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#81C784", "font": {"color": "white"}, "id": "ent:acetyl-coa", "label": "acetyl-coa", "shape": "dot", "size": 21, "title": "\u003cb\u003eacetyl-coa\u003c/b\u003e\u003cbr\u003eID: ent:acetyl-coa\u003cbr\u003eConnections: 2"}, {"color": "#4DD0E1", "font": {"color": "white"}, "id": "ent:aerobic_respiration", "label": "aerobic respiration", "shape": "dot", "size": 18, "title": "\u003cb\u003eaerobic respiration\u003c/b\u003e\u003cbr\u003eID: ent:aerobic_respiration\u003cbr\u003eConnections: 1"}, {"color": "#AED581", "font": {"color": "white"}, "id": "ent:atp", "label": "atp", "shape": "dot", "size": 24, "title": "\u003cb\u003eatp\u003c/b\u003e\u003cbr\u003eID: ent:atp\u003cbr\u003eConnections: 3"}, {"color": "#4DD0E1", "font": {"color": "white"}, "id": "ent:atp_production", "label": "atp production", "shape": "dot", "size": 18, "title": "\u003cb\u003eatp production\u003c/b\u003e\u003cbr\u003eID: ent:atp_production\u003cbr\u003eConnections: 1"}, {"color": "#81C784", "font": {"color": "white"}, "id": "ent:atp_synthase", "label": "atp synthase", "shape": "dot", "size": 21, "title": "\u003cb\u003eatp synthase\u003c/b\u003e\u003cbr\u003eID: ent:atp_synthase\u003cbr\u003eConnections: 2"}, {"color": "#81C784", "font": {"color": "white"}, "id": "ent:carbon_dioxide", "label": "carbon dioxide", "shape": "dot", "size": 21, "title": "\u003cb\u003ecarbon dioxide\u003c/b\u003e\u003cbr\u003eID: ent:carbon_dioxide\u003cbr\u003eConnections: 2"}, {"color": "#81C784", "font": {"color": "white"}, "id": "ent:cells", "label": "cells", "shape": "dot", "size": 21, "title": "\u003cb\u003ecells\u003c/b\u003e\u003cbr\u003eID: ent:cells\u003cbr\u003eConnections: 2"}, {"color": "#FFB74D", "font": {"color": "white"}, "id": "ent:citric_acid_cycle", "label": "citric acid cycle", "shape": "dot", "size": 30, "title": "\u003cb\u003ecitric acid cycle\u003c/b\u003e\u003cbr\u003eID: ent:citric_acid_cycle\u003cbr\u003eConnections: 5"}, {"color": "#4DD0E1", "font": {"color": "white"}, "id": "ent:cytosol", "label": "cytosol", "shape": "dot", "size": 18, "title": "\u003cb\u003ecytosol\u003c/b\u003e\u003cbr\u003eID: ent:cytosol\u003cbr\u003eConnections: 1"}, {"color": "#E57373", "font": {"color": "white"}, "id": "ent:electron_transport_chain", "label": "electron transport chain", "shape": "dot", "size": 33, "title": "\u003cb\u003eelectron transport chain\u003c/b\u003e\u003cbr\u003eID: ent:electron_transport_chain\u003cbr\u003eConnections: 6"}, {"color": "#81C784", "font": {"color": "white"}, "id": "ent:fadh\u2082", "label": "fadh\u2082", "shape": "dot", "size": 21, "title": "\u003cb\u003efadh\u2082\u003c/b\u003e\u003cbr\u003eID: ent:fadh\u2082\u003cbr\u003eConnections: 2"}, {"color": "#81C784", "font": {"color": "white"}, "id": "ent:glucose", "label": "glucose", "shape": "dot", "size": 21, "title": "\u003cb\u003eglucose\u003c/b\u003e\u003cbr\u003eID: ent:glucose\u003cbr\u003eConnections: 2"}, {"color": "#FFD54F", "font": {"color": "white"}, "id": "ent:glycolysis", "label": "glycolysis", "shape": "dot", "size": 27, "title": "\u003cb\u003eglycolysis\u003c/b\u003e\u003cbr\u003eID: ent:glycolysis\u003cbr\u003eConnections: 4"}, {"color": "#4DD0E1", "font": {"color": "white"}, "id": "ent:inner_mitochondrial_membrane", "label": "inner mitochondrial membrane", "shape": "dot", "size": 18, "title": "\u003cb\u003einner mitochondrial membrane\u003c/b\u003e\u003cbr\u003eID: ent:inner_mitochondrial_membrane\u003cbr\u003eConnections: 1"}, {"color": "#4DD0E1", "font": {"color": "white"}, "id": "ent:mitochondrion", "label": "mitochondrion", "shape": "dot", "size": 18, "title": "\u003cb\u003emitochondrion\u003c/b\u003e\u003cbr\u003eID: ent:mitochondrion\u003cbr\u003eConnections: 1"}, {"color": "#AED581", "font": {"color": "white"}, "id": "ent:nadh", "label": "nadh", "shape": "dot", "size": 24, "title": "\u003cb\u003enadh\u003c/b\u003e\u003cbr\u003eID: ent:nadh\u003cbr\u003eConnections: 3"}, {"color": "#4DD0E1", "font": {"color": "white"}, "id": "ent:nad\u207a", "label": "nad\u207a", "shape": "dot", "size": 18, "title": "\u003cb\u003enad\u207a\u003c/b\u003e\u003cbr\u003eID: ent:nad\u207a\u003cbr\u003eConnections: 1"}, {"color": "#E57373", "font": {"color": "white"}, "id": "ent:oxygen", "label": "oxygen", "shape": "dot", "size": 33, "title": "\u003cb\u003eoxygen\u003c/b\u003e\u003cbr\u003eID: ent:oxygen\u003cbr\u003eConnections: 6"}, {"color": "#4DD0E1", "font": {"color": "white"}, "id": "ent:phosphorylation_of_adp", "label": "phosphorylation of adp", "shape": "dot", "size": 18, "title": "\u003cb\u003ephosphorylation of adp\u003c/b\u003e\u003cbr\u003eID: ent:phosphorylation_of_adp\u003cbr\u003eConnections: 1"}, {"color": "#4DD0E1", "font": {"color": "white"}, "id": "ent:potential_energy", "label": "potential energy", "shape": "dot", "size": 18, "title": "\u003cb\u003epotential energy\u003c/b\u003e\u003cbr\u003eID: ent:potential_energy\u003cbr\u003eConnections: 1"}, {"color": "#AED581", "font": {"color": "white"}, "id": "ent:proton_gradient", "label": "proton gradient", "shape": "dot", "size": 24, "title": "\u003cb\u003eproton gradient\u003c/b\u003e\u003cbr\u003eID: ent:proton_gradient\u003cbr\u003eConnections: 3"}, {"color": "#81C784", "font": {"color": "white"}, "id": "ent:protons", "label": "protons", "shape": "dot", "size": 21, "title": "\u003cb\u003eprotons\u003c/b\u003e\u003cbr\u003eID: ent:protons\u003cbr\u003eConnections: 2"}, {"color": "#FFD54F", "font": {"color": "white"}, "id": "ent:pyruvate", "label": "pyruvate", "shape": "dot", "size": 27, "title": "\u003cb\u003epyruvate\u003c/b\u003e\u003cbr\u003eID: ent:pyruvate\u003cbr\u003eConnections: 4"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "#888888", "from": "ent:acetyl-coa", "label": "enter", "title": "\u003cb\u003eenter\u003c/b\u003e\u003cbr\u003e\u003ci\u003eAcetyl-CoA enters the citric acid cycle\u003c/i\u003e", "to": "ent:citric_acid_cycle"}, {"arrows": "to", "color": "#888888", "from": "ent:aerobic_respiration", "label": "use", "title": "\u003cb\u003euse\u003c/b\u003e\u003cbr\u003e\u003ci\u003eIn aerobic respiration, oxygen is the final electron acceptor\u003c/i\u003e", "to": "ent:oxygen"}, {"arrows": "to", "color": "#888888", "from": "ent:atp_production", "label": "decrease", "title": "\u003cb\u003edecrease\u003c/b\u003e\u003cbr\u003e\u003ci\u003eATP production from oxidative phosphorylation decreases\u003c/i\u003e", "to": "ent:oxygen"}, {"arrows": "to", "color": "#888888", "from": "ent:atp_synthase", "label": "use", "title": "\u003cb\u003euse\u003c/b\u003e\u003cbr\u003e\u003ci\u003eATP synthase uses the proton gradient to produce ATP\u003c/i\u003e", "to": "ent:proton_gradient"}, {"arrows": "to", "color": "#888888", "from": "ent:atp_synthase", "label": "catalyze", "title": "\u003cb\u003ecatalyze\u003c/b\u003e\u003cbr\u003e\u003ci\u003ethe enzyme catalyzes the phosphorylation of ADP to ATP\u003c/i\u003e", "to": "ent:phosphorylation_of_adp"}, {"arrows": "to", "color": "#888888", "from": "ent:cells", "label": "convert", "title": "\u003cb\u003econvert\u003c/b\u003e\u003cbr\u003e\u003ci\u003ecells convert the chemical energy stored in glucose into ATP\u003c/i\u003e", "to": "ent:glucose"}, {"arrows": "to", "color": "#888888", "from": "ent:cells", "label": "convert", "title": "\u003cb\u003econvert\u003c/b\u003e\u003cbr\u003e\u003ci\u003ecells convert the chemical energy stored in glucose into ATP\u003c/i\u003e", "to": "ent:atp"}, {"arrows": "to", "color": "#888888", "from": "ent:citric_acid_cycle", "label": "generate", "title": "\u003cb\u003egenerate\u003c/b\u003e\u003cbr\u003e\u003ci\u003ea series of reactions in the mitochondrial matrix that generates carbon dioxide\u003c/i\u003e", "to": "ent:carbon_dioxide"}, {"arrows": "to", "color": "#888888", "from": "ent:citric_acid_cycle", "label": "generate", "title": "\u003cb\u003egenerate\u003c/b\u003e\u003cbr\u003e\u003ci\u003ea series of reactions in the mitochondrial matrix that generates NADH\u003c/i\u003e", "to": "ent:nadh"}, {"arrows": "to", "color": "#888888", "from": "ent:citric_acid_cycle", "label": "generate", "title": "\u003cb\u003egenerate\u003c/b\u003e\u003cbr\u003e\u003ci\u003ea series of reactions in the mitochondrial matrix that generates FADH\u2082\u003c/i\u003e", "to": "ent:fadh\u2082"}, {"arrows": "to", "color": "#888888", "from": "ent:citric_acid_cycle", "label": "produce", "title": "\u003cb\u003eproduce\u003c/b\u003e\u003cbr\u003e\u003ci\u003eThe citric acid cycle produces a small amount of ATP directly\u003c/i\u003e", "to": "ent:atp"}, {"arrows": "to", "color": "#888888", "from": "ent:electron_transport_chain", "label": "located in", "title": "\u003cb\u003elocated in\u003c/b\u003e\u003cbr\u003e\u003ci\u003eThe electron transport chain (ETC) is located in the inner mitochondrial membrane\u003c/i\u003e", "to": "ent:inner_mitochondrial_membrane"}, {"arrows": "to", "color": "#888888", "from": "ent:electron_transport_chain", "label": "pump", "title": "\u003cb\u003epump\u003c/b\u003e\u003cbr\u003e\u003ci\u003etheir energy is used to pump protons (H\u207a) from the matrix into the intermembrane space\u003c/i\u003e", "to": "ent:protons"}, {"arrows": "to", "color": "#888888", "from": "ent:electron_transport_chain", "label": "cannot function", "title": "\u003cb\u003ecannot function\u003c/b\u003e\u003cbr\u003e\u003ci\u003eIf oxygen is not available, the electron transport chain cannot function\u003c/i\u003e", "to": "ent:oxygen"}, {"arrows": "to", "color": "#888888", "from": "ent:fadh\u2082", "label": "donate electrons to", "title": "\u003cb\u003edonate electrons to\u003c/b\u003e\u003cbr\u003e\u003ci\u003eNADH and FADH\u2082 donate electrons to the ETC\u003c/i\u003e", "to": "ent:electron_transport_chain"}, {"arrows": "to", "color": "#888888", "from": "ent:glycolysis", "label": "occur in", "title": "\u003cb\u003eoccur in\u003c/b\u003e\u003cbr\u003e\u003ci\u003eIt occurs in the cytosol\u003c/i\u003e", "to": "ent:cytosol"}, {"arrows": "to", "color": "#888888", "from": "ent:glycolysis", "label": "break down", "title": "\u003cb\u003ebreak down\u003c/b\u003e\u003cbr\u003e\u003ci\u003eone molecule of glucose is broken down into two molecules of pyruvate\u003c/i\u003e", "to": "ent:glucose"}, {"arrows": "to", "color": "#888888", "from": "ent:glycolysis", "label": "produce", "title": "\u003cb\u003eproduce\u003c/b\u003e\u003cbr\u003e\u003ci\u003eGlycolysis produces a net gain of ATP\u003c/i\u003e", "to": "ent:atp"}, {"arrows": "to", "color": "#888888", "from": "ent:glycolysis", "label": "reduce", "title": "\u003cb\u003ereduce\u003c/b\u003e\u003cbr\u003e\u003ci\u003eGlycolysis reduces NAD\u207a to NADH\u003c/i\u003e", "to": "ent:nad\u207a"}, {"arrows": "to", "color": "#888888", "from": "ent:nadh", "label": "donate electrons to", "title": "\u003cb\u003edonate electrons to\u003c/b\u003e\u003cbr\u003e\u003ci\u003eNADH and FADH\u2082 donate electrons to the ETC\u003c/i\u003e", "to": "ent:electron_transport_chain"}, {"arrows": "to", "color": "#888888", "from": "ent:oxygen", "label": "accept electrons", "title": "\u003cb\u003eaccept electrons\u003c/b\u003e\u003cbr\u003e\u003ci\u003eOxygen accepts electrons at the end of the electron transport chain\u003c/i\u003e", "to": "ent:electron_transport_chain"}, {"arrows": "to", "color": "#888888", "from": "ent:oxygen", "label": "combine with", "title": "\u003cb\u003ecombine with\u003c/b\u003e\u003cbr\u003e\u003ci\u003eOxygen accepts electrons at the end of the electron transport chain and combines with protons to form water\u003c/i\u003e", "to": "ent:protons"}, {"arrows": "to", "color": "#888888", "from": "ent:proton_gradient", "label": "store", "title": "\u003cb\u003estore\u003c/b\u003e\u003cbr\u003e\u003ci\u003eThis gradient stores potential energy\u003c/i\u003e", "to": "ent:potential_energy"}, {"arrows": "to", "color": "#888888", "from": "ent:proton_gradient", "label": "collapse", "title": "\u003cb\u003ecollapse\u003c/b\u003e\u003cbr\u003e\u003ci\u003eIf oxygen is not available, the proton gradient collapses\u003c/i\u003e", "to": "ent:oxygen"}, {"arrows": "to", "color": "#888888", "from": "ent:pyruvate", "label": "transport into", "title": "\u003cb\u003etransport into\u003c/b\u003e\u003cbr\u003e\u003ci\u003epyruvate is transported into the mitochondrion\u003c/i\u003e", "to": "ent:mitochondrion"}, {"arrows": "to", "color": "#888888", "from": "ent:pyruvate", "label": "convert into", "title": "\u003cb\u003econvert into\u003c/b\u003e\u003cbr\u003e\u003ci\u003epyruvate is converted into acetyl-CoA\u003c/i\u003e", "to": "ent:acetyl-coa"}, {"arrows": "to", "color": "#888888", "from": "ent:pyruvate", "label": "release", "title": "\u003cb\u003erelease\u003c/b\u003e\u003cbr\u003e\u003ci\u003epyruvate is converted into acetyl-CoA, releasing carbon dioxide\u003c/i\u003e", "to": "ent:carbon_dioxide"}, {"arrows": "to", "color": "#888888", "from": "ent:pyruvate", "label": "produce", "title": "\u003cb\u003eproduce\u003c/b\u003e\u003cbr\u003e\u003ci\u003epyruvate is converted into acetyl-CoA, producing additional NADH\u003c/i\u003e", "to": "ent:nadh"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"barnesHut": {"gravitationalConstant": -3000, "centralGravity": 0.3, "springLength": 150, "springConstant": 0.04}, "stabilization": {"iterations": 150}}, "edges": {"arrows": {"to": {"enabled": true, "scaleFactor": 0.5}}, "font": {"size": 10, "color": "#aaaaaa"}, "smooth": {"type": "continuous"}}, "nodes": {"font": {"size": 14}, "borderWidth": 2, "borderWidthSelected": 4}, "interaction": {"hover": true, "tooltipDelay": 100}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

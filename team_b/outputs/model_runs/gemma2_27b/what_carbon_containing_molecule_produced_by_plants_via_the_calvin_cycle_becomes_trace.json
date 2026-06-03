@@ -1,0 +1,863 @@
+{
+  "question": "What carbon-containing molecule produced by plants via the Calvin cycle becomes the energy source for symbiotic mycorrhizal fungi?",
+  "generated_at": "2026-05-01T07:02:54.717733+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "carbon",
+        "containing",
+        "molecule",
+        "produced",
+        "plants",
+        "via",
+        "calvin",
+        "cycle",
+        "becomes",
+        "energy",
+        "source",
+        "symbiotic",
+        "mycorrhizal",
+        "fungi",
+        "carbon containing",
+        "containing molecule",
+        "molecule produced",
+        "produced plants",
+        "plants via",
+        "via calvin",
+        "calvin cycle",
+        "cycle becomes",
+        "becomes energy",
+        "energy source",
+        "source symbiotic",
+        "symbiotic mycorrhizal",
+        "mycorrhizal fungi",
+        "carbon containing molecule",
+        "containing molecule produced",
+        "molecule produced plants",
+        "produced plants via",
+        "plants via calvin",
+        "via calvin cycle",
+        "calvin cycle becomes",
+        "cycle becomes energy",
+        "becomes energy source",
+        "energy source symbiotic",
+        "source symbiotic mycorrhizal",
+        "symbiotic mycorrhizal fungi"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:fungi",
+          "name": "fungi",
+          "matched_text": "fungi",
+          "matched_alias": "fungi",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:plants",
+          "name": "plants",
+          "matched_text": "plants",
+          "matched_alias": "plants",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:5-carbon_sugar",
+          "name": "5-carbon sugar",
+          "matched_text": "carbon",
+          "matched_alias": "5-carbon sugar",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:24_3_ecology_of_fungi_biology_2e_openstax:9",
+          "text": "mycorrhizal partners.\n\nIn a mycorrhizal\nassociation, the fungal mycelia use their extensive network of hyphae and large surface area in contact\nwith the soil to channel water and minerals from the soil into the plant. In exchange, the plant supplies\nthe products of photosynthesis to fuel the metabolism of the fungus. There are several basic types of mycorrhizae. Ectomycorrhizae (“outside” mycorrhizae) depend on\nfungi enveloping the roots in a sheath (called a mantle). Hyphae grow from the mantle into the root and\nenvelope the outer layers of the root cells in a network of hyphae called a Hartig net (Figure 24.21). The\nfungal partner can belong to the Ascomycota, Basidiomycota or Zygomycota.",
+          "source_name": "data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 9,
+          "snippet": "mycorrhizal partners.\n\nIn a mycorrhizal\nassociation, the fungal mycelia use their extensive network of hyphae and large surface area in contact\nwith the soil to channel water and minerals from the soil into the plant. In exchange, the plant supplies\nthe products of photosynthesis to fuel the metabolism of the fungus. There are several basic types of mycorrhizae. Ectomycorrhizae (“outside” mycorrhi",
+          "score": 0.7321288703694203
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:1",
+          "text": "for long-term energy\nstorage.\n\nThe products of the light-dependent reactions, ATP and NADPH, have lifespans in the range of\nmillionths of seconds, whereas the products of the light-independent reactions (carbohydrates and\nother forms of reduced carbon) can survive almost indefinitely. The carbohydrate molecules made will\nhave a backbone of carbon atoms. But where does the carbon come from? It comes from carbon\ndioxide—the gas that is a waste product of respiration in microbes, fungi, plants, and animals. The Calvin Cycle\nIn plants, carbon dioxide (CO ) enters the leaves through stomata, where it diffuses over short\ndistances through intercellular spaces until it reaches the mesophyll cells.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 1,
+          "snippet": "for long-term energy\nstorage.\n\nThe products of the light-dependent reactions, ATP and NADPH, have lifespans in the range of\nmillionths of seconds, whereas the products of the light-independent reactions (carbohydrates and\nother forms of reduced carbon) can survive almost indefinitely. The carbohydrate molecules made will\nhave a backbone of carbon atoms. But where does the carbon come from? It come",
+          "score": 0.7252713073485738
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:4",
+          "text": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules\n1/8\n\nFigure 8.18 Light reactions harness energy from the sun to produce chemical bonds, ATP, and NADPH. These energy-carrying molecules\nare made in the stroma where carbon fixation takes place. Credit: Rao, A., Ryan, K., Tag, A., Fletcher, S. and Hawkins, A. Department of\nBiology, Texas A&M University. The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation,\nreduction, and regeneration.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 4,
+          "snippet": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules\n1/8\n\nFigure 8.18 Light reactions harness energy from the sun to produce chemical bonds, ATP, and NADPH. These energy-carrying molecules\nare made in the stroma where carbon fixation takes place. Credit: Rao, A., Ryan, K., Tag, A., Fletcher, S. and Hawkins, A. Department of\nBiology, Texas A&M University. The",
+          "score": 0.7246425746248627
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:0",
+          "text": "8.3 Using Light Energy to Make Organic\nMolecules\nLearning Objectives\nBy the end of this section, you will be able to do the following:\nDescribe the Calvin cycle\nDefine carbon fixation\nExplain how photosynthesis works in the energy cycle of all living organisms\nAfter the energy from the sun is converted into chemical energy and temporarily stored in ATP and\nNADPH molecules, the cell has the fuel needed to build carbohydrate molecules for long-term energy\nstorage.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 0,
+          "snippet": "8.3 Using Light Energy to Make Organic\nMolecules\nLearning Objectives\nBy the end of this section, you will be able to do the following:\nDescribe the Calvin cycle\nDefine carbon fixation\nExplain how photosynthesis works in the energy cycle of all living organisms\nAfter the energy from the sun is converted into chemical energy and temporarily stored in ATP and\nNADPH molecules, the cell has the fuel ne",
+          "score": 0.7119767795089006
+        },
+        {
+          "chunk_id": "chunk:24_3_ecology_of_fungi_biology_2e_openstax:21",
+          "text": "the fungus nor the photosynthetic\norganism can survive alone outside of the symbiotic relationship.\n\nThe body of a lichen, referred to as a\nthallus, is formed of hyphae wrapped around the photosynthetic partner. The photosynthetic organism\nprovides carbon and energy in the form of carbohydrates. Some cyanobacteria additionally fix nitrogen\nfrom the atmosphere, contributing nitrogenous compounds to the association. In return, the fungus\n4/14/26, 11:44 AM\n24.3 Ecology of Fungi - Biology 2e | OpenStax\nhttps://openstax.org/books/biology-2e/pages/24-3-ecology-of-fungi\n6/9",
+          "source_name": "data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 21,
+          "snippet": "the fungus nor the photosynthetic\norganism can survive alone outside of the symbiotic relationship.\n\nThe body of a lichen, referred to as a\nthallus, is formed of hyphae wrapped around the photosynthetic partner. The photosynthetic organism\nprovides carbon and energy in the form of carbohydrates. Some cyanobacteria additionally fix nitrogen\nfrom the atmosphere, contributing nitrogenous compounds to",
+          "score": 0.7057610120175979
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:a64f1cadd99cc127",
+          "head_entity_id": "ent:glomeromycota",
+          "tail_entity_id": "ent:arbuscular_mycorrhizae",
+          "relation": "form",
+          "evidence": "It appears that nearly all members of this family form arbuscular mycorrhizae: the hyphae interact with the root cells forming a mutually beneficial association in which the plants supply the carbon source and energy in the form of carbohydrates to the fungus, and the fungus supplies essential minerals from the soil to the plant.",
+          "head_name": "glomeromycota",
+          "tail_name": "arbuscular mycorrhizae",
+          "score": 0.7145568335365586
+        },
+        {
+          "triple_id": "triple:b79d2ec5117c2f69",
+          "head_entity_id": "ent:plants",
+          "tail_entity_id": "ent:fungi",
+          "relation": "supply products of photosynthesis",
+          "evidence": "In exchange, the plant supplies the products of photosynthesis to fuel the metabolism of the fungus.",
+          "head_name": "plants",
+          "tail_name": "fungi",
+          "score": 0.7062732380116464
+        },
+        {
+          "triple_id": "triple:b2f0dffb341b649d",
+          "head_entity_id": "ent:light-independent_reactions",
+          "tail_entity_id": "ent:stroma",
+          "relation": "occurs in",
+          "evidence": "The Calvin cycle, which takes place in the stroma, uses energy derived from these compounds to make G3P from CO2.",
+          "head_name": "light-independent reactions",
+          "tail_name": "stroma",
+          "score": 0.7024653327056058
+        },
+        {
+          "triple_id": "triple:b221eccb50b972b8",
+          "head_entity_id": "ent:photoautotrophs",
+          "tail_entity_id": "ent:light_energy_into_chemical_energy",
+          "relation": "convert",
+          "evidence": "In the case of photosynthesis, light energy is converted into chemical energy, which photoautotrophs use to build basic carbohydrate molecules (Figure 8.9).",
+          "head_name": "photoautotrophs",
+          "tail_name": "light energy into chemical energy",
+          "score": 0.6573413591753294
+        },
+        {
+          "triple_id": "triple:704a71fe6fdb8ffd",
+          "head_entity_id": "ent:calvin_cycle",
+          "tail_entity_id": "ent:carbon_dioxide",
+          "relation": "consumes",
+          "evidence": "In the stroma, in addition to CO2, two other components are present to initiate the light-independent reactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three molecules of ribulose bisphosphate (RuBP).",
+          "head_name": "calvin cycle",
+          "tail_name": "carbon dioxide",
+          "score": 0.6566837754423048
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:fungi",
+        "ent:plants",
+        "ent:5-carbon_sugar",
+        "ent:glomeromycota",
+        "ent:arbuscular_mycorrhizae",
+        "ent:light-independent_reactions",
+        "ent:stroma",
+        "ent:photoautotrophs",
+        "ent:light_energy_into_chemical_energy",
+        "ent:calvin_cycle",
+        "ent:carbon_dioxide"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "fungi",
+          "entity_id": "ent:fungi",
+          "original_names": [
+            "fungi"
+          ]
+        },
+        {
+          "name": "chytridiomycota",
+          "entity_id": "ent:chytridiomycota",
+          "original_names": [
+            "Chytridiomycota"
+          ]
+        },
+        {
+          "name": "chytrids",
+          "entity_id": "ent:chytrids",
+          "original_names": [
+            "Chytrids"
+          ]
+        },
+        {
+          "name": "ascomycota",
+          "entity_id": "ent:ascomycota",
+          "original_names": [
+            "Ascomycota"
+          ]
+        },
+        {
+          "name": "asci",
+          "entity_id": "ent:asci",
+          "original_names": [
+            "asci"
+          ]
+        },
+        {
+          "name": "ascospores",
+          "entity_id": "ent:ascospores",
+          "original_names": [
+            "ascospores"
+          ]
+        },
+        {
+          "name": "formation of an ascus",
+          "entity_id": "ent:formation_of_an_ascus",
+          "original_names": [
+            "formation of an ascus"
+          ]
+        },
+        {
+          "name": "ascocarp",
+          "entity_id": "ent:ascocarp",
+          "original_names": [
+            "ascocarp"
+          ]
+        },
+        {
+          "name": "conidiophores",
+          "entity_id": "ent:conidiophores",
+          "original_names": [
+            "conidiophores"
+          ]
+        },
+        {
+          "name": "yeasts",
+          "entity_id": "ent:yeasts",
+          "original_names": [
+            "yeasts"
+          ]
+        },
+        {
+          "name": "aspergillus oryzae",
+          "entity_id": "ent:aspergillus_oryzae",
+          "original_names": [
+            "Aspergillus oryzae"
+          ]
+        },
+        {
+          "name": "humans",
+          "entity_id": "ent:humans",
+          "original_names": [
+            "humans"
+          ]
+        },
+        {
+          "name": "plants",
+          "entity_id": "ent:plants",
+          "original_names": [
+            "plants"
+          ]
+        },
+        {
+          "name": "conidiospores",
+          "entity_id": "ent:conidiospores",
+          "original_names": [
+            "conidiospores"
+          ]
+        },
+        {
+          "name": "morels",
+          "entity_id": "ent:morels",
+          "original_names": [
+            "morels"
+          ]
+        },
+        {
+          "name": "truffles",
+          "entity_id": "ent:truffles",
+          "original_names": [
+            "truffles"
+          ]
+        },
+        {
+          "name": "animals",
+          "entity_id": "ent:animals",
+          "original_names": [
+            "animals"
+          ]
+        },
+        {
+          "name": "lichens",
+          "entity_id": "ent:lichens",
+          "original_names": [
+            "lichens"
+          ]
+        },
+        {
+          "name": "ectomycorrhizae",
+          "entity_id": "ent:ectomycorrhizae",
+          "original_names": [
+            "ectomycorrhizae"
+          ]
+        },
+        {
+          "name": "glomeromycota",
+          "entity_id": "ent:glomeromycota",
+          "original_names": [
+            "Glomeromycota"
+          ]
+        },
+        {
+          "name": "nostoc",
+          "entity_id": "ent:nostoc",
+          "original_names": [
+            "Nostoc"
+          ]
+        },
+        {
+          "name": "arbuscular mycorrhizae",
+          "entity_id": "ent:arbuscular_mycorrhizae",
+          "original_names": [
+            "arbuscular mycorrhizae"
+          ]
+        },
+        {
+          "name": "endomycorrhizae",
+          "entity_id": "ent:endomycorrhizae",
+          "original_names": [
+            "endomycorrhizae"
+          ]
+        },
+        {
+          "name": "basidiomycota",
+          "entity_id": "ent:basidiomycota",
+          "original_names": [
+            "Basidiomycota"
+          ]
+        },
+        {
+          "name": "basidiocarp",
+          "entity_id": "ent:basidiocarp",
+          "original_names": [
+            "basidiocarp"
+          ]
+        },
+        {
+          "name": "rusts",
+          "entity_id": "ent:rusts",
+          "original_names": [
+            "rusts"
+          ]
+        },
+        {
+          "name": "shelf fungi",
+          "entity_id": "ent:shelf_fungi",
+          "original_names": [
+            "shelf fungi"
+          ]
+        },
+        {
+          "name": "basidiospores",
+          "entity_id": "ent:basidiospores",
+          "original_names": [
+            "basidiospores"
+          ]
+        },
+        {
+          "name": "basidia",
+          "entity_id": "ent:basidia",
+          "original_names": [
+            "basidia"
+          ]
+        },
+        {
+          "name": "mushrooms",
+          "entity_id": "ent:mushrooms",
+          "original_names": [
+            "mushrooms"
+          ]
+        },
+        {
+          "name": "smuts",
+          "entity_id": "ent:smuts",
+          "original_names": [
+            "smuts"
+          ]
+        },
+        {
+          "name": "zygomycota",
+          "entity_id": "ent:zygomycota",
+          "original_names": [
+            "Zygomycota"
+          ]
+        },
+        {
+          "name": "zygomycetes",
+          "entity_id": "ent:zygomycetes",
+          "original_names": [
+            "Zygomycetes"
+          ]
+        },
+        {
+          "name": "algae",
+          "entity_id": "ent:algae",
+          "original_names": [
+            "Algae"
+          ]
+        },
+        {
+          "name": "fungus",
+          "entity_id": "ent:fungus",
+          "original_names": [
+            "fungus"
+          ]
+        },
+        {
+          "name": "photosynthesis",
+          "entity_id": "ent:photosynthesis",
+          "original_names": [
+            "Photosynthesis",
+            "photosynthesis"
+          ]
+        },
+        {
+          "name": "ants",
+          "entity_id": "ent:ants",
+          "original_names": [
+            "ants"
+          ]
+        },
+        {
+          "name": "nitrogen and phosphorus",
+          "entity_id": "ent:nitrogen_and_phosphorus",
+          "original_names": [
+            "nitrogen and phosphorus"
+          ]
+        },
+        {
+          "name": "leaf-cutter ants",
+          "entity_id": "ent:leaf-cutter_ants",
+          "original_names": [
+            "leaf-cutter ants"
+          ]
+        },
+        {
+          "name": "leaves",
+          "entity_id": "ent:leaves",
+          "original_names": [
+            "leaves"
+          ]
+        },
+        {
+          "name": "organic matter",
+          "entity_id": "ent:organic_matter",
+          "original_names": [
+            "organic matter"
+          ]
+        },
+        {
+          "name": "energy from sunlight",
+          "entity_id": "ent:energy_from_sunlight",
+          "original_names": [
+            "energy from sunlight"
+          ]
+        },
+        {
+          "name": "cyanobacteria",
+          "entity_id": "ent:cyanobacteria",
+          "original_names": [
+            "Cyanobacteria"
+          ]
+        },
+        {
+          "name": "parasites",
+          "entity_id": "ent:parasites",
+          "original_names": [
+            "parasites"
+          ]
+        },
+        {
+          "name": "pathogens",
+          "entity_id": "ent:pathogens",
+          "original_names": [
+            "pathogens"
+          ]
+        },
+        {
+          "name": "mycosis",
+          "entity_id": "ent:mycosis",
+          "original_names": [
+            "mycosis"
+          ]
+        },
+        {
+          "name": "mycotoxicosis",
+          "entity_id": "ent:mycotoxicosis",
+          "original_names": [
+            "mycotoxicosis"
+          ]
+        },
+        {
+          "name": "tissue decay",
+          "entity_id": "ent:tissue_decay",
+          "original_names": [
+            "tissue decay"
+          ]
+        },
+        {
+          "name": "model research organisms",
+          "entity_id": "ent:model_research_organisms",
+          "original_names": [
+            "model research organisms"
+          ]
+        },
+        {
+          "name": "population of damaging pests",
+          "entity_id": "ent:population_of_damaging_pests",
+          "original_names": [
+            "population of damaging pests"
+          ]
+        },
+        {
+          "name": "nutrient cycle",
+          "entity_id": "ent:nutrient_cycle",
+          "original_names": [
+            "nutrient cycle"
+          ]
+        },
+        {
+          "name": "fermentation",
+          "entity_id": "ent:fermentation",
+          "original_names": [
+            "fermentation"
+          ]
+        },
+        {
+          "name": "antibiotics",
+          "entity_id": "ent:antibiotics",
+          "original_names": [
+            "antibiotics"
+          ]
+        },
+        {
+          "name": "insects",
+          "entity_id": "ent:insects",
+          "original_names": [
+            "insects"
+          ]
+        },
+        {
+          "name": "zoospores",
+          "entity_id": "ent:zoospores",
+          "original_names": [
+            "zoospores"
+          ]
+        },
+        {
+          "name": "flagella",
+          "entity_id": "ent:flagella",
+          "original_names": [
+            "flagella"
+          ]
+        },
+        {
+          "name": "gametes",
+          "entity_id": "ent:gametes",
+          "original_names": [
+            "gametes"
+          ]
+        },
+        {
+          "name": "aquatic environments",
+          "entity_id": "ent:aquatic_environments",
+          "original_names": [
+            "aquatic environments"
+          ]
+        },
+        {
+          "name": "amphibians",
+          "entity_id": "ent:amphibians",
+          "original_names": [
+            "amphibians"
+          ]
+        },
+        {
+          "name": "substrate",
+          "entity_id": "ent:substrate",
+          "original_names": [
+            "substrate"
+          ]
+        },
+        {
+          "name": "light-dependent reactions",
+          "entity_id": "ent:light-dependent_reactions",
+          "original_names": [
+            "light-dependent reactions",
+            "Light-dependent reactions"
+          ]
+        },
+        {
+          "name": "sunlight",
+          "entity_id": "ent:sunlight",
+          "original_names": [
+            "sunlight"
+          ]
+        },
+        {
+          "name": "oxygen",
+          "entity_id": "ent:oxygen",
+          "original_names": [
+            "oxygen"
+          ]
+        },
+        {
+          "name": "glyceraldehyde-3-phosphate",
+          "entity_id": "ent:glyceraldehyde-3-phosphate",
+          "original_names": [
+            "glyceraldehyde-3-phosphate"
+          ]
+        },
+        {
+          "name": "water",
+          "entity_id": "ent:water",
+          "original_names": [
+            "water"
+          ]
+        },
+        {
+          "name": "light-independent reactions",
+          "entity_id": "ent:light-independent_reactions",
+          "original_names": [
+            "light-independent reactions",
+            "Light-independent reactions"
+          ]
+        },
+        {
+          "name": "chloroplast",
+          "entity_id": "ent:chloroplast",
+          "original_names": [
+            "chloroplast",
+            "Chloroplast"
+          ]
+        },
+        {
+          "name": "carbon dioxide",
+          "entity_id": "ent:carbon_dioxide",
+          "original_names": [
+            "carbon dioxide"
+          ]
+        },
+        {
+          "name": "carbohydrates",
+          "entity_id": "ent:carbohydrates",
+          "original_names": [
+            "carbohydrates"
+          ]
+        },
+        {
+          "name": "carbohydrate molecules",
+          "entity_id": "ent:carbohydrate_molecules",
+          "original_names": [
+            "carbohydrate molecules"
+          ]
+        },
+        {
+          "name": "mesophyll",
+          "entity_id": "ent:mesophyll",
+          "original_names": [
+            "mesophyll"
+          ]
+        },
+        {
+          "name": "5-carbon sugar",
+          "entity_id": "ent:5-carbon_sugar",
+          "original_names": [
+            "5-carbon sugar"
+          ]
+        },
+        {
+          "name": "nucleotide",
+          "entity_id": "ent:nucleotide",
+          "original_names": [
+            "nucleotide"
+          ]
+        },
+        {
+          "name": "nitrogenous base",
+          "entity_id": "ent:nitrogenous_base",
+          "original_names": [
+            "nitrogenous base"
+          ]
+        },
+        {
+          "name": "phosphate group",
+          "entity_id": "ent:phosphate_group",
+          "original_names": [
+            "phosphate group"
+          ]
+        },
+        {
+          "name": "stroma",
+          "entity_id": "ent:stroma",
+          "original_names": [
+            "stroma"
+          ]
+        },
+        {
+          "name": "calvin cycle",
+          "entity_id": "ent:calvin_cycle",
+          "original_names": [
+            "Calvin cycle"
+          ]
+        },
+        {
+          "name": "g3p",
+          "entity_id": "ent:g3p",
+          "original_names": [
+            "G3P"
+          ]
+        },
+        {
+          "name": "atp",
+          "entity_id": "ent:atp",
+          "original_names": [
+            "ATP"
+          ]
+        },
+        {
+          "name": "nadph",
+          "entity_id": "ent:nadph",
+          "original_names": [
+            "NADPH"
+          ]
+        },
+        {
+          "name": "photoautotrophs",
+          "entity_id": "ent:photoautotrophs",
+          "original_names": [
+            "photoautotrophs"
+          ]
+        },
+        {
+          "name": "specific wavelengths of sunlight",
+          "entity_id": "ent:specific_wavelengths_of_sunlight",
+          "original_names": [
+            "specific wavelengths of sunlight"
+          ]
+        },
+        {
+          "name": "light energy into chemical energy",
+          "entity_id": "ent:light_energy_into_chemical_energy",
+          "original_names": [
+            "light energy into chemical energy"
+          ]
+        },
+        {
+          "name": "atp synthase",
+          "entity_id": "ent:atp_synthase",
+          "original_names": [
+            "ATP synthase"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:fungi",
+          "evidence": "The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).",
+          "target_name": "fungi",
+          "source_entity_id": "ent:chytridiomycota",
+          "triple_id": "triple:2b45b0d77a12f1e1",
+          "source_name": "Chytridiomycota",
+          "relation": "belongs to"
+        },
+        {
+          "target_entity_id": "ent:chytridiomycota",
+          "evidence": "The only class in the Phylum Chytridiomycota is the Chytridiomycetes. The chytrids are the simplest and most primitive Eumycota, or true fungi.",
+          "target_name": "Chytridiomycota",
+          "source_entity_id": "ent:chytrids",
+          "triple_id": "triple:858bc871b05ea40d",
+          "source_name": "Chytrids",
+          "relation": "are"
+        },
+        {
+          "target_entity_id": "ent:fungi",
+          "evidence": "The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).",
+          "target_name": "fungi",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:d447c83c90babdc4",
+          "source_name": "Ascomycota",
+          "relation": "belongs to"
+        },
+        {
+          "target_entity_id": "ent:asci",
+          "evidence": "Sexual reproduction starts with the development of special hyphae from either one of two types of mating strains (Figure 24.14).",
+          "target_name": "asci",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:a63f5014a2e9f3df",
+          "source_name": "Ascomycota",
+          "relation": "produce"
+        },
+        {
+          "target_entity_id": "ent:ascospores",
+          "evidence": "The spores in each ascus contain the meiotic products of a single diploid nucleus. The ascospores are then released, germinate, and form hyphae that are disseminated in the environment and start new mycelia (Figure 24.15).",
+          "target_name": "ascospores",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:11975963fef9e8e5",
+          "source_name": "Ascomycota",
+          "relation": "produce"
+        },
+        {
+          "target_entity_id": "ent:formation_of_an_ascus",
+          "evidence": "The Phylum Ascomycota, which is characterized by the formation of an ascus (plural, asci), a sac-like structure that contains haploid ascospores.",
+          "target_name": "formation of an ascus",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:776a5e999094fb95",
+          "source_name": "Ascomycota",
+          "relation": "characterized by"
+        },
+        {
+          "target_entity_id": "ent:ascocarp",
+          "evidence": "Thousands of asci fill a fruiting body called the ascocarp.",
+          "target_name": "ascocarp",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:2cab3a4f35e3995d",
+          "source_name": "Ascomycota",
+          "relation": "produce"
+        },
+        {
+          "target_entity_id": "ent:conidiophores",
+          "evidence": "Asexual reproduction is frequent and involves the production of conidiophores that release haploid conidiospores (Figure 24.14).",
+          "target_name": "conidiophores",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:dfadf411c7091813",
+          "source_name": "Ascomycota",
+          "relation": "produce"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What carbon-containing molecule produced by plants via the Calvin cycle becomes the energy source for symbiotic mycorrhizal fungi?",
+    "answer": "carbohydrate",
+    "citations": [
+      "chunk:24_3_ecology_of_fungi_biology_2e_openstax:9 | data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf | mycorrhizal partners. In a mycorrhizal association, the fungal mycelia use their extensive network of hyphae and larg...",
+      "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:1 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | for long-term energy storage. The products of the light-dependent reactions, ATP and NADPH, have lifespans in the ran..."
+    ],
+    "reasoning": "Matched entities: fungi, plants, 5-carbon sugar. Traversed graph edges: Chytridiomycota --[belongs to]--> fungi; Chytrids --[are]--> Chytridiomycota; Ascomycota --[belongs to]--> fungi. Graph evidence: \"The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).\". The Calvin cycle produces carbohydrates, which are molecules with a backbone of carbon atoms. These carbohydrates are the energy source for symbiotic mycorrhizal fungi."
+  }
+}

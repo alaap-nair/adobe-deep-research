@@ -1,0 +1,8 @@
+{
+  "question": "Which process in photosynthesis produces oxygen but does NOT directly produce ATP?",
+  "answer": "Photosystem II",
+  "citations": [
+    "triple:927ce17ce150d2d2 | photosystem ii --[extracts]--> electrons from water"
+  ],
+  "reasoning": "Matched entities: atp, oxygen, photosynthesis. Traversed graph edges: ATP synthase --[forms]--> ATP; ATP synthase --[attaches]--> a third phosphate group to ADP; Calvin cycle --[consumes]--> ATP. Graph evidence: \"The energy released by the hydrogen ion stream allows ATP synthase to attach a third phosphate group to ADP, which forms a molecule of ATP (Figure 8.17).\". Photosystem II extracts electrons from water, which results in the production of oxygen. However, it does not directly produce ATP; this is a function of the electron transport chain and ATP synthase."
+}

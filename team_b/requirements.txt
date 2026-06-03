@@ -1,0 +1,25 @@
+#add the requirements from the tools you specifically need to use
+python-dotenv
+requests
+pydantic>=2.0
+pymupdf
+# llama-parse  # optional, uncomment if using LlamaParse backend
+
+# Knowledge graph + vector store
+neo4j>=5.0
+qdrant-client>=1.7
+sentence-transformers>=2.2
+pyvis>=0.3
+networkx>=3.0
+
+# Canonicalization (W3A: rule-based lemmatization)
+nltk>=3.8
+
+# RAGAS evaluation (W1)
+ragas>=0.2
+datasets>=2.14
+langchain-openai>=0.2
+langchain-huggingface>=0.1
+
+# Testing
+pytest>=7.0

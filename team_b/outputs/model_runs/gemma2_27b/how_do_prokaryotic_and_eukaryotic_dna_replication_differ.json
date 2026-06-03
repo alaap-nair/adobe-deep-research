@@ -1,0 +1,9 @@
+{
+  "question": "How do prokaryotic and eukaryotic DNA replication differ?",
+  "answer": "Prokaryotic DNA replication has a single origin of replication, while eukaryotic DNA replication has multiple origins of replication.",
+  "citations": [
+    "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:3 | 14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt | replication, a pre-replication complex is made with other initiator proteins. Helicase and other proteins are then re...",
+    "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:0 | 14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt | LINK TO LEARNING Review the full process of DNA replication here (https://openstax.org/l/replication_DNA). 14.5 DNA R..."
+  ],
+  "reasoning": "Matched entities: dna, replication, eukaryotic pre-mrna. Traversed graph edges: Oswald Avery --[used enzymes to degrade]--> DNA; Oswald Avery --[isolated]--> S strain; Oswald Avery --[concluded]--> DNA was the transforming principle. Graph evidence: \"They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.\". The text states that prokaryotes have a single origin of replication, while eukaryotes have multiple."
+}
