@@ -1,5 +1,0 @@
-Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy. In the chloroplast, light-dependent reactions capture energy from sunlight and use it to produce ATP and NADPH.
-
-The Calvin cycle uses ATP and NADPH to fix carbon dioxide into organic molecules. Chlorophyll absorbs light most strongly in the blue and red parts of the spectrum and reflects green light, which is why many plants appear green.
-
-Oxygen released during photosynthesis comes from the splitting of water molecules during the light-dependent reactions.

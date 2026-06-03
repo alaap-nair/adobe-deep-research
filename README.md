@@ -1,87 +1,46 @@
-# adobe-deep-research
+# Adobe × UpSync — Deep Research over a Biology Knowledge Graph
 
-Do not commit API keys. Use a `.env` file in the repo root and keep it out of git.
+Replicate large-model "deep research" quality with **small, lightweight LLMs** grounded in a
+domain-specific **Knowledge Graph + RAG** over OpenStax Biology — instead of SERP-based web
+retrieval. Proof-of-concept domain: a "Biology Expert" over OpenStax Biology 2e
+(Ch. 8 Photosynthesis, Ch. 14–15 DNA/Genes, Ch. 24 Fungi).
 
-## Setup
+## Two architectures, side by side
 
-Use the local virtual environment:
+The project evaluates **two competing KG-RAG architectures** built by two sub-teams. Each lives
+in its own self-contained subdirectory so they can be run and benchmarked independently:
+
+| Directory | Sub-team | Architecture |
+|-----------|----------|--------------|
+| [`team_a/`](team_a/) | Camillia & Shreya | **Unified single-store** — knowledge graph, text chunks, and vector embeddings all live inside Neo4j. Simpler infra, fewer moving parts. |
+| [`team_b/`](team_b/) | Jason & Shreyas | **Decoupled dual-store** — Neo4j for the graph + Qdrant for vectors, linked by a shared deterministic ID scheme. Each store optimized for its retrieval type. |
+
+Both share the broad pipeline (ingest → entity/triple extraction → KG construction → hybrid
+retrieval → answer synthesis), BGE embeddings, a DeepSeek/Mistral-class synthesis model, and
+RAGAS evaluation. They diverge in storage, parsing, extraction, chunking, and reranking — see
+each subdirectory's own README for setup and run instructions.
+
+## Layout
+
+```
+team_a/   # unified single-store (Neo4j-only) implementation + its data/outputs/tests
+team_b/   # decoupled dual-store (Neo4j + Qdrant) implementation + its data/outputs/tests
+.env.example
+```
+
+This top-level branch consolidates the two team branches (`team1` → `team_a/`, `team2/…` →
+`team_b/`) via subtree merges, so each subdirectory retains its full git history. Earlier
+exploratory branches (`team-1`, `alaap/assignment-two`) are preserved as `archive/*` tags.
+
+## Getting started
+
+Pick an architecture and follow its README. Do not commit API keys — keep them in a
+`.env` (gitignored).
 
 ```bash
-source .venv/bin/activate
+cd team_b   # or team_a
+cat README.md
 ```
 
-If you need the older OpenRouter setup from the existing repo, keep these values in `.env`:
-
-```env
-OPENROUTER_API_KEY=sk-xxxxxxxxxxxxxxxx
-```
-
-This project also supports OpenAI-compatible settings for answer synthesis:
-
-```env
-OPENAI_API_KEY=your_key_here
-OPENAI_BASE_URL=https://openrouter.ai/api/v1
-OPENAI_MODEL=openai/gpt-4o-mini
-```
-
-For Neo4j-backed retrieval, also set:
-
-```env
-NEO4J_URI=neo4j+s://your-instance.databases.neo4j.io
-NEO4J_USERNAME=neo4j
-NEO4J_PASSWORD=your_password
-NEO4J_DATABASE=neo4j
-```
-
-## Biology QA
-
-Put biology source material into `data/bio/` as `.txt`, `.md`, or `.pdf` files, then run:
-
-```bash
-.venv/bin/python bio_qa.py --backend neo4j --answer-mode llm --plain "What is DNA?"
-```
-
-If you want retrieval without LLM synthesis:
-
-```bash
-.venv/bin/python bio_qa.py --backend neo4j --plain "What is DNA?"
-```
-
-To ingest or refresh the Neo4j graph:
-
-```bash
-.venv/bin/python bio_qa.py --backend neo4j --ingest-neo4j --reset-graph
-```
-
-The graph stores `BioSource`, `BioChunk`, `BioTerm`, and `BioConcept` nodes with `HAS_CHUNK`, `HAS_TERM`, `MENTIONS`, `RELATED_TO`, and `NEXT` relationships.
-
-To save the answer in evaluation-ready JSON:
-
-```bash
-.venv/bin/python bio_qa.py "What happens during mitosis?" --save results/mitosis.json
-```
-
-## RAGAS
-
-The evaluator expects JSON rows with at least:
-
-- `user_input`
-- `response`
-- `retrieved_contexts`
-
-Example:
-
-```bash
-.venv/bin/python ragas_eval.py data/eval/sample_eval.json
-```
-
-## Existing Repo Files
-
-The original repository content is still present under `src/` and related files such as `requirements.txt` and `data/passage.txt`.
-
-## Files
-
-- `bio_qa.py`: local or Neo4j-backed retriever plus extractive answer builder for `.txt`, `.md`, and `.pdf` sources
-- `neo4j_bio_graph.py`: Neo4j schema, ingestion, and chunk retrieval
-- `ragas_eval.py`: RAGAS evaluator
-- `src/`: original graph-building scripts already present in the remote repo
+Each subdirectory has its own `requirements.txt` and `.env` expectations
+(an `OPENROUTER_API_KEY`, plus local Neo4j / Qdrant).
