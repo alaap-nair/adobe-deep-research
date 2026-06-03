@@ -255,6 +255,87 @@ class QueryEngine:
                 break
         return deduped
 
+    # --- Context-precision retrieval modes (A10 Part 2) ---
+
+    def _mmr_select(
+        self, query: str, candidates: list[dict], top_k: int, lambda_mult: float = 0.7
+    ) -> list[dict]:
+        """Maximal Marginal Relevance selection over candidate chunks.
+
+        Balances query relevance against diversity so the cross-chapter chunk a
+        multi-hop question needs is not crowded out by a cluster of near-duplicate
+        top hits. Embeddings from ``build_vectorstore`` are L2-normalized, so
+        cosine similarity is just the dot product.
+        """
+        if len(candidates) <= top_k:
+            return candidates
+        texts = [c.get("text") or "" for c in candidates]
+        try:
+            doc_vecs = embed_texts(texts, self.model)
+            query_vec = embed_texts([query], self.model)[0]
+        except Exception:
+            return candidates[:top_k]
+
+        def dot(a, b):
+            return sum(x * y for x, y in zip(a, b))
+
+        relevance = [dot(query_vec, dv) for dv in doc_vecs]
+        selected: list[int] = []
+        remaining = set(range(len(candidates)))
+        while remaining and len(selected) < top_k:
+            best_idx, best_score = None, float("-inf")
+            for i in remaining:
+                diversity = max((dot(doc_vecs[i], doc_vecs[j]) for j in selected), default=0.0)
+                score = lambda_mult * relevance[i] - (1 - lambda_mult) * diversity
+                if score > best_score:
+                    best_score, best_idx = score, i
+            selected.append(best_idx)
+            remaining.discard(best_idx)
+        return [candidates[i] for i in selected]
+
+    def _graph_boost_select(
+        self,
+        candidates: list[dict],
+        top_k: int,
+        resolved_entities: list[dict],
+        hops: int,
+    ) -> list[dict]:
+        """Re-rank chunks by graph connectivity to the question's entities.
+
+        Leverages the dual store: gather entity names within ``hops`` of the
+        question's resolved entities in Neo4j, then boost chunks whose text
+        mentions those graph-connected entities. This targets multi-hop
+        questions where the bridging chunk sits in a different chapter than the
+        literal query terms.
+        """
+        if len(candidates) <= top_k:
+            return candidates
+
+        neighbor_names: set[str] = set()
+        for entity in resolved_entities:
+            entity_id = entity.get("entity_id")
+            if not entity_id:
+                continue
+            neighborhood = self.get_entity_neighborhood(entity_id, hops=hops)
+            for node in neighborhood.get("nodes", []):
+                for candidate_name in [node.get("name"), *(node.get("original_names") or [])]:
+                    if candidate_name:
+                        neighbor_names.add(candidate_name.lower())
+        if not neighbor_names:
+            return candidates[:top_k]
+
+        boost = 0.05
+        scored: list[dict] = []
+        for chunk in candidates:
+            text = (chunk.get("text") or "").lower()
+            hits = sum(1 for name in neighbor_names if name in text)
+            enriched = dict(chunk)
+            enriched["graph_boost_hits"] = hits
+            enriched["boosted_score"] = float(chunk.get("score") or 0.0) + boost * hits
+            scored.append(enriched)
+        scored.sort(key=lambda c: c["boosted_score"], reverse=True)
+        return scored[:top_k]
+
     # --- Qdrant semantic search ---
 
     def search_entities(self, query: str, top_k: int = 5) -> list[dict]:
@@ -475,9 +556,12 @@ class QueryEngine:
             "resolved_entities": resolved_entities,
         }
 
-        # When USE_RERANKER=1, fetch a wider candidate pool and rerank with a
-        # cross-encoder before truncating to top_k_chunks. Default behavior
-        # (USE_RERANKER=0) is unchanged: 2x candidates, dedupe-truncate.
+        # Chunk selection strategy (A10 Part 2 context-precision experiments):
+        #   USE_RERANKER=1            -> cross-encoder rerank of a 3x pool (C1).
+        #   RETRIEVAL_MODE=mmr        -> MMR diversity over a 6x pool (C2).
+        #   RETRIEVAL_MODE=graph_boost-> graph-connectivity rescoring of a 6x pool (C3).
+        #   default                   -> 2x candidates, dedupe-truncate (C0 baseline).
+        retrieval_mode = os.getenv("RETRIEVAL_MODE", "").strip().lower()
         if os.getenv("USE_RERANKER", "0") == "1":
             from reranker import rerank as _rerank_chunks
 
@@ -488,6 +572,19 @@ class QueryEngine:
                 limit=top_k_chunks * 3,
             )
             chunk_hits = _rerank_chunks(query, candidate_pool, top_k_chunks)
+        elif retrieval_mode in ("mmr", "graph_boost"):
+            candidate_pool = self._dedupe_textual_hits(
+                self.search_chunks(query, top_k=max(top_k_chunks * 6, top_k_chunks)),
+                id_key="chunk_id",
+                text_key="text",
+                limit=top_k_chunks * 6,
+            )
+            if retrieval_mode == "mmr":
+                chunk_hits = self._mmr_select(query, candidate_pool, top_k_chunks)
+            else:
+                chunk_hits = self._graph_boost_select(
+                    candidate_pool, top_k_chunks, resolved_entities, hops
+                )
         else:
             chunk_hits = self._dedupe_textual_hits(
                 self.search_chunks(query, top_k=max(top_k_chunks * 2, top_k_chunks)),

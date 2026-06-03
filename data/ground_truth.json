@@ -3,280 +3,400 @@
     "id": "q1",
     "question": "What enzyme catalyzes carbon fixation in the Calvin cycle?",
     "difficulty": "Standard",
-    "ground_truth": "RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase). It attaches CO2 to RuBP, producing two 3-PGA molecules, which begins the fixation stage of the Calvin cycle.",
-    "failure_mode": null
+    "ground_truth": "Carbon fixation in the Calvin cycle is catalyzed by the enzyme ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO). RuBisCO catalyzes the reaction between CO₂ and the five-carbon molecule ribulose bisphosphate (RuBP), producing two molecules of the three-carbon compound 3-phosphoglyceric acid (3-PGA), thereby incorporating inorganic carbon into an organic molecule.",
+    "failure_mode": null,
+    "ground_truth_human": "RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase). It attaches CO2 to RuBP, producing two 3-PGA molecules, which begins the fixation stage of the Calvin cycle.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q2",
     "question": "Where do the light-dependent reactions of photosynthesis take place?",
     "difficulty": "Standard",
-    "ground_truth": "In the thylakoid membranes of the chloroplast. Electron transport, water splitting (photolysis), and ATP/NADPH production all occur there.",
-    "failure_mode": null
+    "ground_truth": "The light-dependent reactions of photosynthesis take place in the thylakoid membranes within the chloroplast. Here, light energy absorbed by chlorophyll is converted into chemical energy stored as ATP and NADPH.",
+    "failure_mode": null,
+    "ground_truth_human": "In the thylakoid membranes of the chloroplast. Electron transport, water splitting (photolysis), and ATP/NADPH production all occur there.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q3",
     "question": "What are the three stages of the Calvin cycle?",
     "difficulty": "Standard",
-    "ground_truth": "Fixation, reduction, and regeneration. Fixation: RuBisCO attaches CO2 to RuBP, producing 3-PGA. Reduction: 3-PGA is reduced to G3P using ATP and NADPH. Regeneration: the remaining G3P regenerates RuBP so the cycle can continue.",
-    "failure_mode": null
+    "ground_truth": "The three stages of the Calvin cycle are: (1) Fixation, in which the enzyme RuBisCO incorporates carbon dioxide into the five-carbon molecule RuBP to form the three-carbon molecule 3-PGA; (2) Reduction, in which 3-PGA is reduced using ATP and electrons supplied by NADPH to form G3P; and (3) Regeneration, in which RuBP is regenerated (using additional ATP) so the cycle can continue fixing more CO2.",
+    "failure_mode": null,
+    "ground_truth_human": "Fixation, reduction, and regeneration. Fixation: RuBisCO attaches CO2 to RuBP, producing 3-PGA. Reduction: 3-PGA is reduced to G3P using ATP and NADPH. Regeneration: the remaining G3P regenerates RuBP so the cycle can continue.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q4",
     "question": "What is a lichen?",
     "difficulty": "Standard",
-    "ground_truth": "A mutualistic symbiosis between a fungus and a photosynthetic partner (an alga or cyanobacterium). The fungus provides structure and water, while the photobiont provides sugar from photosynthesis.",
-    "failure_mode": null
+    "ground_truth": "A lichen is not a single organism but a mutualistic association between a fungus (usually an ascomycete or basidiomycete) and a photosynthetic partner—either a eukaryotic alga or a cyanobacterium. The photosynthetic partner provides carbon and energy as carbohydrates (and sometimes fixed nitrogen), while the fungus supplies minerals, protection from drying and excessive light, and anchors the body (thallus) to its substrate. Generally, neither partner can survive alone outside this symbiosis.",
+    "failure_mode": null,
+    "ground_truth_human": "A mutualistic symbiosis between a fungus and a photosynthetic partner (an alga or cyanobacterium). The fungus provides structure and water, while the photobiont provides sugar from photosynthesis.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q5",
     "question": "What role do fungi play in nutrient cycling in ecosystems?",
     "difficulty": "Standard",
-    "ground_truth": "Fungi act as primary decomposers, breaking down dead organic matter and returning carbon, nitrogen, and other nutrients to the soil so plants and other organisms can reuse them. They are essential to the continuity of biogeochemical cycles.",
-    "failure_mode": null
+    "ground_truth": "Fungi are major decomposers and recyclers in ecosystems. Using their mode of nutrition—secreting exoenzymes that break down large, insoluble molecules such as the cellulose and lignin in dead wood and other decaying plant and animal matter—they degrade organic material that would otherwise not be recycled. This decomposition releases carbon, nitrogen, phosphorus, and trace elements back into the environment, making these nutrients available to plants and other organisms and thereby completing the food web and sustaining the ecosystem.",
+    "failure_mode": null,
+    "ground_truth_human": "Fungi act as primary decomposers, breaking down dead organic matter and returning carbon, nitrogen, and other nutrients to the soil so plants and other organisms can reuse them. They are essential to the continuity of biogeochemical cycles.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q6",
     "question": "How does carbon fixed by RuBisCO in a plant eventually return to the soil through fungal activity?",
     "difficulty": "System Breaker",
-    "ground_truth": "RuBisCO fixes atmospheric CO2 into 3-PGA during the Calvin cycle, which becomes G3P and ultimately organic compounds (sugars and cellulose) that build plant biomass. When the plant dies, saprophytic fungi decompose that biomass, absorbing nutrients across their cell surfaces and releasing carbon and minerals back into the soil, completing the cycle.",
-    "failure_mode": "multi-hop synthesis: LLM picked the mycorrhizal-symbiont path over the saprophytic-decomposition path; carbon-fixation -> biomass -> decomposition chain not captured by any single triple"
+    "ground_truth": "RuBisCO fixes atmospheric CO2 into organic molecules (3-PGA, leading to G3P and ultimately carbohydrates) during the Calvin cycle of photosynthesis. The plant transfers some of these photosynthetic carbohydrates to fungi, either through mycorrhizal partnerships (where the plant supplies carbon/energy to the fungus in exchange for water and minerals) or when plant material dies. Fungi, being heterotrophs, use exoenzymes to break down organic plant compounds such as cellulose and lignin into absorbable molecules, and in the process the fixed carbon (along with nitrogen and other elements) is released back into the soil/environment, completing its return.",
+    "failure_mode": "multi-hop synthesis: LLM picked the mycorrhizal-symbiont path over the saprophytic-decomposition path; carbon-fixation -> biomass -> decomposition chain not captured by any single triple",
+    "ground_truth_human": "RuBisCO fixes atmospheric CO2 into 3-PGA during the Calvin cycle, which becomes G3P and ultimately organic compounds (sugars and cellulose) that build plant biomass. When the plant dies, saprophytic fungi decompose that biomass, absorbing nutrients across their cell surfaces and releasing carbon and minerals back into the soil, completing the cycle.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q7",
     "question": "What is the relationship between Photosystem II, water molecules, and the oxygen released during photosynthesis?",
     "difficulty": "System Breaker",
-    "ground_truth": "Photosystem II uses absorbed light energy to split water molecules (photolysis). This releases electrons that replenish chlorophyll in PSII, protons that contribute to the proton gradient driving ATP synthesis, and oxygen as a byproduct (the O2 we breathe).",
-    "failure_mode": "subgraph leakage: KG traversal pulled cellular-respiration edges (oxygen as final electron acceptor) for a photosynthesis question; answer came from chunks, not the graph"
+    "ground_truth": "In Photosystem II (PSII), light energy excites and removes electrons from the reaction-center chlorophyll (P680). To replace these lost electrons, PSII extracts low-energy electrons from water molecules, causing the water to be 'split' (photolysis). Splitting one water molecule releases two electrons, two hydrogen ions (protons), and one oxygen atom; splitting two water molecules yields one molecule of diatomic O₂, which is released as a byproduct of photosynthesis.",
+    "failure_mode": "subgraph leakage: KG traversal pulled cellular-respiration edges (oxygen as final electron acceptor) for a photosynthesis question; answer came from chunks, not the graph",
+    "ground_truth_human": "Photosystem II uses absorbed light energy to split water molecules (photolysis). This releases electrons that replenish chlorophyll in PSII, protons that contribute to the proton gradient driving ATP synthesis, and oxygen as a byproduct (the O2 we breathe).",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q8",
     "question": "What does fixation mean in biology?",
     "difficulty": "System Breaker",
-    "ground_truth": "Within the ingested corpus, 'fixation' refers specifically to carbon fixation: the incorporation of inorganic CO2 into organic molecules, catalyzed by RuBisCO during the Calvin cycle. A careful answer should qualify with 'within the corpus' since fixation has other meanings in biology (e.g., nitrogen fixation, tissue fixation).",
-    "failure_mode": "ambiguity: system answered as if carbon fixation were the only meaning, missing the 'within corpus' qualifier"
+    "ground_truth": "In biology, fixation most commonly refers to carbon fixation, the process by which inorganic carbon dioxide (CO2) is incorporated into organic molecules. In the first stage of the Calvin cycle, the enzyme RuBisCO catalyzes the attachment of CO2 to the five-carbon molecule ribulose bisphosphate (RuBP), converting inorganic carbon into an organic compound that can ultimately be used to build carbohydrates.",
+    "failure_mode": "ambiguity: system answered as if carbon fixation were the only meaning, missing the 'within corpus' qualifier",
+    "ground_truth_human": "Within the ingested corpus, 'fixation' refers specifically to carbon fixation: the incorporation of inorganic CO2 into organic molecules, catalyzed by RuBisCO during the Calvin cycle. A careful answer should qualify with 'within the corpus' since fixation has other meanings in biology (e.g., nitrogen fixation, tissue fixation).",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q9",
     "question": "Which stage of photosynthesis produces ATP but does NOT fix carbon?",
     "difficulty": "System Breaker",
-    "ground_truth": "The light-dependent reactions. They produce ATP and NADPH via the electron transport chain and chemiosmosis in the thylakoid membrane. Carbon fixation happens in the subsequent Calvin cycle, which consumes ATP rather than producing it.",
-    "failure_mode": "subgraph leakage: KG over-pulls cellular-respiration edges for any ATP-adjacent query; constraint (NOT fix carbon) is satisfied but supporting traversal is the wrong subgraph"
+    "ground_truth": "The light-dependent reactions (light reactions) produce ATP (and NADPH) but do not fix carbon. These reactions occur in the thylakoid membranes, where light energy is used to generate ATP and NADPH; carbon fixation instead occurs in the Calvin cycle (light-independent reactions) in the stroma, using the ATP and NADPH supplied by the light reactions.",
+    "failure_mode": "subgraph leakage: KG over-pulls cellular-respiration edges for any ATP-adjacent query; constraint (NOT fix carbon) is satisfied but supporting traversal is the wrong subgraph",
+    "ground_truth_human": "The light-dependent reactions. They produce ATP and NADPH via the electron transport chain and chemiosmosis in the thylakoid membrane. Carbon fixation happens in the subsequent Calvin cycle, which consumes ATP rather than producing it.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q10",
     "question": "What is the role of nitrogen-fixing bacteria in the nitrogen cycle?",
     "difficulty": "System Breaker",
-    "ground_truth": "Not covered in the ingested corpus. The ingested material focuses on photosynthesis (Ch. 8) and fungal ecology (Ch. 24); nitrogen-fixing bacteria belong to the nitrogen-cycle topic, which is out of scope. A correct answer should refuse rather than hallucinate.",
-    "failure_mode": "out-of-corpus: nitrogen cycle not in Ch. 8 (photosynthesis) or Ch. 24 (fungi); tests refusal behavior"
+    "ground_truth": "Nitrogen-fixing bacteria convert atmospheric nitrogen gas (N2), which most organisms cannot use, into ammonia/ammonium and other nitrogenous compounds that plants and other organisms can assimilate to build proteins and nucleic acids. This 'fixation' step is the entry point of nitrogen into the biological nitrogen cycle, making the element available to the rest of the ecosystem; some such bacteria (e.g., cyanobacteria, as noted in lichen associations) live freely or as symbionts to provide these nitrogenous compounds.",
+    "failure_mode": "out-of-corpus: nitrogen cycle not in Ch. 8 (photosynthesis) or Ch. 24 (fungi); tests refusal behavior",
+    "ground_truth_human": "Not covered in the ingested corpus. The ingested material focuses on photosynthesis (Ch. 8) and fungal ecology (Ch. 24); nitrogen-fixing bacteria belong to the nitrogen-cycle topic, which is out of scope. A correct answer should refuse rather than hallucinate.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": false
   },
   {
     "id": "q11",
     "question": "What pigment absorbs light energy during the light-dependent reactions of photosynthesis?",
     "difficulty": "Standard",
-    "ground_truth": "Chlorophyll a is the primary photosynthetic pigment in the reaction center. Chlorophyll b and accessory pigments (e.g., carotenoids) absorb additional wavelengths and pass the energy on to chlorophyll a in the photosystem.",
-    "failure_mode": null
+    "ground_truth": "Chlorophyll is the primary pigment that absorbs light energy during the light-dependent reactions. Chlorophyll a is the main pigment whose excited electrons drive the reactions, with chlorophyll b and accessory pigments such as carotenoids absorbing additional wavelengths and passing the captured energy to the reaction center. Absorption of a photon excites a chlorophyll electron, capturing light energy that is ultimately converted into chemical energy (ATP and NADPH).",
+    "failure_mode": null,
+    "ground_truth_human": "Chlorophyll a is the primary photosynthetic pigment in the reaction center. Chlorophyll b and accessory pigments (e.g., carotenoids) absorb additional wavelengths and pass the energy on to chlorophyll a in the photosystem.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q12",
     "question": "What is mycelium?",
     "difficulty": "Standard",
-    "ground_truth": "The vegetative body of a fungus: a network of branching filaments called hyphae that grows through soil or other substrate and absorbs nutrients across its large surface area.",
-    "failure_mode": null
+    "ground_truth": "Mycelium is the mass or tangled network of hyphae (the thread-like filaments) that makes up the vegetative body of a fungus. This extensive network provides a large surface area for absorbing nutrients, and it can grow on surfaces, in soil or decaying material, in liquid, or even on living tissue.",
+    "failure_mode": null,
+    "ground_truth_human": "The vegetative body of a fungus: a network of branching filaments called hyphae that grows through soil or other substrate and absorbs nutrients across its large surface area.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q13",
     "question": "What are the major phyla of the kingdom Fungi covered in the chapter?",
     "difficulty": "Standard",
-    "ground_truth": "Chytridiomycota (chytrids), Zygomycota, Glomeromycota, Ascomycota (sac fungi), and Basidiomycota (club fungi). OpenStax Ch. 24 organizes fungal classification around these five phyla.",
-    "failure_mode": null
+    "ground_truth": "The chapter covers five major (true) phyla of the kingdom Fungi: Chytridiomycota (chytrids), Zygomycota (conjugated fungi), Ascomycota (sac fungi), Basidiomycota (club fungi), and the recently described Glomeromycota. These phyla are classified based on their mode of sexual reproduction or on molecular data. A sixth group, the Deuteromycota (imperfect fungi), was once recognized as a 'form phylum' for fungi lacking a sexual cycle, but this practice has largely been discontinued.",
+    "failure_mode": null,
+    "ground_truth_human": "Chytridiomycota (chytrids), Zygomycota, Glomeromycota, Ascomycota (sac fungi), and Basidiomycota (club fungi). OpenStax Ch. 24 organizes fungal classification around these five phyla.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q14",
     "question": "What is the role of NADPH in photosynthesis?",
     "difficulty": "Standard",
-    "ground_truth": "NADPH is an electron carrier produced during the light-dependent reactions when ferredoxin transfers electrons to NADP+ via NADP+ reductase. In the Calvin cycle, NADPH (with ATP) donates the electrons that reduce 3-PGA to G3P during the reduction stage.",
-    "failure_mode": null
+    "ground_truth": "NADPH is an energy-rich electron carrier produced during the light-dependent reactions, where photosystem I reduces NADP+ to NADPH using high-energy electrons originally derived from the splitting of water. Along with ATP, NADPH carries this chemical energy (and reducing power in the form of electrons/hydrogen) to the Calvin cycle, where it is used in the reduction step to convert 3-PGA into G3P, building carbohydrate molecules from CO2. After donating its electrons, NADPH is converted back to NADP+ and returns to the light reactions to be re-reduced.",
+    "failure_mode": null,
+    "ground_truth_human": "NADPH is an electron carrier produced during the light-dependent reactions when ferredoxin transfers electrons to NADP+ via NADP+ reductase. In the Calvin cycle, NADPH (with ATP) donates the electrons that reduce 3-PGA to G3P during the reduction stage.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q15",
     "question": "How do fungi obtain nutrients?",
     "difficulty": "Standard",
-    "ground_truth": "Fungi are heterotrophs that feed by absorption. They secrete exoenzymes (cellulases, proteases, etc.) into the substrate to digest organic matter externally, then absorb the small resulting molecules across their cell walls and membranes.",
-    "failure_mode": null
+    "ground_truth": "Fungi are heterotrophs that obtain nutrients by absorption, using external (extracellular) digestion that precedes ingestion. They secrete exoenzymes into their surroundings to break down large, insoluble organic molecules into smaller ones, which are then absorbed across the large surface area of the hyphae/mycelium via membrane transport proteins. Many fungi are saprobes that feed on dead or decaying organic matter, while others obtain nutrients as parasites (using haustoria to penetrate hosts) or through mutualistic associations such as mycorrhizae.",
+    "failure_mode": null,
+    "ground_truth_human": "Fungi are heterotrophs that feed by absorption. They secrete exoenzymes (cellulases, proteases, etc.) into the substrate to digest organic matter externally, then absorb the small resulting molecules across their cell walls and membranes.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q16",
     "question": "Which molecule produced by the light-dependent reactions provides the reducing power needed during the reduction stage of the Calvin cycle?",
     "difficulty": "System Breaker",
-    "ground_truth": "NADPH. It is produced when ferredoxin transfers electrons to NADP+ during the light-dependent reactions, and is then consumed in the Calvin cycle's reduction stage to reduce 3-PGA to G3P (alongside ATP).",
-    "failure_mode": "intra-chapter multi-hop: must chain light-dependent-reaction product -> Calvin-cycle reduction without leaking into the cellular-respiration NADH/electron-transport subgraph (the Week-1 q3/q9 leakage pattern)"
+    "ground_truth": "NADPH provides the reducing power for the reduction stage of the Calvin cycle. Produced by the light-dependent reactions, NADPH supplies the high-energy electrons that reduce the 3-PGA molecules to glyceraldehyde-3-phosphate (G3P), while ATP supplies the energy.",
+    "failure_mode": "intra-chapter multi-hop: must chain light-dependent-reaction product -> Calvin-cycle reduction without leaking into the cellular-respiration NADH/electron-transport subgraph (the Week-1 q3/q9 leakage pattern)",
+    "ground_truth_human": "NADPH. It is produced when ferredoxin transfers electrons to NADP+ during the light-dependent reactions, and is then consumed in the Calvin cycle's reduction stage to reduce 3-PGA to G3P (alongside ATP).",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q17",
     "question": "Which process in photosynthesis produces oxygen but does NOT directly produce ATP?",
     "difficulty": "System Breaker",
-    "ground_truth": "Photolysis -- the splitting of water by the oxygen-evolving complex of Photosystem II. Photolysis cleaves H2O into electrons (sent to the ETC), protons (to the thylakoid lumen), and O2. ATP itself is produced downstream by ATP synthase via chemiosmosis, not by photolysis.",
-    "failure_mode": "constraint with negation + sub-process granularity: targets the Week-1 q9 pattern of pulling cellular-respiration ATP edges and tests whether the system distinguishes photolysis from the broader light-dependent reactions"
+    "ground_truth": "Oxygen is produced by the splitting (photolysis) of water at photosystem II during the light-dependent reactions. This water-splitting step itself releases O2 and supplies electrons and protons, but it does not directly make ATP; ATP is instead generated later by chemiosmosis (photophosphorylation) as protons flow through ATP synthase. Thus the photolysis of water produces oxygen without directly producing ATP.",
+    "failure_mode": "constraint with negation + sub-process granularity: targets the Week-1 q9 pattern of pulling cellular-respiration ATP edges and tests whether the system distinguishes photolysis from the broader light-dependent reactions",
+    "ground_truth_human": "Photolysis -- the splitting of water by the oxygen-evolving complex of Photosystem II. Photolysis cleaves H2O into electrons (sent to the ETC), protons (to the thylakoid lumen), and O2. ATP itself is produced downstream by ATP synthase via chemiosmosis, not by photolysis.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q18",
     "question": "What carbon-containing molecule produced by plants via the Calvin cycle becomes the energy source for symbiotic mycorrhizal fungi?",
     "difficulty": "System Breaker",
-    "ground_truth": "Sugars (G3P / glucose / sucrose). G3P leaves the Calvin cycle and is built into sugars by the plant; in a mycorrhizal symbiosis the plant root supplies these photosynthate sugars to the fungus in exchange for soil-derived water and minerals.",
-    "failure_mode": "cross-chapter multi-hop synthesis (Ch.8 -> Ch.24): targets the Week-1 q6 pattern where the LLM had to chain Calvin-cycle product -> plant biomass -> fungal nutrition; pre-W3A the chain was not captured by any single triple"
+    "ground_truth": "Carbohydrates (sugars) produced through photosynthesis by the Calvin cycle. In mycorrhizal associations, the plant supplies these photosynthetically produced carbohydrates as a carbon and energy source to fuel the fungus's metabolism, while the fungus provides the plant with water and minerals from the soil.",
+    "failure_mode": "cross-chapter multi-hop synthesis (Ch.8 -> Ch.24): targets the Week-1 q6 pattern where the LLM had to chain Calvin-cycle product -> plant biomass -> fungal nutrition; pre-W3A the chain was not captured by any single triple",
+    "ground_truth_human": "Sugars (G3P / glucose / sucrose). G3P leaves the Calvin cycle and is built into sugars by the plant; in a mycorrhizal symbiosis the plant root supplies these photosynthate sugars to the fungus in exchange for soil-derived water and minerals.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q19",
     "question": "What does 'reduction' mean in the context of the Calvin cycle?",
     "difficulty": "System Breaker",
-    "ground_truth": "Within the Calvin cycle 'reduction' is the second stage, where NADPH and ATP add electrons (and a phosphate) to 3-PGA, converting it into the higher-energy molecule G3P. A careful answer should qualify that 'reduction' generally means gain of electrons, but in this corpus refers specifically to the Calvin-cycle reduction stage.",
-    "failure_mode": "ambiguity within corpus: targets the Week-1 q8 pattern -- the term has a generic chemistry meaning AND a specific Calvin-cycle stage meaning; correct answer should qualify the scope"
+    "ground_truth": "In the Calvin cycle, 'reduction' refers to the second stage in which ATP and NADPH (from the light-dependent reactions) are used to convert the 3-carbon molecules of 3-PGA into glyceraldehyde 3-phosphate (G3P). This is a reduction reaction because 3-PGA gains electrons—reduction is defined as the gain of electrons by an atom or molecule—with NADPH supplying the electrons (and a hydrogen atom) and ATP providing energy.",
+    "failure_mode": "ambiguity within corpus: targets the Week-1 q8 pattern -- the term has a generic chemistry meaning AND a specific Calvin-cycle stage meaning; correct answer should qualify the scope",
+    "ground_truth_human": "Within the Calvin cycle 'reduction' is the second stage, where NADPH and ATP add electrons (and a phosphate) to 3-PGA, converting it into the higher-energy molecule G3P. A careful answer should qualify that 'reduction' generally means gain of electrons, but in this corpus refers specifically to the Calvin-cycle reduction stage.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q20",
     "question": "What is the function of mitochondria in eukaryotic cells?",
     "difficulty": "System Breaker",
-    "ground_truth": "Not covered in the ingested corpus. Mitochondria and cellular respiration are out of scope for Ch. 8 (photosynthesis) and Ch. 24 (fungi). A correct answer should refuse rather than fall back on the LLM's pretrained 'powerhouse of the cell' knowledge.",
-    "failure_mode": "out-of-corpus refusal on a topic the LLM definitely knows from pretraining: harder than q10 because mitochondria are mentioned in passing in the photosynthesis chapter (chloroplast/mitochondria comparisons), so the system must refuse despite tempting near-matches"
+    "ground_truth": "Mitochondria are organelles that supply the eukaryotic cell with chemical energy (in the form of ATP). They contain their own DNA and ribosomes and are believed to be remnants of an ancient symbiotic relationship in which a eukaryotic cell engulfed a prokaryote.",
+    "failure_mode": "out-of-corpus refusal on a topic the LLM definitely knows from pretraining: harder than q10 because mitochondria are mentioned in passing in the photosynthesis chapter (chloroplast/mitochondria comparisons), so the system must refuse despite tempting near-matches",
+    "ground_truth_human": "Not covered in the ingested corpus. Mitochondria and cellular respiration are out of scope for Ch. 8 (photosynthesis) and Ch. 24 (fungi). A correct answer should refuse rather than fall back on the LLM's pretrained 'powerhouse of the cell' knowledge.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q21",
     "question": "What is the primary function of DNA?",
     "difficulty": "Standard",
-    "ground_truth": "DNA encodes RNA; RNA encodes protein.",
-    "failure_mode": null
+    "ground_truth": "DNA's primary function is to store and transmit genetic information—it is the cell's hereditary material. It encodes the sequences of mRNAs, which in turn specify the amino acid sequences of proteins (the central dogma: DNA → RNA → protein), and these proteins carry out nearly every cellular function. DNA also replicates faithfully so that this genetic information can be passed on to daughter cells and offspring.",
+    "failure_mode": null,
+    "ground_truth_human": "DNA encodes RNA; RNA encodes protein.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q22",
     "question": "What is the primary function of RNA?",
     "difficulty": "Standard",
-    "ground_truth": "Convert genetic information from DNA into proteins.",
-    "failure_mode": null
+    "ground_truth": "The primary function of RNA is to serve as the intermediary that converts the genetic information stored in DNA into proteins. As described by the central dogma, messenger RNA (mRNA) carries a mobile copy of a gene's instructions to the ribosomes, where it is translated into a sequence of amino acids; other RNAs also participate directly in protein synthesis, with transfer RNAs (tRNAs) acting as adaptor molecules that match codons to amino acids and ribosomal RNAs (rRNAs) forming structural and functional components of the ribosome.",
+    "failure_mode": null,
+    "ground_truth_human": "Convert genetic information from DNA into proteins.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q23",
     "question": "What is CRISPR?",
     "difficulty": "System Breaker",
-    "ground_truth": "CRISPR is a genome-editing technology.",
-    "failure_mode": "out-of-corpus: CRISPR is covered in OpenStax Ch 17 (Biotechnology), not in ingested Ch 14/15. System should refuse."
+    "ground_truth": "CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) is a genome-editing technology derived from a natural prokaryotic immune system in which bacteria store fragments of viral DNA to recognize and destroy invading viruses. In the laboratory, the CRISPR-Cas9 system uses a guide RNA to direct the Cas9 endonuclease to a specific DNA sequence, where it makes a cut, allowing scientists to delete, insert, or edit genes with precision.",
+    "failure_mode": "out-of-corpus: CRISPR is covered in OpenStax Ch 17 (Biotechnology), not in ingested Ch 14/15. System should refuse.",
+    "ground_truth_human": "CRISPR is a genome-editing technology.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": false
   },
   {
     "id": "q24",
     "question": "How does protein synthesis work?",
     "difficulty": "Standard",
-    "ground_truth": "Protein synthesis creates proteins by transcribing information from the DNA, ultimately resulting in a protein.",
-    "failure_mode": null
+    "ground_truth": "Protein synthesis, or translation, decodes an mRNA message into a polypeptide and requires an mRNA template, ribosomes, tRNAs, and enzymatic factors. Because each set of three mRNA nucleotides (a codon) specifies one amino acid, tRNAs—each carrying a specific amino acid and bearing an anticodon that base-pairs with the corresponding codon—deliver amino acids to the ribosome, which catalyzes peptide bond formation between them. The process occurs in three phases: initiation (an initiator tRNA recognizes the start codon on the mRNA bound to the small ribosomal subunit, and the large subunit joins), elongation (successive tRNAs add their amino acids as the ribosome moves along the mRNA, building the polypeptide), and termination (a release factor enters the A site when a stop codon is reached, hydrolyzing the bond between the final amino acid and its tRNA to release the finished protein and disassemble the ribosome).",
+    "failure_mode": null,
+    "ground_truth_human": "Protein synthesis creates proteins by transcribing information from the DNA, ultimately resulting in a protein.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q25",
     "question": "What is a genome?",
     "difficulty": "Standard",
-    "ground_truth": "The complete set of genetic instructions found in a cell.",
-    "failure_mode": null
+    "ground_truth": "A genome is the complete set of genetic material (DNA) of an organism, comprising all of its genes along with non-coding sequences. Genes are composed of DNA and are arranged linearly on chromosomes; for example, the genome of the prokaryote E. coli is about 4.6 million base pairs in size.",
+    "failure_mode": null,
+    "ground_truth_human": "The complete set of genetic instructions found in a cell.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q26",
     "question": "How does RNA regulate gene expression?",
     "difficulty": "System Breaker",
-    "ground_truth": "RNA controls gene expression by inhibiting, degrading, or modifying the stability/accessibility of genetic information.",
-    "failure_mode": "multi-hop: gene-expression regulation by RNA spans transcription, splicing, and post-transcriptional control across Ch 15 sections."
+    "ground_truth": "RNA helps regulate gene expression at several levels. Small nuclear RNAs (snRNAs) participate in splicing pre-mRNAs and in regulating transcription factors, thereby influencing which mRNAs are produced. RNA sequences also act directly in processes such as RNA-based (rho-independent) transcription termination, where the nascent mRNA folds into a hairpin that stalls the polymerase. In addition, RNA-based mechanisms like RNA editing can alter transcripts depending on cellular conditions, and processing/regulatory elements (introns, untranslated regions, and added 5' caps and poly-A tails) affect mRNA stability, export, and the efficiency of expression. More broadly, regulatory RNAs (e.g., small RNAs) can modulate transcription, mRNA stability, and translation.",
+    "failure_mode": "multi-hop: gene-expression regulation by RNA spans transcription, splicing, and post-transcriptional control across Ch 15 sections.",
+    "ground_truth_human": "RNA controls gene expression by inhibiting, degrading, or modifying the stability/accessibility of genetic information.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q27",
     "question": "What are the differences between the codons in DNA and RNA?",
     "difficulty": "Standard",
-    "ground_truth": "DNA codons use thymine whereas RNA codons use uracil to pair with adenine.",
-    "failure_mode": null
+    "ground_truth": "Codons are three-nucleotide sequences (triplets) that specify amino acids, and they are read from mRNA, not DNA itself. The key chemical difference is that the mRNA codon uses the base uracil (U) wherever the DNA coding strand has thymine (T); otherwise the codon sequence matches the DNA coding (nontemplate) strand and is complementary to the template strand. Both molecules use A, C, and G, but DNA also contains the sugar deoxyribose while RNA contains ribose. For example, a DNA coding-strand triplet ATG corresponds to the mRNA codon AUG.",
+    "failure_mode": null,
+    "ground_truth_human": "DNA codons use thymine whereas RNA codons use uracil to pair with adenine.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q28",
     "question": "Why is RNA only a single helix?",
     "difficulty": "System Breaker",
-    "ground_truth": "Its extra hydroxyl group makes a double helix bulky and unstable.",
-    "failure_mode": "multi-hop chemistry inference: requires connecting the 2'-OH structural detail (Ch 14.2) to steric/stability consequences not stated as a single triple."
+    "ground_truth": "RNA is typically single-stranded because it is synthesized as a copy of only one DNA template strand, producing a single complementary strand rather than two paired strands. Although RNA can form local double-helical regions through intramolecular base pairing (as seen in the folded structures of tRNA and rRNA), it is not produced as a complementary pair of strands like DNA, so it generally exists as a single helix that folds back on itself rather than a continuous double helix.",
+    "failure_mode": "multi-hop chemistry inference: requires connecting the 2'-OH structural detail (Ch 14.2) to steric/stability consequences not stated as a single triple.",
+    "ground_truth_human": "Its extra hydroxyl group makes a double helix bulky and unstable.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q29",
     "question": "What is genetics?",
     "difficulty": "System Breaker",
-    "ground_truth": "The study of genes, heredity, and specific traits passed down from parents to offspring.",
-    "failure_mode": "broad/contextual: definition spans Mendelian inheritance (Ch 12) and molecular genetics (Ch 14-15); ingested chapters give partial coverage only."
+    "ground_truth": "Genetics is the branch of biology that studies heredity—the genes, genetic variation, and the transmission of inherited traits from one generation to the next. It examines genes, which are units of heredity composed of DNA arranged linearly on chromosomes, including how they are replicated, expressed (to direct the synthesis of RNA and proteins), and mutated.",
+    "failure_mode": "broad/contextual: definition spans Mendelian inheritance (Ch 12) and molecular genetics (Ch 14-15); ingested chapters give partial coverage only.",
+    "ground_truth_human": "The study of genes, heredity, and specific traits passed down from parents to offspring.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": false
   },
   {
     "id": "q30",
     "question": "How does CRISPR work?",
     "difficulty": "System Breaker",
-    "ground_truth": "It uses a guide RNA to lead a Cas9 enzyme to a specific DNA sequence.",
-    "failure_mode": "out-of-corpus: CRISPR mechanism is in Ch 17 (Biotechnology), not Ch 14/15. System should refuse."
+    "ground_truth": "CRISPR-Cas is a genome-editing system derived from a bacterial adaptive immune defense. A short guide RNA (gRNA), engineered to be complementary to a specific target DNA sequence, directs a Cas nuclease (commonly Cas9) to that matching site in the genome. The Cas9 enzyme then binds and cuts both strands of the DNA at the targeted location, creating a double-strand break. The cell's own repair machinery (such as non-homologous end joining or homology-directed repair) fixes the break, which can disrupt a gene or, if a donor DNA template is supplied, insert or correct a desired sequence.",
+    "failure_mode": "out-of-corpus: CRISPR mechanism is in Ch 17 (Biotechnology), not Ch 14/15. System should refuse.",
+    "ground_truth_human": "It uses a guide RNA to lead a Cas9 enzyme to a specific DNA sequence.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": false
   },
   {
     "id": "q31",
     "question": "What role does DNA polymerase play in DNA replication?",
     "difficulty": "Standard",
-    "ground_truth": "DNA polymerase synthesizes new DNA strands by adding nucleotides complementary to the template strand.",
-    "failure_mode": null
+    "ground_truth": "DNA polymerase is the key enzyme that synthesizes new DNA by adding nucleotides one-by-one to the 3'-OH end of a growing strand, in the 5' to 3' direction, making each new strand complementary to the template strand. The addition is powered by the high-energy nucleoside triphosphates (dATP, dGTP, dTTP, dCTP), whose phosphate bonds provide the energy to form the phosphodiester linkages. In prokaryotes, DNA pol III is the main enzyme that adds nucleotides, while DNA pol I removes RNA primers and fills the gaps with DNA. DNA polymerase also proofreads, using its 3' exonuclease activity to detect and remove incorrectly paired nucleotides before replacing them, which ensures replication accuracy.",
+    "failure_mode": null,
+    "ground_truth_human": "DNA polymerase synthesizes new DNA strands by adding nucleotides complementary to the template strand.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q32",
     "question": "What is the function of the ribosome?",
     "difficulty": "Standard",
-    "ground_truth": "The ribosome translates mRNA into protein by linking amino acids into a polypeptide chain.",
-    "failure_mode": null
+    "ground_truth": "The ribosome is the cellular machine responsible for translation—synthesizing proteins by reading the mRNA template and joining amino acids into a polypeptide chain. Composed of a small subunit (which binds the mRNA) and a large subunit (which sequentially binds tRNAs and contains the peptidyl transferase activity that forms peptide bonds), it reads the mRNA from 5' to 3' while building the polypeptide from its N-terminus to C-terminus.",
+    "failure_mode": null,
+    "ground_truth_human": "The ribosome translates mRNA into protein by linking amino acids into a polypeptide chain.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q33",
     "question": "What is a plasmid?",
     "difficulty": "System Breaker",
-    "ground_truth": "A plasmid is a small circular DNA molecule found in bacteria, often used as a vector in molecular cloning.",
-    "failure_mode": "out-of-corpus: plasmids/vectors are covered in Ch 17 (Biotechnology). System should refuse or recover only the 'small circular DNA' fragment if mentioned in passing."
+    "ground_truth": "A plasmid is a short, circular DNA molecule found in prokaryotes (separate from the main bacterial chromosome) that typically contains only one or a few genes. Plasmids can replicate and be transferred independently of the bacterial chromosome during cell division, and they often carry traits such as antibiotic resistance.",
+    "failure_mode": "out-of-corpus: plasmids/vectors are covered in Ch 17 (Biotechnology). System should refuse or recover only the 'small circular DNA' fragment if mentioned in passing.",
+    "ground_truth_human": "A plasmid is a small circular DNA molecule found in bacteria, often used as a vector in molecular cloning.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q34",
     "question": "What does telomerase do?",
     "difficulty": "Standard",
-    "ground_truth": "Telomerase extends the telomere regions at the ends of chromosomes, preventing their shortening during DNA replication.",
-    "failure_mode": null
+    "ground_truth": "Telomerase is an enzyme that adds repetitive DNA sequences (telomeres) to the ends of linear eukaryotic chromosomes, preventing their progressive shortening during DNA replication. It contains a catalytic protein component and a built-in RNA template; it attaches to the chromosome end and synthesizes DNA nucleotides complementary to its RNA template onto the 3' end, elongating the strand so that DNA polymerase can complete replication of the chromosome ends. Telomerase is typically active in germ cells, stem cells, and many cancer cells, but is not active in most adult somatic cells.",
+    "failure_mode": null,
+    "ground_truth_human": "Telomerase extends the telomere regions at the ends of chromosomes, preventing their shortening during DNA replication.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q35",
     "question": "What is the role of tRNA in translation?",
     "difficulty": "Standard",
-    "ground_truth": "tRNA carries specific amino acids to the ribosome and matches them to mRNA codons via its anticodon.",
-    "failure_mode": null
+    "ground_truth": "tRNA (transfer RNA) serves as the adaptor molecule that translates the genetic code from nucleic acid into protein. Each tRNA carries a specific amino acid at one end and has an anticodon at the other end that base-pairs with the complementary mRNA codon. As charged (aminoacyl) tRNAs enter the ribosome and recognize the codons in sequence, they deliver their amino acids in the correct order, allowing the amino acid to be added via peptide bond to the growing polypeptide chain. Thus tRNAs are the molecules that actually convert the language of RNA into the language of proteins.",
+    "failure_mode": null,
+    "ground_truth_human": "tRNA carries specific amino acids to the ribosome and matches them to mRNA codons via its anticodon.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q36",
     "question": "How do prokaryotic and eukaryotic DNA replication differ?",
     "difficulty": "System Breaker",
-    "ground_truth": "Prokaryotes have a single origin of replication on their circular chromosome, while eukaryotes have multiple origins on linear chromosomes and must also replicate telomeres.",
-    "failure_mode": "cross-section comparison: requires synthesizing facts from Ch 14.4 (prokaryotic) and Ch 14.5 (eukaryotic) into a contrast structure."
+    "ground_truth": "Although the essential steps are the same, prokaryotic and eukaryotic DNA replication differ in several ways. Prokaryotes have a single origin of replication on a circular chromosome, whereas eukaryotes have multiple origins on multiple linear chromosomes. Prokaryotic replication is faster (~1000 nucleotides/second) than eukaryotic replication (~50–100 nucleotides/second), partly because eukaryotic DNA is packaged with histones that must be removed and replaced. Prokaryotes use about 5 DNA polymerases (with DNA pol III for elongation and DNA pol I for RNA primer removal), while eukaryotes use about 14 polymerases (pol α, δ, and ε for replication, RNase H for primer removal); additionally, eukaryotes possess telomerase to replicate chromosome ends, which prokaryotes lack.",
+    "failure_mode": "cross-section comparison: requires synthesizing facts from Ch 14.4 (prokaryotic) and Ch 14.5 (eukaryotic) into a contrast structure.",
+    "ground_truth_human": "Prokaryotes have a single origin of replication on their circular chromosome, while eukaryotes have multiple origins on linear chromosomes and must also replicate telomeres.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q37",
     "question": "Why do mutations in DNA polymerase proofreading lead to cancer?",
     "difficulty": "System Breaker",
-    "ground_truth": "Without proofreading, replication errors accumulate, causing mutations in genes that control cell growth, which can lead to uncontrolled cell division and cancer.",
-    "failure_mode": "causal chain across topics: replication fidelity (Ch 14.4) -> mutation accumulation (Ch 14.6) -> oncogenesis (mostly Ch 18, only mentioned briefly)."
+    "ground_truth": "DNA polymerase's proofreading function (its 3' exonuclease activity) normally detects and removes incorrectly paired bases during replication, keeping replication highly accurate. If proofreading is defective, these errors go uncorrected and become permanent mutations once the DNA is replicated. As mutations accumulate in somatic cells—including in genes controlling cell division—they can lead to the uncontrolled cell division characteristic of cancer.",
+    "failure_mode": "causal chain across topics: replication fidelity (Ch 14.4) -> mutation accumulation (Ch 14.6) -> oncogenesis (mostly Ch 18, only mentioned briefly).",
+    "ground_truth_human": "Without proofreading, replication errors accumulate, causing mutations in genes that control cell growth, which can lead to uncontrolled cell division and cancer.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q38",
     "question": "Explain the relationship between introns, exons, and alternative splicing in eukaryotic gene expression.",
     "difficulty": "System Breaker",
-    "ground_truth": "Eukaryotic genes contain introns (non-coding) and exons (coding). During RNA processing, introns are removed and exons can be joined in different combinations via alternative splicing, allowing one gene to produce multiple protein variants.",
-    "failure_mode": "multi-concept synthesis within Ch 15.4: tests whether the system links splicing mechanism to gene-product diversity."
+    "ground_truth": "In eukaryotic genes, exons are the protein-coding sequences ('expressed') while introns are intervening, noncoding sequences that interrupt the exons in the pre-mRNA. During RNA processing, spliceosomes (complexes of proteins and small nuclear RNAs) precisely recognize the intron boundaries (GU at the 5' end and AG at the 3' end) and remove the introns, rejoining the exons with single-nucleotide accuracy to form a translatable mRNA. Alternative splicing exploits this process by joining different combinations of exons from the same pre-mRNA, allowing a single gene to produce multiple distinct mRNAs and proteins, which greatly expands the diversity of gene products.",
+    "failure_mode": "multi-concept synthesis within Ch 15.4: tests whether the system links splicing mechanism to gene-product diversity.",
+    "ground_truth_human": "Eukaryotic genes contain introns (non-coding) and exons (coding). During RNA processing, introns are removed and exons can be joined in different combinations via alternative splicing, allowing one gene to produce multiple protein variants.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q39",
     "question": "What experimental evidence proved that DNA is the genetic material rather than protein?",
     "difficulty": "System Breaker",
-    "ground_truth": "The Hershey-Chase experiment used bacteriophage T2 with radioactive phosphorus (32P) labeling DNA and radioactive sulfur (35S) labeling protein. Only 32P entered bacterial cells, proving DNA carries genetic information.",
-    "failure_mode": "historical/experimental detail (Ch 14.1): tests whether the retrieval surfaces the specific labeling experiment rather than a generic 'DNA is the genetic material' answer."
+    "ground_truth": "The decisive proof came from the 1952 Hershey-Chase experiment using bacteriophages, whose only components are a protein coat and a DNA core. They labeled phage protein with radioactive sulfur (35S) and phage DNA with radioactive phosphorus (32P), then allowed the phages to infect bacteria. Only the 32P (DNA) entered the bacterial cells and directed production of new phage, while the 35S-labeled protein remained outside, demonstrating that DNA, not protein, is the genetic material. This built upon earlier evidence from Avery, MacLeod, and McCarty, who showed that destroying DNA (but not RNA or protein) eliminated the ability to transform bacteria, identifying DNA as Griffith's 'transforming principle.'",
+    "failure_mode": "historical/experimental detail (Ch 14.1): tests whether the retrieval surfaces the specific labeling experiment rather than a generic 'DNA is the genetic material' answer.",
+    "ground_truth_human": "The Hershey-Chase experiment used bacteriophage T2 with radioactive phosphorus (32P) labeling DNA and radioactive sulfur (35S) labeling protein. Only 32P entered bacterial cells, proving DNA carries genetic information.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": true
   },
   {
     "id": "q40",
     "question": "How does the wobble hypothesis explain codon degeneracy?",
     "difficulty": "System Breaker",
-    "ground_truth": "The wobble hypothesis states that the third base of a codon can form non-standard base pairs with the anticodon of tRNA, allowing a single tRNA to recognize multiple codons that code for the same amino acid.",
-    "failure_mode": "specific named hypothesis (Ch 15.1): tests precision of retrieval on a named concept that may or may not appear verbatim in ingested chunks."
+    "ground_truth": "The wobble hypothesis explains codon degeneracy by proposing that the base pairing between the third (3') nucleotide of the mRNA codon and the corresponding first (5') nucleotide of the tRNA anticodon is less stringent ('wobbles') than standard Watson-Crick pairing. This flexibility allows a single tRNA to recognize multiple codons that differ only in their third base, so several synonymous codons can specify the same amino acid—accounting for why most amino acids are encoded by more than one codon and why third-position substitutions are often silent.",
+    "failure_mode": "specific named hypothesis (Ch 15.1): tests precision of retrieval on a named concept that may or may not appear verbatim in ingested chunks.",
+    "ground_truth_human": "The wobble hypothesis states that the third base of a codon can form non-standard base pairs with the anticodon of tRNA, allowing a single tRNA to recognize multiple codons that code for the same amino acid.",
+    "ground_truth_model": "anthropic/claude-opus-4.8",
+    "ground_truth_grounded": false
   }
 ]

@@ -67,25 +67,54 @@ def parse_llm_json(raw_content: str) -> dict[str, Any]:
         if lines and lines[-1].strip() == "```":
             lines = lines[:-1]
         content = "\n".join(lines).strip()
-    # Strip prose around the JSON object if any
+
+    def _try_load(text: str) -> dict[str, Any] | None:
+        """Parse `text` as JSON, returning it only if it's a JSON object.
+
+        A bare JSON array (or scalar) is not a valid payload here -- returning
+        it would crash the `.get("answer")` callers -- so treat it as a miss
+        and let the regex recovery below extract whatever fields it can.
+        """
+        try:
+            value = json.loads(text)
+        except json.JSONDecodeError:
+            return None
+        return value if isinstance(value, dict) else None
+
+    # Attempt 1: parse as-is (handles clean responses, and detects bare arrays).
+    parsed = _try_load(content)
+    if parsed is not None:
+        return parsed
+
+    # Attempt 2: strip prose around the outermost braces, drop trailing commas.
     first = content.find("{")
     last = content.rfind("}")
-    if first > 0 or (last >= 0 and last < len(content) - 1):
-        if first >= 0 and last > first:
-            content = content[first : last + 1]
-    # Drop trailing commas before } or ]
-    content = re.sub(r",(\s*[}\]])", r"\1", content)
-    try:
-        return json.loads(content)
-    except json.JSONDecodeError:
-        pass
+    if first >= 0 and last > first:
+        sliced = re.sub(r",(\s*[}\]])", r"\1", content[first : last + 1])
+        parsed = _try_load(sliced)
+        if parsed is not None:
+            return parsed
     # Fallback: pull out any complete top-level "field": "value" pairs we can
     # find with a tolerant regex. Better than total failure on a truncated
     # response — the answer or reasoning string may be intact even if the
     # outer object is unterminated.
     recovered: dict[str, Any] = {}
+
+    def _unescape(raw: str) -> str:
+        """Decode a captured JSON string body without corrupting UTF-8.
+
+        ``str.encode().decode("unicode_escape")`` would re-interpret multi-byte
+        UTF-8 (e.g. 'β') as latin-1 and mojibake it. Re-wrapping in quotes and
+        letting ``json.loads`` decode handles \\uXXXX / \\n / \\" correctly and
+        preserves non-ASCII characters.
+        """
+        try:
+            return json.loads(f'"{raw}"')
+        except json.JSONDecodeError:
+            return raw
+
     for m in re.finditer(r'"(question|answer|reasoning)"\s*:\s*"((?:[^"\\]|\\.)*)"', content):
-        recovered[m.group(1)] = m.group(2).encode().decode("unicode_escape", errors="replace")
+        recovered[m.group(1)] = _unescape(m.group(2))
     citations_match = re.search(
         r'"citations"\s*:\s*\[(.*?)\]', content, re.DOTALL
     )
@@ -186,6 +215,7 @@ def call_openrouter(
     max_retries: int = 3,
     temperature: float = 0.0,
     max_tokens: int = 768,
+    system_prompt: str = SYSTEM_PROMPT,
 ) -> dict[str, Any]:
     """Call OpenRouter and return the parsed API response.
 
@@ -212,7 +242,7 @@ def call_openrouter(
                 "temperature": temperature,
                 "max_tokens": max_tokens,
                 "messages": [
-                    {"role": "system", "content": SYSTEM_PROMPT},
+                    {"role": "system", "content": system_prompt},
                     {"role": "user", "content": prompt},
                 ],
             },

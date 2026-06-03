@@ -7,13 +7,19 @@ a candidate set, we score each (query, chunk_text) pair with a cross-encoder
 and return the top-k by relevance.
 
 Activated by setting USE_RERANKER=1 in the environment. The model defaults
-to cross-encoder/ms-marco-MiniLM-L-6-v2 (~80MB, CPU-fast); override with
-RERANKER_MODEL.
+to BAAI/bge-reranker-v2-m3; override with RERANKER_MODEL.
+
+Reranker-model history (Assignment #9 -> #10): the original default,
+cross-encoder/ms-marco-MiniLM-L-6-v2 (~80MB, web-search-trained), *lowered*
+context_precision because it rewards lexical overlap with question entities.
+The A10 experiment matrix showed BAAI/bge-reranker-v2-m3 raises aggregate
+context_precision (0.592 -> 0.616) while also lifting context_recall and
+faithfulness, so it is now the default reranker.
 """
 
 import os
 
-_DEFAULT_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
+_DEFAULT_MODEL = "BAAI/bge-reranker-v2-m3"
 _MODEL = None
 
 
