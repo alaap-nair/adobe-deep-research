@@ -1,0 +1,10 @@
+{
+  "question": "What does fixation mean in biology?",
+  "answer": "carbon fixation",
+  "citations": [
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:0 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | 8.3 Using Light Energy to Make Organic Molecules Learning Objectives By the end of this section, you will be able to...",
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:4 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules 1/8 Figure 8.18 Light re...",
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:5 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration. Stage 1: Fixation I..."
+  ],
+  "reasoning": "Matched entities: carbon fixation. Traversed graph edges: rubisco --[catalyzes]--> carbon fixation; rubisco --[catalyzes]--> reaction between co2 and rubp; rubisco --[catalyzes]--> formation of 3-pga. Graph evidence: \"RuBisCO catalyzes a reaction between CO2 and RuBP. For each CO2 molecule that reacts with one RuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form.\". The context mentions 'carbon fixation' as a term to be defined in the section about using light energy to make organic molecules, which is a biological process."
+}

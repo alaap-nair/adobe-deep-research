@@ -1,0 +1,8 @@
+{
+  "question": "What is the role of nitrogen-fixing bacteria in the nitrogen cycle?",
+  "answer": "Nitrogen-fixing bacteria convert atmospheric nitrogen into a usable form for plants.",
+  "citations": [
+    "chunk:24_5_importance_of_fungi_in_human_life_biology_2e_openstax:1 | data/24.5 Importance of Fungi in Human Life - Biology 2e _ OpenStax.pdf | they are part of the nutrient cycle in ecosystems. They have other ecosystem roles as well. As animal pathogens, fung..."
+  ],
+  "reasoning": "Matched entities: bacterial transformation, calvin cycle, nitrogenous bases. Traversed graph edges: Frederick Griffith --[reported]--> bacterial transformation; Frederick Griffith --[conducted experiments with]--> Streptococcus pneumoniae; Frederick Griffith --[concluded]--> transforming principle. Graph evidence: \"British bacteriologist Frederick Griffith reported the first demonstration of bacterial transformation—a process in which external DNA is taken up by a cell, thereby changing its morphology and physiology.\". The provided text states that bacteria are part of the nutrient cycle in ecosystems."
+}

@@ -1,0 +1,9 @@
+{
+  "question": "How does protein synthesis work?",
+  "answer": "Protein synthesis, or translation, involves the decoding of an mRNA message into a polypeptide product. Amino acids are covalently strung together by interlinking peptide bonds, catalyzed by ribosomes, to form polypeptides ranging from approximately 50 to more than 1000 amino acid residues. The process requires the input of an mRNA template, ribosomes, tRNAs, and various enzymatic factors.",
+  "citations": [
+    "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:2 | 15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt | perform virtually every function of a cell. The process of translation, or protein synthesis, involves the decoding o...",
+    "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:4 | 15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt | on the organism. However, the general structures and functions of the protein synthesis machinery are comparable from..."
+  ],
+  "reasoning": "Matched entities: protein, protein synthesis. Traversed graph edges: DNA --[is the genetic material]--> protein; Oswald Avery --[used enzymes to degrade]--> DNA; DNA --[consists of]--> nucleotides. Graph evidence: \"Only 32P entered the bacterial cells, indicating that DNA is the genetic material.\". The answer is derived from the provided chunks that describe the process of protein synthesis, including the role of mRNA, ribosomes, tRNAs, and the formation of peptide bonds."
+}

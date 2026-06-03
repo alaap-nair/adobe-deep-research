@@ -1,0 +1,9 @@
+{
+  "question": "How does RNA regulate gene expression?",
+  "answer": "RNA regulates gene expression through various mechanisms, including acting as a messenger RNA (mRNA) that carries genetic information from DNA to ribosomes for protein synthesis, and through small nuclear RNAs (snRNAs) that assist in splicing pre-mRNA.",
+  "citations": [
+    "chunk:15_2_prokaryotic_transcription_biology_2e_openstax:14 | 15.2 Prokaryotic Transcription - Biology 2e _ OpenStax.txt | and RNA is not stable enough to maintain the stability of the mRNA synthesis components. Instead, the RNA polymerase...",
+    "chunk:15_2_prokaryotic_transcription_biology_2e_openstax:15 | 15.2 Prokaryotic Transcription - Biology 2e _ OpenStax.txt | on the growing mRNA chain. Near the end of the gene, the polymerase encounters a run of G nucleotides on the DNA temp..."
+  ],
+  "reasoning": "Matched entities: rna, mutations in repair genes. Traversed graph edges: RNA --[contains]--> ribose; DNA --[is copied to]--> RNA; Oswald Avery --[used enzymes to degrade]--> DNA. Graph evidence: \"The sugar is deoxyribose in DNA and ribose in RNA.\". The answer is based on the mechanisms described in the retrieved chunks, where RNA acts as mRNA for protein synthesis and snRNAs assist in splicing pre-mRNA, which are key processes in gene expression regulation."
+}

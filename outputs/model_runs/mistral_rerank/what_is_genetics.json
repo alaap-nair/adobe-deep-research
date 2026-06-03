@@ -1,0 +1,10 @@
+{
+  "question": "What is genetics?",
+  "answer": "Genetics is the study of genes and heredity. Genes are composed of DNA and specify the sequences of amino acids, which are the building blocks of proteins.",
+  "citations": [
+    "chunk:15_1_the_genetic_code_biology_2e_openstax:0 | 15.1 The Genetic Code - Biology 2e _ OpenStax.txt | INTRODUCTION CHAPTER 15 Genes and Proteins 15.1 The Genetic Code 15.2 Prokaryotic Transcription 15.3 Eukaryotic Trans...",
+    "triple:e8c3f9710a352d28 | genes --[are composed of]--> DNA",
+    "triple:3ef314a0a3e8fb1d | genes --[specify the sequences of]--> amino acids"
+  ],
+  "reasoning": "Matched entities: modern genetics. Traversed graph edges: genes --[are composed of]--> DNA; Neurospora crassa --[achieved advances in]--> modern genetics; genes --[specify the sequences of]--> amino acids. Graph evidence: \"Genes are composed of DNA and are linearly arranged on chromosomes.\". The context defines genes as molecular entities composed of DNA that specify amino acid sequences, which are essential for proteins. This information is central to the study of genetics."
+}

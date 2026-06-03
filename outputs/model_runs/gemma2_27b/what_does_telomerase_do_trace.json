@@ -1,0 +1,335 @@
+{
+  "question": "What does telomerase do?",
+  "generated_at": "2026-05-01T07:04:22.449563+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "telomerase"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:telomerase",
+          "name": "telomerase",
+          "matched_text": "telomerase",
+          "matched_alias": "telomerase",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:active_telomerase",
+          "name": "active telomerase",
+          "matched_text": "What does telomerase do?",
+          "matched_alias": "active telomerase",
+          "score": 0.7863,
+          "match_type": "semantic"
+        },
+        {
+          "entity_id": "ent:telomerase_reactivation",
+          "name": "telomerase reactivation",
+          "matched_text": "What does telomerase do?",
+          "matched_alias": "telomerase reactivation",
+          "score": 0.7474,
+          "match_type": "semantic"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:14_6_dna_repair_biology_2e_openstax:0",
+          "text": "Telomerase and Aging\nCells that undergo cell division continue to have their telomeres shortened because most somatic cells do not make\ntelomerase. This essentially means that telomere shortening is associated with aging. With the advent of modern\nmedicine, preventative health care, and healthier lifestyles, the human life span has increased, and there is an\nincreasing demand for people to look younger and have a better quality of life as they grow older. In 2010, scientists found that telomerase can reverse some age-related conditions in mice.",
+          "source_name": "14.6 DNA Repair - Biology 2e _ OpenStax.txt",
+          "chunk_index": 0,
+          "snippet": "Telomerase and Aging\nCells that undergo cell division continue to have their telomeres shortened because most somatic cells do not make\ntelomerase. This essentially means that telomere shortening is associated with aging. With the advent of modern\nmedicine, preventative health care, and healthier lifestyles, the human life span has increased, and there is an\nincreasing demand for people to look yo",
+          "score": 0.7661267871636456
+        },
+        {
+          "chunk_id": "chunk:14_6_dna_repair_biology_2e_openstax:1",
+          "text": "older. In 2010, scientists found that telomerase can reverse some age-related conditions in mice.\n\nThis may have potential\nin regenerative medicine.2 Telomerase-deficient mice were used in these studies; these mice have tissue atrophy,\nstem cell depletion, organ system failure, and impaired tissue injury responses. Telomerase reactivation in these\nmice caused extension of telomeres, reduced DNA damage, reversed neurodegeneration, and improved the function\nof the testes, spleen, and intestines. Thus, telomere reactivation may have potential for treating age-related\ndiseases in humans. Cancer is characterized by uncontrolled cell division of abnormal cells.",
+          "source_name": "14.6 DNA Repair - Biology 2e _ OpenStax.txt",
+          "chunk_index": 1,
+          "snippet": "older. In 2010, scientists found that telomerase can reverse some age-related conditions in mice.\n\nThis may have potential\nin regenerative medicine.2 Telomerase-deficient mice were used in these studies; these mice have tissue atrophy,\nstem cell depletion, organ system failure, and impaired tissue injury responses. Telomerase reactivation in these\nmice caused extension of telomeres, reduced DNA da",
+          "score": 0.7480416124893589
+        },
+        {
+          "chunk_id": "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:9",
+          "text": "are\nreplicated. 14.5 • DNA Replication in Eukaryotes\n379\n\nFIGURE 14.15 The ends of linear chromosomes are maintained by the action of the telomerase enzyme. Credit: Rao, A. and Fletcher, S. Department of Biology, Texas A&M University. Telomerase is typically active in germ cells and adult stem cells. It is not active in adult somatic cells. For their\ndiscovery of telomerase and its action, Elizabeth Blackburn, Carol W. Greider, and Jack W. Szostak (Figure 14.16)\nreceived the Nobel Prize for Medicine and Physiology in 2009. Later research using HeLa cells (obtained from\nHenrietta Lacks) confirmed that telomerase is present in human cells. And in 2001, researchers including Diane L.",
+          "source_name": "14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 9,
+          "snippet": "are\nreplicated. 14.5 • DNA Replication in Eukaryotes\n379\n\nFIGURE 14.15 The ends of linear chromosomes are maintained by the action of the telomerase enzyme. Credit: Rao, A. and Fletcher, S. Department of Biology, Texas A&M University. Telomerase is typically active in germ cells and adult stem cells. It is not active in adult somatic cells. For their\ndiscovery of telomerase and its action, Elizabe",
+          "score": 0.7371634164421433
+        },
+        {
+          "chunk_id": "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:8",
+          "text": "as cells continue to divide.\n\nThe telomeres are added to the ends of chromosomes by a separate\nenzyme, telomerase (Figure 14.16), whose discovery helped in the understanding of how these repetitive\nchromosome ends are maintained. The telomerase enzyme contains a catalytic part and a built-in RNA template. It\nattaches to the end of the chromosome, and DNA nucleotides complementary to the RNA template are added on the\n3' end of the DNA strand. Once the 3' end of the lagging strand template is sufficiently elongated, DNA polymerase\ncan add the nucleotides complementary to the ends of the chromosomes. Thus, the ends of the chromosomes are\nreplicated. 14.5 • DNA Replication in Eukaryotes\n379",
+          "source_name": "14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 8,
+          "snippet": "as cells continue to divide.\n\nThe telomeres are added to the ends of chromosomes by a separate\nenzyme, telomerase (Figure 14.16), whose discovery helped in the understanding of how these repetitive\nchromosome ends are maintained. The telomerase enzyme contains a catalytic part and a built-in RNA template. It\nattaches to the end of the chromosome, and DNA nucleotides complementary to the RNA templa",
+          "score": 0.7323746325068199
+        },
+        {
+          "chunk_id": "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:10",
+          "text": "confirmed that telomerase is present in human cells. And in 2001, researchers including Diane L.\n\nWright found that telomerase is necessary for cells in human embryos to rapidly proliferate. FIGURE 14.16 Elizabeth Blackburn, 2009 Nobel Laureate, is one of the scientists who discovered how telomerase works. (credit: US\nEmbassy Sweden)\n380\n14 • DNA Structure and Function\nAccess for free at openstax.org",
+          "source_name": "14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 10,
+          "snippet": "confirmed that telomerase is present in human cells. And in 2001, researchers including Diane L.\n\nWright found that telomerase is necessary for cells in human embryos to rapidly proliferate. FIGURE 14.16 Elizabeth Blackburn, 2009 Nobel Laureate, is one of the scientists who discovered how telomerase works. (credit: US\nEmbassy Sweden)\n380\n14 • DNA Structure and Function\nAccess for free at openstax.",
+          "score": 0.7201175973627152
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:9b017839f9d4a263",
+          "head_entity_id": "ent:telomerase",
+          "tail_entity_id": "ent:rna_template",
+          "relation": "contains",
+          "evidence": "The telomerase enzyme contains a catalytic part and a built-in RNA template.",
+          "head_name": "telomerase",
+          "tail_name": "RNA template",
+          "score": 0.7687606112750407
+        },
+        {
+          "triple_id": "triple:7df158731c34378a",
+          "head_entity_id": "ent:telomerase",
+          "tail_entity_id": "ent:germ_cells_and_adult_stem_cells",
+          "relation": "is active in",
+          "evidence": "Telomerase is typically active in germ cells and adult stem cells.",
+          "head_name": "telomerase",
+          "tail_name": "germ cells and adult stem cells",
+          "score": 0.766284413313181
+        },
+        {
+          "triple_id": "triple:6295121c00d1ac78",
+          "head_entity_id": "ent:telomerase",
+          "tail_entity_id": "ent:age-related_conditions",
+          "relation": "reverses",
+          "evidence": "In 2010, scientists found that telomerase can reverse some age-related conditions in mice.",
+          "head_name": "telomerase",
+          "tail_name": "age-related conditions",
+          "score": 0.7358315960198023
+        },
+        {
+          "triple_id": "triple:a05414325fa58407",
+          "head_entity_id": "ent:telomerase",
+          "tail_entity_id": "ent:telomeres",
+          "relation": "adds",
+          "evidence": "The telomeres are added to the ends of chromosomes by a separate enzyme, telomerase.",
+          "head_name": "telomerase",
+          "tail_name": "telomeres",
+          "score": 0.7237761555109599
+        },
+        {
+          "triple_id": "triple:6b8a6a76b49a9da0",
+          "head_entity_id": "ent:cancerous_cells",
+          "tail_entity_id": "ent:active_telomerase",
+          "relation": "have",
+          "evidence": "Scientists have observed that cancerous cells have considerably shortened telomeres and that telomerase is active in these cells.",
+          "head_name": "cancerous cells",
+          "tail_name": "active telomerase",
+          "score": 0.7190932047815382
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:telomerase",
+        "ent:active_telomerase",
+        "ent:telomerase_reactivation",
+        "ent:rna_template",
+        "ent:germ_cells_and_adult_stem_cells",
+        "ent:age-related_conditions",
+        "ent:telomeres",
+        "ent:cancerous_cells"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "telomerase",
+          "entity_id": "ent:telomerase",
+          "original_names": [
+            "telomerase"
+          ]
+        },
+        {
+          "name": "germ cells and adult stem cells",
+          "entity_id": "ent:germ_cells_and_adult_stem_cells",
+          "original_names": [
+            "germ cells and adult stem cells"
+          ]
+        },
+        {
+          "name": "telomeres",
+          "entity_id": "ent:telomeres",
+          "original_names": [
+            "telomeres"
+          ]
+        },
+        {
+          "name": "rna template",
+          "entity_id": "ent:rna_template",
+          "original_names": [
+            "RNA template"
+          ]
+        },
+        {
+          "name": "age-related conditions",
+          "entity_id": "ent:age-related_conditions",
+          "original_names": [
+            "age-related conditions"
+          ]
+        },
+        {
+          "name": "active telomerase",
+          "entity_id": "ent:active_telomerase",
+          "original_names": [
+            "active telomerase"
+          ]
+        },
+        {
+          "name": "cancerous cells",
+          "entity_id": "ent:cancerous_cells",
+          "original_names": [
+            "cancerous cells"
+          ]
+        },
+        {
+          "name": "shortened telomeres",
+          "entity_id": "ent:shortened_telomeres",
+          "original_names": [
+            "shortened telomeres"
+          ]
+        },
+        {
+          "name": "telomerase reactivation",
+          "entity_id": "ent:telomerase_reactivation",
+          "original_names": [
+            "telomerase reactivation"
+          ]
+        },
+        {
+          "name": "reduced dna damage",
+          "entity_id": "ent:reduced_dna_damage",
+          "original_names": [
+            "reduced DNA damage"
+          ]
+        },
+        {
+          "name": "extension of telomeres",
+          "entity_id": "ent:extension_of_telomeres",
+          "original_names": [
+            "extension of telomeres"
+          ]
+        },
+        {
+          "name": "improved function of the testes",
+          "entity_id": "ent:improved_function_of_the_testes",
+          "original_names": [
+            "improved function of the testes"
+          ]
+        },
+        {
+          "name": "improved function of the spleen",
+          "entity_id": "ent:improved_function_of_the_spleen",
+          "original_names": [
+            "improved function of the spleen"
+          ]
+        },
+        {
+          "name": "improved function of the intestines",
+          "entity_id": "ent:improved_function_of_the_intestines",
+          "original_names": [
+            "improved function of the intestines"
+          ]
+        },
+        {
+          "name": "reversed neurodegeneration",
+          "entity_id": "ent:reversed_neurodegeneration",
+          "original_names": [
+            "reversed neurodegeneration"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:germ_cells_and_adult_stem_cells",
+          "evidence": "Telomerase is typically active in germ cells and adult stem cells.",
+          "target_name": "germ cells and adult stem cells",
+          "source_entity_id": "ent:telomerase",
+          "triple_id": "triple:7df158731c34378a",
+          "source_name": "telomerase",
+          "relation": "is active in"
+        },
+        {
+          "target_entity_id": "ent:telomeres",
+          "evidence": "The telomeres are added to the ends of chromosomes by a separate enzyme, telomerase.",
+          "target_name": "telomeres",
+          "source_entity_id": "ent:telomerase",
+          "triple_id": "triple:a05414325fa58407",
+          "source_name": "telomerase",
+          "relation": "adds"
+        },
+        {
+          "target_entity_id": "ent:rna_template",
+          "evidence": "The telomerase enzyme contains a catalytic part and a built-in RNA template.",
+          "target_name": "RNA template",
+          "source_entity_id": "ent:telomerase",
+          "triple_id": "triple:9b017839f9d4a263",
+          "source_name": "telomerase",
+          "relation": "contains"
+        },
+        {
+          "target_entity_id": "ent:age-related_conditions",
+          "evidence": "In 2010, scientists found that telomerase can reverse some age-related conditions in mice.",
+          "target_name": "age-related conditions",
+          "source_entity_id": "ent:telomerase",
+          "triple_id": "triple:6295121c00d1ac78",
+          "source_name": "telomerase",
+          "relation": "reverses"
+        },
+        {
+          "target_entity_id": "ent:active_telomerase",
+          "evidence": "Scientists have observed that cancerous cells have considerably shortened telomeres and that telomerase is active in these cells.",
+          "target_name": "active telomerase",
+          "source_entity_id": "ent:cancerous_cells",
+          "triple_id": "triple:6b8a6a76b49a9da0",
+          "source_name": "cancerous cells",
+          "relation": "have"
+        },
+        {
+          "target_entity_id": "ent:shortened_telomeres",
+          "evidence": "Scientists have observed that cancerous cells have considerably shortened telomeres and that telomerase is active in these cells.",
+          "target_name": "shortened telomeres",
+          "source_entity_id": "ent:cancerous_cells",
+          "triple_id": "triple:87cba1cd6e6ad0d2",
+          "source_name": "cancerous cells",
+          "relation": "have"
+        },
+        {
+          "target_entity_id": "ent:reduced_dna_damage",
+          "evidence": "Telomerase reactivation in these mice caused extension of telomeres, reduced DNA damage, reversed neurodegeneration, and improved the function of the testes, spleen, and intestines.",
+          "target_name": "reduced DNA damage",
+          "source_entity_id": "ent:telomerase_reactivation",
+          "triple_id": "triple:2b2126352964980e",
+          "source_name": "telomerase reactivation",
+          "relation": "causes"
+        },
+        {
+          "target_entity_id": "ent:extension_of_telomeres",
+          "evidence": "Telomerase reactivation in these mice caused extension of telomeres, reduced DNA damage, reversed neurodegeneration, and improved the function of the testes, spleen, and intestines.",
+          "target_name": "extension of telomeres",
+          "source_entity_id": "ent:telomerase_reactivation",
+          "triple_id": "triple:ac3704f1289cd863",
+          "source_name": "telomerase reactivation",
+          "relation": "causes"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What does telomerase do?",
+    "answer": "Telomerase adds telomeres to the ends of chromosomes.",
+    "citations": [
+      "chunk:14_6_dna_repair_biology_2e_openstax:0 | 14.6 DNA Repair - Biology 2e _ OpenStax.txt | Telomerase and Aging Cells that undergo cell division continue to have their telomeres shortened because most somatic...",
+      "chunk:14_6_dna_repair_biology_2e_openstax:1 | 14.6 DNA Repair - Biology 2e _ OpenStax.txt | older. In 2010, scientists found that telomerase can reverse some age-related conditions in mice. This may have poten..."
+    ],
+    "reasoning": "Matched entities: telomerase. Traversed graph edges: telomerase --[is active in]--> germ cells and adult stem cells; telomerase --[adds]--> telomeres; telomerase --[contains]--> RNA template. Graph evidence: \"Telomerase is typically active in germ cells and adult stem cells.\". Telomerase adds telomeres to the ends of chromosomes by a separate enzyme."
+  }
+}

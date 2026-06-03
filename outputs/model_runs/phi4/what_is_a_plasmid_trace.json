@@ -1,0 +1,694 @@
+{
+  "question": "What is a plasmid?",
+  "generated_at": "2026-05-01T07:12:44.859309+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "plasmid"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:dna",
+          "name": "dna",
+          "matched_text": "What is a plasmid?",
+          "matched_alias": "dna",
+          "score": 0.6544,
+          "match_type": "semantic"
+        },
+        {
+          "entity_id": "ent:phage_dna_was_injected_into_the_cell",
+          "name": "phage dna was injected into the cell",
+          "matched_text": "What is a plasmid?",
+          "matched_alias": "phage dna was injected into the cell",
+          "score": 0.6475,
+          "match_type": "semantic"
+        },
+        {
+          "entity_id": "ent:atp",
+          "name": "atp",
+          "matched_text": "What is a plasmid?",
+          "matched_alias": "atp",
+          "score": 0.6249,
+          "match_type": "semantic"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:15_2_prokaryotic_transcription_biology_2e_openstax:4",
+          "text": "The central region of the cell in which prokaryotic DNA\nresides is called the nucleoid region.\n\nIn addition, prokaryotes often have abundant plasmids, which are shorter,\ncircular DNA molecules that may only contain one or a few genes. Plasmids can be transferred independently of the\nbacterial chromosome during cell division and often carry traits such as those involved with antibiotic resistance. Transcription in prokaryotes (and in eukaryotes) requires the DNA double helix to partially unwind in the region of\nmRNA synthesis. The region of unwinding is called a transcription bubble. Transcription always proceeds from the\nsame DNA strand for each gene, which is called the template strand.",
+          "source_name": "15.2 Prokaryotic Transcription - Biology 2e _ OpenStax.txt",
+          "chunk_index": 4,
+          "snippet": "The central region of the cell in which prokaryotic DNA\nresides is called the nucleoid region.\n\nIn addition, prokaryotes often have abundant plasmids, which are shorter,\ncircular DNA molecules that may only contain one or a few genes. Plasmids can be transferred independently of the\nbacterial chromosome during cell division and often carry traits such as those involved with antibiotic resistance. ",
+          "score": 0.6545690354589919
+        },
+        {
+          "chunk_id": "chunk:14_1_historical_basis_of_modern_understanding_biology_2e_openstax:10",
+          "text": "The\ndecisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that\nDNA was indeed the genetic material and not proteins. Chase and Hershey were studying a bacteriophage—a virus\nthat infects bacteria. Viruses typically have a simple structure: a protein coat, called the capsid, and a nucleic acid\ncore that contains the genetic material (either DNA or RNA). The bacteriophage infects the host bacterial cell by\nattaching to its surface, and then it injects its nucleic acids inside the cell. The phage DNA makes multiple copies of\nitself using the host machinery, and eventually the host cell bursts, releasing a large number of bacteriophages.",
+          "source_name": "14.1 Historical Basis of Modern Understanding - Biology 2e _ OpenStax.txt",
+          "chunk_index": 10,
+          "snippet": "The\ndecisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that\nDNA was indeed the genetic material and not proteins. Chase and Hershey were studying a bacteriophage—a virus\nthat infects bacteria. Viruses typically have a simple structure: a protein coat, called the capsid, and a nucleic acid\ncore that contains the genetic material (either DNA or ",
+          "score": 0.6489153331437297
+        },
+        {
+          "chunk_id": "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:7",
+          "text": "strand, DNA is synthesized in short stretches, each of which is initiated by a\nseparate primer.\n\nWhen the replication fork reaches the end of the linear chromosome, there is no way to replace the\nprimer on the 5’ end of the lagging strand. The DNA at the ends of the chromosome thus remains unpaired, and over\ntime these ends, called telomeres, may get progressively shorter as cells continue to divide. Telomeres comprise repetitive sequences that code for no particular gene. In humans, a six-base-pair sequence,\nTTAGGG, is repeated 100 to 1000 times in the telomere regions. In a way, these telomeres protect the genes from\ngetting deleted as cells continue to divide.",
+          "source_name": "14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 7,
+          "snippet": "strand, DNA is synthesized in short stretches, each of which is initiated by a\nseparate primer.\n\nWhen the replication fork reaches the end of the linear chromosome, there is no way to replace the\nprimer on the 5’ end of the lagging strand. The DNA at the ends of the chromosome thus remains unpaired, and over\ntime these ends, called telomeres, may get progressively shorter as cells continue to divi",
+          "score": 0.6250886395260629
+        },
+        {
+          "chunk_id": "chunk:14_2_dna_structure_and_sequencing_biology_2e_openstax:0",
+          "text": "FIGURE 14.4 In Hershey and Chase's experiments, bacteria were infected with phage radiolabeled with either 35S, which labels protein, or\n32P, which labels DNA. Only 32P entered the bacterial cells, indicating that DNA is the genetic material. Around this same time, Austrian biochemist Erwin Chargaff examined the content of DNA in different species and\nfound that the amounts of adenine, thymine, guanine, and cytosine were not found in equal quantities, and that\nrelative concentrations of the four nucleotide bases varied from species to species, but not within tissues of the\nsame individual or between individuals of the same species.",
+          "source_name": "14.2 DNA Structure and Sequencing - Biology 2e _ OpenStax.txt",
+          "chunk_index": 0,
+          "snippet": "FIGURE 14.4 In Hershey and Chase's experiments, bacteria were infected with phage radiolabeled with either 35S, which labels protein, or\n32P, which labels DNA. Only 32P entered the bacterial cells, indicating that DNA is the genetic material. Around this same time, Austrian biochemist Erwin Chargaff examined the content of DNA in different species and\nfound that the amounts of adenine, thymine, gu",
+          "score": 0.6174569557985425
+        },
+        {
+          "chunk_id": "chunk:14_3_basics_of_dna_replication_biology_2e_openstax:1",
+          "text": "and makes copies of itself.\n\nIn their 1953 paper, Watson and Crick penned an incredible understatement: \"It has not escaped our notice that the\nspecific pairing we have postulated immediately suggests a possible copying mechanism for the genetic material.\"\nWith specific base pairs, the sequence of one DNA strand can be predicted from its complement. The double-helix\nmodel suggests that the two strands of the double helix separate during replication, and each strand serves as a\ntemplate from which the new complementary strand is copied. What was not clear was how the replication took\nplace. There were three models suggested (Figure 14.12): conservative, semi-conservative, and dispersive.",
+          "source_name": "14.3 Basics of DNA Replication - Biology 2e _ OpenStax.txt",
+          "chunk_index": 1,
+          "snippet": "and makes copies of itself.\n\nIn their 1953 paper, Watson and Crick penned an incredible understatement: \"It has not escaped our notice that the\nspecific pairing we have postulated immediately suggests a possible copying mechanism for the genetic material.\"\nWith specific base pairs, the sequence of one DNA strand can be predicted from its complement. The double-helix\nmodel suggests that the two str",
+          "score": 0.6096631569251858
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:2e4a67b053282ddf",
+          "head_entity_id": "ent:dna",
+          "tail_entity_id": "ent:nucleotides",
+          "relation": "consists of",
+          "evidence": "The building blocks of DNA are nucleotides.",
+          "head_name": "DNA",
+          "tail_name": "nucleotides",
+          "score": 0.6226101918610669
+        },
+        {
+          "triple_id": "triple:98959840c97989fc",
+          "head_entity_id": "ent:meselson_and_stahl",
+          "tail_entity_id": "ent:e._coli",
+          "relation": "grew",
+          "evidence": "Meselson and Stahl were interested in understanding how DNA replicates. They grew E. coli for several generations in a medium containing a “heavy” isotope of nitrogen (15N), which gets incorporated into nitrogenous bases, and eventually into the DNA (Figure 14.13).",
+          "head_name": "Meselson and Stahl",
+          "tail_name": "E. coli",
+          "score": 0.6200116047361179
+        },
+        {
+          "triple_id": "triple:66c0ebf6f64f88b7",
+          "head_entity_id": "ent:dna",
+          "tail_entity_id": "ent:gel_electrophoresis",
+          "relation": "is separated by",
+          "evidence": "Gel electrophoresis is a technique used to separate DNA fragments of different sizes.",
+          "head_name": "DNA",
+          "tail_name": "gel electrophoresis",
+          "score": 0.6124673391159826
+        },
+        {
+          "triple_id": "triple:1c252d05061d0790",
+          "head_entity_id": "ent:transcription",
+          "tail_entity_id": "ent:messenger_rna_(mrna)",
+          "relation": "generates",
+          "evidence": "The cellular process of transcription generates messenger RNA (mRNA), a mobile molecular copy of one or more genes with an alphabet of A, C, G, and uracil (U).",
+          "head_name": "transcription",
+          "tail_name": "messenger RNA (mRNA)",
+          "score": 0.6109455294646703
+        },
+        {
+          "triple_id": "triple:e8c3f9710a352d28",
+          "head_entity_id": "ent:genes",
+          "tail_entity_id": "ent:dna",
+          "relation": "are composed of",
+          "evidence": "Genes are composed of DNA and are linearly arranged on chromosomes.",
+          "head_name": "genes",
+          "tail_name": "DNA",
+          "score": 0.6092477280606703
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:dna",
+        "ent:phage_dna_was_injected_into_the_cell",
+        "ent:atp",
+        "ent:nucleotides",
+        "ent:meselson_and_stahl",
+        "ent:e._coli",
+        "ent:gel_electrophoresis",
+        "ent:transcription",
+        "ent:messenger_rna_(mrna)",
+        "ent:genes"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "dna",
+          "entity_id": "ent:dna",
+          "original_names": [
+            "DNA"
+          ]
+        },
+        {
+          "name": "oswald avery",
+          "entity_id": "ent:oswald_avery",
+          "original_names": [
+            "Oswald Avery"
+          ]
+        },
+        {
+          "name": "s strain",
+          "entity_id": "ent:s_strain",
+          "original_names": [
+            "S strain"
+          ]
+        },
+        {
+          "name": "dna was the transforming principle",
+          "entity_id": "ent:dna_was_the_transforming_principle",
+          "original_names": [
+            "DNA was the transforming principle"
+          ]
+        },
+        {
+          "name": "protein",
+          "entity_id": "ent:protein",
+          "original_names": [
+            "protein"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "nucleotides",
+          "entity_id": "ent:nucleotides",
+          "original_names": [
+            "nucleotides"
+          ]
+        },
+        {
+          "name": "phosphodiester bonds",
+          "entity_id": "ent:phosphodiester_bonds",
+          "original_names": [
+            "phosphodiester bonds"
+          ]
+        },
+        {
+          "name": "dna polymerase iii",
+          "entity_id": "ent:dna_polymerase_iii",
+          "original_names": [
+            "DNA polymerase III"
+          ]
+        },
+        {
+          "name": "dna polymerase",
+          "entity_id": "ent:dna_polymerase",
+          "original_names": [
+            "DNA polymerase"
+          ]
+        },
+        {
+          "name": "histones",
+          "entity_id": "ent:histones",
+          "original_names": [
+            "histones"
+          ]
+        },
+        {
+          "name": "nucleosomes",
+          "entity_id": "ent:nucleosomes",
+          "original_names": [
+            "nucleosomes"
+          ]
+        },
+        {
+          "name": "deoxyribose",
+          "entity_id": "ent:deoxyribose",
+          "original_names": [
+            "deoxyribose"
+          ]
+        },
+        {
+          "name": "two strands",
+          "entity_id": "ent:two_strands",
+          "original_names": [
+            "two strands"
+          ]
+        },
+        {
+          "name": "moves toward the positive electrode",
+          "entity_id": "ent:moves_toward_the_positive_electrode",
+          "original_names": [
+            "moves toward the positive electrode"
+          ]
+        },
+        {
+          "name": "gel electrophoresis",
+          "entity_id": "ent:gel_electrophoresis",
+          "original_names": [
+            "gel electrophoresis"
+          ]
+        },
+        {
+          "name": "dna-specific dye",
+          "entity_id": "ent:dna-specific_dye",
+          "original_names": [
+            "DNA-specific dye"
+          ]
+        },
+        {
+          "name": "double helix",
+          "entity_id": "ent:double_helix",
+          "original_names": [
+            "double helix"
+          ]
+        },
+        {
+          "name": "nitrogenous bases",
+          "entity_id": "ent:nitrogenous_bases",
+          "original_names": [
+            "nitrogenous bases"
+          ]
+        },
+        {
+          "name": "new complementary strand",
+          "entity_id": "ent:new_complementary_strand",
+          "original_names": [
+            "new complementary strand"
+          ]
+        },
+        {
+          "name": "replication",
+          "entity_id": "ent:replication",
+          "original_names": [
+            "replication"
+          ]
+        },
+        {
+          "name": "helicase",
+          "entity_id": "ent:helicase",
+          "original_names": [
+            "Helicase"
+          ]
+        },
+        {
+          "name": "rna",
+          "entity_id": "ent:rna",
+          "original_names": [
+            "RNA"
+          ]
+        },
+        {
+          "name": "genes",
+          "entity_id": "ent:genes",
+          "original_names": [
+            "genes"
+          ]
+        },
+        {
+          "name": "mitochondria",
+          "entity_id": "ent:mitochondria",
+          "original_names": [
+            "mitochondria"
+          ]
+        },
+        {
+          "name": "dna helix",
+          "entity_id": "ent:dna_helix",
+          "original_names": [
+            "DNA helix"
+          ]
+        },
+        {
+          "name": "nucleoside triphosphates",
+          "entity_id": "ent:nucleoside_triphosphates",
+          "original_names": [
+            "nucleoside triphosphates"
+          ]
+        },
+        {
+          "name": "dideoxynucleotides",
+          "entity_id": "ent:dideoxynucleotides",
+          "original_names": [
+            "dideoxynucleotides"
+          ]
+        },
+        {
+          "name": "okazaki fragments",
+          "entity_id": "ent:okazaki_fragments",
+          "original_names": [
+            "Okazaki fragments"
+          ]
+        },
+        {
+          "name": "free 3'-oh group",
+          "entity_id": "ent:free_3'-oh_group",
+          "original_names": [
+            "free 3'-OH group"
+          ]
+        },
+        {
+          "name": "leading strand",
+          "entity_id": "ent:leading_strand",
+          "original_names": [
+            "leading strand"
+          ]
+        },
+        {
+          "name": "pcna",
+          "entity_id": "ent:pcna",
+          "original_names": [
+            "PCNA"
+          ]
+        },
+        {
+          "name": "phosphodiester bond",
+          "entity_id": "ent:phosphodiester_bond",
+          "original_names": [
+            "phosphodiester bond"
+          ]
+        },
+        {
+          "name": "wrong nucleotide",
+          "entity_id": "ent:wrong_nucleotide",
+          "original_names": [
+            "wrong nucleotide"
+          ]
+        },
+        {
+          "name": "wrongly incorporated bases",
+          "entity_id": "ent:wrongly_incorporated_bases",
+          "original_names": [
+            "wrongly incorporated bases"
+          ]
+        },
+        {
+          "name": "mistakes during dna replication",
+          "entity_id": "ent:mistakes_during_dna_replication",
+          "original_names": [
+            "mistakes during DNA replication"
+          ]
+        },
+        {
+          "name": "segment of dna",
+          "entity_id": "ent:segment_of_dna",
+          "original_names": [
+            "segment of DNA"
+          ]
+        },
+        {
+          "name": "newly added base",
+          "entity_id": "ent:newly_added_base",
+          "original_names": [
+            "newly added base"
+          ]
+        },
+        {
+          "name": "ribose",
+          "entity_id": "ent:ribose",
+          "original_names": [
+            "ribose"
+          ]
+        },
+        {
+          "name": "amino acids",
+          "entity_id": "ent:amino_acids",
+          "original_names": [
+            "amino acids"
+          ]
+        },
+        {
+          "name": "promoter",
+          "entity_id": "ent:promoter",
+          "original_names": [
+            "promoter"
+          ]
+        },
+        {
+          "name": "trypanosomes",
+          "entity_id": "ent:trypanosomes",
+          "original_names": [
+            "trypanosomes"
+          ]
+        },
+        {
+          "name": "phage dna was injected into the cell",
+          "entity_id": "ent:phage_dna_was_injected_into_the_cell",
+          "original_names": [
+            "phage DNA was injected into the cell"
+          ]
+        },
+        {
+          "name": "martha chase",
+          "entity_id": "ent:martha_chase",
+          "original_names": [
+            "Martha Chase"
+          ]
+        },
+        {
+          "name": "bacteriophage",
+          "entity_id": "ent:bacteriophage",
+          "original_names": [
+            "bacteriophage"
+          ]
+        },
+        {
+          "name": "phage with radioactive sulfur",
+          "entity_id": "ent:phage_with_radioactive_sulfur",
+          "original_names": [
+            "phage with radioactive sulfur"
+          ]
+        },
+        {
+          "name": "phage with radioactive phosphorus",
+          "entity_id": "ent:phage_with_radioactive_phosphorus",
+          "original_names": [
+            "phage with radioactive phosphorus"
+          ]
+        },
+        {
+          "name": "atp",
+          "entity_id": "ent:atp",
+          "original_names": [
+            "ATP"
+          ]
+        },
+        {
+          "name": "atp synthase",
+          "entity_id": "ent:atp_synthase",
+          "original_names": [
+            "ATP synthase"
+          ]
+        },
+        {
+          "name": "a third phosphate group to adp",
+          "entity_id": "ent:a_third_phosphate_group_to_adp",
+          "original_names": [
+            "a third phosphate group to ADP"
+          ]
+        },
+        {
+          "name": "calvin cycle",
+          "entity_id": "ent:calvin_cycle",
+          "original_names": [
+            "Calvin cycle"
+          ]
+        },
+        {
+          "name": "carbon dioxide",
+          "entity_id": "ent:carbon_dioxide",
+          "original_names": [
+            "carbon dioxide"
+          ]
+        },
+        {
+          "name": "g3p",
+          "entity_id": "ent:g3p",
+          "original_names": [
+            "G3P"
+          ]
+        },
+        {
+          "name": "nadph",
+          "entity_id": "ent:nadph",
+          "original_names": [
+            "NADPH"
+          ]
+        },
+        {
+          "name": "stroma",
+          "entity_id": "ent:stroma",
+          "original_names": [
+            "stroma"
+          ]
+        },
+        {
+          "name": "carbohydrates",
+          "entity_id": "ent:carbohydrates",
+          "original_names": [
+            "carbohydrates"
+          ]
+        },
+        {
+          "name": "dna ligase",
+          "entity_id": "ent:dna_ligase",
+          "original_names": [
+            "DNA ligase"
+          ]
+        },
+        {
+          "name": "meselson and stahl",
+          "entity_id": "ent:meselson_and_stahl",
+          "original_names": [
+            "Meselson and Stahl"
+          ]
+        },
+        {
+          "name": "e. coli",
+          "entity_id": "ent:e._coli",
+          "original_names": [
+            "E. coli"
+          ]
+        },
+        {
+          "name": "heavy isotope of nitrogen (15n)",
+          "entity_id": "ent:heavy_isotope_of_nitrogen_(15n)",
+          "original_names": [
+            "heavy isotope of nitrogen (15N)"
+          ]
+        },
+        {
+          "name": "transcription",
+          "entity_id": "ent:transcription",
+          "original_names": [
+            "transcription"
+          ]
+        },
+        {
+          "name": "messenger rna (mrna)",
+          "entity_id": "ent:messenger_rna_(mrna)",
+          "original_names": [
+            "messenger RNA (mRNA)"
+          ]
+        },
+        {
+          "name": "codons",
+          "entity_id": "ent:codons",
+          "original_names": [
+            "codons"
+          ]
+        },
+        {
+          "name": "σ subunit",
+          "entity_id": "ent:σ_subunit",
+          "original_names": [
+            "σ subunit"
+          ]
+        },
+        {
+          "name": "rna polymerase ii",
+          "entity_id": "ent:rna_polymerase_ii",
+          "original_names": [
+            "RNA polymerase II"
+          ]
+        },
+        {
+          "name": "transcription factors",
+          "entity_id": "ent:transcription_factors",
+          "original_names": [
+            "Transcription factors"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:dna",
+          "evidence": "They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.",
+          "target_name": "DNA",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:8cd58dda286ddce8",
+          "source_name": "Oswald Avery",
+          "relation": "used enzymes to degrade"
+        },
+        {
+          "target_entity_id": "ent:s_strain",
+          "evidence": "They isolated the S strain from the dead mice and isolated the proteins and nucleic acids (RNA and DNA) as these were possible candidates for the molecule of heredity.",
+          "target_name": "S strain",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:6041f786affe5ecc",
+          "source_name": "Oswald Avery",
+          "relation": "isolated"
+        },
+        {
+          "target_entity_id": "ent:dna_was_the_transforming_principle",
+          "evidence": "This led them to conclude that DNA was the transforming principle.",
+          "target_name": "DNA was the transforming principle",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:eef64ca9cce30960",
+          "source_name": "Oswald Avery",
+          "relation": "concluded"
+        },
+        {
+          "target_entity_id": "ent:protein",
+          "evidence": "Only 32P entered the bacterial cells, indicating that DNA is the genetic material.",
+          "target_name": "protein",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:f8796631b9fea9a8",
+          "source_name": "DNA",
+          "relation": "is the genetic material"
+        },
+        {
+          "target_entity_id": "ent:protein",
+          "evidence": "The flow of genetic information in cells from DNA to mRNA to protein is described by the central dogma, which states that genes specify the sequence of mRNAs, which in turn specify the sequence of amino acids making up all proteins.",
+          "target_name": "protein",
+          "source_entity_id": "ent:mrna",
+          "triple_id": "triple:f05018931bdf932f",
+          "source_name": "mRNA",
+          "relation": "encodes"
+        },
+        {
+          "target_entity_id": "ent:nucleotides",
+          "evidence": "The building blocks of DNA are nucleotides.",
+          "target_name": "nucleotides",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:2e4a67b053282ddf",
+          "source_name": "DNA",
+          "relation": "consists of"
+        },
+        {
+          "target_entity_id": "ent:phosphodiester_bonds",
+          "evidence": "The nucleotides combine with each other to produce phosphodiester bonds.",
+          "target_name": "phosphodiester bonds",
+          "source_entity_id": "ent:nucleotides",
+          "triple_id": "triple:19d0f5efc05218c9",
+          "source_name": "nucleotides",
+          "relation": "combine to produce"
+        },
+        {
+          "target_entity_id": "ent:nucleotides",
+          "evidence": "DNA polymerase III starts adding nucleotides to the 3'-OH end of the primer.",
+          "target_name": "nucleotides",
+          "source_entity_id": "ent:dna_polymerase_iii",
+          "triple_id": "triple:6bcafb2d275388d8",
+          "source_name": "DNA polymerase III",
+          "relation": "adds"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What is a plasmid?",
+    "answer": "Plasmid",
+    "citations": [
+      "chunk:15_2_prokaryotic_transcription_biology_2e_openstax:4 | 15.2 Prokaryotic Transcription - Biology 2e _ OpenStax.txt | The central region of the cell in which prokaryotic DNA resides is called the nucleoid region. In addition, prokaryot...",
+      "chunk:14_1_historical_basis_of_modern_understanding_biology_2e_openstax:10 | 14.1 Historical Basis of Modern Understanding - Biology 2e _ OpenStax.txt | The decisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that DN..."
+    ],
+    "reasoning": "Matched entities: dna, phage dna was injected into the cell, atp. Traversed graph edges: Oswald Avery --[used enzymes to degrade]--> DNA; Oswald Avery --[isolated]--> S strain; Oswald Avery --[concluded]--> DNA was the transforming principle. Graph evidence: \"They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.\". The answer is derived from the context provided in the retrieved chunk, which describes plasmids as shorter, circular DNA molecules that can carry traits such as antibiotic resistance and can be transferred independently of the bacterial chromosome."
+  }
+}

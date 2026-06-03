@@ -475,12 +475,26 @@ class QueryEngine:
             "resolved_entities": resolved_entities,
         }
 
-        chunk_hits = self._dedupe_textual_hits(
-            self.search_chunks(query, top_k=max(top_k_chunks * 2, top_k_chunks)),
-            id_key="chunk_id",
-            text_key="text",
-            limit=top_k_chunks,
-        )
+        # When USE_RERANKER=1, fetch a wider candidate pool and rerank with a
+        # cross-encoder before truncating to top_k_chunks. Default behavior
+        # (USE_RERANKER=0) is unchanged: 2x candidates, dedupe-truncate.
+        if os.getenv("USE_RERANKER", "0") == "1":
+            from reranker import rerank as _rerank_chunks
+
+            candidate_pool = self._dedupe_textual_hits(
+                self.search_chunks(query, top_k=max(top_k_chunks * 3, top_k_chunks)),
+                id_key="chunk_id",
+                text_key="text",
+                limit=top_k_chunks * 3,
+            )
+            chunk_hits = _rerank_chunks(query, candidate_pool, top_k_chunks)
+        else:
+            chunk_hits = self._dedupe_textual_hits(
+                self.search_chunks(query, top_k=max(top_k_chunks * 2, top_k_chunks)),
+                id_key="chunk_id",
+                text_key="text",
+                limit=top_k_chunks,
+            )
         evidence_hits = self._dedupe_textual_hits(
             self.search_evidence(query, top_k=max(top_k_evidence * 2, top_k_evidence)),
             id_key="triple_id",

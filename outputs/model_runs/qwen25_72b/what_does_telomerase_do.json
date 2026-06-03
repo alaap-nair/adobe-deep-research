@@ -1,0 +1,10 @@
+{
+  "question": "What does telomerase do?",
+  "answer": "Telomerase adds telomeres to the ends of chromosomes, contains a catalytic part and a built-in RNA template, and can reverse some age-related conditions in mice.",
+  "citations": [
+    "triple:a05414325fa58407 | telomerase --[adds]--> telomeres",
+    "triple:9b017839f9d4a263 | telomerase --[contains]--> RNA template",
+    "triple:6295121c00d1ac78 | telomerase --[reverses]--> age-related conditions"
+  ],
+  "reasoning": "Matched entities: telomerase. Traversed graph edges: telomerase --[adds]--> telomeres; telomerase --[is active in]--> germ cells and adult stem cells; telomerase --[contains]--> RNA template. Graph evidence: \"The telomeres are added to the ends of chromosomes by a separate enzyme, telomerase.\". The provided evidence indicates that telomerase is responsible for adding telomeres to chromosome ends, contains a catalytic part and an RNA template, and has been shown to reverse some age-related conditions in mice."
+}

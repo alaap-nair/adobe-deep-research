@@ -1,0 +1,9 @@
+{
+  "question": "How do prokaryotic and eukaryotic DNA replication differ?",
+  "answer": "Eukaryotic DNA replication involves multiple origins of replication per chromosome, slower replication rates (approximately 50 to 100 nucleotides per second), and the use of different DNA polymerases (e.g., pol α, pol δ, pol ε) compared to prokaryotic replication, which typically has a single origin of replication and a faster rate (approximately 1000 nucleotides per second).",
+  "citations": [
+    "triple:a3a95be7366771a2 | DNA polymerase --[replicates]--> DNA",
+    "triple:340c94c80ea46201 | DNA --[replicates]--> DNA"
+  ],
+  "reasoning": "Matched entities: dna, replication, eukaryotic pre-mrna. Traversed graph edges: Oswald Avery --[used enzymes to degrade]--> DNA; Oswald Avery --[isolated]--> S strain; Oswald Avery --[concluded]--> DNA was the transforming principle. Graph evidence: \"They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.\". The answer is based on the differences in replication origins, rates, and DNA polymerases between prokaryotic and eukaryotic DNA replication as described in the provided context."
+}

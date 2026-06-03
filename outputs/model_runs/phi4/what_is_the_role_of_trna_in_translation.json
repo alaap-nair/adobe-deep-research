@@ -1,0 +1,8 @@
+{
+  "question": "What is the role of tRNA in translation?",
+  "answer": "tRNAs serve as adaptor molecules that carry specific amino acids and recognize mRNA codons, facilitating the translation of RNA into proteins.",
+  "citations": [
+    "triple:9ea18d997da987e9 | tRNA --[recognizes]--> mRNA codon"
+  ],
+  "reasoning": "Matched entities: trna, alteration of the translational reading frame. Traversed graph edges: tRNA --[carries]--> amino acid; ribosome --[binds]--> tRNA; ribosome --[translates]--> mRNA. Graph evidence: \"Each tRNA carries a specific amino acid and recognizes one or more of the mRNA codons that define the order of amino acids in a protein.\". The context indicates that tRNAs are crucial for translation as they carry specific amino acids and recognize mRNA codons, thus translating the genetic code into proteins."
+}

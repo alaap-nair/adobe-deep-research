@@ -1,0 +1,8 @@
+{
+  "question": "What is genetics?",
+  "answer": "Genes specify the sequences of amino acids, which are the building blocks of proteins.",
+  "citations": [
+    "triple:3ef314a0a3e8fb1d | genes --[specify the sequences of]--> amino acids"
+  ],
+  "reasoning": "Matched entities: modern genetics. Traversed graph edges: genes --[specify the sequences of]--> amino acids; Neurospora crassa --[achieved advances in]--> modern genetics; codons --[define]--> amino acids. Graph evidence: \"Genes specify the sequences of amino acids, which are the building blocks of proteins.\". The answer is derived from the citation that explains genes specify the sequences of amino acids, which are the building blocks of proteins. This aligns with the central dogma of DNA-protein synthesis."
+}

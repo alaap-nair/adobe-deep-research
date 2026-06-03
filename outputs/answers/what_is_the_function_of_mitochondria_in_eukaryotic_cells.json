@@ -1,0 +1,8 @@
+{
+  "question": "What is the function of mitochondria in eukaryotic cells?",
+  "answer": "cellular respiration",
+  "citations": [
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:18 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | is wasteful to photosynthesis. Both are byproducts of reactions that move on to other reactions. Photosynthesis absor..."
+  ],
+  "reasoning": "Matched entities: atp synthase, atp, calvin cycle. Traversed graph edges: atp synthase --[attaches]--> a third phosphate group to adp; atp synthase --[forms]--> atp; calvin cycle --[consumes]--> atp. Graph evidence: \"The energy released by the hydrogen ion stream allows ATP synthase to attach a third phosphate group to ADP, which forms a molecule of ATP (Figure 8.17).\". The context mentions that aerobic cellular respiration releases energy by using oxygen to metabolize carbohydrates in the cytoplasm and mitochondria."
+}

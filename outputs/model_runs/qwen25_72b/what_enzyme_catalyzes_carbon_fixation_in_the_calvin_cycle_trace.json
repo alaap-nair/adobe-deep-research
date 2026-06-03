@@ -1,0 +1,481 @@
+{
+  "question": "What enzyme catalyzes carbon fixation in the Calvin cycle?",
+  "generated_at": "2026-05-01T06:46:50.208924+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "enzyme",
+        "catalyzes",
+        "carbon",
+        "fixation",
+        "calvin",
+        "cycle",
+        "enzyme catalyzes",
+        "catalyzes carbon",
+        "carbon fixation",
+        "fixation calvin",
+        "calvin cycle",
+        "enzyme catalyzes carbon",
+        "catalyzes carbon fixation",
+        "carbon fixation calvin",
+        "fixation calvin cycle"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:5-carbon_sugar",
+          "name": "5-carbon sugar",
+          "matched_text": "carbon",
+          "matched_alias": "5-carbon sugar",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        },
+        {
+          "entity_id": "ent:calvin_cycle",
+          "name": "calvin cycle",
+          "matched_text": "calvin",
+          "matched_alias": "calvin cycle",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        },
+        {
+          "entity_id": "ent:carbon_fixation",
+          "name": "carbon fixation",
+          "matched_text": "fixation",
+          "matched_alias": "carbon fixation",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:5",
+          "text": "the Calvin cycle can be organized into three basic stages: fixation,\nreduction, and regeneration.\n\nStage 1: Fixation\nIn the stroma, in addition to CO , two other components are present to initiate the light-independent\nreactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three\nmolecules of ribulose bisphosphate (RuBP), as shown in Figure 8.19. RuBP has five atoms of carbon,\nflanked by two phosphates. VISUAL CONNECTION\n2  \n4/14/26, 11:44 AM\n8.3 Using Light Energy to Make Organic Molecules - Biology 2e | OpenStax\nhttps://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules\n2/8",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 5,
+          "snippet": "the Calvin cycle can be organized into three basic stages: fixation,\nreduction, and regeneration.\n\nStage 1: Fixation\nIn the stroma, in addition to CO , two other components are present to initiate the light-independent\nreactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three\nmolecules of ribulose bisphosphate (RuBP), as shown in Figure 8.19. RuBP has five at",
+          "score": 0.7557155602985759
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:4",
+          "text": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules\n1/8\n\nFigure 8.18 Light reactions harness energy from the sun to produce chemical bonds, ATP, and NADPH. These energy-carrying molecules\nare made in the stroma where carbon fixation takes place. Credit: Rao, A., Ryan, K., Tag, A., Fletcher, S. and Hawkins, A. Department of\nBiology, Texas A&M University. The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation,\nreduction, and regeneration.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 4,
+          "snippet": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules\n1/8\n\nFigure 8.18 Light reactions harness energy from the sun to produce chemical bonds, ATP, and NADPH. These energy-carrying molecules\nare made in the stroma where carbon fixation takes place. Credit: Rao, A., Ryan, K., Tag, A., Fletcher, S. and Hawkins, A. Department of\nBiology, Texas A&M University. The",
+          "score": 0.7437318814044028
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:8",
+          "text": "3/8\n\nRuBisCO catalyzes a reaction between CO  and RuBP. For each CO  molecule that reacts with one\nRuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form. PGA has three\ncarbons and one phosphate. Each turn of the cycle involves only one RuBP and one carbon dioxide\nand forms two molecules of 3-PGA. The number of carbon atoms remains the same, as the atoms\nmove to form new bonds during the reactions (3 C atoms from 3CO  + 15 C atoms from 3RuBP = 18 C\natoms in 6 molecules of 3-PGA). This process is called carbon fixation, because CO  is “fixed” from an\ninorganic form into organic molecules.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 8,
+          "snippet": "3/8\n\nRuBisCO catalyzes a reaction between CO  and RuBP. For each CO  molecule that reacts with one\nRuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form. PGA has three\ncarbons and one phosphate. Each turn of the cycle involves only one RuBP and one carbon dioxide\nand forms two molecules of 3-PGA. The number of carbon atoms remains the same, as the atoms\nmove to form new bond",
+          "score": 0.7404264489248491
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:6",
+          "text": "2/8\n\nFigure 8.19 The Calvin cycle has three stages. In stage 1, the enzyme RuBisCO incorporates carbon dioxide into an organic\nmolecule, 3-PGA. In stage 2, the organic molecule is reduced using electrons supplied by NADPH. In stage 3, RuBP, the\nmolecule that starts the cycle, is regenerated so that the cycle can continue. Only one carbon dioxide molecule is\nincorporated at a time, so the cycle must be completed three times to produce a single three-carbon G3P molecule, and six\ntimes to produce a six-carbon glucose molecule. Credit: Rao, A., Ryan, K., Tag, A., Fletcher, S. and Hawkins, A. Department of\nBiology, Texas A&M University. Which of the following statements is true? a.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 6,
+          "snippet": "2/8\n\nFigure 8.19 The Calvin cycle has three stages. In stage 1, the enzyme RuBisCO incorporates carbon dioxide into an organic\nmolecule, 3-PGA. In stage 2, the organic molecule is reduced using electrons supplied by NADPH. In stage 3, RuBP, the\nmolecule that starts the cycle, is regenerated so that the cycle can continue. Only one carbon dioxide molecule is\nincorporated at a time, so the cycle mus",
+          "score": 0.7385658583477884
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:0",
+          "text": "8.3 Using Light Energy to Make Organic\nMolecules\nLearning Objectives\nBy the end of this section, you will be able to do the following:\nDescribe the Calvin cycle\nDefine carbon fixation\nExplain how photosynthesis works in the energy cycle of all living organisms\nAfter the energy from the sun is converted into chemical energy and temporarily stored in ATP and\nNADPH molecules, the cell has the fuel needed to build carbohydrate molecules for long-term energy\nstorage.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 0,
+          "snippet": "8.3 Using Light Energy to Make Organic\nMolecules\nLearning Objectives\nBy the end of this section, you will be able to do the following:\nDescribe the Calvin cycle\nDefine carbon fixation\nExplain how photosynthesis works in the energy cycle of all living organisms\nAfter the energy from the sun is converted into chemical energy and temporarily stored in ATP and\nNADPH molecules, the cell has the fuel ne",
+          "score": 0.7253800875857969
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:704a71fe6fdb8ffd",
+          "head_entity_id": "ent:calvin_cycle",
+          "tail_entity_id": "ent:carbon_dioxide",
+          "relation": "consumes",
+          "evidence": "In the stroma, in addition to CO2, two other components are present to initiate the light-independent reactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three molecules of ribulose bisphosphate (RuBP).",
+          "head_name": "calvin cycle",
+          "tail_name": "carbon dioxide",
+          "score": 0.7087944050228236
+        },
+        {
+          "triple_id": "triple:947d67f6ad421a32",
+          "head_entity_id": "ent:rubisco",
+          "tail_entity_id": "ent:reaction_between_co2_and_rubp",
+          "relation": "catalyzes",
+          "evidence": "RuBisCO catalyzes a reaction between CO2 and RuBP. For each CO2 molecule that reacts with one RuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form.",
+          "head_name": "rubisco",
+          "tail_name": "reaction between co2 and rubp",
+          "score": 0.7057993301166986
+        },
+        {
+          "triple_id": "triple:b2f0dffb341b649d",
+          "head_entity_id": "ent:light-independent_reactions",
+          "tail_entity_id": "ent:stroma",
+          "relation": "occurs in",
+          "evidence": "The Calvin cycle, which takes place in the stroma, uses energy derived from these compounds to make G3P from CO2.",
+          "head_name": "light-independent reactions",
+          "tail_name": "stroma",
+          "score": 0.6788835170051745
+        },
+        {
+          "triple_id": "triple:13f848f8eb4facfb",
+          "head_entity_id": "ent:calvin_cycle",
+          "tail_entity_id": "ent:g3p",
+          "relation": "produces",
+          "evidence": "The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration.",
+          "head_name": "calvin cycle",
+          "tail_name": "g3p",
+          "score": 0.6601621987017222
+        },
+        {
+          "triple_id": "triple:b221eccb50b972b8",
+          "head_entity_id": "ent:photoautotrophs",
+          "tail_entity_id": "ent:light_energy_into_chemical_energy",
+          "relation": "convert",
+          "evidence": "In the case of photosynthesis, light energy is converted into chemical energy, which photoautotrophs use to build basic carbohydrate molecules (Figure 8.9).",
+          "head_name": "photoautotrophs",
+          "tail_name": "light energy into chemical energy",
+          "score": 0.6318401881819932
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:5-carbon_sugar",
+        "ent:calvin_cycle",
+        "ent:carbon_fixation",
+        "ent:carbon_dioxide",
+        "ent:rubisco",
+        "ent:reaction_between_co2_and_rubp",
+        "ent:light-independent_reactions",
+        "ent:stroma",
+        "ent:g3p",
+        "ent:photoautotrophs",
+        "ent:light_energy_into_chemical_energy"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "5-carbon sugar",
+          "entity_id": "ent:5-carbon_sugar",
+          "original_names": [
+            "5-carbon sugar"
+          ]
+        },
+        {
+          "name": "nucleotide",
+          "entity_id": "ent:nucleotide",
+          "original_names": [
+            "nucleotide"
+          ]
+        },
+        {
+          "name": "nitrogenous base",
+          "entity_id": "ent:nitrogenous_base",
+          "original_names": [
+            "nitrogenous base"
+          ]
+        },
+        {
+          "name": "phosphate group",
+          "entity_id": "ent:phosphate_group",
+          "original_names": [
+            "phosphate group"
+          ]
+        },
+        {
+          "name": "calvin cycle",
+          "entity_id": "ent:calvin_cycle",
+          "original_names": [
+            "Calvin cycle"
+          ]
+        },
+        {
+          "name": "carbon dioxide",
+          "entity_id": "ent:carbon_dioxide",
+          "original_names": [
+            "carbon dioxide"
+          ]
+        },
+        {
+          "name": "photosynthesis",
+          "entity_id": "ent:photosynthesis",
+          "original_names": [
+            "Photosynthesis",
+            "photosynthesis"
+          ]
+        },
+        {
+          "name": "g3p",
+          "entity_id": "ent:g3p",
+          "original_names": [
+            "G3P"
+          ]
+        },
+        {
+          "name": "atp",
+          "entity_id": "ent:atp",
+          "original_names": [
+            "ATP"
+          ]
+        },
+        {
+          "name": "atp synthase",
+          "entity_id": "ent:atp_synthase",
+          "original_names": [
+            "ATP synthase"
+          ]
+        },
+        {
+          "name": "nadph",
+          "entity_id": "ent:nadph",
+          "original_names": [
+            "NADPH"
+          ]
+        },
+        {
+          "name": "stroma",
+          "entity_id": "ent:stroma",
+          "original_names": [
+            "stroma"
+          ]
+        },
+        {
+          "name": "light-independent reactions",
+          "entity_id": "ent:light-independent_reactions",
+          "original_names": [
+            "light-independent reactions",
+            "Light-independent reactions"
+          ]
+        },
+        {
+          "name": "carbohydrates",
+          "entity_id": "ent:carbohydrates",
+          "original_names": [
+            "carbohydrates"
+          ]
+        },
+        {
+          "name": "carbon fixation",
+          "entity_id": "ent:carbon_fixation",
+          "original_names": [
+            "carbon fixation"
+          ]
+        },
+        {
+          "name": "rubisco",
+          "entity_id": "ent:rubisco",
+          "original_names": [
+            "RuBisCO"
+          ]
+        },
+        {
+          "name": "reaction between co2 and rubp",
+          "entity_id": "ent:reaction_between_co2_and_rubp",
+          "original_names": [
+            "reaction between CO2 and RuBP"
+          ]
+        },
+        {
+          "name": "formation of 3-pga",
+          "entity_id": "ent:formation_of_3-pga",
+          "original_names": [
+            "formation of 3-PGA"
+          ]
+        },
+        {
+          "name": "algae",
+          "entity_id": "ent:algae",
+          "original_names": [
+            "Algae"
+          ]
+        },
+        {
+          "name": "light-dependent reactions",
+          "entity_id": "ent:light-dependent_reactions",
+          "original_names": [
+            "light-dependent reactions",
+            "Light-dependent reactions"
+          ]
+        },
+        {
+          "name": "sunlight",
+          "entity_id": "ent:sunlight",
+          "original_names": [
+            "sunlight"
+          ]
+        },
+        {
+          "name": "oxygen",
+          "entity_id": "ent:oxygen",
+          "original_names": [
+            "oxygen"
+          ]
+        },
+        {
+          "name": "leaves",
+          "entity_id": "ent:leaves",
+          "original_names": [
+            "leaves"
+          ]
+        },
+        {
+          "name": "glyceraldehyde-3-phosphate",
+          "entity_id": "ent:glyceraldehyde-3-phosphate",
+          "original_names": [
+            "glyceraldehyde-3-phosphate"
+          ]
+        },
+        {
+          "name": "plants",
+          "entity_id": "ent:plants",
+          "original_names": [
+            "plants"
+          ]
+        },
+        {
+          "name": "water",
+          "entity_id": "ent:water",
+          "original_names": [
+            "water"
+          ]
+        },
+        {
+          "name": "chloroplast",
+          "entity_id": "ent:chloroplast",
+          "original_names": [
+            "chloroplast",
+            "Chloroplast"
+          ]
+        },
+        {
+          "name": "carbohydrate molecules",
+          "entity_id": "ent:carbohydrate_molecules",
+          "original_names": [
+            "carbohydrate molecules"
+          ]
+        },
+        {
+          "name": "cyanobacteria",
+          "entity_id": "ent:cyanobacteria",
+          "original_names": [
+            "Cyanobacteria"
+          ]
+        },
+        {
+          "name": "mesophyll",
+          "entity_id": "ent:mesophyll",
+          "original_names": [
+            "mesophyll"
+          ]
+        },
+        {
+          "name": "photoautotrophs",
+          "entity_id": "ent:photoautotrophs",
+          "original_names": [
+            "photoautotrophs"
+          ]
+        },
+        {
+          "name": "specific wavelengths of sunlight",
+          "entity_id": "ent:specific_wavelengths_of_sunlight",
+          "original_names": [
+            "specific wavelengths of sunlight"
+          ]
+        },
+        {
+          "name": "light energy into chemical energy",
+          "entity_id": "ent:light_energy_into_chemical_energy",
+          "original_names": [
+            "light energy into chemical energy"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:5-carbon_sugar",
+          "evidence": "The important components of the nucleotide are a nitrogenous (nitrogen-bearing) base, a 5-carbon sugar (pentose), and a phosphate group (Figure 14.5).",
+          "target_name": "5-carbon sugar",
+          "source_entity_id": "ent:nucleotide",
+          "triple_id": "triple:1487b64199c4b981",
+          "source_name": "nucleotide",
+          "relation": "contains"
+        },
+        {
+          "target_entity_id": "ent:nitrogenous_base",
+          "evidence": "The important components of the nucleotide are a nitrogenous (nitrogen-bearing) base, a 5-carbon sugar (pentose), and a phosphate group (Figure 14.5).",
+          "target_name": "nitrogenous base",
+          "source_entity_id": "ent:nucleotide",
+          "triple_id": "triple:02f2087c1f93e1f6",
+          "source_name": "nucleotide",
+          "relation": "contains"
+        },
+        {
+          "target_entity_id": "ent:phosphate_group",
+          "evidence": "The important components of the nucleotide are a nitrogenous (nitrogen-bearing) base, a 5-carbon sugar (pentose), and a phosphate group (Figure 14.5).",
+          "target_name": "phosphate group",
+          "source_entity_id": "ent:nucleotide",
+          "triple_id": "triple:1234e800576bd0ed",
+          "source_name": "nucleotide",
+          "relation": "contains"
+        },
+        {
+          "target_entity_id": "ent:carbon_dioxide",
+          "evidence": "In the stroma, in addition to CO2, two other components are present to initiate the light-independent reactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three molecules of ribulose bisphosphate (RuBP).",
+          "target_name": "carbon dioxide",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:704a71fe6fdb8ffd",
+          "source_name": "Calvin cycle",
+          "relation": "consumes"
+        },
+        {
+          "target_entity_id": "ent:carbon_dioxide",
+          "evidence": "Photosynthesis is a multi-step process that requires specific wavelengths of visible sunlight, carbon dioxide (which is low in energy), and water as substrates.",
+          "target_name": "carbon dioxide",
+          "source_entity_id": "ent:photosynthesis",
+          "triple_id": "triple:c08663ef8421e663",
+          "source_name": "Photosynthesis",
+          "relation": "requires"
+        },
+        {
+          "target_entity_id": "ent:g3p",
+          "evidence": "The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration.",
+          "target_name": "G3P",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:13f848f8eb4facfb",
+          "source_name": "Calvin cycle",
+          "relation": "produces"
+        },
+        {
+          "target_entity_id": "ent:g3p",
+          "evidence": "The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration.",
+          "target_name": "G3P",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:8e40d7a51f9db422",
+          "source_name": "Calvin cycle",
+          "relation": "converts to"
+        },
+        {
+          "target_entity_id": "ent:atp",
+          "evidence": "ATP and NADPH are used to convert the six molecules of 3-PGA into six molecules of a chemical called glyceraldehyde 3-phosphate (G3P).",
+          "target_name": "ATP",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:5bdbe1c59267d238",
+          "source_name": "Calvin cycle",
+          "relation": "consumes"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What enzyme catalyzes carbon fixation in the Calvin cycle?",
+    "answer": "RuBisCO",
+    "citations": [
+      "triple:947d67f6ad421a32 | rubisco --[catalyzes]--> reaction between co2 and rubp"
+    ],
+    "reasoning": "Matched entities: 5-carbon sugar, calvin cycle, carbon fixation. Traversed graph edges: nucleotide --[contains]--> 5-carbon sugar; nucleotide --[contains]--> nitrogenous base; nucleotide --[contains]--> phosphate group. Graph evidence: \"The important components of the nucleotide are a nitrogenous (nitrogen-bearing) base, a 5-carbon sugar (pentose), and a phosphate group (Figure 14.5).\". RuBisCO catalyzes the reaction between CO2 and RuBP, which is the first step in the Calvin cycle where carbon fixation occurs."
+  }
+}

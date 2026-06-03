@@ -1,0 +1,672 @@
+{
+  "question": "What is genetics?",
+  "generated_at": "2026-05-01T06:43:22.623494+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "genetics"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:modern_genetics",
+          "name": "modern genetics",
+          "matched_text": "genetics",
+          "matched_alias": "modern genetics",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        },
+        {
+          "entity_id": "ent:genes",
+          "name": "genes",
+          "matched_text": "What is genetics?",
+          "matched_alias": "genes",
+          "score": 0.6852,
+          "match_type": "semantic"
+        },
+        {
+          "entity_id": "ent:dna",
+          "name": "dna",
+          "matched_text": "What is genetics?",
+          "matched_alias": "dna",
+          "score": 0.6631,
+          "match_type": "semantic"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:15_1_the_genetic_code_biology_2e_openstax:0",
+          "text": "INTRODUCTION\nCHAPTER 15\nGenes and Proteins\n15.1 The Genetic Code\n15.2 Prokaryotic Transcription\n15.3 Eukaryotic Transcription\n15.4 RNA Processing in Eukaryotes\n15.5 Ribosomes and Protein Synthesis\nSince the rediscovery of Mendel’s work in 1900, the definition of the gene has\nprogressed from an abstract unit of heredity to a tangible molecular entity capable of replication,\nexpression, and mutation (Figure 15.1). Genes are composed of DNA and are linearly arranged on\nchromosomes. Genes specify the sequences of amino acids, which are the building blocks of\nproteins. In turn, proteins are responsible for orchestrating nearly every function of the cell.",
+          "source_name": "15.1 The Genetic Code - Biology 2e _ OpenStax.txt",
+          "chunk_index": 0,
+          "snippet": "INTRODUCTION\nCHAPTER 15\nGenes and Proteins\n15.1 The Genetic Code\n15.2 Prokaryotic Transcription\n15.3 Eukaryotic Transcription\n15.4 RNA Processing in Eukaryotes\n15.5 Ribosomes and Protein Synthesis\nSince the rediscovery of Mendel’s work in 1900, the definition of the gene has\nprogressed from an abstract unit of heredity to a tangible molecular entity capable of replication,\nexpression, and mutation",
+          "score": 0.6496833743394597
+        },
+        {
+          "chunk_id": "chunk:14_1_historical_basis_of_modern_understanding_biology_2e_openstax:10",
+          "text": "The\ndecisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that\nDNA was indeed the genetic material and not proteins. Chase and Hershey were studying a bacteriophage—a virus\nthat infects bacteria. Viruses typically have a simple structure: a protein coat, called the capsid, and a nucleic acid\ncore that contains the genetic material (either DNA or RNA). The bacteriophage infects the host bacterial cell by\nattaching to its surface, and then it injects its nucleic acids inside the cell. The phage DNA makes multiple copies of\nitself using the host machinery, and eventually the host cell bursts, releasing a large number of bacteriophages.",
+          "source_name": "14.1 Historical Basis of Modern Understanding - Biology 2e _ OpenStax.txt",
+          "chunk_index": 10,
+          "snippet": "The\ndecisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that\nDNA was indeed the genetic material and not proteins. Chase and Hershey were studying a bacteriophage—a virus\nthat infects bacteria. Viruses typically have a simple structure: a protein coat, called the capsid, and a nucleic acid\ncore that contains the genetic material (either DNA or ",
+          "score": 0.5962918207611161
+        },
+        {
+          "chunk_id": "chunk:14_2_dna_structure_and_sequencing_biology_2e_openstax:26",
+          "text": "inside the nucleus (Figure 14.11).\n\nAt the most basic level, DNA is wrapped around proteins known as\nhistones to form structures called nucleosomes. The histones are evolutionarily conserved proteins that are rich in\nbasic amino acids and form an octamer composed of two molecules of each of four different histones. Their\ncomposition and properties are important to understanding gene expression, and were partially uncovered based on\nresearch by Marie M. Daly and Alfred E. Mirsky in the early 1950s. The DNA (remember, it is negatively charged\nbecause of the phosphate groups) is wrapped tightly around the histone core. This nucleosome is linked to the next\none with the help of a linker DNA.",
+          "source_name": "14.2 DNA Structure and Sequencing - Biology 2e _ OpenStax.txt",
+          "chunk_index": 26,
+          "snippet": "inside the nucleus (Figure 14.11).\n\nAt the most basic level, DNA is wrapped around proteins known as\nhistones to form structures called nucleosomes. The histones are evolutionarily conserved proteins that are rich in\nbasic amino acids and form an octamer composed of two molecules of each of four different histones. Their\ncomposition and properties are important to understanding gene expression, an",
+          "score": 0.5907072819216954
+        },
+        {
+          "chunk_id": "chunk:15_1_the_genetic_code_biology_2e_openstax:2",
+          "text": "genetic information into a protein product. That is the\ncentral dogma of DNA-protein synthesis.\n\nProtein sequences consist of 20 commonly occurring\namino acids; therefore, it can be said that the protein alphabet consists of 20 “letters” (Figure\n15.2). Different amino acids have different chemistries (such as acidic versus basic, or polar and\nFIGURE 15.1 Genes, which are carried on (a) chromosomes, are linearly organized instructions for making the RNA\nand protein molecules that are necessary for all of the processes of life. The (b) interleukin-2 protein and (c)\nalpha-2u-globulin protein are just two examples of the array of different molecular structures that are encoded by\ngenes.",
+          "source_name": "15.1 The Genetic Code - Biology 2e _ OpenStax.txt",
+          "chunk_index": 2,
+          "snippet": "genetic information into a protein product. That is the\ncentral dogma of DNA-protein synthesis.\n\nProtein sequences consist of 20 commonly occurring\namino acids; therefore, it can be said that the protein alphabet consists of 20 “letters” (Figure\n15.2). Different amino acids have different chemistries (such as acidic versus basic, or polar and\nFIGURE 15.1 Genes, which are carried on (a) chromosomes",
+          "score": 0.5873727140086364
+        },
+        {
+          "chunk_id": "chunk:14_1_historical_basis_of_modern_understanding_biology_2e_openstax:0",
+          "text": "14.1 Historical Basis of Modern Understanding\nLEARNING OBJECTIVES\nBy the end of this section, you will be able to do the following:\n•\nExplain transformation of DNA\n•\nDescribe the key experiments that helped identify that DNA is the genetic material\n•\nState and explain Chargaff’s rules\nOur current understanding of DNA began with the discovery of nucleic acids followed by the\ndevelopment of the double-helix model. In the 1860s, Friedrich Miescher (Figure 14.2), a\nphysician by profession, isolated phosphate-rich chemicals from white blood cells (leukocytes). He named these chemicals (which would eventually be known as DNA) nuclein because they were\nisolated from the nuclei of the cells.",
+          "source_name": "14.1 Historical Basis of Modern Understanding - Biology 2e _ OpenStax.txt",
+          "chunk_index": 0,
+          "snippet": "14.1 Historical Basis of Modern Understanding\nLEARNING OBJECTIVES\nBy the end of this section, you will be able to do the following:\n•\nExplain transformation of DNA\n•\nDescribe the key experiments that helped identify that DNA is the genetic material\n•\nState and explain Chargaff’s rules\nOur current understanding of DNA began with the discovery of nucleic acids followed by the\ndevelopment of the doub",
+          "score": 0.5826404542138275
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:e8c3f9710a352d28",
+          "head_entity_id": "ent:genes",
+          "tail_entity_id": "ent:dna",
+          "relation": "are composed of",
+          "evidence": "Genes are composed of DNA and are linearly arranged on chromosomes.",
+          "head_name": "genes",
+          "tail_name": "DNA",
+          "score": 0.6500436097546773
+        },
+        {
+          "triple_id": "triple:0ab8fe5e588f5741",
+          "head_entity_id": "ent:dna",
+          "tail_entity_id": "ent:rna",
+          "relation": "encodes",
+          "evidence": "The flow of genetic information in cells from DNA to mRNA to protein is described by the central dogma, which states that genes specify the sequence of mRNAs, which in turn specify the sequence of amino acids making up all proteins.",
+          "head_name": "DNA",
+          "tail_name": "RNA",
+          "score": 0.6066116809727844
+        },
+        {
+          "triple_id": "triple:3ef314a0a3e8fb1d",
+          "head_entity_id": "ent:genes",
+          "tail_entity_id": "ent:amino_acids",
+          "relation": "specify the sequences of",
+          "evidence": "Genes specify the sequences of amino acids, which are the building blocks of proteins.",
+          "head_name": "genes",
+          "tail_name": "amino acids",
+          "score": 0.594981771394798
+        },
+        {
+          "triple_id": "triple:fb97f3248c4f8d0d",
+          "head_entity_id": "ent:pre-mrna",
+          "tail_entity_id": "ent:introns",
+          "relation": "contains",
+          "evidence": "Eukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they are expressed), and intervening sequences called introns (int-ron denotes their intervening role).",
+          "head_name": "pre-mRNA",
+          "tail_name": "introns",
+          "score": 0.591939986490588
+        },
+        {
+          "triple_id": "triple:e0d0d6310fd8b66c",
+          "head_entity_id": "ent:pre-mrna",
+          "tail_entity_id": "ent:exons",
+          "relation": "contains",
+          "evidence": "Eukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they are expressed).",
+          "head_name": "pre-mRNA",
+          "tail_name": "exons",
+          "score": 0.5854496655569219
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:modern_genetics",
+        "ent:genes",
+        "ent:dna",
+        "ent:rna",
+        "ent:amino_acids",
+        "ent:pre-mrna",
+        "ent:introns",
+        "ent:exons"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "modern genetics",
+          "entity_id": "ent:modern_genetics",
+          "original_names": [
+            "modern genetics"
+          ]
+        },
+        {
+          "name": "neurospora crassa",
+          "entity_id": "ent:neurospora_crassa",
+          "original_names": [
+            "Neurospora crassa"
+          ]
+        },
+        {
+          "name": "genes",
+          "entity_id": "ent:genes",
+          "original_names": [
+            "genes"
+          ]
+        },
+        {
+          "name": "amino acids",
+          "entity_id": "ent:amino_acids",
+          "original_names": [
+            "amino acids"
+          ]
+        },
+        {
+          "name": "codons",
+          "entity_id": "ent:codons",
+          "original_names": [
+            "codons"
+          ]
+        },
+        {
+          "name": "dna",
+          "entity_id": "ent:dna",
+          "original_names": [
+            "DNA"
+          ]
+        },
+        {
+          "name": "oswald avery",
+          "entity_id": "ent:oswald_avery",
+          "original_names": [
+            "Oswald Avery"
+          ]
+        },
+        {
+          "name": "protein",
+          "entity_id": "ent:protein",
+          "original_names": [
+            "protein"
+          ]
+        },
+        {
+          "name": "nucleotides",
+          "entity_id": "ent:nucleotides",
+          "original_names": [
+            "nucleotides"
+          ]
+        },
+        {
+          "name": "histones",
+          "entity_id": "ent:histones",
+          "original_names": [
+            "histones"
+          ]
+        },
+        {
+          "name": "deoxyribose",
+          "entity_id": "ent:deoxyribose",
+          "original_names": [
+            "deoxyribose"
+          ]
+        },
+        {
+          "name": "two strands",
+          "entity_id": "ent:two_strands",
+          "original_names": [
+            "two strands"
+          ]
+        },
+        {
+          "name": "moves toward the positive electrode",
+          "entity_id": "ent:moves_toward_the_positive_electrode",
+          "original_names": [
+            "moves toward the positive electrode"
+          ]
+        },
+        {
+          "name": "gel electrophoresis",
+          "entity_id": "ent:gel_electrophoresis",
+          "original_names": [
+            "gel electrophoresis"
+          ]
+        },
+        {
+          "name": "dna-specific dye",
+          "entity_id": "ent:dna-specific_dye",
+          "original_names": [
+            "DNA-specific dye"
+          ]
+        },
+        {
+          "name": "double helix",
+          "entity_id": "ent:double_helix",
+          "original_names": [
+            "double helix"
+          ]
+        },
+        {
+          "name": "nitrogenous bases",
+          "entity_id": "ent:nitrogenous_bases",
+          "original_names": [
+            "nitrogenous bases"
+          ]
+        },
+        {
+          "name": "new complementary strand",
+          "entity_id": "ent:new_complementary_strand",
+          "original_names": [
+            "new complementary strand"
+          ]
+        },
+        {
+          "name": "replication",
+          "entity_id": "ent:replication",
+          "original_names": [
+            "replication"
+          ]
+        },
+        {
+          "name": "helicase",
+          "entity_id": "ent:helicase",
+          "original_names": [
+            "Helicase"
+          ]
+        },
+        {
+          "name": "dna polymerase",
+          "entity_id": "ent:dna_polymerase",
+          "original_names": [
+            "DNA polymerase"
+          ]
+        },
+        {
+          "name": "rna",
+          "entity_id": "ent:rna",
+          "original_names": [
+            "RNA"
+          ]
+        },
+        {
+          "name": "mitochondria",
+          "entity_id": "ent:mitochondria",
+          "original_names": [
+            "mitochondria"
+          ]
+        },
+        {
+          "name": "promoter",
+          "entity_id": "ent:promoter",
+          "original_names": [
+            "promoter"
+          ]
+        },
+        {
+          "name": "σ subunit",
+          "entity_id": "ent:σ_subunit",
+          "original_names": [
+            "σ subunit"
+          ]
+        },
+        {
+          "name": "rna polymerase ii",
+          "entity_id": "ent:rna_polymerase_ii",
+          "original_names": [
+            "RNA polymerase II"
+          ]
+        },
+        {
+          "name": "transcription factors",
+          "entity_id": "ent:transcription_factors",
+          "original_names": [
+            "Transcription factors"
+          ]
+        },
+        {
+          "name": "s strain",
+          "entity_id": "ent:s_strain",
+          "original_names": [
+            "S strain"
+          ]
+        },
+        {
+          "name": "dna was the transforming principle",
+          "entity_id": "ent:dna_was_the_transforming_principle",
+          "original_names": [
+            "DNA was the transforming principle"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "phosphodiester bonds",
+          "entity_id": "ent:phosphodiester_bonds",
+          "original_names": [
+            "phosphodiester bonds"
+          ]
+        },
+        {
+          "name": "dna polymerase iii",
+          "entity_id": "ent:dna_polymerase_iii",
+          "original_names": [
+            "DNA polymerase III"
+          ]
+        },
+        {
+          "name": "nucleosomes",
+          "entity_id": "ent:nucleosomes",
+          "original_names": [
+            "nucleosomes"
+          ]
+        },
+        {
+          "name": "dna helix",
+          "entity_id": "ent:dna_helix",
+          "original_names": [
+            "DNA helix"
+          ]
+        },
+        {
+          "name": "nucleoside triphosphates",
+          "entity_id": "ent:nucleoside_triphosphates",
+          "original_names": [
+            "nucleoside triphosphates"
+          ]
+        },
+        {
+          "name": "dideoxynucleotides",
+          "entity_id": "ent:dideoxynucleotides",
+          "original_names": [
+            "dideoxynucleotides"
+          ]
+        },
+        {
+          "name": "okazaki fragments",
+          "entity_id": "ent:okazaki_fragments",
+          "original_names": [
+            "Okazaki fragments"
+          ]
+        },
+        {
+          "name": "free 3'-oh group",
+          "entity_id": "ent:free_3'-oh_group",
+          "original_names": [
+            "free 3'-OH group"
+          ]
+        },
+        {
+          "name": "leading strand",
+          "entity_id": "ent:leading_strand",
+          "original_names": [
+            "leading strand"
+          ]
+        },
+        {
+          "name": "pcna",
+          "entity_id": "ent:pcna",
+          "original_names": [
+            "PCNA"
+          ]
+        },
+        {
+          "name": "phosphodiester bond",
+          "entity_id": "ent:phosphodiester_bond",
+          "original_names": [
+            "phosphodiester bond"
+          ]
+        },
+        {
+          "name": "wrong nucleotide",
+          "entity_id": "ent:wrong_nucleotide",
+          "original_names": [
+            "wrong nucleotide"
+          ]
+        },
+        {
+          "name": "wrongly incorporated bases",
+          "entity_id": "ent:wrongly_incorporated_bases",
+          "original_names": [
+            "wrongly incorporated bases"
+          ]
+        },
+        {
+          "name": "mistakes during dna replication",
+          "entity_id": "ent:mistakes_during_dna_replication",
+          "original_names": [
+            "mistakes during DNA replication"
+          ]
+        },
+        {
+          "name": "segment of dna",
+          "entity_id": "ent:segment_of_dna",
+          "original_names": [
+            "segment of DNA"
+          ]
+        },
+        {
+          "name": "newly added base",
+          "entity_id": "ent:newly_added_base",
+          "original_names": [
+            "newly added base"
+          ]
+        },
+        {
+          "name": "ribose",
+          "entity_id": "ent:ribose",
+          "original_names": [
+            "ribose"
+          ]
+        },
+        {
+          "name": "trypanosomes",
+          "entity_id": "ent:trypanosomes",
+          "original_names": [
+            "trypanosomes"
+          ]
+        },
+        {
+          "name": "nucleotide triplets",
+          "entity_id": "ent:nucleotide_triplets",
+          "original_names": [
+            "nucleotide triplets"
+          ]
+        },
+        {
+          "name": "pre-mrna",
+          "entity_id": "ent:pre-mrna",
+          "original_names": [
+            "pre-mRNA"
+          ]
+        },
+        {
+          "name": "rna processing",
+          "entity_id": "ent:rna_processing",
+          "original_names": [
+            "RNA processing"
+          ]
+        },
+        {
+          "name": "eukaryotic pre-mrna",
+          "entity_id": "ent:eukaryotic_pre-mrna",
+          "original_names": [
+            "eukaryotic pre-mRNA"
+          ]
+        },
+        {
+          "name": "rna editing",
+          "entity_id": "ent:rna_editing",
+          "original_names": [
+            "RNA editing"
+          ]
+        },
+        {
+          "name": "guide rnas",
+          "entity_id": "ent:guide_rnas",
+          "original_names": [
+            "guide RNAs"
+          ]
+        },
+        {
+          "name": "mitochondrial dna",
+          "entity_id": "ent:mitochondrial_dna",
+          "original_names": [
+            "mitochondrial DNA"
+          ]
+        },
+        {
+          "name": "rna-stabilizing proteins",
+          "entity_id": "ent:rna-stabilizing_proteins",
+          "original_names": [
+            "RNA-stabilizing proteins"
+          ]
+        },
+        {
+          "name": "intron removal",
+          "entity_id": "ent:intron_removal",
+          "original_names": [
+            "intron removal"
+          ]
+        },
+        {
+          "name": "3' poly-a tail addition",
+          "entity_id": "ent:3'_poly-a_tail_addition",
+          "original_names": [
+            "3' Poly-A Tail addition"
+          ]
+        },
+        {
+          "name": "exons",
+          "entity_id": "ent:exons",
+          "original_names": [
+            "exons"
+          ]
+        },
+        {
+          "name": "5' capping",
+          "entity_id": "ent:5'_capping",
+          "original_names": [
+            "5' capping"
+          ]
+        },
+        {
+          "name": "introns",
+          "entity_id": "ent:introns",
+          "original_names": [
+            "introns"
+          ]
+        },
+        {
+          "name": "splicing",
+          "entity_id": "ent:splicing",
+          "original_names": [
+            "splicing"
+          ]
+        },
+        {
+          "name": "spliceosomes",
+          "entity_id": "ent:spliceosomes",
+          "original_names": [
+            "spliceosomes"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:modern_genetics",
+          "evidence": "Many advances in modern genetics were achieved by the use of the red bread mold Neurospora crassa.",
+          "target_name": "modern genetics",
+          "source_entity_id": "ent:neurospora_crassa",
+          "triple_id": "triple:3a76bfa368868000",
+          "source_name": "Neurospora crassa",
+          "relation": "achieved advances in"
+        },
+        {
+          "target_entity_id": "ent:amino_acids",
+          "evidence": "Genes specify the sequences of amino acids, which are the building blocks of proteins.",
+          "target_name": "amino acids",
+          "source_entity_id": "ent:genes",
+          "triple_id": "triple:3ef314a0a3e8fb1d",
+          "source_name": "genes",
+          "relation": "specify the sequences of"
+        },
+        {
+          "target_entity_id": "ent:amino_acids",
+          "evidence": "Each amino acid is defined by a three-nucleotide sequence called the triplet codon.",
+          "target_name": "amino acids",
+          "source_entity_id": "ent:codons",
+          "triple_id": "triple:0053bca50a884309",
+          "source_name": "codons",
+          "relation": "define"
+        },
+        {
+          "target_entity_id": "ent:dna",
+          "evidence": "Genes are composed of DNA and are linearly arranged on chromosomes.",
+          "target_name": "DNA",
+          "source_entity_id": "ent:genes",
+          "triple_id": "triple:e8c3f9710a352d28",
+          "source_name": "genes",
+          "relation": "are composed of"
+        },
+        {
+          "target_entity_id": "ent:dna",
+          "evidence": "They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.",
+          "target_name": "DNA",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:8cd58dda286ddce8",
+          "source_name": "Oswald Avery",
+          "relation": "used enzymes to degrade"
+        },
+        {
+          "target_entity_id": "ent:protein",
+          "evidence": "Only 32P entered the bacterial cells, indicating that DNA is the genetic material.",
+          "target_name": "protein",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:f8796631b9fea9a8",
+          "source_name": "DNA",
+          "relation": "is the genetic material"
+        },
+        {
+          "target_entity_id": "ent:nucleotides",
+          "evidence": "The building blocks of DNA are nucleotides.",
+          "target_name": "nucleotides",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:2e4a67b053282ddf",
+          "source_name": "DNA",
+          "relation": "consists of"
+        },
+        {
+          "target_entity_id": "ent:histones",
+          "evidence": "At the most basic level, DNA is wrapped around proteins known as histones to form structures called nucleosomes.",
+          "target_name": "histones",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:15abf5f4fe8f3701",
+          "source_name": "DNA",
+          "relation": "is wrapped around"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What is genetics?",
+    "answer": "Genetics is the study of genes, which are composed of DNA and specify the sequences of amino acids, the building blocks of proteins.",
+    "citations": [
+      "chunk:15_1_the_genetic_code_biology_2e_openstax:0 | 15.1 The Genetic Code - Biology 2e _ OpenStax.txt | INTRODUCTION CHAPTER 15 Genes and Proteins 15.1 The Genetic Code 15.2 Prokaryotic Transcription 15.3 Eukaryotic Trans...",
+      "triple:e8c3f9710a352d28 | genes --[are composed of]--> DNA",
+      "triple:3ef314a0a3e8fb1d | genes --[specify the sequences of]--> amino acids"
+    ],
+    "reasoning": "Matched entities: modern genetics. Traversed graph edges: genes --[are composed of]--> DNA; Neurospora crassa --[achieved advances in]--> modern genetics; genes --[specify the sequences of]--> amino acids. Graph evidence: \"Genes are composed of DNA and are linearly arranged on chromosomes.\". The context defines genes as molecular entities composed of DNA that specify amino acid sequences, which are fundamental to proteins. This information is central to the study of genetics."
+  }
+}

@@ -1,0 +1,945 @@
+{
+  "question": "What is the function of mitochondria in eukaryotic cells?",
+  "generated_at": "2026-05-01T07:11:15.655361+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "function",
+        "mitochondria",
+        "eukaryotic",
+        "cells",
+        "function mitochondria",
+        "mitochondria eukaryotic",
+        "eukaryotic cells",
+        "function mitochondria eukaryotic",
+        "mitochondria eukaryotic cells"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:mitochondria",
+          "name": "mitochondria",
+          "matched_text": "mitochondria",
+          "matched_alias": "mitochondria",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:eukaryotic_pre-mrna",
+          "name": "eukaryotic pre-mrna",
+          "matched_text": "eukaryotic",
+          "matched_alias": "eukaryotic pre-mrna",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        },
+        {
+          "entity_id": "ent:germ_cells",
+          "name": "germ cells",
+          "matched_text": "cells",
+          "matched_alias": "germ cells",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:4",
+          "text": "other eukaryotes,\nhave organelles called mitochondria that supply the cell with chemical energy.\n\nMitochondria are organelles that\nexpress their own DNA and are believed to be the remnants of a symbiotic relationship between a eukaryote and an\nengulfed prokaryote. The mitochondrial DNA of trypanosomes exhibit an interesting exception to the central dogma:\ntheir pre-mRNAs do not have the correct information to specify a functional protein. Usually, this is because the\nmRNA is missing several U nucleotides. The cell performs an additional RNA processing step called RNA editing to\nremedy this. 15.4 • RNA Processing in Eukaryotes\n403",
+          "source_name": "15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 4,
+          "snippet": "other eukaryotes,\nhave organelles called mitochondria that supply the cell with chemical energy.\n\nMitochondria are organelles that\nexpress their own DNA and are believed to be the remnants of a symbiotic relationship between a eukaryote and an\nengulfed prokaryote. The mitochondrial DNA of trypanosomes exhibit an interesting exception to the central dogma:\ntheir pre-mRNAs do not have the correct in",
+          "score": 0.7432481269396993
+        },
+        {
+          "chunk_id": "chunk:15_3_eukaryotic_transcription_biology_2e_openstax:2",
+          "text": "to the latter’s membrane-\nbound nucleus and organelles.\n\nWith the genes bound in a nucleus, the eukaryotic cell must be able to transport its\nmRNA to the cytoplasm and must protect its mRNA from degrading before it is translated. Eukaryotes also employ\nthree different polymerases that each transcribe a different subset of genes. Eukaryotic mRNAs are usually\nmonogenic, meaning that they specify a single protein. Initiation of Transcription in Eukaryotes\nUnlike the prokaryotic polymerase that can bind to a DNA template on its own, eukaryotes require several other\nproteins, called transcription factors, to first bind to the promoter region and then to help recruit the appropriate\npolymerase.",
+          "source_name": "15.3 Eukaryotic Transcription - Biology 2e _ OpenStax.txt",
+          "chunk_index": 2,
+          "snippet": "to the latter’s membrane-\nbound nucleus and organelles.\n\nWith the genes bound in a nucleus, the eukaryotic cell must be able to transport its\nmRNA to the cytoplasm and must protect its mRNA from degrading before it is translated. Eukaryotes also employ\nthree different polymerases that each transcribe a different subset of genes. Eukaryotic mRNAs are usually\nmonogenic, meaning that they specify a s",
+          "score": 0.6598793552011167
+        },
+        {
+          "chunk_id": "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:5",
+          "text": "In E. coli, there are\nbetween 10,000 and 70,000 ribosomes present in each cell at any given time.\n\nA ribosome is a complex\nmacromolecule composed of structural and catalytic rRNAs, and many distinct polypeptides. In eukaryotes, the\nnucleolus is completely specialized for the synthesis and assembly of rRNAs. Ribosomes exist in the cytoplasm of prokaryotes and in the cytoplasm and rough endoplasmic reticulum of\neukaryotes. Mitochondria and chloroplasts also have their own ribosomes in the matrix and stroma, which look\nmore similar to prokaryotic ribosomes (and have similar drug sensitivities) than the ribosomes just outside their\nouter membranes in the cytoplasm.",
+          "source_name": "15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt",
+          "chunk_index": 5,
+          "snippet": "In E. coli, there are\nbetween 10,000 and 70,000 ribosomes present in each cell at any given time.\n\nA ribosome is a complex\nmacromolecule composed of structural and catalytic rRNAs, and many distinct polypeptides. In eukaryotes, the\nnucleolus is completely specialized for the synthesis and assembly of rRNAs. Ribosomes exist in the cytoplasm of prokaryotes and in the cytoplasm and rough endoplasmic ",
+          "score": 0.6477749578718728
+        },
+        {
+          "chunk_id": "chunk:15_3_eukaryotic_transcription_biology_2e_openstax:20",
+          "text": "elongation and termination.\n\nAlthough the enzymatic process of elongation is essentially the same in eukaryotes and prokaryotes, the DNA\ntemplate is considerably more complex. When eukaryotic cells are not dividing, their genes exist as a diffuse mass\nof DNA and proteins called chromatin. The DNA is tightly packaged around charged histone proteins at repeated\nintervals. These DNA–histone complexes, collectively called nucleosomes, are regularly spaced and include 146\nnucleotides of DNA wound around eight histones like thread around a spool. For polynucleotide synthesis to occur, the transcription machinery needs to move histones out of the way every time\nit encounters a nucleosome.",
+          "source_name": "15.3 Eukaryotic Transcription - Biology 2e _ OpenStax.txt",
+          "chunk_index": 20,
+          "snippet": "elongation and termination.\n\nAlthough the enzymatic process of elongation is essentially the same in eukaryotes and prokaryotes, the DNA\ntemplate is considerably more complex. When eukaryotic cells are not dividing, their genes exist as a diffuse mass\nof DNA and proteins called chromatin. The DNA is tightly packaged around charged histone proteins at repeated\nintervals. These DNA–histone complexes",
+          "score": 0.6469020672322814
+        },
+        {
+          "chunk_id": "chunk:24_1_characteristics_of_fungi_biology_2e_openstax:11",
+          "text": "/biology-2e/pages/24-1-characteristics-of-fungi\n2/11\n\nFungi are eukaryotes, and as such, have a complex cellular organization. As eukaryotes, fungal cells\ncontain a membrane-bound nucleus. The DNA in the nucleus is represented by multiple linear\nmolecules wrapped around histone proteins, as is observed in other eukaryotic cells. A few types of\nfungi have accessory genomic structures comparable to bacterial plasmids (loops of DNA); however,\nthe horizontal transfer of genetic information that occurs between one bacterium and another rarely\noccurs in fungi. Fungal cells also contain mitochondria and a complex system of internal membranes,\nincluding the endoplasmic reticulum and Golgi apparatus.",
+          "source_name": "data/24.1 Characteristics of Fungi - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 11,
+          "snippet": "/biology-2e/pages/24-1-characteristics-of-fungi\n2/11\n\nFungi are eukaryotes, and as such, have a complex cellular organization. As eukaryotes, fungal cells\ncontain a membrane-bound nucleus. The DNA in the nucleus is represented by multiple linear\nmolecules wrapped around histone proteins, as is observed in other eukaryotic cells. A few types of\nfungi have accessory genomic structures comparable to ",
+          "score": 0.6422855956008401
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:a4c25b9db528a4dc",
+          "head_entity_id": "ent:trypanosomes",
+          "tail_entity_id": "ent:mitochondria",
+          "relation": "contains",
+          "evidence": "Trypanosomes, and virtually all other eukaryotes, have organelles called mitochondria that supply the cell with chemical energy.",
+          "head_name": "trypanosomes",
+          "tail_name": "mitochondria",
+          "score": 0.7662875294307309
+        },
+        {
+          "triple_id": "triple:bea02f4333cbb615",
+          "head_entity_id": "ent:mitochondria",
+          "tail_entity_id": "ent:dna",
+          "relation": "express",
+          "evidence": "Mitochondria are organelles that express their own DNA and are believed to be the remnants of a symbiotic relationship between a eukaryote and an engulfed prokaryote.",
+          "head_name": "mitochondria",
+          "tail_name": "DNA",
+          "score": 0.7079681832825255
+        },
+        {
+          "triple_id": "triple:120b555eea513ae6",
+          "head_entity_id": "ent:photosynthesis",
+          "tail_entity_id": "ent:chloroplast",
+          "relation": "occurs in",
+          "evidence": "In all autotrophic eukaryotes, photosynthesis takes place inside an organelle called a chloroplast.",
+          "head_name": "photosynthesis",
+          "tail_name": "chloroplast",
+          "score": 0.6811346077222518
+        },
+        {
+          "triple_id": "triple:22e962e090540a5b",
+          "head_entity_id": "ent:rna_polymerase_ii",
+          "tail_entity_id": "ent:pre-mrnas",
+          "relation": "transcribes",
+          "evidence": "RNA polymerase II is responsible for transcribing the overwhelming majority of eukaryotic genes.",
+          "head_name": "RNA polymerase II",
+          "tail_name": "pre-mRNAs",
+          "score": 0.6271718357877194
+        },
+        {
+          "triple_id": "triple:fb97f3248c4f8d0d",
+          "head_entity_id": "ent:pre-mrna",
+          "tail_entity_id": "ent:introns",
+          "relation": "contains",
+          "evidence": "Eukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they are expressed), and intervening sequences called introns (int-ron denotes their intervening role).",
+          "head_name": "pre-mRNA",
+          "tail_name": "introns",
+          "score": 0.6212202317125746
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:mitochondria",
+        "ent:eukaryotic_pre-mrna",
+        "ent:germ_cells",
+        "ent:trypanosomes",
+        "ent:dna",
+        "ent:photosynthesis",
+        "ent:chloroplast",
+        "ent:rna_polymerase_ii",
+        "ent:pre-mrnas",
+        "ent:pre-mrna",
+        "ent:introns"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "mitochondria",
+          "entity_id": "ent:mitochondria",
+          "original_names": [
+            "mitochondria"
+          ]
+        },
+        {
+          "name": "trypanosomes",
+          "entity_id": "ent:trypanosomes",
+          "original_names": [
+            "trypanosomes"
+          ]
+        },
+        {
+          "name": "sleeping sickness",
+          "entity_id": "ent:sleeping_sickness",
+          "original_names": [
+            "sleeping sickness"
+          ]
+        },
+        {
+          "name": "dna",
+          "entity_id": "ent:dna",
+          "original_names": [
+            "DNA"
+          ]
+        },
+        {
+          "name": "oswald avery",
+          "entity_id": "ent:oswald_avery",
+          "original_names": [
+            "Oswald Avery"
+          ]
+        },
+        {
+          "name": "protein",
+          "entity_id": "ent:protein",
+          "original_names": [
+            "protein"
+          ]
+        },
+        {
+          "name": "nucleotides",
+          "entity_id": "ent:nucleotides",
+          "original_names": [
+            "nucleotides"
+          ]
+        },
+        {
+          "name": "histones",
+          "entity_id": "ent:histones",
+          "original_names": [
+            "histones"
+          ]
+        },
+        {
+          "name": "deoxyribose",
+          "entity_id": "ent:deoxyribose",
+          "original_names": [
+            "deoxyribose"
+          ]
+        },
+        {
+          "name": "two strands",
+          "entity_id": "ent:two_strands",
+          "original_names": [
+            "two strands"
+          ]
+        },
+        {
+          "name": "moves toward the positive electrode",
+          "entity_id": "ent:moves_toward_the_positive_electrode",
+          "original_names": [
+            "moves toward the positive electrode"
+          ]
+        },
+        {
+          "name": "gel electrophoresis",
+          "entity_id": "ent:gel_electrophoresis",
+          "original_names": [
+            "gel electrophoresis"
+          ]
+        },
+        {
+          "name": "dna-specific dye",
+          "entity_id": "ent:dna-specific_dye",
+          "original_names": [
+            "DNA-specific dye"
+          ]
+        },
+        {
+          "name": "double helix",
+          "entity_id": "ent:double_helix",
+          "original_names": [
+            "double helix"
+          ]
+        },
+        {
+          "name": "nitrogenous bases",
+          "entity_id": "ent:nitrogenous_bases",
+          "original_names": [
+            "nitrogenous bases"
+          ]
+        },
+        {
+          "name": "new complementary strand",
+          "entity_id": "ent:new_complementary_strand",
+          "original_names": [
+            "new complementary strand"
+          ]
+        },
+        {
+          "name": "replication",
+          "entity_id": "ent:replication",
+          "original_names": [
+            "replication"
+          ]
+        },
+        {
+          "name": "helicase",
+          "entity_id": "ent:helicase",
+          "original_names": [
+            "Helicase"
+          ]
+        },
+        {
+          "name": "dna polymerase",
+          "entity_id": "ent:dna_polymerase",
+          "original_names": [
+            "DNA polymerase"
+          ]
+        },
+        {
+          "name": "rna",
+          "entity_id": "ent:rna",
+          "original_names": [
+            "RNA"
+          ]
+        },
+        {
+          "name": "genes",
+          "entity_id": "ent:genes",
+          "original_names": [
+            "genes"
+          ]
+        },
+        {
+          "name": "eukaryotic pre-mrna",
+          "entity_id": "ent:eukaryotic_pre-mrna",
+          "original_names": [
+            "eukaryotic pre-mRNA"
+          ]
+        },
+        {
+          "name": "exons",
+          "entity_id": "ent:exons",
+          "original_names": [
+            "exons"
+          ]
+        },
+        {
+          "name": "pre-mrna",
+          "entity_id": "ent:pre-mrna",
+          "original_names": [
+            "pre-mRNA"
+          ]
+        },
+        {
+          "name": "rna processing",
+          "entity_id": "ent:rna_processing",
+          "original_names": [
+            "RNA processing"
+          ]
+        },
+        {
+          "name": "introns",
+          "entity_id": "ent:introns",
+          "original_names": [
+            "introns"
+          ]
+        },
+        {
+          "name": "splicing",
+          "entity_id": "ent:splicing",
+          "original_names": [
+            "splicing"
+          ]
+        },
+        {
+          "name": "germ cells",
+          "entity_id": "ent:germ_cells",
+          "original_names": [
+            "germ cells"
+          ]
+        },
+        {
+          "name": "mutations",
+          "entity_id": "ent:mutations",
+          "original_names": [
+            "mutations"
+          ]
+        },
+        {
+          "name": "x-rays",
+          "entity_id": "ent:x-rays",
+          "original_names": [
+            "x-rays"
+          ]
+        },
+        {
+          "name": "environmental agent",
+          "entity_id": "ent:environmental_agent",
+          "original_names": [
+            "environmental agent"
+          ]
+        },
+        {
+          "name": "uv rays",
+          "entity_id": "ent:uv_rays",
+          "original_names": [
+            "UV rays"
+          ]
+        },
+        {
+          "name": "exposure to chemicals",
+          "entity_id": "ent:exposure_to_chemicals",
+          "original_names": [
+            "exposure to chemicals"
+          ]
+        },
+        {
+          "name": "somatic cells",
+          "entity_id": "ent:somatic_cells",
+          "original_names": [
+            "somatic cells"
+          ]
+        },
+        {
+          "name": "s strain",
+          "entity_id": "ent:s_strain",
+          "original_names": [
+            "S strain"
+          ]
+        },
+        {
+          "name": "dna was the transforming principle",
+          "entity_id": "ent:dna_was_the_transforming_principle",
+          "original_names": [
+            "DNA was the transforming principle"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "phosphodiester bonds",
+          "entity_id": "ent:phosphodiester_bonds",
+          "original_names": [
+            "phosphodiester bonds"
+          ]
+        },
+        {
+          "name": "dna polymerase iii",
+          "entity_id": "ent:dna_polymerase_iii",
+          "original_names": [
+            "DNA polymerase III"
+          ]
+        },
+        {
+          "name": "nucleosomes",
+          "entity_id": "ent:nucleosomes",
+          "original_names": [
+            "nucleosomes"
+          ]
+        },
+        {
+          "name": "dna helix",
+          "entity_id": "ent:dna_helix",
+          "original_names": [
+            "DNA helix"
+          ]
+        },
+        {
+          "name": "nucleoside triphosphates",
+          "entity_id": "ent:nucleoside_triphosphates",
+          "original_names": [
+            "nucleoside triphosphates"
+          ]
+        },
+        {
+          "name": "dideoxynucleotides",
+          "entity_id": "ent:dideoxynucleotides",
+          "original_names": [
+            "dideoxynucleotides"
+          ]
+        },
+        {
+          "name": "okazaki fragments",
+          "entity_id": "ent:okazaki_fragments",
+          "original_names": [
+            "Okazaki fragments"
+          ]
+        },
+        {
+          "name": "free 3'-oh group",
+          "entity_id": "ent:free_3'-oh_group",
+          "original_names": [
+            "free 3'-OH group"
+          ]
+        },
+        {
+          "name": "leading strand",
+          "entity_id": "ent:leading_strand",
+          "original_names": [
+            "leading strand"
+          ]
+        },
+        {
+          "name": "pcna",
+          "entity_id": "ent:pcna",
+          "original_names": [
+            "PCNA"
+          ]
+        },
+        {
+          "name": "phosphodiester bond",
+          "entity_id": "ent:phosphodiester_bond",
+          "original_names": [
+            "phosphodiester bond"
+          ]
+        },
+        {
+          "name": "wrong nucleotide",
+          "entity_id": "ent:wrong_nucleotide",
+          "original_names": [
+            "wrong nucleotide"
+          ]
+        },
+        {
+          "name": "wrongly incorporated bases",
+          "entity_id": "ent:wrongly_incorporated_bases",
+          "original_names": [
+            "wrongly incorporated bases"
+          ]
+        },
+        {
+          "name": "mistakes during dna replication",
+          "entity_id": "ent:mistakes_during_dna_replication",
+          "original_names": [
+            "mistakes during DNA replication"
+          ]
+        },
+        {
+          "name": "segment of dna",
+          "entity_id": "ent:segment_of_dna",
+          "original_names": [
+            "segment of DNA"
+          ]
+        },
+        {
+          "name": "newly added base",
+          "entity_id": "ent:newly_added_base",
+          "original_names": [
+            "newly added base"
+          ]
+        },
+        {
+          "name": "ribose",
+          "entity_id": "ent:ribose",
+          "original_names": [
+            "ribose"
+          ]
+        },
+        {
+          "name": "amino acids",
+          "entity_id": "ent:amino_acids",
+          "original_names": [
+            "amino acids"
+          ]
+        },
+        {
+          "name": "promoter",
+          "entity_id": "ent:promoter",
+          "original_names": [
+            "promoter"
+          ]
+        },
+        {
+          "name": "photosynthesis",
+          "entity_id": "ent:photosynthesis",
+          "original_names": [
+            "Photosynthesis",
+            "photosynthesis"
+          ]
+        },
+        {
+          "name": "algae",
+          "entity_id": "ent:algae",
+          "original_names": [
+            "Algae"
+          ]
+        },
+        {
+          "name": "fungi",
+          "entity_id": "ent:fungi",
+          "original_names": [
+            "fungi"
+          ]
+        },
+        {
+          "name": "fungus",
+          "entity_id": "ent:fungus",
+          "original_names": [
+            "fungus"
+          ]
+        },
+        {
+          "name": "light-dependent reactions",
+          "entity_id": "ent:light-dependent_reactions",
+          "original_names": [
+            "light-dependent reactions",
+            "Light-dependent reactions"
+          ]
+        },
+        {
+          "name": "thylakoid membrane",
+          "entity_id": "ent:thylakoid_membrane",
+          "original_names": [
+            "thylakoid membrane"
+          ]
+        },
+        {
+          "name": "sunlight",
+          "entity_id": "ent:sunlight",
+          "original_names": [
+            "sunlight"
+          ]
+        },
+        {
+          "name": "oxygen",
+          "entity_id": "ent:oxygen",
+          "original_names": [
+            "oxygen"
+          ]
+        },
+        {
+          "name": "photosystem ii",
+          "entity_id": "ent:photosystem_ii",
+          "original_names": [
+            "photosystem II"
+          ]
+        },
+        {
+          "name": "leaves",
+          "entity_id": "ent:leaves",
+          "original_names": [
+            "leaves"
+          ]
+        },
+        {
+          "name": "glyceraldehyde-3-phosphate",
+          "entity_id": "ent:glyceraldehyde-3-phosphate",
+          "original_names": [
+            "glyceraldehyde-3-phosphate"
+          ]
+        },
+        {
+          "name": "plants",
+          "entity_id": "ent:plants",
+          "original_names": [
+            "plants"
+          ]
+        },
+        {
+          "name": "chytrids",
+          "entity_id": "ent:chytrids",
+          "original_names": [
+            "Chytrids"
+          ]
+        },
+        {
+          "name": "ascomycota",
+          "entity_id": "ent:ascomycota",
+          "original_names": [
+            "Ascomycota"
+          ]
+        },
+        {
+          "name": "energy from sunlight",
+          "entity_id": "ent:energy_from_sunlight",
+          "original_names": [
+            "energy from sunlight"
+          ]
+        },
+        {
+          "name": "water",
+          "entity_id": "ent:water",
+          "original_names": [
+            "water"
+          ]
+        },
+        {
+          "name": "light-independent reactions",
+          "entity_id": "ent:light-independent_reactions",
+          "original_names": [
+            "light-independent reactions",
+            "Light-independent reactions"
+          ]
+        },
+        {
+          "name": "stroma",
+          "entity_id": "ent:stroma",
+          "original_names": [
+            "stroma"
+          ]
+        },
+        {
+          "name": "chloroplast",
+          "entity_id": "ent:chloroplast",
+          "original_names": [
+            "chloroplast",
+            "Chloroplast"
+          ]
+        },
+        {
+          "name": "thylakoids",
+          "entity_id": "ent:thylakoids",
+          "original_names": [
+            "thylakoids"
+          ]
+        },
+        {
+          "name": "carbon dioxide",
+          "entity_id": "ent:carbon_dioxide",
+          "original_names": [
+            "carbon dioxide"
+          ]
+        },
+        {
+          "name": "calvin cycle",
+          "entity_id": "ent:calvin_cycle",
+          "original_names": [
+            "Calvin cycle"
+          ]
+        },
+        {
+          "name": "carbohydrates",
+          "entity_id": "ent:carbohydrates",
+          "original_names": [
+            "carbohydrates"
+          ]
+        },
+        {
+          "name": "carbohydrate molecules",
+          "entity_id": "ent:carbohydrate_molecules",
+          "original_names": [
+            "carbohydrate molecules"
+          ]
+        },
+        {
+          "name": "cyanobacteria",
+          "entity_id": "ent:cyanobacteria",
+          "original_names": [
+            "Cyanobacteria"
+          ]
+        },
+        {
+          "name": "mesophyll",
+          "entity_id": "ent:mesophyll",
+          "original_names": [
+            "mesophyll"
+          ]
+        },
+        {
+          "name": "rna polymerase ii",
+          "entity_id": "ent:rna_polymerase_ii",
+          "original_names": [
+            "RNA polymerase II"
+          ]
+        },
+        {
+          "name": "nucleus",
+          "entity_id": "ent:nucleus",
+          "original_names": [
+            "nucleus"
+          ]
+        },
+        {
+          "name": "rna polymerase iii",
+          "entity_id": "ent:rna_polymerase_iii",
+          "original_names": [
+            "RNA polymerase III"
+          ]
+        },
+        {
+          "name": "pre-trnas",
+          "entity_id": "ent:pre-trnas",
+          "original_names": [
+            "pre-tRNAs"
+          ]
+        },
+        {
+          "name": "σ subunit",
+          "entity_id": "ent:σ_subunit",
+          "original_names": [
+            "σ subunit"
+          ]
+        },
+        {
+          "name": "transcription factors",
+          "entity_id": "ent:transcription_factors",
+          "original_names": [
+            "Transcription factors"
+          ]
+        },
+        {
+          "name": "protein-coding nuclear pre-mrnas",
+          "entity_id": "ent:protein-coding_nuclear_pre-mrnas",
+          "original_names": [
+            "protein-coding nuclear pre-mRNAs"
+          ]
+        },
+        {
+          "name": "α-amanitin",
+          "entity_id": "ent:α-amanitin",
+          "original_names": [
+            "α-amanitin"
+          ]
+        },
+        {
+          "name": "rna polymerase i",
+          "entity_id": "ent:rna_polymerase_i",
+          "original_names": [
+            "RNA polymerase I"
+          ]
+        },
+        {
+          "name": "pre-mrnas",
+          "entity_id": "ent:pre-mrnas",
+          "original_names": [
+            "pre-mRNAs"
+          ]
+        },
+        {
+          "name": "rna editing",
+          "entity_id": "ent:rna_editing",
+          "original_names": [
+            "RNA editing"
+          ]
+        },
+        {
+          "name": "guide rnas",
+          "entity_id": "ent:guide_rnas",
+          "original_names": [
+            "guide RNAs"
+          ]
+        },
+        {
+          "name": "mitochondrial dna",
+          "entity_id": "ent:mitochondrial_dna",
+          "original_names": [
+            "mitochondrial DNA"
+          ]
+        },
+        {
+          "name": "rna-stabilizing proteins",
+          "entity_id": "ent:rna-stabilizing_proteins",
+          "original_names": [
+            "RNA-stabilizing proteins"
+          ]
+        },
+        {
+          "name": "intron removal",
+          "entity_id": "ent:intron_removal",
+          "original_names": [
+            "intron removal"
+          ]
+        },
+        {
+          "name": "3' poly-a tail addition",
+          "entity_id": "ent:3'_poly-a_tail_addition",
+          "original_names": [
+            "3' Poly-A Tail addition"
+          ]
+        },
+        {
+          "name": "5' capping",
+          "entity_id": "ent:5'_capping",
+          "original_names": [
+            "5' capping"
+          ]
+        },
+        {
+          "name": "spliceosomes",
+          "entity_id": "ent:spliceosomes",
+          "original_names": [
+            "spliceosomes"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:mitochondria",
+          "evidence": "Trypanosomes, and virtually all other eukaryotes, have organelles called mitochondria that supply the cell with chemical energy.",
+          "target_name": "mitochondria",
+          "source_entity_id": "ent:trypanosomes",
+          "triple_id": "triple:a4c25b9db528a4dc",
+          "source_name": "trypanosomes",
+          "relation": "contains"
+        },
+        {
+          "target_entity_id": "ent:sleeping_sickness",
+          "evidence": "The trypanosomes are a group of protozoa that include the pathogen Trypanosoma brucei, which causes nagana in cattle and sleeping sickness in humans throughout great areas of Africa.",
+          "target_name": "sleeping sickness",
+          "source_entity_id": "ent:trypanosomes",
+          "triple_id": "triple:e749f8fe405b4873",
+          "source_name": "trypanosomes",
+          "relation": "causes"
+        },
+        {
+          "target_entity_id": "ent:dna",
+          "evidence": "Mitochondria are organelles that express their own DNA and are believed to be the remnants of a symbiotic relationship between a eukaryote and an engulfed prokaryote.",
+          "target_name": "DNA",
+          "source_entity_id": "ent:mitochondria",
+          "triple_id": "triple:bea02f4333cbb615",
+          "source_name": "mitochondria",
+          "relation": "express"
+        },
+        {
+          "target_entity_id": "ent:dna",
+          "evidence": "They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.",
+          "target_name": "DNA",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:8cd58dda286ddce8",
+          "source_name": "Oswald Avery",
+          "relation": "used enzymes to degrade"
+        },
+        {
+          "target_entity_id": "ent:protein",
+          "evidence": "Only 32P entered the bacterial cells, indicating that DNA is the genetic material.",
+          "target_name": "protein",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:f8796631b9fea9a8",
+          "source_name": "DNA",
+          "relation": "is the genetic material"
+        },
+        {
+          "target_entity_id": "ent:nucleotides",
+          "evidence": "The building blocks of DNA are nucleotides.",
+          "target_name": "nucleotides",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:2e4a67b053282ddf",
+          "source_name": "DNA",
+          "relation": "consists of"
+        },
+        {
+          "target_entity_id": "ent:histones",
+          "evidence": "At the most basic level, DNA is wrapped around proteins known as histones to form structures called nucleosomes.",
+          "target_name": "histones",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:15abf5f4fe8f3701",
+          "source_name": "DNA",
+          "relation": "is wrapped around"
+        },
+        {
+          "target_entity_id": "ent:deoxyribose",
+          "evidence": "The sugar is deoxyribose in DNA and ribose in RNA.",
+          "target_name": "deoxyribose",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:3aaff4625e9cdd61",
+          "source_name": "DNA",
+          "relation": "contains"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What is the function of mitochondria in eukaryotic cells?",
+    "answer": "supply the cell with chemical energy",
+    "citations": [
+      "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:4 | 15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt | other eukaryotes, have organelles called mitochondria that supply the cell with chemical energy. Mitochondria are org...",
+      "chunk:15_3_eukaryotic_transcription_biology_2e_openstax:2 | 15.3 Eukaryotic Transcription - Biology 2e _ OpenStax.txt | to the latter’s membrane- bound nucleus and organelles. With the genes bound in a nucleus, the eukaryotic cell must b..."
+    ],
+    "reasoning": "Matched entities: mitochondria, eukaryotic pre-mrna, germ cells. Traversed graph edges: trypanosomes --[contains]--> mitochondria; trypanosomes --[causes]--> sleeping sickness; mitochondria --[express]--> DNA. Graph evidence: \"Trypanosomes, and virtually all other eukaryotes, have organelles called mitochondria that supply the cell with chemical energy.\". The context states that mitochondria are organelles in eukaryotic cells that supply the cell with chemical energy."
+  }
+}

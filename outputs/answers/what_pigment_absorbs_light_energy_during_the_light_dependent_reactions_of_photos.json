@@ -1,0 +1,8 @@
+{
+  "question": "What pigment absorbs light energy during the light-dependent reactions of photosynthesis?",
+  "answer": "chlorophyll a",
+  "citations": [
+    "triple:d2773d9170b09530 | chlorophyll a --[absorbs]--> wavelengths from either end of the visible spectrum (blue and red)"
+  ],
+  "reasoning": "Matched entities: photosynthesis, energy from sunlight, light energy into chemical energy. Traversed graph edges: plants --[perform]--> photosynthesis; plants --[absorb]--> energy from sunlight; chytrids --[are]--> plants. Graph evidence: \"Plants, algae, and a group of bacteria called cyanobacteria are the only organisms capable of performing photosynthesis.\". The evidence indicates that chlorophyll a absorbs wavelengths from either end of the visible spectrum (blue and red), which are essential for the light-dependent reactions of photosynthesis."
+}

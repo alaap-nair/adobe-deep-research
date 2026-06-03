@@ -1,0 +1,9 @@
+{
+  "question": "What enzyme catalyzes carbon fixation in the Calvin cycle?",
+  "answer": "RuBisCO",
+  "citations": [
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:5 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration. Stage 1: Fixation I...",
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:4 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules 1/8 Figure 8.18 Light re..."
+  ],
+  "reasoning": "Matched entities: 5-carbon sugar, calvin cycle, carbon fixation. Traversed graph edges: nucleotide --[contains]--> 5-carbon sugar; nucleotide --[contains]--> nitrogenous base; nucleotide --[contains]--> phosphate group. Graph evidence: \"The important components of the nucleotide are a nitrogenous (nitrogen-bearing) base, a 5-carbon sugar (pentose), and a phosphate group (Figure 14.5).\". The enzyme RuBisCO catalyzes carbon fixation in the Calvin cycle by facilitating the reaction between CO2 and RuBP, resulting in the formation of 3-PGA. This information is supported by citations from the provided context."
+}

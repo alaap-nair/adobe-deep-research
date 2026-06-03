@@ -1,0 +1,165 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 15,
+  "num_entities": 21,
+  "entities": [
+    "AUG",
+    "DNA",
+    "RNA",
+    "all species",
+    "amino acids",
+    "codons",
+    "genes",
+    "genetic code",
+    "mRNA",
+    "messenger RNA (mRNA)",
+    "methionine",
+    "nearly every function of the cell",
+    "nonsense codons",
+    "nucleotide triplets",
+    "protein",
+    "protein synthesis",
+    "proteins",
+    "ribosomes",
+    "the start codon",
+    "three nucleotides",
+    "transcription"
+  ],
+  "triples": [
+    {
+      "head": "genes",
+      "head_type": "Gene",
+      "relation": "are composed of",
+      "relation_type": "CONSISTS_OF",
+      "tail": "DNA",
+      "tail_type": "Molecule",
+      "evidence": "Genes are composed of DNA and are linearly arranged on chromosomes."
+    },
+    {
+      "head": "genes",
+      "head_type": "Gene",
+      "relation": "specify the sequences of",
+      "relation_type": "ENCODES",
+      "tail": "amino acids",
+      "tail_type": "Molecule",
+      "evidence": "Genes specify the sequences of amino acids, which are the building blocks of proteins."
+    },
+    {
+      "head": "proteins",
+      "head_type": "Molecule",
+      "relation": "are responsible for",
+      "relation_type": "REGULATES",
+      "tail": "nearly every function of the cell",
+      "tail_type": "Process",
+      "evidence": "proteins are responsible for orchestrating nearly every function of the cell."
+    },
+    {
+      "head": "transcription",
+      "head_type": "Process",
+      "relation": "generates",
+      "relation_type": "PRODUCES",
+      "tail": "messenger RNA (mRNA)",
+      "tail_type": "Molecule",
+      "evidence": "The cellular process of transcription generates messenger RNA (mRNA), a mobile molecular copy of one or more genes with an alphabet of A, C, G, and uracil (U)."
+    },
+    {
+      "head": "mRNA",
+      "head_type": "Molecule",
+      "relation": "is translated on",
+      "relation_type": "OCCURS_IN",
+      "tail": "ribosomes",
+      "tail_type": "CellularStructure",
+      "evidence": "Translation of the mRNA template on ribosomes converts nucleotide-based genetic information into a protein product."
+    },
+    {
+      "head": "DNA",
+      "head_type": "Molecule",
+      "relation": "encodes",
+      "relation_type": "ENCODES",
+      "tail": "RNA",
+      "tail_type": "Molecule",
+      "evidence": "The flow of genetic information in cells from DNA to mRNA to protein is described by the central dogma, which states that genes specify the sequence of mRNAs, which in turn specify the sequence of amino acids making up all proteins."
+    },
+    {
+      "head": "mRNA",
+      "head_type": "Molecule",
+      "relation": "encodes",
+      "relation_type": "ENCODES",
+      "tail": "protein",
+      "tail_type": "Molecule",
+      "evidence": "The flow of genetic information in cells from DNA to mRNA to protein is described by the central dogma, which states that genes specify the sequence of mRNAs, which in turn specify the sequence of amino acids making up all proteins."
+    },
+    {
+      "head": "DNA",
+      "head_type": "Molecule",
+      "relation": "is copied to",
+      "relation_type": "REPLICATES",
+      "tail": "RNA",
+      "tail_type": "Molecule",
+      "evidence": "The copying of DNA to RNA is relatively straightforward, with one nucleotide being added to the mRNA strand for every nucleotide read in the DNA strand."
+    },
+    {
+      "head": "mRNA",
+      "head_type": "Molecule",
+      "relation": "is read in groups of",
+      "relation_type": "CONSISTS_OF",
+      "tail": "three nucleotides",
+      "tail_type": "Molecule",
+      "evidence": "The translation to protein is still systematic and colinear, such that nucleotides 1 to 3 correspond to amino acid 1, nucleotides 4 to 6 correspond to amino acid 2, and so on."
+    },
+    {
+      "head": "codons",
+      "head_type": "GeneticElement",
+      "relation": "define",
+      "relation_type": "ENCODES",
+      "tail": "amino acids",
+      "tail_type": "Molecule",
+      "evidence": "Each amino acid is defined by a three-nucleotide sequence called the triplet codon."
+    },
+    {
+      "head": "codons",
+      "head_type": "GeneticElement",
+      "relation": "are encoded by",
+      "relation_type": "ENCODES",
+      "tail": "nucleotide triplets",
+      "tail_type": "Molecule",
+      "evidence": "Scientists theorized that amino acids were encoded by nucleotide triplets and that the genetic code was \u201cdegenerate.\u201d"
+    },
+    {
+      "head": "AUG",
+      "head_type": "GeneticElement",
+      "relation": "specifies",
+      "relation_type": "ENCODES",
+      "tail": "methionine",
+      "tail_type": "Molecule",
+      "evidence": "Another codon, AUG, also has a special function. In addition to specifying the amino acid methionine, it also serves as the start codon to initiate translation."
+    },
+    {
+      "head": "AUG",
+      "head_type": "GeneticElement",
+      "relation": "serves as",
+      "relation_type": "PART_OF",
+      "tail": "the start codon",
+      "tail_type": "GeneticElement",
+      "evidence": "Another codon, AUG, also has a special function. In addition to specifying the amino acid methionine, it also serves as the start codon to initiate translation."
+    },
+    {
+      "head": "nonsense codons",
+      "head_type": "GeneticElement",
+      "relation": "terminate",
+      "relation_type": "INHIBITS",
+      "tail": "protein synthesis",
+      "tail_type": "Process",
+      "evidence": "In addition to codons that instruct the addition of a specific amino acid to a polypeptide chain, three of the 64 codons terminate protein synthesis and release the polypeptide from the translation machinery."
+    },
+    {
+      "head": "genetic code",
+      "head_type": "Process",
+      "relation": "is nearly universal",
+      "relation_type": "BELONGS_TO",
+      "tail": "all species",
+      "tail_type": "Organism",
+      "evidence": "The genetic code is nearly universal. With a few minor exceptions, virtually all species use the same genetic code for protein synthesis."
+    }
+  ]
+}

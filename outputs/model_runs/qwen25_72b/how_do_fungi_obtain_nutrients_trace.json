@@ -1,0 +1,736 @@
+{
+  "question": "How do fungi obtain nutrients?",
+  "generated_at": "2026-05-01T06:50:47.695098+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "fungi",
+        "obtain",
+        "nutrients",
+        "fungi obtain",
+        "obtain nutrients",
+        "fungi obtain nutrients"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:fungi",
+          "name": "fungi",
+          "matched_text": "fungi",
+          "matched_alias": "fungi",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:nutrient_cycle",
+          "name": "nutrient cycle",
+          "matched_text": "How do fungi obtain nutrients?",
+          "matched_alias": "nutrient cycle",
+          "score": 0.6875,
+          "match_type": "semantic"
+        },
+        {
+          "entity_id": "ent:shelf_fungi",
+          "name": "shelf fungi",
+          "matched_text": "How do fungi obtain nutrients?",
+          "matched_alias": "shelf fungi",
+          "score": 0.6687,
+          "match_type": "semantic"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:24_3_ecology_of_fungi_biology_2e_openstax:4",
+          "text": "2e | OpenStax\nhttps://openstax.org/books/biology-2e/pages/24-3-ecology-of-fungi\n1/9\n\nFigure 24.19 Bracket fungi. Fungi are an important part of ecosystem nutrient cycles. These bracket\nfungi growing on the side of a tree are the fruiting structures of a basidiomycete. They receive their\nnutrients through their hyphae, which invade and decay the tree trunk. (credit: Cory Zanker)\nThe ability of fungi to degrade many large and insoluble molecules is due to their mode of nutrition. As\nseen earlier, digestion precedes ingestion. Fungi produce a variety of exoenzymes to digest nutrients. The enzymes are either released into the substrate or remain bound to the outside of the fungal cell\nwall.",
+          "source_name": "data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 4,
+          "snippet": "2e | OpenStax\nhttps://openstax.org/books/biology-2e/pages/24-3-ecology-of-fungi\n1/9\n\nFigure 24.19 Bracket fungi. Fungi are an important part of ecosystem nutrient cycles. These bracket\nfungi growing on the side of a tree are the fruiting structures of a basidiomycete. They receive their\nnutrients through their hyphae, which invade and decay the tree trunk. (credit: Cory Zanker)\nThe ability of fung",
+          "score": 0.7870677930134171
+        },
+        {
+          "chunk_id": "chunk:24_1_characteristics_of_fungi_biology_2e_openstax:23",
+          "text": "6/11\n\nthe hyphae, where they process nutrients in the environment. Then, the smaller molecules produced by\nthis external digestion are absorbed through the large surface area of the mycelium. As with animal\ncells, the polysaccharide of storage is glycogen, a branched polysaccharide, rather than amylopectin, a\nless densely branched polysaccharide, and amylose, a linear polysaccharide, as found in plants. Fungi are mostly saprobes (saprophyte is an equivalent term): organisms that derive nutrients from\ndecaying organic matter. They obtain their nutrients from dead or decomposing organic material derived\nmainly from plants.",
+          "source_name": "data/24.1 Characteristics of Fungi - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 23,
+          "snippet": "6/11\n\nthe hyphae, where they process nutrients in the environment. Then, the smaller molecules produced by\nthis external digestion are absorbed through the large surface area of the mycelium. As with animal\ncells, the polysaccharide of storage is glycogen, a branched polysaccharide, rather than amylopectin, a\nless densely branched polysaccharide, and amylose, a linear polysaccharide, as found in p",
+          "score": 0.778410704172372
+        },
+        {
+          "chunk_id": "chunk:24_1_characteristics_of_fungi_biology_2e_openstax:1",
+          "text": "composed of chitin, which is found in the exoskeletons of arthropods.\n\nFungi produce a number of\npigments, including melanin, also found in the hair and skin of animals. Like animals, fungi also store\ncarbohydrates as glycogen. However, like bacteria, fungi absorb nutrients across the cell surface and\nact as decomposers, helping to recycle nutrients by breaking down organic materials to simple\nmolecules. Some fungal organisms multiply only asexually, whereas others undergo both asexual reproduction and\nsexual reproduction with alternation of generations. Most fungi produce a large number of spores,\nwhich are haploid cells that can undergo mitosis to form multicellular, haploid individuals.",
+          "source_name": "data/24.1 Characteristics of Fungi - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 1,
+          "snippet": "composed of chitin, which is found in the exoskeletons of arthropods.\n\nFungi produce a number of\npigments, including melanin, also found in the hair and skin of animals. Like animals, fungi also store\ncarbohydrates as glycogen. However, like bacteria, fungi absorb nutrients across the cell surface and\nact as decomposers, helping to recycle nutrients by breaking down organic materials to simple\nmol",
+          "score": 0.7747021303312032
+        },
+        {
+          "chunk_id": "chunk:24_1_characteristics_of_fungi_biology_2e_openstax:22",
+          "text": "and beer production.\n\nNutrition\nLike animals, fungi are heterotrophs; they use complex organic compounds as a source of carbon,\nrather than fix carbon dioxide from the atmosphere as do some bacteria and most plants. In addition,\nfungi do not fix nitrogen from the atmosphere. Like animals, they must obtain it from their diet. However,\nunlike most animals, which ingest food and then digest it internally in specialized organs, fungi perform\nthese steps in the reverse order; digestion precedes ingestion. First, exoenzymes are transported out of\n4/14/26, 11:44 AM\n24.1 Characteristics of Fungi - Biology 2e | OpenStax\nhttps://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi\n6/11",
+          "source_name": "data/24.1 Characteristics of Fungi - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 22,
+          "snippet": "and beer production.\n\nNutrition\nLike animals, fungi are heterotrophs; they use complex organic compounds as a source of carbon,\nrather than fix carbon dioxide from the atmosphere as do some bacteria and most plants. In addition,\nfungi do not fix nitrogen from the atmosphere. Like animals, they must obtain it from their diet. However,\nunlike most animals, which ingest food and then digest it intern",
+          "score": 0.7745209686423307
+        },
+        {
+          "chunk_id": "chunk:24_1_characteristics_of_fungi_biology_2e_openstax:26",
+          "text": "The fungus then penetrates the tissue of the worm by\nextending specialized hyphae called haustoria.\n\nMany parasitic fungi possess haustoria, as these\nstructures penetrate the tissues of the host, release digestive enzymes within the host's body, and\nabsorb the digested nutrients. Reproduction\nFungi reproduce sexually and/or asexually. Some fungi reproduce both sexually and asexually, while\nother fungi reproduce only asexually (by mitosis). In both sexual and asexual reproduction, fungi produce spores that disperse from the parent organism\nby either floating on the wind or hitching a ride on an animal. Fungal spores are smaller and lighter than\nplant seeds.",
+          "source_name": "data/24.1 Characteristics of Fungi - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 26,
+          "snippet": "The fungus then penetrates the tissue of the worm by\nextending specialized hyphae called haustoria.\n\nMany parasitic fungi possess haustoria, as these\nstructures penetrate the tissues of the host, release digestive enzymes within the host's body, and\nabsorb the digested nutrients. Reproduction\nFungi reproduce sexually and/or asexually. Some fungi reproduce both sexually and asexually, while\nother f",
+          "score": 0.7487591426465292
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:597e9994cf278756",
+          "head_entity_id": "ent:fungi",
+          "tail_entity_id": "ent:nitrogen_and_phosphorus",
+          "relation": "release elements",
+          "evidence": "The action of fungi releases these elements from decaying matter, making them available to other living organisms.",
+          "head_name": "fungi",
+          "tail_name": "nitrogen and phosphorus",
+          "score": 0.7113965851990793
+        },
+        {
+          "triple_id": "triple:b79d2ec5117c2f69",
+          "head_entity_id": "ent:plants",
+          "tail_entity_id": "ent:fungi",
+          "relation": "supply products of photosynthesis",
+          "evidence": "In exchange, the plant supplies the products of photosynthesis to fuel the metabolism of the fungus.",
+          "head_name": "plants",
+          "tail_name": "fungi",
+          "score": 0.7100667095787113
+        },
+        {
+          "triple_id": "triple:ee120949d4849bf3",
+          "head_entity_id": "ent:fungi",
+          "tail_entity_id": "ent:nutrient_cycle",
+          "relation": "are part of",
+          "evidence": "As we have seen, fungi influence the well-being of human populations on a large scale because they are part of the nutrient cycle in ecosystems.",
+          "head_name": "fungi",
+          "tail_name": "nutrient cycle",
+          "score": 0.68838918784729
+        },
+        {
+          "triple_id": "triple:a64f1cadd99cc127",
+          "head_entity_id": "ent:glomeromycota",
+          "tail_entity_id": "ent:arbuscular_mycorrhizae",
+          "relation": "form",
+          "evidence": "It appears that nearly all members of this family form arbuscular mycorrhizae: the hyphae interact with the root cells forming a mutually beneficial association in which the plants supply the carbon source and energy in the form of carbohydrates to the fungus, and the fungus supplies essential minerals from the soil to the plant.",
+          "head_name": "glomeromycota",
+          "tail_name": "arbuscular mycorrhizae",
+          "score": 0.6879516539263479
+        },
+        {
+          "triple_id": "triple:392f207dc4067328",
+          "head_entity_id": "ent:fungi",
+          "tail_entity_id": "ent:model_research_organisms",
+          "relation": "are important as",
+          "evidence": "As simple eukaryotic organisms, fungi are important model research organisms.",
+          "head_name": "fungi",
+          "tail_name": "model research organisms",
+          "score": 0.6844723334108707
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:fungi",
+        "ent:nutrient_cycle",
+        "ent:shelf_fungi",
+        "ent:nitrogen_and_phosphorus",
+        "ent:plants",
+        "ent:glomeromycota",
+        "ent:arbuscular_mycorrhizae",
+        "ent:model_research_organisms"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "fungi",
+          "entity_id": "ent:fungi",
+          "original_names": [
+            "fungi"
+          ]
+        },
+        {
+          "name": "chytridiomycota",
+          "entity_id": "ent:chytridiomycota",
+          "original_names": [
+            "Chytridiomycota"
+          ]
+        },
+        {
+          "name": "chytrids",
+          "entity_id": "ent:chytrids",
+          "original_names": [
+            "Chytrids"
+          ]
+        },
+        {
+          "name": "ascomycota",
+          "entity_id": "ent:ascomycota",
+          "original_names": [
+            "Ascomycota"
+          ]
+        },
+        {
+          "name": "asci",
+          "entity_id": "ent:asci",
+          "original_names": [
+            "asci"
+          ]
+        },
+        {
+          "name": "ascospores",
+          "entity_id": "ent:ascospores",
+          "original_names": [
+            "ascospores"
+          ]
+        },
+        {
+          "name": "formation of an ascus",
+          "entity_id": "ent:formation_of_an_ascus",
+          "original_names": [
+            "formation of an ascus"
+          ]
+        },
+        {
+          "name": "ascocarp",
+          "entity_id": "ent:ascocarp",
+          "original_names": [
+            "ascocarp"
+          ]
+        },
+        {
+          "name": "conidiophores",
+          "entity_id": "ent:conidiophores",
+          "original_names": [
+            "conidiophores"
+          ]
+        },
+        {
+          "name": "yeasts",
+          "entity_id": "ent:yeasts",
+          "original_names": [
+            "yeasts"
+          ]
+        },
+        {
+          "name": "aspergillus oryzae",
+          "entity_id": "ent:aspergillus_oryzae",
+          "original_names": [
+            "Aspergillus oryzae"
+          ]
+        },
+        {
+          "name": "humans",
+          "entity_id": "ent:humans",
+          "original_names": [
+            "humans"
+          ]
+        },
+        {
+          "name": "plants",
+          "entity_id": "ent:plants",
+          "original_names": [
+            "plants"
+          ]
+        },
+        {
+          "name": "conidiospores",
+          "entity_id": "ent:conidiospores",
+          "original_names": [
+            "conidiospores"
+          ]
+        },
+        {
+          "name": "morels",
+          "entity_id": "ent:morels",
+          "original_names": [
+            "morels"
+          ]
+        },
+        {
+          "name": "truffles",
+          "entity_id": "ent:truffles",
+          "original_names": [
+            "truffles"
+          ]
+        },
+        {
+          "name": "animals",
+          "entity_id": "ent:animals",
+          "original_names": [
+            "animals"
+          ]
+        },
+        {
+          "name": "lichens",
+          "entity_id": "ent:lichens",
+          "original_names": [
+            "lichens"
+          ]
+        },
+        {
+          "name": "ectomycorrhizae",
+          "entity_id": "ent:ectomycorrhizae",
+          "original_names": [
+            "ectomycorrhizae"
+          ]
+        },
+        {
+          "name": "glomeromycota",
+          "entity_id": "ent:glomeromycota",
+          "original_names": [
+            "Glomeromycota"
+          ]
+        },
+        {
+          "name": "nostoc",
+          "entity_id": "ent:nostoc",
+          "original_names": [
+            "Nostoc"
+          ]
+        },
+        {
+          "name": "arbuscular mycorrhizae",
+          "entity_id": "ent:arbuscular_mycorrhizae",
+          "original_names": [
+            "arbuscular mycorrhizae"
+          ]
+        },
+        {
+          "name": "endomycorrhizae",
+          "entity_id": "ent:endomycorrhizae",
+          "original_names": [
+            "endomycorrhizae"
+          ]
+        },
+        {
+          "name": "basidiomycota",
+          "entity_id": "ent:basidiomycota",
+          "original_names": [
+            "Basidiomycota"
+          ]
+        },
+        {
+          "name": "basidiocarp",
+          "entity_id": "ent:basidiocarp",
+          "original_names": [
+            "basidiocarp"
+          ]
+        },
+        {
+          "name": "rusts",
+          "entity_id": "ent:rusts",
+          "original_names": [
+            "rusts"
+          ]
+        },
+        {
+          "name": "shelf fungi",
+          "entity_id": "ent:shelf_fungi",
+          "original_names": [
+            "shelf fungi"
+          ]
+        },
+        {
+          "name": "basidiospores",
+          "entity_id": "ent:basidiospores",
+          "original_names": [
+            "basidiospores"
+          ]
+        },
+        {
+          "name": "basidia",
+          "entity_id": "ent:basidia",
+          "original_names": [
+            "basidia"
+          ]
+        },
+        {
+          "name": "mushrooms",
+          "entity_id": "ent:mushrooms",
+          "original_names": [
+            "mushrooms"
+          ]
+        },
+        {
+          "name": "smuts",
+          "entity_id": "ent:smuts",
+          "original_names": [
+            "smuts"
+          ]
+        },
+        {
+          "name": "zygomycota",
+          "entity_id": "ent:zygomycota",
+          "original_names": [
+            "Zygomycota"
+          ]
+        },
+        {
+          "name": "zygomycetes",
+          "entity_id": "ent:zygomycetes",
+          "original_names": [
+            "Zygomycetes"
+          ]
+        },
+        {
+          "name": "algae",
+          "entity_id": "ent:algae",
+          "original_names": [
+            "Algae"
+          ]
+        },
+        {
+          "name": "fungus",
+          "entity_id": "ent:fungus",
+          "original_names": [
+            "fungus"
+          ]
+        },
+        {
+          "name": "photosynthesis",
+          "entity_id": "ent:photosynthesis",
+          "original_names": [
+            "Photosynthesis",
+            "photosynthesis"
+          ]
+        },
+        {
+          "name": "ants",
+          "entity_id": "ent:ants",
+          "original_names": [
+            "ants"
+          ]
+        },
+        {
+          "name": "nitrogen and phosphorus",
+          "entity_id": "ent:nitrogen_and_phosphorus",
+          "original_names": [
+            "nitrogen and phosphorus"
+          ]
+        },
+        {
+          "name": "leaf-cutter ants",
+          "entity_id": "ent:leaf-cutter_ants",
+          "original_names": [
+            "leaf-cutter ants"
+          ]
+        },
+        {
+          "name": "leaves",
+          "entity_id": "ent:leaves",
+          "original_names": [
+            "leaves"
+          ]
+        },
+        {
+          "name": "organic matter",
+          "entity_id": "ent:organic_matter",
+          "original_names": [
+            "organic matter"
+          ]
+        },
+        {
+          "name": "energy from sunlight",
+          "entity_id": "ent:energy_from_sunlight",
+          "original_names": [
+            "energy from sunlight"
+          ]
+        },
+        {
+          "name": "cyanobacteria",
+          "entity_id": "ent:cyanobacteria",
+          "original_names": [
+            "Cyanobacteria"
+          ]
+        },
+        {
+          "name": "parasites",
+          "entity_id": "ent:parasites",
+          "original_names": [
+            "parasites"
+          ]
+        },
+        {
+          "name": "pathogens",
+          "entity_id": "ent:pathogens",
+          "original_names": [
+            "pathogens"
+          ]
+        },
+        {
+          "name": "mycosis",
+          "entity_id": "ent:mycosis",
+          "original_names": [
+            "mycosis"
+          ]
+        },
+        {
+          "name": "mycotoxicosis",
+          "entity_id": "ent:mycotoxicosis",
+          "original_names": [
+            "mycotoxicosis"
+          ]
+        },
+        {
+          "name": "tissue decay",
+          "entity_id": "ent:tissue_decay",
+          "original_names": [
+            "tissue decay"
+          ]
+        },
+        {
+          "name": "model research organisms",
+          "entity_id": "ent:model_research_organisms",
+          "original_names": [
+            "model research organisms"
+          ]
+        },
+        {
+          "name": "population of damaging pests",
+          "entity_id": "ent:population_of_damaging_pests",
+          "original_names": [
+            "population of damaging pests"
+          ]
+        },
+        {
+          "name": "nutrient cycle",
+          "entity_id": "ent:nutrient_cycle",
+          "original_names": [
+            "nutrient cycle"
+          ]
+        },
+        {
+          "name": "fermentation",
+          "entity_id": "ent:fermentation",
+          "original_names": [
+            "fermentation"
+          ]
+        },
+        {
+          "name": "antibiotics",
+          "entity_id": "ent:antibiotics",
+          "original_names": [
+            "antibiotics"
+          ]
+        },
+        {
+          "name": "insects",
+          "entity_id": "ent:insects",
+          "original_names": [
+            "insects"
+          ]
+        },
+        {
+          "name": "zoospores",
+          "entity_id": "ent:zoospores",
+          "original_names": [
+            "zoospores"
+          ]
+        },
+        {
+          "name": "flagella",
+          "entity_id": "ent:flagella",
+          "original_names": [
+            "flagella"
+          ]
+        },
+        {
+          "name": "gametes",
+          "entity_id": "ent:gametes",
+          "original_names": [
+            "gametes"
+          ]
+        },
+        {
+          "name": "aquatic environments",
+          "entity_id": "ent:aquatic_environments",
+          "original_names": [
+            "aquatic environments"
+          ]
+        },
+        {
+          "name": "amphibians",
+          "entity_id": "ent:amphibians",
+          "original_names": [
+            "amphibians"
+          ]
+        },
+        {
+          "name": "substrate",
+          "entity_id": "ent:substrate",
+          "original_names": [
+            "substrate"
+          ]
+        },
+        {
+          "name": "light-dependent reactions",
+          "entity_id": "ent:light-dependent_reactions",
+          "original_names": [
+            "light-dependent reactions",
+            "Light-dependent reactions"
+          ]
+        },
+        {
+          "name": "sunlight",
+          "entity_id": "ent:sunlight",
+          "original_names": [
+            "sunlight"
+          ]
+        },
+        {
+          "name": "oxygen",
+          "entity_id": "ent:oxygen",
+          "original_names": [
+            "oxygen"
+          ]
+        },
+        {
+          "name": "glyceraldehyde-3-phosphate",
+          "entity_id": "ent:glyceraldehyde-3-phosphate",
+          "original_names": [
+            "glyceraldehyde-3-phosphate"
+          ]
+        },
+        {
+          "name": "water",
+          "entity_id": "ent:water",
+          "original_names": [
+            "water"
+          ]
+        },
+        {
+          "name": "light-independent reactions",
+          "entity_id": "ent:light-independent_reactions",
+          "original_names": [
+            "light-independent reactions",
+            "Light-independent reactions"
+          ]
+        },
+        {
+          "name": "chloroplast",
+          "entity_id": "ent:chloroplast",
+          "original_names": [
+            "chloroplast",
+            "Chloroplast"
+          ]
+        },
+        {
+          "name": "carbon dioxide",
+          "entity_id": "ent:carbon_dioxide",
+          "original_names": [
+            "carbon dioxide"
+          ]
+        },
+        {
+          "name": "carbohydrates",
+          "entity_id": "ent:carbohydrates",
+          "original_names": [
+            "carbohydrates"
+          ]
+        },
+        {
+          "name": "carbohydrate molecules",
+          "entity_id": "ent:carbohydrate_molecules",
+          "original_names": [
+            "carbohydrate molecules"
+          ]
+        },
+        {
+          "name": "mesophyll",
+          "entity_id": "ent:mesophyll",
+          "original_names": [
+            "mesophyll"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:fungi",
+          "evidence": "The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).",
+          "target_name": "fungi",
+          "source_entity_id": "ent:chytridiomycota",
+          "triple_id": "triple:2b45b0d77a12f1e1",
+          "source_name": "Chytridiomycota",
+          "relation": "belongs to"
+        },
+        {
+          "target_entity_id": "ent:chytridiomycota",
+          "evidence": "The only class in the Phylum Chytridiomycota is the Chytridiomycetes. The chytrids are the simplest and most primitive Eumycota, or true fungi.",
+          "target_name": "Chytridiomycota",
+          "source_entity_id": "ent:chytrids",
+          "triple_id": "triple:858bc871b05ea40d",
+          "source_name": "Chytrids",
+          "relation": "are"
+        },
+        {
+          "target_entity_id": "ent:fungi",
+          "evidence": "The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).",
+          "target_name": "fungi",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:d447c83c90babdc4",
+          "source_name": "Ascomycota",
+          "relation": "belongs to"
+        },
+        {
+          "target_entity_id": "ent:asci",
+          "evidence": "Sexual reproduction starts with the development of special hyphae from either one of two types of mating strains (Figure 24.14).",
+          "target_name": "asci",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:a63f5014a2e9f3df",
+          "source_name": "Ascomycota",
+          "relation": "produce"
+        },
+        {
+          "target_entity_id": "ent:ascospores",
+          "evidence": "The spores in each ascus contain the meiotic products of a single diploid nucleus. The ascospores are then released, germinate, and form hyphae that are disseminated in the environment and start new mycelia (Figure 24.15).",
+          "target_name": "ascospores",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:11975963fef9e8e5",
+          "source_name": "Ascomycota",
+          "relation": "produce"
+        },
+        {
+          "target_entity_id": "ent:formation_of_an_ascus",
+          "evidence": "The Phylum Ascomycota, which is characterized by the formation of an ascus (plural, asci), a sac-like structure that contains haploid ascospores.",
+          "target_name": "formation of an ascus",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:776a5e999094fb95",
+          "source_name": "Ascomycota",
+          "relation": "characterized by"
+        },
+        {
+          "target_entity_id": "ent:ascocarp",
+          "evidence": "Thousands of asci fill a fruiting body called the ascocarp.",
+          "target_name": "ascocarp",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:2cab3a4f35e3995d",
+          "source_name": "Ascomycota",
+          "relation": "produce"
+        },
+        {
+          "target_entity_id": "ent:conidiophores",
+          "evidence": "Asexual reproduction is frequent and involves the production of conidiophores that release haploid conidiospores (Figure 24.14).",
+          "target_name": "conidiophores",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:dfadf411c7091813",
+          "source_name": "Ascomycota",
+          "relation": "produce"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "How do fungi obtain nutrients?",
+    "answer": "Fungi obtain nutrients by releasing exoenzymes to digest complex organic compounds externally, then absorbing the smaller molecules through their hyphae.",
+    "citations": [
+      "chunk:24_1_characteristics_of_fungi_biology_2e_openstax:23 | data/24.1 Characteristics of Fungi - Biology 2e _ OpenStax.pdf | 6/11 the hyphae, where they process nutrients in the environment. Then, the smaller molecules produced by this extern...",
+      "chunk:24_1_characteristics_of_fungi_biology_2e_openstax:22 | data/24.1 Characteristics of Fungi - Biology 2e _ OpenStax.pdf | and beer production. Nutrition Like animals, fungi are heterotrophs; they use complex organic compounds as a source o..."
+    ],
+    "reasoning": "Matched entities: fungi. Traversed graph edges: Chytridiomycota --[belongs to]--> fungi; Chytrids --[are]--> Chytridiomycota; Ascomycota --[belongs to]--> fungi. Graph evidence: \"The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).\". Fungi are heterotrophs that release exoenzymes to break down complex organic compounds in their environment. The resulting smaller molecules are then absorbed through the hyphae of the fungus."
+  }
+}

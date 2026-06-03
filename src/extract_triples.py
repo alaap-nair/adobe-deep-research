@@ -6,10 +6,15 @@ and relationships it finds, creating node/edge labels on the fly.
 """
 
 import os
+import sys
 import json
 import time
 import requests
 from dotenv import load_dotenv
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from domain_schema import node_types_block, relation_types_block
 
 load_dotenv()
 
@@ -18,23 +23,42 @@ MODEL_NAME = os.getenv("MODEL_NAME")
 TEMPERATURE = float(os.getenv("temperature", "0"))
 TOP_P = float(os.getenv("top_p", "1"))
 
-SYSTEM_PROMPT = """You are extracting a knowledge graph from scientific text.
+SYSTEM_PROMPT = f"""You are extracting a knowledge graph from biology text.
 
-Read the passage and extract:
-- Entities (concepts, molecules, processes, locations)
-- Relationships between them
+Each fact you extract must be a typed triple (head, relation, tail) where every
+node and relation belongs to a fixed schema.
 
-Return only structured JSON with:
-- head
-- relation (short verb phrase)
-- tail
-- evidence (exact sentence from text)
+ALLOWED NODE TYPES (use these exact strings for head_type and tail_type):
+{node_types_block()}
+
+ALLOWED RELATION TYPES (use these exact strings for relation_type):
+{relation_types_block()}
+
+Return only structured JSON in this shape:
+{{
+  "triples": [
+    {{
+      "head": "<entity surface form, e.g. 'RuBisCO'>",
+      "head_type": "<one of the allowed node types>",
+      "relation": "<short verb phrase, 1-3 words, e.g. 'catalyzes'>",
+      "relation_type": "<one of the allowed relation types>",
+      "tail": "<entity surface form>",
+      "tail_type": "<one of the allowed node types>",
+      "evidence": "<exact sentence from the source text>"
+    }}
+  ]
+}}
 
 Rules:
-- Relations must be concise (1–3 words)
-- Do not invent facts
-- Only extract relationships explicitly supported by the text
-- If no relationships are found, return {"triples": []}
+- Relations must be concise (1-3 words). The relation_type is the canonical
+  schema label; the relation field can be the surface verb phrase from the text.
+- If a candidate triple does NOT fit any allowed node type OR any allowed
+  relation type, drop it. Do not invent a new type.
+- Drop triples whose entities are raw numeric measurements, units, figure
+  numbers, or other artifacts with no biological meaning.
+- Do not invent facts. Only extract relationships explicitly supported by the text.
+- The evidence field must be an exact sentence copied from the source.
+- If nothing fits, return {{"triples": []}}.
 
 You must return ONLY valid JSON. Do not include explanations or markdown."""
 

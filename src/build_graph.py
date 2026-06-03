@@ -8,13 +8,19 @@ All IDs are deterministic and match the Qdrant vector store.
 
 import json
 import os
+import re
 import sys
+from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from neo4j import GraphDatabase
 from config import NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD
 from graph_schema import build_graph_objects, GraphEntity, GraphRelation
+
+# Cypher label whitelist: alphanumerics + underscore. We pass schema-vetted
+# strings from domain_schema.NODE_TYPES, but defense in depth.
+_LABEL_RE = re.compile(r"^[A-Za-z][A-Za-z0-9_]*$")
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -41,15 +47,41 @@ def create_constraints(driver):
 
 
 def upsert_entities(driver, entities: list[GraphEntity]):
-    """Batch-upsert entity nodes. Idempotent via MERGE on entity_id."""
-    query = """
-    UNWIND $entities AS e
-    MERGE (n:Entity {entity_id: e.entity_id})
-    SET n.name = e.name, n.original_names = e.original_names
     """
-    records = [e.model_dump() for e in entities]
+    Batch-upsert entity nodes. Idempotent via MERGE on entity_id.
+
+    W3B: entities with a `node_type` get a second label (e.g. :Entity:Molecule)
+    so Cypher queries can filter by domain type. Entities without a type fall
+    back to plain :Entity.
+    """
+    by_type: dict[str | None, list[GraphEntity]] = defaultdict(list)
+    for ent in entities:
+        by_type[getattr(ent, "node_type", None)].append(ent)
+
     with driver.session() as session:
-        session.run(query, entities=records)
+        # Untyped (legacy) entities
+        if by_type.get(None):
+            session.run(
+                """
+                UNWIND $entities AS e
+                MERGE (n:Entity {entity_id: e.entity_id})
+                SET n.name = e.name, n.original_names = e.original_names
+                """,
+                entities=[e.model_dump() for e in by_type[None]],
+            )
+        # Typed entities -- one query per type so the label can be inlined safely
+        for node_type, ents in by_type.items():
+            if node_type is None:
+                continue
+            if not _LABEL_RE.match(node_type):
+                raise ValueError(f"Invalid node label for Cypher: {node_type!r}")
+            query = (
+                "UNWIND $entities AS e "
+                "MERGE (n:Entity {entity_id: e.entity_id}) "
+                "SET n.name = e.name, n.original_names = e.original_names, "
+                f"n.node_type = e.node_type, n:{node_type}"
+            )
+            session.run(query, entities=[e.model_dump() for e in ents])
 
 
 def upsert_relations(driver, relations: list[GraphRelation]):
@@ -59,7 +91,9 @@ def upsert_relations(driver, relations: list[GraphRelation]):
     MATCH (h:Entity {entity_id: r.head_entity_id})
     MATCH (t:Entity {entity_id: r.tail_entity_id})
     MERGE (h)-[rel:RELATES_TO {triple_id: r.triple_id}]->(t)
-    SET rel.relation = r.relation, rel.evidence = r.evidence
+    SET rel.relation = r.relation,
+        rel.evidence = r.evidence,
+        rel.relation_type = r.relation_type
     """
     records = [r.model_dump() for r in relations]
     with driver.session() as session:

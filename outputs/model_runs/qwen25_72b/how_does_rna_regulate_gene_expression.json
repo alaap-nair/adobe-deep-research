@@ -1,0 +1,9 @@
+{
+  "question": "How does RNA regulate gene expression?",
+  "answer": "RNA can regulate gene expression through various mechanisms, including the action of small nuclear RNAs that can 'splice' pre-mRNAs and regulate transcription factors. Enhancers and silencers, which are regulatory sequences, also help to regulate the frequency with which pre-mRNA is synthesized from a gene.",
+  "citations": [
+    "chunk:15_3_eukaryotic_transcription_biology_2e_openstax:7 | 15.3 Eukaryotic Transcription - Biology 2e _ OpenStax.txt | the growing polypeptide chain. Small nuclear RNAs have a variety of functions, including “splicing” pre-mRNAs and reg...",
+    "chunk:15_3_eukaryotic_transcription_biology_2e_openstax:13 | 15.3 Eukaryotic Transcription - Biology 2e _ OpenStax.txt | and silencers, also help to regulate the frequency with which pre-mRNA is synthesized from a gene. Enhancers and sile..."
+  ],
+  "reasoning": "Matched entities: rna, mutations in repair genes. Traversed graph edges: RNA --[contains]--> ribose; DNA --[is copied to]--> RNA; Oswald Avery --[used enzymes to degrade]--> DNA. Graph evidence: \"The sugar is deoxyribose in DNA and ribose in RNA.\". The provided context mentions that small nuclear RNAs can 'splice' pre-mRNAs and regulate transcription factors, and that enhancers and silencers help regulate the frequency of pre-mRNA synthesis, both of which are mechanisms by which RNA can regulate gene expression."
+}

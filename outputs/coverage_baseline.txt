@@ -1,0 +1,32 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 7140.25it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Coverage: 20/20 questions have >=1 ground-truth entity in graph (100.0%)
+
+Per-question matched entities:
+  OK q1: calvin cycle, carbon dioxide and rubp, carbon fixation, fungal exoenzymes, atp production
+  OK q2: light, photosynthesis, light-dependent reactions, light-dependent reactions to light-independent reactions, light-independent reactions
+  OK q3: calvin cycle, citric acid cycle, nutrient cycle, carbon fixation, major components of the photosynthetic electron transport chain
+  OK q4: lichens, fungus, ascomycota, chitin, fungi
+  OK q5: ecosystems, fungi, nutrient cycle, fungus and plant, a fungus and its photosynthetic partner
+  OK q6: plant, rubisco, carbon dioxide and rubp, flow of hydrogen ions through atp synthase, fungal disease
+  OK q7: oxygen, photosynthesis, water, photosystem ii and photosystem i, proteins between psii and psi
+  OK q8: carbon fixation, parasitism, calvin cycle, mitosis, gametes and diploid zoospores
+  OK q9: atp, photosynthesis, carbon dioxide and rubp, carbon fixation, first major stage
+  OK q10: calvin cycle, cyanobacteria, algae, plants, and animals, nutrient cycle, carbon fixation, photoautotrophs
+  OK q11: energy, light, light energy, photosynthesis, light-dependent reactions
+  OK q12: fungus, fungi, hyphae, kingdom fungi, deuteromycota
+  OK q13: fungi, five major phyla, kingdom fungi, phylum of fungi, basidiomycota
+  OK q14: nadph, photosynthesis, nadph and atp, atp and nadph, major components of the photosynthetic electron transport chain
+  OK q15: fungi, nutrients and water, products of photosynthesis to the fungus, some fungi, fungus and plant
+  OK q16: light, calvin cycle, first major stage, light-dependent reactions, simple carbohydrate molecules
+  OK q17: atp, oxygen, photosynthesis, oxygen is not available, sugars produced by photosynthetic organisms
+  OK q18: energy, fungi, plants, calvin cycle, carbon dioxide and rubp
+  OK q19: calvin cycle, carbon fixation, less energy, photosynthesis, carbon and energy in the form of carbohydrates
+  OK q20: cells, inner mitochondrial membrane, mitochondrion, cytosol, fungal cells

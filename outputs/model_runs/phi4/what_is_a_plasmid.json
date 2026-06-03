@@ -1,0 +1,9 @@
+{
+  "question": "What is a plasmid?",
+  "answer": "Plasmid",
+  "citations": [
+    "chunk:15_2_prokaryotic_transcription_biology_2e_openstax:4 | 15.2 Prokaryotic Transcription - Biology 2e _ OpenStax.txt | The central region of the cell in which prokaryotic DNA resides is called the nucleoid region. In addition, prokaryot...",
+    "chunk:14_1_historical_basis_of_modern_understanding_biology_2e_openstax:10 | 14.1 Historical Basis of Modern Understanding - Biology 2e _ OpenStax.txt | The decisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that DN..."
+  ],
+  "reasoning": "Matched entities: dna, phage dna was injected into the cell, atp. Traversed graph edges: Oswald Avery --[used enzymes to degrade]--> DNA; Oswald Avery --[isolated]--> S strain; Oswald Avery --[concluded]--> DNA was the transforming principle. Graph evidence: \"They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.\". The answer is derived from the context provided in the retrieved chunk, which describes plasmids as shorter, circular DNA molecules that can carry traits such as antibiotic resistance and can be transferred independently of the bacterial chromosome."
+}

@@ -1,0 +1,8 @@
+{
+  "question": "What does 'reduction' mean in the context of the Calvin cycle?",
+  "answer": "the organic molecule is reduced using electrons supplied by NADPH",
+  "citations": [
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:6 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | 2/8 Figure 8.19 The Calvin cycle has three stages. In stage 1, the enzyme RuBisCO incorporates carbon dioxide into an..."
+  ],
+  "reasoning": "Matched entities: calvin cycle. Traversed graph edges: Calvin cycle --[consumes]--> carbon dioxide; Photosynthesis --[requires]--> carbon dioxide; Calvin cycle --[produces]--> G3P. Graph evidence: \"In the stroma, in addition to CO2, two other components are present to initiate the light-independent reactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three molecules of ribulose bisphosphate (RuBP).\". The context explicitly states that in the Calvin cycle, the organic molecule is reduced using electrons supplied by NADPH during the reduction stage."
+}

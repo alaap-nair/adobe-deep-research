@@ -11,3 +11,5 @@ qdrant_data/
 outputs/graph_visualization.html
 outputs/triples_passage.json
 outputs/answers/*_trace.json
+outputs/ragas/
+.DS_Store

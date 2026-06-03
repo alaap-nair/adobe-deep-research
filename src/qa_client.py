@@ -50,7 +50,16 @@ class QAResponse(BaseModel):
 
 
 def parse_llm_json(raw_content: str) -> dict[str, Any]:
-    """Parse JSON from an LLM response, stripping markdown fences if needed."""
+    """Parse JSON from an LLM response, stripping markdown fences if needed.
+
+    Tolerates three common LLM-output deviations from strict JSON:
+    - Trailing commas before `]` or `}` (gemma-2 in particular).
+    - Stray prose before the first `{` or after the last `}` (e.g., "Here is
+      the answer:" preambles).
+    - Truncated output where the response was cut off mid-string due to a
+      max_tokens cap (phi-4 in particular). Returns whatever fields completed
+      cleanly; downstream defensive defaults fill the rest.
+    """
     content = raw_content.strip()
     if content.startswith("```"):
         lines = content.splitlines()
@@ -58,7 +67,32 @@ def parse_llm_json(raw_content: str) -> dict[str, Any]:
         if lines and lines[-1].strip() == "```":
             lines = lines[:-1]
         content = "\n".join(lines).strip()
-    return json.loads(content)
+    # Strip prose around the JSON object if any
+    first = content.find("{")
+    last = content.rfind("}")
+    if first > 0 or (last >= 0 and last < len(content) - 1):
+        if first >= 0 and last > first:
+            content = content[first : last + 1]
+    # Drop trailing commas before } or ]
+    content = re.sub(r",(\s*[}\]])", r"\1", content)
+    try:
+        return json.loads(content)
+    except json.JSONDecodeError:
+        pass
+    # Fallback: pull out any complete top-level "field": "value" pairs we can
+    # find with a tolerant regex. Better than total failure on a truncated
+    # response — the answer or reasoning string may be intact even if the
+    # outer object is unterminated.
+    recovered: dict[str, Any] = {}
+    for m in re.finditer(r'"(question|answer|reasoning)"\s*:\s*"((?:[^"\\]|\\.)*)"', content):
+        recovered[m.group(1)] = m.group(2).encode().decode("unicode_escape", errors="replace")
+    citations_match = re.search(
+        r'"citations"\s*:\s*\[(.*?)\]', content, re.DOTALL
+    )
+    if citations_match:
+        items = re.findall(r'"((?:[^"\\]|\\.)*)"', citations_match.group(1))
+        recovered["citations"] = items
+    return recovered
 
 
 def truncate_text(text: str, limit: int = 120) -> str:
@@ -151,8 +185,17 @@ def call_openrouter(
     model: str,
     max_retries: int = 3,
     temperature: float = 0.0,
+    max_tokens: int = 768,
 ) -> dict[str, Any]:
-    """Call OpenRouter and return the parsed API response."""
+    """Call OpenRouter and return the parsed API response.
+
+    `max_tokens` is capped at 768 by default. This balances two constraints:
+    gemma-2-27b's hard 8K context (typical input ~6.5K tokens leaves ~1.5K
+    for completion, but OpenRouter reserves headroom — 768 fits reliably);
+    and phi-4's tendency to write multi-paragraph answers that would otherwise
+    truncate at smaller caps. Mid-tier models (mistral, qwen) have plenty of
+    headroom either way.
+    """
     if not OPENROUTER_API_KEY:
         raise ValueError("OPENROUTER_API_KEY not found in environment")
 
@@ -167,6 +210,7 @@ def call_openrouter(
             json={
                 "model": model,
                 "temperature": temperature,
+                "max_tokens": max_tokens,
                 "messages": [
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": prompt},
@@ -265,6 +309,21 @@ def answer_question(question: str, context: dict[str, Any], model: str) -> dict[
 
     raw_content = response["choices"][0]["message"]["content"]
     raw_payload = parse_llm_json(raw_content)
+    # LLM occasionally returns a JSON list for `answer` (e.g. enumerations like phyla);
+    # coerce to a single string so QAResponse validation passes.
+    ans = raw_payload.get("answer")
+    if isinstance(ans, list):
+        raw_payload["answer"] = ", ".join(str(x) for x in ans)
+    # Defensive defaults: smaller / cheaper models sometimes omit fields entirely
+    # or return empty strings. Provide non-empty fallbacks so the strict
+    # QAResponse validation still passes; downstream code rebuilds reasoning
+    # from the graph proof anyway.
+    raw_payload.setdefault("question", question)
+    raw_payload.setdefault("citations", [])
+    if not str(raw_payload.get("answer") or "").strip():
+        raw_payload["answer"] = DEFAULT_UNSUPPORTED_ANSWER
+    if not str(raw_payload.get("reasoning") or "").strip():
+        raw_payload["reasoning"] = "Model omitted explicit reasoning."
     qa_response = QAResponse(**raw_payload)
 
     citations = validate_citations(qa_response.citations, allowed_citations)

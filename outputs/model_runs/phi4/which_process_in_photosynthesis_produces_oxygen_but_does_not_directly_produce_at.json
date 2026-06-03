@@ -1,0 +1,9 @@
+{
+  "question": "Which process in photosynthesis produces oxygen but does NOT directly produce ATP?",
+  "answer": "Photosystem II",
+  "citations": [
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:11 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | Three more molecules of ATP are used in these regeneration reactions. LINK TO LEARNING This link leads to an animatio...",
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:18 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | is wasteful to photosynthesis. Both are byproducts of reactions that move on to other reactions. Photosynthesis absor..."
+  ],
+  "reasoning": "Matched entities: atp, oxygen, photosynthesis. Traversed graph edges: ATP synthase --[forms]--> ATP; ATP synthase --[attaches]--> a third phosphate group to ADP; Calvin cycle --[consumes]--> ATP. Graph evidence: \"The energy released by the hydrogen ion stream allows ATP synthase to attach a third phosphate group to ADP, which forms a molecule of ATP (Figure 8.17).\". The process that produces oxygen in photosynthesis is the light-dependent reactions, specifically involving Photosystem II, where water is split to release oxygen. This process does not directly produce ATP; instead, ATP is produced later in the light-dependent reactions through chemiosmosis."
+}

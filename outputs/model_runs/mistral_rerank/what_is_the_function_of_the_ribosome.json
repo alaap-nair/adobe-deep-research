@@ -1,0 +1,9 @@
+{
+  "question": "What is the function of the ribosome?",
+  "answer": "The ribosome is responsible for translating the mRNA into protein.",
+  "citations": [
+    "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:10 | 15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt | it is surprising that tRNAs can fit so much specificity into such a small package. Consider that tRNAs need to intera...",
+    "triple:31c277e1d622a50d | ribosome --[translates]--> mRNA"
+  ],
+  "reasoning": "Matched entities: ribosome, improved function of the intestines. Traversed graph edges: ribosome --[translates]--> mRNA; mRNA --[is read in groups of]--> three nucleotides; mRNA --[is translated on]--> ribosomes. Graph evidence: \"The ribosome is responsible for translating the mRNA into protein.\". The context explicitly states that the ribosome is responsible for translating mRNA into protein, which directly answers the question about its function."
+}

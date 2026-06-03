@@ -1,0 +1,280 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 28,
+  "num_entities": 19,
+  "entities": [
+    "DNA",
+    "DNA ligase",
+    "DNA polymerase",
+    "DNA polymerase I",
+    "DNA polymerase III",
+    "Helicase",
+    "Okazaki fragments",
+    "Primase",
+    "RNA primer",
+    "RNA primers",
+    "Topoisomerase",
+    "free 3'-OH group",
+    "gaps",
+    "leading strand",
+    "nicks",
+    "nucleoside triphosphates",
+    "nucleotides",
+    "over-winding of DNA",
+    "phosphodiester bonds"
+  ],
+  "triples": [
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "adds",
+      "relation_type": "CATALYZES",
+      "tail": "nucleotides",
+      "tail_type": "Molecule",
+      "evidence": "The addition of nucleotides requires energy; this energy is obtained from the nucleoside triphosphates dATP, dGTP, dTTP and dCTP."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "requires",
+      "relation_type": "CONSUMES",
+      "tail": "nucleoside triphosphates",
+      "tail_type": "Molecule",
+      "evidence": "The addition of nucleotides requires energy; this energy is obtained from the nucleoside triphosphates dATP, dGTP, dTTP and dCTP."
+    },
+    {
+      "head": "DNA polymerase III",
+      "head_type": "Enzyme",
+      "relation": "adds",
+      "relation_type": "CATALYZES",
+      "tail": "nucleotides",
+      "tail_type": "Molecule",
+      "evidence": "DNA pol III is the enzyme required for DNA synthesis; DNA pol I is an important accessory enzyme in DNA replication, and along with DNA pol II, is primarily required for repair."
+    },
+    {
+      "head": "DNA polymerase I",
+      "head_type": "Enzyme",
+      "relation": "removes",
+      "relation_type": "CATALYZES",
+      "tail": "RNA primer",
+      "tail_type": "Molecule",
+      "evidence": "DNA pol I is an important accessory enzyme in DNA replication, and along with DNA pol II, is primarily required for repair."
+    },
+    {
+      "head": "Helicase",
+      "head_type": "Enzyme",
+      "relation": "unwinds",
+      "relation_type": "CATALYZES",
+      "tail": "DNA",
+      "tail_type": "Molecule",
+      "evidence": "An enzyme called helicase unwinds the DNA by breaking the hydrogen bonds between the nitrogenous base pairs."
+    },
+    {
+      "head": "Primase",
+      "head_type": "Enzyme",
+      "relation": "synthesizes",
+      "relation_type": "CATALYZES",
+      "tail": "RNA primer",
+      "tail_type": "Molecule",
+      "evidence": "Another enzyme, RNA primase, synthesizes an RNA segment that is about five to ten nucleotides long and complementary to the template DNA."
+    },
+    {
+      "head": "DNA ligase",
+      "head_type": "Enzyme",
+      "relation": "seals",
+      "relation_type": "CATALYZES",
+      "tail": "gaps",
+      "tail_type": "Molecule",
+      "evidence": "The nicks that remain between the newly synthesized DNA (that replaced the RNA primer) and the previously synthesized DNA are sealed by the enzyme DNA ligase."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "requires",
+      "relation_type": "CONSUMES",
+      "tail": "free 3'-OH group",
+      "tail_type": "Molecule",
+      "evidence": "It also requires a free 3'-OH group to which it can add nucleotides by forming a phosphodiester bond between the 3'-OH end and the 5' phosphate of the next nucleotide."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "adds",
+      "relation_type": "CATALYZES",
+      "tail": "nucleotides",
+      "tail_type": "Molecule",
+      "evidence": "DNA polymerase can now extend this RNA primer, adding nucleotides one-by-one that are complementary to the template strand."
+    },
+    {
+      "head": "Topoisomerase",
+      "head_type": "Enzyme",
+      "relation": "prevents",
+      "relation_type": "INHIBITS",
+      "tail": "over-winding of DNA",
+      "tail_type": "Process",
+      "evidence": "Topoisomerase prevents the over-winding of the DNA double helix ahead of the replication fork as the DNA is opening up."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "extends",
+      "relation_type": "CATALYZES",
+      "tail": "leading strand",
+      "tail_type": "Molecule",
+      "evidence": "Only one new DNA strand, the one that is complementary to the 3' to 5' parental DNA strand, can be synthesized continuously towards the replication fork."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "extends",
+      "relation_type": "CATALYZES",
+      "tail": "Okazaki fragments",
+      "tail_type": "Molecule",
+      "evidence": "The other strand, complementary to the 5' to 3' parental DNA, is extended away from the replication fork, in small fragments known as Okazaki fragments."
+    },
+    {
+      "head": "DNA polymerase I",
+      "head_type": "Enzyme",
+      "relation": "removes",
+      "relation_type": "CATALYZES",
+      "tail": "RNA primers",
+      "tail_type": "Molecule",
+      "evidence": "The primers are removed by the exonuclease activity of DNA pol I."
+    },
+    {
+      "head": "DNA ligase",
+      "head_type": "Enzyme",
+      "relation": "seals",
+      "relation_type": "CATALYZES",
+      "tail": "nicks",
+      "tail_type": "Molecule",
+      "evidence": "The nicks that remain between the newly synthesized DNA (that replaced the RNA primer) and the previously synthesized DNA are sealed by the enzyme DNA ligase."
+    },
+    {
+      "head": "DNA polymerase III",
+      "head_type": "Enzyme",
+      "relation": "adds",
+      "relation_type": "CATALYZES",
+      "tail": "nucleotides",
+      "tail_type": "Molecule",
+      "evidence": "DNA polymerase III starts adding nucleotides to the 3'-OH end of the primer."
+    },
+    {
+      "head": "DNA polymerase I",
+      "head_type": "Enzyme",
+      "relation": "fills",
+      "relation_type": "CATALYZES",
+      "tail": "gaps",
+      "tail_type": "Molecule",
+      "evidence": "The gaps are filled by DNA pol I by adding dNTPs."
+    },
+    {
+      "head": "DNA ligase",
+      "head_type": "Enzyme",
+      "relation": "forms",
+      "relation_type": "CATALYZES",
+      "tail": "phosphodiester bonds",
+      "tail_type": "Molecule",
+      "evidence": "DNA ligase, which catalyzes the formation of phosphodiester linkages between the 3'-OH end of one nucleotide and the 5' phosphate end of the other fragment."
+    },
+    {
+      "head": "DNA",
+      "head_type": "Molecule",
+      "relation": "replicates",
+      "relation_type": "REPLICATES",
+      "tail": "DNA",
+      "tail_type": "Molecule",
+      "evidence": "During DNA replication, each of the two strands that make up the double helix serves as a template from which new strands are copied."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "adds",
+      "relation_type": "CATALYZES",
+      "tail": "nucleotides",
+      "tail_type": "Molecule",
+      "evidence": "DNA polymerase can now extend this RNA primer, adding nucleotides one-by-one that are complementary to the template strand."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "requires",
+      "relation_type": "CONSUMES",
+      "tail": "free 3'-OH group",
+      "tail_type": "Molecule",
+      "evidence": "It also requires a free 3'-OH group to which it can add nucleotides by forming a phosphodiester bond between the 3'-OH end and the 5' phosphate of the next nucleotide."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "adds",
+      "relation_type": "CATALYZES",
+      "tail": "nucleotides",
+      "tail_type": "Molecule",
+      "evidence": "DNA polymerase can now extend this RNA primer, adding nucleotides one-by-one that are complementary to the template strand."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "extends",
+      "relation_type": "CATALYZES",
+      "tail": "leading strand",
+      "tail_type": "Molecule",
+      "evidence": "Only one new DNA strand, the one that is complementary to the 3' to 5' parental DNA strand, can be synthesized continuously towards the replication fork."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "extends",
+      "relation_type": "CATALYZES",
+      "tail": "Okazaki fragments",
+      "tail_type": "Molecule",
+      "evidence": "The other strand, complementary to the 5' to 3' parental DNA, is extended away from the replication fork, in small fragments known as Okazaki fragments."
+    },
+    {
+      "head": "DNA polymerase I",
+      "head_type": "Enzyme",
+      "relation": "removes",
+      "relation_type": "CATALYZES",
+      "tail": "RNA primers",
+      "tail_type": "Molecule",
+      "evidence": "The primers are removed by the exonuclease activity of DNA pol I."
+    },
+    {
+      "head": "DNA ligase",
+      "head_type": "Enzyme",
+      "relation": "seals",
+      "relation_type": "CATALYZES",
+      "tail": "nicks",
+      "tail_type": "Molecule",
+      "evidence": "The nicks that remain between the newly synthesized DNA (that replaced the RNA primer) and the previously synthesized DNA are sealed by the enzyme DNA ligase."
+    },
+    {
+      "head": "DNA polymerase III",
+      "head_type": "Enzyme",
+      "relation": "adds",
+      "relation_type": "CATALYZES",
+      "tail": "nucleotides",
+      "tail_type": "Molecule",
+      "evidence": "DNA polymerase III starts adding nucleotides to the 3'-OH end of the primer."
+    },
+    {
+      "head": "DNA polymerase I",
+      "head_type": "Enzyme",
+      "relation": "fills",
+      "relation_type": "CATALYZES",
+      "tail": "gaps",
+      "tail_type": "Molecule",
+      "evidence": "The gaps are filled by DNA pol I by adding dNTPs."
+    },
+    {
+      "head": "DNA ligase",
+      "head_type": "Enzyme",
+      "relation": "forms",
+      "relation_type": "CATALYZES",
+      "tail": "phosphodiester bonds",
+      "tail_type": "Molecule",
+      "evidence": "DNA ligase, which catalyzes the formation of phosphodiester linkages between the 3'-OH end of one nucleotide and the 5' phosphate end of the other fragment."
+    }
+  ]
+}

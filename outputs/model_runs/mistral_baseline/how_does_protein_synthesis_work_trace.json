@@ -1,0 +1,653 @@
+{
+  "question": "How does protein synthesis work?",
+  "generated_at": "2026-05-01T06:43:02.040110+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "protein",
+        "synthesis",
+        "work",
+        "protein synthesis",
+        "synthesis work",
+        "protein synthesis work"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:protein",
+          "name": "protein",
+          "matched_text": "protein",
+          "matched_alias": "protein",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:protein_synthesis",
+          "name": "protein synthesis",
+          "matched_text": "synthesis",
+          "matched_alias": "protein synthesis",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        },
+        {
+          "entity_id": "ent:the_start_codon",
+          "name": "the start codon",
+          "matched_text": "How does protein synthesis work?",
+          "matched_alias": "the start codon",
+          "score": 0.6685,
+          "match_type": "semantic"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:4",
+          "text": "on the organism.\n\nHowever, the general structures and functions of\nthe protein synthesis machinery are comparable from bacteria to human cells. Translation requires the input of an\nmRNA template, ribosomes, tRNAs, and various enzymatic factors. (Note: A ribosome can be thought of as an\nenzyme whose amino acid binding sites are specified by mRNA.)\nLINK TO LEARNING\nClick through the steps of this PBS interactive (https://openstax.org/l/prokary_protein) to see protein synthesis in\naction. Ribosomes\nEven before an mRNA is translated, a cell must invest energy to build each of its ribosomes. In E. coli, there are\nbetween 10,000 and 70,000 ribosomes present in each cell at any given time.",
+          "source_name": "15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt",
+          "chunk_index": 4,
+          "snippet": "on the organism.\n\nHowever, the general structures and functions of\nthe protein synthesis machinery are comparable from bacteria to human cells. Translation requires the input of an\nmRNA template, ribosomes, tRNAs, and various enzymatic factors. (Note: A ribosome can be thought of as an\nenzyme whose amino acid binding sites are specified by mRNA.)\nLINK TO LEARNING\nClick through the steps of this PB",
+          "score": 0.7695415028696696
+        },
+        {
+          "chunk_id": "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:2",
+          "text": "perform virtually every function of a cell.\n\nThe process of translation, or protein synthesis, involves the decoding of an\nmRNA message into a polypeptide product. Amino acids are covalently strung together by interlinking peptide\nbonds in lengths ranging from approximately 50 to more than 1000 amino acid residues. Each individual amino acid\nhas an amino group (NH2) and a carboxyl (COOH) group. Polypeptides are formed when the amino group of one\namino acid forms an amide (i.e., peptide) bond with the carboxyl group of another amino acid (Figure 15.15). This\nreaction is catalyzed by ribosomes and generates one water molecule. 406\n15 • Genes and Proteins\nAccess for free at openstax.org",
+          "source_name": "15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt",
+          "chunk_index": 2,
+          "snippet": "perform virtually every function of a cell.\n\nThe process of translation, or protein synthesis, involves the decoding of an\nmRNA message into a polypeptide product. Amino acids are covalently strung together by interlinking peptide\nbonds in lengths ranging from approximately 50 to more than 1000 amino acid residues. Each individual amino acid\nhas an amino group (NH2) and a carboxyl (COOH) group. Po",
+          "score": 0.7464301630559392
+        },
+        {
+          "chunk_id": "chunk:15_1_the_genetic_code_biology_2e_openstax:6",
+          "text": "of this\ninformation for protein synthesis, while keeping the DNA itself intact and protected.\n\nThe copying\nof DNA to RNA is relatively straightforward, with one nucleotide being added to the mRNA strand\nfor every nucleotide read in the DNA strand. The translation to protein is a bit more complex\nbecause three mRNA nucleotides correspond to one amino acid in the polypeptide sequence. However, the translation to protein is still systematic and colinear, such that nucleotides 1 to 3\ncorrespond to amino acid 1, nucleotides 4 to 6 correspond to amino acid 2, and so on. 392\n15 • Genes and Proteins\nAccess for free at openstax.org",
+          "source_name": "15.1 The Genetic Code - Biology 2e _ OpenStax.txt",
+          "chunk_index": 6,
+          "snippet": "of this\ninformation for protein synthesis, while keeping the DNA itself intact and protected.\n\nThe copying\nof DNA to RNA is relatively straightforward, with one nucleotide being added to the mRNA strand\nfor every nucleotide read in the DNA strand. The translation to protein is a bit more complex\nbecause three mRNA nucleotides correspond to one amino acid in the polypeptide sequence. However, the t",
+          "score": 0.7426116265439622
+        },
+        {
+          "chunk_id": "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:14",
+          "text": "covalent bond formation between the\ntRNA and the correct amino acid in preparation for translation.\n\nBecause there are multiple amino acids, there are multiple different tRNA\nsynthetases. All of the synthetases require energy, in the form of ATP, to make sure the correct amino acid is attached to the tRNA with the\ncorrect anticodon sequence. Credit: Rao, A., Ryan, K. and Tag, A. Department of Biology, Texas A&M University. The Mechanism of Protein Synthesis\nAs with mRNA synthesis, protein synthesis can be divided into three phases: initiation, elongation, and termination. The process of translation is similar in prokaryotes and eukaryotes. Here we’ll explore how translation occurs in E.",
+          "source_name": "15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt",
+          "chunk_index": 14,
+          "snippet": "covalent bond formation between the\ntRNA and the correct amino acid in preparation for translation.\n\nBecause there are multiple amino acids, there are multiple different tRNA\nsynthetases. All of the synthetases require energy, in the form of ATP, to make sure the correct amino acid is attached to the tRNA with the\ncorrect anticodon sequence. Credit: Rao, A., Ryan, K. and Tag, A. Department of Biol",
+          "score": 0.7374838835736179
+        },
+        {
+          "chunk_id": "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:1",
+          "text": "molecule that adds the amino acid phenylalanine to a growing polypeptide chain.\n\nThe\nanticodon AAG binds the Codon UUC on the mRNA. The amino acid phenylalanine is attached to the other end of the tRNA. 15.5 Ribosomes and Protein Synthesis\nLEARNING OBJECTIVES\nBy the end of this section, you will be able to do the following:\n•\nDescribe the different steps in protein synthesis\n•\nDiscuss the role of ribosomes in protein synthesis\nThe synthesis of proteins consumes more of a cell’s energy than any other metabolic process. In turn, proteins\naccount for more mass than any other component of living organisms (with the exception of water), and proteins\nperform virtually every function of a cell.",
+          "source_name": "15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt",
+          "chunk_index": 1,
+          "snippet": "molecule that adds the amino acid phenylalanine to a growing polypeptide chain.\n\nThe\nanticodon AAG binds the Codon UUC on the mRNA. The amino acid phenylalanine is attached to the other end of the tRNA. 15.5 Ribosomes and Protein Synthesis\nLEARNING OBJECTIVES\nBy the end of this section, you will be able to do the following:\n•\nDescribe the different steps in protein synthesis\n•\nDiscuss the role of ",
+          "score": 0.7337478297931865
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:31c277e1d622a50d",
+          "head_entity_id": "ent:ribosome",
+          "tail_entity_id": "ent:mrna",
+          "relation": "translates",
+          "evidence": "The ribosome is responsible for translating the mRNA into protein.",
+          "head_name": "ribosome",
+          "tail_name": "mRNA",
+          "score": 0.7380558516394421
+        },
+        {
+          "triple_id": "triple:ea5b024d1cb9be9b",
+          "head_entity_id": "ent:mrna",
+          "tail_entity_id": "ent:ribosomes",
+          "relation": "is translated on",
+          "evidence": "Translation of the mRNA template on ribosomes converts nucleotide-based genetic information into a protein product.",
+          "head_name": "mRNA",
+          "tail_name": "ribosomes",
+          "score": 0.7291365354625967
+        },
+        {
+          "triple_id": "triple:e574042f41f4e440",
+          "head_entity_id": "ent:aminoacyl-trna_synthetases",
+          "tail_entity_id": "ent:covalent_bond_formation",
+          "relation": "catalyze",
+          "evidence": "Aminoacyl-tRNA synthetases catalyze covalent bond formation between the tRNA and the correct amino acid in preparation for translation.",
+          "head_name": "aminoacyl-tRNA synthetases",
+          "tail_name": "covalent bond formation",
+          "score": 0.7115785096341319
+        },
+        {
+          "triple_id": "triple:3c90550d44091904",
+          "head_entity_id": "ent:genetic_code",
+          "tail_entity_id": "ent:all_species",
+          "relation": "is nearly universal",
+          "evidence": "The genetic code is nearly universal. With a few minor exceptions, virtually all species use the same genetic code for protein synthesis.",
+          "head_name": "genetic code",
+          "tail_name": "all species",
+          "score": 0.7014107887427778
+        },
+        {
+          "triple_id": "triple:6f151611792fe6b7",
+          "head_entity_id": "ent:pre-trnas",
+          "tail_entity_id": "ent:nucleus",
+          "relation": "are processed in",
+          "evidence": "Pre-tRNAs are transcribed and processed in the nucleus and then released into the cytoplasm where they are linked to free amino acids for protein synthesis.",
+          "head_name": "pre-tRNAs",
+          "tail_name": "nucleus",
+          "score": 0.6877646162136726
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:protein",
+        "ent:protein_synthesis",
+        "ent:the_start_codon",
+        "ent:ribosome",
+        "ent:mrna",
+        "ent:ribosomes",
+        "ent:aminoacyl-trna_synthetases",
+        "ent:covalent_bond_formation",
+        "ent:genetic_code",
+        "ent:all_species",
+        "ent:pre-trnas",
+        "ent:nucleus"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "protein",
+          "entity_id": "ent:protein",
+          "original_names": [
+            "protein"
+          ]
+        },
+        {
+          "name": "dna",
+          "entity_id": "ent:dna",
+          "original_names": [
+            "DNA"
+          ]
+        },
+        {
+          "name": "oswald avery",
+          "entity_id": "ent:oswald_avery",
+          "original_names": [
+            "Oswald Avery"
+          ]
+        },
+        {
+          "name": "nucleotides",
+          "entity_id": "ent:nucleotides",
+          "original_names": [
+            "nucleotides"
+          ]
+        },
+        {
+          "name": "histones",
+          "entity_id": "ent:histones",
+          "original_names": [
+            "histones"
+          ]
+        },
+        {
+          "name": "deoxyribose",
+          "entity_id": "ent:deoxyribose",
+          "original_names": [
+            "deoxyribose"
+          ]
+        },
+        {
+          "name": "two strands",
+          "entity_id": "ent:two_strands",
+          "original_names": [
+            "two strands"
+          ]
+        },
+        {
+          "name": "moves toward the positive electrode",
+          "entity_id": "ent:moves_toward_the_positive_electrode",
+          "original_names": [
+            "moves toward the positive electrode"
+          ]
+        },
+        {
+          "name": "gel electrophoresis",
+          "entity_id": "ent:gel_electrophoresis",
+          "original_names": [
+            "gel electrophoresis"
+          ]
+        },
+        {
+          "name": "dna-specific dye",
+          "entity_id": "ent:dna-specific_dye",
+          "original_names": [
+            "DNA-specific dye"
+          ]
+        },
+        {
+          "name": "double helix",
+          "entity_id": "ent:double_helix",
+          "original_names": [
+            "double helix"
+          ]
+        },
+        {
+          "name": "nitrogenous bases",
+          "entity_id": "ent:nitrogenous_bases",
+          "original_names": [
+            "nitrogenous bases"
+          ]
+        },
+        {
+          "name": "new complementary strand",
+          "entity_id": "ent:new_complementary_strand",
+          "original_names": [
+            "new complementary strand"
+          ]
+        },
+        {
+          "name": "replication",
+          "entity_id": "ent:replication",
+          "original_names": [
+            "replication"
+          ]
+        },
+        {
+          "name": "helicase",
+          "entity_id": "ent:helicase",
+          "original_names": [
+            "Helicase"
+          ]
+        },
+        {
+          "name": "dna polymerase",
+          "entity_id": "ent:dna_polymerase",
+          "original_names": [
+            "DNA polymerase"
+          ]
+        },
+        {
+          "name": "rna",
+          "entity_id": "ent:rna",
+          "original_names": [
+            "RNA"
+          ]
+        },
+        {
+          "name": "genes",
+          "entity_id": "ent:genes",
+          "original_names": [
+            "genes"
+          ]
+        },
+        {
+          "name": "mitochondria",
+          "entity_id": "ent:mitochondria",
+          "original_names": [
+            "mitochondria"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "three nucleotides",
+          "entity_id": "ent:three_nucleotides",
+          "original_names": [
+            "three nucleotides"
+          ]
+        },
+        {
+          "name": "ribosomes",
+          "entity_id": "ent:ribosomes",
+          "original_names": [
+            "ribosomes"
+          ]
+        },
+        {
+          "name": "rna polymerase",
+          "entity_id": "ent:rna_polymerase",
+          "original_names": [
+            "RNA polymerase"
+          ]
+        },
+        {
+          "name": "prokaryotic rna polymerase",
+          "entity_id": "ent:prokaryotic_rna_polymerase",
+          "original_names": [
+            "Prokaryotic RNA polymerase"
+          ]
+        },
+        {
+          "name": "ribosome",
+          "entity_id": "ent:ribosome",
+          "original_names": [
+            "ribosome"
+          ]
+        },
+        {
+          "name": "protein synthesis",
+          "entity_id": "ent:protein_synthesis",
+          "original_names": [
+            "protein synthesis"
+          ]
+        },
+        {
+          "name": "nonsense codons",
+          "entity_id": "ent:nonsense_codons",
+          "original_names": [
+            "nonsense codons"
+          ]
+        },
+        {
+          "name": "the start codon",
+          "entity_id": "ent:the_start_codon",
+          "original_names": [
+            "the start codon"
+          ]
+        },
+        {
+          "name": "aug",
+          "entity_id": "ent:aug",
+          "original_names": [
+            "AUG"
+          ]
+        },
+        {
+          "name": "methionine",
+          "entity_id": "ent:methionine",
+          "original_names": [
+            "methionine"
+          ]
+        },
+        {
+          "name": "trna",
+          "entity_id": "ent:trna",
+          "original_names": [
+            "tRNA"
+          ]
+        },
+        {
+          "name": "amino acid",
+          "entity_id": "ent:amino_acid",
+          "original_names": [
+            "amino acid"
+          ]
+        },
+        {
+          "name": "mrna codon",
+          "entity_id": "ent:mrna_codon",
+          "original_names": [
+            "mRNA codon"
+          ]
+        },
+        {
+          "name": "three-dimensional structure",
+          "entity_id": "ent:three-dimensional_structure",
+          "original_names": [
+            "three-dimensional structure"
+          ]
+        },
+        {
+          "name": "aminoacyl-trna",
+          "entity_id": "ent:aminoacyl-trna",
+          "original_names": [
+            "aminoacyl-tRNA"
+          ]
+        },
+        {
+          "name": "polypeptides",
+          "entity_id": "ent:polypeptides",
+          "original_names": [
+            "polypeptides"
+          ]
+        },
+        {
+          "name": "trnas",
+          "entity_id": "ent:trnas",
+          "original_names": [
+            "tRNAs"
+          ]
+        },
+        {
+          "name": "peptide bond formation",
+          "entity_id": "ent:peptide_bond_formation",
+          "original_names": [
+            "peptide bond formation"
+          ]
+        },
+        {
+          "name": "peptidyl transferase",
+          "entity_id": "ent:peptidyl_transferase",
+          "original_names": [
+            "peptidyl transferase"
+          ]
+        },
+        {
+          "name": "mrna template",
+          "entity_id": "ent:mrna_template",
+          "original_names": [
+            "mRNA template"
+          ]
+        },
+        {
+          "name": "rrnas",
+          "entity_id": "ent:rrnas",
+          "original_names": [
+            "rRNAs"
+          ]
+        },
+        {
+          "name": "rna polymerase i",
+          "entity_id": "ent:rna_polymerase_i",
+          "original_names": [
+            "RNA polymerase I"
+          ]
+        },
+        {
+          "name": "pre-rrnas",
+          "entity_id": "ent:pre-rrnas",
+          "original_names": [
+            "pre-rRNAs"
+          ]
+        },
+        {
+          "name": "dna template strand",
+          "entity_id": "ent:dna_template_strand",
+          "original_names": [
+            "DNA template strand"
+          ]
+        },
+        {
+          "name": "α, α, β, β', and σ subunits",
+          "entity_id": "ent:α,_α,_β,_β',_and_σ_subunits",
+          "original_names": [
+            "α, α, β, β', and σ subunits"
+          ]
+        },
+        {
+          "name": "aminoacyl-trna synthetases",
+          "entity_id": "ent:aminoacyl-trna_synthetases",
+          "original_names": [
+            "aminoacyl-tRNA synthetases"
+          ]
+        },
+        {
+          "name": "covalent bond formation",
+          "entity_id": "ent:covalent_bond_formation",
+          "original_names": [
+            "covalent bond formation"
+          ]
+        },
+        {
+          "name": "genetic code",
+          "entity_id": "ent:genetic_code",
+          "original_names": [
+            "genetic code"
+          ]
+        },
+        {
+          "name": "all species",
+          "entity_id": "ent:all_species",
+          "original_names": [
+            "all species"
+          ]
+        },
+        {
+          "name": "pre-trnas",
+          "entity_id": "ent:pre-trnas",
+          "original_names": [
+            "pre-tRNAs"
+          ]
+        },
+        {
+          "name": "methylation",
+          "entity_id": "ent:methylation",
+          "original_names": [
+            "methylation"
+          ]
+        },
+        {
+          "name": "nucleus",
+          "entity_id": "ent:nucleus",
+          "original_names": [
+            "nucleus"
+          ]
+        },
+        {
+          "name": "rna polymerase ii",
+          "entity_id": "ent:rna_polymerase_ii",
+          "original_names": [
+            "RNA polymerase II"
+          ]
+        },
+        {
+          "name": "rna polymerase iii",
+          "entity_id": "ent:rna_polymerase_iii",
+          "original_names": [
+            "RNA polymerase III"
+          ]
+        },
+        {
+          "name": "promoter",
+          "entity_id": "ent:promoter",
+          "original_names": [
+            "promoter"
+          ]
+        },
+        {
+          "name": "protein-coding nuclear pre-mrnas",
+          "entity_id": "ent:protein-coding_nuclear_pre-mrnas",
+          "original_names": [
+            "protein-coding nuclear pre-mRNAs"
+          ]
+        },
+        {
+          "name": "α-amanitin",
+          "entity_id": "ent:α-amanitin",
+          "original_names": [
+            "α-amanitin"
+          ]
+        },
+        {
+          "name": "pre-mrnas",
+          "entity_id": "ent:pre-mrnas",
+          "original_names": [
+            "pre-mRNAs"
+          ]
+        },
+        {
+          "name": "5s rrna, trnas, and small nuclear rnas",
+          "entity_id": "ent:5s_rrna,_trnas,_and_small_nuclear_rnas",
+          "original_names": [
+            "5S rRNA, tRNAs, and small nuclear RNAs"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:protein",
+          "evidence": "Only 32P entered the bacterial cells, indicating that DNA is the genetic material.",
+          "target_name": "protein",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:f8796631b9fea9a8",
+          "source_name": "DNA",
+          "relation": "is the genetic material"
+        },
+        {
+          "target_entity_id": "ent:dna",
+          "evidence": "They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.",
+          "target_name": "DNA",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:8cd58dda286ddce8",
+          "source_name": "Oswald Avery",
+          "relation": "used enzymes to degrade"
+        },
+        {
+          "target_entity_id": "ent:nucleotides",
+          "evidence": "The building blocks of DNA are nucleotides.",
+          "target_name": "nucleotides",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:2e4a67b053282ddf",
+          "source_name": "DNA",
+          "relation": "consists of"
+        },
+        {
+          "target_entity_id": "ent:histones",
+          "evidence": "At the most basic level, DNA is wrapped around proteins known as histones to form structures called nucleosomes.",
+          "target_name": "histones",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:15abf5f4fe8f3701",
+          "source_name": "DNA",
+          "relation": "is wrapped around"
+        },
+        {
+          "target_entity_id": "ent:deoxyribose",
+          "evidence": "The sugar is deoxyribose in DNA and ribose in RNA.",
+          "target_name": "deoxyribose",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:3aaff4625e9cdd61",
+          "source_name": "DNA",
+          "relation": "contains"
+        },
+        {
+          "target_entity_id": "ent:two_strands",
+          "evidence": "Watson and Crick proposed that DNA is made up of two strands that are twisted around each other to form a right-handed helix.",
+          "target_name": "two strands",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:0b064dbe90d18df2",
+          "source_name": "DNA",
+          "relation": "is made up of"
+        },
+        {
+          "target_entity_id": "ent:moves_toward_the_positive_electrode",
+          "evidence": "The DNA has a net negative charge and moves from the negative electrode toward the positive electrode.",
+          "target_name": "moves toward the positive electrode",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:6e053f5b2f3ea904",
+          "source_name": "DNA",
+          "relation": "has a net negative charge"
+        },
+        {
+          "target_entity_id": "ent:gel_electrophoresis",
+          "evidence": "Gel electrophoresis is a technique used to separate DNA fragments of different sizes.",
+          "target_name": "gel electrophoresis",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:66c0ebf6f64f88b7",
+          "source_name": "DNA",
+          "relation": "is separated by"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "How does protein synthesis work?",
+    "answer": "Protein synthesis involves the decoding of an mRNA message into a polypeptide product. Amino acids are covalently strung together by interlinking peptide bonds. The process requires mRNA template, ribosomes, tRNAs, and various enzymatic factors. Ribosomes translate the mRNA into protein by catalyzing the formation of peptide bonds between amino acids.",
+    "citations": [
+      "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:2 | 15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt | perform virtually every function of a cell. The process of translation, or protein synthesis, involves the decoding o...",
+      "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:4 | 15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt | on the organism. However, the general structures and functions of the protein synthesis machinery are comparable from...",
+      "triple:31c277e1d622a50d | ribosome --[translates]--> mRNA"
+    ],
+    "reasoning": "Matched entities: protein, protein synthesis. Traversed graph edges: DNA --[is the genetic material]--> protein; Oswald Avery --[used enzymes to degrade]--> DNA; DNA --[consists of]--> nucleotides. Graph evidence: \"Only 32P entered the bacterial cells, indicating that DNA is the genetic material.\". The context describes protein synthesis as the process of decoding mRNA into a polypeptide product, involving ribosomes, tRNAs, and enzymatic factors. It specifies that ribosomes translate mRNA into protein by forming peptide bonds between amino acids."
+  }
+}

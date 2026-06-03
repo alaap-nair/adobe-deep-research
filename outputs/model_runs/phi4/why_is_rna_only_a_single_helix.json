@@ -1,0 +1,9 @@
+{
+  "question": "Why is RNA only a single helix?",
+  "answer": "RNA is typically single-stranded because it contains ribose, which has a hydroxyl group that makes the RNA backbone more reactive and less stable for forming a double helix. Additionally, RNA often folds into complex three-dimensional structures stabilized by intramolecular base pairing.",
+  "citations": [
+    "chunk:15_3_eukaryotic_transcription_biology_2e_openstax:4 | 15.3 Eukaryotic Transcription - Biology 2e _ OpenStax.txt | considered structural RNAs because they have a cellular role but are not translated into protein. The rRNAs are compo...",
+    "chunk:15_2_prokaryotic_transcription_biology_2e_openstax:5 | 15.2 Prokaryotic Transcription - Biology 2e _ OpenStax.txt | always proceeds from the same DNA strand for each gene, which is called the template strand. The mRNA product is comp..."
+  ],
+  "reasoning": "Matched entities: rna, dna helix, single six-membered ring structure. Traversed graph edges: RNA --[contains]--> ribose; DNA --[is copied to]--> RNA; Oswald Avery --[used enzymes to degrade]--> DNA. Graph evidence: \"The sugar is deoxyribose in DNA and ribose in RNA.\". The context indicates that RNA molecules, such as tRNA, fold into three-dimensional structures through local regions of base pairing, which suggests that RNA is single-stranded and capable of forming complex structures. Additionally, the triple evidence shows that pyrimidines, which are part of RNA, have a single six-membered ring structure, supporting the idea that RNA is single-stranded."
+}

@@ -1,0 +1,133 @@
+in at least triplicate for each fruit
+1.
+Prepare a bottle of DNA extraction buffer from 900 mL water, 50 mL dish detergent, and two teaspoons of
+table salt. Mix by inversion (cap it and turn it upside down a few times).
+2.
+Grind a strawberry and a kiwi by hand in a plastic bag, or using a mortar and pestle, or with a metal bowl and
+the end of a blunt instrument. Grind for at least two minutes per fruit.
+3.
+Add 10 mL of the DNA extraction buffer to each fruit, and mix well for at least one minute.
+4.
+Remove cellular debris by filtering each fruit mixture through cheesecloth or porous cloth and into a funnel
+placed in a test tube or an appropriate container.
+5.
+Pour ice-cold ethanol or isopropanol (rubbing alcohol) into the test tube. You should observe white,
+precipitated DNA.
+6.
+Gather the DNA from each fruit by winding it around separate glass rods.
+Record your observations: Because you are not quantitatively measuring DNA volume, you can record for each trial
+whether the two fruits produced the same or different amounts of DNA as observed by eye. If one or the other fruit
+produced noticeably more DNA, record this as well. Determine whether your observations are consistent with
+several pieces of each fruit.
+Analyze your data: Did you notice an obvious difference in the amount of DNA produced by each fruit? Were your
+results reproducible?
+Draw a conclusion: Given what you know about the number of chromosomes in each fruit, can you conclude that
+chromosome number necessarily correlates to DNA amount? Can you identify any drawbacks to this procedure? If
+you had access to a laboratory, how could you standardize your comparison and make it more quantitative?
+15.2 Prokaryotic Transcription
+LEARNING OBJECTIVES
+By the end of this section, you will be able to do the following:
+•
+List the different steps in prokaryotic transcription
+•
+Discuss the role of promoters in prokaryotic transcription
+•
+Describe how and when transcription is terminated
+The prokaryotes, which include Bacteria and Archaea, are mostly single-celled organisms that, by definition, lack
+membrane-bound nuclei and other organelles. A bacterial chromosome is a closed circle that, unlike eukaryotic
+chromosomes, is not organized around histone proteins. The central region of the cell in which prokaryotic DNA
+resides is called the nucleoid region. In addition, prokaryotes often have abundant plasmids, which are shorter,
+circular DNA molecules that may only contain one or a few genes. Plasmids can be transferred independently of the
+bacterial chromosome during cell division and often carry traits such as those involved with antibiotic resistance.
+Transcription in prokaryotes (and in eukaryotes) requires the DNA double helix to partially unwind in the region of
+mRNA synthesis. The region of unwinding is called a transcription bubble. Transcription always proceeds from the
+same DNA strand for each gene, which is called the template strand. The mRNA product is complementary to the
+template strand and is almost identical to the other DNA strand, called the nontemplate strand, or the coding
+strand. The only nucleotide difference is that in mRNA, all of the T nucleotides are replaced with U nucleotides
+(Figure 15.7). In an RNA double helix, A can bind U via two hydrogen bonds, just as in A–T pairing in a DNA double
+helix.
+396
+15 • Genes and Proteins
+Access for free at openstax.org
+
+
+FIGURE 15.7 Messenger RNA is a copy of protein-coding information in the coding strand of DNA, with the substitution of U in the RNA for T
+in the coding sequence. However, new RNA nucleotides base pair with the nucleotides of the template strand. RNA is synthesized in its
+5'-3' direction, using the enzyme RNA polymerase. As the template is read, the DNA unwinds ahead of the polymerase and then rewinds
+behind it.
+The nucleotide pair in the DNA double helix that corresponds to the site from which the first 5' mRNA nucleotide is
+transcribed is called the +1 site, or the initiation site. Nucleotides preceding the initiation site are denoted with a “-
+” and are designated upstream nucleotides. Conversely, nucleotides following the initiation site are denoted with
+“+” numbering and are called downstream nucleotides.
+Initiation of Transcription in Prokaryotes
+Prokaryotes do not have membrane-enclosed nuclei. Therefore, the processes of transcription, translation, and
+mRNA degradation can all occur simultaneously. The intracellular level of a bacterial protein can quickly be
+amplified by multiple transcription and translation events that occur concurrently on the same DNA template.
+Prokaryotic genomes are very compact, and prokaryotic transcripts often cover more than one gene or cistron (a
+coding sequence for a single protein). Polycistronic mRNAs are then translated to produce more than one kind of
+protein.
+Our discussion here will exemplify transcription by describing this process in Escherichia coli, a well-studied
+eubacterial species. Although some differences exist between transcription in E. coli and transcription in archaea,
+an understanding of E. coli transcription can be applied to virtually all bacterial species.
+Prokaryotic RNA Polymerase
+Prokaryotes use the same RNA polymerase to transcribe all of their genes. In E. coli, the polymerase is composed of
+five polypeptide subunits, two of which are identical. Four of these subunits, denoted α, α, β, and β', comprise the
+polymerase core enzyme. These subunits assemble every time a gene is transcribed, and they disassemble once
+transcription is complete. Each subunit has a unique role; the two α-subunits are necessary to assemble the
+polymerase on the DNA; the β-subunit binds to the ribonucleoside triphosphate that will become part of the nascent
+mRNA molecule; and the β' subunit binds the DNA template strand. The fifth subunit, σ, is involved only in
+transcription initiation. It confers transcriptional specificity such that the polymerase begins to synthesize mRNA
+from an appropriate initiation site. Without σ, the core enzyme would transcribe from random sites and would
+produce mRNA molecules that specified protein gibberish. The polymerase comprised of all five subunits is called
+the holoenzyme.
+Prokaryotic Promoters
+A promoter is a DNA sequence onto which the transcription machinery, including RNA polymerase, binds and
+initiates transcription. In most cases, promoters exist upstream of the genes they regulate. The specific sequence of
+a promoter is very important because it determines whether the corresponding gene is transcribed all the time,
+some of the time, or infrequently. Although promoters vary among prokaryotic genomes, a few elements are
+evolutionarily conserved in many species. At the -10 and -35 regions upstream of the initiation site, there are two
+promoter consensus sequences, or regions that are similar across all promoters and across various bacterial
+species (Figure 15.8). The -10 sequence, called the -10 region, has the consensus sequence TATAAT. The -35
+sequence has the consensus sequence TTGACA. These consensus sequences are recognized and bound by σ. Once
+15.2 • Prokaryotic Transcription
+397
+
+
+this interaction is made, the subunits of the core enzyme bind to the site. The A–T-rich -10 region facilitates
+unwinding of the DNA template, and several phosphodiester bonds are made. The transcription initiation phase
+ends with the production of abortive transcripts, which are polymers of approximately 10 nucleotides that are made
+and released.
+FIGURE 15.8 The σ subunit of prokaryotic RNA polymerase recognizes consensus sequences found in the promoter region upstream of the
+transcription start site. The σ subunit dissociates from the polymerase after transcription has been initiated.
+LINK TO LEARNING
+View this MolecularMovies animation (https://openstax.org/l/transcription) to see the transcription process as it
+happens in the cell.
+Elongation and Termination in Prokaryotes
+The transcription elongation phase begins with the release of the σ subunit from the polymerase. The dissociation of
+σ allows the core enzyme to proceed along the DNA template, synthesizing mRNA in the 5' to 3' direction at a rate of
+approximately 40 nucleotides per second. As elongation proceeds, the DNA is continuously unwound ahead of the
+core enzyme and rewound behind it. The base pairing between DNA and RNA is not stable enough to maintain the
+stability of the mRNA synthesis components. Instead, the RNA polymerase acts as a stable linker between the DNA
+template and the nascent RNA strands to ensure that elongation is not interrupted prematurely.
+Prokaryotic Termination Signals
+Once a gene is transcribed, the prokaryotic polymerase needs to be instructed to dissociate from the DNA template
+and liberate the newly made mRNA. Depending on the gene being transcribed, there are two kinds of termination
+signals. One is protein-based and the other is RNA-based. Rho-dependent termination is controlled by the rho (ρ)
+protein, which tracks along behind the polymerase on the growing mRNA chain. Near the end of the gene, the
+polymerase encounters a run of G nucleotides on the DNA template and it stalls. As a result, the rho protein collides
+with the polymerase. The interaction with rho releases the mRNA from the transcription bubble.
+Rho-independent termination is controlled by specific sequences in the DNA template strand. As the polymerase
+nears the end of the gene being transcribed, it encounters a region rich in C–G nucleotides. The mRNA folds back on
+itself, and the complementary C–G nucleotides bind together. The result is a stable hairpin that causes the
+polymerase to stall as soon as it begins to transcribe a region rich in A–T nucleotides. The complementary U–A
+region of the mRNA transcript forms only a weak interaction with the template DNA. This, coupled with the stalled
+polymerase, induces enough instability for the core enzyme to break away and liberate the new mRNA transcript.
+Upon termination, the process of transcription is complete. By the time termination occurs, the prokaryotic
+transcript would already have been used to begin synthesis of numerous copies of the encoded protein because
+these processes can occur concurrently. The unification of transcription, translation, and even mRNA degradation is
+possible because all of these processes occur in the same 5' to 3' direction, and because there is no membranous
+compartmentalization in the prokaryotic cell (Figure 15.9). In contrast, the presence of a nucleus in eukaryotic cells
+precludes simultaneous transcription and translation.
+398
+15 • Genes and Proteins
+Access for free at openstax.org

@@ -1,0 +1,9 @@
+{
+  "question": "What pigment absorbs light energy during the light-dependent reactions of photosynthesis?",
+  "answer": "Chlorophyll a",
+  "citations": [
+    "chunk:8_2_the_light_dependent_reactions_of_photosynthesis_biology_2e_openstax:19 | data/8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e _ OpenStax.pdf | a spectrophotometer, scientists can identify which wavelengths of light an organism can absorb. Additional methods fo...",
+    "chunk:8_2_the_light_dependent_reactions_of_photosynthesis_biology_2e_openstax:13 | data/8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e _ OpenStax.pdf | efficient molecules for the disposal of excess energy. When a leaf is exposed to full sun, the light-dependent reacti..."
+  ],
+  "reasoning": "Matched entities: photosynthesis, energy from sunlight, light energy into chemical energy. Traversed graph edges: Algae --[perform]--> Photosynthesis; fungi --[form mutualistic associations]--> Algae; fungus --[supplies minerals and protection]--> Algae. Graph evidence: \"Plants, algae, and a group of bacteria called cyanobacteria are the only organisms capable of performing photosynthesis.\". Chlorophyll a absorbs wavelengths from either end of the visible spectrum (blue and red)."
+}

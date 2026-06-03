@@ -1,0 +1,167 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 16,
+  "num_entities": 14,
+  "entities": [
+    "-25 to -35 bases relative to the initiation site",
+    "5S rRNA, tRNAs, and small nuclear RNAs",
+    "RNA polymerase I",
+    "RNA polymerase II",
+    "RNA polymerase III",
+    "TATA box",
+    "Transcription factors",
+    "nucleolus",
+    "nucleus",
+    "pre-mRNAs",
+    "promoter",
+    "protein-coding nuclear pre-mRNAs",
+    "rRNAs",
+    "\u03b1-amanitin"
+  ],
+  "triples": [
+    {
+      "head": "RNA polymerase I",
+      "head_type": "Enzyme",
+      "relation": "transcribes",
+      "relation_type": "TRANSCRIBES_TO",
+      "tail": "rRNAs",
+      "tail_type": "Molecule",
+      "evidence": "RNA polymerase I synthesizes all of the rRNAs from the tandemly duplicated set of 18S, 5.8S, and 28S ribosomal genes."
+    },
+    {
+      "head": "RNA polymerase II",
+      "head_type": "Enzyme",
+      "relation": "transcribes",
+      "relation_type": "TRANSCRIBES_TO",
+      "tail": "protein-coding nuclear pre-mRNAs",
+      "tail_type": "Molecule",
+      "evidence": "RNA polymerase II is located in the nucleus and synthesizes all protein-coding nuclear pre-mRNAs."
+    },
+    {
+      "head": "RNA polymerase III",
+      "head_type": "Enzyme",
+      "relation": "transcribes",
+      "relation_type": "TRANSCRIBES_TO",
+      "tail": "5S rRNA, tRNAs, and small nuclear RNAs",
+      "tail_type": "Molecule",
+      "evidence": "RNA polymerase III is also located in the nucleus. This polymerase transcribes a variety of structural RNAs that includes the 5S pre-rRNA, transfer pre-RNAs (pre-tRNAs), and small nuclear pre-RNAs."
+    },
+    {
+      "head": "RNA polymerase I",
+      "head_type": "Enzyme",
+      "relation": "is insensitive to",
+      "relation_type": "INHIBITS",
+      "tail": "\u03b1-amanitin",
+      "tail_type": "Molecule",
+      "evidence": "RNA polymerase I is completely insensitive to \u03b1-amanitin, meaning that the polymerase can transcribe DNA in vitro in the presence of this poison."
+    },
+    {
+      "head": "RNA polymerase II",
+      "head_type": "Enzyme",
+      "relation": "is extremely sensitive to",
+      "relation_type": "INHIBITS",
+      "tail": "\u03b1-amanitin",
+      "tail_type": "Molecule",
+      "evidence": "RNA polymerase II is extremely sensitive to \u03b1-amanitin. The toxin prevents the enzyme from progressing down the DNA, and thus inhibits transcription."
+    },
+    {
+      "head": "RNA polymerase III",
+      "head_type": "Enzyme",
+      "relation": "is moderately sensitive to",
+      "relation_type": "INHIBITS",
+      "tail": "\u03b1-amanitin",
+      "tail_type": "Molecule",
+      "evidence": "RNA polymerase III is moderately sensitive to the toxin."
+    },
+    {
+      "head": "RNA polymerase I",
+      "head_type": "Enzyme",
+      "relation": "is located in",
+      "relation_type": "LOCATED_IN",
+      "tail": "nucleolus",
+      "tail_type": "CellularStructure",
+      "evidence": "RNA polymerase I is located in the nucleolus, a specialized nuclear substructure in which ribosomal RNA (rRNA) is transcribed, processed, and assembled into ribosomes."
+    },
+    {
+      "head": "RNA polymerase II",
+      "head_type": "Enzyme",
+      "relation": "is located in",
+      "relation_type": "LOCATED_IN",
+      "tail": "nucleus",
+      "tail_type": "CellularStructure",
+      "evidence": "RNA polymerase II is located in the nucleus and synthesizes all protein-coding nuclear pre-mRNAs."
+    },
+    {
+      "head": "RNA polymerase III",
+      "head_type": "Enzyme",
+      "relation": "is located in",
+      "relation_type": "LOCATED_IN",
+      "tail": "nucleus",
+      "tail_type": "CellularStructure",
+      "evidence": "RNA polymerase III is also located in the nucleus."
+    },
+    {
+      "head": "TATA box",
+      "head_type": "GeneticElement",
+      "relation": "is located at",
+      "relation_type": "LOCATED_IN",
+      "tail": "-25 to -35 bases relative to the initiation site",
+      "tail_type": "GeneticElement",
+      "evidence": "It is located at -25 to -35 bases relative to the initiation (+1) site."
+    },
+    {
+      "head": "Transcription factors",
+      "head_type": "Molecule",
+      "relation": "bind to",
+      "relation_type": "BINDS",
+      "tail": "promoter",
+      "tail_type": "GeneticElement",
+      "evidence": "Transcription factors that bind to the promoter are called basal transcription factors."
+    },
+    {
+      "head": "RNA polymerase II",
+      "head_type": "Enzyme",
+      "relation": "binds to",
+      "relation_type": "BINDS",
+      "tail": "promoter",
+      "tail_type": "GeneticElement",
+      "evidence": "RNA polymerase II then binds and forms the transcription initiation complex."
+    },
+    {
+      "head": "RNA polymerase II",
+      "head_type": "Enzyme",
+      "relation": "transcribes",
+      "relation_type": "TRANSCRIBES_TO",
+      "tail": "pre-mRNAs",
+      "tail_type": "Molecule",
+      "evidence": "RNA polymerase II is responsible for transcribing the overwhelming majority of eukaryotic genes."
+    },
+    {
+      "head": "RNA polymerase I",
+      "head_type": "Enzyme",
+      "relation": "transcribes",
+      "relation_type": "TRANSCRIBES_TO",
+      "tail": "rRNAs",
+      "tail_type": "Molecule",
+      "evidence": "RNA polymerase I synthesizes all of the rRNAs from the tandemly duplicated set of 18S, 5.8S, and 28S ribosomal genes."
+    },
+    {
+      "head": "RNA polymerase II",
+      "head_type": "Enzyme",
+      "relation": "transcribes",
+      "relation_type": "TRANSCRIBES_TO",
+      "tail": "protein-coding nuclear pre-mRNAs",
+      "tail_type": "Molecule",
+      "evidence": "RNA polymerase II is located in the nucleus and synthesizes all protein-coding nuclear pre-mRNAs."
+    },
+    {
+      "head": "RNA polymerase III",
+      "head_type": "Enzyme",
+      "relation": "transcribes",
+      "relation_type": "TRANSCRIBES_TO",
+      "tail": "5S rRNA, tRNAs, and small nuclear RNAs",
+      "tail_type": "Molecule",
+      "evidence": "RNA polymerase III is also located in the nucleus. This polymerase transcribes a variety of structural RNAs that includes the 5S pre-rRNA, transfer pre-RNAs (pre-tRNAs), and small nuclear pre-RNAs."
+    }
+  ]
+}

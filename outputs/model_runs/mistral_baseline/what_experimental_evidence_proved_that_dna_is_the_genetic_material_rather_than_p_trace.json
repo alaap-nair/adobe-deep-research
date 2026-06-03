@@ -1,0 +1,726 @@
+{
+  "question": "What experimental evidence proved that DNA is the genetic material rather than protein?",
+  "generated_at": "2026-05-01T06:44:19.137091+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "experimental",
+        "evidence",
+        "proved",
+        "that",
+        "dna",
+        "genetic",
+        "material",
+        "rather",
+        "than",
+        "protein",
+        "experimental evidence",
+        "evidence proved",
+        "proved that",
+        "that dna",
+        "dna genetic",
+        "genetic material",
+        "material rather",
+        "rather than",
+        "than protein",
+        "experimental evidence proved",
+        "evidence proved that",
+        "proved that dna",
+        "that dna genetic",
+        "dna genetic material",
+        "genetic material rather",
+        "material rather than",
+        "rather than protein"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:dna",
+          "name": "dna",
+          "matched_text": "dna",
+          "matched_alias": "dna",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:protein",
+          "name": "protein",
+          "matched_text": "protein",
+          "matched_alias": "protein",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:decaying_organic_material",
+          "name": "decaying organic material",
+          "matched_text": "material",
+          "matched_alias": "decaying organic material",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:14_1_historical_basis_of_modern_understanding_biology_2e_openstax:10",
+          "text": "The\ndecisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that\nDNA was indeed the genetic material and not proteins. Chase and Hershey were studying a bacteriophage—a virus\nthat infects bacteria. Viruses typically have a simple structure: a protein coat, called the capsid, and a nucleic acid\ncore that contains the genetic material (either DNA or RNA). The bacteriophage infects the host bacterial cell by\nattaching to its surface, and then it injects its nucleic acids inside the cell. The phage DNA makes multiple copies of\nitself using the host machinery, and eventually the host cell bursts, releasing a large number of bacteriophages.",
+          "source_name": "14.1 Historical Basis of Modern Understanding - Biology 2e _ OpenStax.txt",
+          "chunk_index": 10,
+          "snippet": "The\ndecisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that\nDNA was indeed the genetic material and not proteins. Chase and Hershey were studying a bacteriophage—a virus\nthat infects bacteria. Viruses typically have a simple structure: a protein coat, called the capsid, and a nucleic acid\ncore that contains the genetic material (either DNA or ",
+          "score": 0.7770860381109631
+        },
+        {
+          "chunk_id": "chunk:14_2_dna_structure_and_sequencing_biology_2e_openstax:0",
+          "text": "FIGURE 14.4 In Hershey and Chase's experiments, bacteria were infected with phage radiolabeled with either 35S, which labels protein, or\n32P, which labels DNA. Only 32P entered the bacterial cells, indicating that DNA is the genetic material. Around this same time, Austrian biochemist Erwin Chargaff examined the content of DNA in different species and\nfound that the amounts of adenine, thymine, guanine, and cytosine were not found in equal quantities, and that\nrelative concentrations of the four nucleotide bases varied from species to species, but not within tissues of the\nsame individual or between individuals of the same species.",
+          "source_name": "14.2 DNA Structure and Sequencing - Biology 2e _ OpenStax.txt",
+          "chunk_index": 0,
+          "snippet": "FIGURE 14.4 In Hershey and Chase's experiments, bacteria were infected with phage radiolabeled with either 35S, which labels protein, or\n32P, which labels DNA. Only 32P entered the bacterial cells, indicating that DNA is the genetic material. Around this same time, Austrian biochemist Erwin Chargaff examined the content of DNA in different species and\nfound that the amounts of adenine, thymine, gu",
+          "score": 0.7426013128106923
+        },
+        {
+          "chunk_id": "chunk:14_1_historical_basis_of_modern_understanding_biology_2e_openstax:13",
+          "text": "contained the radioactively labeled phage, whereas no radioactivity was detected in the pellet.\n\nIn\nthe tube that contained the phage labeled with 32P, the radioactivity was detected in the pellet that contained the\nheavier bacterial cells, and no radioactivity was detected in the supernatant. Hershey and Chase concluded that it\nwas the phage DNA that was injected into the cell and carried information to produce more phage particles, thus\nproviding evidence that DNA was the genetic material and not proteins (Figure 14.4). 366\n14 • DNA Structure and Function\nAccess for free at openstax.org",
+          "source_name": "14.1 Historical Basis of Modern Understanding - Biology 2e _ OpenStax.txt",
+          "chunk_index": 13,
+          "snippet": "contained the radioactively labeled phage, whereas no radioactivity was detected in the pellet.\n\nIn\nthe tube that contained the phage labeled with 32P, the radioactivity was detected in the pellet that contained the\nheavier bacterial cells, and no radioactivity was detected in the supernatant. Hershey and Chase concluded that it\nwas the phage DNA that was injected into the cell and carried informa",
+          "score": 0.7380990071472964
+        },
+        {
+          "chunk_id": "chunk:15_1_the_genetic_code_biology_2e_openstax:5",
+          "text": "that gives rise to the incredible variation of protein\nstructure and function.\n\nThe Central Dogma: DNA Encodes RNA; RNA Encodes Protein\nThe flow of genetic information in cells from DNA to mRNA to protein is described by the central\ndogma (Figure 15.3), which states that genes specify the sequence of mRNAs, which in turn\nspecify the sequence of amino acids making up all proteins. The decoding of one molecule to\nanother is performed by specific proteins and RNAs. Because the information stored in DNA is so\ncentral to cellular function, it makes intuitive sense that the cell would make mRNA copies of this\ninformation for protein synthesis, while keeping the DNA itself intact and protected.",
+          "source_name": "15.1 The Genetic Code - Biology 2e _ OpenStax.txt",
+          "chunk_index": 5,
+          "snippet": "that gives rise to the incredible variation of protein\nstructure and function.\n\nThe Central Dogma: DNA Encodes RNA; RNA Encodes Protein\nThe flow of genetic information in cells from DNA to mRNA to protein is described by the central\ndogma (Figure 15.3), which states that genes specify the sequence of mRNAs, which in turn\nspecify the sequence of amino acids making up all proteins. The decoding of o",
+          "score": 0.6920123780265862
+        },
+        {
+          "chunk_id": "chunk:14_1_historical_basis_of_modern_understanding_biology_2e_openstax:0",
+          "text": "14.1 Historical Basis of Modern Understanding\nLEARNING OBJECTIVES\nBy the end of this section, you will be able to do the following:\n•\nExplain transformation of DNA\n•\nDescribe the key experiments that helped identify that DNA is the genetic material\n•\nState and explain Chargaff’s rules\nOur current understanding of DNA began with the discovery of nucleic acids followed by the\ndevelopment of the double-helix model. In the 1860s, Friedrich Miescher (Figure 14.2), a\nphysician by profession, isolated phosphate-rich chemicals from white blood cells (leukocytes). He named these chemicals (which would eventually be known as DNA) nuclein because they were\nisolated from the nuclei of the cells.",
+          "source_name": "14.1 Historical Basis of Modern Understanding - Biology 2e _ OpenStax.txt",
+          "chunk_index": 0,
+          "snippet": "14.1 Historical Basis of Modern Understanding\nLEARNING OBJECTIVES\nBy the end of this section, you will be able to do the following:\n•\nExplain transformation of DNA\n•\nDescribe the key experiments that helped identify that DNA is the genetic material\n•\nState and explain Chargaff’s rules\nOur current understanding of DNA began with the discovery of nucleic acids followed by the\ndevelopment of the doub",
+          "score": 0.6870232496746731
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:240378c48e7fb070",
+          "head_entity_id": "ent:martha_chase",
+          "tail_entity_id": "ent:phage_dna_was_injected_into_the_cell",
+          "relation": "concluded",
+          "evidence": "Hershey and Chase concluded that it was the phage DNA that was injected into the cell and carried information to produce more phage particles, thus providing evidence that DNA was the genetic material and not proteins (Figure 14.4).",
+          "head_name": "Martha Chase",
+          "tail_name": "phage DNA was injected into the cell",
+          "score": 0.7486883645570394
+        },
+        {
+          "triple_id": "triple:2e4a67b053282ddf",
+          "head_entity_id": "ent:dna",
+          "tail_entity_id": "ent:nucleotides",
+          "relation": "consists of",
+          "evidence": "The building blocks of DNA are nucleotides.",
+          "head_name": "DNA",
+          "tail_name": "nucleotides",
+          "score": 0.6844904928100402
+        },
+        {
+          "triple_id": "triple:d921e9e7c73a9f19",
+          "head_entity_id": "ent:e._coli",
+          "tail_entity_id": "ent:heavy_isotope_of_nitrogen_(15n)",
+          "relation": "incorporates",
+          "evidence": "Meselson and Stahl were interested in understanding how DNA replicates. They grew E. coli for several generations in a medium containing a “heavy” isotope of nitrogen (15N), which gets incorporated into nitrogenous bases, and eventually into the DNA (Figure 14.13).",
+          "head_name": "E. coli",
+          "tail_name": "heavy isotope of nitrogen (15N)",
+          "score": 0.6793687538398308
+        },
+        {
+          "triple_id": "triple:0ab8fe5e588f5741",
+          "head_entity_id": "ent:dna",
+          "tail_entity_id": "ent:rna",
+          "relation": "encodes",
+          "evidence": "The flow of genetic information in cells from DNA to mRNA to protein is described by the central dogma, which states that genes specify the sequence of mRNAs, which in turn specify the sequence of amino acids making up all proteins.",
+          "head_name": "DNA",
+          "tail_name": "RNA",
+          "score": 0.6719680793941732
+        },
+        {
+          "triple_id": "triple:f8796631b9fea9a8",
+          "head_entity_id": "ent:dna",
+          "tail_entity_id": "ent:protein",
+          "relation": "is the genetic material",
+          "evidence": "Only 32P entered the bacterial cells, indicating that DNA is the genetic material.",
+          "head_name": "DNA",
+          "tail_name": "protein",
+          "score": 0.6583439909535971
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:dna",
+        "ent:protein",
+        "ent:decaying_organic_material",
+        "ent:martha_chase",
+        "ent:phage_dna_was_injected_into_the_cell",
+        "ent:nucleotides",
+        "ent:e._coli",
+        "ent:heavy_isotope_of_nitrogen_(15n)",
+        "ent:rna"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "dna",
+          "entity_id": "ent:dna",
+          "original_names": [
+            "DNA"
+          ]
+        },
+        {
+          "name": "oswald avery",
+          "entity_id": "ent:oswald_avery",
+          "original_names": [
+            "Oswald Avery"
+          ]
+        },
+        {
+          "name": "s strain",
+          "entity_id": "ent:s_strain",
+          "original_names": [
+            "S strain"
+          ]
+        },
+        {
+          "name": "dna was the transforming principle",
+          "entity_id": "ent:dna_was_the_transforming_principle",
+          "original_names": [
+            "DNA was the transforming principle"
+          ]
+        },
+        {
+          "name": "protein",
+          "entity_id": "ent:protein",
+          "original_names": [
+            "protein"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "nucleotides",
+          "entity_id": "ent:nucleotides",
+          "original_names": [
+            "nucleotides"
+          ]
+        },
+        {
+          "name": "phosphodiester bonds",
+          "entity_id": "ent:phosphodiester_bonds",
+          "original_names": [
+            "phosphodiester bonds"
+          ]
+        },
+        {
+          "name": "dna polymerase iii",
+          "entity_id": "ent:dna_polymerase_iii",
+          "original_names": [
+            "DNA polymerase III"
+          ]
+        },
+        {
+          "name": "dna polymerase",
+          "entity_id": "ent:dna_polymerase",
+          "original_names": [
+            "DNA polymerase"
+          ]
+        },
+        {
+          "name": "histones",
+          "entity_id": "ent:histones",
+          "original_names": [
+            "histones"
+          ]
+        },
+        {
+          "name": "nucleosomes",
+          "entity_id": "ent:nucleosomes",
+          "original_names": [
+            "nucleosomes"
+          ]
+        },
+        {
+          "name": "deoxyribose",
+          "entity_id": "ent:deoxyribose",
+          "original_names": [
+            "deoxyribose"
+          ]
+        },
+        {
+          "name": "two strands",
+          "entity_id": "ent:two_strands",
+          "original_names": [
+            "two strands"
+          ]
+        },
+        {
+          "name": "moves toward the positive electrode",
+          "entity_id": "ent:moves_toward_the_positive_electrode",
+          "original_names": [
+            "moves toward the positive electrode"
+          ]
+        },
+        {
+          "name": "gel electrophoresis",
+          "entity_id": "ent:gel_electrophoresis",
+          "original_names": [
+            "gel electrophoresis"
+          ]
+        },
+        {
+          "name": "dna-specific dye",
+          "entity_id": "ent:dna-specific_dye",
+          "original_names": [
+            "DNA-specific dye"
+          ]
+        },
+        {
+          "name": "double helix",
+          "entity_id": "ent:double_helix",
+          "original_names": [
+            "double helix"
+          ]
+        },
+        {
+          "name": "nitrogenous bases",
+          "entity_id": "ent:nitrogenous_bases",
+          "original_names": [
+            "nitrogenous bases"
+          ]
+        },
+        {
+          "name": "new complementary strand",
+          "entity_id": "ent:new_complementary_strand",
+          "original_names": [
+            "new complementary strand"
+          ]
+        },
+        {
+          "name": "replication",
+          "entity_id": "ent:replication",
+          "original_names": [
+            "replication"
+          ]
+        },
+        {
+          "name": "helicase",
+          "entity_id": "ent:helicase",
+          "original_names": [
+            "Helicase"
+          ]
+        },
+        {
+          "name": "rna",
+          "entity_id": "ent:rna",
+          "original_names": [
+            "RNA"
+          ]
+        },
+        {
+          "name": "genes",
+          "entity_id": "ent:genes",
+          "original_names": [
+            "genes"
+          ]
+        },
+        {
+          "name": "mitochondria",
+          "entity_id": "ent:mitochondria",
+          "original_names": [
+            "mitochondria"
+          ]
+        },
+        {
+          "name": "dna helix",
+          "entity_id": "ent:dna_helix",
+          "original_names": [
+            "DNA helix"
+          ]
+        },
+        {
+          "name": "nucleoside triphosphates",
+          "entity_id": "ent:nucleoside_triphosphates",
+          "original_names": [
+            "nucleoside triphosphates"
+          ]
+        },
+        {
+          "name": "dideoxynucleotides",
+          "entity_id": "ent:dideoxynucleotides",
+          "original_names": [
+            "dideoxynucleotides"
+          ]
+        },
+        {
+          "name": "okazaki fragments",
+          "entity_id": "ent:okazaki_fragments",
+          "original_names": [
+            "Okazaki fragments"
+          ]
+        },
+        {
+          "name": "free 3'-oh group",
+          "entity_id": "ent:free_3'-oh_group",
+          "original_names": [
+            "free 3'-OH group"
+          ]
+        },
+        {
+          "name": "leading strand",
+          "entity_id": "ent:leading_strand",
+          "original_names": [
+            "leading strand"
+          ]
+        },
+        {
+          "name": "pcna",
+          "entity_id": "ent:pcna",
+          "original_names": [
+            "PCNA"
+          ]
+        },
+        {
+          "name": "phosphodiester bond",
+          "entity_id": "ent:phosphodiester_bond",
+          "original_names": [
+            "phosphodiester bond"
+          ]
+        },
+        {
+          "name": "wrong nucleotide",
+          "entity_id": "ent:wrong_nucleotide",
+          "original_names": [
+            "wrong nucleotide"
+          ]
+        },
+        {
+          "name": "wrongly incorporated bases",
+          "entity_id": "ent:wrongly_incorporated_bases",
+          "original_names": [
+            "wrongly incorporated bases"
+          ]
+        },
+        {
+          "name": "mistakes during dna replication",
+          "entity_id": "ent:mistakes_during_dna_replication",
+          "original_names": [
+            "mistakes during DNA replication"
+          ]
+        },
+        {
+          "name": "segment of dna",
+          "entity_id": "ent:segment_of_dna",
+          "original_names": [
+            "segment of DNA"
+          ]
+        },
+        {
+          "name": "newly added base",
+          "entity_id": "ent:newly_added_base",
+          "original_names": [
+            "newly added base"
+          ]
+        },
+        {
+          "name": "ribose",
+          "entity_id": "ent:ribose",
+          "original_names": [
+            "ribose"
+          ]
+        },
+        {
+          "name": "amino acids",
+          "entity_id": "ent:amino_acids",
+          "original_names": [
+            "amino acids"
+          ]
+        },
+        {
+          "name": "promoter",
+          "entity_id": "ent:promoter",
+          "original_names": [
+            "promoter"
+          ]
+        },
+        {
+          "name": "trypanosomes",
+          "entity_id": "ent:trypanosomes",
+          "original_names": [
+            "trypanosomes"
+          ]
+        },
+        {
+          "name": "three nucleotides",
+          "entity_id": "ent:three_nucleotides",
+          "original_names": [
+            "three nucleotides"
+          ]
+        },
+        {
+          "name": "ribosomes",
+          "entity_id": "ent:ribosomes",
+          "original_names": [
+            "ribosomes"
+          ]
+        },
+        {
+          "name": "rna polymerase",
+          "entity_id": "ent:rna_polymerase",
+          "original_names": [
+            "RNA polymerase"
+          ]
+        },
+        {
+          "name": "prokaryotic rna polymerase",
+          "entity_id": "ent:prokaryotic_rna_polymerase",
+          "original_names": [
+            "Prokaryotic RNA polymerase"
+          ]
+        },
+        {
+          "name": "ribosome",
+          "entity_id": "ent:ribosome",
+          "original_names": [
+            "ribosome"
+          ]
+        },
+        {
+          "name": "decaying organic material",
+          "entity_id": "ent:decaying_organic_material",
+          "original_names": [
+            "decaying organic material"
+          ]
+        },
+        {
+          "name": "zygomycetes",
+          "entity_id": "ent:zygomycetes",
+          "original_names": [
+            "Zygomycetes"
+          ]
+        },
+        {
+          "name": "zygomycota",
+          "entity_id": "ent:zygomycota",
+          "original_names": [
+            "Zygomycota"
+          ]
+        },
+        {
+          "name": "rhizopus stolonifer",
+          "entity_id": "ent:rhizopus_stolonifer",
+          "original_names": [
+            "Rhizopus stolonifer"
+          ]
+        },
+        {
+          "name": "zygospore",
+          "entity_id": "ent:zygospore",
+          "original_names": [
+            "zygospore"
+          ]
+        },
+        {
+          "name": "insects",
+          "entity_id": "ent:insects",
+          "original_names": [
+            "insects"
+          ]
+        },
+        {
+          "name": "sporangiospores",
+          "entity_id": "ent:sporangiospores",
+          "original_names": [
+            "sporangiospores"
+          ]
+        },
+        {
+          "name": "martha chase",
+          "entity_id": "ent:martha_chase",
+          "original_names": [
+            "Martha Chase"
+          ]
+        },
+        {
+          "name": "bacteriophage",
+          "entity_id": "ent:bacteriophage",
+          "original_names": [
+            "bacteriophage"
+          ]
+        },
+        {
+          "name": "protein coat",
+          "entity_id": "ent:protein_coat",
+          "original_names": [
+            "protein coat"
+          ]
+        },
+        {
+          "name": "nucleic acid core",
+          "entity_id": "ent:nucleic_acid_core",
+          "original_names": [
+            "nucleic acid core"
+          ]
+        },
+        {
+          "name": "host bacterial cell",
+          "entity_id": "ent:host_bacterial_cell",
+          "original_names": [
+            "host bacterial cell"
+          ]
+        },
+        {
+          "name": "nucleic acids",
+          "entity_id": "ent:nucleic_acids",
+          "original_names": [
+            "nucleic acids"
+          ]
+        },
+        {
+          "name": "phage with radioactive sulfur",
+          "entity_id": "ent:phage_with_radioactive_sulfur",
+          "original_names": [
+            "phage with radioactive sulfur"
+          ]
+        },
+        {
+          "name": "phage with radioactive phosphorus",
+          "entity_id": "ent:phage_with_radioactive_phosphorus",
+          "original_names": [
+            "phage with radioactive phosphorus"
+          ]
+        },
+        {
+          "name": "phage dna was injected into the cell",
+          "entity_id": "ent:phage_dna_was_injected_into_the_cell",
+          "original_names": [
+            "phage DNA was injected into the cell"
+          ]
+        },
+        {
+          "name": "dna ligase",
+          "entity_id": "ent:dna_ligase",
+          "original_names": [
+            "DNA ligase"
+          ]
+        },
+        {
+          "name": "e. coli",
+          "entity_id": "ent:e._coli",
+          "original_names": [
+            "E. coli"
+          ]
+        },
+        {
+          "name": "heavy isotope of nitrogen (15n)",
+          "entity_id": "ent:heavy_isotope_of_nitrogen_(15n)",
+          "original_names": [
+            "heavy isotope of nitrogen (15N)"
+          ]
+        },
+        {
+          "name": "meselson and stahl",
+          "entity_id": "ent:meselson_and_stahl",
+          "original_names": [
+            "Meselson and Stahl"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:dna",
+          "evidence": "They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.",
+          "target_name": "DNA",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:8cd58dda286ddce8",
+          "source_name": "Oswald Avery",
+          "relation": "used enzymes to degrade"
+        },
+        {
+          "target_entity_id": "ent:s_strain",
+          "evidence": "They isolated the S strain from the dead mice and isolated the proteins and nucleic acids (RNA and DNA) as these were possible candidates for the molecule of heredity.",
+          "target_name": "S strain",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:6041f786affe5ecc",
+          "source_name": "Oswald Avery",
+          "relation": "isolated"
+        },
+        {
+          "target_entity_id": "ent:dna_was_the_transforming_principle",
+          "evidence": "This led them to conclude that DNA was the transforming principle.",
+          "target_name": "DNA was the transforming principle",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:eef64ca9cce30960",
+          "source_name": "Oswald Avery",
+          "relation": "concluded"
+        },
+        {
+          "target_entity_id": "ent:protein",
+          "evidence": "Only 32P entered the bacterial cells, indicating that DNA is the genetic material.",
+          "target_name": "protein",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:f8796631b9fea9a8",
+          "source_name": "DNA",
+          "relation": "is the genetic material"
+        },
+        {
+          "target_entity_id": "ent:protein",
+          "evidence": "The flow of genetic information in cells from DNA to mRNA to protein is described by the central dogma, which states that genes specify the sequence of mRNAs, which in turn specify the sequence of amino acids making up all proteins.",
+          "target_name": "protein",
+          "source_entity_id": "ent:mrna",
+          "triple_id": "triple:f05018931bdf932f",
+          "source_name": "mRNA",
+          "relation": "encodes"
+        },
+        {
+          "target_entity_id": "ent:nucleotides",
+          "evidence": "The building blocks of DNA are nucleotides.",
+          "target_name": "nucleotides",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:2e4a67b053282ddf",
+          "source_name": "DNA",
+          "relation": "consists of"
+        },
+        {
+          "target_entity_id": "ent:phosphodiester_bonds",
+          "evidence": "The nucleotides combine with each other to produce phosphodiester bonds.",
+          "target_name": "phosphodiester bonds",
+          "source_entity_id": "ent:nucleotides",
+          "triple_id": "triple:19d0f5efc05218c9",
+          "source_name": "nucleotides",
+          "relation": "combine to produce"
+        },
+        {
+          "target_entity_id": "ent:nucleotides",
+          "evidence": "DNA polymerase III starts adding nucleotides to the 3'-OH end of the primer.",
+          "target_name": "nucleotides",
+          "source_entity_id": "ent:dna_polymerase_iii",
+          "triple_id": "triple:6bcafb2d275388d8",
+          "source_name": "DNA polymerase III",
+          "relation": "adds"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What experimental evidence proved that DNA is the genetic material rather than protein?",
+    "answer": "The experiment conducted by Martha Chase and Alfred Hershey in 1952 provided confirmatory evidence that DNA was indeed the genetic material and not proteins. They used bacteriophages radiolabeled with either 35S (which labels protein) or 32P (which labels DNA). Only 32P entered the bacterial cells, indicating that DNA is the genetic material.",
+    "citations": [
+      "chunk:14_1_historical_basis_of_modern_understanding_biology_2e_openstax:10 | 14.1 Historical Basis of Modern Understanding - Biology 2e _ OpenStax.txt | The decisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that DN...",
+      "chunk:14_2_dna_structure_and_sequencing_biology_2e_openstax:0 | 14.2 DNA Structure and Sequencing - Biology 2e _ OpenStax.txt | FIGURE 14.4 In Hershey and Chase's experiments, bacteria were infected with phage radiolabeled with either 35S, which..."
+    ],
+    "reasoning": "Matched entities: dna, protein, decaying organic material. Traversed graph edges: Oswald Avery --[used enzymes to degrade]--> DNA; Oswald Avery --[isolated]--> S strain; Oswald Avery --[concluded]--> DNA was the transforming principle. Graph evidence: \"They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.\". The experiment by Hershey and Chase used bacteriophages labeled with radioactive isotopes to differentiate between protein and DNA. The fact that only the radioactive phosphorus (32P), which labels DNA, entered the bacterial cells, proved that DNA is the genetic material."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "question": "Which molecule produced by the light-dependent reactions provides the reducing power needed during the reduction stage of the Calvin cycle?",
+  "answer": "NADPH",
+  "citations": [
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:4 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules 1/8 Figure 8.18 Light re...",
+    "chunk:8_2_the_light_dependent_reactions_of_photosynthesis_biology_2e_openstax:19 | data/8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e _ OpenStax.pdf | a spectrophotometer, scientists can identify which wavelengths of light an organism can absorb. Additional methods fo..."
+  ],
+  "reasoning": "Matched entities: calvin cycle, carbohydrate molecules, light-dependent reactions. Traversed graph edges: Calvin cycle --[consumes]--> carbon dioxide; Photosynthesis --[requires]--> carbon dioxide; Calvin cycle --[produces]--> G3P. Graph evidence: \"In the stroma, in addition to CO2, two other components are present to initiate the light-independent reactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three molecules of ribulose bisphosphate (RuBP).\". NADPH is consumed during the reduction stage of the Calvin cycle."
+}

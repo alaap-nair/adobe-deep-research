@@ -1,0 +1,570 @@
+{
+  "question": "How does RNA regulate gene expression?",
+  "generated_at": "2026-05-01T07:11:48.551395+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "rna",
+        "regulate",
+        "gene",
+        "expression",
+        "rna regulate",
+        "regulate gene",
+        "gene expression",
+        "rna regulate gene",
+        "regulate gene expression"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:rna",
+          "name": "rna",
+          "matched_text": "rna",
+          "matched_alias": "rna",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:mutations_in_repair_genes",
+          "name": "mutations in repair genes",
+          "matched_text": "gene",
+          "matched_alias": "mutations in repair genes",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        },
+        {
+          "entity_id": "ent:mrna",
+          "name": "mrna",
+          "matched_text": "How does RNA regulate gene expression?",
+          "matched_alias": "mrna",
+          "score": 0.6972,
+          "match_type": "semantic"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:15_2_prokaryotic_transcription_biology_2e_openstax:14",
+          "text": "and RNA is not stable enough to maintain the\nstability of the mRNA synthesis components.\n\nInstead, the RNA polymerase acts as a stable linker between the DNA\ntemplate and the nascent RNA strands to ensure that elongation is not interrupted prematurely. Prokaryotic Termination Signals\nOnce a gene is transcribed, the prokaryotic polymerase needs to be instructed to dissociate from the DNA template\nand liberate the newly made mRNA. Depending on the gene being transcribed, there are two kinds of termination\nsignals. One is protein-based and the other is RNA-based. Rho-dependent termination is controlled by the rho (ρ)\nprotein, which tracks along behind the polymerase on the growing mRNA chain.",
+          "source_name": "15.2 Prokaryotic Transcription - Biology 2e _ OpenStax.txt",
+          "chunk_index": 14,
+          "snippet": "and RNA is not stable enough to maintain the\nstability of the mRNA synthesis components.\n\nInstead, the RNA polymerase acts as a stable linker between the DNA\ntemplate and the nascent RNA strands to ensure that elongation is not interrupted prematurely. Prokaryotic Termination Signals\nOnce a gene is transcribed, the prokaryotic polymerase needs to be instructed to dissociate from the DNA template\na",
+          "score": 0.6982177489983492
+        },
+        {
+          "chunk_id": "chunk:15_2_prokaryotic_transcription_biology_2e_openstax:15",
+          "text": "on the growing mRNA chain.\n\nNear the end of the gene, the\npolymerase encounters a run of G nucleotides on the DNA template and it stalls. As a result, the rho protein collides\nwith the polymerase. The interaction with rho releases the mRNA from the transcription bubble. Rho-independent termination is controlled by specific sequences in the DNA template strand. As the polymerase\nnears the end of the gene being transcribed, it encounters a region rich in C–G nucleotides. The mRNA folds back on\nitself, and the complementary C–G nucleotides bind together. The result is a stable hairpin that causes the\npolymerase to stall as soon as it begins to transcribe a region rich in A–T nucleotides.",
+          "source_name": "15.2 Prokaryotic Transcription - Biology 2e _ OpenStax.txt",
+          "chunk_index": 15,
+          "snippet": "on the growing mRNA chain.\n\nNear the end of the gene, the\npolymerase encounters a run of G nucleotides on the DNA template and it stalls. As a result, the rho protein collides\nwith the polymerase. The interaction with rho releases the mRNA from the transcription bubble. Rho-independent termination is controlled by specific sequences in the DNA template strand. As the polymerase\nnears the end of th",
+          "score": 0.6977297746157698
+        },
+        {
+          "chunk_id": "chunk:15_3_eukaryotic_transcription_biology_2e_openstax:13",
+          "text": "and silencers, also help to regulate the frequency with which pre-mRNA is synthesized from a gene.\n\nEnhancers and silencers affect the efficiency of transcription but are not necessary for transcription to proceed. Promoter Structures for RNA Polymerases I and III\nThe processes of bringing RNA polymerases I and III to the DNA template involve slightly less complex collections\nof transcription factors, but the general theme is the same. The conserved promoter elements for genes transcribed by polymerases I and III differ from those transcribed by\nRNA polymerase II. RNA polymerase I transcribes genes that have two GC-rich promoter sequences in the -45 to\n+20 region.",
+          "source_name": "15.3 Eukaryotic Transcription - Biology 2e _ OpenStax.txt",
+          "chunk_index": 13,
+          "snippet": "and silencers, also help to regulate the frequency with which pre-mRNA is synthesized from a gene.\n\nEnhancers and silencers affect the efficiency of transcription but are not necessary for transcription to proceed. Promoter Structures for RNA Polymerases I and III\nThe processes of bringing RNA polymerases I and III to the DNA template involve slightly less complex collections\nof transcription fact",
+          "score": 0.6968971894663725
+        },
+        {
+          "chunk_id": "chunk:15_1_the_genetic_code_biology_2e_openstax:5",
+          "text": "that gives rise to the incredible variation of protein\nstructure and function.\n\nThe Central Dogma: DNA Encodes RNA; RNA Encodes Protein\nThe flow of genetic information in cells from DNA to mRNA to protein is described by the central\ndogma (Figure 15.3), which states that genes specify the sequence of mRNAs, which in turn\nspecify the sequence of amino acids making up all proteins. The decoding of one molecule to\nanother is performed by specific proteins and RNAs. Because the information stored in DNA is so\ncentral to cellular function, it makes intuitive sense that the cell would make mRNA copies of this\ninformation for protein synthesis, while keeping the DNA itself intact and protected.",
+          "source_name": "15.1 The Genetic Code - Biology 2e _ OpenStax.txt",
+          "chunk_index": 5,
+          "snippet": "that gives rise to the incredible variation of protein\nstructure and function.\n\nThe Central Dogma: DNA Encodes RNA; RNA Encodes Protein\nThe flow of genetic information in cells from DNA to mRNA to protein is described by the central\ndogma (Figure 15.3), which states that genes specify the sequence of mRNAs, which in turn\nspecify the sequence of amino acids making up all proteins. The decoding of o",
+          "score": 0.6855122767718049
+        },
+        {
+          "chunk_id": "chunk:15_3_eukaryotic_transcription_biology_2e_openstax:7",
+          "text": "the growing polypeptide\nchain.\n\nSmall nuclear RNAs have a variety of functions, including “splicing” pre-mRNAs and regulating transcription\nfactors. A scientist characterizing a new gene can determine which polymerase transcribes it by testing whether the gene is\nexpressed in the presence of α-amanitin, an oligopeptide toxin produced by the fly agaric toadstool mushroom and\nother species of Amanita. Interestingly, the α-amanitin affects the three polymerases very differently (Table 15.1). RNA polymerase I is completely insensitive to α-amanitin, meaning that the polymerase can transcribe DNA in vitro\nin the presence of this poison. RNA polymerase III is moderately sensitive to the toxin.",
+          "source_name": "15.3 Eukaryotic Transcription - Biology 2e _ OpenStax.txt",
+          "chunk_index": 7,
+          "snippet": "the growing polypeptide\nchain.\n\nSmall nuclear RNAs have a variety of functions, including “splicing” pre-mRNAs and regulating transcription\nfactors. A scientist characterizing a new gene can determine which polymerase transcribes it by testing whether the gene is\nexpressed in the presence of α-amanitin, an oligopeptide toxin produced by the fly agaric toadstool mushroom and\nother species of Amanit",
+          "score": 0.6783838914281086
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:1c252d05061d0790",
+          "head_entity_id": "ent:transcription",
+          "tail_entity_id": "ent:messenger_rna_(mrna)",
+          "relation": "generates",
+          "evidence": "The cellular process of transcription generates messenger RNA (mRNA), a mobile molecular copy of one or more genes with an alphabet of A, C, G, and uracil (U).",
+          "head_name": "transcription",
+          "tail_name": "messenger RNA (mRNA)",
+          "score": 0.6939209926298722
+        },
+        {
+          "triple_id": "triple:f05018931bdf932f",
+          "head_entity_id": "ent:mrna",
+          "tail_entity_id": "ent:protein",
+          "relation": "encodes",
+          "evidence": "The flow of genetic information in cells from DNA to mRNA to protein is described by the central dogma, which states that genes specify the sequence of mRNAs, which in turn specify the sequence of amino acids making up all proteins.",
+          "head_name": "mRNA",
+          "tail_name": "protein",
+          "score": 0.6703351924834926
+        },
+        {
+          "triple_id": "triple:11e89c1472f0ad51",
+          "head_entity_id": "ent:ribosome",
+          "tail_entity_id": "ent:aminoacyl-trna",
+          "relation": "binds",
+          "evidence": "During translation elongation, the mRNA template provides tRNA binding specificity.",
+          "head_name": "ribosome",
+          "tail_name": "aminoacyl-tRNA",
+          "score": 0.6699558481908743
+        },
+        {
+          "triple_id": "triple:ea5b024d1cb9be9b",
+          "head_entity_id": "ent:mrna",
+          "tail_entity_id": "ent:ribosomes",
+          "relation": "is translated on",
+          "evidence": "Translation of the mRNA template on ribosomes converts nucleotide-based genetic information into a protein product.",
+          "head_name": "mRNA",
+          "tail_name": "ribosomes",
+          "score": 0.6655718653416748
+        },
+        {
+          "triple_id": "triple:6307f11b200d1439",
+          "head_entity_id": "ent:rho_protein",
+          "tail_entity_id": "ent:rho-dependent_termination",
+          "relation": "controls",
+          "evidence": "Rho-dependent termination is controlled by the rho (ρ) protein, which tracks along behind the polymerase on the growing mRNA chain.",
+          "head_name": "Rho protein",
+          "tail_name": "Rho-dependent termination",
+          "score": 0.6440517522738106
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:rna",
+        "ent:mutations_in_repair_genes",
+        "ent:mrna",
+        "ent:transcription",
+        "ent:messenger_rna_(mrna)",
+        "ent:protein",
+        "ent:ribosome",
+        "ent:aminoacyl-trna",
+        "ent:ribosomes",
+        "ent:rho_protein",
+        "ent:rho-dependent_termination"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "rna",
+          "entity_id": "ent:rna",
+          "original_names": [
+            "RNA"
+          ]
+        },
+        {
+          "name": "ribose",
+          "entity_id": "ent:ribose",
+          "original_names": [
+            "ribose"
+          ]
+        },
+        {
+          "name": "dna",
+          "entity_id": "ent:dna",
+          "original_names": [
+            "DNA"
+          ]
+        },
+        {
+          "name": "oswald avery",
+          "entity_id": "ent:oswald_avery",
+          "original_names": [
+            "Oswald Avery"
+          ]
+        },
+        {
+          "name": "protein",
+          "entity_id": "ent:protein",
+          "original_names": [
+            "protein"
+          ]
+        },
+        {
+          "name": "nucleotides",
+          "entity_id": "ent:nucleotides",
+          "original_names": [
+            "nucleotides"
+          ]
+        },
+        {
+          "name": "histones",
+          "entity_id": "ent:histones",
+          "original_names": [
+            "histones"
+          ]
+        },
+        {
+          "name": "deoxyribose",
+          "entity_id": "ent:deoxyribose",
+          "original_names": [
+            "deoxyribose"
+          ]
+        },
+        {
+          "name": "two strands",
+          "entity_id": "ent:two_strands",
+          "original_names": [
+            "two strands"
+          ]
+        },
+        {
+          "name": "moves toward the positive electrode",
+          "entity_id": "ent:moves_toward_the_positive_electrode",
+          "original_names": [
+            "moves toward the positive electrode"
+          ]
+        },
+        {
+          "name": "gel electrophoresis",
+          "entity_id": "ent:gel_electrophoresis",
+          "original_names": [
+            "gel electrophoresis"
+          ]
+        },
+        {
+          "name": "dna-specific dye",
+          "entity_id": "ent:dna-specific_dye",
+          "original_names": [
+            "DNA-specific dye"
+          ]
+        },
+        {
+          "name": "double helix",
+          "entity_id": "ent:double_helix",
+          "original_names": [
+            "double helix"
+          ]
+        },
+        {
+          "name": "nitrogenous bases",
+          "entity_id": "ent:nitrogenous_bases",
+          "original_names": [
+            "nitrogenous bases"
+          ]
+        },
+        {
+          "name": "new complementary strand",
+          "entity_id": "ent:new_complementary_strand",
+          "original_names": [
+            "new complementary strand"
+          ]
+        },
+        {
+          "name": "replication",
+          "entity_id": "ent:replication",
+          "original_names": [
+            "replication"
+          ]
+        },
+        {
+          "name": "helicase",
+          "entity_id": "ent:helicase",
+          "original_names": [
+            "Helicase"
+          ]
+        },
+        {
+          "name": "dna polymerase",
+          "entity_id": "ent:dna_polymerase",
+          "original_names": [
+            "DNA polymerase"
+          ]
+        },
+        {
+          "name": "genes",
+          "entity_id": "ent:genes",
+          "original_names": [
+            "genes"
+          ]
+        },
+        {
+          "name": "mitochondria",
+          "entity_id": "ent:mitochondria",
+          "original_names": [
+            "mitochondria"
+          ]
+        },
+        {
+          "name": "mutations in repair genes",
+          "entity_id": "ent:mutations_in_repair_genes",
+          "original_names": [
+            "mutations in repair genes"
+          ]
+        },
+        {
+          "name": "cancer",
+          "entity_id": "ent:cancer",
+          "original_names": [
+            "cancer"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "three nucleotides",
+          "entity_id": "ent:three_nucleotides",
+          "original_names": [
+            "three nucleotides"
+          ]
+        },
+        {
+          "name": "ribosomes",
+          "entity_id": "ent:ribosomes",
+          "original_names": [
+            "ribosomes"
+          ]
+        },
+        {
+          "name": "pre-rrnas",
+          "entity_id": "ent:pre-rrnas",
+          "original_names": [
+            "pre-rRNAs"
+          ]
+        },
+        {
+          "name": "rna polymerase",
+          "entity_id": "ent:rna_polymerase",
+          "original_names": [
+            "RNA polymerase"
+          ]
+        },
+        {
+          "name": "dna template strand",
+          "entity_id": "ent:dna_template_strand",
+          "original_names": [
+            "DNA template strand"
+          ]
+        },
+        {
+          "name": "prokaryotic rna polymerase",
+          "entity_id": "ent:prokaryotic_rna_polymerase",
+          "original_names": [
+            "Prokaryotic RNA polymerase"
+          ]
+        },
+        {
+          "name": "α, α, β, β', and σ subunits",
+          "entity_id": "ent:α,_α,_β,_β',_and_σ_subunits",
+          "original_names": [
+            "α, α, β, β', and σ subunits"
+          ]
+        },
+        {
+          "name": "ribosome",
+          "entity_id": "ent:ribosome",
+          "original_names": [
+            "ribosome"
+          ]
+        },
+        {
+          "name": "trna",
+          "entity_id": "ent:trna",
+          "original_names": [
+            "tRNA"
+          ]
+        },
+        {
+          "name": "aminoacyl-trna",
+          "entity_id": "ent:aminoacyl-trna",
+          "original_names": [
+            "aminoacyl-tRNA"
+          ]
+        },
+        {
+          "name": "polypeptides",
+          "entity_id": "ent:polypeptides",
+          "original_names": [
+            "polypeptides"
+          ]
+        },
+        {
+          "name": "trnas",
+          "entity_id": "ent:trnas",
+          "original_names": [
+            "tRNAs"
+          ]
+        },
+        {
+          "name": "peptide bond formation",
+          "entity_id": "ent:peptide_bond_formation",
+          "original_names": [
+            "peptide bond formation"
+          ]
+        },
+        {
+          "name": "mrna template",
+          "entity_id": "ent:mrna_template",
+          "original_names": [
+            "mRNA template"
+          ]
+        },
+        {
+          "name": "rrnas",
+          "entity_id": "ent:rrnas",
+          "original_names": [
+            "rRNAs"
+          ]
+        },
+        {
+          "name": "transcription",
+          "entity_id": "ent:transcription",
+          "original_names": [
+            "transcription"
+          ]
+        },
+        {
+          "name": "messenger rna (mrna)",
+          "entity_id": "ent:messenger_rna_(mrna)",
+          "original_names": [
+            "messenger RNA (mRNA)"
+          ]
+        },
+        {
+          "name": "amino acid",
+          "entity_id": "ent:amino_acid",
+          "original_names": [
+            "amino acid"
+          ]
+        },
+        {
+          "name": "mrna codon",
+          "entity_id": "ent:mrna_codon",
+          "original_names": [
+            "mRNA codon"
+          ]
+        },
+        {
+          "name": "three-dimensional structure",
+          "entity_id": "ent:three-dimensional_structure",
+          "original_names": [
+            "three-dimensional structure"
+          ]
+        },
+        {
+          "name": "peptidyl transferase",
+          "entity_id": "ent:peptidyl_transferase",
+          "original_names": [
+            "peptidyl transferase"
+          ]
+        },
+        {
+          "name": "rna polymerase i",
+          "entity_id": "ent:rna_polymerase_i",
+          "original_names": [
+            "RNA polymerase I"
+          ]
+        },
+        {
+          "name": "rho protein",
+          "entity_id": "ent:rho_protein",
+          "original_names": [
+            "Rho protein"
+          ]
+        },
+        {
+          "name": "rho-dependent termination",
+          "entity_id": "ent:rho-dependent_termination",
+          "original_names": [
+            "Rho-dependent termination"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:ribose",
+          "evidence": "The sugar is deoxyribose in DNA and ribose in RNA.",
+          "target_name": "ribose",
+          "source_entity_id": "ent:rna",
+          "triple_id": "triple:fa0c7644a19b9a5f",
+          "source_name": "RNA",
+          "relation": "contains"
+        },
+        {
+          "target_entity_id": "ent:rna",
+          "evidence": "The copying of DNA to RNA is relatively straightforward, with one nucleotide being added to the mRNA strand for every nucleotide read in the DNA strand.",
+          "target_name": "RNA",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:10e32d9d4a0e2a2b",
+          "source_name": "DNA",
+          "relation": "is copied to"
+        },
+        {
+          "target_entity_id": "ent:dna",
+          "evidence": "They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.",
+          "target_name": "DNA",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:8cd58dda286ddce8",
+          "source_name": "Oswald Avery",
+          "relation": "used enzymes to degrade"
+        },
+        {
+          "target_entity_id": "ent:protein",
+          "evidence": "Only 32P entered the bacterial cells, indicating that DNA is the genetic material.",
+          "target_name": "protein",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:f8796631b9fea9a8",
+          "source_name": "DNA",
+          "relation": "is the genetic material"
+        },
+        {
+          "target_entity_id": "ent:nucleotides",
+          "evidence": "The building blocks of DNA are nucleotides.",
+          "target_name": "nucleotides",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:2e4a67b053282ddf",
+          "source_name": "DNA",
+          "relation": "consists of"
+        },
+        {
+          "target_entity_id": "ent:histones",
+          "evidence": "At the most basic level, DNA is wrapped around proteins known as histones to form structures called nucleosomes.",
+          "target_name": "histones",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:15abf5f4fe8f3701",
+          "source_name": "DNA",
+          "relation": "is wrapped around"
+        },
+        {
+          "target_entity_id": "ent:deoxyribose",
+          "evidence": "The sugar is deoxyribose in DNA and ribose in RNA.",
+          "target_name": "deoxyribose",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:3aaff4625e9cdd61",
+          "source_name": "DNA",
+          "relation": "contains"
+        },
+        {
+          "target_entity_id": "ent:two_strands",
+          "evidence": "Watson and Crick proposed that DNA is made up of two strands that are twisted around each other to form a right-handed helix.",
+          "target_name": "two strands",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:0b064dbe90d18df2",
+          "source_name": "DNA",
+          "relation": "is made up of"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "How does RNA regulate gene expression?",
+    "answer": "RNA regulates gene expression through various mechanisms, including acting as a messenger RNA (mRNA) that carries genetic information from DNA to ribosomes for protein synthesis, and through small nuclear RNAs (snRNAs) that assist in splicing pre-mRNA.",
+    "citations": [
+      "chunk:15_2_prokaryotic_transcription_biology_2e_openstax:14 | 15.2 Prokaryotic Transcription - Biology 2e _ OpenStax.txt | and RNA is not stable enough to maintain the stability of the mRNA synthesis components. Instead, the RNA polymerase...",
+      "chunk:15_2_prokaryotic_transcription_biology_2e_openstax:15 | 15.2 Prokaryotic Transcription - Biology 2e _ OpenStax.txt | on the growing mRNA chain. Near the end of the gene, the polymerase encounters a run of G nucleotides on the DNA temp..."
+    ],
+    "reasoning": "Matched entities: rna, mutations in repair genes. Traversed graph edges: RNA --[contains]--> ribose; DNA --[is copied to]--> RNA; Oswald Avery --[used enzymes to degrade]--> DNA. Graph evidence: \"The sugar is deoxyribose in DNA and ribose in RNA.\". The answer is based on the mechanisms described in the retrieved chunks, where RNA acts as mRNA for protein synthesis and snRNAs assist in splicing pre-mRNA, which are key processes in gene expression regulation."
+  }
+}

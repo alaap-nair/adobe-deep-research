@@ -1,0 +1,682 @@
+{
+  "question": "What are the differences between the codons in DNA and RNA?",
+  "generated_at": "2026-05-01T07:51:36.185485+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "differences",
+        "between",
+        "codons",
+        "dna",
+        "rna",
+        "differences between",
+        "between codons",
+        "codons dna",
+        "dna rna",
+        "differences between codons",
+        "between codons dna",
+        "codons dna rna"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:codons",
+          "name": "codons",
+          "matched_text": "codons",
+          "matched_alias": "codons",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:dna",
+          "name": "dna",
+          "matched_text": "dna",
+          "matched_alias": "dna",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:rna",
+          "name": "rna",
+          "matched_text": "rna",
+          "matched_alias": "rna",
+          "score": 1.0,
+          "match_type": "keyword"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:15_1_the_genetic_code_biology_2e_openstax:7",
+          "text": "free at openstax.org\n\nFIGURE 15.3 Instructions on DNA are transcribed onto messenger RNA. Ribosomes are able to read the genetic information inscribed on a\nstrand of messenger RNA and use this information to string amino acids together into a protein. The Genetic Code Is Degenerate and Universal\nEach amino acid is defined by a three-nucleotide sequence called the triplet codon. Given the different numbers of\n“letters” in the mRNA and protein “alphabets,” scientists theorized that single amino acids must be represented by\ncombinations of nucleotides. Nucleotide doublets would not be sufficient to specify every amino acid because there\nare only 16 possible two-nucleotide combinations (42).",
+          "source_name": "15.1 The Genetic Code - Biology 2e _ OpenStax.txt",
+          "chunk_index": 7,
+          "snippet": "free at openstax.org\n\nFIGURE 15.3 Instructions on DNA are transcribed onto messenger RNA. Ribosomes are able to read the genetic information inscribed on a\nstrand of messenger RNA and use this information to string amino acids together into a protein. The Genetic Code Is Degenerate and Universal\nEach amino acid is defined by a three-nucleotide sequence called the triplet codon. Given the different",
+          "score": 0.7134866612981992,
+          "rerank_score": -0.3640037775039673
+        },
+        {
+          "chunk_id": "chunk:15_2_prokaryotic_transcription_biology_2e_openstax:5",
+          "text": "always proceeds from the\nsame DNA strand for each gene, which is called the template strand.\n\nThe mRNA product is complementary to the\ntemplate strand and is almost identical to the other DNA strand, called the nontemplate strand, or the coding\nstrand. The only nucleotide difference is that in mRNA, all of the T nucleotides are replaced with U nucleotides\n(Figure 15.7). In an RNA double helix, A can bind U via two hydrogen bonds, just as in A–T pairing in a DNA double\nhelix. 396\n15 • Genes and Proteins\nAccess for free at openstax.org",
+          "source_name": "15.2 Prokaryotic Transcription - Biology 2e _ OpenStax.txt",
+          "chunk_index": 5,
+          "snippet": "always proceeds from the\nsame DNA strand for each gene, which is called the template strand.\n\nThe mRNA product is complementary to the\ntemplate strand and is almost identical to the other DNA strand, called the nontemplate strand, or the coding\nstrand. The only nucleotide difference is that in mRNA, all of the T nucleotides are replaced with U nucleotides\n(Figure 15.7). In an RNA double helix, A c",
+          "score": 0.7350363953380732,
+          "rerank_score": -0.47059738636016846
+        },
+        {
+          "chunk_id": "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:8",
+          "text": "and recognizes one or more of the mRNA codons that define the order of amino acids in\na protein.\n\nAminoacyl-tRNAs bind to the ribosome and add the corresponding amino acid to the polypeptide chain. Therefore, tRNAs are the molecules that actually “translate” the language of RNA into the language of proteins. Of the 64 possible mRNA codons—or triplet combinations of A, U, G, and C—three specify the termination of protein\n15.5 • Ribosomes and Protein Synthesis\n407",
+          "source_name": "15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt",
+          "chunk_index": 8,
+          "snippet": "and recognizes one or more of the mRNA codons that define the order of amino acids in\na protein.\n\nAminoacyl-tRNAs bind to the ribosome and add the corresponding amino acid to the polypeptide chain. Therefore, tRNAs are the molecules that actually “translate” the language of RNA into the language of proteins. Of the 64 possible mRNA codons—or triplet combinations of A, U, G, and C—three specify the",
+          "score": 0.6749640853066164,
+          "rerank_score": -0.8024061918258667
+        },
+        {
+          "chunk_id": "chunk:15_1_the_genetic_code_biology_2e_openstax:12",
+          "text": "is encountered.\n\nThe arrangement of the coding table reveals the structure of the code. There are sixteen \"blocks\" of codons, each\nspecified by the first and second nucleotides of the codons within the block, e.g., the \"AC*\" block that corresponds\nto the amino acid threonine (Thr). Some blocks are divided into a pyrimidine half, in which the codon ends with U or\nC, and a purine half, in which the codon ends with A or G. Some amino acids get a whole block of four codons, like\nalanine (Ala), threonine (Thr) and proline (Pro). Some get the pyrimidine half of their block, like histidine (His) and\nasparagine (Asn). Others get the purine half of their block, like glutamate (Glu) and lysine (Lys).",
+          "source_name": "15.1 The Genetic Code - Biology 2e _ OpenStax.txt",
+          "chunk_index": 12,
+          "snippet": "is encountered.\n\nThe arrangement of the coding table reveals the structure of the code. There are sixteen \"blocks\" of codons, each\nspecified by the first and second nucleotides of the codons within the block, e.g., the \"AC*\" block that corresponds\nto the amino acid threonine (Thr). Some blocks are divided into a pyrimidine half, in which the codon ends with U or\nC, and a purine half, in which the ",
+          "score": 0.6966546692640317,
+          "rerank_score": -1.3194324970245361
+        },
+        {
+          "chunk_id": "chunk:15_1_the_genetic_code_biology_2e_openstax:13",
+          "text": "asparagine (Asn). Others get the purine half of their block, like glutamate (Glu) and lysine (Lys).\n\nNote that some\namino acids get a block and a half-block for a total of six codons. The specification of a single amino acid by multiple similar codons is called \"degeneracy.\" Degeneracy is believed to\nbe a cellular mechanism to reduce the negative impact of random mutations. Codons that specify the same amino\nacid typically only differ by one nucleotide. In addition, amino acids with chemically similar side chains are encoded\nby similar codons. For example, aspartate (Asp) and glutamate (Glu), which occupy the GA* block, are both\nnegatively charged.",
+          "source_name": "15.1 The Genetic Code - Biology 2e _ OpenStax.txt",
+          "chunk_index": 13,
+          "snippet": "asparagine (Asn). Others get the purine half of their block, like glutamate (Glu) and lysine (Lys).\n\nNote that some\namino acids get a block and a half-block for a total of six codons. The specification of a single amino acid by multiple similar codons is called \"degeneracy.\" Degeneracy is believed to\nbe a cellular mechanism to reduce the negative impact of random mutations. Codons that specify the",
+          "score": 0.6644760270216377,
+          "rerank_score": -2.2327773571014404
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:2e4a67b053282ddf",
+          "head_entity_id": "ent:dna",
+          "tail_entity_id": "ent:nucleotides",
+          "relation": "consists of",
+          "evidence": "The building blocks of DNA are nucleotides.",
+          "head_name": "DNA",
+          "tail_name": "nucleotides",
+          "score": 0.6885823636700661
+        },
+        {
+          "triple_id": "triple:2da1a65549eed6de",
+          "head_entity_id": "ent:aug",
+          "tail_entity_id": "ent:the_start_codon",
+          "relation": "serves as",
+          "evidence": "Another codon, AUG, also has a special function. In addition to specifying the amino acid methionine, it also serves as the start codon to initiate translation.",
+          "head_name": "AUG",
+          "tail_name": "the start codon",
+          "score": 0.6766590980233619
+        },
+        {
+          "triple_id": "triple:1c252d05061d0790",
+          "head_entity_id": "ent:transcription",
+          "tail_entity_id": "ent:messenger_rna_(mrna)",
+          "relation": "generates",
+          "evidence": "The cellular process of transcription generates messenger RNA (mRNA), a mobile molecular copy of one or more genes with an alphabet of A, C, G, and uracil (U).",
+          "head_name": "transcription",
+          "tail_name": "messenger RNA (mRNA)",
+          "score": 0.6680731932992484
+        },
+        {
+          "triple_id": "triple:3aaff4625e9cdd61",
+          "head_entity_id": "ent:dna",
+          "tail_entity_id": "ent:deoxyribose",
+          "relation": "contains",
+          "evidence": "The sugar is deoxyribose in DNA and ribose in RNA.",
+          "head_name": "DNA",
+          "tail_name": "deoxyribose",
+          "score": 0.6611931859186146
+        },
+        {
+          "triple_id": "triple:9ea18d997da987e9",
+          "head_entity_id": "ent:trna",
+          "tail_entity_id": "ent:mrna_codon",
+          "relation": "recognizes",
+          "evidence": "Each tRNA carries a specific amino acid and recognizes one or more of the mRNA codons that define the order of amino acids in a protein.",
+          "head_name": "tRNA",
+          "tail_name": "mRNA codon",
+          "score": 0.6504588437278394
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:codons",
+        "ent:dna",
+        "ent:rna",
+        "ent:nucleotides",
+        "ent:aug",
+        "ent:the_start_codon",
+        "ent:transcription",
+        "ent:messenger_rna_(mrna)",
+        "ent:deoxyribose",
+        "ent:trna",
+        "ent:mrna_codon"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "codons",
+          "entity_id": "ent:codons",
+          "original_names": [
+            "codons"
+          ]
+        },
+        {
+          "name": "amino acids",
+          "entity_id": "ent:amino_acids",
+          "original_names": [
+            "amino acids"
+          ]
+        },
+        {
+          "name": "genes",
+          "entity_id": "ent:genes",
+          "original_names": [
+            "genes"
+          ]
+        },
+        {
+          "name": "nucleotide triplets",
+          "entity_id": "ent:nucleotide_triplets",
+          "original_names": [
+            "nucleotide triplets"
+          ]
+        },
+        {
+          "name": "dna",
+          "entity_id": "ent:dna",
+          "original_names": [
+            "DNA"
+          ]
+        },
+        {
+          "name": "oswald avery",
+          "entity_id": "ent:oswald_avery",
+          "original_names": [
+            "Oswald Avery"
+          ]
+        },
+        {
+          "name": "s strain",
+          "entity_id": "ent:s_strain",
+          "original_names": [
+            "S strain"
+          ]
+        },
+        {
+          "name": "dna was the transforming principle",
+          "entity_id": "ent:dna_was_the_transforming_principle",
+          "original_names": [
+            "DNA was the transforming principle"
+          ]
+        },
+        {
+          "name": "protein",
+          "entity_id": "ent:protein",
+          "original_names": [
+            "protein"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "nucleotides",
+          "entity_id": "ent:nucleotides",
+          "original_names": [
+            "nucleotides"
+          ]
+        },
+        {
+          "name": "phosphodiester bonds",
+          "entity_id": "ent:phosphodiester_bonds",
+          "original_names": [
+            "phosphodiester bonds"
+          ]
+        },
+        {
+          "name": "dna polymerase iii",
+          "entity_id": "ent:dna_polymerase_iii",
+          "original_names": [
+            "DNA polymerase III"
+          ]
+        },
+        {
+          "name": "dna polymerase",
+          "entity_id": "ent:dna_polymerase",
+          "original_names": [
+            "DNA polymerase"
+          ]
+        },
+        {
+          "name": "histones",
+          "entity_id": "ent:histones",
+          "original_names": [
+            "histones"
+          ]
+        },
+        {
+          "name": "nucleosomes",
+          "entity_id": "ent:nucleosomes",
+          "original_names": [
+            "nucleosomes"
+          ]
+        },
+        {
+          "name": "deoxyribose",
+          "entity_id": "ent:deoxyribose",
+          "original_names": [
+            "deoxyribose"
+          ]
+        },
+        {
+          "name": "two strands",
+          "entity_id": "ent:two_strands",
+          "original_names": [
+            "two strands"
+          ]
+        },
+        {
+          "name": "moves toward the positive electrode",
+          "entity_id": "ent:moves_toward_the_positive_electrode",
+          "original_names": [
+            "moves toward the positive electrode"
+          ]
+        },
+        {
+          "name": "gel electrophoresis",
+          "entity_id": "ent:gel_electrophoresis",
+          "original_names": [
+            "gel electrophoresis"
+          ]
+        },
+        {
+          "name": "dna-specific dye",
+          "entity_id": "ent:dna-specific_dye",
+          "original_names": [
+            "DNA-specific dye"
+          ]
+        },
+        {
+          "name": "double helix",
+          "entity_id": "ent:double_helix",
+          "original_names": [
+            "double helix"
+          ]
+        },
+        {
+          "name": "nitrogenous bases",
+          "entity_id": "ent:nitrogenous_bases",
+          "original_names": [
+            "nitrogenous bases"
+          ]
+        },
+        {
+          "name": "new complementary strand",
+          "entity_id": "ent:new_complementary_strand",
+          "original_names": [
+            "new complementary strand"
+          ]
+        },
+        {
+          "name": "replication",
+          "entity_id": "ent:replication",
+          "original_names": [
+            "replication"
+          ]
+        },
+        {
+          "name": "helicase",
+          "entity_id": "ent:helicase",
+          "original_names": [
+            "Helicase"
+          ]
+        },
+        {
+          "name": "rna",
+          "entity_id": "ent:rna",
+          "original_names": [
+            "RNA"
+          ]
+        },
+        {
+          "name": "mitochondria",
+          "entity_id": "ent:mitochondria",
+          "original_names": [
+            "mitochondria"
+          ]
+        },
+        {
+          "name": "dna helix",
+          "entity_id": "ent:dna_helix",
+          "original_names": [
+            "DNA helix"
+          ]
+        },
+        {
+          "name": "nucleoside triphosphates",
+          "entity_id": "ent:nucleoside_triphosphates",
+          "original_names": [
+            "nucleoside triphosphates"
+          ]
+        },
+        {
+          "name": "dideoxynucleotides",
+          "entity_id": "ent:dideoxynucleotides",
+          "original_names": [
+            "dideoxynucleotides"
+          ]
+        },
+        {
+          "name": "okazaki fragments",
+          "entity_id": "ent:okazaki_fragments",
+          "original_names": [
+            "Okazaki fragments"
+          ]
+        },
+        {
+          "name": "free 3'-oh group",
+          "entity_id": "ent:free_3'-oh_group",
+          "original_names": [
+            "free 3'-OH group"
+          ]
+        },
+        {
+          "name": "leading strand",
+          "entity_id": "ent:leading_strand",
+          "original_names": [
+            "leading strand"
+          ]
+        },
+        {
+          "name": "pcna",
+          "entity_id": "ent:pcna",
+          "original_names": [
+            "PCNA"
+          ]
+        },
+        {
+          "name": "phosphodiester bond",
+          "entity_id": "ent:phosphodiester_bond",
+          "original_names": [
+            "phosphodiester bond"
+          ]
+        },
+        {
+          "name": "wrong nucleotide",
+          "entity_id": "ent:wrong_nucleotide",
+          "original_names": [
+            "wrong nucleotide"
+          ]
+        },
+        {
+          "name": "wrongly incorporated bases",
+          "entity_id": "ent:wrongly_incorporated_bases",
+          "original_names": [
+            "wrongly incorporated bases"
+          ]
+        },
+        {
+          "name": "mistakes during dna replication",
+          "entity_id": "ent:mistakes_during_dna_replication",
+          "original_names": [
+            "mistakes during DNA replication"
+          ]
+        },
+        {
+          "name": "segment of dna",
+          "entity_id": "ent:segment_of_dna",
+          "original_names": [
+            "segment of DNA"
+          ]
+        },
+        {
+          "name": "newly added base",
+          "entity_id": "ent:newly_added_base",
+          "original_names": [
+            "newly added base"
+          ]
+        },
+        {
+          "name": "ribose",
+          "entity_id": "ent:ribose",
+          "original_names": [
+            "ribose"
+          ]
+        },
+        {
+          "name": "promoter",
+          "entity_id": "ent:promoter",
+          "original_names": [
+            "promoter"
+          ]
+        },
+        {
+          "name": "trypanosomes",
+          "entity_id": "ent:trypanosomes",
+          "original_names": [
+            "trypanosomes"
+          ]
+        },
+        {
+          "name": "dna ligase",
+          "entity_id": "ent:dna_ligase",
+          "original_names": [
+            "DNA ligase"
+          ]
+        },
+        {
+          "name": "aug",
+          "entity_id": "ent:aug",
+          "original_names": [
+            "AUG"
+          ]
+        },
+        {
+          "name": "methionine",
+          "entity_id": "ent:methionine",
+          "original_names": [
+            "methionine"
+          ]
+        },
+        {
+          "name": "the start codon",
+          "entity_id": "ent:the_start_codon",
+          "original_names": [
+            "the start codon"
+          ]
+        },
+        {
+          "name": "transcription",
+          "entity_id": "ent:transcription",
+          "original_names": [
+            "transcription"
+          ]
+        },
+        {
+          "name": "messenger rna (mrna)",
+          "entity_id": "ent:messenger_rna_(mrna)",
+          "original_names": [
+            "messenger RNA (mRNA)"
+          ]
+        },
+        {
+          "name": "trna",
+          "entity_id": "ent:trna",
+          "original_names": [
+            "tRNA"
+          ]
+        },
+        {
+          "name": "amino acid",
+          "entity_id": "ent:amino_acid",
+          "original_names": [
+            "amino acid"
+          ]
+        },
+        {
+          "name": "ribosome",
+          "entity_id": "ent:ribosome",
+          "original_names": [
+            "ribosome"
+          ]
+        },
+        {
+          "name": "aminoacyl-trna",
+          "entity_id": "ent:aminoacyl-trna",
+          "original_names": [
+            "aminoacyl-tRNA"
+          ]
+        },
+        {
+          "name": "polypeptides",
+          "entity_id": "ent:polypeptides",
+          "original_names": [
+            "polypeptides"
+          ]
+        },
+        {
+          "name": "trnas",
+          "entity_id": "ent:trnas",
+          "original_names": [
+            "tRNAs"
+          ]
+        },
+        {
+          "name": "peptide bond formation",
+          "entity_id": "ent:peptide_bond_formation",
+          "original_names": [
+            "peptide bond formation"
+          ]
+        },
+        {
+          "name": "mrna template",
+          "entity_id": "ent:mrna_template",
+          "original_names": [
+            "mRNA template"
+          ]
+        },
+        {
+          "name": "rrnas",
+          "entity_id": "ent:rrnas",
+          "original_names": [
+            "rRNAs"
+          ]
+        },
+        {
+          "name": "mrna codon",
+          "entity_id": "ent:mrna_codon",
+          "original_names": [
+            "mRNA codon"
+          ]
+        },
+        {
+          "name": "anticodon",
+          "entity_id": "ent:anticodon",
+          "original_names": [
+            "anticodon"
+          ]
+        },
+        {
+          "name": "three-dimensional structure",
+          "entity_id": "ent:three-dimensional_structure",
+          "original_names": [
+            "three-dimensional structure"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:amino_acids",
+          "evidence": "Each amino acid is defined by a three-nucleotide sequence called the triplet codon.",
+          "target_name": "amino acids",
+          "source_entity_id": "ent:codons",
+          "triple_id": "triple:0053bca50a884309",
+          "source_name": "codons",
+          "relation": "define"
+        },
+        {
+          "target_entity_id": "ent:amino_acids",
+          "evidence": "Genes specify the sequences of amino acids, which are the building blocks of proteins.",
+          "target_name": "amino acids",
+          "source_entity_id": "ent:genes",
+          "triple_id": "triple:3ef314a0a3e8fb1d",
+          "source_name": "genes",
+          "relation": "specify the sequences of"
+        },
+        {
+          "target_entity_id": "ent:nucleotide_triplets",
+          "evidence": "Scientists theorized that amino acids were encoded by nucleotide triplets and that the genetic code was “degenerate.”",
+          "target_name": "nucleotide triplets",
+          "source_entity_id": "ent:codons",
+          "triple_id": "triple:e31d7d28f0bcd0aa",
+          "source_name": "codons",
+          "relation": "are encoded by"
+        },
+        {
+          "target_entity_id": "ent:dna",
+          "evidence": "They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.",
+          "target_name": "DNA",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:8cd58dda286ddce8",
+          "source_name": "Oswald Avery",
+          "relation": "used enzymes to degrade"
+        },
+        {
+          "target_entity_id": "ent:s_strain",
+          "evidence": "They isolated the S strain from the dead mice and isolated the proteins and nucleic acids (RNA and DNA) as these were possible candidates for the molecule of heredity.",
+          "target_name": "S strain",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:6041f786affe5ecc",
+          "source_name": "Oswald Avery",
+          "relation": "isolated"
+        },
+        {
+          "target_entity_id": "ent:dna_was_the_transforming_principle",
+          "evidence": "This led them to conclude that DNA was the transforming principle.",
+          "target_name": "DNA was the transforming principle",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:eef64ca9cce30960",
+          "source_name": "Oswald Avery",
+          "relation": "concluded"
+        },
+        {
+          "target_entity_id": "ent:protein",
+          "evidence": "Only 32P entered the bacterial cells, indicating that DNA is the genetic material.",
+          "target_name": "protein",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:f8796631b9fea9a8",
+          "source_name": "DNA",
+          "relation": "is the genetic material"
+        },
+        {
+          "target_entity_id": "ent:protein",
+          "evidence": "The flow of genetic information in cells from DNA to mRNA to protein is described by the central dogma, which states that genes specify the sequence of mRNAs, which in turn specify the sequence of amino acids making up all proteins.",
+          "target_name": "protein",
+          "source_entity_id": "ent:mrna",
+          "triple_id": "triple:f05018931bdf932f",
+          "source_name": "mRNA",
+          "relation": "encodes"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What are the differences between the codons in DNA and RNA?",
+    "answer": "In mRNA, all of the T nucleotides are replaced with U nucleotides.",
+    "citations": [
+      "chunk:15_2_prokaryotic_transcription_biology_2e_openstax:5 | 15.2 Prokaryotic Transcription - Biology 2e _ OpenStax.txt | always proceeds from the same DNA strand for each gene, which is called the template strand. The mRNA product is comp..."
+    ],
+    "reasoning": "Matched entities: codons, dna, rna. Traversed graph edges: codons --[define]--> amino acids; genes --[specify the sequences of]--> amino acids; codons --[are encoded by]--> nucleotide triplets. Graph evidence: \"Each amino acid is defined by a three-nucleotide sequence called the triplet codon.\". The context explicitly states that in mRNA, all T nucleotides are replaced with U nucleotides, which is a direct difference between DNA and RNA codons."
+  }
+}

@@ -1,0 +1,721 @@
+{
+  "question": "What is a genome?",
+  "generated_at": "2026-05-01T06:43:05.655042+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "genome"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:neanderthal_genome",
+          "name": "neanderthal genome",
+          "matched_text": "genome",
+          "matched_alias": "neanderthal genome",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        },
+        {
+          "entity_id": "ent:dna",
+          "name": "dna",
+          "matched_text": "What is a genome?",
+          "matched_alias": "dna",
+          "score": 0.7006,
+          "match_type": "semantic"
+        },
+        {
+          "entity_id": "ent:genetic_code",
+          "name": "genetic code",
+          "matched_text": "What is a genome?",
+          "matched_alias": "genetic code",
+          "score": 0.6675,
+          "match_type": "semantic"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:15_1_the_genetic_code_biology_2e_openstax:0",
+          "text": "INTRODUCTION\nCHAPTER 15\nGenes and Proteins\n15.1 The Genetic Code\n15.2 Prokaryotic Transcription\n15.3 Eukaryotic Transcription\n15.4 RNA Processing in Eukaryotes\n15.5 Ribosomes and Protein Synthesis\nSince the rediscovery of Mendel’s work in 1900, the definition of the gene has\nprogressed from an abstract unit of heredity to a tangible molecular entity capable of replication,\nexpression, and mutation (Figure 15.1). Genes are composed of DNA and are linearly arranged on\nchromosomes. Genes specify the sequences of amino acids, which are the building blocks of\nproteins. In turn, proteins are responsible for orchestrating nearly every function of the cell.",
+          "source_name": "15.1 The Genetic Code - Biology 2e _ OpenStax.txt",
+          "chunk_index": 0,
+          "snippet": "INTRODUCTION\nCHAPTER 15\nGenes and Proteins\n15.1 The Genetic Code\n15.2 Prokaryotic Transcription\n15.3 Eukaryotic Transcription\n15.4 RNA Processing in Eukaryotes\n15.5 Ribosomes and Protein Synthesis\nSince the rediscovery of Mendel’s work in 1900, the definition of the gene has\nprogressed from an abstract unit of heredity to a tangible molecular entity capable of replication,\nexpression, and mutation",
+          "score": 0.6737028092155151
+        },
+        {
+          "chunk_id": "chunk:15_3_eukaryotic_transcription_biology_2e_openstax:20",
+          "text": "elongation and termination.\n\nAlthough the enzymatic process of elongation is essentially the same in eukaryotes and prokaryotes, the DNA\ntemplate is considerably more complex. When eukaryotic cells are not dividing, their genes exist as a diffuse mass\nof DNA and proteins called chromatin. The DNA is tightly packaged around charged histone proteins at repeated\nintervals. These DNA–histone complexes, collectively called nucleosomes, are regularly spaced and include 146\nnucleotides of DNA wound around eight histones like thread around a spool. For polynucleotide synthesis to occur, the transcription machinery needs to move histones out of the way every time\nit encounters a nucleosome.",
+          "source_name": "15.3 Eukaryotic Transcription - Biology 2e _ OpenStax.txt",
+          "chunk_index": 20,
+          "snippet": "elongation and termination.\n\nAlthough the enzymatic process of elongation is essentially the same in eukaryotes and prokaryotes, the DNA\ntemplate is considerably more complex. When eukaryotic cells are not dividing, their genes exist as a diffuse mass\nof DNA and proteins called chromatin. The DNA is tightly packaged around charged histone proteins at repeated\nintervals. These DNA–histone complexes",
+          "score": 0.6609401071802046
+        },
+        {
+          "chunk_id": "chunk:14_2_dna_structure_and_sequencing_biology_2e_openstax:26",
+          "text": "inside the nucleus (Figure 14.11).\n\nAt the most basic level, DNA is wrapped around proteins known as\nhistones to form structures called nucleosomes. The histones are evolutionarily conserved proteins that are rich in\nbasic amino acids and form an octamer composed of two molecules of each of four different histones. Their\ncomposition and properties are important to understanding gene expression, and were partially uncovered based on\nresearch by Marie M. Daly and Alfred E. Mirsky in the early 1950s. The DNA (remember, it is negatively charged\nbecause of the phosphate groups) is wrapped tightly around the histone core. This nucleosome is linked to the next\none with the help of a linker DNA.",
+          "source_name": "14.2 DNA Structure and Sequencing - Biology 2e _ OpenStax.txt",
+          "chunk_index": 26,
+          "snippet": "inside the nucleus (Figure 14.11).\n\nAt the most basic level, DNA is wrapped around proteins known as\nhistones to form structures called nucleosomes. The histones are evolutionarily conserved proteins that are rich in\nbasic amino acids and form an octamer composed of two molecules of each of four different histones. Their\ncomposition and properties are important to understanding gene expression, an",
+          "score": 0.6497470057078599
+        },
+        {
+          "chunk_id": "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:7",
+          "text": "strand, DNA is synthesized in short stretches, each of which is initiated by a\nseparate primer.\n\nWhen the replication fork reaches the end of the linear chromosome, there is no way to replace the\nprimer on the 5’ end of the lagging strand. The DNA at the ends of the chromosome thus remains unpaired, and over\ntime these ends, called telomeres, may get progressively shorter as cells continue to divide. Telomeres comprise repetitive sequences that code for no particular gene. In humans, a six-base-pair sequence,\nTTAGGG, is repeated 100 to 1000 times in the telomere regions. In a way, these telomeres protect the genes from\ngetting deleted as cells continue to divide.",
+          "source_name": "14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 7,
+          "snippet": "strand, DNA is synthesized in short stretches, each of which is initiated by a\nseparate primer.\n\nWhen the replication fork reaches the end of the linear chromosome, there is no way to replace the\nprimer on the 5’ end of the lagging strand. The DNA at the ends of the chromosome thus remains unpaired, and over\ntime these ends, called telomeres, may get progressively shorter as cells continue to divi",
+          "score": 0.6466647983783498
+        },
+        {
+          "chunk_id": "chunk:14_2_dna_structure_and_sequencing_biology_2e_openstax:24",
+          "text": "371\n\nsingle, circular chromosome that is found in an area of the cytoplasm called the nucleoid region. VISUAL CONNECTION\nFIGURE 14.10 A eukaryote contains a well-defined nucleus, whereas in prokaryotes, the chromosome lies in the cytoplasm in an area\ncalled the nucleoid. In eukaryotic cells, DNA and RNA synthesis occur in a separate compartment from protein synthesis. In prokaryotic\ncells, both processes occur together. What advantages might there be to separating the processes? What\nadvantages might there be to having them occur together? The size of the genome in one of the most well-studied prokaryotes, E.coli, is 4.6 million base pairs (approximately\n1.1 mm, if cut and stretched out).",
+          "source_name": "14.2 DNA Structure and Sequencing - Biology 2e _ OpenStax.txt",
+          "chunk_index": 24,
+          "snippet": "371\n\nsingle, circular chromosome that is found in an area of the cytoplasm called the nucleoid region. VISUAL CONNECTION\nFIGURE 14.10 A eukaryote contains a well-defined nucleus, whereas in prokaryotes, the chromosome lies in the cytoplasm in an area\ncalled the nucleoid. In eukaryotic cells, DNA and RNA synthesis occur in a separate compartment from protein synthesis. In prokaryotic\ncells, both pr",
+          "score": 0.6380198975656516
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:e8c3f9710a352d28",
+          "head_entity_id": "ent:genes",
+          "tail_entity_id": "ent:dna",
+          "relation": "are composed of",
+          "evidence": "Genes are composed of DNA and are linearly arranged on chromosomes.",
+          "head_name": "genes",
+          "tail_name": "DNA",
+          "score": 0.6722338391936205
+        },
+        {
+          "triple_id": "triple:2e4a67b053282ddf",
+          "head_entity_id": "ent:dna",
+          "tail_entity_id": "ent:nucleotides",
+          "relation": "consists of",
+          "evidence": "The building blocks of DNA are nucleotides.",
+          "head_name": "DNA",
+          "tail_name": "nucleotides",
+          "score": 0.6610189540712099
+        },
+        {
+          "triple_id": "triple:e0d0d6310fd8b66c",
+          "head_entity_id": "ent:pre-mrna",
+          "tail_entity_id": "ent:exons",
+          "relation": "contains",
+          "evidence": "Eukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they are expressed).",
+          "head_name": "pre-mRNA",
+          "tail_name": "exons",
+          "score": 0.638449421324068
+        },
+        {
+          "triple_id": "triple:0ab8fe5e588f5741",
+          "head_entity_id": "ent:dna",
+          "tail_entity_id": "ent:rna",
+          "relation": "encodes",
+          "evidence": "The flow of genetic information in cells from DNA to mRNA to protein is described by the central dogma, which states that genes specify the sequence of mRNAs, which in turn specify the sequence of amino acids making up all proteins.",
+          "head_name": "DNA",
+          "tail_name": "RNA",
+          "score": 0.637988628324355
+        },
+        {
+          "triple_id": "triple:fb97f3248c4f8d0d",
+          "head_entity_id": "ent:pre-mrna",
+          "tail_entity_id": "ent:introns",
+          "relation": "contains",
+          "evidence": "Eukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they are expressed), and intervening sequences called introns (int-ron denotes their intervening role).",
+          "head_name": "pre-mRNA",
+          "tail_name": "introns",
+          "score": 0.6331458898251782
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:neanderthal_genome",
+        "ent:dna",
+        "ent:genetic_code",
+        "ent:genes",
+        "ent:nucleotides",
+        "ent:pre-mrna",
+        "ent:exons",
+        "ent:rna",
+        "ent:introns"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "neanderthal genome",
+          "entity_id": "ent:neanderthal_genome",
+          "original_names": [
+            "Neanderthal genome"
+          ]
+        },
+        {
+          "name": "2 to 3 percent greater similarity to people living outside africa",
+          "entity_id": "ent:2_to_3_percent_greater_similarity_to_people_living_outside_africa",
+          "original_names": [
+            "2 to 3 percent greater similarity to people living outside Africa"
+          ]
+        },
+        {
+          "name": "dna segments similar to contemporary human sequences",
+          "entity_id": "ent:dna_segments_similar_to_contemporary_human_sequences",
+          "original_names": [
+            "DNA segments similar to contemporary human sequences"
+          ]
+        },
+        {
+          "name": "richard e. green et al.",
+          "entity_id": "ent:richard_e._green_et_al.",
+          "original_names": [
+            "Richard E. Green et al."
+          ]
+        },
+        {
+          "name": "4 billion base pairs",
+          "entity_id": "ent:4_billion_base_pairs",
+          "original_names": [
+            "4 billion base pairs"
+          ]
+        },
+        {
+          "name": "genes involved in cranial structure, metabolism, skin morphology, and cognitive development",
+          "entity_id": "ent:genes_involved_in_cranial_structure,_metabolism,_skin_morphology,_and_cognitive_development",
+          "original_names": [
+            "genes involved in cranial structure, metabolism, skin morphology, and cognitive development"
+          ]
+        },
+        {
+          "name": "people from papua new guinea",
+          "entity_id": "ent:people_from_papua_new_guinea",
+          "original_names": [
+            "people from Papua New Guinea"
+          ]
+        },
+        {
+          "name": "dna",
+          "entity_id": "ent:dna",
+          "original_names": [
+            "DNA"
+          ]
+        },
+        {
+          "name": "oswald avery",
+          "entity_id": "ent:oswald_avery",
+          "original_names": [
+            "Oswald Avery"
+          ]
+        },
+        {
+          "name": "s strain",
+          "entity_id": "ent:s_strain",
+          "original_names": [
+            "S strain"
+          ]
+        },
+        {
+          "name": "dna was the transforming principle",
+          "entity_id": "ent:dna_was_the_transforming_principle",
+          "original_names": [
+            "DNA was the transforming principle"
+          ]
+        },
+        {
+          "name": "protein",
+          "entity_id": "ent:protein",
+          "original_names": [
+            "protein"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "nucleotides",
+          "entity_id": "ent:nucleotides",
+          "original_names": [
+            "nucleotides"
+          ]
+        },
+        {
+          "name": "phosphodiester bonds",
+          "entity_id": "ent:phosphodiester_bonds",
+          "original_names": [
+            "phosphodiester bonds"
+          ]
+        },
+        {
+          "name": "dna polymerase iii",
+          "entity_id": "ent:dna_polymerase_iii",
+          "original_names": [
+            "DNA polymerase III"
+          ]
+        },
+        {
+          "name": "dna polymerase",
+          "entity_id": "ent:dna_polymerase",
+          "original_names": [
+            "DNA polymerase"
+          ]
+        },
+        {
+          "name": "histones",
+          "entity_id": "ent:histones",
+          "original_names": [
+            "histones"
+          ]
+        },
+        {
+          "name": "nucleosomes",
+          "entity_id": "ent:nucleosomes",
+          "original_names": [
+            "nucleosomes"
+          ]
+        },
+        {
+          "name": "deoxyribose",
+          "entity_id": "ent:deoxyribose",
+          "original_names": [
+            "deoxyribose"
+          ]
+        },
+        {
+          "name": "two strands",
+          "entity_id": "ent:two_strands",
+          "original_names": [
+            "two strands"
+          ]
+        },
+        {
+          "name": "moves toward the positive electrode",
+          "entity_id": "ent:moves_toward_the_positive_electrode",
+          "original_names": [
+            "moves toward the positive electrode"
+          ]
+        },
+        {
+          "name": "gel electrophoresis",
+          "entity_id": "ent:gel_electrophoresis",
+          "original_names": [
+            "gel electrophoresis"
+          ]
+        },
+        {
+          "name": "dna-specific dye",
+          "entity_id": "ent:dna-specific_dye",
+          "original_names": [
+            "DNA-specific dye"
+          ]
+        },
+        {
+          "name": "double helix",
+          "entity_id": "ent:double_helix",
+          "original_names": [
+            "double helix"
+          ]
+        },
+        {
+          "name": "nitrogenous bases",
+          "entity_id": "ent:nitrogenous_bases",
+          "original_names": [
+            "nitrogenous bases"
+          ]
+        },
+        {
+          "name": "new complementary strand",
+          "entity_id": "ent:new_complementary_strand",
+          "original_names": [
+            "new complementary strand"
+          ]
+        },
+        {
+          "name": "replication",
+          "entity_id": "ent:replication",
+          "original_names": [
+            "replication"
+          ]
+        },
+        {
+          "name": "helicase",
+          "entity_id": "ent:helicase",
+          "original_names": [
+            "Helicase"
+          ]
+        },
+        {
+          "name": "rna",
+          "entity_id": "ent:rna",
+          "original_names": [
+            "RNA"
+          ]
+        },
+        {
+          "name": "genes",
+          "entity_id": "ent:genes",
+          "original_names": [
+            "genes"
+          ]
+        },
+        {
+          "name": "mitochondria",
+          "entity_id": "ent:mitochondria",
+          "original_names": [
+            "mitochondria"
+          ]
+        },
+        {
+          "name": "dna helix",
+          "entity_id": "ent:dna_helix",
+          "original_names": [
+            "DNA helix"
+          ]
+        },
+        {
+          "name": "nucleoside triphosphates",
+          "entity_id": "ent:nucleoside_triphosphates",
+          "original_names": [
+            "nucleoside triphosphates"
+          ]
+        },
+        {
+          "name": "dideoxynucleotides",
+          "entity_id": "ent:dideoxynucleotides",
+          "original_names": [
+            "dideoxynucleotides"
+          ]
+        },
+        {
+          "name": "okazaki fragments",
+          "entity_id": "ent:okazaki_fragments",
+          "original_names": [
+            "Okazaki fragments"
+          ]
+        },
+        {
+          "name": "free 3'-oh group",
+          "entity_id": "ent:free_3'-oh_group",
+          "original_names": [
+            "free 3'-OH group"
+          ]
+        },
+        {
+          "name": "leading strand",
+          "entity_id": "ent:leading_strand",
+          "original_names": [
+            "leading strand"
+          ]
+        },
+        {
+          "name": "pcna",
+          "entity_id": "ent:pcna",
+          "original_names": [
+            "PCNA"
+          ]
+        },
+        {
+          "name": "phosphodiester bond",
+          "entity_id": "ent:phosphodiester_bond",
+          "original_names": [
+            "phosphodiester bond"
+          ]
+        },
+        {
+          "name": "wrong nucleotide",
+          "entity_id": "ent:wrong_nucleotide",
+          "original_names": [
+            "wrong nucleotide"
+          ]
+        },
+        {
+          "name": "wrongly incorporated bases",
+          "entity_id": "ent:wrongly_incorporated_bases",
+          "original_names": [
+            "wrongly incorporated bases"
+          ]
+        },
+        {
+          "name": "mistakes during dna replication",
+          "entity_id": "ent:mistakes_during_dna_replication",
+          "original_names": [
+            "mistakes during DNA replication"
+          ]
+        },
+        {
+          "name": "segment of dna",
+          "entity_id": "ent:segment_of_dna",
+          "original_names": [
+            "segment of DNA"
+          ]
+        },
+        {
+          "name": "newly added base",
+          "entity_id": "ent:newly_added_base",
+          "original_names": [
+            "newly added base"
+          ]
+        },
+        {
+          "name": "ribose",
+          "entity_id": "ent:ribose",
+          "original_names": [
+            "ribose"
+          ]
+        },
+        {
+          "name": "amino acids",
+          "entity_id": "ent:amino_acids",
+          "original_names": [
+            "amino acids"
+          ]
+        },
+        {
+          "name": "promoter",
+          "entity_id": "ent:promoter",
+          "original_names": [
+            "promoter"
+          ]
+        },
+        {
+          "name": "trypanosomes",
+          "entity_id": "ent:trypanosomes",
+          "original_names": [
+            "trypanosomes"
+          ]
+        },
+        {
+          "name": "genetic code",
+          "entity_id": "ent:genetic_code",
+          "original_names": [
+            "genetic code"
+          ]
+        },
+        {
+          "name": "all species",
+          "entity_id": "ent:all_species",
+          "original_names": [
+            "all species"
+          ]
+        },
+        {
+          "name": "codons",
+          "entity_id": "ent:codons",
+          "original_names": [
+            "codons"
+          ]
+        },
+        {
+          "name": "σ subunit",
+          "entity_id": "ent:σ_subunit",
+          "original_names": [
+            "σ subunit"
+          ]
+        },
+        {
+          "name": "rna polymerase ii",
+          "entity_id": "ent:rna_polymerase_ii",
+          "original_names": [
+            "RNA polymerase II"
+          ]
+        },
+        {
+          "name": "transcription factors",
+          "entity_id": "ent:transcription_factors",
+          "original_names": [
+            "Transcription factors"
+          ]
+        },
+        {
+          "name": "dna ligase",
+          "entity_id": "ent:dna_ligase",
+          "original_names": [
+            "DNA ligase"
+          ]
+        },
+        {
+          "name": "pre-mrna",
+          "entity_id": "ent:pre-mrna",
+          "original_names": [
+            "pre-mRNA"
+          ]
+        },
+        {
+          "name": "rna processing",
+          "entity_id": "ent:rna_processing",
+          "original_names": [
+            "RNA processing"
+          ]
+        },
+        {
+          "name": "eukaryotic pre-mrna",
+          "entity_id": "ent:eukaryotic_pre-mrna",
+          "original_names": [
+            "eukaryotic pre-mRNA"
+          ]
+        },
+        {
+          "name": "rna editing",
+          "entity_id": "ent:rna_editing",
+          "original_names": [
+            "RNA editing"
+          ]
+        },
+        {
+          "name": "guide rnas",
+          "entity_id": "ent:guide_rnas",
+          "original_names": [
+            "guide RNAs"
+          ]
+        },
+        {
+          "name": "mitochondrial dna",
+          "entity_id": "ent:mitochondrial_dna",
+          "original_names": [
+            "mitochondrial DNA"
+          ]
+        },
+        {
+          "name": "rna-stabilizing proteins",
+          "entity_id": "ent:rna-stabilizing_proteins",
+          "original_names": [
+            "RNA-stabilizing proteins"
+          ]
+        },
+        {
+          "name": "intron removal",
+          "entity_id": "ent:intron_removal",
+          "original_names": [
+            "intron removal"
+          ]
+        },
+        {
+          "name": "3' poly-a tail addition",
+          "entity_id": "ent:3'_poly-a_tail_addition",
+          "original_names": [
+            "3' Poly-A Tail addition"
+          ]
+        },
+        {
+          "name": "exons",
+          "entity_id": "ent:exons",
+          "original_names": [
+            "exons"
+          ]
+        },
+        {
+          "name": "5' capping",
+          "entity_id": "ent:5'_capping",
+          "original_names": [
+            "5' capping"
+          ]
+        },
+        {
+          "name": "introns",
+          "entity_id": "ent:introns",
+          "original_names": [
+            "introns"
+          ]
+        },
+        {
+          "name": "splicing",
+          "entity_id": "ent:splicing",
+          "original_names": [
+            "splicing"
+          ]
+        },
+        {
+          "name": "spliceosomes",
+          "entity_id": "ent:spliceosomes",
+          "original_names": [
+            "spliceosomes"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:2_to_3_percent_greater_similarity_to_people_living_outside_africa",
+          "evidence": "After comparing the sequences, the researchers found that the Neanderthal genome had 2 to 3 percent greater similarity to people living outside Africa than to people in Africa.",
+          "target_name": "2 to 3 percent greater similarity to people living outside Africa",
+          "source_entity_id": "ent:neanderthal_genome",
+          "triple_id": "triple:24723e396dbaf13a",
+          "source_name": "Neanderthal genome",
+          "relation": "has"
+        },
+        {
+          "target_entity_id": "ent:dna_segments_similar_to_contemporary_human_sequences",
+          "evidence": "Green and his colleagues also discovered DNA segments among people in Europe and Asia that are more similar to Neanderthal sequences than to other contemporary human sequences.",
+          "target_name": "DNA segments similar to contemporary human sequences",
+          "source_entity_id": "ent:neanderthal_genome",
+          "triple_id": "triple:defdee755c2808d6",
+          "source_name": "Neanderthal genome",
+          "relation": "contains"
+        },
+        {
+          "target_entity_id": "ent:richard_e._green_et_al.",
+          "evidence": "The first draft sequence of the Neanderthal genome was recently published by Richard E. Green et al. in 2010.",
+          "target_name": "Richard E. Green et al.",
+          "source_entity_id": "ent:neanderthal_genome",
+          "triple_id": "triple:d54f219b7e080573",
+          "source_name": "Neanderthal genome",
+          "relation": "was sequenced by"
+        },
+        {
+          "target_entity_id": "ent:4_billion_base_pairs",
+          "evidence": "In their study, the scientists were able to sequence some four billion base pairs.",
+          "target_name": "4 billion base pairs",
+          "source_entity_id": "ent:neanderthal_genome",
+          "triple_id": "triple:7afb753e8c56472c",
+          "source_name": "Neanderthal genome",
+          "relation": "has"
+        },
+        {
+          "target_entity_id": "ent:genes_involved_in_cranial_structure,_metabolism,_skin_morphology,_and_cognitive_development",
+          "evidence": "Several genes seem to have undergone changes from Neanderthals during the evolution of present-day humans.",
+          "target_name": "genes involved in cranial structure, metabolism, skin morphology, and cognitive development",
+          "source_entity_id": "ent:neanderthal_genome",
+          "triple_id": "triple:a4b1934e872c9a42",
+          "source_name": "Neanderthal genome",
+          "relation": "contains"
+        },
+        {
+          "target_entity_id": "ent:people_from_papua_new_guinea",
+          "evidence": "Neanderthals are as closely related to people from Papua New Guinea as to those from China or France.",
+          "target_name": "people from Papua New Guinea",
+          "source_entity_id": "ent:neanderthal_genome",
+          "triple_id": "triple:c57a6b13400f5cc2",
+          "source_name": "Neanderthal genome",
+          "relation": "is closely related to"
+        },
+        {
+          "target_entity_id": "ent:dna",
+          "evidence": "They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.",
+          "target_name": "DNA",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:8cd58dda286ddce8",
+          "source_name": "Oswald Avery",
+          "relation": "used enzymes to degrade"
+        },
+        {
+          "target_entity_id": "ent:s_strain",
+          "evidence": "They isolated the S strain from the dead mice and isolated the proteins and nucleic acids (RNA and DNA) as these were possible candidates for the molecule of heredity.",
+          "target_name": "S strain",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:6041f786affe5ecc",
+          "source_name": "Oswald Avery",
+          "relation": "isolated"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What is a genome?",
+    "answer": "I don't know based on the provided context.",
+    "citations": [
+      "chunk:15_1_the_genetic_code_biology_2e_openstax:0 | 15.1 The Genetic Code - Biology 2e _ OpenStax.txt | INTRODUCTION CHAPTER 15 Genes and Proteins 15.1 The Genetic Code 15.2 Prokaryotic Transcription 15.3 Eukaryotic Trans...",
+      "chunk:15_3_eukaryotic_transcription_biology_2e_openstax:20 | 15.3 Eukaryotic Transcription - Biology 2e _ OpenStax.txt | elongation and termination. Although the enzymatic process of elongation is essentially the same in eukaryotes and pr..."
+    ],
+    "reasoning": "Matched entities: neanderthal genome. Traversed graph edges: Neanderthal genome --[has]--> 2 to 3 percent greater similarity to people living outside Africa; Neanderthal genome --[contains]--> DNA segments similar to contemporary human sequences; Neanderthal genome --[was sequenced by]--> Richard E. Green et al.. Graph evidence: \"After comparing the sequences, the researchers found that the Neanderthal genome had 2 to 3 percent greater similarity to people living outside Africa than to people in Africa.\". The provided context does not contain any information that directly defines what a genome is."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "question": "What carbon-containing molecule produced by plants via the Calvin cycle becomes the energy source for symbiotic mycorrhizal fungi?",
+  "answer": "carbohydrates",
+  "citations": [
+    "chunk:24_2_classifications_of_fungi_biology_2e_openstax:31 | data/24.2 Classifications of Fungi - Biology 2e _ OpenStax.pdf | indicate that trees and their root symbionts share a long evolutionary history. It appears that nearly all members of...",
+    "triple:b79d2ec5117c2f69 | plants --[supply products of photosynthesis]--> fungi"
+  ],
+  "reasoning": "Matched entities: fungi, plants, 5-carbon sugar. Traversed graph edges: Chytridiomycota --[belongs to]--> fungi; Chytrids --[are]--> Chytridiomycota; Ascomycota --[belongs to]--> fungi. Graph evidence: \"The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).\". The context indicates that plants supply carbohydrates to symbiotic mycorrhizal fungi. Carbohydrates are carbon-containing molecules produced by plants via the Calvin cycle."
+}

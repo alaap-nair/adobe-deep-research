@@ -1,0 +1,10 @@
+{
+  "question": "What is the role of tRNA in translation?",
+  "answer": "tRNAs serve as the “adaptor molecules” between the mRNA template and the growing polypeptide chain. They recognize one or more of the mRNA codons that define the order of amino acids in a protein and add the corresponding amino acid to the polypeptide chain.",
+  "citations": [
+    "chunk:15_3_eukaryotic_transcription_biology_2e_openstax:6 | 15.3 Eukaryotic Transcription - Biology 2e _ OpenStax.txt | extensive processing after transcription but before translation. For clarity, this module’s discussion of transcripti...",
+    "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:8 | 15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt | and recognizes one or more of the mRNA codons that define the order of amino acids in a protein. Aminoacyl-tRNAs bind...",
+    "triple:9ea18d997da987e9 | tRNA --[recognizes]--> mRNA codon"
+  ],
+  "reasoning": "Matched entities: trna, alteration of the translational reading frame. Traversed graph edges: tRNA --[carries]--> amino acid; ribosome --[binds]--> tRNA; ribosome --[translates]--> mRNA. Graph evidence: \"Each tRNA carries a specific amino acid and recognizes one or more of the mRNA codons that define the order of amino acids in a protein.\". The context explicitly states that tRNAs act as adaptor molecules between mRNA and the polypeptide chain, recognizing mRNA codons and adding corresponding amino acids during translation."
+}

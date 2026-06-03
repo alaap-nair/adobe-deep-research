@@ -1,0 +1,670 @@
+{
+  "question": "How do prokaryotic and eukaryotic DNA replication differ?",
+  "generated_at": "2026-05-01T07:04:35.356585+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "prokaryotic",
+        "eukaryotic",
+        "dna",
+        "replication",
+        "differ",
+        "prokaryotic eukaryotic",
+        "eukaryotic dna",
+        "dna replication",
+        "replication differ",
+        "prokaryotic eukaryotic dna",
+        "eukaryotic dna replication",
+        "dna replication differ"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:dna",
+          "name": "dna",
+          "matched_text": "dna",
+          "matched_alias": "dna",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:replication",
+          "name": "replication",
+          "matched_text": "replication",
+          "matched_alias": "replication",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:eukaryotic_pre-mrna",
+          "name": "eukaryotic pre-mrna",
+          "matched_text": "eukaryotic",
+          "matched_alias": "eukaryotic pre-mrna",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:3",
+          "text": "replication, a pre-replication complex is made with other\ninitiator proteins.\n\nHelicase and other proteins are then recruited to start the replication process (Table 14.2). Difference between Prokaryotic and Eukaryotic Replication\nProperty\nProkaryotes\nEukaryotes\nOrigin of replication\nSingle\nMultiple\nRate of replication\n1000 nucleotides/s\n50 to 100 nucleotides/s\nDNA polymerase types\n5\n14\nTelomerase\nNot present\nPresent\nRNA primer removal\nDNA pol I\nRNase H\nStrand elongation\nDNA pol III\nPol α, pol δ, pol ε\nSliding clamp\nSliding clamp\nPCNA\nTABLE 14.2\nA helicase using the energy from ATP hydrolysis opens up the DNA helix. Replication forks are formed at each\nreplication origin as the DNA unwinds.",
+          "source_name": "14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 3,
+          "snippet": "replication, a pre-replication complex is made with other\ninitiator proteins.\n\nHelicase and other proteins are then recruited to start the replication process (Table 14.2). Difference between Prokaryotic and Eukaryotic Replication\nProperty\nProkaryotes\nEukaryotes\nOrigin of replication\nSingle\nMultiple\nRate of replication\n1000 nucleotides/s\n50 to 100 nucleotides/s\nDNA polymerase types\n5\n14\nTelomerase",
+          "score": 0.8282643552912787
+        },
+        {
+          "chunk_id": "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:0",
+          "text": "LINK TO LEARNING\nReview the full process of DNA replication here (https://openstax.org/l/replication_DNA). 14.5 DNA Replication in Eukaryotes\nLEARNING OBJECTIVES\nBy the end of this section, you will be able to do the following:\n•\nDiscuss the similarities and differences between DNA replication in eukaryotes and prokaryotes\n•\nState the role of telomerase in DNA replication\nEukaryotic genomes are much more complex and larger in size than prokaryotic genomes. Eukaryotes also have a\nnumber of different linear chromosomes. The human genome has 3 billion base pairs per haploid set of\nchromosomes, and 6 billion base pairs are replicated during the S phase of the cell cycle.",
+          "source_name": "14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 0,
+          "snippet": "LINK TO LEARNING\nReview the full process of DNA replication here (https://openstax.org/l/replication_DNA). 14.5 DNA Replication in Eukaryotes\nLEARNING OBJECTIVES\nBy the end of this section, you will be able to do the following:\n•\nDiscuss the similarities and differences between DNA replication in eukaryotes and prokaryotes\n•\nState the role of telomerase in DNA replication\nEukaryotic genomes are mu",
+          "score": 0.8270053414978136
+        },
+        {
+          "chunk_id": "chunk:14_4_dna_replication_in_prokaryotes_biology_2e_openstax:3",
+          "text": "on DNA replication.\n\n14.4 DNA Replication in Prokaryotes\nLEARNING OBJECTIVES\nBy the end of this section, you will be able to do the following:\n•\nExplain the process of DNA replication in prokaryotes\n•\nDiscuss the role of different enzymes and proteins in supporting this process\nDNA replication has been well studied in prokaryotes primarily because of the small size of the genome and because\nof the large variety of mutants that are available. E. coli has 4.6 million base pairs in a single circular chromosome\nand all of it gets replicated in approximately 42 minutes, starting from a single site along the chromosome and\nproceeding around the circle in both directions.",
+          "source_name": "14.4 DNA Replication in Prokaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 3,
+          "snippet": "on DNA replication.\n\n14.4 DNA Replication in Prokaryotes\nLEARNING OBJECTIVES\nBy the end of this section, you will be able to do the following:\n•\nExplain the process of DNA replication in prokaryotes\n•\nDiscuss the role of different enzymes and proteins in supporting this process\nDNA replication has been well studied in prokaryotes primarily because of the small size of the genome and because\nof the",
+          "score": 0.8131200569103187
+        },
+        {
+          "chunk_id": "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:1",
+          "text": "cycle.\n\nThere are multiple origins\nof replication on each eukaryotic chromosome; humans can have up to 100,000 origins of replication across the\ngenome. The rate of replication is approximately 100 nucleotides per second, much slower than prokaryotic\nreplication. In yeast, which is a eukaryote, special sequences known as autonomously replicating sequences (ARS)\nare found on the chromosomes. These are equivalent to the origin of replication in E. coli. The number of DNA polymerases in eukaryotes is much more than in prokaryotes: 14 are known, of which five are\nknown to have major roles during replication and have been well studied. They are known as pol α, pol β, pol γ, pol\nδ, and pol ε.",
+          "source_name": "14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 1,
+          "snippet": "cycle.\n\nThere are multiple origins\nof replication on each eukaryotic chromosome; humans can have up to 100,000 origins of replication across the\ngenome. The rate of replication is approximately 100 nucleotides per second, much slower than prokaryotic\nreplication. In yeast, which is a eukaryote, special sequences known as autonomously replicating sequences (ARS)\nare found on the chromosomes. These ",
+          "score": 0.8087312514032832
+        },
+        {
+          "chunk_id": "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:2",
+          "text": "The essential steps of replication are the same as in prokaryotes. Before replication can start, the DNA has to be\nmade available as a template. Eukaryotic DNA is bound to basic proteins known as histones to form structures\ncalled nucleosomes. Histones must be removed and then replaced during the replication process, which helps to\naccount for the lower replication rate in eukaryotes. The chromatin (the complex between DNA and proteins) may\nundergo some chemical modifications, so that the DNA may be able to slide off the proteins or be accessible to the\nenzymes of the DNA replication machinery. At the origin of replication, a pre-replication complex is made with other\ninitiator proteins.",
+          "source_name": "14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 2,
+          "snippet": "The essential steps of replication are the same as in prokaryotes. Before replication can start, the DNA has to be\nmade available as a template. Eukaryotic DNA is bound to basic proteins known as histones to form structures\ncalled nucleosomes. Histones must be removed and then replaced during the replication process, which helps to\naccount for the lower replication rate in eukaryotes. The chromati",
+          "score": 0.7877126216308472
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:a3a95be7366771a2",
+          "head_entity_id": "ent:dna_polymerase",
+          "tail_entity_id": "ent:dna",
+          "relation": "replicates",
+          "evidence": "The essential steps of replication are the same as in prokaryotes. Before replication can start, the DNA has to be made available as a template.",
+          "head_name": "DNA polymerase",
+          "tail_name": "DNA",
+          "score": 0.7745279492556547
+        },
+        {
+          "triple_id": "triple:340c94c80ea46201",
+          "head_entity_id": "ent:dna",
+          "tail_entity_id": "ent:dna",
+          "relation": "replicates",
+          "evidence": "During DNA replication, each of the two strands that make up the double helix serves as a template from which new strands are copied.",
+          "head_name": "DNA",
+          "tail_name": "DNA",
+          "score": 0.677342635862553
+        },
+        {
+          "triple_id": "triple:b72a095c115887f1",
+          "head_entity_id": "ent:interphase_chromosomes",
+          "tail_entity_id": "ent:heterochromatin_and_euchromatin",
+          "relation": "have",
+          "evidence": "In interphase, eukaryotic chromosomes have two distinct regions that can be distinguished by staining.",
+          "head_name": "interphase chromosomes",
+          "tail_name": "heterochromatin and euchromatin",
+          "score": 0.6766748952444251
+        },
+        {
+          "triple_id": "triple:56dfcef93a81dc6a",
+          "head_entity_id": "ent:eukaryotes",
+          "tail_entity_id": "ent:linear_dna_molecules",
+          "relation": "contain",
+          "evidence": "Eukaryotes, whose chromosomes each consist of a linear DNA molecule, employ a different type of packing strategy to fit their DNA inside the nucleus.",
+          "head_name": "Eukaryotes",
+          "tail_name": "linear DNA molecules",
+          "score": 0.6759838821645702
+        },
+        {
+          "triple_id": "triple:72ddda36b47ef1d8",
+          "head_entity_id": "ent:σ_subunit",
+          "tail_entity_id": "ent:promoter",
+          "relation": "binds to",
+          "evidence": "The σ subunit of prokaryotic RNA polymerase recognizes consensus sequences found in the promoter region upstream of the transcription start site.",
+          "head_name": "σ subunit",
+          "tail_name": "promoter",
+          "score": 0.6547137264269816
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:dna",
+        "ent:replication",
+        "ent:eukaryotic_pre-mrna",
+        "ent:dna_polymerase",
+        "ent:interphase_chromosomes",
+        "ent:heterochromatin_and_euchromatin",
+        "ent:eukaryotes",
+        "ent:linear_dna_molecules",
+        "ent:σ_subunit",
+        "ent:promoter"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "dna",
+          "entity_id": "ent:dna",
+          "original_names": [
+            "DNA"
+          ]
+        },
+        {
+          "name": "oswald avery",
+          "entity_id": "ent:oswald_avery",
+          "original_names": [
+            "Oswald Avery"
+          ]
+        },
+        {
+          "name": "s strain",
+          "entity_id": "ent:s_strain",
+          "original_names": [
+            "S strain"
+          ]
+        },
+        {
+          "name": "dna was the transforming principle",
+          "entity_id": "ent:dna_was_the_transforming_principle",
+          "original_names": [
+            "DNA was the transforming principle"
+          ]
+        },
+        {
+          "name": "protein",
+          "entity_id": "ent:protein",
+          "original_names": [
+            "protein"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "nucleotides",
+          "entity_id": "ent:nucleotides",
+          "original_names": [
+            "nucleotides"
+          ]
+        },
+        {
+          "name": "phosphodiester bonds",
+          "entity_id": "ent:phosphodiester_bonds",
+          "original_names": [
+            "phosphodiester bonds"
+          ]
+        },
+        {
+          "name": "dna polymerase iii",
+          "entity_id": "ent:dna_polymerase_iii",
+          "original_names": [
+            "DNA polymerase III"
+          ]
+        },
+        {
+          "name": "dna polymerase",
+          "entity_id": "ent:dna_polymerase",
+          "original_names": [
+            "DNA polymerase"
+          ]
+        },
+        {
+          "name": "histones",
+          "entity_id": "ent:histones",
+          "original_names": [
+            "histones"
+          ]
+        },
+        {
+          "name": "nucleosomes",
+          "entity_id": "ent:nucleosomes",
+          "original_names": [
+            "nucleosomes"
+          ]
+        },
+        {
+          "name": "deoxyribose",
+          "entity_id": "ent:deoxyribose",
+          "original_names": [
+            "deoxyribose"
+          ]
+        },
+        {
+          "name": "two strands",
+          "entity_id": "ent:two_strands",
+          "original_names": [
+            "two strands"
+          ]
+        },
+        {
+          "name": "moves toward the positive electrode",
+          "entity_id": "ent:moves_toward_the_positive_electrode",
+          "original_names": [
+            "moves toward the positive electrode"
+          ]
+        },
+        {
+          "name": "gel electrophoresis",
+          "entity_id": "ent:gel_electrophoresis",
+          "original_names": [
+            "gel electrophoresis"
+          ]
+        },
+        {
+          "name": "dna-specific dye",
+          "entity_id": "ent:dna-specific_dye",
+          "original_names": [
+            "DNA-specific dye"
+          ]
+        },
+        {
+          "name": "double helix",
+          "entity_id": "ent:double_helix",
+          "original_names": [
+            "double helix"
+          ]
+        },
+        {
+          "name": "nitrogenous bases",
+          "entity_id": "ent:nitrogenous_bases",
+          "original_names": [
+            "nitrogenous bases"
+          ]
+        },
+        {
+          "name": "new complementary strand",
+          "entity_id": "ent:new_complementary_strand",
+          "original_names": [
+            "new complementary strand"
+          ]
+        },
+        {
+          "name": "replication",
+          "entity_id": "ent:replication",
+          "original_names": [
+            "replication"
+          ]
+        },
+        {
+          "name": "helicase",
+          "entity_id": "ent:helicase",
+          "original_names": [
+            "Helicase"
+          ]
+        },
+        {
+          "name": "rna",
+          "entity_id": "ent:rna",
+          "original_names": [
+            "RNA"
+          ]
+        },
+        {
+          "name": "genes",
+          "entity_id": "ent:genes",
+          "original_names": [
+            "genes"
+          ]
+        },
+        {
+          "name": "mitochondria",
+          "entity_id": "ent:mitochondria",
+          "original_names": [
+            "mitochondria"
+          ]
+        },
+        {
+          "name": "dna helix",
+          "entity_id": "ent:dna_helix",
+          "original_names": [
+            "DNA helix"
+          ]
+        },
+        {
+          "name": "nucleoside triphosphates",
+          "entity_id": "ent:nucleoside_triphosphates",
+          "original_names": [
+            "nucleoside triphosphates"
+          ]
+        },
+        {
+          "name": "dideoxynucleotides",
+          "entity_id": "ent:dideoxynucleotides",
+          "original_names": [
+            "dideoxynucleotides"
+          ]
+        },
+        {
+          "name": "okazaki fragments",
+          "entity_id": "ent:okazaki_fragments",
+          "original_names": [
+            "Okazaki fragments"
+          ]
+        },
+        {
+          "name": "free 3'-oh group",
+          "entity_id": "ent:free_3'-oh_group",
+          "original_names": [
+            "free 3'-OH group"
+          ]
+        },
+        {
+          "name": "leading strand",
+          "entity_id": "ent:leading_strand",
+          "original_names": [
+            "leading strand"
+          ]
+        },
+        {
+          "name": "pcna",
+          "entity_id": "ent:pcna",
+          "original_names": [
+            "PCNA"
+          ]
+        },
+        {
+          "name": "phosphodiester bond",
+          "entity_id": "ent:phosphodiester_bond",
+          "original_names": [
+            "phosphodiester bond"
+          ]
+        },
+        {
+          "name": "wrong nucleotide",
+          "entity_id": "ent:wrong_nucleotide",
+          "original_names": [
+            "wrong nucleotide"
+          ]
+        },
+        {
+          "name": "wrongly incorporated bases",
+          "entity_id": "ent:wrongly_incorporated_bases",
+          "original_names": [
+            "wrongly incorporated bases"
+          ]
+        },
+        {
+          "name": "mistakes during dna replication",
+          "entity_id": "ent:mistakes_during_dna_replication",
+          "original_names": [
+            "mistakes during DNA replication"
+          ]
+        },
+        {
+          "name": "segment of dna",
+          "entity_id": "ent:segment_of_dna",
+          "original_names": [
+            "segment of DNA"
+          ]
+        },
+        {
+          "name": "newly added base",
+          "entity_id": "ent:newly_added_base",
+          "original_names": [
+            "newly added base"
+          ]
+        },
+        {
+          "name": "ribose",
+          "entity_id": "ent:ribose",
+          "original_names": [
+            "ribose"
+          ]
+        },
+        {
+          "name": "amino acids",
+          "entity_id": "ent:amino_acids",
+          "original_names": [
+            "amino acids"
+          ]
+        },
+        {
+          "name": "promoter",
+          "entity_id": "ent:promoter",
+          "original_names": [
+            "promoter"
+          ]
+        },
+        {
+          "name": "trypanosomes",
+          "entity_id": "ent:trypanosomes",
+          "original_names": [
+            "trypanosomes"
+          ]
+        },
+        {
+          "name": "eukaryotic pre-mrna",
+          "entity_id": "ent:eukaryotic_pre-mrna",
+          "original_names": [
+            "eukaryotic pre-mRNA"
+          ]
+        },
+        {
+          "name": "exons",
+          "entity_id": "ent:exons",
+          "original_names": [
+            "exons"
+          ]
+        },
+        {
+          "name": "pre-mrna",
+          "entity_id": "ent:pre-mrna",
+          "original_names": [
+            "pre-mRNA"
+          ]
+        },
+        {
+          "name": "rna processing",
+          "entity_id": "ent:rna_processing",
+          "original_names": [
+            "RNA processing"
+          ]
+        },
+        {
+          "name": "introns",
+          "entity_id": "ent:introns",
+          "original_names": [
+            "introns"
+          ]
+        },
+        {
+          "name": "splicing",
+          "entity_id": "ent:splicing",
+          "original_names": [
+            "splicing"
+          ]
+        },
+        {
+          "name": "dna pol ε",
+          "entity_id": "ent:dna_pol_ε",
+          "original_names": [
+            "DNA pol ε"
+          ]
+        },
+        {
+          "name": "interphase chromosomes",
+          "entity_id": "ent:interphase_chromosomes",
+          "original_names": [
+            "interphase chromosomes"
+          ]
+        },
+        {
+          "name": "heterochromatin and euchromatin",
+          "entity_id": "ent:heterochromatin_and_euchromatin",
+          "original_names": [
+            "heterochromatin and euchromatin"
+          ]
+        },
+        {
+          "name": "eukaryotes",
+          "entity_id": "ent:eukaryotes",
+          "original_names": [
+            "Eukaryotes"
+          ]
+        },
+        {
+          "name": "linear dna molecules",
+          "entity_id": "ent:linear_dna_molecules",
+          "original_names": [
+            "linear DNA molecules"
+          ]
+        },
+        {
+          "name": "σ subunit",
+          "entity_id": "ent:σ_subunit",
+          "original_names": [
+            "σ subunit"
+          ]
+        },
+        {
+          "name": "-10 and -35 regions",
+          "entity_id": "ent:-10_and_-35_regions",
+          "original_names": [
+            "-10 and -35 regions"
+          ]
+        },
+        {
+          "name": "rna polymerase ii",
+          "entity_id": "ent:rna_polymerase_ii",
+          "original_names": [
+            "RNA polymerase II"
+          ]
+        },
+        {
+          "name": "transcription factors",
+          "entity_id": "ent:transcription_factors",
+          "original_names": [
+            "Transcription factors"
+          ]
+        },
+        {
+          "name": "nucleus",
+          "entity_id": "ent:nucleus",
+          "original_names": [
+            "nucleus"
+          ]
+        },
+        {
+          "name": "protein-coding nuclear pre-mrnas",
+          "entity_id": "ent:protein-coding_nuclear_pre-mrnas",
+          "original_names": [
+            "protein-coding nuclear pre-mRNAs"
+          ]
+        },
+        {
+          "name": "α-amanitin",
+          "entity_id": "ent:α-amanitin",
+          "original_names": [
+            "α-amanitin"
+          ]
+        },
+        {
+          "name": "pre-mrnas",
+          "entity_id": "ent:pre-mrnas",
+          "original_names": [
+            "pre-mRNAs"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:dna",
+          "evidence": "They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.",
+          "target_name": "DNA",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:8cd58dda286ddce8",
+          "source_name": "Oswald Avery",
+          "relation": "used enzymes to degrade"
+        },
+        {
+          "target_entity_id": "ent:s_strain",
+          "evidence": "They isolated the S strain from the dead mice and isolated the proteins and nucleic acids (RNA and DNA) as these were possible candidates for the molecule of heredity.",
+          "target_name": "S strain",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:6041f786affe5ecc",
+          "source_name": "Oswald Avery",
+          "relation": "isolated"
+        },
+        {
+          "target_entity_id": "ent:dna_was_the_transforming_principle",
+          "evidence": "This led them to conclude that DNA was the transforming principle.",
+          "target_name": "DNA was the transforming principle",
+          "source_entity_id": "ent:oswald_avery",
+          "triple_id": "triple:eef64ca9cce30960",
+          "source_name": "Oswald Avery",
+          "relation": "concluded"
+        },
+        {
+          "target_entity_id": "ent:protein",
+          "evidence": "Only 32P entered the bacterial cells, indicating that DNA is the genetic material.",
+          "target_name": "protein",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:f8796631b9fea9a8",
+          "source_name": "DNA",
+          "relation": "is the genetic material"
+        },
+        {
+          "target_entity_id": "ent:protein",
+          "evidence": "The flow of genetic information in cells from DNA to mRNA to protein is described by the central dogma, which states that genes specify the sequence of mRNAs, which in turn specify the sequence of amino acids making up all proteins.",
+          "target_name": "protein",
+          "source_entity_id": "ent:mrna",
+          "triple_id": "triple:f05018931bdf932f",
+          "source_name": "mRNA",
+          "relation": "encodes"
+        },
+        {
+          "target_entity_id": "ent:nucleotides",
+          "evidence": "The building blocks of DNA are nucleotides.",
+          "target_name": "nucleotides",
+          "source_entity_id": "ent:dna",
+          "triple_id": "triple:2e4a67b053282ddf",
+          "source_name": "DNA",
+          "relation": "consists of"
+        },
+        {
+          "target_entity_id": "ent:phosphodiester_bonds",
+          "evidence": "The nucleotides combine with each other to produce phosphodiester bonds.",
+          "target_name": "phosphodiester bonds",
+          "source_entity_id": "ent:nucleotides",
+          "triple_id": "triple:19d0f5efc05218c9",
+          "source_name": "nucleotides",
+          "relation": "combine to produce"
+        },
+        {
+          "target_entity_id": "ent:nucleotides",
+          "evidence": "DNA polymerase III starts adding nucleotides to the 3'-OH end of the primer.",
+          "target_name": "nucleotides",
+          "source_entity_id": "ent:dna_polymerase_iii",
+          "triple_id": "triple:6bcafb2d275388d8",
+          "source_name": "DNA polymerase III",
+          "relation": "adds"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "How do prokaryotic and eukaryotic DNA replication differ?",
+    "answer": "Prokaryotic DNA replication has a single origin of replication, while eukaryotic DNA replication has multiple origins of replication.",
+    "citations": [
+      "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:3 | 14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt | replication, a pre-replication complex is made with other initiator proteins. Helicase and other proteins are then re...",
+      "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:0 | 14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt | LINK TO LEARNING Review the full process of DNA replication here (https://openstax.org/l/replication_DNA). 14.5 DNA R..."
+    ],
+    "reasoning": "Matched entities: dna, replication, eukaryotic pre-mrna. Traversed graph edges: Oswald Avery --[used enzymes to degrade]--> DNA; Oswald Avery --[isolated]--> S strain; Oswald Avery --[concluded]--> DNA was the transforming principle. Graph evidence: \"They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.\". The text states that prokaryotes have a single origin of replication, while eukaryotes have multiple."
+  }
+}

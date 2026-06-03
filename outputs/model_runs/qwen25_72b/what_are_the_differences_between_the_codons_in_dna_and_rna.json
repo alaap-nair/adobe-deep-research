@@ -1,0 +1,8 @@
+{
+  "question": "What are the differences between the codons in DNA and RNA?",
+  "answer": "In DNA, the codons consist of the nucleotides A, C, G, and T, while in RNA, the codons consist of A, C, G, and U. The only nucleotide difference is that in RNA, all of the T nucleotides in DNA are replaced with U nucleotides.",
+  "citations": [
+    "chunk:15_2_prokaryotic_transcription_biology_2e_openstax:5 | 15.2 Prokaryotic Transcription - Biology 2e _ OpenStax.txt | always proceeds from the same DNA strand for each gene, which is called the template strand. The mRNA product is comp..."
+  ],
+  "reasoning": "Matched entities: codons, dna, rna. Traversed graph edges: codons --[define]--> amino acids; genes --[specify the sequences of]--> amino acids; codons --[are encoded by]--> nucleotide triplets. Graph evidence: \"Each amino acid is defined by a three-nucleotide sequence called the triplet codon.\". The retrieved chunk explains that the mRNA product is almost identical to the DNA coding strand, with the only difference being the replacement of T nucleotides with U nucleotides in RNA."
+}

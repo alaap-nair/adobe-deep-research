@@ -1,0 +1,11 @@
+{
+  "question": "What enzyme catalyzes carbon fixation in the Calvin cycle?",
+  "answer": "RuBisCO",
+  "citations": [
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:5 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration. Stage 1: Fixation I...",
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:6 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | 2/8 Figure 8.19 The Calvin cycle has three stages. In stage 1, the enzyme RuBisCO incorporates carbon dioxide into an...",
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:8 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | 3/8 RuBisCO catalyzes a reaction between CO and RuBP. For each CO molecule that reacts with one RuBP, two molecules o...",
+    "triple:947d67f6ad421a32 | rubisco --[catalyzes]--> reaction between co2 and rubp"
+  ],
+  "reasoning": "Matched entities: 5-carbon sugar, calvin cycle, carbon fixation. Traversed graph edges: nucleotide --[contains]--> 5-carbon sugar; nucleotide --[contains]--> nitrogenous base; nucleotide --[contains]--> phosphate group. Graph evidence: \"The important components of the nucleotide are a nitrogenous (nitrogen-bearing) base, a 5-carbon sugar (pentose), and a phosphate group (Figure 14.5).\". The context explicitly states that the enzyme RuBisCO catalyzes the reaction between CO2 and RuBP, which is the carbon fixation step in the Calvin cycle."
+}

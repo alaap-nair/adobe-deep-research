@@ -1,0 +1,110 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 10,
+  "num_entities": 11,
+  "entities": [
+    "ATP",
+    "Calvin cycle",
+    "G3P",
+    "NADPH",
+    "RuBisCO",
+    "carbohydrates",
+    "carbon dioxide",
+    "carbon fixation",
+    "formation of 3-PGA",
+    "reaction between CO2 and RuBP",
+    "stroma"
+  ],
+  "triples": [
+    {
+      "head": "RuBisCO",
+      "head_type": "Enzyme",
+      "relation": "catalyzes",
+      "relation_type": "CATALYZES",
+      "tail": "carbon fixation",
+      "tail_type": "Process",
+      "evidence": "RuBisCO catalyzes a reaction between CO2 and RuBP. For each CO2 molecule that reacts with one RuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form."
+    },
+    {
+      "head": "Calvin cycle",
+      "head_type": "Pathway",
+      "relation": "consumes",
+      "relation_type": "CONSUMES",
+      "tail": "carbon dioxide",
+      "tail_type": "Molecule",
+      "evidence": "In the stroma, in addition to CO2, two other components are present to initiate the light-independent reactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three molecules of ribulose bisphosphate (RuBP)."
+    },
+    {
+      "head": "Calvin cycle",
+      "head_type": "Pathway",
+      "relation": "produces",
+      "relation_type": "PRODUCES",
+      "tail": "G3P",
+      "tail_type": "Molecule",
+      "evidence": "The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration."
+    },
+    {
+      "head": "RuBisCO",
+      "head_type": "Enzyme",
+      "relation": "catalyzes",
+      "relation_type": "CATALYZES",
+      "tail": "reaction between CO2 and RuBP",
+      "tail_type": "ChemicalReaction",
+      "evidence": "RuBisCO catalyzes a reaction between CO2 and RuBP. For each CO2 molecule that reacts with one RuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form."
+    },
+    {
+      "head": "Calvin cycle",
+      "head_type": "Pathway",
+      "relation": "consumes",
+      "relation_type": "CONSUMES",
+      "tail": "ATP",
+      "tail_type": "Molecule",
+      "evidence": "ATP and NADPH are used to convert the six molecules of 3-PGA into six molecules of a chemical called glyceraldehyde 3-phosphate (G3P)."
+    },
+    {
+      "head": "Calvin cycle",
+      "head_type": "Pathway",
+      "relation": "consumes",
+      "relation_type": "CONSUMES",
+      "tail": "NADPH",
+      "tail_type": "Molecule",
+      "evidence": "ATP and NADPH are used to convert the six molecules of 3-PGA into six molecules of a chemical called glyceraldehyde 3-phosphate (G3P)."
+    },
+    {
+      "head": "Calvin cycle",
+      "head_type": "Pathway",
+      "relation": "occurs in",
+      "relation_type": "OCCURS_IN",
+      "tail": "stroma",
+      "tail_type": "CellularStructure",
+      "evidence": "Once in the mesophyll cells, CO2 diffuses into the stroma of the chloroplast\u2014the site of light-independent reactions of photosynthesis."
+    },
+    {
+      "head": "Calvin cycle",
+      "head_type": "Pathway",
+      "relation": "converts to",
+      "relation_type": "CONVERTS_TO",
+      "tail": "G3P",
+      "tail_type": "Molecule",
+      "evidence": "The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration."
+    },
+    {
+      "head": "Calvin cycle",
+      "head_type": "Pathway",
+      "relation": "produces",
+      "relation_type": "PRODUCES",
+      "tail": "carbohydrates",
+      "tail_type": "Molecule",
+      "evidence": "The products of the light-independent reactions (carbohydrates and other forms of reduced carbon) can survive almost indefinitely."
+    },
+    {
+      "head": "RuBisCO",
+      "head_type": "Enzyme",
+      "relation": "catalyzes",
+      "relation_type": "CATALYZES",
+      "tail": "formation of 3-PGA",
+      "tail_type": "ChemicalReaction",
+      "evidence": "RuBisCO catalyzes a reaction between CO2 and RuBP. For each CO2 molecule that reacts with one RuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form."
+    }
+  ]
+}

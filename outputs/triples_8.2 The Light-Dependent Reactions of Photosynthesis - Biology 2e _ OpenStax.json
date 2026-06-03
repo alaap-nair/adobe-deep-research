@@ -1,0 +1,178 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 16,
+  "num_entities": 25,
+  "entities": [
+    "ATP",
+    "ATP synthase",
+    "NADP to NADPH",
+    "a third phosphate group to ADP",
+    "carotenoids",
+    "chlorophyll a",
+    "chlorophyll a and b",
+    "electrons from water",
+    "energy from sunlight",
+    "green light",
+    "hydrogen atoms",
+    "light energy into chemical energy",
+    "oxygen",
+    "photoautotrophs",
+    "photosystem I",
+    "photosystem II",
+    "pigments",
+    "plants",
+    "short-wavelength blue region",
+    "specific wavelengths of sunlight",
+    "specific wavelengths of visible light",
+    "thylakoid lumen",
+    "thylakoid membrane",
+    "water",
+    "wavelengths from either end of the visible spectrum (blue and red)"
+  ],
+  "triples": [
+    {
+      "head": "plants",
+      "head_type": "Organism",
+      "relation": "absorb",
+      "relation_type": "ABSORBS",
+      "tail": "energy from sunlight",
+      "tail_type": "Molecule",
+      "evidence": "Explain how plants absorb energy from sunlight"
+    },
+    {
+      "head": "photoautotrophs",
+      "head_type": "Organism",
+      "relation": "convert",
+      "relation_type": "CONVERTS_TO",
+      "tail": "light energy into chemical energy",
+      "tail_type": "Molecule",
+      "evidence": "In the case of photosynthesis, light energy is converted into chemical energy, which photoautotrophs use to build basic carbohydrate molecules (Figure 8.9)."
+    },
+    {
+      "head": "photoautotrophs",
+      "head_type": "Organism",
+      "relation": "use",
+      "relation_type": "CONSUMES",
+      "tail": "specific wavelengths of sunlight",
+      "tail_type": "Molecule",
+      "evidence": "However, autotrophs only use a few specific wavelengths of sunlight."
+    },
+    {
+      "head": "pigments",
+      "head_type": "Molecule",
+      "relation": "absorb",
+      "relation_type": "ABSORBS",
+      "tail": "specific wavelengths of visible light",
+      "tail_type": "Molecule",
+      "evidence": "Light energy initiates the process of photosynthesis when pigments absorb specific wavelengths of visible light."
+    },
+    {
+      "head": "chlorophyll a",
+      "head_type": "Molecule",
+      "relation": "absorbs",
+      "relation_type": "ABSORBS",
+      "tail": "wavelengths from either end of the visible spectrum (blue and red)",
+      "tail_type": "Molecule",
+      "evidence": "Chlorophyll a absorbs wavelengths from either end of the visible spectrum (blue and red), but not green."
+    },
+    {
+      "head": "chlorophyll a",
+      "head_type": "Molecule",
+      "relation": "reflects",
+      "relation_type": "RELEASES",
+      "tail": "green light",
+      "tail_type": "Molecule",
+      "evidence": "Because green is reflected or transmitted, chlorophyll appears green."
+    },
+    {
+      "head": "carotenoids",
+      "head_type": "Molecule",
+      "relation": "absorb",
+      "relation_type": "ABSORBS",
+      "tail": "short-wavelength blue region",
+      "tail_type": "Molecule",
+      "evidence": "Carotenoids absorb in the short-wavelength blue region, and reflect the longer yellow, red, and orange wavelengths."
+    },
+    {
+      "head": "thylakoid membrane",
+      "head_type": "CellularStructure",
+      "relation": "contains",
+      "relation_type": "LOCATED_IN",
+      "tail": "chlorophyll a and b",
+      "tail_type": "Molecule",
+      "evidence": "Chlorophyll a and b are found in higher plant chloroplasts and will be the focus of the following discussion."
+    },
+    {
+      "head": "thylakoid membrane",
+      "head_type": "CellularStructure",
+      "relation": "contains",
+      "relation_type": "LOCATED_IN",
+      "tail": "carotenoids",
+      "tail_type": "Molecule",
+      "evidence": "The carotenoids found in fruit\u2014such as the red of tomato (lycopene), the yellow of corn seeds (zeaxanthin), or the orange of an orange peel (\u03b2-carotene)\u2014are used as advertisements to attract seed dispersers."
+    },
+    {
+      "head": "photosystem II",
+      "head_type": "CellularStructure",
+      "relation": "extracts",
+      "relation_type": "CONSUMES",
+      "tail": "electrons from water",
+      "tail_type": "Molecule",
+      "evidence": "In the photosystem II (PSII) reaction center, energy from sunlight is used to extract electrons from water."
+    },
+    {
+      "head": "photosystem I",
+      "head_type": "CellularStructure",
+      "relation": "reduces",
+      "relation_type": "CONVERTS_TO",
+      "tail": "NADP to NADPH",
+      "tail_type": "Molecule",
+      "evidence": "The electrons travel through the chloroplast electron transport chain to photosystem I (PSI), which reduces NADP to NADPH."
+    },
+    {
+      "head": "photosystem II",
+      "head_type": "CellularStructure",
+      "relation": "splits",
+      "relation_type": "CONSUMES",
+      "tail": "water",
+      "tail_type": "Molecule",
+      "evidence": "Splitting one H2O molecule releases two electrons, two hydrogen atoms, and one atom of oxygen."
+    },
+    {
+      "head": "photosystem II",
+      "head_type": "CellularStructure",
+      "relation": "produces",
+      "relation_type": "PRODUCES",
+      "tail": "oxygen",
+      "tail_type": "Molecule",
+      "evidence": "Splitting one H2O molecule releases two electrons, two hydrogen atoms, and one atom of oxygen."
+    },
+    {
+      "head": "thylakoid lumen",
+      "head_type": "CellularStructure",
+      "relation": "accumulates",
+      "relation_type": "CONSUMES",
+      "tail": "hydrogen atoms",
+      "tail_type": "Molecule",
+      "evidence": "Those hydrogen atoms, plus the ones produced by splitting water, accumulate in the thylakoid lumen and will be used to synthesize ATP in a later step."
+    },
+    {
+      "head": "ATP synthase",
+      "head_type": "Enzyme",
+      "relation": "attaches",
+      "relation_type": "CONVERTS_TO",
+      "tail": "a third phosphate group to ADP",
+      "tail_type": "Molecule",
+      "evidence": "The energy released by the hydrogen ion stream allows ATP synthase to attach a third phosphate group to ADP, which forms a molecule of ATP (Figure 8.17)."
+    },
+    {
+      "head": "ATP synthase",
+      "head_type": "Enzyme",
+      "relation": "forms",
+      "relation_type": "PRODUCES",
+      "tail": "ATP",
+      "tail_type": "Molecule",
+      "evidence": "The energy released by the hydrogen ion stream allows ATP synthase to attach a third phosphate group to ADP, which forms a molecule of ATP (Figure 8.17)."
+    }
+  ]
+}

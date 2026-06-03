@@ -1,0 +1,728 @@
+{
+  "question": "What are the major phyla of the kingdom Fungi covered in the chapter?",
+  "generated_at": "2026-05-01T07:02:24.786179+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "major",
+        "phyla",
+        "kingdom",
+        "fungi",
+        "covered",
+        "chapter",
+        "major phyla",
+        "phyla kingdom",
+        "kingdom fungi",
+        "fungi covered",
+        "covered chapter",
+        "major phyla kingdom",
+        "phyla kingdom fungi",
+        "kingdom fungi covered",
+        "fungi covered chapter"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:fungi",
+          "name": "fungi",
+          "matched_text": "fungi",
+          "matched_alias": "fungi",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:basidiomycota",
+          "name": "basidiomycota",
+          "matched_text": "What are the major phyla of the kingdom Fungi covered in the chapter?",
+          "matched_alias": "basidiomycota",
+          "score": 0.6754,
+          "match_type": "semantic"
+        },
+        {
+          "entity_id": "ent:ascomycota",
+          "name": "ascomycota",
+          "matched_text": "What are the major phyla of the kingdom Fungi covered in the chapter?",
+          "matched_alias": "ascomycota",
+          "score": 0.659,
+          "match_type": "semantic"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:24_2_classifications_of_fungi_biology_2e_openstax:0",
+          "text": "24.2 Classifications of Fungi\nLearning Objectives\nBy the end of this section, you will be able to do the following:\nIdentify fungi and place them into the five major phyla according to current classification\nDescribe each phylum in terms of major representative species and patterns of reproduction\nThe kingdom Fungi contains five major phyla that were established according to their mode of sexual\nreproduction or using molecular data.",
+          "source_name": "data/24.2 Classifications of Fungi - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 0,
+          "snippet": "24.2 Classifications of Fungi\nLearning Objectives\nBy the end of this section, you will be able to do the following:\nIdentify fungi and place them into the five major phyla according to current classification\nDescribe each phylum in terms of major representative species and patterns of reproduction\nThe kingdom Fungi contains five major phyla that were established according to their mode of sexual\nr",
+          "score": 0.7721846904234544
+        },
+        {
+          "chunk_id": "chunk:24_2_classifications_of_fungi_biology_2e_openstax:2",
+          "text": "RNA) continue to show new and\ndifferent relationships among the various categories of fungi.\n\nThe five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the\nAscomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum\nGlomeromycota (Figure 24.10). 4/14/26, 11:44 AM\n24.2 Classifications of Fungi - Biology 2e | OpenStax\nhttps://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi\n1/14",
+          "source_name": "data/24.2 Classifications of Fungi - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 2,
+          "snippet": "RNA) continue to show new and\ndifferent relationships among the various categories of fungi.\n\nThe five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the\nAscomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum\nGlomeromycota (Figure 24.10). 4/14/26, 11:44 AM\n24.2 Classifications of Fungi - Biology 2e | OpenStax\nhttps://ope",
+          "score": 0.7142418450705752
+        },
+        {
+          "chunk_id": "chunk:24_2_classifications_of_fungi_biology_2e_openstax:3",
+          "text": "/openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi\n1/14\n\nFigure 24.10 Fungal phyla. Note: “-mycota” is used to designate a phylum while “-mycetes” formally denotes a class or is used informally\nto refer to all members of the phylum. Chytridiomycota: The Chytrids\nThe only class in the Phylum Chytridiomycota is the Chytridiomycetes. The chytrids are the simplest\nand most primitive Eumycota, or true fungi. The evolutionary record shows that the first recognizable\nchytrids appeared during the late pre-Cambrian period, more than 500 million years ago. Like all fungi,\nchytrids have chitin in their cell walls, but one group of chytrids has both cellulose and chitin in the cell\nwall.",
+          "source_name": "data/24.2 Classifications of Fungi - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 3,
+          "snippet": "/openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi\n1/14\n\nFigure 24.10 Fungal phyla. Note: “-mycota” is used to designate a phylum while “-mycetes” formally denotes a class or is used informally\nto refer to all members of the phylum. Chytridiomycota: The Chytrids\nThe only class in the Phylum Chytridiomycota is the Chytridiomycetes. The chytrids are the simplest\nand most primitive Eu",
+          "score": 0.670774254129534
+        },
+        {
+          "chunk_id": "chunk:24_2_classifications_of_fungi_biology_2e_openstax:1",
+          "text": "phyla that were established according to their mode of sexual\nreproduction or using molecular data.\n\nUnrelated fungi that reproduce without a sexual cycle, were once\nplaced for convenience in a sixth group, the Deuteromycota, called a “form phylum,” because\nsuperficially they appeared to be similar, a polyphyletic group (group of organisms that is of mixed\nevolutionary origin). However, most mycologists have discontinued this practice. Rapid advances in\nmolecular biology and the sequencing of 18S rRNA (ribosomal RNA) continue to show new and\ndifferent relationships among the various categories of fungi.",
+          "source_name": "data/24.2 Classifications of Fungi - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 1,
+          "snippet": "phyla that were established according to their mode of sexual\nreproduction or using molecular data.\n\nUnrelated fungi that reproduce without a sexual cycle, were once\nplaced for convenience in a sixth group, the Deuteromycota, called a “form phylum,” because\nsuperficially they appeared to be similar, a polyphyletic group (group of organisms that is of mixed\nevolutionary origin). However, most mycol",
+          "score": 0.6632899202611215
+        },
+        {
+          "chunk_id": "chunk:24_1_characteristics_of_fungi_biology_2e_openstax:16",
+          "text": "similar morphology to coccus bacteria; however, yeast is a eukaryotic\norganism (note the nucleus).\n\n(credit: modification of work by Dr. Godon Roberstad, CDC; scale-bar\ndata from Matt Russell)\nMost fungi are multicellular organisms. They display two distinct morphological stages: the vegetative\nand reproductive. The vegetative stage consists of a tangle of hyphae, whereas the reproductive stage\ncan be more conspicuous. The mass of hyphae is a mycelium (Figure 24.4). It can grow on a surface, in\nsoil or decaying material, in a liquid, or even on living tissue.",
+          "source_name": "data/24.1 Characteristics of Fungi - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 16,
+          "snippet": "similar morphology to coccus bacteria; however, yeast is a eukaryotic\norganism (note the nucleus).\n\n(credit: modification of work by Dr. Godon Roberstad, CDC; scale-bar\ndata from Matt Russell)\nMost fungi are multicellular organisms. They display two distinct morphological stages: the vegetative\nand reproductive. The vegetative stage consists of a tangle of hyphae, whereas the reproductive stage\nca",
+          "score": 0.656940534208328
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:a6a92f40d2da11da",
+          "head_entity_id": "ent:glomeromycota",
+          "tail_entity_id": "ent:fungi",
+          "relation": "belongs to",
+          "evidence": "The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).",
+          "head_name": "glomeromycota",
+          "tail_name": "fungi",
+          "score": 0.7549276583246975
+        },
+        {
+          "triple_id": "triple:858bc871b05ea40d",
+          "head_entity_id": "ent:chytrids",
+          "tail_entity_id": "ent:chytridiomycota",
+          "relation": "are",
+          "evidence": "The only class in the Phylum Chytridiomycota is the Chytridiomycetes. The chytrids are the simplest and most primitive Eumycota, or true fungi.",
+          "head_name": "chytrids",
+          "tail_name": "chytridiomycota",
+          "score": 0.6687775585380753
+        },
+        {
+          "triple_id": "triple:141eb23241dc08a6",
+          "head_entity_id": "ent:basidiomycota",
+          "tail_entity_id": "ent:basidia",
+          "relation": "produce",
+          "evidence": "The fungi in the Phylum Basidiomycota are easily recognizable under a light microscope by their club-shaped fruiting bodies called basidia (singular, basidium), which are the swollen terminal cells of hyphae.",
+          "head_name": "basidiomycota",
+          "tail_name": "basidia",
+          "score": 0.6414465070722069
+        },
+        {
+          "triple_id": "triple:0d1a3c48afc30d46",
+          "head_entity_id": "ent:fungi",
+          "tail_entity_id": "ent:cyanobacteria",
+          "relation": "form mutualistic associations",
+          "evidence": "Fungi form mutualistic associations with many types of organisms, including cyanobacteria, algae, plants, and animals.",
+          "head_name": "fungi",
+          "tail_name": "cyanobacteria",
+          "score": 0.6214083646011034
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:fungi",
+        "ent:basidiomycota",
+        "ent:ascomycota",
+        "ent:glomeromycota",
+        "ent:chytrids",
+        "ent:chytridiomycota",
+        "ent:basidia",
+        "ent:cyanobacteria"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "fungi",
+          "entity_id": "ent:fungi",
+          "original_names": [
+            "fungi"
+          ]
+        },
+        {
+          "name": "chytridiomycota",
+          "entity_id": "ent:chytridiomycota",
+          "original_names": [
+            "Chytridiomycota"
+          ]
+        },
+        {
+          "name": "chytrids",
+          "entity_id": "ent:chytrids",
+          "original_names": [
+            "Chytrids"
+          ]
+        },
+        {
+          "name": "ascomycota",
+          "entity_id": "ent:ascomycota",
+          "original_names": [
+            "Ascomycota"
+          ]
+        },
+        {
+          "name": "asci",
+          "entity_id": "ent:asci",
+          "original_names": [
+            "asci"
+          ]
+        },
+        {
+          "name": "ascospores",
+          "entity_id": "ent:ascospores",
+          "original_names": [
+            "ascospores"
+          ]
+        },
+        {
+          "name": "formation of an ascus",
+          "entity_id": "ent:formation_of_an_ascus",
+          "original_names": [
+            "formation of an ascus"
+          ]
+        },
+        {
+          "name": "ascocarp",
+          "entity_id": "ent:ascocarp",
+          "original_names": [
+            "ascocarp"
+          ]
+        },
+        {
+          "name": "conidiophores",
+          "entity_id": "ent:conidiophores",
+          "original_names": [
+            "conidiophores"
+          ]
+        },
+        {
+          "name": "yeasts",
+          "entity_id": "ent:yeasts",
+          "original_names": [
+            "yeasts"
+          ]
+        },
+        {
+          "name": "aspergillus oryzae",
+          "entity_id": "ent:aspergillus_oryzae",
+          "original_names": [
+            "Aspergillus oryzae"
+          ]
+        },
+        {
+          "name": "humans",
+          "entity_id": "ent:humans",
+          "original_names": [
+            "humans"
+          ]
+        },
+        {
+          "name": "plants",
+          "entity_id": "ent:plants",
+          "original_names": [
+            "plants"
+          ]
+        },
+        {
+          "name": "conidiospores",
+          "entity_id": "ent:conidiospores",
+          "original_names": [
+            "conidiospores"
+          ]
+        },
+        {
+          "name": "morels",
+          "entity_id": "ent:morels",
+          "original_names": [
+            "morels"
+          ]
+        },
+        {
+          "name": "truffles",
+          "entity_id": "ent:truffles",
+          "original_names": [
+            "truffles"
+          ]
+        },
+        {
+          "name": "animals",
+          "entity_id": "ent:animals",
+          "original_names": [
+            "animals"
+          ]
+        },
+        {
+          "name": "lichens",
+          "entity_id": "ent:lichens",
+          "original_names": [
+            "lichens"
+          ]
+        },
+        {
+          "name": "ectomycorrhizae",
+          "entity_id": "ent:ectomycorrhizae",
+          "original_names": [
+            "ectomycorrhizae"
+          ]
+        },
+        {
+          "name": "glomeromycota",
+          "entity_id": "ent:glomeromycota",
+          "original_names": [
+            "Glomeromycota"
+          ]
+        },
+        {
+          "name": "nostoc",
+          "entity_id": "ent:nostoc",
+          "original_names": [
+            "Nostoc"
+          ]
+        },
+        {
+          "name": "arbuscular mycorrhizae",
+          "entity_id": "ent:arbuscular_mycorrhizae",
+          "original_names": [
+            "arbuscular mycorrhizae"
+          ]
+        },
+        {
+          "name": "endomycorrhizae",
+          "entity_id": "ent:endomycorrhizae",
+          "original_names": [
+            "endomycorrhizae"
+          ]
+        },
+        {
+          "name": "basidiomycota",
+          "entity_id": "ent:basidiomycota",
+          "original_names": [
+            "Basidiomycota"
+          ]
+        },
+        {
+          "name": "basidiocarp",
+          "entity_id": "ent:basidiocarp",
+          "original_names": [
+            "basidiocarp"
+          ]
+        },
+        {
+          "name": "rusts",
+          "entity_id": "ent:rusts",
+          "original_names": [
+            "rusts"
+          ]
+        },
+        {
+          "name": "shelf fungi",
+          "entity_id": "ent:shelf_fungi",
+          "original_names": [
+            "shelf fungi"
+          ]
+        },
+        {
+          "name": "basidiospores",
+          "entity_id": "ent:basidiospores",
+          "original_names": [
+            "basidiospores"
+          ]
+        },
+        {
+          "name": "basidia",
+          "entity_id": "ent:basidia",
+          "original_names": [
+            "basidia"
+          ]
+        },
+        {
+          "name": "mushrooms",
+          "entity_id": "ent:mushrooms",
+          "original_names": [
+            "mushrooms"
+          ]
+        },
+        {
+          "name": "smuts",
+          "entity_id": "ent:smuts",
+          "original_names": [
+            "smuts"
+          ]
+        },
+        {
+          "name": "zygomycota",
+          "entity_id": "ent:zygomycota",
+          "original_names": [
+            "Zygomycota"
+          ]
+        },
+        {
+          "name": "zygomycetes",
+          "entity_id": "ent:zygomycetes",
+          "original_names": [
+            "Zygomycetes"
+          ]
+        },
+        {
+          "name": "algae",
+          "entity_id": "ent:algae",
+          "original_names": [
+            "Algae"
+          ]
+        },
+        {
+          "name": "fungus",
+          "entity_id": "ent:fungus",
+          "original_names": [
+            "fungus"
+          ]
+        },
+        {
+          "name": "photosynthesis",
+          "entity_id": "ent:photosynthesis",
+          "original_names": [
+            "Photosynthesis",
+            "photosynthesis"
+          ]
+        },
+        {
+          "name": "ants",
+          "entity_id": "ent:ants",
+          "original_names": [
+            "ants"
+          ]
+        },
+        {
+          "name": "nitrogen and phosphorus",
+          "entity_id": "ent:nitrogen_and_phosphorus",
+          "original_names": [
+            "nitrogen and phosphorus"
+          ]
+        },
+        {
+          "name": "leaf-cutter ants",
+          "entity_id": "ent:leaf-cutter_ants",
+          "original_names": [
+            "leaf-cutter ants"
+          ]
+        },
+        {
+          "name": "leaves",
+          "entity_id": "ent:leaves",
+          "original_names": [
+            "leaves"
+          ]
+        },
+        {
+          "name": "organic matter",
+          "entity_id": "ent:organic_matter",
+          "original_names": [
+            "organic matter"
+          ]
+        },
+        {
+          "name": "energy from sunlight",
+          "entity_id": "ent:energy_from_sunlight",
+          "original_names": [
+            "energy from sunlight"
+          ]
+        },
+        {
+          "name": "cyanobacteria",
+          "entity_id": "ent:cyanobacteria",
+          "original_names": [
+            "Cyanobacteria"
+          ]
+        },
+        {
+          "name": "parasites",
+          "entity_id": "ent:parasites",
+          "original_names": [
+            "parasites"
+          ]
+        },
+        {
+          "name": "pathogens",
+          "entity_id": "ent:pathogens",
+          "original_names": [
+            "pathogens"
+          ]
+        },
+        {
+          "name": "mycosis",
+          "entity_id": "ent:mycosis",
+          "original_names": [
+            "mycosis"
+          ]
+        },
+        {
+          "name": "mycotoxicosis",
+          "entity_id": "ent:mycotoxicosis",
+          "original_names": [
+            "mycotoxicosis"
+          ]
+        },
+        {
+          "name": "tissue decay",
+          "entity_id": "ent:tissue_decay",
+          "original_names": [
+            "tissue decay"
+          ]
+        },
+        {
+          "name": "model research organisms",
+          "entity_id": "ent:model_research_organisms",
+          "original_names": [
+            "model research organisms"
+          ]
+        },
+        {
+          "name": "population of damaging pests",
+          "entity_id": "ent:population_of_damaging_pests",
+          "original_names": [
+            "population of damaging pests"
+          ]
+        },
+        {
+          "name": "nutrient cycle",
+          "entity_id": "ent:nutrient_cycle",
+          "original_names": [
+            "nutrient cycle"
+          ]
+        },
+        {
+          "name": "fermentation",
+          "entity_id": "ent:fermentation",
+          "original_names": [
+            "fermentation"
+          ]
+        },
+        {
+          "name": "antibiotics",
+          "entity_id": "ent:antibiotics",
+          "original_names": [
+            "antibiotics"
+          ]
+        },
+        {
+          "name": "insects",
+          "entity_id": "ent:insects",
+          "original_names": [
+            "insects"
+          ]
+        },
+        {
+          "name": "zoospores",
+          "entity_id": "ent:zoospores",
+          "original_names": [
+            "zoospores"
+          ]
+        },
+        {
+          "name": "flagella",
+          "entity_id": "ent:flagella",
+          "original_names": [
+            "flagella"
+          ]
+        },
+        {
+          "name": "gametes",
+          "entity_id": "ent:gametes",
+          "original_names": [
+            "gametes"
+          ]
+        },
+        {
+          "name": "aquatic environments",
+          "entity_id": "ent:aquatic_environments",
+          "original_names": [
+            "aquatic environments"
+          ]
+        },
+        {
+          "name": "amphibians",
+          "entity_id": "ent:amphibians",
+          "original_names": [
+            "amphibians"
+          ]
+        },
+        {
+          "name": "light-dependent reactions",
+          "entity_id": "ent:light-dependent_reactions",
+          "original_names": [
+            "light-dependent reactions",
+            "Light-dependent reactions"
+          ]
+        },
+        {
+          "name": "sunlight",
+          "entity_id": "ent:sunlight",
+          "original_names": [
+            "sunlight"
+          ]
+        },
+        {
+          "name": "oxygen",
+          "entity_id": "ent:oxygen",
+          "original_names": [
+            "oxygen"
+          ]
+        },
+        {
+          "name": "glyceraldehyde-3-phosphate",
+          "entity_id": "ent:glyceraldehyde-3-phosphate",
+          "original_names": [
+            "glyceraldehyde-3-phosphate"
+          ]
+        },
+        {
+          "name": "water",
+          "entity_id": "ent:water",
+          "original_names": [
+            "water"
+          ]
+        },
+        {
+          "name": "light-independent reactions",
+          "entity_id": "ent:light-independent_reactions",
+          "original_names": [
+            "light-independent reactions",
+            "Light-independent reactions"
+          ]
+        },
+        {
+          "name": "chloroplast",
+          "entity_id": "ent:chloroplast",
+          "original_names": [
+            "chloroplast",
+            "Chloroplast"
+          ]
+        },
+        {
+          "name": "carbon dioxide",
+          "entity_id": "ent:carbon_dioxide",
+          "original_names": [
+            "carbon dioxide"
+          ]
+        },
+        {
+          "name": "carbohydrates",
+          "entity_id": "ent:carbohydrates",
+          "original_names": [
+            "carbohydrates"
+          ]
+        },
+        {
+          "name": "carbohydrate molecules",
+          "entity_id": "ent:carbohydrate_molecules",
+          "original_names": [
+            "carbohydrate molecules"
+          ]
+        },
+        {
+          "name": "mesophyll",
+          "entity_id": "ent:mesophyll",
+          "original_names": [
+            "mesophyll"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:fungi",
+          "evidence": "The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).",
+          "target_name": "fungi",
+          "source_entity_id": "ent:chytridiomycota",
+          "triple_id": "triple:2b45b0d77a12f1e1",
+          "source_name": "Chytridiomycota",
+          "relation": "belongs to"
+        },
+        {
+          "target_entity_id": "ent:chytridiomycota",
+          "evidence": "The only class in the Phylum Chytridiomycota is the Chytridiomycetes. The chytrids are the simplest and most primitive Eumycota, or true fungi.",
+          "target_name": "Chytridiomycota",
+          "source_entity_id": "ent:chytrids",
+          "triple_id": "triple:858bc871b05ea40d",
+          "source_name": "Chytrids",
+          "relation": "are"
+        },
+        {
+          "target_entity_id": "ent:fungi",
+          "evidence": "The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).",
+          "target_name": "fungi",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:d447c83c90babdc4",
+          "source_name": "Ascomycota",
+          "relation": "belongs to"
+        },
+        {
+          "target_entity_id": "ent:asci",
+          "evidence": "Sexual reproduction starts with the development of special hyphae from either one of two types of mating strains (Figure 24.14).",
+          "target_name": "asci",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:a63f5014a2e9f3df",
+          "source_name": "Ascomycota",
+          "relation": "produce"
+        },
+        {
+          "target_entity_id": "ent:ascospores",
+          "evidence": "The spores in each ascus contain the meiotic products of a single diploid nucleus. The ascospores are then released, germinate, and form hyphae that are disseminated in the environment and start new mycelia (Figure 24.15).",
+          "target_name": "ascospores",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:11975963fef9e8e5",
+          "source_name": "Ascomycota",
+          "relation": "produce"
+        },
+        {
+          "target_entity_id": "ent:formation_of_an_ascus",
+          "evidence": "The Phylum Ascomycota, which is characterized by the formation of an ascus (plural, asci), a sac-like structure that contains haploid ascospores.",
+          "target_name": "formation of an ascus",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:776a5e999094fb95",
+          "source_name": "Ascomycota",
+          "relation": "characterized by"
+        },
+        {
+          "target_entity_id": "ent:ascocarp",
+          "evidence": "Thousands of asci fill a fruiting body called the ascocarp.",
+          "target_name": "ascocarp",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:2cab3a4f35e3995d",
+          "source_name": "Ascomycota",
+          "relation": "produce"
+        },
+        {
+          "target_entity_id": "ent:conidiophores",
+          "evidence": "Asexual reproduction is frequent and involves the production of conidiophores that release haploid conidiospores (Figure 24.14).",
+          "target_name": "conidiophores",
+          "source_entity_id": "ent:ascomycota",
+          "triple_id": "triple:dfadf411c7091813",
+          "source_name": "Ascomycota",
+          "relation": "produce"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What are the major phyla of the kingdom Fungi covered in the chapter?",
+    "answer": "Chytridiomycota, Zygomycota, Ascomycota, Basidiomycota, Glomeromycota",
+    "citations": [
+      "chunk:24_2_classifications_of_fungi_biology_2e_openstax:0 | data/24.2 Classifications of Fungi - Biology 2e _ OpenStax.pdf | 24.2 Classifications of Fungi Learning Objectives By the end of this section, you will be able to do the following: I...",
+      "chunk:24_2_classifications_of_fungi_biology_2e_openstax:2 | data/24.2 Classifications of Fungi - Biology 2e _ OpenStax.pdf | RNA) continue to show new and different relationships among the various categories of fungi. The five true phyla of f..."
+    ],
+    "reasoning": "Matched entities: fungi. Traversed graph edges: Chytridiomycota --[belongs to]--> fungi; Chytrids --[are]--> Chytridiomycota; Ascomycota --[belongs to]--> fungi. Graph evidence: \"The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).\". The text states that the five true phyla of fungi are Chytridiomycota, Zygomycota, Ascomycota, Basidiomycota, and Glomeromycota."
+  }
+}

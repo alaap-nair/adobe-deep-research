@@ -1,0 +1,8 @@
+{
+  "question": "What enzyme catalyzes carbon fixation in the Calvin cycle?",
+  "answer": "RuBisCO",
+  "citations": [
+    "triple:947d67f6ad421a32 | rubisco --[catalyzes]--> reaction between co2 and rubp"
+  ],
+  "reasoning": "Matched entities: 5-carbon sugar, calvin cycle, carbon fixation. Traversed graph edges: nucleotide --[contains]--> 5-carbon sugar; nucleotide --[contains]--> nitrogenous base; nucleotide --[contains]--> phosphate group. Graph evidence: \"The important components of the nucleotide are a nitrogenous (nitrogen-bearing) base, a 5-carbon sugar (pentose), and a phosphate group (Figure 14.5).\". RuBisCO catalyzes the reaction between CO2 and RuBP, which is the first step in the Calvin cycle where carbon fixation occurs."
+}

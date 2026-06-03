@@ -1,0 +1,373 @@
+==== START Thu Apr 30 23:40:48 PDT 2026 ====
+
+==== RUN: mistral_baseline  Thu Apr 30 23:40:49 PDT 2026 ====
+== Model: mistralai/mistral-small-3.2-24b-instruct
+== Label: mistral_baseline
+== Output dir: /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/mistral_baseline
+== Questions: 40
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 4811.83it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    q1 ok   11.77s  cites= 3  ans_len=   7
+    q2 ok    2.90s  cites= 1  ans_len=  18
+    q3 ok    3.39s  cites= 2  ans_len=  37
+    q4 ok    8.19s  cites= 2  ans_len= 192
+    q5 ok    3.12s  cites= 2  ans_len= 224
+    q6 ok    4.06s  cites= 2  ans_len= 282
+    q7 ok    4.82s  cites= 2  ans_len= 108
+    q8 ok    9.41s  cites= 3  ans_len=  15
+    q9 ok    3.35s  cites= 2  ans_len=  25
+   q10 REF   2.49s  cites= 2  ans_len=  43
+   q11 ok    2.54s  cites= 1  ans_len=  13
+   q12 ok    6.62s  cites= 1  ans_len=  17
+   q13 ok    4.60s  cites= 2  ans_len=  69
+   q14 ok    4.84s  cites= 2  ans_len= 146
+   q15 ok    2.74s  cites= 2  ans_len= 212
+   q16 ok    9.62s  cites= 5  ans_len=   5
+   q17 ok    2.04s  cites= 1  ans_len=  25
+   q18 ok    3.77s  cites= 2  ans_len=  13
+   q19 ok    9.56s  cites= 1  ans_len=  46
+   q20 ok    4.58s  cites= 1  ans_len=  36
+   q21 ok    1.75s  cites= 1  ans_len=  11
+   q22 ok    2.23s  cites= 2  ans_len=  19
+   q23 REF   3.93s  cites= 2  ans_len=  43
+   q24 ok    3.68s  cites= 3  ans_len= 353
+   q25 REF   3.61s  cites= 2  ans_len=  43
+   q26 ERR   2.43s  cites= 0  ans_len=   0  err=1 validation error for QAResponse reasoning   Field required [type=missing, inpu
+   q27 ok    2.55s  cites= 1  ans_len=  66
+   q28 REF   1.73s  cites= 2  ans_len=  43
+   q29 ok   10.26s  cites= 3  ans_len= 132
+   q30 REF   3.86s  cites= 2  ans_len=  43
+   q31 ok    3.14s  cites= 2  ans_len= 113
+   q32 ok    2.63s  cites= 1  ans_len=  33
+   q33 ok    2.94s  cites= 1  ans_len=  72
+   q34 ok    4.19s  cites= 2  ans_len=  53
+   q35 ok    2.30s  cites= 2  ans_len= 237
+   q36 ok    5.56s  cites= 2  ans_len= 314
+   q37 ok    2.71s  cites= 2  ans_len=  58
+   q38 ok   16.20s  cites= 6  ans_len= 471
+   q39 ok   12.97s  cites= 2  ans_len= 344
+   q40 REF   3.51s  cites= 2  ans_len=  43
+
+Done. Traces in /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/mistral_baseline
+Latency: /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/mistral_baseline/latency.csv
+
+==== RUN: qwen25_72b  Thu Apr 30 23:44:23 PDT 2026 ====
+== Model: qwen/qwen2.5-72b-instruct
+== Label: qwen25_72b
+== Output dir: /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/qwen25_72b
+== Questions: 40
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 4335.34it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    q1 ERR   0.82s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+    q2 ERR   0.37s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+    q3 ERR   1.13s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+    q4 ERR   0.33s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+    q5 ERR   0.40s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+    q6 ERR   0.50s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+    q7 ERR   0.54s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+    q8 ERR   0.35s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+    q9 ERR   0.38s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q10 ERR   0.38s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q11 ERR   0.53s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q12 ERR   0.19s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q13 ERR   0.35s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q14 ERR   0.27s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q15 ERR   0.25s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q16 ERR   0.65s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q17 ERR   0.46s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q18 ERR   0.59s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q19 ERR   0.44s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q20 ERR   0.27s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q21 ERR   0.22s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q22 ERR   0.27s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q23 ERR   0.33s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q24 ERR   0.46s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q25 ERR   0.15s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q26 ERR   0.33s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q27 ERR   0.30s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q28 ERR   0.22s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q29 ERR   0.21s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q30 ERR   0.26s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q31 ERR   0.29s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q32 ERR   0.27s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q33 ERR   0.19s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q34 ERR   0.17s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q35 ERR   0.26s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q36 ERR   0.44s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q37 ERR   0.31s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q38 ERR   0.47s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q39 ERR   0.42s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+   q40 ERR   0.36s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+
+Done. Traces in /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/qwen25_72b
+Latency: /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/qwen25_72b/latency.csv
+
+==== RUN: gemma2_27b  Thu Apr 30 23:44:50 PDT 2026 ====
+== Model: google/gemma-2-27b-it
+== Label: gemma2_27b
+== Output dir: /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/gemma2_27b
+== Questions: 40
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 7535.36it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    q1 ERR   1.36s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+    q2 ok    4.16s  cites= 2  ans_len=  18
+    q3 ok    4.64s  cites= 2  ans_len=  37
+    q4 ok    6.25s  cites= 2  ans_len= 231
+    q5 ok    4.88s  cites= 2  ans_len=  51
+    q6 ok    5.43s  cites= 2  ans_len=  25
+    q7 ok    7.97s  cites= 2  ans_len=  88
+/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/multiprocessing/resource_tracker.py:396: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/loky-51695-5uhgmqgx'}
+  warnings.warn(
+==== RESTART Thu Apr 30 23:46:24 PDT 2026 ====
+
+==== RUN: qwen25_72b  Thu Apr 30 23:46:24 PDT 2026 ====
+== Model: qwen/qwen-2.5-72b-instruct
+== Label: qwen25_72b
+== Output dir: /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/qwen25_72b
+== Questions: 40
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 7187.22it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    q1 ok   12.79s  cites= 1  ans_len=   7
+    q2 ok   12.54s  cites= 1  ans_len=  18
+    q3 ok   13.21s  cites= 1  ans_len=  37
+    q4 ok   14.51s  cites= 1  ans_len= 254
+    q5 ok   26.79s  cites= 3  ans_len= 287
+    q6 ok   16.30s  cites= 2  ans_len= 219
+    q7 ok   26.91s  cites= 4  ans_len= 110
+    q8 ok   18.00s  cites= 4  ans_len= 151
+    q9 ok   13.10s  cites= 1  ans_len=  25
+   q10 REF  18.18s  cites= 2  ans_len=  43
+   q11 ok   12.87s  cites= 2  ans_len=  11
+   q12 ok   13.33s  cites= 1  ans_len= 304
+   q13 ok   14.25s  cites= 1  ans_len=  69
+   q14 ok   15.98s  cites= 3  ans_len= 174
+   q15 ok   21.51s  cites= 2  ans_len= 153
+   q16 ok   12.41s  cites= 1  ans_len=   5
+   q17 ok   12.38s  cites= 1  ans_len=  14
+   q18 ok   21.27s  cites= 3  ans_len=  13
+   q19 ok   21.69s  cites= 1  ans_len= 149
+   q20 ok   15.12s  cites= 1  ans_len=  36
+   q21 ok   16.59s  cites= 2  ans_len= 212
+   q22 ok   21.43s  cites= 3  ans_len= 178
+   q23 REF   6.73s  cites= 2  ans_len=  43
+   q24 ok   19.84s  cites= 2  ans_len= 392
+   q25 ok   12.80s  cites= 2  ans_len= 187
+   q26 ok   14.53s  cites= 2  ans_len= 308
+   q27 ok   13.94s  cites= 1  ans_len= 225
+   q28 REF   6.33s  cites= 2  ans_len=  43
+   q29 ok   15.37s  cites= 3  ans_len= 186
+   q30 REF   6.34s  cites= 2  ans_len=  43
+   q31 ok   23.36s  cites= 6  ans_len= 236
+   q32 ok    6.78s  cites= 1  ans_len=  66
+   q33 ok   10.54s  cites= 1  ans_len= 252
+   q34 ok   11.40s  cites= 3  ans_len= 161
+   q35 ok   16.39s  cites= 4  ans_len= 160
+   q36 ok   17.83s  cites= 1  ans_len= 529
+   q37 ok   15.57s  cites= 3  ans_len= 195
+   q38 ok   18.47s  cites= 4  ans_len= 450
+   q39 ok   22.47s  cites= 4  ans_len= 342
+   q40 REF   6.70s  cites= 2  ans_len=  43
+
+Done. Traces in /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/qwen25_72b
+Latency: /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/qwen25_72b/latency.csv
+
+==== RUN: gemma2_27b  Thu Apr 30 23:56:56 PDT 2026 ====
+== Model: google/gemma-2-27b-it
+== Label: gemma2_27b
+== Output dir: /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/gemma2_27b
+== Questions: 40
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 4558.48it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    q1 ERR   1.05s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+    q2 ok    2.88s  cites= 2  ans_len=  18
+    q3 ok    2.96s  cites= 2  ans_len=  37
+    q4 ok    4.22s  cites= 2  ans_len= 231
+    q5 ok    3.00s  cites= 2  ans_len=  51
+    q6 ok    4.42s  cites= 2  ans_len=  25
+    q7 ok    4.12s  cites= 2  ans_len=  88
+    q8 ok    4.32s  cites= 2  ans_len=  15
+    q9 ERR   1.13s  cites= 0  ans_len=   0  err=400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/complet
+/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/multiprocessing/resource_tracker.py:396: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/loky-58251-662smrpu'}
+  warnings.warn(
+==== RESTART (gemma+phi) Fri May  1 00:01:19 PDT 2026 ====
+
+==== RUN: gemma2_27b  Fri May  1 00:01:19 PDT 2026 ====
+== Model: google/gemma-2-27b-it
+== Label: gemma2_27b
+== Output dir: /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/gemma2_27b
+== Questions: 40
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 6800.01it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    q1 ok    3.19s  cites= 2  ans_len=   7
+    q2 ok    2.95s  cites= 2  ans_len=  18
+    q3 ok    3.28s  cites= 2  ans_len=  37
+    q4 ok    4.72s  cites= 2  ans_len= 231
+    q5 ok    2.97s  cites= 2  ans_len=  51
+    q6 ok    3.67s  cites= 2  ans_len=  25
+    q7 ok    4.24s  cites= 2  ans_len=  88
+    q8 ok    2.58s  cites= 2  ans_len=  15
+    q9 ok    6.29s  cites= 2  ans_len=  12
+   q10 ok    5.27s  cites= 1  ans_len=  84
+   q11 ok    4.88s  cites= 2  ans_len=  13
+   q12 ok    5.96s  cites= 2  ans_len= 118
+   q13 ok    5.25s  cites= 2  ans_len=  69
+   q14 ok    7.67s  cites= 2  ans_len=  40
+   q15 ok    5.05s  cites= 2  ans_len= 149
+   q16 ok    7.27s  cites= 2  ans_len=   5
+   q17 ok    4.57s  cites= 2  ans_len=  25
+   q18 ok    5.38s  cites= 2  ans_len=  12
+   q19 ok    8.30s  cites= 2  ans_len= 135
+   q20 ok    4.47s  cites= 2  ans_len=  36
+   q21 ok    3.13s  cites= 2  ans_len=  11
+   q22 ok    5.19s  cites= 2  ans_len=  55
+   q23 ok    3.84s  cites= 2  ans_len=   6
+   q24 ok    5.87s  cites= 2  ans_len= 204
+   q25 ok    5.17s  cites= 2  ans_len=  72
+   q26 ok    8.97s  cites= 2  ans_len=  97
+   q27 ok    5.25s  cites= 2  ans_len=  63
+   q28 ok    5.33s  cites= 2  ans_len= 159
+   q29 ok    5.57s  cites= 2  ans_len=  81
+   q30 REF   3.77s  cites= 2  ans_len=  43
+   q31 ok    5.71s  cites= 2  ans_len= 102
+   q32 ok    6.13s  cites= 2  ans_len=  42
+   q33 ok    4.62s  cites= 2  ans_len=   7
+   q34 ok    6.40s  cites= 2  ans_len=  53
+   q35 ok    7.92s  cites= 2  ans_len= 161
+   q36 ok    4.98s  cites= 2  ans_len= 133
+   q37 ok    8.30s  cites= 2  ans_len= 222
+   q38 ok   11.37s  cites= 2  ans_len= 353
+   q39 ok    8.02s  cites= 2  ans_len= 230
+   q40 ok    8.15s  cites= 2  ans_len= 144
+
+Done. Traces in /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/gemma2_27b
+Latency: /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/gemma2_27b/latency.csv
+
+==== RUN: phi4  Fri May  1 00:05:12 PDT 2026 ====
+== Model: microsoft/phi-4
+== Label: phi4
+== Output dir: /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/phi4
+== Questions: 40
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 7697.45it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    q1 ok    5.94s  cites= 1  ans_len=   7
+    q2 ok   11.84s  cites= 2  ans_len=  18
+    q3 ERR  15.43s  cites= 0  ans_len=   0  err=Unterminated string starting at: line 9 column 16 (char 1932)
+    q4 ok    9.65s  cites= 2  ans_len= 178
+    q5 ok    5.75s  cites= 2  ans_len=  88
+    q6 ok    6.35s  cites= 2  ans_len= 197
+    q7 ok    9.23s  cites= 2  ans_len= 105
+    q8 ok   12.01s  cites= 1  ans_len= 280
+    q9 ok   11.02s  cites= 2  ans_len=  27
+   q10 REF   2.26s  cites= 2  ans_len=  43
+/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/multiprocessing/resource_tracker.py:396: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/loky-62888-hvxettly'}
+  warnings.warn(
+
+==== RESTART (phi4 only) Fri May  1 00:08:13 PDT 2026 ====
+==== RUN: phi4  Fri May  1 00:08:13 PDT 2026 ====
+== Model: microsoft/phi-4
+== Label: phi4
+== Output dir: /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/phi4
+== Questions: 40
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 7291.65it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    q1 ok    9.30s  cites= 2  ans_len=   7
+    q2 ok   16.63s  cites= 2  ans_len=  18
+    q3 ok    5.93s  cites= 1  ans_len=  37
+    q4 ok   12.35s  cites= 2  ans_len= 178
+    q5 ok    9.96s  cites= 2  ans_len= 262
+    q6 ok    3.51s  cites= 2  ans_len= 197
+    q7 ok    7.87s  cites= 1  ans_len= 165
+    q8 ok    9.22s  cites= 1  ans_len= 280
+    q9 ok    4.32s  cites= 1  ans_len=  25
+   q10 ok   18.51s  cites= 2  ans_len= 386
+   q11 ok    4.65s  cites= 2  ans_len=  11
+   q12 ok    4.56s  cites= 2  ans_len=  27
+   q13 ok    6.26s  cites= 1  ans_len=  69
+   q14 ok   13.42s  cites= 2  ans_len= 176
+   q15 ok   10.94s  cites= 2  ans_len=  67
+   q16 ok    9.26s  cites= 3  ans_len=   5
+   q17 ok    4.62s  cites= 2  ans_len=  14
+   q18 ok   10.98s  cites= 2  ans_len=  13
+   q19 ok    9.36s  cites= 2  ans_len=  18
+   q20 ok    2.40s  cites= 2  ans_len=  36
+   q21 ok    7.52s  cites= 1  ans_len=  48
+   q22 ok    3.10s  cites= 2  ans_len=  95
+   q23 REF   1.85s  cites= 2  ans_len=  43
+   q24 ok   10.02s  cites= 2  ans_len= 299
+   q25 ok    2.71s  cites= 2  ans_len= 154
+   q26 ok    7.69s  cites= 2  ans_len= 252
+   q27 ok   12.48s  cites= 2  ans_len= 147
+   q28 ok    3.57s  cites= 2  ans_len= 288
+   q29 ok    7.45s  cites= 1  ans_len=  86
+   q30 REF   3.03s  cites= 2  ans_len=  43
+   q31 ok    7.93s  cites= 1  ans_len= 114
+   q32 ok   14.17s  cites= 2  ans_len=  42
+   q33 ok    7.68s  cites= 2  ans_len=   7
+   q34 ok    6.31s  cites= 6  ans_len= 144
+   q35 ok    6.98s  cites= 1  ans_len= 142
+   q36 ok   11.97s  cites= 2  ans_len= 378
+   q37 ok   18.52s  cites= 1  ans_len= 405
+   q38 ok   15.20s  cites= 2  ans_len= 698
+   q39 ok    5.93s  cites= 2  ans_len= 274
+   q40 ok   16.13s  cites= 2  ans_len= 175
+
+Done. Traces in /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/phi4
+Latency: /Users/jasonyi/Desktop/adobe-deep-research/outputs/model_runs/phi4/latency.csv
+
+==== ALL MODELS DONE Fri May  1 00:14:08 PDT 2026 ====
