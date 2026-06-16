@@ -1,0 +1,913 @@
+{
+  "question": "What is the function of the ribosome?",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "function",
+        "ribosome",
+        "function ribosome"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:ribosome",
+          "name": "ribosome",
+          "matched_text": "ribosome",
+          "matched_alias": "ribosome",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:nonfunctional_protein",
+          "name": "nonfunctional protein",
+          "matched_text": "function",
+          "matched_alias": "nonfunctional protein",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        },
+        {
+          "entity_id": "ent:t",
+          "name": "t",
+          "matched_text": "function ribosome",
+          "matched_alias": "t",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:ch15_genes_and_proteins:81",
+          "text": "In E. coli, there are\nbetween 10,000 and 70,000 ribosomes present in each cell at any given time.\n\nA ribosome is a complex\nmacromolecule composed of structural and catalytic rRNAs, and many distinct polypeptides. In eukaryotes, the\nnucleolus is completely specialized for the synthesis and assembly of rRNAs. Ribosomes exist in the cytoplasm of prokaryotes and in the cytoplasm and rough endoplasmic reticulum of\neukaryotes. Mitochondria and chloroplasts also have their own ribosomes in the matrix and stroma, which look\nmore similar to prokaryotic ribosomes (and have similar drug sensitivities) than the ribosomes just outside their\nouter membranes in the cytoplasm.",
+          "source_name": "data/Ch15_Genes_and_Proteins.pdf",
+          "chunk_index": 81,
+          "snippet": "In E. coli, there are\nbetween 10,000 and 70,000 ribosomes present in each cell at any given time.\n\nA ribosome is a complex\nmacromolecule composed of structural and catalytic rRNAs, and many distinct polypeptides. In eukaryotes, the\nnucleolus is completely specialized for the synthesis and assembly of rRNAs. Ribosomes exist in the cytoplasm of prokaryotes and in the cytoplasm and rough endoplasmic ",
+          "score": 0.7436038413437017
+        },
+        {
+          "chunk_id": "chunk:ch15_genes_and_proteins:80",
+          "text": "on the organism.\n\nHowever, the general structures and functions of\nthe protein synthesis machinery are comparable from bacteria to human cells. Translation requires the input of an\nmRNA template, ribosomes, tRNAs, and various enzymatic factors. (Note: A ribosome can be thought of as an\nenzyme whose amino acid binding sites are specified by mRNA.)\nLINK TO LEARNING\nClick through the steps of this PBS interactive (https://openstax.org/l/prokary_protein) to see protein synthesis in\naction. Ribosomes\nEven before an mRNA is translated, a cell must invest energy to build each of its ribosomes. In E. coli, there are\nbetween 10,000 and 70,000 ribosomes present in each cell at any given time.",
+          "source_name": "data/Ch15_Genes_and_Proteins.pdf",
+          "chunk_index": 80,
+          "snippet": "on the organism.\n\nHowever, the general structures and functions of\nthe protein synthesis machinery are comparable from bacteria to human cells. Translation requires the input of an\nmRNA template, ribosomes, tRNAs, and various enzymatic factors. (Note: A ribosome can be thought of as an\nenzyme whose amino acid binding sites are specified by mRNA.)\nLINK TO LEARNING\nClick through the steps of this PB",
+          "score": 0.7385387668552992
+        },
+        {
+          "chunk_id": "chunk:ch15_genes_and_proteins:86",
+          "text": "it is surprising that tRNAs can fit so much specificity into such a small\npackage.\n\nConsider that tRNAs need to interact with three factors: 1) they must be recognized by the correct\naminoacyl synthetase (see below); 2) they must be recognized by ribosomes; and 3) they must bind to the correct\nsequence in mRNA. FIGURE 15.16 The ribosome and its function. The ribosome is responsible for translating the mRNA into protein. A. The ribosome consists\nof a large and small ribosomal subunit. Assembly of the subunits on the mRNA forms three tRNA binding sites. B. During translation,\ncharged tRNAs enter the Acceptor site, and the anticodon on the tRNA base pairs with the codon in the mRNA.",
+          "source_name": "data/Ch15_Genes_and_Proteins.pdf",
+          "chunk_index": 86,
+          "snippet": "it is surprising that tRNAs can fit so much specificity into such a small\npackage.\n\nConsider that tRNAs need to interact with three factors: 1) they must be recognized by the correct\naminoacyl synthetase (see below); 2) they must be recognized by ribosomes; and 3) they must bind to the correct\nsequence in mRNA. FIGURE 15.16 The ribosome and its function. The ribosome is responsible for translating",
+          "score": 0.726693418021866
+        },
+        {
+          "chunk_id": "chunk:mcb_genetics:166",
+          "text": "considered structural\nRNAs because they have a cellular role but are not translated into protein.\n\nThe rRNAs are components of the\nribosome and are essential to the process of translation. RNA polymerase I synthesizes all of the rRNAs from the\ntandemly duplicated set of 18S, 5.8S, and 28S ribosomal genes. (Note that the \u201cS\u201d designation applies to\n\u201cSvedberg\u201d units, a nonadditive value that characterizes the speed at which a particle sediments during\ncentrifugation.)\n15.3 \u2022 Eukaryotic Transcription\n399",
+          "source_name": "/Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf",
+          "chunk_index": 166,
+          "snippet": "considered structural\nRNAs because they have a cellular role but are not translated into protein.\n\nThe rRNAs are components of the\nribosome and are essential to the process of translation. RNA polymerase I synthesizes all of the rRNAs from the\ntandemly duplicated set of 18S, 5.8S, and 28S ribosomal genes. (Note that the \u201cS\u201d designation applies to\n\u201cSvedberg\u201d units, a nonadditive value that characte",
+          "score": 0.705728347721581
+        },
+        {
+          "chunk_id": "chunk:ch15_genes_and_proteins:77",
+          "text": "molecule that adds the amino acid phenylalanine to a growing polypeptide chain.\n\nThe\nanticodon AAG binds the Codon UUC on the mRNA. The amino acid phenylalanine is attached to the other end of the tRNA. 15.5 Ribosomes and Protein Synthesis\nLEARNING OBJECTIVES\nBy the end of this section, you will be able to do the following:\n\u2022\nDescribe the different steps in protein synthesis\n\u2022\nDiscuss the role of ribosomes in protein synthesis\nThe synthesis of proteins consumes more of a cell\u2019s energy than any other metabolic process. In turn, proteins\naccount for more mass than any other component of living organisms (with the exception of water), and proteins\nperform virtually every function of a cell.",
+          "source_name": "data/Ch15_Genes_and_Proteins.pdf",
+          "chunk_index": 77,
+          "snippet": "molecule that adds the amino acid phenylalanine to a growing polypeptide chain.\n\nThe\nanticodon AAG binds the Codon UUC on the mRNA. The amino acid phenylalanine is attached to the other end of the tRNA. 15.5 Ribosomes and Protein Synthesis\nLEARNING OBJECTIVES\nBy the end of this section, you will be able to do the following:\n\u2022\nDescribe the different steps in protein synthesis\n\u2022\nDiscuss the role of ",
+          "score": 0.7039089252739784
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:c1d3044d206478df",
+          "head_entity_id": "ent:ribosome",
+          "tail_entity_id": "ent:mrna_into_protein",
+          "relation": "translates",
+          "evidence": "The ribosome is responsible for translating the mRNA into protein.",
+          "head_name": "ribosome",
+          "tail_name": "mRNA into protein",
+          "score": 0.7967558428805899
+        },
+        {
+          "triple_id": "triple:1489412220adcab3",
+          "head_entity_id": "ent:rrnas",
+          "tail_entity_id": "ent:ribosome",
+          "relation": "are components of",
+          "evidence": "The rRNAs are components of the ribosome and are essential to the process of translation.",
+          "head_name": "rRNAs",
+          "tail_name": "ribosome",
+          "score": 0.7577970696247505
+        },
+        {
+          "triple_id": "triple:a617519345e409df",
+          "head_entity_id": "ent:guanosine_triphosphate",
+          "tail_entity_id": "ent:energy_source",
+          "relation": "acts as",
+          "evidence": "Guanosine triphosphate (GTP), which is a purine nucleotide triphosphate, acts as an energy source during translation\u2014both at the start of elongation and during the ribosome\u2019s translocation.",
+          "head_name": "Guanosine triphosphate",
+          "tail_name": "energy source",
+          "score": 0.7270723494051817
+        },
+        {
+          "triple_id": "triple:3fc64c32852bfe3b",
+          "head_entity_id": "ent:ribosome",
+          "tail_entity_id": "ent:large_and_small_ribosomal_subunit",
+          "relation": "consists of",
+          "evidence": "The ribosome consists of a large and small ribosomal subunit.",
+          "head_name": "ribosome",
+          "tail_name": "large and small ribosomal subunit",
+          "score": 0.7184005693864078
+        },
+        {
+          "triple_id": "triple:4f63682e67bac020",
+          "head_entity_id": "ent:ribosome",
+          "tail_entity_id": "ent:mrna_template",
+          "relation": "binds",
+          "evidence": "A ribosome can be thought of as an enzyme whose amino acid binding sites are specified by mRNA.",
+          "head_name": "ribosome",
+          "tail_name": "mRNA template",
+          "score": 0.7143277052398355
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:ribosome",
+        "ent:nonfunctional_protein",
+        "ent:t",
+        "ent:mrna_into_protein",
+        "ent:rrnas",
+        "ent:guanosine_triphosphate",
+        "ent:energy_source",
+        "ent:large_and_small_ribosomal_subunit",
+        "ent:mrna_template"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "ribosome",
+          "entity_id": "ent:ribosome",
+          "original_names": [
+            "ribosome",
+            "Ribosome"
+          ]
+        },
+        {
+          "name": "matrix and stroma of mitochondria and chloroplasts",
+          "entity_id": "ent:matrix_and_stroma_of_mitochondria_and_chloroplasts",
+          "original_names": [
+            "matrix and stroma of mitochondria and chloroplasts"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "intron",
+          "entity_id": "ent:intron",
+          "original_names": [
+            "intron"
+          ]
+        },
+        {
+          "name": "nucleotides",
+          "entity_id": "ent:nucleotides",
+          "original_names": [
+            "nucleotides"
+          ]
+        },
+        {
+          "name": "genes",
+          "entity_id": "ent:genes",
+          "original_names": [
+            "genes"
+          ]
+        },
+        {
+          "name": "itself",
+          "entity_id": "ent:itself",
+          "original_names": [
+            "itself"
+          ]
+        },
+        {
+          "name": "7-methylguanosine cap",
+          "entity_id": "ent:7-methylguanosine_cap",
+          "original_names": [
+            "7-methylguanosine cap"
+          ]
+        },
+        {
+          "name": "t nucleotides with u nucleotides",
+          "entity_id": "ent:t_nucleotides_with_u_nucleotides",
+          "original_names": [
+            "T nucleotides with U nucleotides"
+          ]
+        },
+        {
+          "name": "trna",
+          "entity_id": "ent:trna",
+          "original_names": [
+            "tRNA"
+          ]
+        },
+        {
+          "name": "nontemplate strand",
+          "entity_id": "ent:nontemplate_strand",
+          "original_names": [
+            "nontemplate strand"
+          ]
+        },
+        {
+          "name": "codons",
+          "entity_id": "ent:codons",
+          "original_names": [
+            "codons"
+          ]
+        },
+        {
+          "name": "termination",
+          "entity_id": "ent:termination",
+          "original_names": [
+            "termination"
+          ]
+        },
+        {
+          "name": "core enzyme",
+          "entity_id": "ent:core_enzyme",
+          "original_names": [
+            "Core enzyme",
+            "core enzyme"
+          ]
+        },
+        {
+          "name": "elongation",
+          "entity_id": "ent:elongation",
+          "original_names": [
+            "elongation"
+          ]
+        },
+        {
+          "name": "proteins",
+          "entity_id": "ent:proteins",
+          "original_names": [
+            "proteins",
+            "Proteins"
+          ]
+        },
+        {
+          "name": "globin protein",
+          "entity_id": "ent:globin_protein",
+          "original_names": [
+            "globin protein"
+          ]
+        },
+        {
+          "name": "initiation complex",
+          "entity_id": "ent:initiation_complex",
+          "original_names": [
+            "initiation complex"
+          ]
+        },
+        {
+          "name": "ribosomal subunits",
+          "entity_id": "ent:ribosomal_subunits",
+          "original_names": [
+            "ribosomal subunits"
+          ]
+        },
+        {
+          "name": "mrna into protein",
+          "entity_id": "ent:mrna_into_protein",
+          "original_names": [
+            "mRNA into protein"
+          ]
+        },
+        {
+          "name": "successive trnas",
+          "entity_id": "ent:successive_trnas",
+          "original_names": [
+            "successive tRNAs"
+          ]
+        },
+        {
+          "name": "3\u2019 end of the mrna",
+          "entity_id": "ent:3\u2019_end_of_the_mrna",
+          "original_names": [
+            "3\u2019 end of the mRNA"
+          ]
+        },
+        {
+          "name": "trnas nonspecifically and randomly",
+          "entity_id": "ent:trnas_nonspecifically_and_randomly",
+          "original_names": [
+            "tRNAs nonspecifically and randomly"
+          ]
+        },
+        {
+          "name": "cytoplasm and rough endoplasmic reticulum of eukaryotes",
+          "entity_id": "ent:cytoplasm_and_rough_endoplasmic_reticulum_of_eukaryotes",
+          "original_names": [
+            "cytoplasm and rough endoplasmic reticulum of eukaryotes"
+          ]
+        },
+        {
+          "name": "translocation channel in the er membrane",
+          "entity_id": "ent:translocation_channel_in_the_er_membrane",
+          "original_names": [
+            "translocation channel in the ER membrane"
+          ]
+        },
+        {
+          "name": "protein",
+          "entity_id": "ent:protein",
+          "original_names": [
+            "protein",
+            "Protein"
+          ]
+        },
+        {
+          "name": "35s",
+          "entity_id": "ent:35s",
+          "original_names": [
+            "35S"
+          ]
+        },
+        {
+          "name": "rna",
+          "entity_id": "ent:rna",
+          "original_names": [
+            "RNA"
+          ]
+        },
+        {
+          "name": "signal sequence",
+          "entity_id": "ent:signal_sequence",
+          "original_names": [
+            "Signal sequence",
+            "signal sequence"
+          ]
+        },
+        {
+          "name": "reading frame",
+          "entity_id": "ent:reading_frame",
+          "original_names": [
+            "reading frame"
+          ]
+        },
+        {
+          "name": "er lumen",
+          "entity_id": "ent:er_lumen",
+          "original_names": [
+            "ER lumen"
+          ]
+        },
+        {
+          "name": "abnormal temperature or ph conditions",
+          "entity_id": "ent:abnormal_temperature_or_ph_conditions",
+          "original_names": [
+            "abnormal temperature or pH conditions"
+          ]
+        },
+        {
+          "name": "many proteins",
+          "entity_id": "ent:many_proteins",
+          "original_names": [
+            "many proteins"
+          ]
+        },
+        {
+          "name": "translation",
+          "entity_id": "ent:translation",
+          "original_names": [
+            "translation",
+            "Translation"
+          ]
+        },
+        {
+          "name": "amino acid",
+          "entity_id": "ent:amino_acid",
+          "original_names": [
+            "amino acid",
+            "Amino acid"
+          ]
+        },
+        {
+          "name": "aminoacyl trna synthetases",
+          "entity_id": "ent:aminoacyl_trna_synthetases",
+          "original_names": [
+            "aminoacyl tRNA synthetases"
+          ]
+        },
+        {
+          "name": "nucleotide triplet",
+          "entity_id": "ent:nucleotide_triplet",
+          "original_names": [
+            "nucleotide triplet"
+          ]
+        },
+        {
+          "name": "triplet codon",
+          "entity_id": "ent:triplet_codon",
+          "original_names": [
+            "triplet codon"
+          ]
+        },
+        {
+          "name": "side chain",
+          "entity_id": "ent:side_chain",
+          "original_names": [
+            "side chain"
+          ]
+        },
+        {
+          "name": "carboxyl group",
+          "entity_id": "ent:carboxyl_group",
+          "original_names": [
+            "carboxyl group"
+          ]
+        },
+        {
+          "name": "trna molecule",
+          "entity_id": "ent:trna_molecule",
+          "original_names": [
+            "tRNA molecule"
+          ]
+        },
+        {
+          "name": "amino group",
+          "entity_id": "ent:amino_group",
+          "original_names": [
+            "amino group"
+          ]
+        },
+        {
+          "name": "mrna template",
+          "entity_id": "ent:mrna_template",
+          "original_names": [
+            "mRNA template"
+          ]
+        },
+        {
+          "name": "trna binding specificity",
+          "entity_id": "ent:trna_binding_specificity",
+          "original_names": [
+            "tRNA binding specificity"
+          ]
+        },
+        {
+          "name": "small subunit",
+          "entity_id": "ent:small_subunit",
+          "original_names": [
+            "small subunit"
+          ]
+        },
+        {
+          "name": "initiation of translation",
+          "entity_id": "ent:initiation_of_translation",
+          "original_names": [
+            "initiation of translation"
+          ]
+        },
+        {
+          "name": "codon",
+          "entity_id": "ent:codon",
+          "original_names": [
+            "codon"
+          ]
+        },
+        {
+          "name": "large and small ribosomal subunit",
+          "entity_id": "ent:large_and_small_ribosomal_subunit",
+          "original_names": [
+            "large and small ribosomal subunit"
+          ]
+        },
+        {
+          "name": "second trna",
+          "entity_id": "ent:second_trna",
+          "original_names": [
+            "second tRNA"
+          ]
+        },
+        {
+          "name": "polypeptide chain",
+          "entity_id": "ent:polypeptide_chain",
+          "original_names": [
+            "polypeptide chain"
+          ]
+        },
+        {
+          "name": "fmet",
+          "entity_id": "ent:fmet",
+          "original_names": [
+            "fMet"
+          ]
+        },
+        {
+          "name": "rrnas",
+          "entity_id": "ent:rrnas",
+          "original_names": [
+            "rRNAs"
+          ]
+        },
+        {
+          "name": "rna polymerase i",
+          "entity_id": "ent:rna_polymerase_i",
+          "original_names": [
+            "RNA polymerase I"
+          ]
+        },
+        {
+          "name": "cytoplasm of prokaryotes",
+          "entity_id": "ent:cytoplasm_of_prokaryotes",
+          "original_names": [
+            "cytoplasm of prokaryotes"
+          ]
+        },
+        {
+          "name": "trnas",
+          "entity_id": "ent:trnas",
+          "original_names": [
+            "tRNAs"
+          ]
+        },
+        {
+          "name": "genes by rna polymerase iii",
+          "entity_id": "ent:genes_by_rna_polymerase_iii",
+          "original_names": [
+            "genes by RNA polymerase III"
+          ]
+        },
+        {
+          "name": "language of rna into language of proteins",
+          "entity_id": "ent:language_of_rna_into_language_of_proteins",
+          "original_names": [
+            "language of RNA into language of proteins"
+          ]
+        },
+        {
+          "name": "stop codon",
+          "entity_id": "ent:stop_codon",
+          "original_names": [
+            "STOP codon"
+          ]
+        },
+        {
+          "name": "adaptor molecules",
+          "entity_id": "ent:adaptor_molecules",
+          "original_names": [
+            "adaptor molecules"
+          ]
+        },
+        {
+          "name": "mrna codons",
+          "entity_id": "ent:mrna_codons",
+          "original_names": [
+            "mRNA codons"
+          ]
+        },
+        {
+          "name": "amino acid to polypeptide chain",
+          "entity_id": "ent:amino_acid_to_polypeptide_chain",
+          "original_names": [
+            "amino acid to polypeptide chain"
+          ]
+        },
+        {
+          "name": "large subunit",
+          "entity_id": "ent:large_subunit",
+          "original_names": [
+            "large subunit"
+          ]
+        },
+        {
+          "name": "specific amino acid",
+          "entity_id": "ent:specific_amino_acid",
+          "original_names": [
+            "specific amino acid"
+          ]
+        },
+        {
+          "name": "large and small subunits",
+          "entity_id": "ent:large_and_small_subunits",
+          "original_names": [
+            "large and small subunits"
+          ]
+        },
+        {
+          "name": "p-site trna",
+          "entity_id": "ent:p-site_trna",
+          "original_names": [
+            "P-site tRNA"
+          ]
+        },
+        {
+          "name": "e site",
+          "entity_id": "ent:e_site",
+          "original_names": [
+            "E site"
+          ]
+        },
+        {
+          "name": "nonfunctional protein",
+          "entity_id": "ent:nonfunctional_protein",
+          "original_names": [
+            "nonfunctional protein"
+          ]
+        },
+        {
+          "name": "deletion of two nucleotides",
+          "entity_id": "ent:deletion_of_two_nucleotides",
+          "original_names": [
+            "deletion of two nucleotides"
+          ]
+        },
+        {
+          "name": "protein message",
+          "entity_id": "ent:protein_message",
+          "original_names": [
+            "protein message"
+          ]
+        },
+        {
+          "name": "protein synthesis",
+          "entity_id": "ent:protein_synthesis",
+          "original_names": [
+            "protein synthesis",
+            "Protein synthesis"
+          ]
+        },
+        {
+          "name": "t",
+          "entity_id": "ent:t",
+          "original_names": [
+            "T"
+          ]
+        },
+        {
+          "name": "a",
+          "entity_id": "ent:a",
+          "original_names": [
+            "A"
+          ]
+        },
+        {
+          "name": "18-nucleotide sequence",
+          "entity_id": "ent:18-nucleotide_sequence",
+          "original_names": [
+            "18-nucleotide sequence"
+          ]
+        },
+        {
+          "name": "rrna genes",
+          "entity_id": "ent:rrna_genes",
+          "original_names": [
+            "rRNA genes"
+          ]
+        },
+        {
+          "name": "eukaryotic transcription",
+          "entity_id": "ent:eukaryotic_transcription",
+          "original_names": [
+            "eukaryotic transcription"
+          ]
+        },
+        {
+          "name": "\u03b1-amanitin",
+          "entity_id": "ent:\u03b1-amanitin",
+          "original_names": [
+            "\u03b1-amanitin"
+          ]
+        },
+        {
+          "name": "nucleolus",
+          "entity_id": "ent:nucleolus",
+          "original_names": [
+            "nucleolus"
+          ]
+        },
+        {
+          "name": "all rrnas except 5s rrna",
+          "entity_id": "ent:all_rrnas_except_5s_rrna",
+          "original_names": [
+            "all rRNAs except 5S rRNA"
+          ]
+        },
+        {
+          "name": "guanosine triphosphate",
+          "entity_id": "ent:guanosine_triphosphate",
+          "original_names": [
+            "Guanosine triphosphate"
+          ]
+        },
+        {
+          "name": "energy source",
+          "entity_id": "ent:energy_source",
+          "original_names": [
+            "energy source"
+          ]
+        },
+        {
+          "name": "decoding of mrna message",
+          "entity_id": "ent:decoding_of_mrna_message",
+          "original_names": [
+            "decoding of mRNA message"
+          ]
+        },
+        {
+          "name": "ribosomes",
+          "entity_id": "ent:ribosomes",
+          "original_names": [
+            "ribosomes"
+          ]
+        },
+        {
+          "name": "protein product",
+          "entity_id": "ent:protein_product",
+          "original_names": [
+            "protein product"
+          ]
+        },
+        {
+          "name": "the initiating aug",
+          "entity_id": "ent:the_initiating_aug",
+          "original_names": [
+            "the initiating AUG"
+          ]
+        },
+        {
+          "name": "methionine",
+          "entity_id": "ent:methionine",
+          "original_names": [
+            "methionine"
+          ]
+        },
+        {
+          "name": "nucleotide-based genetic information",
+          "entity_id": "ent:nucleotide-based_genetic_information",
+          "original_names": [
+            "nucleotide-based genetic information"
+          ]
+        },
+        {
+          "name": "enzymatic factors",
+          "entity_id": "ent:enzymatic_factors",
+          "original_names": [
+            "enzymatic factors"
+          ]
+        },
+        {
+          "name": "large ribosomal subunit",
+          "entity_id": "ent:large_ribosomal_subunit",
+          "original_names": [
+            "large ribosomal subunit"
+          ]
+        },
+        {
+          "name": "nucleoside triphosphates (gtp and atp)",
+          "entity_id": "ent:nucleoside_triphosphates_(gtp_and_atp)",
+          "original_names": [
+            "nucleoside triphosphates (GTP and ATP)"
+          ]
+        },
+        {
+          "name": "eukaryotic ifs",
+          "entity_id": "ent:eukaryotic_ifs",
+          "original_names": [
+            "eukaryotic IFs"
+          ]
+        },
+        {
+          "name": "trnafmet",
+          "entity_id": "ent:trnafmet",
+          "original_names": [
+            "tRNAfMet"
+          ]
+        },
+        {
+          "name": "aug start codon",
+          "entity_id": "ent:aug_start_codon",
+          "original_names": [
+            "AUG start codon"
+          ]
+        },
+        {
+          "name": "eukaryotes",
+          "entity_id": "ent:eukaryotes",
+          "original_names": [
+            "eukaryotes",
+            "Eukaryotes"
+          ]
+        },
+        {
+          "name": "40s small ribosomal subunit",
+          "entity_id": "ent:40s_small_ribosomal_subunit",
+          "original_names": [
+            "40S small ribosomal subunit"
+          ]
+        },
+        {
+          "name": "initiation factors",
+          "entity_id": "ent:initiation_factors",
+          "original_names": [
+            "initiation factors"
+          ]
+        },
+        {
+          "name": "30s ribosome",
+          "entity_id": "ent:30s_ribosome",
+          "original_names": [
+            "30S ribosome"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:matrix_and_stroma_of_mitochondria_and_chloroplasts",
+          "evidence": "Mitochondria and chloroplasts also have their own ribosomes in the matrix and stroma, which look more similar to prokaryotic ribosomes (and have similar drug sensitivities) than the ribosomes just outside their outer membranes in the cytoplasm.",
+          "target_name": "matrix and stroma of mitochondria and chloroplasts",
+          "source_entity_id": "ent:ribosome",
+          "triple_id": "triple:83d364f19eaf8774",
+          "source_name": "ribosome",
+          "relation": "exists in"
+        },
+        {
+          "target_entity_id": "ent:mrna",
+          "evidence": "The entire mRNA is translated in three-nucleotide \u201csteps\u201d of the ribosome.",
+          "target_name": "mRNA",
+          "source_entity_id": "ent:ribosome",
+          "triple_id": "triple:31c277e1d622a50d",
+          "source_name": "ribosome",
+          "relation": "translates"
+        },
+        {
+          "target_entity_id": "ent:mrna",
+          "evidence": "intron non\u2013protein-coding intervening sequences that are spliced from mRNA during processing",
+          "target_name": "mRNA",
+          "source_entity_id": "ent:intron",
+          "triple_id": "triple:dc4790e53bf747c9",
+          "source_name": "intron",
+          "relation": "spliced from"
+        },
+        {
+          "target_entity_id": "ent:nucleotides",
+          "evidence": "the mRNA is degraded so the nucleotides can be reused in another transcription reaction",
+          "target_name": "nucleotides",
+          "source_entity_id": "ent:mrna",
+          "triple_id": "triple:8b5e0d7e102a9b7f",
+          "source_name": "mRNA",
+          "relation": "degraded"
+        },
+        {
+          "target_entity_id": "ent:mrna",
+          "evidence": "Genes are used to make mRNA by the process of transcription; mRNA is used to synthesize proteins by the process of translation.",
+          "target_name": "mRNA",
+          "source_entity_id": "ent:genes",
+          "triple_id": "triple:4ed6e9034b6dac5e",
+          "source_name": "genes",
+          "relation": "make"
+        },
+        {
+          "target_entity_id": "ent:itself",
+          "evidence": "The mRNA folds back on itself, and the complementary C\u2013G nucleotides bind together.",
+          "target_name": "itself",
+          "source_entity_id": "ent:mrna",
+          "triple_id": "triple:9a3f575dacd1381f",
+          "source_name": "mRNA",
+          "relation": "folds back on"
+        },
+        {
+          "target_entity_id": "ent:mrna",
+          "evidence": "7-methylguanosine cap modification added to the 5' end of pre-mRNAs to protect mRNA from degradation and assist translation",
+          "target_name": "mRNA",
+          "source_entity_id": "ent:7-methylguanosine_cap",
+          "triple_id": "triple:b6c24ef9f51ff432",
+          "source_name": "7-methylguanosine cap",
+          "relation": "protects"
+        },
+        {
+          "target_entity_id": "ent:t_nucleotides_with_u_nucleotides",
+          "evidence": "The only nucleotide difference is that in mRNA, all of the T nucleotides are replaced with U nucleotides.",
+          "target_name": "T nucleotides with U nucleotides",
+          "source_entity_id": "ent:mrna",
+          "triple_id": "triple:94166380f5cbf063",
+          "source_name": "mRNA",
+          "relation": "replaces"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What is the function of the ribosome?",
+    "answer": "translating the mRNA into protein",
+    "citations": [
+      "chunk:ch15_genes_and_proteins:81 | data/Ch15_Genes_and_Proteins.pdf | In E. coli, there are between 10,000 and 70,000 ribosomes present in each cell at any given time. A ribosome is a com...",
+      "chunk:ch15_genes_and_proteins:80 | data/Ch15_Genes_and_Proteins.pdf | on the organism. However, the general structures and functions of the protein synthesis machinery are comparable from..."
+    ],
+    "reasoning": "Matched entities: ribosome, nonfunctional protein, t. Traversed graph edges: ribosome --[exists in]--> matrix and stroma of mitochondria and chloroplasts; ribosome --[translates]--> mRNA; intron --[spliced from]--> mRNA. Graph evidence: \"Mitochondria and chloroplasts also have their own ribosomes in the matrix and stroma, which look more similar to prokaryotic ribosomes (and have similar drug sensitivities) than the ribosomes just outside their outer membranes in the cytoplasm.\". The evidence directly states that the ribosome is responsible for translating mRNA into protein."
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "question": "What role does DNA polymerase play in DNA replication?",
+    "difficulty": "Standard",
+    "ground_truth": "DNA polymerase synthesizes new DNA strands by adding nucleotides complementary to the template strand.",
+    "system_output": "DNA polymerase adds nucleotides one-by-one to the growing DNA chain that is complementary to the template strand.",
+    "status": "ok"
+  },
+  {
+    "question": "What is the function of the ribosome?",
+    "difficulty": "Standard",
+    "ground_truth": "The ribosome translates mRNA into protein by linking amino acids into a polypeptide chain.",
+    "system_output": "translating the mRNA into protein",
+    "status": "ok"
+  },
+  {
+    "question": "What is a plasmid?",
+    "difficulty": "Standard",
+    "ground_truth": "A plasmid is a small circular DNA molecule found in bacteria, often used as a vector in molecular cloning.",
+    "system_output": "A plasmid, or vector, is a small circular DNA molecule that replicates independently of the chromosomal DNA.",
+    "status": "ok"
+  },
+  {
+    "question": "What does telomerase do?",
+    "difficulty": "Standard",
+    "ground_truth": "Telomerase extends the telomere regions at the ends of chromosomes, preventing their shortening during DNA replication.",
+    "system_output": "Telomerase extends the ends of chromosomes and maintains telomeres at chromosome ends.",
+    "status": "ok"
+  },
+  {
+    "question": "What is the role of tRNA in translation?",
+    "difficulty": "Standard",
+    "ground_truth": "tRNA carries specific amino acids to the ribosome and matches them to mRNA codons via its anticodon.",
+    "system_output": "tRNAs serve as the \u201cadaptor molecules\u201d between the mRNA template and the growing polypeptide chain.",
+    "status": "ok"
+  },
+  {
+    "question": "How do prokaryotic and eukaryotic DNA replication differ?",
+    "difficulty": "System Breaker",
+    "ground_truth": "Prokaryotes have a single origin of replication on their circular chromosome, while eukaryotes have multiple origins on linear chromosomes and must also replicate telomeres.",
+    "system_output": "Eukaryotic DNA replication requires multiple replication forks, while prokaryotic replication uses a single origin to rapidly replicate the entire genome. Eukaryotic DNA replication involves more polymerases than prokaryotic replication. Eukaryotic genomes are much more complex and larger in size than prokaryotic genomes. Replication in eukaryotes starts at multiple origins of replication, whereas replication in prokaryotes starts from a single origin of replication.",
+    "status": "ok"
+  },
+  {
+    "question": "Why do mutations in DNA polymerase proofreading lead to cancer?",
+    "difficulty": "System Breaker",
+    "ground_truth": "Without proofreading, replication errors accumulate, causing mutations in genes that control cell growth, which can lead to uncontrolled cell division and cancer.",
+    "system_output": "Mutations in repair genes have been known to cause cancer.",
+    "status": "ok"
+  },
+  {
+    "question": "Explain the relationship between introns, exons, and alternative splicing in eukaryotic gene expression.",
+    "difficulty": "System Breaker",
+    "ground_truth": "Eukaryotic genes contain introns (non-coding) and exons (coding). During RNA processing, introns are removed and exons can be joined in different combinations via alternative splicing, allowing one gene to produce multiple protein variants.",
+    "system_output": "Eukaryotic genes are composed of exons, which are protein-coding sequences, and introns, which are noncoding intervening sequences. Introns are removed and degraded during the splicing process, where exons are reconnected to form the final mRNA. This process ensures that only the coding sequences (exons) are present in the mature mRNA, which is then exported to the cytoplasm for translation. The precise removal of introns is crucial as any error can shift the reading frame and result in a dysfunctional protein.",
+    "status": "ok"
+  },
+  {
+    "question": "What experimental evidence proved that DNA is the genetic material rather than protein?",
+    "difficulty": "System Breaker",
+    "ground_truth": "The Hershey-Chase experiment used bacteriophage T2 with radioactive phosphorus (32P) labeling DNA and radioactive sulfur (35S) labeling protein. Only 32P entered bacterial cells, proving DNA carries genetic information.",
+    "system_output": "The decisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that DNA was indeed the genetic material and not proteins.",
+    "status": "ok"
+  },
+  {
+    "question": "How does the wobble hypothesis explain codon degeneracy?",
+    "difficulty": "System Breaker",
+    "ground_truth": "The wobble hypothesis states that the third base of a codon can form non-standard base pairs with the anticodon of tRNA, allowing a single tRNA to recognize multiple codons that code for the same amino acid.",
+    "system_output": "I don't know based on the provided context.",
+    "status": "ok"
+  }
+]

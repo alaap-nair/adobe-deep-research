@@ -1,31 +1,20 @@
 {
   "model": "mistralai/mistral-small-3.2-24b-instruct",
-  "num_triples": 26,
-  "num_entities": 23,
+  "num_triples": 31,
+  "num_entities": 12,
   "entities": [
     "3' Poly-A Tail addition",
     "5' capping",
-    "DNA",
     "RNA editing",
     "RNA processing",
-    "RNA-stabilizing proteins",
     "eukaryotic pre-mRNA",
     "exons",
-    "guide RNAs",
     "intron removal",
     "introns",
     "methylation",
-    "mitochondria",
-    "mitochondrial DNA",
-    "nucleus",
     "pre-mRNA",
-    "pre-rRNAs",
-    "pre-tRNAs",
-    "ribosomes",
-    "sleeping sickness",
-    "spliceosomes",
     "splicing",
-    "trypanosomes"
+    "subunit excision"
   ],
   "triples": [
     {
@@ -49,15 +38,6 @@
     {
       "head": "eukaryotic pre-mRNA",
       "head_type": "Molecule",
-      "relation": "undergoes",
-      "relation_type": "CONSISTS_OF",
-      "tail": "RNA processing",
-      "tail_type": "Process",
-      "evidence": "The eukaryotic pre-mRNA undergoes extensive processing before it is ready to be translated."
-    },
-    {
-      "head": "eukaryotic pre-mRNA",
-      "head_type": "Molecule",
       "relation": "contains",
       "relation_type": "CONSISTS_OF",
       "tail": "exons",
@@ -72,15 +52,6 @@
       "tail": "introns",
       "tail_type": "GeneticElement",
       "evidence": "The coding sequences (exons) are interrupted by noncoding introns, which must be removed to make a translatable mRNA."
-    },
-    {
-      "head": "pre-mRNA",
-      "head_type": "Molecule",
-      "relation": "is coated in",
-      "relation_type": "BINDS",
-      "tail": "RNA-stabilizing proteins",
-      "tail_type": "Molecule",
-      "evidence": "Pre-mRNAs are first coated in RNA-stabilizing proteins; these protect the pre-mRNA from degradation while it is processed and exported out of the nucleus."
     },
     {
       "head": "pre-mRNA",
@@ -112,62 +83,116 @@
     {
       "head": "pre-mRNA",
       "head_type": "Molecule",
-      "relation": "is edited by",
-      "relation_type": "PRODUCES",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
       "tail": "RNA editing",
       "tail_type": "Process",
       "evidence": "In rare cases, the mRNA transcript can be 'edited' after it is transcribed."
     },
     {
-      "head": "trypanosomes",
-      "head_type": "Organism",
-      "relation": "causes",
-      "relation_type": "PARASITIC_ON",
-      "tail": "sleeping sickness",
+      "head": "pre-mRNA",
+      "head_type": "Molecule",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "splicing",
       "tail_type": "Process",
-      "evidence": "The trypanosomes are a group of protozoa that include the pathogen Trypanosoma brucei, which causes nagana in cattle and sleeping sickness in humans throughout great areas of Africa."
+      "evidence": "The process of removing introns and reconnecting exons is called splicing."
     },
     {
-      "head": "trypanosomes",
-      "head_type": "Organism",
-      "relation": "contains",
-      "relation_type": "LOCATED_IN",
-      "tail": "mitochondria",
-      "tail_type": "CellularStructure",
-      "evidence": "Trypanosomes, and virtually all other eukaryotes, have organelles called mitochondria that supply the cell with chemical energy."
+      "head": "pre-mRNA",
+      "head_type": "Molecule",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "methylation",
+      "tail_type": "Process",
+      "evidence": "Some of the bases of pre-rRNAs are methylated; that is, a \u2013CH3 methyl functional group is added for stability."
     },
     {
-      "head": "mitochondria",
-      "head_type": "CellularStructure",
-      "relation": "express",
-      "relation_type": "ENCODES",
-      "tail": "DNA",
-      "tail_type": "Molecule",
-      "evidence": "Mitochondria are organelles that express their own DNA and are believed to be the remnants of a symbiotic relationship between a eukaryote and an engulfed prokaryote."
+      "head": "pre-mRNA",
+      "head_type": "Molecule",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "subunit excision",
+      "tail_type": "Process",
+      "evidence": "As with pre-mRNAs, subunit excision occurs in eukaryotic pre-RNAs destined to become tRNAs or rRNAs."
     },
     {
-      "head": "mitochondrial DNA",
+      "head": "pre-mRNA",
+      "head_type": "Molecule",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "RNA processing",
+      "tail_type": "Process",
+      "evidence": "The tRNAs and rRNAs are structural molecules that have roles in protein synthesis; however, these RNAs are not themselves translated. Pre-rRNAs are transcribed, processed, and assembled into ribosomes in the nucleolus. Pre-tRNAs are transcribed and processed in the nucleus and then released into the cytoplasm where they are linked to free amino acids for protein synthesis."
+    },
+    {
+      "head": "pre-mRNA",
       "head_type": "Molecule",
       "relation": "undergoes",
       "relation_type": "CONSISTS_OF",
       "tail": "RNA editing",
       "tail_type": "Process",
-      "evidence": "The mitochondrial DNA of trypanosomes exhibit an interesting exception to the central dogma: their pre-mRNAs do not have the correct information to specify a functional protein."
+      "evidence": "The mitochondrial DNA of trypanosomes exhibit an interesting exception to the central dogma: their pre-mRNAs do not have the correct information to specify a functional protein. Usually, this is because the mRNA is missing several U nucleotides. The cell performs an additional RNA processing step called RNA editing to remedy this."
     },
     {
-      "head": "guide RNAs",
+      "head": "pre-mRNA",
       "head_type": "Molecule",
-      "relation": "interacts with",
-      "relation_type": "BINDS",
-      "tail": "pre-mRNA",
-      "tail_type": "Molecule",
-      "evidence": "One or more of these molecules interacts by complementary base pairing with some of the nucleotides in the pre-mRNA transcript."
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "RNA editing",
+      "tail_type": "Process",
+      "evidence": "RNA editing is not just a phenomenon of trypanosomes. In the mitochondria of some plants, almost all pre-mRNAs are edited."
     },
     {
-      "head": "guide RNAs",
+      "head": "pre-mRNA",
       "head_type": "Molecule",
-      "relation": "mediates",
-      "relation_type": "CATALYZES",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "RNA editing",
+      "tail_type": "Process",
+      "evidence": "RNA editing has also been identified in mammals such as rats, rabbits, and even humans."
+    },
+    {
+      "head": "pre-mRNA",
+      "head_type": "Molecule",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "RNA editing",
+      "tail_type": "Process",
+      "evidence": "The 3' ends of guide RNAs have a long poly-U tail, and these U bases are inserted in regions of the pre-mRNA transcript at which the guide RNAs are looped."
+    },
+    {
+      "head": "pre-mRNA",
+      "head_type": "Molecule",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "RNA editing",
+      "tail_type": "Process",
+      "evidence": "This process is entirely mediated by RNA molecules. That is, guide RNAs\u2014rather than proteins\u2014serve as the catalysts in RNA editing."
+    },
+    {
+      "head": "pre-mRNA",
+      "head_type": "Molecule",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "RNA editing",
+      "tail_type": "Process",
+      "evidence": "The mitochondrial DNA of trypanosomes exhibit an interesting exception to the central dogma: their pre-mRNAs do not have the correct information to specify a functional protein. Usually, this is because the mRNA is missing several U nucleotides. The cell performs an additional RNA processing step called RNA editing to remedy this."
+    },
+    {
+      "head": "pre-mRNA",
+      "head_type": "Molecule",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "RNA editing",
+      "tail_type": "Process",
+      "evidence": "The 3' ends of guide RNAs have a long poly-U tail, and these U bases are inserted in regions of the pre-mRNA transcript at which the guide RNAs are looped."
+    },
+    {
+      "head": "pre-mRNA",
+      "head_type": "Molecule",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
       "tail": "RNA editing",
       "tail_type": "Process",
       "evidence": "This process is entirely mediated by RNA molecules. That is, guide RNAs\u2014rather than proteins\u2014serve as the catalysts in RNA editing."
@@ -186,81 +211,90 @@
       "head_type": "Molecule",
       "relation": "undergoes",
       "relation_type": "CONSISTS_OF",
-      "tail": "5' capping",
+      "tail": "RNA editing",
       "tail_type": "Process",
-      "evidence": "While the pre-mRNA is still being synthesized, a 7-methylguanosine cap is added to the 5' end of the growing transcript by a phosphate linkage."
+      "evidence": "RNA editing has also been identified in mammals such as rats, rabbits, and even humans."
     },
     {
       "head": "pre-mRNA",
       "head_type": "Molecule",
       "relation": "undergoes",
       "relation_type": "CONSISTS_OF",
-      "tail": "3' Poly-A Tail addition",
+      "tail": "RNA editing",
       "tail_type": "Process",
-      "evidence": "An enzyme called poly-A polymerase then adds a string of approximately 200 A residues, called the poly-A tail."
+      "evidence": "The 3' ends of guide RNAs have a long poly-U tail, and these U bases are inserted in regions of the pre-mRNA transcript at which the guide RNAs are looped."
     },
     {
       "head": "pre-mRNA",
-      "head_type": "Molecule",
-      "relation": "contains",
-      "relation_type": "CONSISTS_OF",
-      "tail": "exons",
-      "tail_type": "GeneticElement",
-      "evidence": "Eukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they are expressed)."
-    },
-    {
-      "head": "pre-mRNA",
-      "head_type": "Molecule",
-      "relation": "contains",
-      "relation_type": "CONSISTS_OF",
-      "tail": "introns",
-      "tail_type": "GeneticElement",
-      "evidence": "Eukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they are expressed), and intervening sequences called introns (int-ron denotes their intervening role)."
-    },
-    {
-      "head": "introns",
-      "head_type": "GeneticElement",
-      "relation": "are removed by",
-      "relation_type": "CATALYZES",
-      "tail": "splicing",
-      "tail_type": "Process",
-      "evidence": "The process of removing introns and reconnecting exons is called splicing."
-    },
-    {
-      "head": "spliceosomes",
-      "head_type": "Molecule",
-      "relation": "catalyzes",
-      "relation_type": "CATALYZES",
-      "tail": "splicing",
-      "tail_type": "Process",
-      "evidence": "The splicing of pre-mRNAs is conducted by complexes of proteins and RNA molecules called spliceosomes."
-    },
-    {
-      "head": "pre-rRNAs",
-      "head_type": "Molecule",
-      "relation": "are processed into",
-      "relation_type": "PRODUCES",
-      "tail": "ribosomes",
-      "tail_type": "CellularStructure",
-      "evidence": "Pre-rRNAs are transcribed, processed, and assembled into ribosomes in the nucleolus."
-    },
-    {
-      "head": "pre-tRNAs",
-      "head_type": "Molecule",
-      "relation": "are processed in",
-      "relation_type": "OCCURS_IN",
-      "tail": "nucleus",
-      "tail_type": "CellularStructure",
-      "evidence": "Pre-tRNAs are transcribed and processed in the nucleus and then released into the cytoplasm where they are linked to free amino acids for protein synthesis."
-    },
-    {
-      "head": "pre-tRNAs",
       "head_type": "Molecule",
       "relation": "undergoes",
       "relation_type": "CONSISTS_OF",
-      "tail": "methylation",
+      "tail": "RNA editing",
       "tail_type": "Process",
-      "evidence": "Some of the bases of pre-rRNAs are methylated; that is, a \u2013CH3 methyl functional group is added for stability. Pre-tRNA molecules also undergo methylation."
+      "evidence": "This process is entirely mediated by RNA molecules. That is, guide RNAs\u2014rather than proteins\u2014serve as the catalysts in RNA editing."
+    },
+    {
+      "head": "pre-mRNA",
+      "head_type": "Molecule",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "RNA editing",
+      "tail_type": "Process",
+      "evidence": "The mitochondrial DNA of trypanosomes exhibit an interesting exception to the central dogma: their pre-mRNAs do not have the correct information to specify a functional protein. Usually, this is because the mRNA is missing several U nucleotides. The cell performs an additional RNA processing step called RNA editing to remedy this."
+    },
+    {
+      "head": "pre-mRNA",
+      "head_type": "Molecule",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "RNA editing",
+      "tail_type": "Process",
+      "evidence": "The 3' ends of guide RNAs have a long poly-U tail, and these U bases are inserted in regions of the pre-mRNA transcript at which the guide RNAs are looped."
+    },
+    {
+      "head": "pre-mRNA",
+      "head_type": "Molecule",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "RNA editing",
+      "tail_type": "Process",
+      "evidence": "This process is entirely mediated by RNA molecules. That is, guide RNAs\u2014rather than proteins\u2014serve as the catalysts in RNA editing."
+    },
+    {
+      "head": "pre-mRNA",
+      "head_type": "Molecule",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "RNA editing",
+      "tail_type": "Process",
+      "evidence": "RNA editing is not just a phenomenon of trypanosomes. In the mitochondria of some plants, almost all pre-mRNAs are edited."
+    },
+    {
+      "head": "pre-mRNA",
+      "head_type": "Molecule",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "RNA editing",
+      "tail_type": "Process",
+      "evidence": "RNA editing has also been identified in mammals such as rats, rabbits, and even humans."
+    },
+    {
+      "head": "pre-mRNA",
+      "head_type": "Molecule",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "RNA editing",
+      "tail_type": "Process",
+      "evidence": "The 3' ends of guide RNAs have a long poly-U tail, and these U bases are inserted in regions of the pre-mRNA transcript at which the guide RNAs are looped."
+    },
+    {
+      "head": "pre-mRNA",
+      "head_type": "Molecule",
+      "relation": "undergoes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "RNA editing",
+      "tail_type": "Process",
+      "evidence": "This process is entirely mediated by RNA molecules. That is, guide RNAs\u2014rather than proteins\u2014serve as the catalysts in RNA editing."
     }
   ]
 }

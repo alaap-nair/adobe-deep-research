@@ -1,0 +1,367 @@
+{
+  "total_terms": 89,
+  "covered_terms": 86,
+  "overall_coverage_pct": 96.63,
+  "per_question": [
+    {
+      "question": "What is the primary function of DNA?",
+      "key_terms": [
+        "DNA",
+        "RNA",
+        "protein"
+      ],
+      "found": [
+        "DNA",
+        "RNA",
+        "protein"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    },
+    {
+      "question": "What is the primary function of RNA?",
+      "key_terms": [
+        "genetic information",
+        "DNA",
+        "RNA",
+        "protein",
+        "gene"
+      ],
+      "found": [
+        "genetic information",
+        "DNA",
+        "RNA",
+        "protein",
+        "gene"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    },
+    {
+      "question": "What is CRISPR?",
+      "key_terms": [
+        "CRISPR",
+        "genome"
+      ],
+      "found": [
+        "genome"
+      ],
+      "missing": [
+        "CRISPR"
+      ],
+      "coverage": 50.0
+    },
+    {
+      "question": "How does protein synthesis work?",
+      "key_terms": [
+        "protein synthesis",
+        "DNA",
+        "protein"
+      ],
+      "found": [
+        "protein synthesis",
+        "DNA",
+        "protein"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    },
+    {
+      "question": "What is a genome?",
+      "key_terms": [
+        "gene",
+        "genome"
+      ],
+      "found": [
+        "gene",
+        "genome"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    },
+    {
+      "question": "How does RNA regulate gene expression?",
+      "key_terms": [
+        "gene expression",
+        "genetic information",
+        "RNA",
+        "gene"
+      ],
+      "found": [
+        "gene expression",
+        "genetic information",
+        "RNA",
+        "gene"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    },
+    {
+      "question": "What are the differences between the codons in DNA and RNA?",
+      "key_terms": [
+        "DNA",
+        "RNA",
+        "codon",
+        "thymine",
+        "uracil",
+        "adenine"
+      ],
+      "found": [
+        "DNA",
+        "RNA",
+        "codon",
+        "thymine",
+        "uracil",
+        "adenine"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    },
+    {
+      "question": "Why is RNA only a single helix?",
+      "key_terms": [
+        "double helix",
+        "hydroxyl group",
+        "RNA",
+        "helix",
+        "hydroxyl"
+      ],
+      "found": [
+        "double helix",
+        "hydroxyl group",
+        "RNA",
+        "helix",
+        "hydroxyl"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    },
+    {
+      "question": "What is genetics?",
+      "key_terms": [
+        "gene",
+        "genetics"
+      ],
+      "found": [
+        "gene",
+        "genetics"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    },
+    {
+      "question": "How does CRISPR work?",
+      "key_terms": [
+        "guide RNA",
+        "DNA",
+        "RNA",
+        "CRISPR",
+        "Cas9",
+        "enzyme"
+      ],
+      "found": [
+        "guide RNA",
+        "DNA",
+        "RNA",
+        "enzyme"
+      ],
+      "missing": [
+        "CRISPR",
+        "Cas9"
+      ],
+      "coverage": 66.66666666666666
+    },
+    {
+      "question": "What role does DNA polymerase play in DNA replication?",
+      "key_terms": [
+        "DNA replication",
+        "DNA",
+        "replication",
+        "nucleotide",
+        "polymerase"
+      ],
+      "found": [
+        "DNA replication",
+        "DNA",
+        "replication",
+        "nucleotide",
+        "polymerase"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    },
+    {
+      "question": "What is the function of the ribosome?",
+      "key_terms": [
+        "amino acid",
+        "RNA",
+        "mRNA",
+        "protein",
+        "ribosome",
+        "polypeptide"
+      ],
+      "found": [
+        "amino acid",
+        "RNA",
+        "mRNA",
+        "protein",
+        "ribosome",
+        "polypeptide"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    },
+    {
+      "question": "What is a plasmid?",
+      "key_terms": [
+        "DNA",
+        "plasmid"
+      ],
+      "found": [
+        "DNA",
+        "plasmid"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    },
+    {
+      "question": "What does telomerase do?",
+      "key_terms": [
+        "DNA replication",
+        "DNA",
+        "replication",
+        "chromosome",
+        "telomere"
+      ],
+      "found": [
+        "DNA replication",
+        "DNA",
+        "replication",
+        "chromosome",
+        "telomere"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    },
+    {
+      "question": "What is the role of tRNA in translation?",
+      "key_terms": [
+        "amino acid",
+        "RNA",
+        "mRNA",
+        "tRNA",
+        "codon",
+        "translation",
+        "ribosome"
+      ],
+      "found": [
+        "amino acid",
+        "RNA",
+        "mRNA",
+        "tRNA",
+        "codon",
+        "translation",
+        "ribosome"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    },
+    {
+      "question": "How do prokaryotic and eukaryotic DNA replication differ?",
+      "key_terms": [
+        "DNA replication",
+        "DNA",
+        "replication",
+        "chromosome",
+        "telomere"
+      ],
+      "found": [
+        "DNA replication",
+        "DNA",
+        "replication",
+        "chromosome",
+        "telomere"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    },
+    {
+      "question": "Why do mutations in DNA polymerase proofreading lead to cancer?",
+      "key_terms": [
+        "DNA",
+        "gene",
+        "replication",
+        "polymerase",
+        "mutation"
+      ],
+      "found": [
+        "DNA",
+        "gene",
+        "replication",
+        "polymerase",
+        "mutation"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    },
+    {
+      "question": "Explain the relationship between introns, exons, and alternative splicing in eukaryotic gene expression.",
+      "key_terms": [
+        "gene expression",
+        "RNA",
+        "protein",
+        "gene",
+        "exon",
+        "intron",
+        "splicing"
+      ],
+      "found": [
+        "gene expression",
+        "RNA",
+        "protein",
+        "gene",
+        "exon",
+        "intron",
+        "splicing"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    },
+    {
+      "question": "What experimental evidence proved that DNA is the genetic material rather than protein?",
+      "key_terms": [
+        "genetic information",
+        "DNA",
+        "protein",
+        "gene"
+      ],
+      "found": [
+        "genetic information",
+        "DNA",
+        "protein",
+        "gene"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    },
+    {
+      "question": "How does the wobble hypothesis explain codon degeneracy?",
+      "key_terms": [
+        "amino acid",
+        "RNA",
+        "tRNA",
+        "gene",
+        "codon"
+      ],
+      "found": [
+        "amino acid",
+        "RNA",
+        "tRNA",
+        "gene",
+        "codon"
+      ],
+      "missing": [],
+      "coverage": 100.0
+    }
+  ]
+}

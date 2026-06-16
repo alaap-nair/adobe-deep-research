@@ -1,0 +1,760 @@
+{
+  "question": "How does the wobble hypothesis explain codon degeneracy?",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "wobble",
+        "hypothesis",
+        "explain",
+        "codon",
+        "degeneracy",
+        "wobble hypothesis",
+        "hypothesis explain",
+        "explain codon",
+        "codon degeneracy",
+        "wobble hypothesis explain",
+        "hypothesis explain codon",
+        "explain codon degeneracy"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:codon",
+          "name": "codon",
+          "matched_text": "codon",
+          "matched_alias": "codon",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:degeneracy",
+          "name": "degeneracy",
+          "matched_text": "degeneracy",
+          "matched_alias": "degeneracy",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:a",
+          "name": "a",
+          "matched_text": "explain",
+          "matched_alias": "a",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:mcb_genetics:138",
+          "text": "asparagine (Asn). Others get the purine half of their block, like glutamate (Glu) and lysine (Lys).\n\nNote that some\namino acids get a block and a half-block for a total of six codons. The specification of a single amino acid by multiple similar codons is called \"degeneracy.\" Degeneracy is believed to\nbe a cellular mechanism to reduce the negative impact of random mutations. Codons that specify the same amino\nacid typically only differ by one nucleotide. In addition, amino acids with chemically similar side chains are encoded\nby similar codons. For example, aspartate (Asp) and glutamate (Glu), which occupy the GA* block, are both\nnegatively charged.",
+          "source_name": "/Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf",
+          "chunk_index": 138,
+          "snippet": "asparagine (Asn). Others get the purine half of their block, like glutamate (Glu) and lysine (Lys).\n\nNote that some\namino acids get a block and a half-block for a total of six codons. The specification of a single amino acid by multiple similar codons is called \"degeneracy.\" Degeneracy is believed to\nbe a cellular mechanism to reduce the negative impact of random mutations. Codons that specify the",
+          "score": 0.7312708308288642
+        },
+        {
+          "chunk_id": "chunk:ch15_genes_and_proteins:130",
+          "text": "Thinking Questions\n19. Imagine if there were 200 commonly occurring\namino acids instead of 20.\n\nGiven what you know\nabout the genetic code, what would be the\nshortest possible codon length? Explain. 20. Discuss how degeneracy of the genetic code\nmakes cells more robust to mutations. 21. A scientist sequencing mRNA identifies the\nfollowing strand:\nCUAUGUGUCGUAACAGCCGAUGACCCG\nWhat is the sequence of the amino acid chain\nthis mRNA makes when it is translated? 22. If mRNA is complementary to the DNA template\nstrand and the DNA template strand is\ncomplementary to the DNA nontemplate strand,\nthen why are base sequences of mRNA and the\nDNA nontemplate strand not identical? Could\nthey ever be? 23.",
+          "source_name": "data/Ch15_Genes_and_Proteins.pdf",
+          "chunk_index": 130,
+          "snippet": "Thinking Questions\n19. Imagine if there were 200 commonly occurring\namino acids instead of 20.\n\nGiven what you know\nabout the genetic code, what would be the\nshortest possible codon length? Explain. 20. Discuss how degeneracy of the genetic code\nmakes cells more robust to mutations. 21. A scientist sequencing mRNA identifies the\nfollowing strand:\nCUAUGUGUCGUAACAGCCGAUGACCCG\nWhat is the sequence of",
+          "score": 0.7155667959567233
+        },
+        {
+          "chunk_id": "chunk:ch15_genes_and_proteins:14",
+          "text": "aspartate (Asp) and glutamate (Glu), which occupy the GA* block, are both\nnegatively charged.\n\nThis nuance of the genetic code ensures that a single-nucleotide substitution mutation might\n394\n15 \u2022 Genes and Proteins\nAccess for free at openstax.org",
+          "source_name": "data/Ch15_Genes_and_Proteins.pdf",
+          "chunk_index": 14,
+          "snippet": "aspartate (Asp) and glutamate (Glu), which occupy the GA* block, are both\nnegatively charged.\n\nThis nuance of the genetic code ensures that a single-nucleotide substitution mutation might\n394\n15 \u2022 Genes and Proteins\nAccess for free at openstax.org",
+          "score": 0.7030577772179624
+        },
+        {
+          "chunk_id": "chunk:mcb_genetics:249",
+          "text": "protein chain\nReview Questions\n4. The AUC and AUA codons in mRNA both specify\nisoleucine.\n\nWhat feature of the genetic code\nexplains this? a. complementarity\nb. nonsense codons\nc. universality\nd. degeneracy\n5. How many nucleotides are in 12 mRNA codons? a. 12\nb. 24\nc. 36\nd. 48\n6. Which event contradicts the central dogma of\nmolecular biology? a. Poly-A polymerase enzymes process\nmRNA in the nucleus. b. Endonuclease enzymes splice out and\nrepair damaged DNA. c. Scientists use reverse transcriptase\nenzymes to make DNA from RNA. d. Codons specifying amino acids are\ndegenerate and universal. 7. Which subunit of the E. coli polymerase confers\nspecificity to transcription? a. \u03b1\nb. \u03b2\nc. \u03b2'\nd. \u03c3\n8.",
+          "source_name": "/Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf",
+          "chunk_index": 249,
+          "snippet": "protein chain\nReview Questions\n4. The AUC and AUA codons in mRNA both specify\nisoleucine.\n\nWhat feature of the genetic code\nexplains this? a. complementarity\nb. nonsense codons\nc. universality\nd. degeneracy\n5. How many nucleotides are in 12 mRNA codons? a. 12\nb. 24\nc. 36\nd. 48\n6. Which event contradicts the central dogma of\nmolecular biology? a. Poly-A polymerase enzymes process\nmRNA in the nucleu",
+          "score": 0.6921472125963698
+        },
+        {
+          "chunk_id": "chunk:ch15_genes_and_proteins:116",
+          "text": "C, G), and the polypeptide\nalphabet (20 amino acids).\n\nThe central dogma\ndescribes the flow of genetic information in the cell\nfrom genes to mRNA to proteins. Genes are used to\nmake mRNA by the process of transcription; mRNA is\nused to synthesize proteins by the process of\ntranslation. The genetic code is degenerate because 64\ntriplet codons in mRNA specify only 20 amino acids\nand three nonsense codons. Most amino acids have\nseveral similar codons. Almost every species on the\nplanet uses the same genetic code. 15.2 Prokaryotic Transcription\nIn prokaryotes, mRNA synthesis is initiated at a\npromoter sequence on the DNA template comprising\ntwo consensus sequences that recruit RNA\npolymerase.",
+          "source_name": "data/Ch15_Genes_and_Proteins.pdf",
+          "chunk_index": 116,
+          "snippet": "C, G), and the polypeptide\nalphabet (20 amino acids).\n\nThe central dogma\ndescribes the flow of genetic information in the cell\nfrom genes to mRNA to proteins. Genes are used to\nmake mRNA by the process of transcription; mRNA is\nused to synthesize proteins by the process of\ntranslation. The genetic code is degenerate because 64\ntriplet codons in mRNA specify only 20 amino acids\nand three nonsense c",
+          "score": 0.6895370803521041
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:87c86dc7654918fd",
+          "head_entity_id": "ent:genetic_code",
+          "tail_entity_id": "ent:degeneracy",
+          "relation": "explains",
+          "evidence": "What feature of the genetic code explains this? d. degeneracy",
+          "head_name": "genetic code",
+          "tail_name": "degeneracy",
+          "score": 0.8126291698317243
+        },
+        {
+          "triple_id": "triple:66b3e894d0303192",
+          "head_entity_id": "ent:single_amino_acid",
+          "tail_entity_id": "ent:multiple_similar_codons",
+          "relation": "specified by",
+          "evidence": "The specification of a single amino acid by multiple similar codons is called \"degeneracy.\"",
+          "head_name": "single amino acid",
+          "tail_name": "multiple similar codons",
+          "score": 0.759632369364825
+        },
+        {
+          "triple_id": "triple:48b164d32535e647",
+          "head_entity_id": "ent:degeneracy",
+          "tail_entity_id": "ent:a_given_amino_acid_can_be_encoded_by_more_than_one_nucleotide_triplet",
+          "relation": "describes",
+          "evidence": "degeneracy (of the genetic code) describes that a given amino acid can be encoded by more than one nucleotide triplet; the code is degenerate, but not ambiguous",
+          "head_name": "degeneracy",
+          "tail_name": "a given amino acid can be encoded by more than one nucleotide triplet",
+          "score": 0.7402708865318756
+        },
+        {
+          "triple_id": "triple:64763b8b0ec35d4b",
+          "head_entity_id": "ent:genetic_code",
+          "tail_entity_id": "ent:degenerate",
+          "relation": "is",
+          "evidence": "The genetic code is degenerate because 64 triplet codons in mRNA specify only 20 amino acids and three nonsense codons.",
+          "head_name": "genetic code",
+          "tail_name": "degenerate",
+          "score": 0.7395849784436483
+        },
+        {
+          "triple_id": "triple:5357e3239ce2fd85",
+          "head_entity_id": "ent:anticodon",
+          "tail_entity_id": "ent:codon",
+          "relation": "base pairs with",
+          "evidence": "the anticodon on the tRNA base pairs with the codon in the mRNA",
+          "head_name": "anticodon",
+          "tail_name": "codon",
+          "score": 0.7290005145990295
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:codon",
+        "ent:degeneracy",
+        "ent:a",
+        "ent:genetic_code",
+        "ent:single_amino_acid",
+        "ent:multiple_similar_codons",
+        "ent:a_given_amino_acid_can_be_encoded_by_more_than_one_nucleotide_triplet",
+        "ent:degenerate",
+        "ent:anticodon"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "codon",
+          "entity_id": "ent:codon",
+          "original_names": [
+            "codon"
+          ]
+        },
+        {
+          "name": "insertion of an amino acid",
+          "entity_id": "ent:insertion_of_an_amino_acid",
+          "original_names": [
+            "insertion of an amino acid"
+          ]
+        },
+        {
+          "name": "release of a polypeptide chain",
+          "entity_id": "ent:release_of_a_polypeptide_chain",
+          "original_names": [
+            "release of a polypeptide chain"
+          ]
+        },
+        {
+          "name": "initiation of translation",
+          "entity_id": "ent:initiation_of_translation",
+          "original_names": [
+            "initiation of translation"
+          ]
+        },
+        {
+          "name": "ribosome",
+          "entity_id": "ent:ribosome",
+          "original_names": [
+            "ribosome",
+            "Ribosome"
+          ]
+        },
+        {
+          "name": "anticodon",
+          "entity_id": "ent:anticodon",
+          "original_names": [
+            "anticodon",
+            "Anticodon"
+          ]
+        },
+        {
+          "name": "mrna codon",
+          "entity_id": "ent:mrna_codon",
+          "original_names": [
+            "mRNA codon"
+          ]
+        },
+        {
+          "name": "trna",
+          "entity_id": "ent:trna",
+          "original_names": [
+            "tRNA"
+          ]
+        },
+        {
+          "name": "degeneracy",
+          "entity_id": "ent:degeneracy",
+          "original_names": [
+            "degeneracy"
+          ]
+        },
+        {
+          "name": "a given amino acid can be encoded by more than one nucleotide triplet",
+          "entity_id": "ent:a_given_amino_acid_can_be_encoded_by_more_than_one_nucleotide_triplet",
+          "original_names": [
+            "a given amino acid can be encoded by more than one nucleotide triplet"
+          ]
+        },
+        {
+          "name": "genetic code",
+          "entity_id": "ent:genetic_code",
+          "original_names": [
+            "genetic code"
+          ]
+        },
+        {
+          "name": "all species",
+          "entity_id": "ent:all_species",
+          "original_names": [
+            "all species"
+          ]
+        },
+        {
+          "name": "scientists",
+          "entity_id": "ent:scientists",
+          "original_names": [
+            "Scientists",
+            "scientists"
+          ]
+        },
+        {
+          "name": "polypeptide alphabet",
+          "entity_id": "ent:polypeptide_alphabet",
+          "original_names": [
+            "polypeptide alphabet"
+          ]
+        },
+        {
+          "name": "rna alphabet",
+          "entity_id": "ent:rna_alphabet",
+          "original_names": [
+            "RNA alphabet"
+          ]
+        },
+        {
+          "name": "degenerate",
+          "entity_id": "ent:degenerate",
+          "original_names": [
+            "degenerate"
+          ]
+        },
+        {
+          "name": "dna alphabet",
+          "entity_id": "ent:dna_alphabet",
+          "original_names": [
+            "DNA alphabet"
+          ]
+        },
+        {
+          "name": "life on earth",
+          "entity_id": "ent:life_on_earth",
+          "original_names": [
+            "life on Earth"
+          ]
+        },
+        {
+          "name": "cellular mechanism",
+          "entity_id": "ent:cellular_mechanism",
+          "original_names": [
+            "cellular mechanism"
+          ]
+        },
+        {
+          "name": "a",
+          "entity_id": "ent:a",
+          "original_names": [
+            "A"
+          ]
+        },
+        {
+          "name": "t",
+          "entity_id": "ent:t",
+          "original_names": [
+            "T"
+          ]
+        },
+        {
+          "name": "dna fragments",
+          "entity_id": "ent:dna_fragments",
+          "original_names": [
+            "DNA fragments"
+          ]
+        },
+        {
+          "name": "bacteria, plants, and animals",
+          "entity_id": "ent:bacteria,_plants,_and_animals",
+          "original_names": [
+            "bacteria, plants, and animals"
+          ]
+        },
+        {
+          "name": "genealogy",
+          "entity_id": "ent:genealogy",
+          "original_names": [
+            "genealogy"
+          ]
+        },
+        {
+          "name": "genomic mapping with different model organisms",
+          "entity_id": "ent:genomic_mapping_with_different_model_organisms",
+          "original_names": [
+            "genomic mapping with different model organisms"
+          ]
+        },
+        {
+          "name": "mice",
+          "entity_id": "ent:mice",
+          "original_names": [
+            "mice"
+          ]
+        },
+        {
+          "name": "polymerase chain reaction",
+          "entity_id": "ent:polymerase_chain_reaction",
+          "original_names": [
+            "Polymerase chain reaction",
+            "polymerase chain reaction"
+          ]
+        },
+        {
+          "name": "more sophisticated markers",
+          "entity_id": "ent:more_sophisticated_markers",
+          "original_names": [
+            "more sophisticated markers"
+          ]
+        },
+        {
+          "name": "dna ligase",
+          "entity_id": "ent:dna_ligase",
+          "original_names": [
+            "DNA ligase"
+          ]
+        },
+        {
+          "name": "fragments in the gel",
+          "entity_id": "ent:fragments_in_the_gel",
+          "original_names": [
+            "fragments in the gel"
+          ]
+        },
+        {
+          "name": "rna analysis",
+          "entity_id": "ent:rna_analysis",
+          "original_names": [
+            "RNA analysis"
+          ]
+        },
+        {
+          "name": "slow softening and rotting process",
+          "entity_id": "ent:slow_softening_and_rotting_process",
+          "original_names": [
+            "slow softening and rotting process"
+          ]
+        },
+        {
+          "name": "short dna fragments",
+          "entity_id": "ent:short_dna_fragments",
+          "original_names": [
+            "short DNA fragments"
+          ]
+        },
+        {
+          "name": "from bt",
+          "entity_id": "ent:from_bt",
+          "original_names": [
+            "from Bt"
+          ]
+        },
+        {
+          "name": "proteins",
+          "entity_id": "ent:proteins",
+          "original_names": [
+            "proteins",
+            "Proteins"
+          ]
+        },
+        {
+          "name": "northern blots",
+          "entity_id": "ent:northern_blots",
+          "original_names": [
+            "Northern blots"
+          ]
+        },
+        {
+          "name": "nucleic acid fragments",
+          "entity_id": "ent:nucleic_acid_fragments",
+          "original_names": [
+            "nucleic acid fragments"
+          ]
+        },
+        {
+          "name": "databases and several publications",
+          "entity_id": "ent:databases_and_several_publications",
+          "original_names": [
+            "databases and several publications"
+          ]
+        },
+        {
+          "name": "transgenic plants",
+          "entity_id": "ent:transgenic_plants",
+          "original_names": [
+            "transgenic plants"
+          ]
+        },
+        {
+          "name": "corn, potatoes, and tomatoes",
+          "entity_id": "ent:corn,_potatoes,_and_tomatoes",
+          "original_names": [
+            "corn, potatoes, and tomatoes"
+          ]
+        },
+        {
+          "name": "the entire dna sequence",
+          "entity_id": "ent:the_entire_dna_sequence",
+          "original_names": [
+            "the entire DNA sequence"
+          ]
+        },
+        {
+          "name": "desirable traits",
+          "entity_id": "ent:desirable_traits",
+          "original_names": [
+            "desirable traits"
+          ]
+        },
+        {
+          "name": "horses, bulls, and goats",
+          "entity_id": "ent:horses,_bulls,_and_goats",
+          "original_names": [
+            "horses, bulls, and goats"
+          ]
+        },
+        {
+          "name": "the fragments",
+          "entity_id": "ent:the_fragments",
+          "original_names": [
+            "the fragments"
+          ]
+        },
+        {
+          "name": "nucleic acid samples",
+          "entity_id": "ent:nucleic_acid_samples",
+          "original_names": [
+            "nucleic acid samples"
+          ]
+        },
+        {
+          "name": "proteomic analysis",
+          "entity_id": "ent:proteomic_analysis",
+          "original_names": [
+            "proteomic analysis"
+          ]
+        },
+        {
+          "name": "plasmids",
+          "entity_id": "ent:plasmids",
+          "original_names": [
+            "plasmids",
+            "Plasmids"
+          ]
+        },
+        {
+          "name": "individual\u2019s dna \u201cfingerprint\u201d",
+          "entity_id": "ent:individual\u2019s_dna_\u201cfingerprint\u201d",
+          "original_names": [
+            "individual\u2019s DNA \u201cfingerprint\u201d"
+          ]
+        },
+        {
+          "name": "microsatellite polymorphisms",
+          "entity_id": "ent:microsatellite_polymorphisms",
+          "original_names": [
+            "microsatellite polymorphisms",
+            "Microsatellite polymorphisms"
+          ]
+        },
+        {
+          "name": "information from each technique",
+          "entity_id": "ent:information_from_each_technique",
+          "original_names": [
+            "information from each technique"
+          ]
+        },
+        {
+          "name": "single nucleotide polymorphisms (snps)",
+          "entity_id": "ent:single_nucleotide_polymorphisms_(snps)",
+          "original_names": [
+            "single nucleotide polymorphisms (SNPs)"
+          ]
+        },
+        {
+          "name": "protein microarrays",
+          "entity_id": "ent:protein_microarrays",
+          "original_names": [
+            "protein microarrays"
+          ]
+        },
+        {
+          "name": "rna",
+          "entity_id": "ent:rna",
+          "original_names": [
+            "RNA"
+          ]
+        },
+        {
+          "name": "the term linkage",
+          "entity_id": "ent:the_term_linkage",
+          "original_names": [
+            "the term linkage"
+          ]
+        },
+        {
+          "name": "recombinant dna technology",
+          "entity_id": "ent:recombinant_dna_technology",
+          "original_names": [
+            "recombinant DNA technology"
+          ]
+        },
+        {
+          "name": "restriction fragment length polymorphisms (rflp)",
+          "entity_id": "ent:restriction_fragment_length_polymorphisms_(rflp)",
+          "original_names": [
+            "restriction fragment length polymorphisms (RFLP)"
+          ]
+        },
+        {
+          "name": "dna fragment from the human genome",
+          "entity_id": "ent:dna_fragment_from_the_human_genome",
+          "original_names": [
+            "DNA fragment from the human genome"
+          ]
+        },
+        {
+          "name": "evolutionary relationships",
+          "entity_id": "ent:evolutionary_relationships",
+          "original_names": [
+            "evolutionary relationships"
+          ]
+        },
+        {
+          "name": "two-hybrid screening",
+          "entity_id": "ent:two-hybrid_screening",
+          "original_names": [
+            "two-hybrid screening"
+          ]
+        },
+        {
+          "name": "computer software",
+          "entity_id": "ent:computer_software",
+          "original_names": [
+            "computer software"
+          ]
+        },
+        {
+          "name": "southern blots",
+          "entity_id": "ent:southern_blots",
+          "original_names": [
+            "Southern blots"
+          ]
+        },
+        {
+          "name": "southern blotting",
+          "entity_id": "ent:southern_blotting",
+          "original_names": [
+            "Southern blotting"
+          ]
+        },
+        {
+          "name": "variable number of tandem repeats (vntrs)",
+          "entity_id": "ent:variable_number_of_tandem_repeats_(vntrs)",
+          "original_names": [
+            "variable number of tandem repeats (VNTRs)"
+          ]
+        },
+        {
+          "name": "plasmid molecules",
+          "entity_id": "ent:plasmid_molecules",
+          "original_names": [
+            "plasmid molecules"
+          ]
+        },
+        {
+          "name": "single amino acid",
+          "entity_id": "ent:single_amino_acid",
+          "original_names": [
+            "single amino acid"
+          ]
+        },
+        {
+          "name": "multiple similar codons",
+          "entity_id": "ent:multiple_similar_codons",
+          "original_names": [
+            "multiple similar codons"
+          ]
+        },
+        {
+          "name": "amino acid binding site",
+          "entity_id": "ent:amino_acid_binding_site",
+          "original_names": [
+            "amino acid binding site"
+          ]
+        },
+        {
+          "name": "activated amino acid",
+          "entity_id": "ent:activated_amino_acid",
+          "original_names": [
+            "activated amino acid"
+          ]
+        },
+        {
+          "name": "exit site",
+          "entity_id": "ent:exit_site",
+          "original_names": [
+            "Exit site"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "amino acid",
+          "entity_id": "ent:amino_acid",
+          "original_names": [
+            "amino acid",
+            "Amino acid"
+          ]
+        },
+        {
+          "name": "amino acid phenylalanine",
+          "entity_id": "ent:amino_acid_phenylalanine",
+          "original_names": [
+            "Amino acid phenylalanine"
+          ]
+        },
+        {
+          "name": "p-site amino acid",
+          "entity_id": "ent:p-site_amino_acid",
+          "original_names": [
+            "P-site amino acid"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:insertion_of_an_amino_acid",
+          "evidence": "codon three consecutive nucleotides in mRNA that specify the insertion of an amino acid or the release of a polypeptide chain during translation",
+          "target_name": "insertion of an amino acid",
+          "source_entity_id": "ent:codon",
+          "triple_id": "triple:46b5644f96a35640",
+          "source_name": "codon",
+          "relation": "specifies"
+        },
+        {
+          "target_entity_id": "ent:release_of_a_polypeptide_chain",
+          "evidence": "codon three consecutive nucleotides in mRNA that specify the insertion of an amino acid or the release of a polypeptide chain during translation",
+          "target_name": "release of a polypeptide chain",
+          "source_entity_id": "ent:codon",
+          "triple_id": "triple:5bd283b6a0ac2f89",
+          "source_name": "codon",
+          "relation": "specifies"
+        },
+        {
+          "target_entity_id": "ent:initiation_of_translation",
+          "evidence": "Of these 61, one codon (AUG) also encodes the initiation of translation.",
+          "target_name": "initiation of translation",
+          "source_entity_id": "ent:codon",
+          "triple_id": "triple:5839b25bd6e06dda",
+          "source_name": "codon",
+          "relation": "encodes"
+        },
+        {
+          "target_entity_id": "ent:initiation_of_translation",
+          "evidence": "Ribosomes dissociate into large and small subunits when they are not synthesizing proteins and reassociate during the initiation of translation.",
+          "target_name": "initiation of translation",
+          "source_entity_id": "ent:ribosome",
+          "triple_id": "triple:4985432052950be9",
+          "source_name": "ribosome",
+          "relation": "reassociates during"
+        },
+        {
+          "target_entity_id": "ent:codon",
+          "evidence": "the anticodon on the tRNA base pairs with the codon in the mRNA",
+          "target_name": "codon",
+          "source_entity_id": "ent:anticodon",
+          "triple_id": "triple:5357e3239ce2fd85",
+          "source_name": "anticodon",
+          "relation": "base pairs with"
+        },
+        {
+          "target_entity_id": "ent:mrna_codon",
+          "evidence": "The anticodon is a three-nucleotide sequence in a tRNA that interacts with an mRNA codon through complementary base pairing.",
+          "target_name": "mRNA codon",
+          "source_entity_id": "ent:anticodon",
+          "triple_id": "triple:a40ea2b6d998d15c",
+          "source_name": "anticodon",
+          "relation": "interacts with"
+        },
+        {
+          "target_entity_id": "ent:anticodon",
+          "evidence": "The tRNA folds to position the amino acid binding site at one end and the anticodon at the other end (Figure 15.14).",
+          "target_name": "anticodon",
+          "source_entity_id": "ent:trna",
+          "triple_id": "triple:b9634b3110a3a2b4",
+          "source_name": "tRNA",
+          "relation": "positions"
+        },
+        {
+          "target_entity_id": "ent:mrna_codon",
+          "evidence": "anticodon three-nucleotide sequence in a tRNA molecule that corresponds to an mRNA codon",
+          "target_name": "mRNA codon",
+          "source_entity_id": "ent:anticodon",
+          "triple_id": "triple:54d07c3e05363d19",
+          "source_name": "anticodon",
+          "relation": "corresponds to"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "How does the wobble hypothesis explain codon degeneracy?",
+    "answer": "I don't know based on the provided context.",
+    "citations": [
+      "chunk:mcb_genetics:138 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | asparagine (Asn). Others get the purine half of their block, like glutamate (Glu) and lysine (Lys). Note that some am...",
+      "chunk:ch15_genes_and_proteins:130 | data/Ch15_Genes_and_Proteins.pdf | Thinking Questions 19. Imagine if there were 200 commonly occurring amino acids instead of 20. Given what you know ab..."
+    ],
+    "reasoning": "Matched entities: codon, degeneracy, a. Traversed graph edges: codon --[specifies]--> insertion of an amino acid; codon --[specifies]--> release of a polypeptide chain; codon --[encodes]--> initiation of translation. Graph evidence: \"codon three consecutive nucleotides in mRNA that specify the insertion of an amino acid or the release of a polypeptide chain during translation\". The provided context does not mention the wobble hypothesis or provide any explanation related to it."
+  }
+}

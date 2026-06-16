@@ -1,0 +1,364 @@
+{
+  "question": "What does telomerase do?",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "telomerase"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:telomerase",
+          "name": "telomerase",
+          "matched_text": "telomerase",
+          "matched_alias": "telomerase",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:action_of_telomerase",
+          "name": "action of telomerase",
+          "matched_text": "What does telomerase do?",
+          "matched_alias": "action of telomerase",
+          "score": 0.8513,
+          "match_type": "semantic"
+        },
+        {
+          "entity_id": "ent:active_telomerase",
+          "name": "active telomerase",
+          "matched_text": "What does telomerase do?",
+          "matched_alias": "active telomerase",
+          "score": 0.7863,
+          "match_type": "semantic"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:ch14_dna_structure_and_function:83",
+          "text": "(credit: US\nEmbassy Sweden)\n380\n14 \u2022 DNA Structure and Function\nAccess for free at openstax.org\n\nTelomerase and Aging\nCells that undergo cell division continue to have their telomeres shortened because most somatic cells do not make\ntelomerase. This essentially means that telomere shortening is associated with aging. With the advent of modern\nmedicine, preventative health care, and healthier lifestyles, the human life span has increased, and there is an\nincreasing demand for people to look younger and have a better quality of life as they grow older. In 2010, scientists found that telomerase can reverse some age-related conditions in mice.",
+          "source_name": "data/Ch14_DNA_Structure_and_Function.pdf",
+          "chunk_index": 83,
+          "snippet": "(credit: US\nEmbassy Sweden)\n380\n14 \u2022 DNA Structure and Function\nAccess for free at openstax.org\n\nTelomerase and Aging\nCells that undergo cell division continue to have their telomeres shortened because most somatic cells do not make\ntelomerase. This essentially means that telomere shortening is associated with aging. With the advent of modern\nmedicine, preventative health care, and healthier lifes",
+          "score": 0.7671767227466249
+        },
+        {
+          "chunk_id": "chunk:ch14_dna_structure_and_function:84",
+          "text": "older. In 2010, scientists found that telomerase can reverse some age-related conditions in mice.\n\nThis may have potential\nin regenerative medicine.2 Telomerase-deficient mice were used in these studies; these mice have tissue atrophy,\nstem cell depletion, organ system failure, and impaired tissue injury responses. Telomerase reactivation in these\nmice caused extension of telomeres, reduced DNA damage, reversed neurodegeneration, and improved the function\nof the testes, spleen, and intestines. Thus, telomere reactivation may have potential for treating age-related\ndiseases in humans. Cancer is characterized by uncontrolled cell division of abnormal cells.",
+          "source_name": "data/Ch14_DNA_Structure_and_Function.pdf",
+          "chunk_index": 84,
+          "snippet": "older. In 2010, scientists found that telomerase can reverse some age-related conditions in mice.\n\nThis may have potential\nin regenerative medicine.2 Telomerase-deficient mice were used in these studies; these mice have tissue atrophy,\nstem cell depletion, organ system failure, and impaired tissue injury responses. Telomerase reactivation in these\nmice caused extension of telomeres, reduced DNA da",
+          "score": 0.7480416504115113
+        },
+        {
+          "chunk_id": "chunk:ch14_dna_structure_and_function:81",
+          "text": "are\nreplicated. 14.5 \u2022 DNA Replication in Eukaryotes\n379\n\nFIGURE 14.15 The ends of linear chromosomes are maintained by the action of the telomerase enzyme. Credit: Rao, A. and Fletcher, S. Department of Biology, Texas A&M University. Telomerase is typically active in germ cells and adult stem cells. It is not active in adult somatic cells. For their\ndiscovery of telomerase and its action, Elizabeth Blackburn, Carol W. Greider, and Jack W. Szostak (Figure 14.16)\nreceived the Nobel Prize for Medicine and Physiology in 2009. Later research using HeLa cells (obtained from\nHenrietta Lacks) confirmed that telomerase is present in human cells. And in 2001, researchers including Diane L.",
+          "source_name": "data/Ch14_DNA_Structure_and_Function.pdf",
+          "chunk_index": 81,
+          "snippet": "are\nreplicated. 14.5 \u2022 DNA Replication in Eukaryotes\n379\n\nFIGURE 14.15 The ends of linear chromosomes are maintained by the action of the telomerase enzyme. Credit: Rao, A. and Fletcher, S. Department of Biology, Texas A&M University. Telomerase is typically active in germ cells and adult stem cells. It is not active in adult somatic cells. For their\ndiscovery of telomerase and its action, Elizabe",
+          "score": 0.7371634775561783
+        },
+        {
+          "chunk_id": "chunk:mcb_genetics:80",
+          "text": "as cells continue to divide.\n\nThe telomeres are added to the ends of chromosomes by a separate\nenzyme, telomerase (Figure 14.16), whose discovery helped in the understanding of how these repetitive\nchromosome ends are maintained. The telomerase enzyme contains a catalytic part and a built-in RNA template. It\nattaches to the end of the chromosome, and DNA nucleotides complementary to the RNA template are added on the\n3' end of the DNA strand. Once the 3' end of the lagging strand template is sufficiently elongated, DNA polymerase\ncan add the nucleotides complementary to the ends of the chromosomes. Thus, the ends of the chromosomes are\nreplicated. 14.5 \u2022 DNA Replication in Eukaryotes\n379",
+          "source_name": "/Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf",
+          "chunk_index": 80,
+          "snippet": "as cells continue to divide.\n\nThe telomeres are added to the ends of chromosomes by a separate\nenzyme, telomerase (Figure 14.16), whose discovery helped in the understanding of how these repetitive\nchromosome ends are maintained. The telomerase enzyme contains a catalytic part and a built-in RNA template. It\nattaches to the end of the chromosome, and DNA nucleotides complementary to the RNA templa",
+          "score": 0.7323745908883722
+        },
+        {
+          "chunk_id": "chunk:mcb_genetics:82",
+          "text": "confirmed that telomerase is present in human cells. And in 2001, researchers including Diane L.\n\nWright found that telomerase is necessary for cells in human embryos to rapidly proliferate. FIGURE 14.16 Elizabeth Blackburn, 2009 Nobel Laureate, is one of the scientists who discovered how telomerase works. (credit: US\nEmbassy Sweden)\n380\n14 \u2022 DNA Structure and Function\nAccess for free at openstax.org",
+          "source_name": "/Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf",
+          "chunk_index": 82,
+          "snippet": "confirmed that telomerase is present in human cells. And in 2001, researchers including Diane L.\n\nWright found that telomerase is necessary for cells in human embryos to rapidly proliferate. FIGURE 14.16 Elizabeth Blackburn, 2009 Nobel Laureate, is one of the scientists who discovered how telomerase works. (credit: US\nEmbassy Sweden)\n380\n14 \u2022 DNA Structure and Function\nAccess for free at openstax.",
+          "score": 0.7201176110753396
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:c06d0ab23a17b0ed",
+          "head_entity_id": "ent:telomerase",
+          "tail_entity_id": "ent:ends_of_chromosomes",
+          "relation": "extends",
+          "evidence": "Telomerase, an enzyme with an inbuilt RNA template, extends the ends by copying the RNA template and extending one strand of the chromosome.",
+          "head_name": "telomerase",
+          "tail_name": "ends of chromosomes",
+          "score": 0.7928395699267121
+        },
+        {
+          "triple_id": "triple:23173d7454ab4750",
+          "head_entity_id": "ent:telomerase",
+          "tail_entity_id": "ent:telomeres_at_chromosome_ends",
+          "relation": "functions to maintain",
+          "evidence": "telomerase enzyme that contains a catalytic part and an inbuilt RNA template; it functions to maintain telomeres at chromosome ends",
+          "head_name": "telomerase",
+          "tail_name": "telomeres at chromosome ends",
+          "score": 0.7804361892635681
+        },
+        {
+          "triple_id": "triple:a3b59a2c841a57f9",
+          "head_entity_id": "ent:telomerase",
+          "tail_entity_id": "ent:catalytic_part_and_rna_template",
+          "relation": "contains",
+          "evidence": "The telomerase enzyme contains a catalytic part and a built-in RNA template.",
+          "head_name": "telomerase",
+          "tail_name": "catalytic part and RNA template",
+          "score": 0.7687606041491322
+        },
+        {
+          "triple_id": "triple:7df158731c34378a",
+          "head_entity_id": "ent:telomerase",
+          "tail_entity_id": "ent:germ_cells_and_adult_stem_cells",
+          "relation": "is active in",
+          "evidence": "Telomerase is typically active in germ cells and adult stem cells.",
+          "head_name": "telomerase",
+          "tail_name": "germ cells and adult stem cells",
+          "score": 0.7662843773381975
+        },
+        {
+          "triple_id": "triple:ac84e0d6efc14752",
+          "head_entity_id": "ent:telomerase",
+          "tail_entity_id": "ent:the_ends_of_the_linear_chromosomes",
+          "relation": "maintains",
+          "evidence": "The ends of the linear chromosomes are maintained by telomerase.",
+          "head_name": "telomerase",
+          "tail_name": "the ends of the linear chromosomes",
+          "score": 0.7440715492596337
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:telomerase",
+        "ent:action_of_telomerase",
+        "ent:active_telomerase",
+        "ent:ends_of_chromosomes",
+        "ent:telomeres_at_chromosome_ends",
+        "ent:catalytic_part_and_rna_template",
+        "ent:germ_cells_and_adult_stem_cells",
+        "ent:the_ends_of_the_linear_chromosomes"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "telomerase",
+          "entity_id": "ent:telomerase",
+          "original_names": [
+            "telomerase",
+            "Telomerase"
+          ]
+        },
+        {
+          "name": "adult somatic cells",
+          "entity_id": "ent:adult_somatic_cells",
+          "original_names": [
+            "adult somatic cells"
+          ]
+        },
+        {
+          "name": "the ends of the linear chromosomes",
+          "entity_id": "ent:the_ends_of_the_linear_chromosomes",
+          "original_names": [
+            "the ends of the linear chromosomes"
+          ]
+        },
+        {
+          "name": "human cells",
+          "entity_id": "ent:human_cells",
+          "original_names": [
+            "human cells"
+          ]
+        },
+        {
+          "name": "telomeres are shortened",
+          "entity_id": "ent:telomeres_are_shortened",
+          "original_names": [
+            "telomeres are shortened"
+          ]
+        },
+        {
+          "name": "age-related conditions",
+          "entity_id": "ent:age-related_conditions",
+          "original_names": [
+            "age-related conditions"
+          ]
+        },
+        {
+          "name": "telomeres",
+          "entity_id": "ent:telomeres",
+          "original_names": [
+            "telomeres",
+            "Telomeres"
+          ]
+        },
+        {
+          "name": "cells",
+          "entity_id": "ent:cells",
+          "original_names": [
+            "cells"
+          ]
+        },
+        {
+          "name": "catalytic part and rna template",
+          "entity_id": "ent:catalytic_part_and_rna_template",
+          "original_names": [
+            "catalytic part and RNA template"
+          ]
+        },
+        {
+          "name": "cells in human embryos to proliferate",
+          "entity_id": "ent:cells_in_human_embryos_to_proliferate",
+          "original_names": [
+            "cells in human embryos to proliferate"
+          ]
+        },
+        {
+          "name": "telomeres at chromosome ends",
+          "entity_id": "ent:telomeres_at_chromosome_ends",
+          "original_names": [
+            "telomeres at chromosome ends"
+          ]
+        },
+        {
+          "name": "ends of chromosomes",
+          "entity_id": "ent:ends_of_chromosomes",
+          "original_names": [
+            "ends of chromosomes"
+          ]
+        },
+        {
+          "name": "germ cells and adult stem cells",
+          "entity_id": "ent:germ_cells_and_adult_stem_cells",
+          "original_names": [
+            "germ cells and adult stem cells"
+          ]
+        },
+        {
+          "name": "action of telomerase",
+          "entity_id": "ent:action_of_telomerase",
+          "original_names": [
+            "action of telomerase"
+          ]
+        },
+        {
+          "name": "drugs",
+          "entity_id": "ent:drugs",
+          "original_names": [
+            "Drugs"
+          ]
+        },
+        {
+          "name": "active telomerase",
+          "entity_id": "ent:active_telomerase",
+          "original_names": [
+            "active telomerase"
+          ]
+        },
+        {
+          "name": "cancerous cells",
+          "entity_id": "ent:cancerous_cells",
+          "original_names": [
+            "cancerous cells"
+          ]
+        },
+        {
+          "name": "shortened telomeres",
+          "entity_id": "ent:shortened_telomeres",
+          "original_names": [
+            "shortened telomeres"
+          ]
+        },
+        {
+          "name": "pca3",
+          "entity_id": "ent:pca3",
+          "original_names": [
+            "PCA3"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:adult_somatic_cells",
+          "evidence": "It is not active in adult somatic cells.",
+          "target_name": "adult somatic cells",
+          "source_entity_id": "ent:telomerase",
+          "triple_id": "triple:714761ee7ddd5e96",
+          "source_name": "telomerase",
+          "relation": "is not active in"
+        },
+        {
+          "target_entity_id": "ent:the_ends_of_the_linear_chromosomes",
+          "evidence": "The ends of the linear chromosomes are maintained by telomerase.",
+          "target_name": "the ends of the linear chromosomes",
+          "source_entity_id": "ent:telomerase",
+          "triple_id": "triple:ac84e0d6efc14752",
+          "source_name": "telomerase",
+          "relation": "maintains"
+        },
+        {
+          "target_entity_id": "ent:human_cells",
+          "evidence": "Later research using HeLa cells (obtained from Henrietta Lacks) confirmed that telomerase is present in human cells.",
+          "target_name": "human cells",
+          "source_entity_id": "ent:telomerase",
+          "triple_id": "triple:3b33ef711fe2a614",
+          "source_name": "telomerase",
+          "relation": "is present in"
+        },
+        {
+          "target_entity_id": "ent:telomeres_are_shortened",
+          "evidence": "Interestingly, only after the telomeres were shortened in the cancer cells did the telomerase become active.",
+          "target_name": "telomeres are shortened",
+          "source_entity_id": "ent:telomerase",
+          "triple_id": "triple:7b2862745ab3d30a",
+          "source_name": "telomerase",
+          "relation": "becomes active"
+        },
+        {
+          "target_entity_id": "ent:age-related_conditions",
+          "evidence": "In 2010, scientists found that telomerase can reverse some age-related conditions in mice.",
+          "target_name": "age-related conditions",
+          "source_entity_id": "ent:telomerase",
+          "triple_id": "triple:1b7dd184975b0dcc",
+          "source_name": "telomerase",
+          "relation": "can reverse"
+        },
+        {
+          "target_entity_id": "ent:telomeres",
+          "evidence": "The telomeres are added to the ends of chromosomes by a separate enzyme, telomerase.",
+          "target_name": "telomeres",
+          "source_entity_id": "ent:telomerase",
+          "triple_id": "triple:a05414325fa58407",
+          "source_name": "telomerase",
+          "relation": "adds"
+        },
+        {
+          "target_entity_id": "ent:cells",
+          "evidence": "Cells that undergo cell division continue to have their telomeres shortened because most somatic cells do not make telomerase.",
+          "target_name": "cells",
+          "source_entity_id": "ent:telomeres",
+          "triple_id": "triple:8ffd3a078c845b93",
+          "source_name": "telomeres",
+          "relation": "are shortened"
+        },
+        {
+          "target_entity_id": "ent:catalytic_part_and_rna_template",
+          "evidence": "The telomerase enzyme contains a catalytic part and a built-in RNA template.",
+          "target_name": "catalytic part and RNA template",
+          "source_entity_id": "ent:telomerase",
+          "triple_id": "triple:a3b59a2c841a57f9",
+          "source_name": "telomerase",
+          "relation": "contains"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What does telomerase do?",
+    "answer": "Telomerase extends the ends of chromosomes and maintains telomeres at chromosome ends.",
+    "citations": [
+      "triple:c06d0ab23a17b0ed | telomerase --[extends]--> ends of chromosomes",
+      "triple:23173d7454ab4750 | telomerase --[functions to maintain]--> telomeres at chromosome ends"
+    ],
+    "reasoning": "Matched entities: telomerase. Traversed graph edges: telomerase --[is not active in]--> adult somatic cells; telomerase --[maintains]--> the ends of the linear chromosomes; telomerase --[is present in]--> human cells. Graph evidence: \"It is not active in adult somatic cells.\". The evidence indicates that telomerase extends the ends of chromosomes and maintains telomeres at chromosome ends, as supported by the provided citations."
+  }
+}

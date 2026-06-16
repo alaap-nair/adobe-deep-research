@@ -12,6 +12,8 @@ from graph_schema import (
     triple_id,
     to_qdrant_id,
     build_graph_objects,
+    episode_id,
+    build_episode,
 )
 
 
@@ -111,3 +113,72 @@ class TestBuildGraphObjects:
         for r in relations:
             assert r.head_entity_id in entity_ids
             assert r.tail_entity_id in entity_ids
+
+    def test_no_episode_leaves_relations_unstamped(self, sample_triples):
+        _, relations = build_graph_objects(sample_triples)
+        # created_at always defaults; provenance/event-time stay empty
+        for r in relations:
+            assert r.episode_ids == []
+            assert r.valid_at is None
+            assert r.created_at is not None
+
+
+class TestEpisodeId:
+    def test_deterministic(self):
+        assert episode_id("doc.txt", "hello world") == episode_id("doc.txt", "hello world")
+
+    def test_content_sensitive(self):
+        assert episode_id("doc.txt", "a") != episode_id("doc.txt", "b")
+
+    def test_source_sensitive(self):
+        assert episode_id("a.txt", "same") != episode_id("b.txt", "same")
+
+    def test_prefix(self):
+        assert episode_id("doc.txt", "x").startswith("ep:")
+
+
+class TestBuildEpisode:
+    def test_id_matches_helper(self):
+        ep = build_episode("doc.txt", "content here")
+        assert ep.episode_id == episode_id("doc.txt", "content here")
+
+    def test_valid_at_defaults_to_created_at(self):
+        ep = build_episode("doc.txt", "x")
+        assert ep.valid_at == ep.created_at
+
+    def test_explicit_valid_at_preserved(self):
+        from datetime import datetime, timezone
+        when = datetime(1953, 4, 25, tzinfo=timezone.utc)  # Watson & Crick, why not
+        ep = build_episode("doc.txt", "x", valid_at=when)
+        assert ep.valid_at == when
+        assert ep.created_at != when  # ingest time is still "now"
+
+
+class TestEpisodeStamping:
+    def test_relations_carry_episode_provenance(self, sample_triples):
+        ep = build_episode("biology.txt", "...")
+        _, relations = build_graph_objects(sample_triples, episode=ep)
+        for r in relations:
+            assert r.episode_ids == [ep.episode_id]
+            assert r.valid_at == ep.valid_at
+            assert r.created_at == ep.created_at
+
+    def test_canonicalization_preserves_temporal_fields(self, sample_triples):
+        # Call apply_canonicalization directly with a stub embedder so the test
+        # stays service-free (no BGE model download). We just need to confirm
+        # the rewrite pass carries temporal/provenance fields onto rebuilt edges.
+        from canonicalize import apply_canonicalization
+
+        ep = build_episode("biology.txt", "...")
+        entities, relations = build_graph_objects(sample_triples, episode=ep)
+
+        # Deterministic, distinct unit vectors -> no spurious merges.
+        def stub_embedder(names):
+            return [[float(i == j) for j in range(len(names))] for i in range(len(names))]
+
+        _, rewritten = apply_canonicalization(entities, relations, embedder=stub_embedder)
+        assert rewritten
+        for r in rewritten:
+            assert r.episode_ids == [ep.episode_id]
+            assert r.valid_at == ep.valid_at
+            assert r.created_at == ep.created_at

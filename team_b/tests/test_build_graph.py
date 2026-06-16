@@ -19,11 +19,12 @@ try:
         create_constraints,
         upsert_entities,
         upsert_relations,
+        upsert_episode,
         clear_graph,
         get_graph_stats,
         build_graph,
     )
-    from graph_schema import build_graph_objects
+    from graph_schema import build_graph_objects, build_episode
 
     # Try to connect
     _driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
@@ -108,3 +109,51 @@ class TestBuildGraph:
             relations = [r["relation"] for r in result]
         assert "occur in" in relations
         assert "produce" in relations
+
+
+class TestEpisodicIngestion:
+    def test_episode_node_and_mentions(self, neo4j_driver, sample_triples):
+        episode = build_episode("biology.txt", "glycolysis text...")
+        entities, _ = build_graph(sample_triples, neo4j_driver, episode=episode)
+
+        with neo4j_driver.session() as session:
+            ep_count = session.run(
+                "MATCH (e:Episodic) RETURN count(e) AS c"
+            ).single()["c"]
+            mentions = session.run(
+                "MATCH (:Episodic)-[m:MENTIONS]->(:Entity) RETURN count(m) AS c"
+            ).single()["c"]
+
+        assert ep_count == 1
+        # One MENTIONS edge per entity the episode produced
+        assert mentions == len(entities)
+
+    def test_edges_stamped_with_temporal_fields(self, neo4j_driver, sample_triples):
+        episode = build_episode("biology.txt", "glycolysis text...")
+        build_graph(sample_triples, neo4j_driver, episode=episode)
+
+        with neo4j_driver.session() as session:
+            rec = session.run(
+                "MATCH ()-[r:RELATES_TO]->() "
+                "RETURN r.episode_ids AS eids, r.created_at AS created, "
+                "r.valid_at AS valid, r.invalid_at AS invalid LIMIT 1"
+            ).single()
+
+        assert rec["eids"] == [episode.episode_id]
+        assert rec["created"] is not None
+        assert rec["valid"] is not None
+        assert rec["invalid"] is None  # currently believed true
+
+    def test_episode_idempotent(self, neo4j_driver, sample_triples):
+        episode = build_episode("biology.txt", "glycolysis text...")
+        build_graph(sample_triples, neo4j_driver, episode=episode)
+        build_graph(sample_triples, neo4j_driver, episode=episode)
+
+        stats = get_graph_stats(neo4j_driver)
+        assert stats["episodes"] == 1
+        # episode_ids must not duplicate on re-ingest
+        with neo4j_driver.session() as session:
+            eids = session.run(
+                "MATCH ()-[r:RELATES_TO]->() RETURN r.episode_ids AS eids LIMIT 1"
+            ).single()["eids"]
+        assert eids == [episode.episode_id]

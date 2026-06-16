@@ -1,0 +1,9 @@
+{
+  "question": "What is CRISPR?",
+  "answer": "I don't know based on the provided context.",
+  "citations": [
+    "chunk:ch17_biotechnology_and_genomics:35 | data/Ch17_Biotechnology_and_Genomics.pdf | genotype using recombinant DNA technology to modify an organism’s DNA to achieve desirable traits. The addition of fo...",
+    "chunk:ch17_biotechnology_and_genomics:81 | data/Ch17_Biotechnology_and_Genomics.pdf | sequence alignment is an arrangement of proteins, DNA, or RNA. Scientists use it to identify similar regions between..."
+  ],
+  "reasoning": "Matched entities: c. Traversed graph edges: G --[pairs with]--> C; guide RNAs --[mediate]--> RNA editing; genes --[encode]--> guide RNAs. Graph evidence: \"Base pairing takes place between a purine and pyrimidine on opposite strands, so that A pairs with T, and G pairs with C (suggested by Chargaff's Rules).\". The provided context does not contain any information about CRISPR."
+}

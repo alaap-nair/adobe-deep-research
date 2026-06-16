@@ -1,0 +1,72 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 6,
+  "num_entities": 9,
+  "entities": [
+    "DNA",
+    "G1, S, and G2 phases",
+    "S phase",
+    "cell cycle",
+    "cytokinesis",
+    "mitosis",
+    "prophase, metaphase, anaphase, and telophase",
+    "two daughter cells",
+    "two sister chromatids"
+  ],
+  "triples": [
+    {
+      "head": "cell cycle",
+      "head_type": "Process",
+      "relation": "includes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "G1, S, and G2 phases",
+      "tail_type": "Process",
+      "evidence": "Interphase includes the G1, S, and G2 phases."
+    },
+    {
+      "head": "S phase",
+      "head_type": "Process",
+      "relation": "replicates",
+      "relation_type": "REPLICATES",
+      "tail": "DNA",
+      "tail_type": "Molecule",
+      "evidence": "During the S phase, DNA is replicated so each chromosome consists of two sister chromatids."
+    },
+    {
+      "head": "S phase",
+      "head_type": "Process",
+      "relation": "results in",
+      "relation_type": "PRODUCES",
+      "tail": "two sister chromatids",
+      "tail_type": "CellularStructure",
+      "evidence": "During the S phase, DNA is replicated so each chromosome consists of two sister chromatids."
+    },
+    {
+      "head": "mitosis",
+      "head_type": "Process",
+      "relation": "includes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "prophase, metaphase, anaphase, and telophase",
+      "tail_type": "Process",
+      "evidence": "In prophase, chromosomes condense and the spindle begins to form. In metaphase, chromosomes line up at the cell's equator. In anaphase, sister chromatids separate and move to opposite poles. In telophase, nuclear envelopes reform around the separated chromosomes."
+    },
+    {
+      "head": "cytokinesis",
+      "head_type": "Process",
+      "relation": "follows",
+      "relation_type": "PART_OF",
+      "tail": "mitosis",
+      "tail_type": "Process",
+      "evidence": "Cytokinesis usually follows mitosis and divides the cytoplasm into two daughter cells."
+    },
+    {
+      "head": "cytokinesis",
+      "head_type": "Process",
+      "relation": "divides",
+      "relation_type": "PRODUCES",
+      "tail": "two daughter cells",
+      "tail_type": "Organism",
+      "evidence": "Cytokinesis usually follows mitosis and divides the cytoplasm into two daughter cells."
+    }
+  ]
+}

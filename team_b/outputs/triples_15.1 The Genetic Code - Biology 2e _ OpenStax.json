@@ -1,29 +1,27 @@
 {
   "model": "mistralai/mistral-small-3.2-24b-instruct",
-  "num_triples": 15,
-  "num_entities": 21,
+  "num_triples": 12,
+  "num_entities": 19,
   "entities": [
-    "AUG",
     "DNA",
     "RNA",
     "all species",
+    "amino acid",
     "amino acids",
     "codons",
     "genes",
     "genetic code",
-    "mRNA",
     "messenger RNA (mRNA)",
-    "methionine",
     "nearly every function of the cell",
-    "nonsense codons",
-    "nucleotide triplets",
+    "nucleotide-based genetic information into a protein product",
     "protein",
     "protein synthesis",
     "proteins",
     "ribosomes",
-    "the start codon",
-    "three nucleotides",
-    "transcription"
+    "start codon",
+    "stop codons",
+    "transcription",
+    "translation"
   ],
   "triples": [
     {
@@ -63,12 +61,12 @@
       "evidence": "The cellular process of transcription generates messenger RNA (mRNA), a mobile molecular copy of one or more genes with an alphabet of A, C, G, and uracil (U)."
     },
     {
-      "head": "mRNA",
-      "head_type": "Molecule",
-      "relation": "is translated on",
-      "relation_type": "OCCURS_IN",
-      "tail": "ribosomes",
-      "tail_type": "CellularStructure",
+      "head": "ribosomes",
+      "head_type": "CellularStructure",
+      "relation": "convert",
+      "relation_type": "TRANSLATES_TO",
+      "tail": "nucleotide-based genetic information into a protein product",
+      "tail_type": "Molecule",
       "evidence": "Translation of the mRNA template on ribosomes converts nucleotide-based genetic information into a protein product."
     },
     {
@@ -81,7 +79,7 @@
       "evidence": "The flow of genetic information in cells from DNA to mRNA to protein is described by the central dogma, which states that genes specify the sequence of mRNAs, which in turn specify the sequence of amino acids making up all proteins."
     },
     {
-      "head": "mRNA",
+      "head": "RNA",
       "head_type": "Molecule",
       "relation": "encodes",
       "relation_type": "ENCODES",
@@ -99,52 +97,25 @@
       "evidence": "The copying of DNA to RNA is relatively straightforward, with one nucleotide being added to the mRNA strand for every nucleotide read in the DNA strand."
     },
     {
-      "head": "mRNA",
-      "head_type": "Molecule",
-      "relation": "is read in groups of",
-      "relation_type": "CONSISTS_OF",
-      "tail": "three nucleotides",
-      "tail_type": "Molecule",
-      "evidence": "The translation to protein is still systematic and colinear, such that nucleotides 1 to 3 correspond to amino acid 1, nucleotides 4 to 6 correspond to amino acid 2, and so on."
-    },
-    {
       "head": "codons",
       "head_type": "GeneticElement",
       "relation": "define",
       "relation_type": "ENCODES",
-      "tail": "amino acids",
+      "tail": "amino acid",
       "tail_type": "Molecule",
       "evidence": "Each amino acid is defined by a three-nucleotide sequence called the triplet codon."
     },
     {
-      "head": "codons",
+      "head": "start codon",
       "head_type": "GeneticElement",
-      "relation": "are encoded by",
-      "relation_type": "ENCODES",
-      "tail": "nucleotide triplets",
-      "tail_type": "Molecule",
-      "evidence": "Scientists theorized that amino acids were encoded by nucleotide triplets and that the genetic code was \u201cdegenerate.\u201d"
+      "relation": "initiates",
+      "relation_type": "REGULATES",
+      "tail": "translation",
+      "tail_type": "Process",
+      "evidence": "The reading frame for translation is set by the AUG start codon near the 5' end of the mRNA."
     },
     {
-      "head": "AUG",
-      "head_type": "GeneticElement",
-      "relation": "specifies",
-      "relation_type": "ENCODES",
-      "tail": "methionine",
-      "tail_type": "Molecule",
-      "evidence": "Another codon, AUG, also has a special function. In addition to specifying the amino acid methionine, it also serves as the start codon to initiate translation."
-    },
-    {
-      "head": "AUG",
-      "head_type": "GeneticElement",
-      "relation": "serves as",
-      "relation_type": "PART_OF",
-      "tail": "the start codon",
-      "tail_type": "GeneticElement",
-      "evidence": "Another codon, AUG, also has a special function. In addition to specifying the amino acid methionine, it also serves as the start codon to initiate translation."
-    },
-    {
-      "head": "nonsense codons",
+      "head": "stop codons",
       "head_type": "GeneticElement",
       "relation": "terminate",
       "relation_type": "INHIBITS",

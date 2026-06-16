@@ -14,7 +14,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from extract_triples import extract_triples, MODEL_NAME
 from extract_entitites import extract_entities
 from schema import ExtractionResult
-from graph_schema import build_graph_objects
+from graph_schema import build_graph_objects, build_episode
 from visualize_graph import visualize_from_triples
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -82,16 +82,26 @@ def main():
         out_path = save_output(triples, entities)
     print(f"\nSaved to {out_path}")
 
-    # 7. Build structured graph objects
-    entities_structured, relations_structured = build_graph_objects(triples)
+    # 7. Build an episode for this ingestion run (provenance + event time) and
+    #    structured graph objects stamped with its temporal metadata.
+    episode = build_episode(source=input_path or "passage.txt", content=text)
+    entities_structured, relations_structured = build_graph_objects(triples, episode=episode)
 
     # 8. Build knowledge graph (Neo4j) -- skip if unavailable
     if not skip_external_stores:
         try:
             from build_graph import build_graph as ingest_graph
-            ingest_graph(triples)
+            ingest_graph(triples, episode=episode)
         except Exception as e:
             print(f"Neo4j ingestion skipped: {e}")
+
+    # 8b. Optionally (re)build communities over the graph (phase 5).
+    if not skip_external_stores and os.getenv("KG_BUILD_COMMUNITIES", "0") == "1":
+        try:
+            from communities import build_communities
+            build_communities()
+        except Exception as e:
+            print(f"Community detection skipped: {e}")
 
     # 9. Build vector store (Qdrant) -- skip if unavailable
     if not skip_external_stores:

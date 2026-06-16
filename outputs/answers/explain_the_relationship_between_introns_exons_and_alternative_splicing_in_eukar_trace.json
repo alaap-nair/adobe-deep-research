@@ -1,0 +1,1027 @@
+{
+  "question": "Explain the relationship between introns, exons, and alternative splicing in eukaryotic gene expression.",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "explain",
+        "relationship",
+        "between",
+        "introns",
+        "exons",
+        "alternative",
+        "splicing",
+        "eukaryotic",
+        "gene",
+        "expression",
+        "explain relationship",
+        "relationship between",
+        "between introns",
+        "introns exons",
+        "exons alternative",
+        "alternative splicing",
+        "splicing eukaryotic",
+        "eukaryotic gene",
+        "gene expression",
+        "explain relationship between",
+        "relationship between introns",
+        "between introns exons",
+        "introns exons alternative",
+        "exons alternative splicing",
+        "alternative splicing eukaryotic",
+        "splicing eukaryotic gene",
+        "eukaryotic gene expression"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:gene",
+          "name": "gene",
+          "matched_text": "gene",
+          "matched_alias": "gene",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:gene_expression",
+          "name": "gene expression",
+          "matched_text": "gene expression",
+          "matched_alias": "gene expression",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:introns",
+          "name": "introns",
+          "matched_text": "introns",
+          "matched_alias": "introns",
+          "score": 1.0,
+          "match_type": "keyword"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:mcb_genetics:194",
+          "text": "exporting the\nprocessed mRNA to the cytoplasm.\n\nPre-mRNA Splicing\nEukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they\nare expressed), and intervening sequences called introns (int-ron denotes their intervening role), which may be\ninvolved in gene regulation but are removed from the pre-mRNA during processing. Intron sequences in mRNA do\nnot encode functional proteins. The discovery of introns came as a surprise to researchers in the 1970s who expected that pre-mRNAs would\nspecify protein sequences without further processing, as they had observed in prokaryotes. The genes of higher\neukaryotes very often contain one or more introns.",
+          "source_name": "/Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf",
+          "chunk_index": 194,
+          "snippet": "exporting the\nprocessed mRNA to the cytoplasm.\n\nPre-mRNA Splicing\nEukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they\nare expressed), and intervening sequences called introns (int-ron denotes their intervening role), which may be\ninvolved in gene regulation but are removed from the pre-mRNA during processing. Intron sequences in mRNA do\nn",
+          "score": 0.7754055732149931
+        },
+        {
+          "chunk_id": "chunk:mcb_genetics:197",
+          "text": "introns and reconnecting exons is called splicing (Figure 15.13).\n\nIntrons are\nremoved and degraded while the pre-mRNA is still in the nucleus. Splicing occurs by a sequence-specific\nmechanism that ensures introns will be removed and exons rejoined with the accuracy and precision of a single\nnucleotide. Although the intron itself is noncoding, the beginning and end of each intron is marked with specific\nnucleotides: GU at the 5' end and AG at the 3' end of the intron. The splicing of pre-mRNAs is conducted by\ncomplexes of proteins and RNA molecules called spliceosomes. VISUAL CONNECTION\nFIGURE 15.13 Pre-mRNA splicing involves the precise removal of introns from the primary RNA transcript.",
+          "source_name": "/Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf",
+          "chunk_index": 197,
+          "snippet": "introns and reconnecting exons is called splicing (Figure 15.13).\n\nIntrons are\nremoved and degraded while the pre-mRNA is still in the nucleus. Splicing occurs by a sequence-specific\nmechanism that ensures introns will be removed and exons rejoined with the accuracy and precision of a single\nnucleotide. Although the intron itself is noncoding, the beginning and end of each intron is marked with sp",
+          "score": 0.7362070011230669
+        },
+        {
+          "chunk_id": "chunk:mcb_genetics:186",
+          "text": "The eukaryotic pre-mRNA undergoes extensive processing before it is ready to be translated.\n\nEukaryotic protein-\ncoding sequences are not continuous, as they are in prokaryotes. The coding sequences (exons) are interrupted by\nnoncoding introns, which must be removed to make a translatable mRNA. The additional steps involved in\neukaryotic mRNA maturation also create a molecule with a much longer half-life than a prokaryotic mRNA. Eukaryotic mRNAs last for several hours, whereas the typical E. coli mRNA lasts no more than five seconds. Pre-mRNAs are first coated in RNA-stabilizing proteins; these protect the pre-mRNA from degradation while it is\nprocessed and exported out of the nucleus.",
+          "source_name": "/Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf",
+          "chunk_index": 186,
+          "snippet": "The eukaryotic pre-mRNA undergoes extensive processing before it is ready to be translated.\n\nEukaryotic protein-\ncoding sequences are not continuous, as they are in prokaryotes. The coding sequences (exons) are interrupted by\nnoncoding introns, which must be removed to make a translatable mRNA. The additional steps involved in\neukaryotic mRNA maturation also create a molecule with a much longer ha",
+          "score": 0.7209558470246645
+        },
+        {
+          "chunk_id": "chunk:ch15_genes_and_proteins:70",
+          "text": "had observed in prokaryotes. The genes of higher\neukaryotes very often contain one or more introns.\n\nThese regions may correspond to regulatory sequences;\nhowever, the biological significance of having many introns or having very long introns in a gene is unclear. It is\npossible that introns slow down gene expression because it takes longer to transcribe pre-mRNAs with lots of\n404\n15 \u2022 Genes and Proteins\nAccess for free at openstax.org",
+          "source_name": "data/Ch15_Genes_and_Proteins.pdf",
+          "chunk_index": 70,
+          "snippet": "had observed in prokaryotes. The genes of higher\neukaryotes very often contain one or more introns.\n\nThese regions may correspond to regulatory sequences;\nhowever, the biological significance of having many introns or having very long introns in a gene is unclear. It is\npossible that introns slow down gene expression because it takes longer to transcribe pre-mRNAs with lots of\n404\n15 \u2022 Genes and P",
+          "score": 0.7166084817480763
+        },
+        {
+          "chunk_id": "chunk:ch15_genes_and_proteins:71",
+          "text": "introns. Alternatively, introns may be nonfunctional sequence remnants left over from the fusion of ancient genes\nthroughout the course of evolution. This is supported by the fact that separate exons often encode separate protein\nsubunits or domains. For the most part, the sequences of introns can be mutated without ultimately affecting the\nprotein product. All of a pre-mRNA\u2019s introns must be completely and precisely removed before protein synthesis. If the process errs\nby even a single nucleotide, the reading frame of the rejoined exons would shift, and the resulting protein would be\ndysfunctional. The process of removing introns and reconnecting exons is called splicing (Figure 15.13).",
+          "source_name": "data/Ch15_Genes_and_Proteins.pdf",
+          "chunk_index": 71,
+          "snippet": "introns. Alternatively, introns may be nonfunctional sequence remnants left over from the fusion of ancient genes\nthroughout the course of evolution. This is supported by the fact that separate exons often encode separate protein\nsubunits or domains. For the most part, the sequences of introns can be mutated without ultimately affecting the\nprotein product. All of a pre-mRNA\u2019s introns must be comp",
+          "score": 0.7101717210277061
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:04a880042df92a71",
+          "head_entity_id": "ent:exon",
+          "tail_entity_id": "ent:protein-coding_mrna",
+          "relation": "present in",
+          "evidence": "exon sequence present in protein-coding mRNA after completion of pre-mRNA splicing",
+          "head_name": "exon",
+          "tail_name": "protein-coding mRNA",
+          "score": 0.8066311939393913
+        },
+        {
+          "triple_id": "triple:10cf2f5b5aaf8026",
+          "head_entity_id": "ent:eukaryotic_genes",
+          "tail_entity_id": "ent:exons_and_introns",
+          "relation": "are composed of",
+          "evidence": "Eukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they are expressed), and intervening sequences called introns (int-ron denotes their intervening role), which may be involved in gene regulation but are removed from the pre-mRNA during processing.",
+          "head_name": "eukaryotic genes",
+          "tail_name": "exons and introns",
+          "score": 0.8017918436324135
+        },
+        {
+          "triple_id": "triple:d1a2f1491d37b92b",
+          "head_entity_id": "ent:spliceosomes",
+          "tail_entity_id": "ent:sequences_at_the_5'_and_3'_end_of_the_intron",
+          "relation": "recognize",
+          "evidence": "Spliceosomes recognize sequences at the 5' and 3' end of the intron.",
+          "head_name": "spliceosomes",
+          "tail_name": "sequences at the 5' and 3' end of the intron",
+          "score": 0.7946316756395101
+        },
+        {
+          "triple_id": "triple:4c48bdcfa2890687",
+          "head_entity_id": "ent:pre-mrnas",
+          "tail_entity_id": "ent:splicing",
+          "relation": "undergo",
+          "evidence": "Pre-mRNAs also undergo splicing, in which introns are removed and exons are",
+          "head_name": "pre-mRNAs",
+          "tail_name": "splicing",
+          "score": 0.7901410768998154
+        },
+        {
+          "triple_id": "triple:c04b51f71842e95d",
+          "head_entity_id": "ent:splicing",
+          "tail_entity_id": "ent:reconnecting_exons",
+          "relation": "process of",
+          "evidence": "splicing process of removing introns and reconnecting exons in a pre-mRNA",
+          "head_name": "splicing",
+          "tail_name": "reconnecting exons",
+          "score": 0.7882637096448974
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:gene",
+        "ent:gene_expression",
+        "ent:introns",
+        "ent:exon",
+        "ent:protein-coding_mrna",
+        "ent:eukaryotic_genes",
+        "ent:exons_and_introns",
+        "ent:spliceosomes",
+        "ent:sequences_at_the_5'_and_3'_end_of_the_intron",
+        "ent:pre-mrnas",
+        "ent:splicing",
+        "ent:reconnecting_exons"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "gene",
+          "entity_id": "ent:gene",
+          "original_names": [
+            "gene"
+          ]
+        },
+        {
+          "name": "functional product",
+          "entity_id": "ent:functional_product",
+          "original_names": [
+            "functional product"
+          ]
+        },
+        {
+          "name": "structural protein",
+          "entity_id": "ent:structural_protein",
+          "original_names": [
+            "structural protein"
+          ]
+        },
+        {
+          "name": "recombinant protein",
+          "entity_id": "ent:recombinant_protein",
+          "original_names": [
+            "recombinant protein"
+          ]
+        },
+        {
+          "name": "insulin",
+          "entity_id": "ent:insulin",
+          "original_names": [
+            "Insulin"
+          ]
+        },
+        {
+          "name": "gene targeting",
+          "entity_id": "ent:gene_targeting",
+          "original_names": [
+            "gene targeting"
+          ]
+        },
+        {
+          "name": "alter gene's expression",
+          "entity_id": "ent:alter_gene's_expression",
+          "original_names": [
+            "alter gene's expression"
+          ]
+        },
+        {
+          "name": "deleting gene sequence",
+          "entity_id": "ent:deleting_gene_sequence",
+          "original_names": [
+            "deleting gene sequence"
+          ]
+        },
+        {
+          "name": "a specific gene",
+          "entity_id": "ent:a_specific_gene",
+          "original_names": [
+            "a specific gene"
+          ]
+        },
+        {
+          "name": "gene expression",
+          "entity_id": "ent:gene_expression",
+          "original_names": [
+            "gene expression"
+          ]
+        },
+        {
+          "name": "introns",
+          "entity_id": "ent:introns",
+          "original_names": [
+            "introns"
+          ]
+        },
+        {
+          "name": "pre-mrna",
+          "entity_id": "ent:pre-mrna",
+          "original_names": [
+            "pre-mRNA"
+          ]
+        },
+        {
+          "name": "regulatory sequences",
+          "entity_id": "ent:regulatory_sequences",
+          "original_names": [
+            "regulatory sequences"
+          ]
+        },
+        {
+          "name": "genes of higher eukaryotes",
+          "entity_id": "ent:genes_of_higher_eukaryotes",
+          "original_names": [
+            "genes of higher eukaryotes"
+          ]
+        },
+        {
+          "name": "nonfunctional sequence remnants",
+          "entity_id": "ent:nonfunctional_sequence_remnants",
+          "original_names": [
+            "nonfunctional sequence remnants"
+          ]
+        },
+        {
+          "name": "nucleus",
+          "entity_id": "ent:nucleus",
+          "original_names": [
+            "nucleus"
+          ]
+        },
+        {
+          "name": "pre-mrna processing",
+          "entity_id": "ent:pre-mrna_processing",
+          "original_names": [
+            "pre-mRNA processing"
+          ]
+        },
+        {
+          "name": "researchers",
+          "entity_id": "ent:researchers",
+          "original_names": [
+            "researchers",
+            "Researchers"
+          ]
+        },
+        {
+          "name": "sequences",
+          "entity_id": "ent:sequences",
+          "original_names": [
+            "sequences"
+          ]
+        },
+        {
+          "name": "functional proteins",
+          "entity_id": "ent:functional_proteins",
+          "original_names": [
+            "functional proteins"
+          ]
+        },
+        {
+          "name": "northern blots",
+          "entity_id": "ent:northern_blots",
+          "original_names": [
+            "Northern blots"
+          ]
+        },
+        {
+          "name": "scientists",
+          "entity_id": "ent:scientists",
+          "original_names": [
+            "Scientists",
+            "scientists"
+          ]
+        },
+        {
+          "name": "dna microarray",
+          "entity_id": "ent:dna_microarray",
+          "original_names": [
+            "DNA microarray"
+          ]
+        },
+        {
+          "name": "endonuclease",
+          "entity_id": "ent:endonuclease",
+          "original_names": [
+            "endonuclease"
+          ]
+        },
+        {
+          "name": "poly-a tail",
+          "entity_id": "ent:poly-a_tail",
+          "original_names": [
+            "poly-A tail"
+          ]
+        },
+        {
+          "name": "7-methylguanosine cap",
+          "entity_id": "ent:7-methylguanosine_cap",
+          "original_names": [
+            "7-methylguanosine cap"
+          ]
+        },
+        {
+          "name": "eukaryote",
+          "entity_id": "ent:eukaryote",
+          "original_names": [
+            "eukaryote"
+          ]
+        },
+        {
+          "name": "rna polymerase ii",
+          "entity_id": "ent:rna_polymerase_ii",
+          "original_names": [
+            "RNA polymerase II"
+          ]
+        },
+        {
+          "name": "pre-trnas",
+          "entity_id": "ent:pre-trnas",
+          "original_names": [
+            "pre-tRNAs"
+          ]
+        },
+        {
+          "name": "rna polymerase iii",
+          "entity_id": "ent:rna_polymerase_iii",
+          "original_names": [
+            "RNA polymerase III"
+          ]
+        },
+        {
+          "name": "rna",
+          "entity_id": "ent:rna",
+          "original_names": [
+            "RNA"
+          ]
+        },
+        {
+          "name": "stabilizing and signaling factors",
+          "entity_id": "ent:stabilizing_and_signaling_factors",
+          "original_names": [
+            "stabilizing and signaling factors"
+          ]
+        },
+        {
+          "name": "novel drugs",
+          "entity_id": "ent:novel_drugs",
+          "original_names": [
+            "novel drugs"
+          ]
+        },
+        {
+          "name": "mapping and sequencing sources",
+          "entity_id": "ent:mapping_and_sequencing_sources",
+          "original_names": [
+            "mapping and sequencing sources"
+          ]
+        },
+        {
+          "name": "cloning gene fragments",
+          "entity_id": "ent:cloning_gene_fragments",
+          "original_names": [
+            "cloning gene fragments"
+          ]
+        },
+        {
+          "name": "lab bench",
+          "entity_id": "ent:lab_bench",
+          "original_names": [
+            "lab bench"
+          ]
+        },
+        {
+          "name": "patients' genomes and proteomes",
+          "entity_id": "ent:patients'_genomes_and_proteomes",
+          "original_names": [
+            "patients' genomes and proteomes"
+          ]
+        },
+        {
+          "name": "messenger rna",
+          "entity_id": "ent:messenger_rna",
+          "original_names": [
+            "messenger RNA"
+          ]
+        },
+        {
+          "name": "southern and northern blotting",
+          "entity_id": "ent:southern_and_northern_blotting",
+          "original_names": [
+            "Southern and Northern blotting"
+          ]
+        },
+        {
+          "name": "studying drug interactions",
+          "entity_id": "ent:studying_drug_interactions",
+          "original_names": [
+            "studying drug interactions"
+          ]
+        },
+        {
+          "name": "proteomics",
+          "entity_id": "ent:proteomics",
+          "original_names": [
+            "Proteomics",
+            "proteomics"
+          ]
+        },
+        {
+          "name": "dna from agrobacterium to plant host",
+          "entity_id": "ent:dna_from_agrobacterium_to_plant_host",
+          "original_names": [
+            "DNA from Agrobacterium to plant host"
+          ]
+        },
+        {
+          "name": "studying microorganisms in the environment",
+          "entity_id": "ent:studying_microorganisms_in_the_environment",
+          "original_names": [
+            "studying microorganisms in the environment"
+          ]
+        },
+        {
+          "name": "generating new biofuels",
+          "entity_id": "ent:generating_new_biofuels",
+          "original_names": [
+            "generating new biofuels"
+          ]
+        },
+        {
+          "name": "cancer",
+          "entity_id": "ent:cancer",
+          "original_names": [
+            "cancer"
+          ]
+        },
+        {
+          "name": "genealogical assessment using mitochondria",
+          "entity_id": "ent:genealogical_assessment_using_mitochondria",
+          "original_names": [
+            "genealogical assessment using mitochondria"
+          ]
+        },
+        {
+          "name": "model organism",
+          "entity_id": "ent:model_organism",
+          "original_names": [
+            "model organism"
+          ]
+        },
+        {
+          "name": "mechanisms of action",
+          "entity_id": "ent:mechanisms_of_action",
+          "original_names": [
+            "mechanisms of action"
+          ]
+        },
+        {
+          "name": "advances in forensic science",
+          "entity_id": "ent:advances_in_forensic_science",
+          "original_names": [
+            "advances in forensic science"
+          ]
+        },
+        {
+          "name": "whole-genome sequences of model organisms",
+          "entity_id": "ent:whole-genome_sequences_of_model_organisms",
+          "original_names": [
+            "whole-genome sequences of model organisms"
+          ]
+        },
+        {
+          "name": "proteins whose expression indicates the disease process",
+          "entity_id": "ent:proteins_whose_expression_indicates_the_disease_process",
+          "original_names": [
+            "proteins whose expression indicates the disease process"
+          ]
+        },
+        {
+          "name": "amplifying dna for sequencing",
+          "entity_id": "ent:amplifying_dna_for_sequencing",
+          "original_names": [
+            "amplifying DNA for sequencing"
+          ]
+        },
+        {
+          "name": "genomics",
+          "entity_id": "ent:genomics",
+          "original_names": [
+            "Genomics",
+            "genomics"
+          ]
+        },
+        {
+          "name": "hgh gene",
+          "entity_id": "ent:hgh_gene",
+          "original_names": [
+            "HGH gene"
+          ]
+        },
+        {
+          "name": "personalized medicine",
+          "entity_id": "ent:personalized_medicine",
+          "original_names": [
+            "personalized medicine"
+          ]
+        },
+        {
+          "name": "proteomics techniques",
+          "entity_id": "ent:proteomics_techniques",
+          "original_names": [
+            "proteomics techniques"
+          ]
+        },
+        {
+          "name": "individual genes",
+          "entity_id": "ent:individual_genes",
+          "original_names": [
+            "individual genes"
+          ]
+        },
+        {
+          "name": "individualized treatment plans",
+          "entity_id": "ent:individualized_treatment_plans",
+          "original_names": [
+            "individualized treatment plans"
+          ]
+        },
+        {
+          "name": "dna",
+          "entity_id": "ent:dna",
+          "original_names": [
+            "DNA"
+          ]
+        },
+        {
+          "name": "prediction of disease risks at an individual level",
+          "entity_id": "ent:prediction_of_disease_risks_at_an_individual_level",
+          "original_names": [
+            "prediction of disease risks at an individual level"
+          ]
+        },
+        {
+          "name": "different cancer types",
+          "entity_id": "ent:different_cancer_types",
+          "original_names": [
+            "different cancer types"
+          ]
+        },
+        {
+          "name": "molecular weight standard samples",
+          "entity_id": "ent:molecular_weight_standard_samples",
+          "original_names": [
+            "molecular weight standard samples"
+          ]
+        },
+        {
+          "name": "remove tumor-causing genes",
+          "entity_id": "ent:remove_tumor-causing_genes",
+          "original_names": [
+            "remove tumor-causing genes"
+          ]
+        },
+        {
+          "name": "possibility of disease recurrence",
+          "entity_id": "ent:possibility_of_disease_recurrence",
+          "original_names": [
+            "possibility of disease recurrence"
+          ]
+        },
+        {
+          "name": "identifying contaminant foreign dna",
+          "entity_id": "ent:identifying_contaminant_foreign_dna",
+          "original_names": [
+            "identifying contaminant foreign DNA"
+          ]
+        },
+        {
+          "name": "improvements in agriculture",
+          "entity_id": "ent:improvements_in_agriculture",
+          "original_names": [
+            "improvements in agriculture"
+          ]
+        },
+        {
+          "name": "exon",
+          "entity_id": "ent:exon",
+          "original_names": [
+            "exon"
+          ]
+        },
+        {
+          "name": "protein-coding mrna",
+          "entity_id": "ent:protein-coding_mrna",
+          "original_names": [
+            "protein-coding mRNA"
+          ]
+        },
+        {
+          "name": "eukaryotic genes",
+          "entity_id": "ent:eukaryotic_genes",
+          "original_names": [
+            "eukaryotic genes",
+            "Eukaryotic genes"
+          ]
+        },
+        {
+          "name": "exons and introns",
+          "entity_id": "ent:exons_and_introns",
+          "original_names": [
+            "exons and introns"
+          ]
+        },
+        {
+          "name": "preinitiation complex",
+          "entity_id": "ent:preinitiation_complex",
+          "original_names": [
+            "preinitiation complex",
+            "Preinitiation complex"
+          ]
+        },
+        {
+          "name": "all protein-coding nuclear pre-mrnas",
+          "entity_id": "ent:all_protein-coding_nuclear_pre-mrnas",
+          "original_names": [
+            "all protein-coding nuclear pre-mRNAs"
+          ]
+        },
+        {
+          "name": "excess",
+          "entity_id": "ent:excess",
+          "original_names": [
+            "excess"
+          ]
+        },
+        {
+          "name": "gene template",
+          "entity_id": "ent:gene_template",
+          "original_names": [
+            "gene template"
+          ]
+        },
+        {
+          "name": "the vast majority of eukaryotic genes",
+          "entity_id": "ent:the_vast_majority_of_eukaryotic_genes",
+          "original_names": [
+            "the vast majority of eukaryotic genes"
+          ]
+        },
+        {
+          "name": "end of the gene",
+          "entity_id": "ent:end_of_the_gene",
+          "original_names": [
+            "end of the gene"
+          ]
+        },
+        {
+          "name": "promoter",
+          "entity_id": "ent:promoter",
+          "original_names": [
+            "promoter"
+          ]
+        },
+        {
+          "name": "transcription initiation complex",
+          "entity_id": "ent:transcription_initiation_complex",
+          "original_names": [
+            "transcription initiation complex"
+          ]
+        },
+        {
+          "name": "protein-coding genes",
+          "entity_id": "ent:protein-coding_genes",
+          "original_names": [
+            "protein-coding genes"
+          ]
+        },
+        {
+          "name": "\u03b1-amanitin",
+          "entity_id": "ent:\u03b1-amanitin",
+          "original_names": [
+            "\u03b1-amanitin"
+          ]
+        },
+        {
+          "name": "eukaryotic transcription",
+          "entity_id": "ent:eukaryotic_transcription",
+          "original_names": [
+            "eukaryotic transcription"
+          ]
+        },
+        {
+          "name": "spliceosomes",
+          "entity_id": "ent:spliceosomes",
+          "original_names": [
+            "spliceosomes"
+          ]
+        },
+        {
+          "name": "sequences at the 5' and 3' end of the intron",
+          "entity_id": "ent:sequences_at_the_5'_and_3'_end_of_the_intron",
+          "original_names": [
+            "sequences at the 5' and 3' end of the intron"
+          ]
+        },
+        {
+          "name": "proteins and rna molecules",
+          "entity_id": "ent:proteins_and_rna_molecules",
+          "original_names": [
+            "proteins and RNA molecules"
+          ]
+        },
+        {
+          "name": "splicing of pre-mrnas",
+          "entity_id": "ent:splicing_of_pre-mrnas",
+          "original_names": [
+            "splicing of pre-mRNAs"
+          ]
+        },
+        {
+          "name": "pre-mrnas",
+          "entity_id": "ent:pre-mrnas",
+          "original_names": [
+            "pre-mRNAs"
+          ]
+        },
+        {
+          "name": "eukaryotic pre-mrnas",
+          "entity_id": "ent:eukaryotic_pre-mrnas",
+          "original_names": [
+            "Eukaryotic pre-mRNAs",
+            "eukaryotic pre-mRNAs"
+          ]
+        },
+        {
+          "name": "poly-a polymerase",
+          "entity_id": "ent:poly-a_polymerase",
+          "original_names": [
+            "poly-A polymerase"
+          ]
+        },
+        {
+          "name": "splicing",
+          "entity_id": "ent:splicing",
+          "original_names": [
+            "splicing"
+          ]
+        },
+        {
+          "name": "reconnecting exons",
+          "entity_id": "ent:reconnecting_exons",
+          "original_names": [
+            "reconnecting exons"
+          ]
+        },
+        {
+          "name": "removing introns",
+          "entity_id": "ent:removing_introns",
+          "original_names": [
+            "removing introns"
+          ]
+        },
+        {
+          "name": "sequence-specific mechanism",
+          "entity_id": "ent:sequence-specific_mechanism",
+          "original_names": [
+            "sequence-specific mechanism"
+          ]
+        },
+        {
+          "name": "removal of introns",
+          "entity_id": "ent:removal_of_introns",
+          "original_names": [
+            "removal of introns"
+          ]
+        },
+        {
+          "name": "pre-rrnas",
+          "entity_id": "ent:pre-rrnas",
+          "original_names": [
+            "pre-rRNAs"
+          ]
+        },
+        {
+          "name": "rna-stabilizing proteins",
+          "entity_id": "ent:rna-stabilizing_proteins",
+          "original_names": [
+            "RNA-stabilizing proteins"
+          ]
+        },
+        {
+          "name": "eukaryotic initiation complex",
+          "entity_id": "ent:eukaryotic_initiation_complex",
+          "original_names": [
+            "eukaryotic initiation complex"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "nascent mrna",
+          "entity_id": "ent:nascent_mrna",
+          "original_names": [
+            "nascent mRNA"
+          ]
+        },
+        {
+          "name": "translation",
+          "entity_id": "ent:translation",
+          "original_names": [
+            "translation",
+            "Translation"
+          ]
+        },
+        {
+          "name": "initiating translation",
+          "entity_id": "ent:initiating_translation",
+          "original_names": [
+            "initiating translation"
+          ]
+        },
+        {
+          "name": "other small nuclear rnas",
+          "entity_id": "ent:other_small_nuclear_rnas",
+          "original_names": [
+            "other small nuclear RNAs"
+          ]
+        },
+        {
+          "name": "18s and 28s rrnas",
+          "entity_id": "ent:18s_and_28s_rrnas",
+          "original_names": [
+            "18S and 28S rRNAs"
+          ]
+        },
+        {
+          "name": "rna polymerase i",
+          "entity_id": "ent:rna_polymerase_i",
+          "original_names": [
+            "RNA polymerase I"
+          ]
+        },
+        {
+          "name": "the three polymerases",
+          "entity_id": "ent:the_three_polymerases",
+          "original_names": [
+            "the three polymerases"
+          ]
+        },
+        {
+          "name": "5s rrnas and trnas",
+          "entity_id": "ent:5s_rrnas_and_trnas",
+          "original_names": [
+            "5S rRNAs and tRNAs"
+          ]
+        },
+        {
+          "name": "methylation",
+          "entity_id": "ent:methylation",
+          "original_names": [
+            "methylation"
+          ]
+        },
+        {
+          "name": "chemical conversion of nucleotides",
+          "entity_id": "ent:chemical_conversion_of_nucleotides",
+          "original_names": [
+            "chemical conversion of nucleotides"
+          ]
+        },
+        {
+          "name": "intramolecular cleavage",
+          "entity_id": "ent:intramolecular_cleavage",
+          "original_names": [
+            "intramolecular cleavage"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:functional_product",
+          "evidence": "A gene is defined as a sequence of DNA that codes for a functional product.",
+          "target_name": "functional product",
+          "source_entity_id": "ent:gene",
+          "triple_id": "triple:bd25796f43ef9798",
+          "source_name": "gene",
+          "relation": "codes for"
+        },
+        {
+          "target_entity_id": "ent:structural_protein",
+          "evidence": "Maybe the gene encodes a structural protein that the cell needs to synthesize in abundance for a certain function.",
+          "target_name": "structural protein",
+          "source_entity_id": "ent:gene",
+          "triple_id": "triple:d0d90100c4c3cee9",
+          "source_name": "gene",
+          "relation": "encodes structural protein"
+        },
+        {
+          "target_entity_id": "ent:gene",
+          "evidence": "recombinant protein a gene's protein product derived by molecular cloning",
+          "target_name": "gene",
+          "source_entity_id": "ent:recombinant_protein",
+          "triple_id": "triple:37987c5b52f43ba2",
+          "source_name": "recombinant protein",
+          "relation": "is product of"
+        },
+        {
+          "target_entity_id": "ent:recombinant_protein",
+          "evidence": "is a recombinant protein",
+          "target_name": "recombinant protein",
+          "source_entity_id": "ent:insulin",
+          "triple_id": "triple:dd7fee41e0816f22",
+          "source_name": "Insulin",
+          "relation": "is a"
+        },
+        {
+          "target_entity_id": "ent:gene",
+          "evidence": "Gene targeting is the use of recombinant DNA vectors to alter a particular gene's expression, either by introducing mutations in a gene, or by eliminating a certain gene's expression by deleting a part or all of the gene sequence from the organism's genome.",
+          "target_name": "gene",
+          "source_entity_id": "ent:gene_targeting",
+          "triple_id": "triple:001ae57ad81def5e",
+          "source_name": "gene targeting",
+          "relation": "introduces mutations in"
+        },
+        {
+          "target_entity_id": "ent:alter_gene's_expression",
+          "evidence": "Gene targeting is the use of recombinant DNA vectors to alter a particular gene's expression, either by introducing mutations in a gene, or by eliminating a certain gene's expression by deleting a part or all of the gene sequence from the organism's genome.",
+          "target_name": "alter gene's expression",
+          "source_entity_id": "ent:gene_targeting",
+          "triple_id": "triple:1594c082058cdb32",
+          "source_name": "gene targeting",
+          "relation": "uses recombinant DNA vectors"
+        },
+        {
+          "target_entity_id": "ent:deleting_gene_sequence",
+          "evidence": "Gene targeting is the use of recombinant DNA vectors to alter a particular gene's expression, either by introducing mutations in a gene, or by eliminating a certain gene's expression by deleting a part or all of the gene sequence from the organism's genome.",
+          "target_name": "deleting gene sequence",
+          "source_entity_id": "ent:gene_targeting",
+          "triple_id": "triple:26377f74f5451d4d",
+          "source_name": "gene targeting",
+          "relation": "eliminates gene's expression"
+        },
+        {
+          "target_entity_id": "ent:a_specific_gene",
+          "evidence": "gene targeting method for altering the sequence of a specific gene by introducing the modified version on a vector",
+          "target_name": "a specific gene",
+          "source_entity_id": "ent:gene_targeting",
+          "triple_id": "triple:d86399ea498ebd60",
+          "source_name": "gene targeting",
+          "relation": "alters the sequence"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "Explain the relationship between introns, exons, and alternative splicing in eukaryotic gene expression.",
+    "answer": "Eukaryotic genes are composed of exons, which are protein-coding sequences, and introns, which are noncoding intervening sequences. Introns are removed and degraded during the splicing process, where exons are reconnected to form the final mRNA. This process ensures that only the coding sequences (exons) are present in the mature mRNA, which is then exported to the cytoplasm for translation. The precise removal of introns is crucial as any error can shift the reading frame and result in a dysfunctional protein.",
+    "citations": [
+      "chunk:mcb_genetics:194 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | exporting the processed mRNA to the cytoplasm. Pre-mRNA Splicing Eukaryotic genes are composed of exons, which corres...",
+      "chunk:mcb_genetics:197 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | introns and reconnecting exons is called splicing (Figure 15.13). Introns are removed and degraded while the pre-mRNA...",
+      "chunk:mcb_genetics:186 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | The eukaryotic pre-mRNA undergoes extensive processing before it is ready to be translated. Eukaryotic protein- codin...",
+      "triple:10cf2f5b5aaf8026 | eukaryotic genes --[are composed of]--> exons and introns",
+      "triple:4c48bdcfa2890687 | pre-mRNAs --[undergo]--> splicing",
+      "triple:c04b51f71842e95d | splicing --[process of]--> reconnecting exons"
+    ],
+    "reasoning": "Matched entities: gene, gene expression, introns. Traversed graph edges: gene --[codes for]--> functional product; gene --[encodes structural protein]--> structural protein; recombinant protein --[is product of]--> gene. Graph evidence: \"A gene is defined as a sequence of DNA that codes for a functional product.\". The context explains that eukaryotic genes contain both exons and introns. Exons are the coding sequences, while introns are noncoding and must be removed during the splicing process. The splicing process involves the precise removal of introns and the reconnection of exons to form the mature mRNA. This process is essential for ensuring that the mRNA is correctly translated into a functional protein."
+  }
+}

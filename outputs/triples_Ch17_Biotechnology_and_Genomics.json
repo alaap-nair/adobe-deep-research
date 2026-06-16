@@ -1,0 +1,4336 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 590,
+  "num_entities": 787,
+  "entities": [
+    "74 different laboratories",
+    "A biomarker",
+    "A protein signature",
+    "A. tumefaciens",
+    "AD",
+    "Advanced gene therapy",
+    "Agrobacterium tumefaciens",
+    "Antibiotics",
+    "Antibodies",
+    "BD",
+    "BLAST",
+    "Bacillus thuringiensis",
+    "Biomedical Proteomics Program",
+    "Biotechnology",
+    "Biotechnology in agriculture",
+    "Bt toxin",
+    "CA-125",
+    "Clinical Proteomic Technologies for Cancer and the Early Detection Research Network",
+    "Craig Venter",
+    "Creating cDNA libraries",
+    "Creating genomic libraries",
+    "Cultivating and manipulating fungal cells",
+    "Cytogenetic mapping",
+    "DNA",
+    "DNA fragment copies",
+    "DNA fragment from the human genome",
+    "DNA fragments",
+    "DNA from Agrobacterium to plant host",
+    "DNA from Ti plasmid",
+    "DNA from a different species",
+    "DNA from a gel to a nylon membrane",
+    "DNA is cut with a restriction endonuclease",
+    "DNA ligase",
+    "DNA microarray",
+    "DNA microarrays",
+    "DNA polymerase enzyme",
+    "DNA replication process",
+    "DNA samples",
+    "DNA sequence level",
+    "DNA sequences",
+    "DNA sequencing",
+    "DNA sequencing technology",
+    "DNA strands",
+    "DNA synthesis",
+    "DNA's age",
+    "DNA-binding domain and activator domain",
+    "DNA\u2019s coding regions",
+    "Discovery of the structure of DNA",
+    "Doctors",
+    "Dolly",
+    "Dolly the sheep",
+    "E. coli",
+    "E. coli cells",
+    "ESTs",
+    "Early geneticists",
+    "Enzymes",
+    "European Bioinformatics Institute",
+    "Expressed sequence tag",
+    "Flavr Savr Tomato",
+    "Foreign genomic DNA",
+    "Fred Sanger",
+    "Freda Miller and Elaine Fuchs",
+    "GMOs",
+    "Gel electrophoresis",
+    "Gene therapy",
+    "Gene transfer",
+    "Genetic diagnosis",
+    "Genetic map",
+    "Genetic maps",
+    "Genetic marker",
+    "Genetic recombination",
+    "Genome mapping",
+    "Genome\u2019s",
+    "Genomic analysis",
+    "Genomic information",
+    "Genomics",
+    "Good gene",
+    "Gregor Mendel",
+    "HGH gene",
+    "Human Insulin Receptor gene",
+    "Human Proteome Organization (HUPO)",
+    "Human genome maps",
+    "Information",
+    "Insects",
+    "Insulin",
+    "Linkage analysis",
+    "Lower Geyser Basin of Yellowstone National Park",
+    "Manipulating the DNA of plants",
+    "Mapping information",
+    "Mass spectrometry",
+    "Medical field",
+    "Medical professionals",
+    "Metagenomics",
+    "Microbial Genomics",
+    "Microbial genomics",
+    "Microbial world",
+    "Microorganisms",
+    "Microsatellite polymorphisms",
+    "Mitochondria",
+    "Mitochondrial DNA",
+    "Modern biotechnology",
+    "Modern techniques",
+    "Molecular Cloning",
+    "Multiple cloning site",
+    "NCBI",
+    "National Cancer Institute",
+    "Northern blots",
+    "Northern blotting",
+    "Nuclear magnetic resonance (NMR)",
+    "Nucleic acids",
+    "Online Mendelian Inheritance in Man (OMIM)",
+    "PCA3",
+    "PCA3 concentration",
+    "PCA3 test",
+    "PCR",
+    "PSA",
+    "PSA (prostate-specific antigen)",
+    "PSA test",
+    "Pharmacogenomics",
+    "Physical map",
+    "Physical maps",
+    "Plasmid",
+    "Plasmid vectors",
+    "Plasmids",
+    "Polymerase chain reaction",
+    "Primers",
+    "Proteins",
+    "Proteome",
+    "Proteomic approaches",
+    "Proteomics",
+    "Quake had a 1.4 percent risk of developing Alzheimer\u2019s",
+    "Quake had a 23 percent risk of developing prostate cancer",
+    "Quake's propensity to acquire various diseases",
+    "RFLPs",
+    "RNA",
+    "RNA analysis",
+    "RNA extraction",
+    "Radiation hybrid mapping",
+    "Recombinant DNA",
+    "Recombinant DNA molecules",
+    "Recombination level",
+    "Research involving plant genome mapping",
+    "Researchers",
+    "Restriction endonucleases",
+    "Reverse transcriptase PCR",
+    "Roundup-ready soybeans and borer-resistant corn",
+    "SNPs",
+    "Scientists",
+    "Sequence mapping",
+    "Sequence-tagged site",
+    "Sequencing an individual person\u2019s genome",
+    "Single sequence length polymorphism",
+    "Smaller molecules",
+    "Some parts of the genome",
+    "Southern and Northern blotting",
+    "Southern blots",
+    "Southern blotting",
+    "Taq polymerase",
+    "The chain termination method",
+    "Thermus aquaticus",
+    "Ti plasmid",
+    "Ti plasmids",
+    "Traditional vaccination strategies",
+    "Transport proteins",
+    "US",
+    "United States Preventative Services Task Force",
+    "VNTRs",
+    "Vector",
+    "Virus",
+    "X-ray crystallography",
+    "a DNA polymerase",
+    "a cDNA library is made",
+    "a deoxynucleotide",
+    "a different species",
+    "a different vector",
+    "a genome viewer tool",
+    "a known exact chromosomal location",
+    "a microscope",
+    "a nylon membrane",
+    "a rapid rate",
+    "a rare genetic mutation",
+    "a single cell type",
+    "a single nucleotide",
+    "a small circular DNA molecule",
+    "a specific DNA sequence",
+    "a specific gene",
+    "a vector",
+    "a virus",
+    "abnormalities",
+    "activate the toxin",
+    "active genes and sequences",
+    "advanced environmental cleanup techniques",
+    "advances in forensic science",
+    "advances in genomics",
+    "agriculture",
+    "agrochemicals",
+    "alcohol",
+    "allergic reactions",
+    "alter gene's expression",
+    "amino acids",
+    "amplify DNA",
+    "amplifying DNA for sequencing",
+    "an RNA template",
+    "an embryo grows without fertilization",
+    "an individual's genomic sequence",
+    "an ongoing process",
+    "an organism",
+    "analyze the effect of pollutants",
+    "animal",
+    "animals",
+    "anthropologists",
+    "antibiotic resistance",
+    "antibiotic resistance genes",
+    "antibiotics",
+    "approximately 5 percent of diseases in developed countries",
+    "atoms' magnetic properties",
+    "automated techniques",
+    "automation",
+    "bacteria",
+    "bacteria, plants, and animals",
+    "bacterial virus",
+    "bacterium Haemophilus influenzae",
+    "bait protein",
+    "basic experiments in molecular biology",
+    "better flavor and shelf-life",
+    "better ways to harness biofuels",
+    "binding domain",
+    "biofuel development",
+    "biological agents",
+    "biological information to gene sequences",
+    "biomarker",
+    "biomarker or protein signature",
+    "biomarkers",
+    "biomass to biofuel",
+    "biopsy",
+    "biotechnology",
+    "blastocyst stage",
+    "body fluids",
+    "breeding livestock and crops",
+    "buffers and enzymes",
+    "cDNA",
+    "cDNA library",
+    "cancer",
+    "cancer cells",
+    "cancer detection and treatment",
+    "cancerous cells",
+    "catalysts",
+    "cell",
+    "cells",
+    "cellular cloning",
+    "central databases",
+    "certain DNA sequences",
+    "certain chromosome regions",
+    "chain termination method",
+    "changes in gene expression",
+    "chicken eggs",
+    "chimeric molecules",
+    "classic genetic methodology",
+    "classical methods",
+    "clone",
+    "cloned DNA",
+    "cloned animals",
+    "cloned cDNA sequences",
+    "cloned individual's life expectancy",
+    "clones",
+    "cloning",
+    "cloning cell populations",
+    "cloning entire organisms",
+    "cloning gene fragments",
+    "cloning small DNA fragments",
+    "common STS",
+    "common diseases",
+    "complementary sequence",
+    "complementary strands",
+    "complete set of genes",
+    "completing a complicated puzzle",
+    "computer software",
+    "contig",
+    "converting RNA to DNA",
+    "corn, potatoes, and tomatoes",
+    "crop breeding",
+    "crop quality",
+    "crop yield",
+    "crossing over",
+    "crossing over DNA between homologous DNA strands",
+    "cure disease",
+    "cure for cancer",
+    "currently possible",
+    "cytogenetic mapping",
+    "cytoplasmic material",
+    "databases and several publications",
+    "ddNTPs",
+    "deleting gene sequence",
+    "deoxynucleotide",
+    "deoxynucleotides",
+    "desirable traits",
+    "desired genes",
+    "details",
+    "detecting small protein amounts",
+    "determine protein crystal's three-dimensional structure",
+    "developing novel enzymes",
+    "developing plants that better adapt to climate change",
+    "diagnostic tools",
+    "dideoxynucleotide",
+    "different DNA fragments",
+    "different biomarkers and protein signatures",
+    "different cancer types",
+    "different color of fluorophore",
+    "different organisms",
+    "diploid nucleus",
+    "discrimination based on genetics",
+    "disease risk and treatment options",
+    "disease-causing genes",
+    "diseased cells",
+    "doctors",
+    "donor egg cell",
+    "drug effectiveness and safety",
+    "drug interactions",
+    "during sporulation",
+    "each band on the gel",
+    "each fragment\u2019s end",
+    "early genetic maps",
+    "effective therapies for cancer patients",
+    "effective tools",
+    "egg cell",
+    "egg cell's haploid nucleus",
+    "electric field",
+    "electrophoresis",
+    "entire genome's DNA sequence",
+    "entire genomes",
+    "entire genomes sequenced",
+    "entire genome\u2019s DNA sequence",
+    "entire organism",
+    "environment",
+    "environmental factors",
+    "enzymes",
+    "evolutionary relationships",
+    "exact replica",
+    "experimental animals",
+    "expressed sequence tag (EST)",
+    "false negative",
+    "fermentation",
+    "fetuses",
+    "finding locations of genes",
+    "first antibiotic",
+    "first mammal",
+    "flower\u2019s color",
+    "fluorescently labeled dideoxynucleotides (ddNTPs)",
+    "fluorophore-labeled ddNTPs",
+    "foreign DNA",
+    "foreign DNA from different species",
+    "foreign DNA into cells of tissues to cure inheritable disease",
+    "forensic analysis",
+    "fragmenting the chromosome with x-rays",
+    "fragments in the gel",
+    "from Bt",
+    "frozen at \u201380\u00b0C",
+    "future onset diseases",
+    "gel",
+    "gel electrophoresis",
+    "gel matrix",
+    "gelatinous, white mass",
+    "gene",
+    "gene expression",
+    "gene for herbicide resistance",
+    "gene mapping",
+    "gene or sequence",
+    "gene sequences",
+    "gene targeting",
+    "gene therapy",
+    "gene's function",
+    "genealogical assessment using mitochondria",
+    "genealogy",
+    "generating genomic DNA fragments with restriction endonucleases",
+    "generating new biofuels",
+    "generation of genetic maps",
+    "genes",
+    "genes and their location",
+    "genes cloned from the influenza virus",
+    "genes encoding flower\u2019s color",
+    "genes encoding plant pollen\u2019s shape",
+    "genes involved in cellular growth",
+    "genes of microorganisms cloned into vectors",
+    "genes on each chromosome",
+    "genes that contribute favorable traits",
+    "genes that encode new enzymes",
+    "genetic and physical maps",
+    "genetic diagnosis",
+    "genetic diseases",
+    "genetic disorder",
+    "genetic engineering",
+    "genetic information",
+    "genetic linkage maps and physical maps",
+    "genetic map",
+    "genetic mapping",
+    "genetic maps",
+    "genetic marker",
+    "genetic markers",
+    "genetic recombination",
+    "genetic test findings",
+    "genetic testing",
+    "genetic testing for other female relatives",
+    "genetically modified organism (GMO)",
+    "genome",
+    "genome analysis",
+    "genome analysis at the individual level",
+    "genome annotation",
+    "genome mapping",
+    "genome of the yeast Saccharomyces cerevisiae",
+    "genome sequencing",
+    "genome-wide studies",
+    "genomic DNA",
+    "genomic library",
+    "genomic mapping with different model organisms",
+    "genomic responses",
+    "genomic- and proteomic-scale analyses",
+    "genomics",
+    "given phenotype",
+    "government agencies",
+    "greater distance between two genes",
+    "growth of biotechnology",
+    "haploid egg",
+    "having children",
+    "high rate of false-negative results",
+    "high temperatures",
+    "homologous chromosome pairs",
+    "hormones",
+    "horses, bulls, and goats",
+    "host DNA",
+    "host organism",
+    "human genes and genetic disorders",
+    "human genetic engineering",
+    "human genomic DNA",
+    "human growth hormone",
+    "human insulin",
+    "human proteins",
+    "hydroxyl group",
+    "identical cell populations",
+    "identify human disease-causing genes",
+    "identify new species",
+    "identifying contaminant foreign DNA",
+    "if genes are linked or show independent assortment",
+    "improved vaccines",
+    "improvements in agriculture",
+    "in isolation",
+    "in nucleotides",
+    "incorrect test result",
+    "independently of the chromosomal DNA",
+    "individual DNA monomer",
+    "individual genes",
+    "individual protein",
+    "individualized treatment plans",
+    "individuals",
+    "individual\u2019s DNA",
+    "individual\u2019s DNA \u201cfingerprint\u201d",
+    "infected plant cell\u2019s genome",
+    "information from each technique",
+    "informed choices about medical treatment",
+    "inheritable diseases",
+    "insects' intestines",
+    "interactions with other species",
+    "interactions within a species",
+    "introducing recombinant DNA into an organism by any means",
+    "introduction of a good gene",
+    "isolated entities",
+    "known genes as markers",
+    "lab bench",
+    "labeled ddNTPs",
+    "labeled dideoxynucleotides",
+    "large-scale adaptations of the basic two-hybrid screen",
+    "larger molecules",
+    "larger sequence",
+    "larger sequence of DNA",
+    "lead to cancerous cell growth",
+    "legal issues regarding discrimination and privacy",
+    "legal issues regarding health and privacy",
+    "length of DNA fragments",
+    "lifestyle",
+    "linkage analysis",
+    "lipid molecules",
+    "live cells",
+    "live microbes to clean up pollutants",
+    "locating genes within a genome",
+    "location on the same chromosome",
+    "lysis buffer",
+    "male",
+    "many plants",
+    "mapping",
+    "mapping and sequencing sources",
+    "mapping using sequence information",
+    "markers",
+    "mass spectrometry",
+    "mechanisms of action",
+    "medical professionals",
+    "medication",
+    "medications",
+    "medicinal purposes",
+    "medicine",
+    "messenger RNA",
+    "metabolites",
+    "metabolome",
+    "metabolomics",
+    "metagenomics",
+    "mice",
+    "microarrays",
+    "microbiology",
+    "microorganisms",
+    "microsatellite polymorphism",
+    "microsatellite polymorphisms",
+    "microscopic analysis of stained chromosome sections",
+    "mitochondrial genomics",
+    "mitosis",
+    "model organism",
+    "model organisms",
+    "modern techniques",
+    "modern-day sequencing strategies",
+    "modify organism\u2019s DNA",
+    "molecular cloning",
+    "molecular weight standard samples",
+    "molecule in the genome or proteome",
+    "molecule's characteristics",
+    "molecules",
+    "monitoring methods",
+    "more sophisticated markers",
+    "most microorganisms",
+    "mouse Mus musculus, the fruit fly Drosophila melanogaster, the nematode Caenorhabditis elegans, and humans Homo sapiens",
+    "multi-factored or polygenic",
+    "multicellular organisms",
+    "multiple DNA fragments",
+    "multiple cloning site",
+    "multiple cloning site (MCS)",
+    "multiple restriction endonucleases",
+    "multiple sites",
+    "multiple species' collective genomes",
+    "naturally in bacterial populations",
+    "new disease treatments",
+    "new genes involved in drug toxicity",
+    "new organic compounds",
+    "next-generation sequencing",
+    "non-coding DNA",
+    "novel drugs",
+    "novel enzymes",
+    "nuclear DNA",
+    "nucleases",
+    "nucleic acid fragments",
+    "nucleic acid samples",
+    "nucleic acids",
+    "nucleotide sequence",
+    "nucleotides",
+    "nucleotides present in DNA\u2019s non-coding regions",
+    "nucleus",
+    "number of tandem repeats",
+    "observing phenotypic changes",
+    "one end of each fragment",
+    "one million genotypic abnormalities",
+    "organism",
+    "organisms",
+    "organism\u2019s genotype",
+    "organization of genes",
+    "outline",
+    "overexpressing proteins in E. coli",
+    "overlapping shorter sequences",
+    "own crystal Bt toxin",
+    "oxygen",
+    "pairwise-end sequencing",
+    "parthenogenesis",
+    "pathway that controls apoptosis",
+    "patients' genomes and proteomes",
+    "penicillin",
+    "personal genome sequence information",
+    "personalized medicine",
+    "pharmaceutical companies",
+    "pharmaceuticals",
+    "pharmacogenomics",
+    "phenotypic characteristic",
+    "phylogenetic trees",
+    "physical map",
+    "pig insulin",
+    "plant",
+    "plant pollen\u2019s shape",
+    "plants",
+    "plasmid molecules",
+    "plasmids",
+    "pollution control",
+    "polygenic",
+    "polymerase chain reaction",
+    "polymorphism",
+    "possibility of disease recurrence",
+    "predicting disease risk",
+    "prediction of disease risks at an individual level",
+    "prevent pollution",
+    "prey catches bait",
+    "prey protein",
+    "primer and dNTP",
+    "probe",
+    "problem solving",
+    "producing biofuels",
+    "producing higher crop yields",
+    "products",
+    "products obtained by recombinant DNA technology",
+    "programs to improve cancer detection and treatment",
+    "promoter",
+    "prostate cancer",
+    "prostate epithelial cells",
+    "protease",
+    "proteases",
+    "protein analysis",
+    "protein biomarkers in cancer detection",
+    "protein microarrays",
+    "protein profiles of different cells",
+    "protein signature",
+    "protein signatures",
+    "protein signatures specific to different cancer types",
+    "proteins",
+    "proteins whose expression indicates the disease process",
+    "proteins, DNA, or RNA",
+    "proteome",
+    "proteomes",
+    "proteomes' function",
+    "proteomic analysis",
+    "proteomics",
+    "proteomics approaches",
+    "proteomics techniques",
+    "pure culture",
+    "questions about yourself",
+    "radiation",
+    "radiation hybrid mapping",
+    "rapid DNA sequencing",
+    "reaction mixture",
+    "recombinant DNA",
+    "recombinant DNA molecules",
+    "recombinant DNA technology",
+    "recombinant DNA vectors",
+    "recombinant protein",
+    "recombination event",
+    "recombination frequency between genes",
+    "recombination frequency between two genes",
+    "recombination hotspots",
+    "recombining genes",
+    "regular PCR",
+    "regulatory molecules",
+    "remove tumor-causing genes",
+    "reproductive cloning",
+    "research efforts in model organisms",
+    "research shows that much of this DNA is actually transcribed",
+    "researcher",
+    "researchers",
+    "researchers to manipulate and study specific genes",
+    "resistance to disease",
+    "resistance to environmental stress",
+    "resistance to pest",
+    "respiratory complications",
+    "restriction endonuclease",
+    "restriction fragment length polymorphism (RFLP)",
+    "restriction fragment length polymorphisms (RFLP)",
+    "reverse genetics",
+    "reverse transcriptase",
+    "reverse transcriptase PCR (RT-PCR)",
+    "reverse transcription",
+    "revolutionary application of genomics",
+    "ribonuclease",
+    "ribonucleases",
+    "scientist",
+    "scientists",
+    "scientists use to detect gene expression",
+    "screening",
+    "screening and early cancer detection",
+    "second sheep",
+    "sequence alignment",
+    "sequence mapping",
+    "sequences of hundreds of thousands or millions of short fragments",
+    "set of proteins",
+    "set of proteins with altered expression levels",
+    "several generations",
+    "sexual means",
+    "short DNA fragments",
+    "short DNA or RNA stretches",
+    "short STS",
+    "shotgun sequencing",
+    "shotgun sequencing method",
+    "similar regions between cell types or species",
+    "similar to landmarks",
+    "single cell type",
+    "single gene defect",
+    "single nucleotide",
+    "single nucleotide polymorphism (SNP)",
+    "single nucleotide polymorphisms (SNPs)",
+    "single-stranded template",
+    "skin repair",
+    "slow softening and rotting process",
+    "small molecule metabolites",
+    "smaller chromosome regions",
+    "soft rot",
+    "software program",
+    "solving a big, complicated puzzle",
+    "somatic cell nuclear transfer",
+    "sophisticated software",
+    "species in microbial populations",
+    "specific DNA regions",
+    "specific DNA sequences",
+    "specific sequences in the DNA",
+    "specific trait",
+    "sperm cells",
+    "staggered cuts",
+    "stem cells",
+    "stem cells in skin",
+    "study microorganisms under pure culture conditions",
+    "studying drug interactions",
+    "studying microorganisms in the environment",
+    "surrogate mother",
+    "systems biology",
+    "techniques for protein analysis",
+    "technology",
+    "testing for suspected genetic defects",
+    "the actual physical distance between genetic markers",
+    "the antigen into the body",
+    "the approximate distance between genetic markers",
+    "the cell membrane",
+    "the collective genomes of multiple species",
+    "the ddNTP incorporated at that position",
+    "the entire DNA sequence",
+    "the entire set of proteins expressed by a given type of cell under certain environmental conditions",
+    "the first genetic maps",
+    "the fragments",
+    "the genome",
+    "the genome of the organism",
+    "the host cell",
+    "the medical field",
+    "the mother",
+    "the mutation",
+    "the natural process of recombination",
+    "the natural recombination process",
+    "the number of nucleotides",
+    "the original DNA template strand",
+    "the physical distance",
+    "the physical mapping process",
+    "the problem resides within a single gene defect",
+    "the proteome",
+    "the recombination frequency between any two genes",
+    "the risk of death from prostate cancer",
+    "the same chromosome",
+    "the template strand\u2019s sequence",
+    "the term linkage",
+    "the transcription profile",
+    "their location on a chromosome",
+    "their own DNA",
+    "therapeutic cloning",
+    "they are linked",
+    "to clone an organism",
+    "toxicogenomics",
+    "trait and disorder",
+    "traits were determined by",
+    "transcription",
+    "transcription factor",
+    "transfer of RNA",
+    "transferring a diploid nucleus",
+    "transgenic organism",
+    "transgenic organisms",
+    "transgenic plants",
+    "transgenic sheep and goat milk",
+    "treat disease",
+    "treating oil spills",
+    "trials and failures",
+    "two or more genes",
+    "two-hybrid screening",
+    "understanding and finding cures for diseases",
+    "unfertilized egg",
+    "unicellular organisms",
+    "unique pattern of bands",
+    "unique sequence in the genome",
+    "unique set of proteins present in a diseased state",
+    "uniquely expressed proteins",
+    "unstable",
+    "unstable molecules",
+    "using the PSA test",
+    "using the PSA test to screen healthy people for prostate cancer",
+    "vaccines",
+    "variable number of tandem repeats (VNTRs)",
+    "very slowly",
+    "weakened or inactive forms of microorganisms",
+    "website",
+    "whole biological systems",
+    "whole genome sequencing",
+    "whole-exome sequencing",
+    "whole-genome sequences of model organisms",
+    "whole-genome sequencing",
+    "zygote nucleus"
+  ],
+  "triples": [
+    {
+      "head": "Genomics",
+      "relation": "is the study of",
+      "tail": "entire genomes",
+      "evidence": "Genomics is the study of entire genomes, including the complete set of genes, their nucleotide sequence and organization, and their interactions within a species and with other species."
+    },
+    {
+      "head": "Genomics",
+      "relation": "includes the study of",
+      "tail": "complete set of genes",
+      "evidence": "Genomics is the study of entire genomes, including the complete set of genes, their nucleotide sequence and organization, and their interactions within a species and with other species."
+    },
+    {
+      "head": "Genomics",
+      "relation": "includes the study of",
+      "tail": "nucleotide sequence",
+      "evidence": "Genomics is the study of entire genomes, including the complete set of genes, their nucleotide sequence and organization, and their interactions within a species and with other species."
+    },
+    {
+      "head": "Genomics",
+      "relation": "includes the study of",
+      "tail": "organization of genes",
+      "evidence": "Genomics is the study of entire genomes, including the complete set of genes, their nucleotide sequence and organization, and their interactions within a species and with other species."
+    },
+    {
+      "head": "Genomics",
+      "relation": "includes the study of",
+      "tail": "interactions within a species",
+      "evidence": "Genomics is the study of entire genomes, including the complete set of genes, their nucleotide sequence and organization, and their interactions within a species and with other species."
+    },
+    {
+      "head": "Genomics",
+      "relation": "includes the study of",
+      "tail": "interactions with other species",
+      "evidence": "Genomics is the study of entire genomes, including the complete set of genes, their nucleotide sequence and organization, and their interactions within a species and with other species."
+    },
+    {
+      "head": "DNA sequencing technology",
+      "relation": "has contributed to",
+      "tail": "advances in genomics",
+      "evidence": "DNA sequencing technology has contributed to advances in genomics."
+    },
+    {
+      "head": "Genomic information",
+      "relation": "has helped",
+      "tail": "anthropologists",
+      "evidence": "These findings have helped anthropologists to better understand human migration and have aided the medical field through mapping human genetic diseases."
+    },
+    {
+      "head": "Genomic information",
+      "relation": "has aided",
+      "tail": "the medical field",
+      "evidence": "These findings have helped anthropologists to better understand human migration and have aided the medical field through mapping human genetic diseases."
+    },
+    {
+      "head": "Biotechnology",
+      "relation": "is the use of",
+      "tail": "biological agents",
+      "evidence": "Biotechnology is the use of biological agents for technological advancement."
+    },
+    {
+      "head": "Biotechnology",
+      "relation": "was used for",
+      "tail": "breeding livestock and crops",
+      "evidence": "Biotechnology was used for breeding livestock and crops long before people understood the scientific basis of these techniques."
+    },
+    {
+      "head": "Discovery of the structure of DNA",
+      "relation": "has led to",
+      "tail": "growth of biotechnology",
+      "evidence": "Since the discovery of the structure of DNA in 1953, the biotechnology field has grown rapidly through both academic research and private companies."
+    },
+    {
+      "head": "Genomics",
+      "relation": "compares the DNA of",
+      "tail": "different organisms",
+      "evidence": "Genomics compares the DNA of different organisms, enabling scientists to create maps with which to navigate different organisms' DNA."
+    },
+    {
+      "head": "technology",
+      "relation": "are in",
+      "tail": "medicine",
+      "evidence": "technology are in medicine (vaccine and antibiotic production) and agriculture (crop genetic modification in order to increase yields)."
+    },
+    {
+      "head": "technology",
+      "relation": "are in",
+      "tail": "agriculture",
+      "evidence": "technology are in medicine (vaccine and antibiotic production) and agriculture (crop genetic modification in order to increase yields)."
+    },
+    {
+      "head": "biotechnology",
+      "relation": "has applications",
+      "tail": "fermentation",
+      "evidence": "Biotechnology also has many industrial applications, such as fermentation, treating oil spills, and producing biofuels (Figure 17.2)."
+    },
+    {
+      "head": "biotechnology",
+      "relation": "has applications",
+      "tail": "treating oil spills",
+      "evidence": "Biotechnology also has many industrial applications, such as fermentation, treating oil spills, and producing biofuels (Figure 17.2)."
+    },
+    {
+      "head": "biotechnology",
+      "relation": "has applications",
+      "tail": "producing biofuels",
+      "evidence": "Biotechnology also has many industrial applications, such as fermentation, treating oil spills, and producing biofuels (Figure 17.2)."
+    },
+    {
+      "head": "organisms",
+      "relation": "produce",
+      "tail": "antibiotics",
+      "evidence": "Fungi, bacteria, and other organisms that have antimicrobial properties produce antibiotics."
+    },
+    {
+      "head": "first antibiotic",
+      "relation": "discovered",
+      "tail": "penicillin",
+      "evidence": "The first antibiotic discovered was penicillin."
+    },
+    {
+      "head": "pharmaceutical companies",
+      "relation": "produce and test",
+      "tail": "antibiotics",
+      "evidence": "Pharmaceutical companies now commercially produce and test antibiotics for their potential to inhibit bacterial growth."
+    },
+    {
+      "head": "nucleic acids",
+      "relation": "are made of",
+      "tail": "nucleotides",
+      "evidence": "To understand the basic techniques used to work with nucleic acids, remember that nucleic acids are macromolecules made of nucleotides (a sugar, a phosphate, and a nitrogenous base) linked by phosphodiester bonds."
+    },
+    {
+      "head": "DNA",
+      "relation": "has strands",
+      "tail": "complementary strands",
+      "evidence": "DNA has two complementary strands linked by hydrogen bonds between the paired bases."
+    },
+    {
+      "head": "high temperatures",
+      "relation": "can separate",
+      "tail": "DNA strands",
+      "evidence": "Exposure to high temperatures (DNA denaturation) can separate the two strands and cooling can reanneal them."
+    },
+    {
+      "head": "DNA polymerase enzyme",
+      "relation": "can replicate",
+      "tail": "DNA",
+      "evidence": "The DNA polymerase enzyme can replicate the DNA."
+    },
+    {
+      "head": "RNA",
+      "relation": "leave",
+      "tail": "nucleus",
+      "evidence": "Unlike DNA, which is located in the eukaryotic cells' nucleus, RNA molecules leave the nucleus."
+    },
+    {
+      "head": "researchers",
+      "relation": "analyze",
+      "tail": "messenger RNA",
+      "evidence": "The most common type of RNA that researchers analyze is the messenger RNA (mRNA) because it represents the protein-coding genes that are actively expressed."
+    },
+    {
+      "head": "RNA",
+      "relation": "are less stable than",
+      "tail": "DNA",
+      "evidence": "However, RNA molecules present some other challenges to analysis, as they are often less stable than DNA."
+    },
+    {
+      "head": "researchers",
+      "relation": "use techniques to extract",
+      "tail": "DNA",
+      "evidence": "To study or manipulate nucleic acids, one must first isolate or extract the DNA or RNA from the cells. Researchers use various techniques to extract different types of DNA (Figure 17.3)."
+    },
+    {
+      "head": "lysis buffer",
+      "relation": "breaks",
+      "tail": "cells",
+      "evidence": "A lysis buffer (a solution which is mostly a detergent) breaks cells."
+    },
+    {
+      "head": "enzymes",
+      "relation": "break apart",
+      "tail": "lipid molecules",
+      "evidence": "These enzymes break apart lipid molecules in the cell membranes and nuclear membranes."
+    },
+    {
+      "head": "proteases",
+      "relation": "break down",
+      "tail": "proteins",
+      "evidence": "Enzymes such as proteases and ribonucleases (RNases) break down proteins and RNA, respectively."
+    },
+    {
+      "head": "ribonucleases",
+      "relation": "break down",
+      "tail": "RNA",
+      "evidence": "Enzymes such as proteases and ribonucleases (RNases) break down proteins and RNA, respectively."
+    },
+    {
+      "head": "alcohol",
+      "relation": "precipitates",
+      "tail": "DNA",
+      "evidence": "Using alcohol precipitates the DNA."
+    },
+    {
+      "head": "human genomic DNA",
+      "relation": "is usually visible as",
+      "tail": "gelatinous, white mass",
+      "evidence": "Human genomic DNA is usually visible as a gelatinous, white mass."
+    },
+    {
+      "head": "DNA samples",
+      "relation": "can be stored",
+      "tail": "frozen at \u201380\u00b0C",
+      "evidence": "One can store the DNA samples frozen at \u201380\u00b0C for several years."
+    },
+    {
+      "head": "Scientists",
+      "relation": "perform",
+      "tail": "RNA analysis",
+      "evidence": "Scientists perform RNA analysis to study gene expression patterns in cells."
+    },
+    {
+      "head": "RNA",
+      "relation": "is",
+      "tail": "unstable",
+      "evidence": "RNA is naturally very unstable because RNases are commonly present in nature and very difficult to inactivate."
+    },
+    {
+      "head": "RNA extraction",
+      "relation": "involves",
+      "tail": "buffers and enzymes",
+      "evidence": "Similar to DNA, RNA extraction involves using various buffers and enzymes to inactivate macromolecules and preserve the RNA."
+    },
+    {
+      "head": "Gel electrophoresis",
+      "relation": "uses",
+      "tail": "electric field",
+      "evidence": "Gel electrophoresis is a technique that scientists use to separate molecules on the basis of size, using this charge."
+    },
+    {
+      "head": "Gel electrophoresis",
+      "relation": "separates",
+      "tail": "nucleic acids",
+      "evidence": "Gel electrophoresis is a technique that scientists use to separate molecules on the basis of size, using this charge."
+    },
+    {
+      "head": "Nucleic acids",
+      "relation": "load into",
+      "tail": "gel matrix",
+      "evidence": "The nucleic acids load into a slot near the semisolid, porous gel matrix's negative electrode, and pulled toward the positive electrode at the gel's opposite end."
+    },
+    {
+      "head": "Smaller molecules",
+      "relation": "move faster than",
+      "tail": "larger molecules",
+      "evidence": "Smaller molecules move through the gel's pores faster than larger molecules."
+    },
+    {
+      "head": "Researchers",
+      "relation": "run",
+      "tail": "molecular weight standard samples",
+      "evidence": "There are molecular weight standard samples that researchers can run alongside the molecules to provide a size comparison."
+    },
+    {
+      "head": "Scientists",
+      "relation": "use",
+      "tail": "Polymerase chain reaction",
+      "evidence": "Polymerase chain reaction (PCR) is a technique that scientists use to amplify specific DNA regions for further analysis."
+    },
+    {
+      "head": "PCR",
+      "relation": "amplifies",
+      "tail": "specific DNA regions",
+      "evidence": "Polymerase chain reaction (PCR) is a technique that scientists use to amplify specific DNA regions for further analysis."
+    },
+    {
+      "head": "Researchers",
+      "relation": "use PCR for",
+      "tail": "cloning gene fragments",
+      "evidence": "Researchers use PCR for many purposes in laboratories, such as cloning gene fragments to analyze genetic diseases, identifying contaminant foreign DNA in a sample, and amplifying DNA for sequencing."
+    },
+    {
+      "head": "Researchers",
+      "relation": "use PCR for",
+      "tail": "identifying contaminant foreign DNA",
+      "evidence": "Researchers use PCR for many purposes in laboratories, such as cloning gene fragments to analyze genetic diseases, identifying contaminant foreign DNA in a sample, and amplifying DNA for sequencing."
+    },
+    {
+      "head": "Researchers",
+      "relation": "use PCR for",
+      "tail": "amplifying DNA for sequencing",
+      "evidence": "Researchers use PCR for many purposes in laboratories, such as cloning gene fragments to analyze genetic diseases, identifying contaminant foreign DNA in a sample, and amplifying DNA for sequencing."
+    },
+    {
+      "head": "polymerase chain reaction",
+      "relation": "amplify",
+      "tail": "a specific DNA sequence",
+      "evidence": "Scientists use polymerase chain reaction, or PCR, to amplify a specific DNA sequence."
+    },
+    {
+      "head": "Primers",
+      "relation": "combine with",
+      "tail": "genomic DNA",
+      "evidence": "Primers\u2014short pieces of DNA complementary to each end of the target sequence combine with genomic DNA, Taq polymerase, and deoxynucleotides."
+    },
+    {
+      "head": "Primers",
+      "relation": "combine with",
+      "tail": "Taq polymerase",
+      "evidence": "Primers\u2014short pieces of DNA complementary to each end of the target sequence combine with genomic DNA, Taq polymerase, and deoxynucleotides."
+    },
+    {
+      "head": "Primers",
+      "relation": "combine with",
+      "tail": "deoxynucleotides",
+      "evidence": "Primers\u2014short pieces of DNA complementary to each end of the target sequence combine with genomic DNA, Taq polymerase, and deoxynucleotides."
+    },
+    {
+      "head": "Taq polymerase",
+      "relation": "is",
+      "tail": "a DNA polymerase",
+      "evidence": "Taq polymerase is a DNA polymerase isolated from the thermostable bacterium Thermus aquaticus that is able to withstand the high temperatures that scientists use in PCR."
+    },
+    {
+      "head": "Taq polymerase",
+      "relation": "isolated from",
+      "tail": "Thermus aquaticus",
+      "evidence": "Taq polymerase is a DNA polymerase isolated from the thermostable bacterium Thermus aquaticus that is able to withstand the high temperatures that scientists use in PCR."
+    },
+    {
+      "head": "Taq polymerase",
+      "relation": "withstand",
+      "tail": "high temperatures",
+      "evidence": "Taq polymerase is a DNA polymerase isolated from the thermostable bacterium Thermus aquaticus that is able to withstand the high temperatures that scientists use in PCR."
+    },
+    {
+      "head": "Thermus aquaticus",
+      "relation": "grows in",
+      "tail": "Lower Geyser Basin of Yellowstone National Park",
+      "evidence": "Thermus aquaticus grows in the Lower Geyser Basin of Yellowstone National Park."
+    },
+    {
+      "head": "Reverse transcriptase PCR",
+      "relation": "similar to",
+      "tail": "PCR",
+      "evidence": "Reverse transcriptase PCR (RT-PCR) is similar to PCR, but cDNA is made from an RNA template before PCR begins."
+    },
+    {
+      "head": "Reverse transcriptase PCR",
+      "relation": "amplify",
+      "tail": "DNA fragments",
+      "evidence": "DNA fragments can also be amplified from an RNA template in a process called reverse transcriptase PCR (RT-PCR)."
+    },
+    {
+      "head": "Reverse transcriptase PCR",
+      "relation": "use",
+      "tail": "cDNA",
+      "evidence": "Reverse transcriptase PCR (RT-PCR) is similar to PCR, but cDNA is made from an RNA template before PCR begins."
+    },
+    {
+      "head": "cDNA",
+      "relation": "made from",
+      "tail": "an RNA template",
+      "evidence": "Reverse transcriptase PCR (RT-PCR) is similar to PCR, but cDNA is made from an RNA template before PCR begins."
+    },
+    {
+      "head": "cDNA",
+      "relation": "recreate",
+      "tail": "the original DNA template strand",
+      "evidence": "The first step is to recreate the original DNA template strand (called cDNA) by applying DNA nucleotides to the mRNA."
+    },
+    {
+      "head": "cDNA",
+      "relation": "amplify",
+      "tail": "regular PCR",
+      "evidence": "After the cDNA is made, regular PCR can be used to amplify it."
+    },
+    {
+      "head": "reverse transcription",
+      "relation": "require",
+      "tail": "reverse transcriptase",
+      "evidence": "This process is called reverse transcription. This requires the presence of an enzyme called reverse transcriptase."
+    },
+    {
+      "head": "Scientists",
+      "relation": "probe",
+      "tail": "nucleic acid samples",
+      "evidence": "Scientists can probe nucleic acid samples, such as fragmented genomic DNA and RNA extracts, for the presence of certain sequences."
+    },
+    {
+      "head": "Scientists",
+      "relation": "design",
+      "tail": "short DNA fragments",
+      "evidence": "Scientists design and label short DNA fragments, or probes with radioactive or fluorescent dyes to aid detection."
+    },
+    {
+      "head": "Scientists",
+      "relation": "label",
+      "tail": "short DNA fragments",
+      "evidence": "Scientists design and label short DNA fragments, or probes with radioactive or fluorescent dyes to aid detection."
+    },
+    {
+      "head": "Gel electrophoresis",
+      "relation": "separate",
+      "tail": "nucleic acid fragments",
+      "evidence": "Gel electrophoresis separates the nucleic acid fragments according to their size."
+    },
+    {
+      "head": "Scientists",
+      "relation": "transfer",
+      "tail": "fragments in the gel",
+      "evidence": "Scientists then transfer the fragments in the gel onto a nylon membrane in a procedure we call blotting (Figure 17.6)."
+    },
+    {
+      "head": "Scientists",
+      "relation": "probe",
+      "tail": "nucleic acid fragments",
+      "evidence": "Scientists can then probe the nucleic acid fragments that are bound to the membrane's surface with specific radioactively or fluorescently labeled probe sequences."
+    },
+    {
+      "head": "Southern blotting",
+      "relation": "transfer",
+      "tail": "DNA",
+      "evidence": "When scientists transfer DNA to a nylon membrane, they refer to the technique as Southern blotting."
+    },
+    {
+      "head": "Northern blotting",
+      "relation": "transfer",
+      "tail": "RNA",
+      "evidence": "When they transfer the RNA to a nylon membrane, they call it Northern blotting."
+    },
+    {
+      "head": "Scientists",
+      "relation": "use",
+      "tail": "Southern blots",
+      "evidence": "Scientists use Southern blots to detect the presence of certain DNA sequences in a given genome, and Northern blots to detect gene expression."
+    },
+    {
+      "head": "Scientists",
+      "relation": "use",
+      "tail": "Northern blots",
+      "evidence": "Scientists use Southern blots to detect the presence of certain DNA sequences in a given genome, and Northern blots to detect gene expression."
+    },
+    {
+      "head": "Southern blots",
+      "relation": "detect",
+      "tail": "certain DNA sequences",
+      "evidence": "Scientists use Southern blots to detect the presence of certain DNA sequences in a given genome, and Northern blots to detect gene expression."
+    },
+    {
+      "head": "Northern blots",
+      "relation": "detect",
+      "tail": "gene expression",
+      "evidence": "Scientists use Southern blots to detect the presence of certain DNA sequences in a given genome, and Northern blots to detect gene expression."
+    },
+    {
+      "head": "Scientists",
+      "relation": "use",
+      "tail": "Southern blotting",
+      "evidence": "Scientists use Southern blotting to find a particular sequence in a DNA sample."
+    },
+    {
+      "head": "Scientists",
+      "relation": "separate",
+      "tail": "DNA fragments",
+      "evidence": "Scientists separate DNA fragments on a gel, transfer them to a nylon membrane, and incubate them with a DNA probe complementary to the sequence of interest."
+    },
+    {
+      "head": "Scientists",
+      "relation": "transfer",
+      "tail": "DNA fragments",
+      "evidence": "Scientists separate DNA fragments on a gel, transfer them to a nylon membrane, and incubate them with a DNA probe complementary to the sequence of interest."
+    },
+    {
+      "head": "Scientists",
+      "relation": "incubate",
+      "tail": "DNA fragments",
+      "evidence": "Scientists separate DNA fragments on a gel, transfer them to a nylon membrane, and incubate them with a DNA probe complementary to the sequence of interest."
+    },
+    {
+      "head": "Scientists",
+      "relation": "run",
+      "tail": "RNA",
+      "evidence": "Northern blotting is similar to Southern blotting, but scientists run RNA on the gel instead of DNA."
+    },
+    {
+      "head": "Scientists",
+      "relation": "run",
+      "tail": "proteins",
+      "evidence": "In Western blotting, scientists run proteins on a gel and detect them using antibodies."
+    },
+    {
+      "head": "Scientists",
+      "relation": "detect",
+      "tail": "proteins",
+      "evidence": "In Western blotting, scientists run proteins on a gel and detect them using antibodies."
+    },
+    {
+      "head": "Molecular Cloning",
+      "relation": "refers to",
+      "tail": "reproductive cloning",
+      "evidence": "In general, the word \u201ccloning\u201d means the creation of a perfect replica; however, in biology, the re-creation of a whole organism is referred to as \u201creproductive cloning.\u201d"
+    },
+    {
+      "head": "Molecular Cloning",
+      "relation": "allows",
+      "tail": "researchers to manipulate and study specific genes",
+      "evidence": "Cloning small genome fragments allows researchers to manipulate and study specific genes (and their protein products), or noncoding regions in isolation."
+    },
+    {
+      "head": "Plasmid",
+      "relation": "is",
+      "tail": "a small circular DNA molecule",
+      "evidence": "A plasmid, or vector, is a small circular DNA molecule that replicates independently of the chromosomal DNA."
+    },
+    {
+      "head": "Plasmid",
+      "relation": "replicates",
+      "tail": "independently of the chromosomal DNA",
+      "evidence": "A plasmid, or vector, is a small circular DNA molecule that replicates independently of the chromosomal DNA."
+    },
+    {
+      "head": "Scientists",
+      "relation": "use",
+      "tail": "plasmid molecules",
+      "evidence": "In cloning, scientists can use the plasmid molecules to provide a \u201cfolder\u201d in which to insert a desired DNA fragment."
+    },
+    {
+      "head": "Scientists",
+      "relation": "introduce",
+      "tail": "plasmids",
+      "evidence": "Plasmids are usually introduced into a bacterial host for proliferation."
+    },
+    {
+      "head": "Scientists",
+      "relation": "call",
+      "tail": "DNA fragment from the human genome",
+      "evidence": "In the bacterial context, scientists call the DNA fragment from the human genome (or the genome of another studied organism) foreign DNA, or a transgene, to differentiate it from the bacterium's DNA, or the host DNA."
+    },
+    {
+      "head": "Plasmids",
+      "relation": "occur",
+      "tail": "naturally in bacterial populations",
+      "evidence": "Plasmids occur naturally in bacterial populations (such as Escherichia coli) and have genes that can contribute favorable traits to the organism, such as antibiotic resistance (the ability to be unaffected by antibiotics)."
+    },
+    {
+      "head": "Plasmids",
+      "relation": "have",
+      "tail": "genes that contribute favorable traits",
+      "evidence": "Plasmids occur naturally in bacterial populations (such as Escherichia coli) and have genes that can contribute favorable traits to the organism, such as antibiotic resistance (the ability to be unaffected by antibiotics)."
+    },
+    {
+      "head": "Scientists",
+      "relation": "repurpose",
+      "tail": "plasmids",
+      "evidence": "Scientists have repurposed and engineered plasmids as vectors for molecular cloning and the large-scale production of important reagents, such as insulin and human growth hormone."
+    },
+    {
+      "head": "Scientists",
+      "relation": "engineer",
+      "tail": "plasmids",
+      "evidence": "Scientists have repurposed and engineered plasmids as vectors for molecular cloning and the large-scale production of important reagents, such as insulin and human growth hormone."
+    },
+    {
+      "head": "Plasmid vectors",
+      "relation": "have",
+      "tail": "multiple cloning site",
+      "evidence": "An important feature of plasmid vectors is the ease with which scientists can introduce a foreign DNA fragment via the multiple cloning site (MCS)."
+    },
+    {
+      "head": "Multiple cloning site",
+      "relation": "contains",
+      "tail": "multiple sites",
+      "evidence": "The MCS is a short DNA sequence containing multiple sites that different commonly available restriction endonucleases can cut."
+    },
+    {
+      "head": "Restriction endonucleases",
+      "relation": "recognize",
+      "tail": "specific DNA sequences",
+      "evidence": "Restriction endonucleases recognize specific DNA sequences and cut them in a predictable manner."
+    },
+    {
+      "head": "Restriction endonucleases",
+      "relation": "cut",
+      "tail": "DNA sequences",
+      "evidence": "Restriction endonucleases recognize specific DNA sequences and cut them in a predictable manner."
+    },
+    {
+      "head": "Restriction endonucleases",
+      "relation": "make",
+      "tail": "staggered cuts",
+      "evidence": "Many restriction endonucleases make staggered cuts in the two DNA strands, such that the cut ends have a 2- or 4-base single-stranded overhang."
+    },
+    {
+      "head": "Scientists",
+      "relation": "add",
+      "tail": "DNA ligase",
+      "evidence": "Adding the enzyme DNA ligase permanently joins the DNA fragments via phosphodiester bonds."
+    },
+    {
+      "head": "DNA ligase",
+      "relation": "joins",
+      "tail": "DNA fragments",
+      "evidence": "Adding the enzyme DNA ligase permanently joins the DNA fragments via phosphodiester bonds."
+    },
+    {
+      "head": "Plasmids",
+      "relation": "contain",
+      "tail": "foreign DNA",
+      "evidence": "Plasmids with foreign DNA inserted into them are called recombinant DNA molecules because they are created artificially and do not occur in nature."
+    },
+    {
+      "head": "Recombinant DNA molecules",
+      "relation": "are called",
+      "tail": "chimeric molecules",
+      "evidence": "They are also called chimeric molecules because the origin of different molecule parts of the molecules can be traced back to different species of biological organisms or even to chemical synthesis."
+    },
+    {
+      "head": "Proteins",
+      "relation": "are expressed from",
+      "tail": "recombinant DNA molecules",
+      "evidence": "We call proteins that are expressed from recombinant DNA molecules recombinant proteins."
+    },
+    {
+      "head": "Recombinant DNA",
+      "relation": "may need to move into",
+      "tail": "a different vector",
+      "evidence": "The recombinant DNA may need to move into a different vector (or host) that is better designed for gene expression."
+    },
+    {
+      "head": "Foreign genomic DNA",
+      "relation": "was degraded by",
+      "tail": "nucleases",
+      "evidence": "As a result, it was degraded by nucleases, but still used in the experiment."
+    },
+    {
+      "head": "unicellular organisms",
+      "relation": "produce",
+      "tail": "clones",
+      "evidence": "Cellular Cloning Unicellular organisms, such as bacteria and yeast, naturally produce clones of themselves when they replicate asexually by binary fission; this is known as cellular cloning."
+    },
+    {
+      "head": "nuclear DNA",
+      "relation": "duplicates by",
+      "tail": "mitosis",
+      "evidence": "The nuclear DNA duplicates by the process of mitosis, which creates an exact replica of the genetic material."
+    },
+    {
+      "head": "reproductive cloning",
+      "relation": "is a method",
+      "tail": "to clone an organism",
+      "evidence": "Reproductive cloning is a method scientists use to clone or identically copy an entire multicellular organism."
+    },
+    {
+      "head": "multicellular organisms",
+      "relation": "undergo reproduction by",
+      "tail": "sexual means",
+      "evidence": "Most multicellular organisms undergo reproduction by sexual means, which involves genetic hybridization of two individuals (parents), making it impossible to generate an identical copy or a clone of either parent."
+    },
+    {
+      "head": "parthenogenesis",
+      "relation": "occurs when",
+      "tail": "an embryo grows without fertilization",
+      "evidence": "Parthenogenesis, or \u201cvirgin birth,\u201d occurs when an embryo grows and develops without egg fertilization."
+    },
+    {
+      "head": "unfertilized egg",
+      "relation": "develops into",
+      "tail": "male",
+      "evidence": "If the egg is not fertilized, it remains a haploid egg and develops into a male."
+    },
+    {
+      "head": "haploid egg",
+      "relation": "fuses with",
+      "tail": "sperm cells",
+      "evidence": "Sexual reproduction requires two cells. When the haploid egg and sperm cells fuse, a diploid zygote results."
+    },
+    {
+      "head": "zygote nucleus",
+      "relation": "contains",
+      "tail": "genetic information",
+      "evidence": "The zygote nucleus contains the genetic information to produce a new individual."
+    },
+    {
+      "head": "egg cell",
+      "relation": "contains",
+      "tail": "cytoplasmic material",
+      "evidence": "However, early embryonic development requires the cytoplasmic material contained in the egg cell."
+    },
+    {
+      "head": "egg cell's haploid nucleus",
+      "relation": "replaced by",
+      "tail": "diploid nucleus",
+      "evidence": "Therefore, if we replace the egg cell's haploid nucleus with a diploid nucleus from the cell of any individual of the same species (a donor), it will become a zygote that is genetically identical to the donor."
+    },
+    {
+      "head": "somatic cell nuclear transfer",
+      "relation": "is the technique of",
+      "tail": "transferring a diploid nucleus",
+      "evidence": "Somatic cell nuclear transfer is the technique of transferring a diploid nucleus into an enucleated egg."
+    },
+    {
+      "head": "Dolly",
+      "relation": "is the first cloned",
+      "tail": "animal",
+      "evidence": "The first cloned animal was Dolly, a sheep born in 1996."
+    },
+    {
+      "head": "Dolly",
+      "relation": "died of",
+      "tail": "respiratory complications",
+      "evidence": "Dolly lived for seven years and died of respiratory complications (Figure 17.8)."
+    },
+    {
+      "head": "DNA's age",
+      "relation": "may affect",
+      "tail": "cloned individual's life expectancy",
+      "evidence": "There is speculation that because the cell DNA belongs to an older individual, DNA's age may affect a cloned individual's life expectancy."
+    },
+    {
+      "head": "scientists",
+      "relation": "have cloned",
+      "tail": "horses, bulls, and goats",
+      "evidence": "Since Dolly, scientists have cloned successfully several animals such as horses, bulls, and goats, although these animals often exhibit facial, limb, and cardiac abnormalities."
+    },
+    {
+      "head": "cloned animals",
+      "relation": "exhibit",
+      "tail": "abnormalities",
+      "evidence": "Since Dolly, scientists have cloned successfully several animals such as horses, bulls, and goats, although these animals often exhibit facial, limb, and cardiac abnormalities."
+    },
+    {
+      "head": "therapeutic cloning",
+      "relation": "produces",
+      "tail": "stem cells",
+      "evidence": "Therapeutic cloning produces stem cells in the attempt to remedy detrimental diseases or defects (unlike reproductive cloning, which aims to reproduce an organism)."
+    },
+    {
+      "head": "Freda Miller and Elaine Fuchs",
+      "relation": "discovered",
+      "tail": "stem cells in skin",
+      "evidence": "For example, Freda Miller and Elaine Fuchs, working independently, discovered stem cells in different layers of the skin."
+    },
+    {
+      "head": "stem cells",
+      "relation": "help",
+      "tail": "skin repair",
+      "evidence": "These cells help the skin repair itself, and their discovery may have applications in treatments of skin disease and potentially other conditions, such as nerve damage."
+    },
+    {
+      "head": "Dolly the sheep",
+      "relation": "was cloned",
+      "tail": "first mammal",
+      "evidence": "Dolly the sheep was the first mammal to be cloned."
+    },
+    {
+      "head": "donor egg cell",
+      "relation": "removed nucleus from",
+      "tail": "Dolly the sheep",
+      "evidence": "To create Dolly, they removed the nucleus from a donor egg cell."
+    },
+    {
+      "head": "second sheep",
+      "relation": "introduced nucleus from",
+      "tail": "donor egg cell",
+      "evidence": "They then introduced the nucleus from a second sheep into the cell, which divided to the blastocyst stage before they implanted it in a surrogate mother."
+    },
+    {
+      "head": "cell",
+      "relation": "divided to",
+      "tail": "blastocyst stage",
+      "evidence": "They then introduced the nucleus from a second sheep into the cell, which divided to the blastocyst stage before they implanted it in a surrogate mother."
+    },
+    {
+      "head": "blastocyst stage",
+      "relation": "implanted in",
+      "tail": "surrogate mother",
+      "evidence": "They then introduced the nucleus from a second sheep into the cell, which divided to the blastocyst stage before they implanted it in a surrogate mother."
+    },
+    {
+      "head": "genetic engineering",
+      "relation": "is alteration of",
+      "tail": "organism\u2019s genotype",
+      "evidence": "Genetic engineering is the alteration of an organism\u2019s genotype using recombinant DNA technology to modify an organism\u2019s DNA to achieve desirable traits."
+    },
+    {
+      "head": "genetic engineering",
+      "relation": "uses recombinant DNA technology",
+      "tail": "modify organism\u2019s DNA",
+      "evidence": "Genetic engineering is the alteration of an organism\u2019s genotype using recombinant DNA technology to modify an organism\u2019s DNA to achieve desirable traits."
+    },
+    {
+      "head": "recombinant DNA vectors",
+      "relation": "generated by",
+      "tail": "molecular cloning",
+      "evidence": "The addition of foreign DNA in the form of recombinant DNA vectors generated by molecular cloning is the most common method of genetic engineering."
+    },
+    {
+      "head": "organism",
+      "relation": "receives recombinant DNA",
+      "tail": "genetically modified organism (GMO)",
+      "evidence": "The organism that receives the recombinant DNA is a genetically modified organism (GMO)."
+    },
+    {
+      "head": "host organism",
+      "relation": "is transgenic",
+      "tail": "foreign DNA from different species",
+      "evidence": "If the foreign DNA comes from a different species, the host organism is transgenic."
+    },
+    {
+      "head": "scientists",
+      "relation": "genetically modified",
+      "tail": "bacteria, plants, and animals",
+      "evidence": "Scientists have genetically modified bacteria, plants, and animals since the early 1970s for academic, medical, agricultural, and industrial purposes."
+    },
+    {
+      "head": "US",
+      "relation": "uses GMOs",
+      "tail": "Roundup-ready soybeans and borer-resistant corn",
+      "evidence": "In the US, GMOs such as Roundup-ready soybeans and borer-resistant corn are part of many common processed foods."
+    },
+    {
+      "head": "classical methods",
+      "relation": "began with",
+      "tail": "given phenotype",
+      "evidence": "Although classical methods of studying gene function began with a given phenotype and determined the genetic basis of that phenotype, modern techniques allow researchers to start at the DNA sequence level and ask: \"What does this gene or DNA element do?\""
+    },
+    {
+      "head": "modern techniques",
+      "relation": "start at",
+      "tail": "DNA sequence level",
+      "evidence": "Although classical methods of studying gene function began with a given phenotype and determined the genetic basis of that phenotype, modern techniques allow researchers to start at the DNA sequence level and ask: \"What does this gene or DNA element do?\""
+    },
+    {
+      "head": "reverse genetics",
+      "relation": "resulted in reversing",
+      "tail": "classic genetic methodology",
+      "evidence": "This technique, reverse genetics, has resulted in reversing the classic genetic methodology."
+    },
+    {
+      "head": "gene targeting",
+      "relation": "uses recombinant DNA vectors",
+      "tail": "alter gene's expression",
+      "evidence": "Gene targeting is the use of recombinant DNA vectors to alter a particular gene's expression, either by introducing mutations in a gene, or by eliminating a certain gene's expression by deleting a part or all of the gene sequence from the organism's genome."
+    },
+    {
+      "head": "gene targeting",
+      "relation": "introduces mutations in",
+      "tail": "gene",
+      "evidence": "Gene targeting is the use of recombinant DNA vectors to alter a particular gene's expression, either by introducing mutations in a gene, or by eliminating a certain gene's expression by deleting a part or all of the gene sequence from the organism's genome."
+    },
+    {
+      "head": "gene targeting",
+      "relation": "eliminates gene's expression",
+      "tail": "deleting gene sequence",
+      "evidence": "Gene targeting is the use of recombinant DNA vectors to alter a particular gene's expression, either by introducing mutations in a gene, or by eliminating a certain gene's expression by deleting a part or all of the gene sequence from the organism's genome."
+    },
+    {
+      "head": "biotechnology",
+      "relation": "used for",
+      "tail": "medicinal purposes",
+      "evidence": "It is easy to see how biotechnology can be used for medicinal purposes."
+    },
+    {
+      "head": "Biotechnology",
+      "relation": "provides methods",
+      "tail": "treat disease",
+      "evidence": "provides methods to treat disease."
+    },
+    {
+      "head": "Biotechnology in agriculture",
+      "relation": "can enhance",
+      "tail": "resistance to disease",
+      "evidence": "Biotechnology in agriculture can enhance resistance to disease, pest, and environmental stress, and improve both crop yield and quality."
+    },
+    {
+      "head": "Biotechnology in agriculture",
+      "relation": "can enhance",
+      "tail": "resistance to pest",
+      "evidence": "Biotechnology in agriculture can enhance resistance to disease, pest, and environmental stress, and improve both crop yield and quality."
+    },
+    {
+      "head": "Biotechnology in agriculture",
+      "relation": "can enhance",
+      "tail": "resistance to environmental stress",
+      "evidence": "Biotechnology in agriculture can enhance resistance to disease, pest, and environmental stress, and improve both crop yield and quality."
+    },
+    {
+      "head": "Biotechnology in agriculture",
+      "relation": "can improve",
+      "tail": "crop yield",
+      "evidence": "Biotechnology in agriculture can enhance resistance to disease, pest, and environmental stress, and improve both crop yield and quality."
+    },
+    {
+      "head": "Biotechnology in agriculture",
+      "relation": "can improve",
+      "tail": "crop quality",
+      "evidence": "Biotechnology in agriculture can enhance resistance to disease, pest, and environmental stress, and improve both crop yield and quality."
+    },
+    {
+      "head": "Genetic diagnosis",
+      "relation": "involves",
+      "tail": "testing for suspected genetic defects",
+      "evidence": "Scientists call the process of testing for suspected genetic defects before administering treatment genetic diagnosis by genetic testing."
+    },
+    {
+      "head": "Doctors",
+      "relation": "advise",
+      "tail": "genetic testing",
+      "evidence": "Depending on the inheritance patterns of a disease-causing gene, family members are advised to undergo genetic testing."
+    },
+    {
+      "head": "Doctors",
+      "relation": "advise",
+      "tail": "biopsy",
+      "evidence": "For example, doctors usually advise people diagnosed with breast cancer to have a biopsy so that the medical team can determine the genetic basis of cancer development."
+    },
+    {
+      "head": "Doctors",
+      "relation": "base treatment plans on",
+      "tail": "genetic test findings",
+      "evidence": "Doctors base treatment plans on genetic test findings that determine the type of cancer."
+    },
+    {
+      "head": "Doctors",
+      "relation": "advise",
+      "tail": "genetic testing for other female relatives",
+      "evidence": "If inherited gene mutations cause the cancer, doctors also advise other female relatives to undergo genetic testing and periodic screening for breast cancer."
+    },
+    {
+      "head": "Doctors",
+      "relation": "offer genetic testing for",
+      "tail": "fetuses",
+      "evidence": "Doctors also offer genetic testing for fetuses (or embryos with in vitro fertilization) to determine the presence or absence of disease-causing genes in families with specific debilitating diseases."
+    },
+    {
+      "head": "Gene therapy",
+      "relation": "is a technique",
+      "tail": "cure disease",
+      "evidence": "Gene therapy is a genetic engineering technique used to cure disease."
+    },
+    {
+      "head": "Gene therapy",
+      "relation": "involves",
+      "tail": "introduction of a good gene",
+      "evidence": "In its simplest form, it involves the introduction of a good gene at a random location in the genome to aid the cure of a disease that is caused by a mutated gene."
+    },
+    {
+      "head": "Good gene",
+      "relation": "is introduced into",
+      "tail": "diseased cells",
+      "evidence": "The good gene is usually introduced into diseased cells as part of a vector transmitted by a virus that can infect the host cell and deliver the foreign DNA (Figure 17.9)."
+    },
+    {
+      "head": "Good gene",
+      "relation": "is introduced as part of",
+      "tail": "a vector",
+      "evidence": "The good gene is usually introduced into diseased cells as part of a vector transmitted by a virus that can infect the host cell and deliver the foreign DNA (Figure 17.9)."
+    },
+    {
+      "head": "Vector",
+      "relation": "is transmitted by",
+      "tail": "a virus",
+      "evidence": "The good gene is usually introduced into diseased cells as part of a vector transmitted by a virus that can infect the host cell and deliver the foreign DNA (Figure 17.9)."
+    },
+    {
+      "head": "Virus",
+      "relation": "can infect",
+      "tail": "the host cell",
+      "evidence": "The good gene is usually introduced into diseased cells as part of a vector transmitted by a virus that can infect the host cell and deliver the foreign DNA (Figure 17.9)."
+    },
+    {
+      "head": "Virus",
+      "relation": "can deliver",
+      "tail": "foreign DNA",
+      "evidence": "The good gene is usually introduced into diseased cells as part of a vector transmitted by a virus that can infect the host cell and deliver the foreign DNA (Figure 17.9)."
+    },
+    {
+      "head": "Advanced gene therapy",
+      "relation": "tries to correct",
+      "tail": "the mutation",
+      "evidence": "More advanced forms of gene therapy try to correct the mutation at the original site in the genome, such as is the case with treatment of severe combined immunodeficiency (SCID)."
+    },
+    {
+      "head": "Traditional vaccination strategies",
+      "relation": "use",
+      "tail": "weakened or inactive forms of microorganisms",
+      "evidence": "Traditional vaccination strategies use weakened or inactive forms of microorganisms to mount the initial immune response."
+    },
+    {
+      "head": "Modern techniques",
+      "relation": "use",
+      "tail": "genes of microorganisms cloned into vectors",
+      "evidence": "Modern techniques use the genes of microorganisms cloned into vectors to mass produce the desired antigen."
+    },
+    {
+      "head": "Doctors",
+      "relation": "introduce",
+      "tail": "the antigen into the body",
+      "evidence": "Doctors then introduce the antigen into the body to stimulate the primary immune response and trigger immune memory."
+    },
+    {
+      "head": "Medical field",
+      "relation": "has used",
+      "tail": "genes cloned from the influenza virus",
+      "evidence": "The medical field has used genes cloned from the influenza virus to combat the constantly changing strains of this virus."
+    },
+    {
+      "head": "Antibiotics",
+      "relation": "are a product",
+      "tail": "biotechnology",
+      "evidence": "Antibiotics are a biotechnological product."
+    },
+    {
+      "head": "Microorganisms",
+      "relation": "naturally produce",
+      "tail": "antibiotics",
+      "evidence": "Microorganisms, such as fungi, naturally produce them to attain an advantage over bacterial populations."
+    },
+    {
+      "head": "Cultivating and manipulating fungal cells",
+      "relation": "produces",
+      "tail": "antibiotics",
+      "evidence": "Cultivating and manipulating fungal cells produces antibiotics."
+    },
+    {
+      "head": "Scientists",
+      "relation": "used",
+      "tail": "recombinant DNA technology",
+      "evidence": "Scientists used recombinant DNA technology to produce large-scale quantities of human insulin in E. coli as early as 1978."
+    },
+    {
+      "head": "recombinant DNA technology",
+      "relation": "produced",
+      "tail": "human insulin",
+      "evidence": "Scientists used recombinant DNA technology to produce large-scale quantities of human insulin in E. coli as early as 1978."
+    },
+    {
+      "head": "human insulin",
+      "relation": "produced in",
+      "tail": "E. coli",
+      "evidence": "Scientists used recombinant DNA technology to produce large-scale quantities of human insulin in E. coli as early as 1978."
+    },
+    {
+      "head": "pig insulin",
+      "relation": "caused",
+      "tail": "allergic reactions",
+      "evidence": "Previously, it was only possible to treat diabetes with pig insulin, which caused allergic reactions in humans because of differences in the gene product."
+    },
+    {
+      "head": "doctors",
+      "relation": "use",
+      "tail": "human growth hormone",
+      "evidence": "In addition, doctors use human growth hormone (HGH) to treat growth disorders in children."
+    },
+    {
+      "head": "Researchers",
+      "relation": "cloned",
+      "tail": "HGH gene",
+      "evidence": "Researchers cloned the HGH gene from a cDNA library and inserted it into E. coli cells by cloning it into a bacterial vector."
+    },
+    {
+      "head": "HGH gene",
+      "relation": "inserted into",
+      "tail": "E. coli cells",
+      "evidence": "Researchers cloned the HGH gene from a cDNA library and inserted it into E. coli cells by cloning it into a bacterial vector."
+    },
+    {
+      "head": "desired genes",
+      "relation": "expressed in",
+      "tail": "animals",
+      "evidence": "For this reason, the desired genes are cloned and expressed in animals, such as sheep, goats, chickens, and mice."
+    },
+    {
+      "head": "animals",
+      "relation": "modified to express",
+      "tail": "recombinant DNA",
+      "evidence": "We call animals that have been modified to express recombinant DNA transgenic animals."
+    },
+    {
+      "head": "transgenic sheep and goat milk",
+      "relation": "expressed in",
+      "tail": "human proteins",
+      "evidence": "Several human proteins are expressed in transgenic sheep and goat milk, and some are expressed in chicken eggs."
+    },
+    {
+      "head": "chicken eggs",
+      "relation": "expressed in",
+      "tail": "human proteins",
+      "evidence": "Several human proteins are expressed in transgenic sheep and goat milk, and some are expressed in chicken eggs."
+    },
+    {
+      "head": "scientists",
+      "relation": "used",
+      "tail": "mice",
+      "evidence": "Scientists have used mice extensively for expressing and studying recombinant gene and mutation effects."
+    },
+    {
+      "head": "Manipulating the DNA of plants",
+      "relation": "helped to create",
+      "tail": "desirable traits",
+      "evidence": "Manipulating the DNA of plants (i.e., creating GMOs) has helped to create desirable traits, such as disease resistance, herbicide and pesticide resistance, better nutritional value, and better shelf-life (Figure 17.10)."
+    },
+    {
+      "head": "plants",
+      "relation": "received",
+      "tail": "recombinant DNA",
+      "evidence": "We call plants that have received recombinant DNA from other species transgenic plants."
+    },
+    {
+      "head": "government agencies",
+      "relation": "monitor",
+      "tail": "transgenic plants",
+      "evidence": "Because they are not natural, government agencies closely monitor transgenic plants and other GMOs to ensure that they are fit for human consumption and do not endanger other plant and animal life."
+    },
+    {
+      "head": "scientists",
+      "relation": "genetically engineered",
+      "tail": "corn, potatoes, and tomatoes",
+      "evidence": "Staples like corn, potatoes, and tomatoes were the first crop plants that scientists genetically engineered."
+    },
+    {
+      "head": "Gene transfer",
+      "relation": "occurs naturally between",
+      "tail": "species in microbial populations",
+      "evidence": "Gene transfer occurs naturally between species in microbial populations."
+    },
+    {
+      "head": "Agrobacterium tumefaciens",
+      "relation": "transfer DNA to",
+      "tail": "plant",
+      "evidence": "Agrobacterium tumefaciens occur by DNA transfer from the bacterium to the plant."
+    },
+    {
+      "head": "A. tumefaciens",
+      "relation": "affects",
+      "tail": "many plants",
+      "evidence": "A. tumefaciens affects many plants such as walnuts, grapes, nut trees, and beets."
+    },
+    {
+      "head": "Researchers",
+      "relation": "use natural transfer",
+      "tail": "DNA from Agrobacterium to plant host",
+      "evidence": "Researchers used the natural transfer of DNA from Agrobacterium to a plant host to introduce DNA fragments of their choice into plant hosts."
+    },
+    {
+      "head": "A. tumefaciens",
+      "relation": "have plasmids",
+      "tail": "Ti plasmids",
+      "evidence": "In nature, the disease-causing A. tumefaciens have a set of plasmids, Ti plasmids (tumor-inducing plasmids), that contain genes to produce tumors in plants."
+    },
+    {
+      "head": "DNA from Ti plasmid",
+      "relation": "integrates into",
+      "tail": "infected plant cell\u2019s genome",
+      "evidence": "DNA from the Ti plasmid integrates into the infected plant cell\u2019s genome."
+    },
+    {
+      "head": "Researchers",
+      "relation": "manipulate Ti plasmids",
+      "tail": "remove tumor-causing genes",
+      "evidence": "Researchers manipulate the Ti plasmids to remove the tumor-causing genes and insert the desired DNA fragment for transfer into the plant genome."
+    },
+    {
+      "head": "Ti plasmids",
+      "relation": "carry genes",
+      "tail": "antibiotic resistance genes",
+      "evidence": "The Ti plasmids carry antibiotic resistance genes to aid selection and researchers can propagate them in E. coli cells as well."
+    },
+    {
+      "head": "Bacillus thuringiensis",
+      "relation": "produces protein crystals",
+      "tail": "during sporulation",
+      "evidence": "Bacillus thuringiensis (Bt) is a bacterium that produces protein crystals during sporulation that are toxic to many insect species that affect plants."
+    },
+    {
+      "head": "Insects",
+      "relation": "ingest Bt toxin",
+      "tail": "activate the toxin",
+      "evidence": "Insects need to ingest Bt toxin in order to activate the toxin."
+    },
+    {
+      "head": "Insects",
+      "relation": "stop feeding",
+      "tail": "plants",
+      "evidence": "Insects that have eaten Bt toxin stop feeding on the plants within a few hours."
+    },
+    {
+      "head": "Bt toxin",
+      "relation": "activates in",
+      "tail": "insects' intestines",
+      "evidence": "After the toxin activates in the insects' intestines, they die within a couple of days."
+    },
+    {
+      "head": "Modern biotechnology",
+      "relation": "allows plants to encode",
+      "tail": "own crystal Bt toxin",
+      "evidence": "Modern biotechnology has allowed plants to encode their own crystal Bt toxin that acts against insects."
+    },
+    {
+      "head": "Scientists",
+      "relation": "cloned toxin genes",
+      "tail": "from Bt",
+      "evidence": "Scientists have cloned the crystal toxin genes from Bt and introduced them into plants."
+    },
+    {
+      "head": "Bt toxin",
+      "relation": "is safe for",
+      "tail": "environment",
+      "evidence": "Bt toxin is safe for the environment, nontoxic to humans and other mammals, and organic farmers have approved it as a natural insecticide."
+    },
+    {
+      "head": "Scientists",
+      "relation": "used antisense RNA technology",
+      "tail": "slow softening and rotting process",
+      "evidence": "Scientists used antisense RNA technology to slow the softening and rotting process caused by fungal infections, which led to increased shelf life of the GM tomatoes."
+    },
+    {
+      "head": "Genome mapping",
+      "relation": "is the process of",
+      "tail": "finding locations of genes",
+      "evidence": "Genome mapping is the process of finding the locations of genes on each chromosome."
+    },
+    {
+      "head": "Genetic map",
+      "relation": "lists genes and",
+      "tail": "their location on a chromosome",
+      "evidence": "A genetic map is an illustration that lists genes and their location on a chromosome."
+    },
+    {
+      "head": "Genetic maps",
+      "relation": "use genetic markers",
+      "tail": "similar to landmarks",
+      "evidence": "Genetic maps provide the big picture (similar to an interstate highway map) and use genetic markers (similar to landmarks)."
+    },
+    {
+      "head": "Genetic marker",
+      "relation": "co-segregates with",
+      "tail": "specific trait",
+      "evidence": "A genetic marker is a gene or sequence on a chromosome that co-segregates (shows genetic linkage) with a specific trait."
+    },
+    {
+      "head": "Physical maps",
+      "relation": "present details of",
+      "tail": "smaller chromosome regions",
+      "evidence": "Physical maps present the intimate details of smaller chromosome regions (similar to a detailed road map)."
+    },
+    {
+      "head": "Physical map",
+      "relation": "represents distance",
+      "tail": "in nucleotides",
+      "evidence": "A physical map is a representation of the physical distance, in nucleotides, between genes or genetic markers."
+    },
+    {
+      "head": "Genome\u2019s",
+      "relation": "require both",
+      "tail": "genetic linkage maps and physical maps",
+      "evidence": "Both genetic linkage maps and physical maps are required to build a genome\u2019s"
+    },
+    {
+      "head": "researchers",
+      "relation": "study",
+      "tail": "individual genes",
+      "evidence": "Having a complete genome map of the genome makes it easier for researchers to study individual genes."
+    },
+    {
+      "head": "Human genome maps",
+      "relation": "help",
+      "tail": "identify human disease-causing genes",
+      "evidence": "Human genome maps help researchers in their efforts to identify human disease-causing genes related to illnesses like cancer, heart disease, and cystic fibrosis."
+    },
+    {
+      "head": "genome mapping",
+      "relation": "use",
+      "tail": "live microbes to clean up pollutants",
+      "evidence": "We can use genome mapping in a variety of other applications, such as using live microbes to clean up pollutants or even prevent pollution."
+    },
+    {
+      "head": "genome mapping",
+      "relation": "use",
+      "tail": "prevent pollution",
+      "evidence": "We can use genome mapping in a variety of other applications, such as using live microbes to clean up pollutants or even prevent pollution."
+    },
+    {
+      "head": "Research involving plant genome mapping",
+      "relation": "lead to",
+      "tail": "producing higher crop yields",
+      "evidence": "Research involving plant genome mapping may lead to producing higher crop yields or developing plants that better adapt to climate change."
+    },
+    {
+      "head": "Research involving plant genome mapping",
+      "relation": "lead to",
+      "tail": "developing plants that better adapt to climate change",
+      "evidence": "Research involving plant genome mapping may lead to producing higher crop yields or developing plants that better adapt to climate change."
+    },
+    {
+      "head": "genetic maps",
+      "relation": "begin with",
+      "tail": "linkage analysis",
+      "evidence": "The study of genetic maps begins with linkage analysis, a procedure that analyzes the recombination frequency between genes to determine if they are linked or show independent assortment."
+    },
+    {
+      "head": "linkage analysis",
+      "relation": "analyzes",
+      "tail": "recombination frequency between genes",
+      "evidence": "The study of genetic maps begins with linkage analysis, a procedure that analyzes the recombination frequency between genes to determine if they are linked or show independent assortment."
+    },
+    {
+      "head": "linkage analysis",
+      "relation": "determine",
+      "tail": "if genes are linked or show independent assortment",
+      "evidence": "The study of genetic maps begins with linkage analysis, a procedure that analyzes the recombination frequency between genes to determine if they are linked or show independent assortment."
+    },
+    {
+      "head": "Scientists",
+      "relation": "used",
+      "tail": "the term linkage",
+      "evidence": "Scientists used the term linkage before the discovery of DNA."
+    },
+    {
+      "head": "Early geneticists",
+      "relation": "relied on",
+      "tail": "observing phenotypic changes",
+      "evidence": "Early geneticists relied on observing phenotypic changes to understand an organism\u2019s genotype."
+    },
+    {
+      "head": "Gregor Mendel",
+      "relation": "proposed",
+      "tail": "traits were determined by",
+      "evidence": "Shortly after Gregor Mendel (the father of modern genetics) proposed that traits were determined by"
+    },
+    {
+      "head": "genes",
+      "relation": "are physically linked by",
+      "tail": "location on the same chromosome",
+      "evidence": "other researchers observed that different traits were often inherited together, and thereby deduced that the genes were physically linked by their location on the same chromosome."
+    },
+    {
+      "head": "gene mapping",
+      "relation": "led to developing",
+      "tail": "the first genetic maps",
+      "evidence": "Gene mapping relative to each other based on linkage analysis led to developing the first genetic maps."
+    },
+    {
+      "head": "flower\u2019s color",
+      "relation": "were linked traits",
+      "tail": "plant pollen\u2019s shape",
+      "evidence": "researchers discovered, that the flower\u2019s color and plant pollen\u2019s shape were linked traits, and therefore the genes encoding these traits were in close proximity on the same chromosome."
+    },
+    {
+      "head": "genes encoding flower\u2019s color",
+      "relation": "are in close proximity on",
+      "tail": "the same chromosome",
+      "evidence": "researchers discovered, that the flower\u2019s color and plant pollen\u2019s shape were linked traits, and therefore the genes encoding these traits were in close proximity on the same chromosome."
+    },
+    {
+      "head": "genes encoding plant pollen\u2019s shape",
+      "relation": "are in close proximity on",
+      "tail": "the same chromosome",
+      "evidence": "researchers discovered, that the flower\u2019s color and plant pollen\u2019s shape were linked traits, and therefore the genes encoding these traits were in close proximity on the same chromosome."
+    },
+    {
+      "head": "genetic recombination",
+      "relation": "occurs by",
+      "tail": "crossing over DNA between homologous DNA strands",
+      "evidence": "We call exchanging DNA between homologous chromosome pairs genetic recombination, which occurs by crossing over DNA between homologous DNA strands, such as nonsister chromatids."
+    },
+    {
+      "head": "linkage analysis",
+      "relation": "involves studying",
+      "tail": "the recombination frequency between any two genes",
+      "evidence": "Linkage analysis involves studying the recombination frequency between any two genes."
+    },
+    {
+      "head": "greater distance between two genes",
+      "relation": "leads to higher chance of",
+      "tail": "recombination event",
+      "evidence": "The greater the distance between two genes, the higher the chance that a recombination event will occur between them, and the higher the recombination frequency between them."
+    },
+    {
+      "head": "recombination frequency between two genes",
+      "relation": "is less than 50 percent",
+      "tail": "they are linked",
+      "evidence": "If the recombination frequency between two genes is less than 50 percent, they are linked."
+    },
+    {
+      "head": "generation of genetic maps",
+      "relation": "requires",
+      "tail": "markers",
+      "evidence": "The generation of genetic maps requires markers, just as a road map requires landmarks (such as rivers and mountains)."
+    },
+    {
+      "head": "early genetic maps",
+      "relation": "based on",
+      "tail": "known genes as markers",
+      "evidence": "Scientists based early genetic maps on using known genes as markers."
+    },
+    {
+      "head": "scientists",
+      "relation": "use",
+      "tail": "more sophisticated markers",
+      "evidence": "Scientists now use more sophisticated markers, including those based on non-coding DNA, to compare individuals\u2019 genomes in a population."
+    },
+    {
+      "head": "scientists",
+      "relation": "use in generating genetic maps",
+      "tail": "restriction fragment length polymorphisms (RFLP)",
+      "evidence": "Some genetic markers that scientists use in generating genetic maps are restriction fragment length polymorphisms (RFLP), variable number of tandem repeats (VNTRs), microsatellite polymorphisms, and the single nucleotide polymorphisms (SNPs)."
+    },
+    {
+      "head": "scientists",
+      "relation": "use in generating genetic maps",
+      "tail": "variable number of tandem repeats (VNTRs)",
+      "evidence": "Some genetic markers that scientists use in generating genetic maps are restriction fragment length polymorphisms (RFLP), variable number of tandem repeats (VNTRs), microsatellite polymorphisms, and the single nucleotide polymorphisms (SNPs)."
+    },
+    {
+      "head": "scientists",
+      "relation": "use in generating genetic maps",
+      "tail": "microsatellite polymorphisms",
+      "evidence": "Some genetic markers that scientists use in generating genetic maps are restriction fragment length polymorphisms (RFLP), variable number of tandem repeats (VNTRs), microsatellite polymorphisms, and the single nucleotide polymorphisms (SNPs)."
+    },
+    {
+      "head": "scientists",
+      "relation": "use in generating genetic maps",
+      "tail": "single nucleotide polymorphisms (SNPs)",
+      "evidence": "Some genetic markers that scientists use in generating genetic maps are restriction fragment length polymorphisms (RFLP), variable number of tandem repeats (VNTRs), microsatellite polymorphisms, and the single nucleotide polymorphisms (SNPs)."
+    },
+    {
+      "head": "RFLPs",
+      "relation": "are detected when",
+      "tail": "DNA is cut with a restriction endonuclease",
+      "evidence": "We can detect RFLPs (sometimes pronounced \u201crif-lips\u201d) when the DNA of an individual is cut with a restriction endonuclease that recognizes specific sequences in the DNA to generate a series of DNA fragments, which we can then analyze using gel electrophoresis."
+    },
+    {
+      "head": "restriction endonuclease",
+      "relation": "recognizes",
+      "tail": "specific sequences in the DNA",
+      "evidence": "We can detect RFLPs (sometimes pronounced \u201crif-lips\u201d) when the DNA of an individual is cut with a restriction endonuclease that recognizes specific sequences in the DNA to generate a series of DNA fragments, which we can then analyze using gel electrophoresis."
+    },
+    {
+      "head": "DNA fragments",
+      "relation": "are analyzed using",
+      "tail": "gel electrophoresis",
+      "evidence": "We can detect RFLPs (sometimes pronounced \u201crif-lips\u201d) when the DNA of an individual is cut with a restriction endonuclease that recognizes specific sequences in the DNA to generate a series of DNA fragments, which we can then analyze using gel electrophoresis."
+    },
+    {
+      "head": "individual\u2019s DNA",
+      "relation": "gives rise to",
+      "tail": "unique pattern of bands",
+      "evidence": "Every individual\u2019s DNA will give rise to a unique pattern of bands when cut with a particular set of restriction endonucleases."
+    },
+    {
+      "head": "scientists",
+      "relation": "refer to",
+      "tail": "individual\u2019s DNA \u201cfingerprint\u201d",
+      "evidence": "Scientists sometimes refer to this as an individual\u2019s DNA \u201cfingerprint.\u201d"
+    },
+    {
+      "head": "certain chromosome regions",
+      "relation": "are subject to",
+      "tail": "polymorphism",
+      "evidence": "Certain chromosome regions that are subject to polymorphism will lead to generating the unique banding pattern."
+    },
+    {
+      "head": "VNTRs",
+      "relation": "are repeated sets of",
+      "tail": "nucleotides present in DNA\u2019s non-coding regions",
+      "evidence": "VNTRs are repeated sets of nucleotides present in DNA\u2019s non-coding regions."
+    },
+    {
+      "head": "non-coding DNA",
+      "relation": "has no known biological function",
+      "tail": "research shows that much of this DNA is actually transcribed",
+      "evidence": "Non-coding, or \u201cjunk,\u201d DNA has no known biological function; however, research shows that much of this DNA is actually transcribed."
+    },
+    {
+      "head": "Microsatellite polymorphisms",
+      "relation": "are similar to",
+      "tail": "VNTRs",
+      "evidence": "Microsatellite polymorphisms are similar to VNTRs, but the repeat unit is very small."
+    },
+    {
+      "head": "SNPs",
+      "relation": "are variations in",
+      "tail": "a single nucleotide",
+      "evidence": "SNPs are variations in a single nucleotide."
+    },
+    {
+      "head": "Genetic maps",
+      "relation": "rely on",
+      "tail": "the natural process of recombination",
+      "evidence": "Because genetic maps rely completely on the natural process of recombination, natural increases or decreases in the recombination level of a given genome area affects mapping."
+    },
+    {
+      "head": "Recombination level",
+      "relation": "affects",
+      "tail": "mapping",
+      "evidence": "Because genetic maps rely completely on the natural process of recombination, natural increases or decreases in the recombination level of a given genome area affects mapping."
+    },
+    {
+      "head": "Some parts of the genome",
+      "relation": "are",
+      "tail": "recombination hotspots",
+      "evidence": "Some parts of the genome are recombination hotspots; whereas, others do not show a propensity for recombination."
+    },
+    {
+      "head": "Physical map",
+      "relation": "provides detail of",
+      "tail": "the actual physical distance between genetic markers",
+      "evidence": "A physical map provides detail of the actual physical distance between genetic markers, as well as the number of nucleotides."
+    },
+    {
+      "head": "Physical map",
+      "relation": "provides detail of",
+      "tail": "the number of nucleotides",
+      "evidence": "A physical map provides detail of the actual physical distance between genetic markers, as well as the number of nucleotides."
+    },
+    {
+      "head": "Cytogenetic mapping",
+      "relation": "uses information from",
+      "tail": "microscopic analysis of stained chromosome sections",
+      "evidence": "Cytogenetic mapping uses information from microscopic analysis of stained chromosome sections (Figure 17.12)."
+    },
+    {
+      "head": "Cytogenetic mapping",
+      "relation": "determines",
+      "tail": "the approximate distance between genetic markers",
+      "evidence": "It is possible to determine the approximate distance between genetic markers using cytogenetic mapping, but not the exact distance (number of base pairs)."
+    },
+    {
+      "head": "Radiation hybrid mapping",
+      "relation": "uses",
+      "tail": "radiation",
+      "evidence": "Radiation hybrid mapping uses radiation, such as x-rays, to break the DNA into fragments."
+    },
+    {
+      "head": "Radiation hybrid mapping",
+      "relation": "overcomes the limitation of",
+      "tail": "genetic mapping",
+      "evidence": "This technique overcomes the limitation of genetic mapping, and we can adjust the radiation so that increased or decreased recombination frequency does not affect it."
+    },
+    {
+      "head": "Sequence mapping",
+      "relation": "resulted from",
+      "tail": "DNA sequencing technology",
+      "evidence": "Sequence mapping resulted from DNA sequencing technology that allowed for creating detailed physical maps with distances measured in terms of the number of base pairs."
+    },
+    {
+      "head": "Creating genomic libraries",
+      "relation": "speeds",
+      "tail": "the physical mapping process",
+      "evidence": "Creating genomic libraries and complementary DNA (cDNA) libraries (collections of cloned sequences or all DNA from a genome) has sped the physical mapping process."
+    },
+    {
+      "head": "Creating cDNA libraries",
+      "relation": "speeds",
+      "tail": "the physical mapping process",
+      "evidence": "Creating genomic libraries and complementary DNA (cDNA) libraries (collections of cloned sequences or all DNA from a genome) has sped the physical mapping process."
+    },
+    {
+      "head": "Sequence-tagged site",
+      "relation": "is a",
+      "tail": "unique sequence in the genome",
+      "evidence": "A genetic site that scientists use to generate a physical map with sequencing technology (a sequence-tagged site, or STS) is a unique sequence in the genome with a known exact chromosomal location."
+    },
+    {
+      "head": "Sequence-tagged site",
+      "relation": "has",
+      "tail": "a known exact chromosomal location",
+      "evidence": "A genetic site that scientists use to generate a physical map with sequencing technology (a sequence-tagged site, or STS) is a unique sequence in the genome with a known exact chromosomal location."
+    },
+    {
+      "head": "Expressed sequence tag",
+      "relation": "is a",
+      "tail": "short STS",
+      "evidence": "An EST is a short STS that we can identify with cDNA libraries, while we obtain SSLPs from known genetic markers, which provide a link between genetic and physical maps."
+    },
+    {
+      "head": "Single sequence length polymorphism",
+      "relation": "is a",
+      "tail": "common STS",
+      "evidence": "An EST is a short STS that we can identify with cDNA libraries, while we obtain SSLPs from known genetic markers, which provide a link between genetic and physical maps."
+    },
+    {
+      "head": "Single sequence length polymorphism",
+      "relation": "provides a link between",
+      "tail": "genetic and physical maps",
+      "evidence": "An EST is a short STS that we can identify with cDNA libraries, while we obtain SSLPs from known genetic markers, which provide a link between genetic and physical maps."
+    },
+    {
+      "head": "Genetic maps",
+      "relation": "provide",
+      "tail": "outline",
+      "evidence": "Genetic maps provide the outline and physical maps provide the details."
+    },
+    {
+      "head": "Physical maps",
+      "relation": "provide",
+      "tail": "details",
+      "evidence": "Genetic maps provide the outline and physical maps provide the details."
+    },
+    {
+      "head": "Scientists",
+      "relation": "use",
+      "tail": "information from each technique",
+      "evidence": "Scientists use information from each technique in combination to study the genome."
+    },
+    {
+      "head": "Scientists",
+      "relation": "use",
+      "tail": "genomic mapping with different model organisms",
+      "evidence": "Scientists are using genomic mapping with different model organisms for research."
+    },
+    {
+      "head": "Genome mapping",
+      "relation": "is",
+      "tail": "an ongoing process",
+      "evidence": "Genome mapping is still an ongoing process, and as researchers develop more advanced techniques, they expect more breakthroughs."
+    },
+    {
+      "head": "Genome mapping",
+      "relation": "is similar to",
+      "tail": "completing a complicated puzzle",
+      "evidence": "Genome mapping is similar to completing a complicated puzzle using every piece of available data."
+    },
+    {
+      "head": "Mapping information",
+      "relation": "goes into",
+      "tail": "central databases",
+      "evidence": "Mapping information generated in laboratories all over the world goes into central databases, such as GenBank at the National Center for Biotechnology Information (NCBI)."
+    },
+    {
+      "head": "NCBI",
+      "relation": "has created",
+      "tail": "a genome viewer tool",
+      "evidence": "NCBI has created a genome viewer tool to simplify the data-mining process."
+    },
+    {
+      "head": "website",
+      "relation": "displays comparison of",
+      "tail": "gene sequences",
+      "evidence": "The web page displays the comparison of the gene sequences of many organisms to the Human Insulin Receptor gene."
+    },
+    {
+      "head": "website",
+      "relation": "provides information about",
+      "tail": "Human Insulin Receptor gene",
+      "evidence": "The web page displays the comparison of the gene sequences of many organisms to the Human Insulin Receptor gene."
+    },
+    {
+      "head": "Online Mendelian Inheritance in Man (OMIM)",
+      "relation": "is a catalog of",
+      "tail": "human genes and genetic disorders",
+      "evidence": "Online Mendelian Inheritance in Man (OMIM) is a searchable online catalog of human genes and genetic disorders."
+    },
+    {
+      "head": "Online Mendelian Inheritance in Man (OMIM)",
+      "relation": "shows information about",
+      "tail": "genome mapping",
+      "evidence": "This website shows genome mapping information, and also details the history and research of each trait and disorder."
+    },
+    {
+      "head": "Online Mendelian Inheritance in Man (OMIM)",
+      "relation": "details history and research of",
+      "tail": "trait and disorder",
+      "evidence": "This website shows genome mapping information, and also details the history and research of each trait and disorder."
+    },
+    {
+      "head": "whole-genome sequencing",
+      "relation": "determines",
+      "tail": "entire genome\u2019s DNA sequence",
+      "evidence": "Whole-genome sequencing is a process that determines an entire genome\u2019s DNA sequence."
+    },
+    {
+      "head": "whole-genome sequencing",
+      "relation": "is a approach to",
+      "tail": "problem solving",
+      "evidence": "Whole-genome sequencing is a brute-force approach to problem solving when there is a genetic basis at the core of a disease."
+    },
+    {
+      "head": "whole-exome sequencing",
+      "relation": "is a alternative to",
+      "tail": "whole genome sequencing",
+      "evidence": "For example, whole-exome sequencing is a lower-cost alternative to whole genome sequencing."
+    },
+    {
+      "head": "whole-exome sequencing",
+      "relation": "sequences",
+      "tail": "DNA\u2019s coding regions",
+      "evidence": "In exome sequencing, the doctor sequences only the DNA\u2019s coding, exon-producing regions."
+    },
+    {
+      "head": "whole-exome sequencing",
+      "relation": "revealed defect in",
+      "tail": "pathway that controls apoptosis",
+      "evidence": "Finally, they performed whole-exome sequencing, which revealed a defect in a pathway that controls apoptosis (programmed cell death)."
+    },
+    {
+      "head": "whole-exome sequencing",
+      "relation": "led to cure for",
+      "tail": "genetic disorder",
+      "evidence": "The doctors used a bone-marrow transplant to overcome this genetic disorder, leading to a cure for the boy."
+    },
+    {
+      "head": "chain termination method",
+      "relation": "involves DNA replication of",
+      "tail": "single-stranded template",
+      "evidence": "The chain termination method involves DNA replication of a single-stranded template by using a primer and a regular deoxynucleotide (dNTP), which is a monomer, or a single DNA unit."
+    },
+    {
+      "head": "chain termination method",
+      "relation": "uses",
+      "tail": "primer and dNTP",
+      "evidence": "The chain termination method involves DNA replication of a single-stranded template by using a primer and a regular deoxynucleotide (dNTP), which is a monomer, or a single DNA unit."
+    },
+    {
+      "head": "chain termination method",
+      "relation": "mixes with",
+      "tail": "fluorescently labeled dideoxynucleotides (ddNTPs)",
+      "evidence": "The primer and dNTP mix with a small proportion of fluorescently labeled dideoxynucleotides (ddNTPs)."
+    },
+    {
+      "head": "ddNTPs",
+      "relation": "are missing",
+      "tail": "hydroxyl group",
+      "evidence": "The ddNTPs are monomers that are missing a hydroxyl group (\u2013OH) at the site at which another nucleotide usually attaches to form a chain (Figure 17.13)."
+    },
+    {
+      "head": "ddNTPs",
+      "relation": "are labeled with",
+      "tail": "different color of fluorophore",
+      "evidence": "Scientists label each ddNTP with a different color of fluorophore."
+    },
+    {
+      "head": "ddNTPs",
+      "relation": "terminates",
+      "tail": "DNA replication process",
+      "evidence": "Every time a ddNTP incorporates in the growing complementary strand, it terminates the DNA replication process, which results in multiple short strands of replicated DNA that each terminate at a different point during replication."
+    },
+    {
+      "head": "electrophoresis",
+      "relation": "processes",
+      "tail": "reaction mixture",
+      "evidence": "electrophoresis processes the reaction mixture after separating into single strands, the multiple newly replicated DNA strands form a ladder because of the differing sizes."
+    },
+    {
+      "head": "ddNTPs",
+      "relation": "are fluorescently labeled",
+      "tail": "each band on the gel",
+      "evidence": "Because the ddNTPs are fluorescently labeled, each band on the gel reflects the DNA strand\u2019s size and the ddNTP that terminated the reaction."
+    },
+    {
+      "head": "fluorophore-labeled ddNTPs",
+      "relation": "help identify",
+      "tail": "the ddNTP incorporated at that position",
+      "evidence": "The different colors of the fluorophore-labeled ddNTPs help identify the ddNTP incorporated at that position."
+    },
+    {
+      "head": "gel",
+      "relation": "produces",
+      "tail": "the template strand\u2019s sequence",
+      "evidence": "Reading the gel on the basis of each band\u2019s color on the ladder produces the template strand\u2019s sequence (Figure 17.14)."
+    },
+    {
+      "head": "dideoxynucleotide",
+      "relation": "is similar in structure to",
+      "tail": "a deoxynucleotide",
+      "evidence": "A dideoxynucleotide is similar in structure to a deoxynucleotide, but is missing the 3' hydroxyl group (indicated by the box)."
+    },
+    {
+      "head": "dideoxynucleotide",
+      "relation": "stops",
+      "tail": "DNA synthesis",
+      "evidence": "When a dideoxynucleotide is incorporated into a DNA strand, DNA synthesis stops."
+    },
+    {
+      "head": "shotgun sequencing method",
+      "relation": "cuts",
+      "tail": "DNA fragment copies",
+      "evidence": "In shotgun sequencing method, several DNA fragment copies cut randomly into many smaller pieces (somewhat like what happens to a round shot cartridge when fired from a shotgun)."
+    },
+    {
+      "head": "scientists",
+      "relation": "analyze",
+      "tail": "the fragments",
+      "evidence": "All of the segments sequence using the chain-sequencing method. Then, with sequence computer assistance, scientists can analyze the fragments to see where their sequences overlap."
+    },
+    {
+      "head": "scientists",
+      "relation": "reform",
+      "tail": "the entire DNA sequence",
+      "evidence": "By matching overlapping sequences at each fragment\u2019s end, scientists can reform the entire DNA sequence."
+    },
+    {
+      "head": "larger sequence",
+      "relation": "is assembled from",
+      "tail": "overlapping shorter sequences",
+      "evidence": "A larger sequence that is assembled from overlapping shorter sequences is called a contig."
+    },
+    {
+      "head": "shotgun sequencing",
+      "relation": "analyzed",
+      "tail": "one end of each fragment",
+      "evidence": "Originally, shotgun sequencing only analyzed one end of each fragment for overlaps."
+    },
+    {
+      "head": "pairwise-end sequencing",
+      "relation": "analyzes",
+      "tail": "each fragment\u2019s end",
+      "evidence": "In pairwise-end sequencing, scientists analyze each fragment\u2019s end for overlap."
+    },
+    {
+      "head": "pairwise-end sequencing",
+      "relation": "is more cumbersome than",
+      "tail": "shotgun sequencing",
+      "evidence": "Pairwise-end sequencing is, therefore, more cumbersome than shotgun sequencing, but it is easier to reconstruct the sequence because there is more available information."
+    },
+    {
+      "head": "next-generation sequencing",
+      "relation": "is a group of",
+      "tail": "automated techniques",
+      "evidence": "Since 2005, automated sequencing techniques used by laboratories are under the umbrella of next-generation sequencing (deep sequencing or massively parallel sequencing), which is a group of automated techniques used for rapid DNA sequencing."
+    },
+    {
+      "head": "next-generation sequencing",
+      "relation": "used for",
+      "tail": "rapid DNA sequencing",
+      "evidence": "Since 2005, automated sequencing techniques used by laboratories are under the umbrella of next-generation sequencing (deep sequencing or massively parallel sequencing), which is a group of automated techniques used for rapid DNA sequencing."
+    },
+    {
+      "head": "next-generation sequencing",
+      "relation": "can generate",
+      "tail": "sequences of hundreds of thousands or millions of short fragments",
+      "evidence": "These automated low-cost sequencers can generate sequences of hundreds of thousands or millions of short fragments (25 to 500 base pairs) in the span of one day."
+    },
+    {
+      "head": "next-generation sequencing",
+      "relation": "use",
+      "tail": "sophisticated software",
+      "evidence": "These sequencers use sophisticated software to get through the cumbersome process of putting all the fragments in order."
+    },
+    {
+      "head": "sequence alignment",
+      "relation": "is an arrangement of",
+      "tail": "proteins, DNA, or RNA",
+      "evidence": "A sequence alignment is an arrangement of proteins, DNA, or RNA."
+    },
+    {
+      "head": "sequence alignment",
+      "relation": "used to identify",
+      "tail": "similar regions between cell types or species",
+      "evidence": "Scientists use it to identify similar regions between cell types or species, which may indicate function or structure conservation."
+    },
+    {
+      "head": "sequence alignment",
+      "relation": "used to construct",
+      "tail": "phylogenetic trees",
+      "evidence": "We can use sequence alignments to construct phylogenetic trees."
+    },
+    {
+      "head": "BLAST",
+      "relation": "is a",
+      "tail": "software program",
+      "evidence": "The following website uses a software program called BLAST (basic local alignment search tool) (http://blast.ncbi.nlm.nih.gov/Blast.cgi)."
+    },
+    {
+      "head": "Fred Sanger",
+      "relation": "used",
+      "tail": "bacterial virus",
+      "evidence": "British biochemist and Nobel Prize winner Fred Sanger used a bacterial virus, the bacteriophage fx174 (5368 base pairs), to completely sequence the first genome."
+    },
+    {
+      "head": "Craig Venter",
+      "relation": "sequenced",
+      "tail": "bacterium Haemophilus influenzae",
+      "evidence": "American biotechnologist, biochemist, geneticist, and businessman Craig Venter sequenced the bacterium Haemophilus influenzae in the 1980s."
+    },
+    {
+      "head": "74 different laboratories",
+      "relation": "collaborated on sequencing",
+      "tail": "genome of the yeast Saccharomyces cerevisiae",
+      "evidence": "Approximately 74 different laboratories collaborated on sequencing the genome of the yeast Saccharomyces cerevisiae, which began in 1989 and was completed in 1996, because it was 60 times bigger than any other genome sequencing."
+    },
+    {
+      "head": "model organisms",
+      "relation": "include",
+      "tail": "mouse Mus musculus, the fruit fly Drosophila melanogaster, the nematode Caenorhabditis elegans, and humans Homo sapiens",
+      "evidence": "We now know the genomes of other model organisms, such as the mouse Mus musculus, the fruit fly Drosophila melanogaster, the nematode Caenorhabditis elegans, and humans Homo sapiens."
+    },
+    {
+      "head": "entire genomes sequenced",
+      "relation": "helps with",
+      "tail": "research efforts in model organisms",
+      "evidence": "Having entire genomes sequenced helps with the research efforts in these model organisms."
+    },
+    {
+      "head": "genome annotation",
+      "relation": "is",
+      "tail": "biological information to gene sequences",
+      "evidence": "biological information to gene sequences is genome annotation."
+    },
+    {
+      "head": "genome annotation",
+      "relation": "helps with",
+      "tail": "basic experiments in molecular biology",
+      "evidence": "Annotating gene sequences helps with basic experiments in molecular biology, such as designing PCR primers and RNA targets."
+    },
+    {
+      "head": "DNA microarrays",
+      "relation": "are methods",
+      "tail": "scientists use to detect gene expression",
+      "evidence": "DNA microarrays are methods that scientists use to detect gene expression by analyzing different DNA fragments that are fixed to a glass slide or a silicon chip to identify active genes and sequences."
+    },
+    {
+      "head": "DNA microarrays",
+      "relation": "analyze",
+      "tail": "different DNA fragments",
+      "evidence": "DNA microarrays are methods that scientists use to detect gene expression by analyzing different DNA fragments that are fixed to a glass slide or a silicon chip to identify active genes and sequences."
+    },
+    {
+      "head": "DNA microarrays",
+      "relation": "identify",
+      "tail": "active genes and sequences",
+      "evidence": "DNA microarrays are methods that scientists use to detect gene expression by analyzing different DNA fragments that are fixed to a glass slide or a silicon chip to identify active genes and sequences."
+    },
+    {
+      "head": "microarrays",
+      "relation": "discover",
+      "tail": "one million genotypic abnormalities",
+      "evidence": "We can discover almost one million genotypic abnormalities using microarrays; whereas, whole-genome sequencing can provide information 460 17 \u2022 Biotechnology and Genomics Access for free at openstax.org"
+    },
+    {
+      "head": "genome sequencing",
+      "relation": "allows discovery of",
+      "tail": "future onset diseases",
+      "evidence": "Knowing about the entire genome will allow researchers to discover future onset diseases and other genetic disorders early."
+    },
+    {
+      "head": "genome sequencing",
+      "relation": "allows decisions about",
+      "tail": "lifestyle",
+      "evidence": "This will allow for more informed decisions about lifestyle, medication, and having children."
+    },
+    {
+      "head": "genome sequencing",
+      "relation": "allows decisions about",
+      "tail": "medication",
+      "evidence": "This will allow for more informed decisions about lifestyle, medication, and having children."
+    },
+    {
+      "head": "genome sequencing",
+      "relation": "allows decisions about",
+      "tail": "having children",
+      "evidence": "This will allow for more informed decisions about lifestyle, medication, and having children."
+    },
+    {
+      "head": "genomics",
+      "relation": "can contribute to",
+      "tail": "developing novel enzymes",
+      "evidence": "In addition to disease and medicine, genomics can contribute to developing novel enzymes that convert biomass to biofuel, which results in higher crop and fuel production, and lower consumer cost."
+    },
+    {
+      "head": "novel enzymes",
+      "relation": "convert",
+      "tail": "biomass to biofuel",
+      "evidence": "In addition to disease and medicine, genomics can contribute to developing novel enzymes that convert biomass to biofuel, which results in higher crop and fuel production, and lower consumer cost."
+    },
+    {
+      "head": "genomics",
+      "relation": "can improve",
+      "tail": "monitoring methods",
+      "evidence": "Genomics could also improve monitoring methods that measure the impact of pollutants on ecosystems and help clean up environmental contaminants."
+    },
+    {
+      "head": "genomics",
+      "relation": "has aided in developing",
+      "tail": "agrochemicals",
+      "evidence": "Genomics has aided in developing agrochemicals and pharmaceuticals that could benefit medical science and agriculture."
+    },
+    {
+      "head": "genomics",
+      "relation": "has aided in developing",
+      "tail": "pharmaceuticals",
+      "evidence": "Genomics has aided in developing agrochemicals and pharmaceuticals that could benefit medical science and agriculture."
+    },
+    {
+      "head": "genomics",
+      "relation": "could lead to",
+      "tail": "discrimination based on genetics",
+      "evidence": "Otherwise, it could be easy to misuse the power of such knowledge, leading to discrimination based on a person's genetics, human genetic engineering, and other ethical concerns."
+    },
+    {
+      "head": "genomics",
+      "relation": "could lead to",
+      "tail": "human genetic engineering",
+      "evidence": "Otherwise, it could be easy to misuse the power of such knowledge, leading to discrimination based on a person's genetics, human genetic engineering, and other ethical concerns."
+    },
+    {
+      "head": "genomics",
+      "relation": "could lead to",
+      "tail": "legal issues regarding health and privacy",
+      "evidence": "This information could also lead to legal issues regarding health and privacy."
+    },
+    {
+      "head": "genomics",
+      "relation": "is used in",
+      "tail": "metagenomics",
+      "evidence": "Many fields, such as metagenomics, pharmacogenomics, and mitochondrial genomics are using genomics."
+    },
+    {
+      "head": "genomics",
+      "relation": "is used in",
+      "tail": "pharmacogenomics",
+      "evidence": "Many fields, such as metagenomics, pharmacogenomics, and mitochondrial genomics are using genomics."
+    },
+    {
+      "head": "genomics",
+      "relation": "is used in",
+      "tail": "mitochondrial genomics",
+      "evidence": "Many fields, such as metagenomics, pharmacogenomics, and mitochondrial genomics are using genomics."
+    },
+    {
+      "head": "genomics",
+      "relation": "is most common in",
+      "tail": "understanding and finding cures for diseases",
+      "evidence": "Understanding and finding cures for diseases is the most common application of genomics."
+    },
+    {
+      "head": "predicting disease risk",
+      "relation": "involves",
+      "tail": "genome analysis at the individual level",
+      "evidence": "Predicting disease risk involves screening currently healthy individuals by genome analysis at the individual level."
+    },
+    {
+      "head": "predicting disease risk",
+      "relation": "is most applicable when",
+      "tail": "the problem resides within a single gene defect",
+      "evidence": "However, this approach is most applicable when the problem resides within a single gene defect."
+    },
+    {
+      "head": "single gene defect",
+      "relation": "accounts for",
+      "tail": "approximately 5 percent of diseases in developed countries",
+      "evidence": "Such defects only account for approximately 5 percent of diseases in developed countries."
+    },
+    {
+      "head": "common diseases",
+      "relation": "are",
+      "tail": "multi-factored or polygenic",
+      "evidence": "Most of the common diseases, such as heart disease, are multi-factored or polygenic, which is a phenotypic characteristic that involves two or more genes, and also involve environmental factors such as diet."
+    },
+    {
+      "head": "polygenic",
+      "relation": "involves",
+      "tail": "two or more genes",
+      "evidence": "Most of the common diseases, such as heart disease, are multi-factored or polygenic, which is a phenotypic characteristic that involves two or more genes, and also involve environmental factors such as diet."
+    },
+    {
+      "head": "polygenic",
+      "relation": "involves",
+      "tail": "environmental factors",
+      "evidence": "Most of the common diseases, such as heart disease, are multi-factored or polygenic, which is a phenotypic characteristic that involves two or more genes, and also involve environmental factors such as diet."
+    },
+    {
+      "head": "genome analysis",
+      "relation": "predicted",
+      "tail": "Quake's propensity to acquire various diseases",
+      "evidence": "The analysis predicted his propensity to acquire various diseases."
+    },
+    {
+      "head": "genome analysis",
+      "relation": "found",
+      "tail": "a rare genetic mutation",
+      "evidence": "The team found a rare genetic mutation, which showed him to be at risk for sudden heart attack."
+    },
+    {
+      "head": "genome analysis",
+      "relation": "predicted",
+      "tail": "Quake had a 23 percent risk of developing prostate cancer",
+      "evidence": "The results also predicted that Quake had a 23 percent risk of developing prostate cancer and a 1.4 percent risk of developing Alzheimer\u2019s."
+    },
+    {
+      "head": "genome analysis",
+      "relation": "predicted",
+      "tail": "Quake had a 1.4 percent risk of developing Alzheimer\u2019s",
+      "evidence": "The results also predicted that Quake had a 23 percent risk of developing prostate cancer and a 1.4 percent risk of developing Alzheimer\u2019s."
+    },
+    {
+      "head": "scientists",
+      "relation": "used",
+      "tail": "databases and several publications",
+      "evidence": "The scientists used databases and several publications to analyze the genomic data."
+    },
+    {
+      "head": "PCA3",
+      "relation": "is expressed in",
+      "tail": "prostate epithelial cells",
+      "evidence": "PCA3 is a gene that is expressed in prostate epithelial cells and overexpressed in cancerous cells."
+    },
+    {
+      "head": "PCA3",
+      "relation": "is overexpressed in",
+      "tail": "cancerous cells",
+      "evidence": "PCA3 is a gene that is expressed in prostate epithelial cells and overexpressed in cancerous cells."
+    },
+    {
+      "head": "PCA3 concentration",
+      "relation": "is indicative of",
+      "tail": "prostate cancer",
+      "evidence": "A high PCA3 concentration in urine is indicative of prostate cancer."
+    },
+    {
+      "head": "PCA3 test",
+      "relation": "is a better indicator of",
+      "tail": "cancer",
+      "evidence": "The PCA3 test is a better indicator of cancer than the more well known PSA test, which measures the level of PSA (prostate-specific antigen) in the blood."
+    },
+    {
+      "head": "PSA test",
+      "relation": "measures the level of",
+      "tail": "PSA (prostate-specific antigen)",
+      "evidence": "The PCA3 test is a better indicator of cancer than the more well known PSA test, which measures the level of PSA (prostate-specific antigen) in the blood."
+    },
+    {
+      "head": "United States Preventative Services Task Force",
+      "relation": "recommended against",
+      "tail": "using the PSA test",
+      "evidence": "In 2011, the United States Preventative Services Task Force recommended against using the PSA test to screen healthy people for prostate cancer."
+    },
+    {
+      "head": "screening",
+      "relation": "does not reduce",
+      "tail": "the risk of death from prostate cancer",
+      "evidence": "Their recommendation is based on evidence that screening does not reduce the risk of death from prostate cancer."
+    },
+    {
+      "head": "prostate cancer",
+      "relation": "often develops",
+      "tail": "very slowly",
+      "evidence": "Prostate cancer often develops very slowly and does not cause problems, while the cancer treatment can have severe side effects."
+    },
+    {
+      "head": "PCA3 test",
+      "relation": "is more accurate",
+      "tail": "PSA test",
+      "evidence": "The PCA3 test is more accurate, but screening may still result in people who would not have been harmed by the cancer itself suffering side effects from treatment."
+    },
+    {
+      "head": "Pharmacogenomics",
+      "relation": "involves evaluating",
+      "tail": "drug effectiveness and safety",
+      "evidence": "Pharmacogenomics, or toxicogenomics, involves evaluating drug effectiveness and safety on the basis of information from an individual's genomic sequence."
+    },
+    {
+      "head": "Pharmacogenomics",
+      "relation": "uses information from",
+      "tail": "an individual's genomic sequence",
+      "evidence": "Pharmacogenomics, or toxicogenomics, involves evaluating drug effectiveness and safety on the basis of information from an individual's genomic sequence."
+    },
+    {
+      "head": "genomic responses",
+      "relation": "can be studied using",
+      "tail": "experimental animals",
+      "evidence": "We can study genomic responses to drugs using experimental animals (such as laboratory rats or mice) or live cells in the laboratory before embarking on studies with humans."
+    },
+    {
+      "head": "genomic responses",
+      "relation": "can be studied using",
+      "tail": "live cells",
+      "evidence": "We can study genomic responses to drugs using experimental animals (such as laboratory rats or mice) or live cells in the laboratory before embarking on studies with humans."
+    },
+    {
+      "head": "changes in gene expression",
+      "relation": "provide information about",
+      "tail": "the transcription profile",
+      "evidence": "Studying changes in gene expression could provide information about the transcription profile in the drug's presence, which we can use as an early indicator of the potential for toxic effects."
+    },
+    {
+      "head": "genes involved in cellular growth",
+      "relation": "when disturbed",
+      "tail": "lead to cancerous cell growth",
+      "evidence": "For example, genes involved in cellular growth and controlled cell death, when disturbed, could lead to cancerous cell growth."
+    },
+    {
+      "head": "genome-wide studies",
+      "relation": "can help to find",
+      "tail": "new genes involved in drug toxicity",
+      "evidence": "Genome-wide studies can also help to find new genes involved in drug toxicity."
+    },
+    {
+      "head": "medical professionals",
+      "relation": "can use",
+      "tail": "personal genome sequence information",
+      "evidence": "Medical professionals can use personal genome sequence information to prescribe medications that will be most effective and least toxic on the basis of the individual patient\u2019s genotype."
+    },
+    {
+      "head": "medical professionals",
+      "relation": "can prescribe",
+      "tail": "medications",
+      "evidence": "Medical professionals can use personal genome sequence information to prescribe medications that will be most effective and least toxic on the basis of the individual patient\u2019s genotype."
+    },
+    {
+      "head": "microbiology",
+      "relation": "traditionally taught",
+      "tail": "study microorganisms under pure culture conditions",
+      "evidence": "Traditionally, scholars have taught microbiology with the view that it is best to study microorganisms under pure culture conditions."
+    },
+    {
+      "head": "pure culture",
+      "relation": "involves isolating",
+      "tail": "a single cell type",
+      "evidence": "This involves isolating a single cell type and culturing it in the laboratory."
+    },
+    {
+      "head": "microorganisms",
+      "relation": "can go through",
+      "tail": "several generations",
+      "evidence": "Because microorganisms can go through several generations in a matter of hours, their gene expression profiles adapt to the new laboratory environment very quickly."
+    },
+    {
+      "head": "microorganisms",
+      "relation": "resist culturing",
+      "tail": "in isolation",
+      "evidence": "In addition, the vast majority of bacterial species resist culturing in isolation."
+    },
+    {
+      "head": "most microorganisms",
+      "relation": "do not live as",
+      "tail": "isolated entities",
+      "evidence": "Most microorganisms do not live as isolated entities, but in microbial communities or biofilms."
+    },
+    {
+      "head": "metagenomics",
+      "relation": "is the study of",
+      "tail": "the collective genomes of multiple species",
+      "evidence": "Metagenomics is the study of the collective genomes of multiple species that grow and interact in an environmental niche."
+    },
+    {
+      "head": "metagenomics",
+      "relation": "can be used to",
+      "tail": "identify new species",
+      "evidence": "Metagenomics can be used to identify new species more rapidly and to analyze the effect of pollutants on the environment (Figure 17.16)."
+    },
+    {
+      "head": "metagenomics",
+      "relation": "can be used to",
+      "tail": "analyze the effect of pollutants",
+      "evidence": "Metagenomics can be used to identify new species more rapidly and to analyze the effect of pollutants on the environment (Figure 17.16)."
+    },
+    {
+      "head": "Metagenomics",
+      "relation": "involves isolating",
+      "tail": "DNA",
+      "evidence": "Metagenomics involves isolating DNA from multiple species within an environmental niche."
+    },
+    {
+      "head": "Microbial Genomics",
+      "relation": "is used to find",
+      "tail": "better ways to harness biofuels",
+      "evidence": "Knowledge of the genomics of microorganisms is being used to find better ways to harness biofuels from algae and cyanobacteria."
+    },
+    {
+      "head": "Microbial world",
+      "relation": "is a resource for",
+      "tail": "genes that encode new enzymes",
+      "evidence": "The microbial world is one of the largest resources for genes that encode new enzymes and produce new organic compounds, and it remains largely untapped."
+    },
+    {
+      "head": "Microbial world",
+      "relation": "is a resource for",
+      "tail": "new organic compounds",
+      "evidence": "The microbial world is one of the largest resources for genes that encode new enzymes and produce new organic compounds, and it remains largely untapped."
+    },
+    {
+      "head": "Microorganisms",
+      "relation": "are used to create",
+      "tail": "products",
+      "evidence": "Microorganisms are used to create products, such as enzymes that are used in research, antibiotics, and other antimicrobial mechanisms."
+    },
+    {
+      "head": "Microbial genomics",
+      "relation": "is helping to develop",
+      "tail": "diagnostic tools",
+      "evidence": "Microbial genomics is helping to develop diagnostic tools, improved vaccines, new disease treatments, and advanced environmental cleanup techniques."
+    },
+    {
+      "head": "Microbial genomics",
+      "relation": "is helping to develop",
+      "tail": "improved vaccines",
+      "evidence": "Microbial genomics is helping to develop diagnostic tools, improved vaccines, new disease treatments, and advanced environmental cleanup techniques."
+    },
+    {
+      "head": "Microbial genomics",
+      "relation": "is helping to develop",
+      "tail": "new disease treatments",
+      "evidence": "Microbial genomics is helping to develop diagnostic tools, improved vaccines, new disease treatments, and advanced environmental cleanup techniques."
+    },
+    {
+      "head": "Microbial genomics",
+      "relation": "is helping to develop",
+      "tail": "advanced environmental cleanup techniques",
+      "evidence": "Microbial genomics is helping to develop diagnostic tools, improved vaccines, new disease treatments, and advanced environmental cleanup techniques."
+    },
+    {
+      "head": "Mitochondria",
+      "relation": "contain",
+      "tail": "their own DNA",
+      "evidence": "Mitochondria are intracellular organelles that contain their own DNA."
+    },
+    {
+      "head": "Mitochondrial DNA",
+      "relation": "mutates at",
+      "tail": "a rapid rate",
+      "evidence": "Mitochondrial DNA mutates at a rapid rate and scientists often use it to study evolutionary relationships."
+    },
+    {
+      "head": "Scientists",
+      "relation": "use mitochondrial DNA to study",
+      "tail": "evolutionary relationships",
+      "evidence": "Mitochondrial DNA mutates at a rapid rate and scientists often use it to study evolutionary relationships."
+    },
+    {
+      "head": "Mitochondrial DNA",
+      "relation": "passes from",
+      "tail": "the mother",
+      "evidence": "Another feature that makes studying the mitochondrial genome interesting is that the mitochondrial DNA in most multicellular organisms passes from the mother during the fertilization process."
+    },
+    {
+      "head": "Scientists",
+      "relation": "use mitochondrial genomics to trace",
+      "tail": "genealogy",
+      "evidence": "For this reason, scientists often use mitochondrial genomics to trace genealogy."
+    },
+    {
+      "head": "Genomic analysis",
+      "relation": "has become useful in",
+      "tail": "forensic analysis",
+      "evidence": "Genomic analysis has also become useful in this field."
+    },
+    {
+      "head": "Genomics",
+      "relation": "can reduce",
+      "tail": "trials and failures",
+      "evidence": "Genomics can reduce the trials and failures involved in scientific research to a certain extent, which could improve agricultural crop yield quality and quantity."
+    },
+    {
+      "head": "Genomics",
+      "relation": "helps improve",
+      "tail": "crop breeding",
+      "evidence": "Linking traits to genes or gene signatures helps improve crop breeding to generate hybrids with the most desirable qualities."
+    },
+    {
+      "head": "Scientists",
+      "relation": "use genomic data to identify",
+      "tail": "desirable traits",
+      "evidence": "Scientists use genomic data to identify desirable traits, and then transfer those traits to a different organism."
+    },
+    {
+      "head": "Proteins",
+      "relation": "perform function",
+      "tail": "genes",
+      "evidence": "Proteins are the final products of genes, which help perform the function that the gene encodes."
+    },
+    {
+      "head": "Proteins",
+      "relation": "comprise",
+      "tail": "amino acids",
+      "evidence": "Amino acids comprise proteins and play important roles in the cell."
+    },
+    {
+      "head": "Enzymes",
+      "relation": "are",
+      "tail": "proteins",
+      "evidence": "All enzymes (except ribozymes) are proteins that act as catalysts to affect the rate of reactions."
+    },
+    {
+      "head": "Proteins",
+      "relation": "act as",
+      "tail": "catalysts",
+      "evidence": "All enzymes (except ribozymes) are proteins that act as catalysts to affect the rate of reactions."
+    },
+    {
+      "head": "Proteins",
+      "relation": "are",
+      "tail": "regulatory molecules",
+      "evidence": "Proteins are also regulatory molecules, and some are hormones."
+    },
+    {
+      "head": "Proteins",
+      "relation": "are",
+      "tail": "hormones",
+      "evidence": "Proteins are also regulatory molecules, and some are hormones."
+    },
+    {
+      "head": "Transport proteins",
+      "relation": "help transport",
+      "tail": "oxygen",
+      "evidence": "Transport proteins, such as hemoglobin, help transport oxygen to various organs."
+    },
+    {
+      "head": "Antibodies",
+      "relation": "are",
+      "tail": "proteins",
+      "evidence": "Antibodies that defend against foreign particles are also proteins."
+    },
+    {
+      "head": "Proteome",
+      "relation": "is",
+      "tail": "set of proteins",
+      "evidence": "A proteome is the entire set of proteins that a cell type produces."
+    },
+    {
+      "head": "Proteomics",
+      "relation": "studies",
+      "tail": "proteomes' function",
+      "evidence": "Proteomics is the study of proteomes' function."
+    },
+    {
+      "head": "Proteomics",
+      "relation": "complements",
+      "tail": "genomics",
+      "evidence": "Proteomics complements genomics and is useful when scientists want to test their hypotheses that they based on genes."
+    },
+    {
+      "head": "Proteomics",
+      "relation": "requires",
+      "tail": "techniques for protein analysis",
+      "evidence": "Just as scientists analyze the genome using the basic DNA sequencing technique, proteomics requires techniques for protein analysis."
+    },
+    {
+      "head": "Mass spectrometry",
+      "relation": "identifies",
+      "tail": "molecule's characteristics",
+      "evidence": "The basic technique for protein analysis, analogous to DNA sequencing, is mass spectrometry. Mass spectrometry identifies and determines a molecule's characteristics."
+    },
+    {
+      "head": "X-ray crystallography",
+      "relation": "enables scientists",
+      "tail": "determine protein crystal's three-dimensional structure",
+      "evidence": "X-ray crystallography, for example, enables scientists to determine a protein crystal's three-dimensional structure at atomic resolution."
+    },
+    {
+      "head": "Nuclear magnetic resonance (NMR)",
+      "relation": "uses",
+      "tail": "atoms' magnetic properties",
+      "evidence": "Another protein imaging technique, nuclear magnetic resonance (NMR), uses atoms' magnetic properties to determine the protein's three- dimensional structure in"
+    },
+    {
+      "head": "scientists",
+      "relation": "use",
+      "tail": "protein microarrays",
+      "evidence": "Scientists have also used protein microarrays to study protein interactions."
+    },
+    {
+      "head": "protein microarrays",
+      "relation": "based on",
+      "tail": "large-scale adaptations of the basic two-hybrid screen",
+      "evidence": "Large-scale adaptations of the basic two-hybrid screen (Figure 17.17) have provided the basis for protein microarrays."
+    },
+    {
+      "head": "scientists",
+      "relation": "use",
+      "tail": "computer software",
+      "evidence": "Scientists use computer software to analyze the vast amount of data for proteomic analysis."
+    },
+    {
+      "head": "genomic- and proteomic-scale analyses",
+      "relation": "part of",
+      "tail": "systems biology",
+      "evidence": "Genomic- and proteomic-scale analyses are part of systems biology, which is the study of whole biological systems (genomes and proteomes) based on interactions within the system."
+    },
+    {
+      "head": "systems biology",
+      "relation": "study of",
+      "tail": "whole biological systems",
+      "evidence": "Genomic- and proteomic-scale analyses are part of systems biology, which is the study of whole biological systems (genomes and proteomes) based on interactions within the system."
+    },
+    {
+      "head": "European Bioinformatics Institute",
+      "relation": "developing and establishing",
+      "tail": "effective tools",
+      "evidence": "The European Bioinformatics Institute and the Human Proteome Organization (HUPO) are developing and establishing effective tools to sort through the enormous pile of systems biology data."
+    },
+    {
+      "head": "Human Proteome Organization (HUPO)",
+      "relation": "developing and establishing",
+      "tail": "effective tools",
+      "evidence": "The European Bioinformatics Institute and the Human Proteome Organization (HUPO) are developing and establishing effective tools to sort through the enormous pile of systems biology data."
+    },
+    {
+      "head": "proteins",
+      "relation": "direct products of",
+      "tail": "genes",
+      "evidence": "Because proteins are the direct products of genes and reflect activity at the genomic level, it is natural to use proteomes to compare the protein profiles of different cells to identify proteins and genes involved in disease processes."
+    },
+    {
+      "head": "proteomes",
+      "relation": "use to compare",
+      "tail": "protein profiles of different cells",
+      "evidence": "Because proteins are the direct products of genes and reflect activity at the genomic level, it is natural to use proteomes to compare the protein profiles of different cells to identify proteins and genes involved in disease processes."
+    },
+    {
+      "head": "researchers",
+      "relation": "use information from",
+      "tail": "proteomics",
+      "evidence": "Researchers use information that they obtain from proteomics to identify novel drugs and to understand their mechanisms of action."
+    },
+    {
+      "head": "researchers",
+      "relation": "identify",
+      "tail": "novel drugs",
+      "evidence": "Researchers use information that they obtain from proteomics to identify novel drugs and to understand their mechanisms of action."
+    },
+    {
+      "head": "researchers",
+      "relation": "understand",
+      "tail": "mechanisms of action",
+      "evidence": "Researchers use information that they obtain from proteomics to identify novel drugs and to understand their mechanisms of action."
+    },
+    {
+      "head": "Scientists",
+      "relation": "use",
+      "tail": "two-hybrid screening",
+      "evidence": "Scientists use two-hybrid screening to determine whether two proteins interact."
+    },
+    {
+      "head": "transcription factor",
+      "relation": "splits into",
+      "tail": "DNA-binding domain and activator domain",
+      "evidence": "a transcription factor splits into a DNA-binding domain (BD) and an activator domain (AD)."
+    },
+    {
+      "head": "binding domain",
+      "relation": "binds",
+      "tail": "promoter",
+      "evidence": "The binding domain is able to bind the promoter in the activator domain's absence, but it does not turn on transcription."
+    },
+    {
+      "head": "bait protein",
+      "relation": "attaches to",
+      "tail": "BD",
+      "evidence": "The bait protein attaches to the BD, and the prey protein attaches to the AD."
+    },
+    {
+      "head": "prey protein",
+      "relation": "attaches to",
+      "tail": "AD",
+      "evidence": "The bait protein attaches to the BD, and the prey protein attaches to the AD."
+    },
+    {
+      "head": "transcription",
+      "relation": "occurs",
+      "tail": "prey catches bait",
+      "evidence": "Transcription occurs only if the prey \u201ccatches\u201d the bait."
+    },
+    {
+      "head": "Scientists",
+      "relation": "are challenged by",
+      "tail": "proteomic analysis",
+      "evidence": "Scientists are challenged when implementing proteomic analysis because it is difficult to detect small protein quantities."
+    },
+    {
+      "head": "mass spectrometry",
+      "relation": "is good for",
+      "tail": "detecting small protein amounts",
+      "evidence": "Although mass spectrometry is good for detecting small protein amounts, variations in protein expression in diseased states can be difficult to discern."
+    },
+    {
+      "head": "proteins",
+      "relation": "are",
+      "tail": "unstable molecules",
+      "evidence": "Proteins are naturally unstable molecules, which makes proteomic analysis much more difficult than genomic analysis."
+    },
+    {
+      "head": "Researchers",
+      "relation": "study",
+      "tail": "patients' genomes and proteomes",
+      "evidence": "Researchers are studying patients' genomes and proteomes to understand the genetic basis of diseases."
+    },
+    {
+      "head": "Researchers",
+      "relation": "study",
+      "tail": "cancer",
+      "evidence": "The most prominent disease researchers are studying with proteomic approaches is cancer."
+    },
+    {
+      "head": "Proteomic approaches",
+      "relation": "improve",
+      "tail": "screening and early cancer detection",
+      "evidence": "These approaches improve screening and early cancer detection."
+    },
+    {
+      "head": "Researchers",
+      "relation": "identify",
+      "tail": "proteins whose expression indicates the disease process",
+      "evidence": "Researchers are able to identify proteins whose expression indicates the disease process."
+    },
+    {
+      "head": "individual protein",
+      "relation": "is",
+      "tail": "biomarker",
+      "evidence": "An individual protein is a biomarker; whereas, a set of proteins with altered expression levels is a protein signature."
+    },
+    {
+      "head": "set of proteins with altered expression levels",
+      "relation": "is",
+      "tail": "protein signature",
+      "evidence": "An individual protein is a biomarker; whereas, a set of proteins with altered expression levels is a protein signature."
+    },
+    {
+      "head": "biomarker or protein signature",
+      "relation": "must secrete in",
+      "tail": "body fluids",
+      "evidence": "For a biomarker or protein signature to be useful as a candidate for early cancer screening and detection, they must secrete in body fluids, such as sweat, blood, or urine, such that health professionals can perform large-scale screenings in a noninvasive fashion."
+    },
+    {
+      "head": "biomarkers",
+      "relation": "have",
+      "tail": "high rate of false-negative results",
+      "evidence": "The current problem with using biomarkers for early cancer detection is the high rate of false-negative results."
+    },
+    {
+      "head": "false negative",
+      "relation": "is",
+      "tail": "incorrect test result",
+      "evidence": "A false negative is an incorrect test result that should have been positive."
+    },
+    {
+      "head": "CA-125",
+      "relation": "is example of",
+      "tail": "protein biomarkers in cancer detection",
+      "evidence": "Some examples of protein biomarkers in cancer detection are CA-125 for ovarian cancer and PSA for prostate cancer."
+    },
+    {
+      "head": "PSA",
+      "relation": "is example of",
+      "tail": "protein biomarkers in cancer detection",
+      "evidence": "Some examples of protein biomarkers in cancer detection are CA-125 for ovarian cancer and PSA for prostate cancer."
+    },
+    {
+      "head": "protein signatures",
+      "relation": "may be more reliable than",
+      "tail": "biomarkers",
+      "evidence": "Protein signatures may be more reliable than biomarkers to detect cancer cells."
+    },
+    {
+      "head": "Researchers",
+      "relation": "use proteomics to develop",
+      "tail": "individualized treatment plans",
+      "evidence": "Researchers are also using proteomics to develop individualized treatment plans, which involves predicting whether or not an individual will respond to specific drugs and the side effects that the individual may experience."
+    },
+    {
+      "head": "Researchers",
+      "relation": "use proteomics to predict",
+      "tail": "possibility of disease recurrence",
+      "evidence": "Researchers also use proteomics to predict the possibility of disease recurrence."
+    },
+    {
+      "head": "National Cancer Institute",
+      "relation": "has developed",
+      "tail": "programs to improve cancer detection and treatment",
+      "evidence": "The National Cancer Institute has developed programs to improve cancer detection and treatment."
+    },
+    {
+      "head": "Clinical Proteomic Technologies for Cancer and the Early Detection Research Network",
+      "relation": "are efforts to identify",
+      "tail": "protein signatures specific to different cancer types",
+      "evidence": "The Clinical Proteomic Technologies for Cancer and the Early Detection Research Network are efforts to identify protein signatures specific to different cancer types."
+    },
+    {
+      "head": "Biomedical Proteomics Program",
+      "relation": "identifies",
+      "tail": "protein signatures",
+      "evidence": "The Biomedical Proteomics Program identifies protein signatures and designs effective therapies for cancer patients."
+    },
+    {
+      "head": "Biomedical Proteomics Program",
+      "relation": "designs",
+      "tail": "effective therapies for cancer patients",
+      "evidence": "The Biomedical Proteomics Program identifies protein signatures and designs effective therapies for cancer patients."
+    },
+    {
+      "head": "antibiotic resistance",
+      "relation": "is the ability",
+      "tail": "an organism",
+      "evidence": "antibiotic resistance ability of an organism to be unaffected by an antibiotic's actions"
+    },
+    {
+      "head": "biomarker",
+      "relation": "is a protein",
+      "tail": "individual protein",
+      "evidence": "biomarker individual protein that is uniquely produced in a diseased state"
+    },
+    {
+      "head": "biotechnology",
+      "relation": "uses biological agents",
+      "tail": "biological agents",
+      "evidence": "biotechnology use of biological agents for technological advancement"
+    },
+    {
+      "head": "cDNA library",
+      "relation": "is a collection",
+      "tail": "cloned cDNA sequences",
+      "evidence": "cDNA library collection of cloned cDNA sequences"
+    },
+    {
+      "head": "cellular cloning",
+      "relation": "produces identical cell populations",
+      "tail": "identical cell populations",
+      "evidence": "cellular cloning production of identical cell populations by binary fission"
+    },
+    {
+      "head": "chain termination method",
+      "relation": "uses labeled dideoxynucleotides",
+      "tail": "labeled dideoxynucleotides",
+      "evidence": "chain termination method method of DNA sequencing using labeled dideoxynucleotides to terminate DNA replication"
+    },
+    {
+      "head": "clone",
+      "relation": "is an exact replica",
+      "tail": "exact replica",
+      "evidence": "clone exact replica"
+    },
+    {
+      "head": "contig",
+      "relation": "is a sequence",
+      "tail": "larger sequence of DNA",
+      "evidence": "contig larger sequence of DNA assembled from overlapping shorter sequences"
+    },
+    {
+      "head": "cytogenetic mapping",
+      "relation": "uses a microscope",
+      "tail": "a microscope",
+      "evidence": "cytogenetic mapping technique that uses a microscope to create a map from stained chromosomes"
+    },
+    {
+      "head": "deoxynucleotide",
+      "relation": "is a DNA monomer",
+      "tail": "individual DNA monomer",
+      "evidence": "deoxynucleotide individual DNA monomer (single unit)"
+    },
+    {
+      "head": "dideoxynucleotide",
+      "relation": "is a DNA monomer",
+      "tail": "individual DNA monomer",
+      "evidence": "dideoxynucleotide individual DNA monomer that is missing a hydroxyl group (\u2013OH)"
+    },
+    {
+      "head": "DNA microarray",
+      "relation": "detects gene expression",
+      "tail": "gene expression",
+      "evidence": "DNA microarray method to detect gene expression by analyzing many DNA fragments that are fixed to a glass slide or a silicon chip to identify active genes and identify sequences"
+    },
+    {
+      "head": "expressed sequence tag (EST)",
+      "relation": "is a short STS",
+      "tail": "short STS",
+      "evidence": "expressed sequence tag (EST) short STS that is identified with cDNA"
+    },
+    {
+      "head": "false negative",
+      "relation": "is a test result",
+      "tail": "incorrect test result",
+      "evidence": "false negative incorrect test result that should have been positive"
+    },
+    {
+      "head": "foreign DNA",
+      "relation": "belongs to a different species",
+      "tail": "a different species",
+      "evidence": "foreign DNA DNA that belongs to a different species or DNA that is artificially synthesized"
+    },
+    {
+      "head": "gel electrophoresis",
+      "relation": "separates molecules",
+      "tail": "molecules",
+      "evidence": "gel electrophoresis technique used to separate molecules on the basis of size using electric charge"
+    },
+    {
+      "head": "gene targeting",
+      "relation": "alters the sequence",
+      "tail": "a specific gene",
+      "evidence": "gene targeting method for altering the sequence of a specific gene by introducing the modified version on a vector"
+    },
+    {
+      "head": "gene therapy",
+      "relation": "cures inheritable diseases",
+      "tail": "inheritable diseases",
+      "evidence": "gene therapy technique used to cure inheritable diseases by replacing mutant genes with good genes"
+    },
+    {
+      "head": "genetic diagnosis",
+      "relation": "analyzes disease-causing genes",
+      "tail": "disease-causing genes",
+      "evidence": "genetic diagnosis diagnosis of the potential for disease development by analyzing disease-causing genes"
+    },
+    {
+      "head": "genetic engineering",
+      "relation": "alters the genetic makeup",
+      "tail": "an organism",
+      "evidence": "genetic engineering alteration of the genetic makeup of an organism"
+    },
+    {
+      "head": "genetic map",
+      "relation": "outlines genes",
+      "tail": "genes and their location",
+      "evidence": "genetic map outline of genes and their location on a chromosome"
+    },
+    {
+      "head": "genetic marker",
+      "relation": "is a gene",
+      "tail": "gene or sequence",
+      "evidence": "genetic marker gene or sequence on a chromosome with a known location that is associated with a specific trait"
+    },
+    {
+      "head": "genetic recombination",
+      "relation": "exchanges DNA",
+      "tail": "homologous chromosome pairs",
+      "evidence": "genetic recombination DNA exchange between homologous chromosome pairs"
+    },
+    {
+      "head": "genetic testing",
+      "relation": "tests for the presence",
+      "tail": "disease-causing genes",
+      "evidence": "genetic testing process of testing for the presence of disease-causing genes"
+    },
+    {
+      "head": "genetically modified organism (GMO)",
+      "relation": "has an artificially changed genome",
+      "tail": "genome",
+      "evidence": "genetically modified organism (GMO) organism whose genome has been artificially changed"
+    },
+    {
+      "head": "genome annotation",
+      "relation": "attaches biological information",
+      "tail": "gene sequences",
+      "evidence": "genome annotation process of attaching biological information to gene sequences"
+    },
+    {
+      "head": "genome mapping",
+      "relation": "finds the location",
+      "tail": "genes on each chromosome",
+      "evidence": "genome mapping process of finding the location of genes on each chromosome"
+    },
+    {
+      "head": "genomic library",
+      "relation": "is a collection",
+      "tail": "cloned DNA",
+      "evidence": "genomic library collection of cloned DNA which represents all of the sequences and fragments from a genome"
+    },
+    {
+      "head": "genomics",
+      "relation": "studies entire genomes",
+      "tail": "entire genomes",
+      "evidence": "genomics study of entire genomes including the complete set of genes, their nucleotide sequence and organization, and their interactions within a species and with other species"
+    },
+    {
+      "head": "host DNA",
+      "relation": "is present",
+      "tail": "the genome of the organism",
+      "evidence": "host DNA DNA that is present in the genome of the organism of interest"
+    },
+    {
+      "head": "linkage analysis",
+      "relation": "analyzes recombining genes",
+      "tail": "recombining genes",
+      "evidence": "linkage analysis procedure that analyzes recombining genes to determine if they are linked"
+    },
+    {
+      "head": "lysis buffer",
+      "relation": "breaks the cell membrane",
+      "tail": "the cell membrane",
+      "evidence": "lysis buffer solution to break the cell membrane and release cell contents"
+    },
+    {
+      "head": "metabolome",
+      "relation": "is a set",
+      "tail": "metabolites",
+      "evidence": "metabolome complete set of metabolites which are related to an organism's genetic makeup"
+    },
+    {
+      "head": "metabolomics",
+      "relation": "studies small molecule metabolites",
+      "tail": "small molecule metabolites",
+      "evidence": "metabolomics study of small molecule metabolites in an organism"
+    },
+    {
+      "head": "metagenomics",
+      "relation": "studies multiple species' collective genomes",
+      "tail": "multiple species' collective genomes",
+      "evidence": "metagenomics study of multiple species' collective genomes that grow and interact in an environmental niche"
+    },
+    {
+      "head": "microsatellite polymorphism",
+      "relation": "varies between individuals",
+      "tail": "individuals",
+      "evidence": "microsatellite polymorphism variation between individuals in the sequence and number of microsatellite DNA repeats"
+    },
+    {
+      "head": "model organism",
+      "relation": "is studied by researchers",
+      "tail": "researchers",
+      "evidence": "model organism species that researchers study and use as a model to understand the biological processes in other species represented by the model organism"
+    },
+    {
+      "head": "molecular cloning",
+      "relation": "clones DNA fragments",
+      "tail": "DNA fragments",
+      "evidence": "molecular cloning cloning of DNA fragments"
+    },
+    {
+      "head": "multiple cloning site (MCS)",
+      "relation": "recognizes multiple restriction endonucleases",
+      "tail": "multiple restriction endonucleases",
+      "evidence": "multiple cloning site (MCS) site that multiple restriction endonucleases can recognize"
+    },
+    {
+      "head": "Northern blotting",
+      "relation": "involves",
+      "tail": "transfer of RNA",
+      "evidence": "Northern blotting transfer of RNA from a gel to a nylon membrane"
+    },
+    {
+      "head": "Northern blotting",
+      "relation": "involves",
+      "tail": "a nylon membrane",
+      "evidence": "Northern blotting transfer of RNA from a gel to a nylon membrane"
+    },
+    {
+      "head": "pharmacogenomics",
+      "relation": "studies",
+      "tail": "drug interactions",
+      "evidence": "pharmacogenomics study of drug interactions with the genome or proteome; also called toxicogenomics"
+    },
+    {
+      "head": "pharmacogenomics",
+      "relation": "studies",
+      "tail": "the genome",
+      "evidence": "pharmacogenomics study of drug interactions with the genome or proteome; also called toxicogenomics"
+    },
+    {
+      "head": "pharmacogenomics",
+      "relation": "studies",
+      "tail": "the proteome",
+      "evidence": "pharmacogenomics study of drug interactions with the genome or proteome; also called toxicogenomics"
+    },
+    {
+      "head": "pharmacogenomics",
+      "relation": "also called",
+      "tail": "toxicogenomics",
+      "evidence": "pharmacogenomics study of drug interactions with the genome or proteome; also called toxicogenomics"
+    },
+    {
+      "head": "physical map",
+      "relation": "represents",
+      "tail": "the physical distance",
+      "evidence": "physical map representation of the physical distance between genes or genetic markers"
+    },
+    {
+      "head": "physical map",
+      "relation": "represents",
+      "tail": "genes",
+      "evidence": "physical map representation of the physical distance between genes or genetic markers"
+    },
+    {
+      "head": "physical map",
+      "relation": "represents",
+      "tail": "genetic markers",
+      "evidence": "physical map representation of the physical distance between genes or genetic markers"
+    },
+    {
+      "head": "polygenic",
+      "relation": "causes",
+      "tail": "phenotypic characteristic",
+      "evidence": "polygenic phenotypic characteristic caused by two or more genes"
+    },
+    {
+      "head": "polygenic",
+      "relation": "caused by",
+      "tail": "two or more genes",
+      "evidence": "polygenic phenotypic characteristic caused by two or more genes"
+    },
+    {
+      "head": "polymerase chain reaction",
+      "relation": "technique to",
+      "tail": "amplify DNA",
+      "evidence": "polymerase chain reaction (PCR) technique to amplify DNA"
+    },
+    {
+      "head": "probe",
+      "relation": "determines presence of",
+      "tail": "complementary sequence",
+      "evidence": "probe small DNA fragment to determine if the complementary sequence is present in a DNA sample"
+    },
+    {
+      "head": "protease",
+      "relation": "breaks down",
+      "tail": "proteins",
+      "evidence": "protease enzyme that breaks down proteins"
+    },
+    {
+      "head": "protein signature",
+      "relation": "is set of",
+      "tail": "uniquely expressed proteins",
+      "evidence": "protein signature set of uniquely expressed proteins in the diseased state"
+    },
+    {
+      "head": "proteome",
+      "relation": "is set of",
+      "tail": "proteins",
+      "evidence": "proteome entire set of proteins that cell type produces"
+    },
+    {
+      "head": "pure culture",
+      "relation": "is growth of",
+      "tail": "single cell type",
+      "evidence": "pure culture growth of a single cell type in the laboratory"
+    },
+    {
+      "head": "radiation hybrid mapping",
+      "relation": "obtained by",
+      "tail": "fragmenting the chromosome with x-rays",
+      "evidence": "radiation hybrid mapping information obtained by fragmenting the chromosome with x-rays"
+    },
+    {
+      "head": "recombinant DNA",
+      "relation": "combines",
+      "tail": "DNA fragments",
+      "evidence": "recombinant DNA combining DNA fragments that molecular cloning generates that do not exist in nature; also a chimeric molecule"
+    },
+    {
+      "head": "recombinant protein",
+      "relation": "is product of",
+      "tail": "gene",
+      "evidence": "recombinant protein a gene's protein product derived by molecular cloning"
+    },
+    {
+      "head": "reproductive cloning",
+      "relation": "clones",
+      "tail": "entire organism",
+      "evidence": "reproductive cloning entire organism cloning"
+    },
+    {
+      "head": "restriction endonuclease",
+      "relation": "recognizes and cleaves",
+      "tail": "specific DNA sequences",
+      "evidence": "restriction endonuclease enzyme that can recognize and cleave specific DNA sequences"
+    },
+    {
+      "head": "restriction fragment length polymorphism (RFLP)",
+      "relation": "is variation in",
+      "tail": "length of DNA fragments",
+      "evidence": "restriction fragment length polymorphism (RFLP) variation between individuals in the length of DNA fragments, which restriction endonucleases generate"
+    },
+    {
+      "head": "reverse genetics",
+      "relation": "determines",
+      "tail": "gene's function",
+      "evidence": "reverse genetics method of determining the gene's function by starting with the gene itself instead of starting with the gene product"
+    },
+    {
+      "head": "reverse transcriptase PCR (RT-PCR)",
+      "relation": "involves",
+      "tail": "converting RNA to DNA",
+      "evidence": "reverse transcriptase PCR (RT-PCR) PCR technique that involves converting RNA to DNA by reverse transcriptase"
+    },
+    {
+      "head": "ribonuclease",
+      "relation": "breaks down",
+      "tail": "RNA",
+      "evidence": "ribonuclease enzyme that breaks down RNA"
+    },
+    {
+      "head": "sequence mapping",
+      "relation": "obtained after",
+      "tail": "DNA sequencing",
+      "evidence": "sequence mapping mapping information obtained after DNA sequencing"
+    },
+    {
+      "head": "shotgun sequencing",
+      "relation": "sequences",
+      "tail": "multiple DNA fragments",
+      "evidence": "shotgun sequencing method used to sequence multiple DNA fragments to generate the sequence of a large piece of DNA"
+    },
+    {
+      "head": "single nucleotide polymorphism (SNP)",
+      "relation": "is variation in",
+      "tail": "single nucleotide",
+      "evidence": "single nucleotide polymorphism (SNP) variation between individuals in a single nucleotide"
+    },
+    {
+      "head": "Southern blotting",
+      "relation": "transfers",
+      "tail": "DNA from a gel to a nylon membrane",
+      "evidence": "Southern blotting DNA transfer from a gel to a nylon membrane"
+    },
+    {
+      "head": "systems biology",
+      "relation": "studies",
+      "tail": "whole biological systems",
+      "evidence": "systems biology study of whole biological systems (genomes and proteomes) based on interactions within the system"
+    },
+    {
+      "head": "Ti plasmid",
+      "relation": "derived from",
+      "tail": "Agrobacterium tumefaciens",
+      "evidence": "Ti plasmid plasmid system derived from Agrobacterium tumefaciens that scientists have used to introduce foreign DNA into plant cells"
+    },
+    {
+      "head": "transgenic organism",
+      "relation": "receives",
+      "tail": "DNA from a different species",
+      "evidence": "transgenic organism that receives DNA from a different species"
+    },
+    {
+      "head": "variable number of tandem repeats (VNTRs)",
+      "relation": "is variation in",
+      "tail": "number of tandem repeats",
+      "evidence": "variable number of tandem repeats (VNTRs) variation in the number of tandem repeats between individuals in the population"
+    },
+    {
+      "head": "whole-genome sequencing",
+      "relation": "determines",
+      "tail": "entire genome's DNA sequence",
+      "evidence": "whole-genome sequencing process that determines an entire genome's DNA sequence"
+    },
+    {
+      "head": "nucleic acids",
+      "relation": "can be isolated from",
+      "tail": "cells",
+      "evidence": "Nucleic acids can be isolated from cells for the purposes of further analysis by breaking open the cells and enzymatically destroying all other major macromolecules."
+    },
+    {
+      "head": "PCR",
+      "relation": "can amplify",
+      "tail": "short DNA or RNA stretches",
+      "evidence": "PCR can amplify short DNA or RNA stretches."
+    },
+    {
+      "head": "Researchers",
+      "relation": "can use",
+      "tail": "Southern and Northern blotting",
+      "evidence": "Researchers can use Southern and Northern blotting to detect the presence of specific short sequences in a DNA or RNA sample."
+    },
+    {
+      "head": "cloning",
+      "relation": "may refer to",
+      "tail": "cloning small DNA fragments",
+      "evidence": "The term \u201ccloning\u201d may refer to cloning small DNA fragments (molecular cloning), cloning cell populations (cellular cloning), or cloning entire organisms (reproductive cloning)."
+    },
+    {
+      "head": "cloning",
+      "relation": "may refer to",
+      "tail": "cloning cell populations",
+      "evidence": "The term \u201ccloning\u201d may refer to cloning small DNA fragments (molecular cloning), cloning cell populations (cellular cloning), or cloning entire organisms (reproductive cloning)."
+    },
+    {
+      "head": "cloning",
+      "relation": "may refer to",
+      "tail": "cloning entire organisms",
+      "evidence": "The term \u201ccloning\u201d may refer to cloning small DNA fragments (molecular cloning), cloning cell populations (cellular cloning), or cloning entire organisms (reproductive cloning)."
+    },
+    {
+      "head": "Medical professionals",
+      "relation": "perform",
+      "tail": "genetic testing",
+      "evidence": "Medical professionals perform genetic testing to identify disease-causing genes, and use gene therapy to cure an inheritable disease."
+    },
+    {
+      "head": "Medical professionals",
+      "relation": "use",
+      "tail": "gene therapy",
+      "evidence": "Medical professionals perform genetic testing to identify disease-causing genes, and use gene therapy to cure an inheritable disease."
+    },
+    {
+      "head": "transgenic organisms",
+      "relation": "possess",
+      "tail": "DNA from a different species",
+      "evidence": "Transgenic organisms possess DNA from a different species, usually generated by molecular cloning techniques."
+    },
+    {
+      "head": "vaccines",
+      "relation": "are examples of",
+      "tail": "products obtained by recombinant DNA technology",
+      "evidence": "Vaccines, antibiotics, and hormones are examples of products obtained by recombinant DNA technology."
+    },
+    {
+      "head": "antibiotics",
+      "relation": "are examples of",
+      "tail": "products obtained by recombinant DNA technology",
+      "evidence": "Vaccines, antibiotics, and hormones are examples of products obtained by recombinant DNA technology."
+    },
+    {
+      "head": "hormones",
+      "relation": "are examples of",
+      "tail": "products obtained by recombinant DNA technology",
+      "evidence": "Vaccines, antibiotics, and hormones are examples of products obtained by recombinant DNA technology."
+    },
+    {
+      "head": "Scientists",
+      "relation": "create",
+      "tail": "transgenic plants",
+      "evidence": "Scientists usually create transgenic plants to improve crop plant characteristics."
+    },
+    {
+      "head": "genome mapping",
+      "relation": "is similar to",
+      "tail": "solving a big, complicated puzzle",
+      "evidence": "Genome mapping is similar to solving a big, complicated puzzle with pieces of information coming from laboratories all over the world."
+    },
+    {
+      "head": "genetic maps",
+      "relation": "provide outline for",
+      "tail": "locating genes within a genome",
+      "evidence": "Genetic maps provide an outline for locating genes within a genome, and they estimate the distance between genes and genetic markers on the basis of recombination frequencies during meiosis."
+    },
+    {
+      "head": "researchers",
+      "relation": "combine information",
+      "tail": "mapping and sequencing sources",
+      "evidence": "Researchers combine information from all mapping and sequencing sources to study an entire genome."
+    },
+    {
+      "head": "whole-genome sequencing",
+      "relation": "treat genetic diseases",
+      "tail": "genetic diseases",
+      "evidence": "Whole-genome sequencing is the latest available resource to treat genetic diseases."
+    },
+    {
+      "head": "doctors",
+      "relation": "use whole-genome sequencing",
+      "tail": "whole-genome sequencing",
+      "evidence": "Some doctors are using whole-genome sequencing to save lives."
+    },
+    {
+      "head": "genomics",
+      "relation": "has applications",
+      "tail": "biofuel development",
+      "evidence": "Genomics has many industrial applications including biofuel development, agriculture, pharmaceuticals, and pollution control."
+    },
+    {
+      "head": "genomics",
+      "relation": "has applications",
+      "tail": "agriculture",
+      "evidence": "Genomics has many industrial applications including biofuel development, agriculture, pharmaceuticals, and pollution control."
+    },
+    {
+      "head": "genomics",
+      "relation": "has applications",
+      "tail": "pharmaceuticals",
+      "evidence": "Genomics has many industrial applications including biofuel development, agriculture, pharmaceuticals, and pollution control."
+    },
+    {
+      "head": "genomics",
+      "relation": "has applications",
+      "tail": "pollution control",
+      "evidence": "Genomics has many industrial applications including biofuel development, agriculture, pharmaceuticals, and pollution control."
+    },
+    {
+      "head": "modern-day sequencing strategies",
+      "relation": "involves",
+      "tail": "chain termination method",
+      "evidence": "The basic principle of all modern-day sequencing strategies involves the chain termination method of sequencing."
+    },
+    {
+      "head": "researchers",
+      "relation": "use",
+      "tail": "whole-genome sequences of model organisms",
+      "evidence": "researchers use whole-genome sequences of model organisms to better understand the species' genome."
+    },
+    {
+      "head": "automation",
+      "relation": "may lead to",
+      "tail": "personalized medicine",
+      "evidence": "Automation and the decreased cost of whole-genome sequencing may lead to personalized medicine in the future."
+    },
+    {
+      "head": "researchers",
+      "relation": "apply",
+      "tail": "genomics",
+      "evidence": "Researchers are applying genomics to most fields of biology."
+    },
+    {
+      "head": "researchers",
+      "relation": "use genomics for",
+      "tail": "personalized medicine",
+      "evidence": "They use it for personalized medicine, prediction of disease risks at an individual level, studying drug interactions before conducting clinical trials, and studying microorganisms in the environment as opposed to the laboratory."
+    },
+    {
+      "head": "researchers",
+      "relation": "use genomics for",
+      "tail": "prediction of disease risks at an individual level",
+      "evidence": "They use it for personalized medicine, prediction of disease risks at an individual level, studying drug interactions before conducting clinical trials, and studying microorganisms in the environment as opposed to the laboratory."
+    },
+    {
+      "head": "researchers",
+      "relation": "use genomics for",
+      "tail": "studying drug interactions",
+      "evidence": "They use it for personalized medicine, prediction of disease risks at an individual level, studying drug interactions before conducting clinical trials, and studying microorganisms in the environment as opposed to the laboratory."
+    },
+    {
+      "head": "researchers",
+      "relation": "use genomics for",
+      "tail": "studying microorganisms in the environment",
+      "evidence": "They use it for personalized medicine, prediction of disease risks at an individual level, studying drug interactions before conducting clinical trials, and studying microorganisms in the environment as opposed to the laboratory."
+    },
+    {
+      "head": "researchers",
+      "relation": "apply genomics to",
+      "tail": "generating new biofuels",
+      "evidence": "They are also applying it to developments such as generating new biofuels, genealogical assessment using mitochondria, advances in forensic science, and improvements in agriculture."
+    },
+    {
+      "head": "researchers",
+      "relation": "apply genomics to",
+      "tail": "genealogical assessment using mitochondria",
+      "evidence": "They are also applying it to developments such as generating new biofuels, genealogical assessment using mitochondria, advances in forensic science, and improvements in agriculture."
+    },
+    {
+      "head": "researchers",
+      "relation": "apply genomics to",
+      "tail": "advances in forensic science",
+      "evidence": "They are also applying it to developments such as generating new biofuels, genealogical assessment using mitochondria, advances in forensic science, and improvements in agriculture."
+    },
+    {
+      "head": "researchers",
+      "relation": "apply genomics to",
+      "tail": "improvements in agriculture",
+      "evidence": "They are also applying it to developments such as generating new biofuels, genealogical assessment using mitochondria, advances in forensic science, and improvements in agriculture."
+    },
+    {
+      "head": "proteomics",
+      "relation": "is the study of",
+      "tail": "the entire set of proteins expressed by a given type of cell under certain environmental conditions",
+      "evidence": "Proteomics is the study of the entire set of proteins expressed by a given type of cell under certain environmental conditions."
+    },
+    {
+      "head": "proteomics approaches",
+      "relation": "rely on",
+      "tail": "protein analysis",
+      "evidence": "Proteomics approaches rely on protein analysis."
+    },
+    {
+      "head": "researchers",
+      "relation": "upgrade",
+      "tail": "proteomics techniques",
+      "evidence": "Researchers are constantly upgrading these techniques."
+    },
+    {
+      "head": "researchers",
+      "relation": "use proteomics to study",
+      "tail": "different cancer types",
+      "evidence": "Researchers have used proteomics to study different cancer types."
+    },
+    {
+      "head": "medical professionals",
+      "relation": "use",
+      "tail": "different biomarkers and protein signatures",
+      "evidence": "Medical professionals are using different biomarkers and protein signatures to analyze each cancer type."
+    },
+    {
+      "head": "researchers",
+      "relation": "left genomic DNA",
+      "tail": "lab bench",
+      "evidence": "Your lab partner left the foreign genomic DNA that you are planning to clone on the lab bench overnight instead of storing it in the freezer."
+    },
+    {
+      "head": "genomic DNA",
+      "relation": "was degraded by",
+      "tail": "nucleases",
+      "evidence": "As a result, it was degraded by nucleases, but still used in the experiment."
+    },
+    {
+      "head": "United States Preventative Services Task Force",
+      "relation": "recommended against",
+      "tail": "using the PSA test to screen healthy people for prostate cancer",
+      "evidence": "In 2011, the United States Preventative Services Task Force recommended against using the PSA test to screen healthy people for prostate cancer."
+    },
+    {
+      "head": "GMOs",
+      "relation": "are created by",
+      "tail": "generating genomic DNA fragments with restriction endonucleases",
+      "evidence": "GMOs are created by generating genomic DNA fragments with restriction endonucleases"
+    },
+    {
+      "head": "GMOs",
+      "relation": "are created by",
+      "tail": "introducing recombinant DNA into an organism by any means",
+      "evidence": "GMOs are created by introducing recombinant DNA into an organism by any means"
+    },
+    {
+      "head": "GMOs",
+      "relation": "are created by",
+      "tail": "overexpressing proteins in E. coli",
+      "evidence": "GMOs are created by overexpressing proteins in E. coli"
+    },
+    {
+      "head": "gene therapy",
+      "relation": "can be used to introduce",
+      "tail": "foreign DNA into cells of tissues to cure inheritable disease",
+      "evidence": "Gene therapy can be used to introduce foreign DNA into cells of tissues to cure inheritable disease"
+    },
+    {
+      "head": "Insulin",
+      "relation": "is produced by",
+      "tail": "molecular cloning",
+      "evidence": "Insulin produced by molecular cloning:"
+    },
+    {
+      "head": "Insulin",
+      "relation": "is a",
+      "tail": "recombinant protein",
+      "evidence": "is a recombinant protein"
+    },
+    {
+      "head": "Bt toxin",
+      "relation": "is produced by",
+      "tail": "bacteria",
+      "evidence": "an organic insecticide produced by bacteria"
+    },
+    {
+      "head": "Flavr Savr Tomato",
+      "relation": "was created to have",
+      "tail": "better flavor and shelf-life",
+      "evidence": "was created to have better flavor and shelf-life"
+    },
+    {
+      "head": "Flavr Savr Tomato",
+      "relation": "does not undergo",
+      "tail": "soft rot",
+      "evidence": "does not undergo soft rot"
+    },
+    {
+      "head": "ESTs",
+      "relation": "are generated after",
+      "tail": "a cDNA library is made",
+      "evidence": "generated after a cDNA library is made"
+    },
+    {
+      "head": "ESTs",
+      "relation": "are useful for",
+      "tail": "mapping using sequence information",
+      "evidence": "useful for mapping using sequence information"
+    },
+    {
+      "head": "Linkage analysis",
+      "relation": "is based on",
+      "tail": "the natural recombination process",
+      "evidence": "is based on the natural recombination process"
+    },
+    {
+      "head": "Genetic recombination",
+      "relation": "occurs by",
+      "tail": "crossing over",
+      "evidence": "Genetic recombination occurs by which process? b. crossing over"
+    },
+    {
+      "head": "Information",
+      "relation": "is used in",
+      "tail": "cytogenetic mapping",
+      "evidence": "Information obtained by microscopic analysis of stained chromosomes is used in: d. cytogenetic mapping"
+    },
+    {
+      "head": "The chain termination method",
+      "relation": "uses",
+      "tail": "labeled ddNTPs",
+      "evidence": "uses labeled ddNTPs"
+    },
+    {
+      "head": "Sequencing an individual person\u2019s genome",
+      "relation": "is",
+      "tail": "currently possible",
+      "evidence": "is currently possible"
+    },
+    {
+      "head": "Sequencing an individual person\u2019s genome",
+      "relation": "could lead to",
+      "tail": "legal issues regarding discrimination and privacy",
+      "evidence": "could lead to legal issues regarding discrimination and privacy"
+    },
+    {
+      "head": "Sequencing an individual person\u2019s genome",
+      "relation": "could help make",
+      "tail": "informed choices about medical treatment",
+      "evidence": "could help make informed choices about medical treatment"
+    },
+    {
+      "head": "A biomarker",
+      "relation": "is a",
+      "tail": "molecule in the genome or proteome",
+      "evidence": "a molecule in the genome or proteome"
+    },
+    {
+      "head": "A protein signature",
+      "relation": "is a",
+      "tail": "unique set of proteins present in a diseased state",
+      "evidence": "a unique set of proteins present in a diseased state"
+    },
+    {
+      "head": "researcher",
+      "relation": "study",
+      "tail": "cancer cells",
+      "evidence": "A researcher wants to study cancer cells from a patient with breast cancer."
+    },
+    {
+      "head": "scientist",
+      "relation": "introduce",
+      "tail": "gene for herbicide resistance",
+      "evidence": "How would a scientist introduce a gene for herbicide resistance into a plant?"
+    },
+    {
+      "head": "genome sequencing",
+      "relation": "answer",
+      "tail": "questions about yourself",
+      "evidence": "If you had a chance to get your genome sequenced, what are some questions you might be able to have answered about yourself?"
+    },
+    {
+      "head": "genome mapping",
+      "relation": "find",
+      "tail": "cure for cancer",
+      "evidence": "How could a genetic map of the human genome help find a cure for cancer?"
+    },
+    {
+      "head": "metagenomics",
+      "relation": "be",
+      "tail": "revolutionary application of genomics",
+      "evidence": "Explain why metagenomics is probably the most revolutionary application of genomics."
+    },
+    {
+      "head": "genomics",
+      "relation": "predict",
+      "tail": "disease risk and treatment options",
+      "evidence": "How can genomics be used to predict disease risk and treatment options?"
+    },
+    {
+      "head": "proteomics",
+      "relation": "used in",
+      "tail": "cancer detection and treatment",
+      "evidence": "How has proteomics been used in cancer detection and treatment?"
+    }
+  ]
+}

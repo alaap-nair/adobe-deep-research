@@ -1,0 +1,8 @@
+{
+  "question": "How does RNA regulate gene expression?",
+  "answer": "Small nuclear RNAs have a variety of functions, including “splicing” pre-mRNAs and regulating transcription factors.",
+  "citations": [
+    "triple:1a382a26df07379d | Small nuclear RNAs --[have functions in]--> splicing pre-mRNAs and regulating transcription factors"
+  ],
+  "reasoning": "Matched entities: gene, gene expression, rna. Traversed graph edges: gene --[codes for]--> functional product; gene --[encodes structural protein]--> structural protein; recombinant protein --[is product of]--> gene. Graph evidence: \"A gene is defined as a sequence of DNA that codes for a functional product.\". The evidence directly states that small nuclear RNAs, a type of RNA, regulate transcription factors, which are key players in gene expression."
+}

@@ -1,0 +1,9 @@
+{
+  "question": "How does CRISPR work?",
+  "answer": "I don't know based on the provided context.",
+  "citations": [
+    "chunk:ch17_biotechnology_and_genomics:23 | data/Ch17_Biotechnology_and_Genomics.pdf | containing multiple sites that different commonly available restriction endonucleases can cut. Restriction endonuclea...",
+    "chunk:ch17_biotechnology_and_genomics:40 | data/Ch17_Biotechnology_and_Genomics.pdf | engineering technique used to cure disease. In its simplest form, it involves the introduction of a good gene at a ra..."
+  ],
+  "reasoning": "Matched entities: c, sanger’s work. Traversed graph edges: G --[pairs with]--> C; dideoxy chain termination method --[is known as]--> Sanger’s work; dideoxy chain termination method --[uses]--> dye-labeled dideoxynucleotides. Graph evidence: \"Base pairing takes place between a purine and pyrimidine on opposite strands, so that A pairs with T, and G pairs with C (suggested by Chargaff's Rules).\". The provided context does not contain any information about CRISPR or its mechanism of action."
+}

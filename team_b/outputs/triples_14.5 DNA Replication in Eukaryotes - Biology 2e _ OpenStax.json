@@ -1,12 +1,13 @@
 {
   "model": "mistralai/mistral-small-3.2-24b-instruct",
   "num_triples": 12,
-  "num_entities": 21,
+  "num_entities": 22,
   "entities": [
     "DNA",
     "DNA fragment",
     "DNA helix",
     "DNA ligase",
+    "DNA pol",
     "DNA pol \u03b1",
     "DNA pol \u03b4",
     "DNA pol \u03b5",
@@ -32,7 +33,7 @@
       "relation": "replicates",
       "relation_type": "REPLICATES",
       "tail": "DNA",
-      "tail_type": "GeneticElement",
+      "tail_type": "Gene",
       "evidence": "The essential steps of replication are the same as in prokaryotes. Before replication can start, the DNA has to be made available as a template."
     },
     {
@@ -41,7 +42,7 @@
       "relation": "opens",
       "relation_type": "CATALYZES",
       "tail": "DNA helix",
-      "tail_type": "GeneticElement",
+      "tail_type": "Gene",
       "evidence": "A helicase using the energy from ATP hydrolysis opens up the DNA helix."
     },
     {
@@ -59,7 +60,7 @@
       "relation": "adds",
       "relation_type": "PRODUCES",
       "tail": "DNA fragment",
-      "tail_type": "GeneticElement",
+      "tail_type": "Gene",
       "evidence": "DNA pol \u03b1 adds a short (20 to 30 nucleotides) DNA fragment to the RNA primer on both strands, and then hands off to a second polymerase."
     },
     {
@@ -68,7 +69,7 @@
       "relation": "synthesizes",
       "relation_type": "PRODUCES",
       "tail": "leading strand",
-      "tail_type": "GeneticElement",
+      "tail_type": "Gene",
       "evidence": "While the leading strand is continuously synthesized by the enzyme pol \u03b5, the lagging strand is synthesized by pol \u03b4."
     },
     {
@@ -77,7 +78,7 @@
       "relation": "synthesizes",
       "relation_type": "PRODUCES",
       "tail": "lagging strand",
-      "tail_type": "GeneticElement",
+      "tail_type": "Gene",
       "evidence": "While the leading strand is continuously synthesized by the enzyme pol \u03b5, the lagging strand is synthesized by pol \u03b4."
     },
     {
@@ -85,7 +86,7 @@
       "head_type": "Molecule",
       "relation": "holds",
       "relation_type": "BINDS",
-      "tail": "DNA polymerase",
+      "tail": "DNA pol",
       "tail_type": "Enzyme",
       "evidence": "A sliding clamp protein known as PCNA (proliferating cell nuclear antigen) holds the DNA pol in place so that it does not slide off the DNA."
     },
@@ -104,7 +105,7 @@
       "relation": "seals",
       "relation_type": "CATALYZES",
       "tail": "gaps",
-      "tail_type": "GeneticElement",
+      "tail_type": "Gene",
       "evidence": "The gaps that remain are sealed by DNA ligase, which forms the phosphodiester bond."
     },
     {
@@ -131,7 +132,7 @@
       "relation": "is active in",
       "relation_type": "LOCATED_IN",
       "tail": "germ cells and adult stem cells",
-      "tail_type": "CellularStructure",
+      "tail_type": "Organism",
       "evidence": "Telomerase is typically active in germ cells and adult stem cells."
     }
   ]

@@ -1,22 +1,17 @@
 {
   "model": "mistralai/mistral-small-3.2-24b-instruct",
-  "num_triples": 9,
-  "num_entities": 14,
+  "num_triples": 6,
+  "num_entities": 9,
   "entities": [
+    "15N",
     "DNA",
+    "DNA strand",
     "E. coli",
     "Meselson and Stahl",
-    "conservative replication",
-    "dispersive model",
     "double helix",
-    "double-stranded segments of parental DNA",
-    "heavy isotope of nitrogen (15N)",
-    "new complementary strand",
-    "nitrogenous bases",
-    "parental DNA",
-    "parental DNA strands",
     "replication",
-    "semi-conservative method"
+    "semi-conservative replication",
+    "template"
   ],
   "triples": [
     {
@@ -38,40 +33,13 @@
       "evidence": "The double-helix model suggests that the two strands of the double helix separate during replication, and each strand serves as a template from which the new complementary strand is copied."
     },
     {
-      "head": "DNA",
+      "head": "DNA strand",
       "head_type": "Molecule",
-      "relation": "serves as a template for",
-      "relation_type": "REPLICATES",
-      "tail": "new complementary strand",
+      "relation": "serves as",
+      "relation_type": "PART_OF",
+      "tail": "template",
       "tail_type": "Molecule",
       "evidence": "The double-helix model suggests that the two strands of the double helix separate during replication, and each strand serves as a template from which the new complementary strand is copied."
-    },
-    {
-      "head": "conservative replication",
-      "head_type": "Process",
-      "relation": "involves",
-      "relation_type": "CONSISTS_OF",
-      "tail": "parental DNA",
-      "tail_type": "Molecule",
-      "evidence": "In conservative replication, the parental DNA remains together, and the newly formed daughter strands are together."
-    },
-    {
-      "head": "semi-conservative method",
-      "head_type": "Process",
-      "relation": "involves",
-      "relation_type": "CONSISTS_OF",
-      "tail": "parental DNA strands",
-      "tail_type": "Molecule",
-      "evidence": "The semi-conservative method suggests that each of the two parental DNA strands acts as a template for new DNA to be synthesized; after replication, each double-stranded DNA includes one parental or \u201cold\u201d strand and one \u201cnew\u201d strand."
-    },
-    {
-      "head": "dispersive model",
-      "head_type": "Process",
-      "relation": "involves",
-      "relation_type": "CONSISTS_OF",
-      "tail": "double-stranded segments of parental DNA",
-      "tail_type": "Molecule",
-      "evidence": "In the dispersive model, both copies of DNA have double-stranded segments of parental DNA and newly synthesized DNA interspersed."
     },
     {
       "head": "Meselson and Stahl",
@@ -80,25 +48,25 @@
       "relation_type": "CONSUMES",
       "tail": "E. coli",
       "tail_type": "Organism",
-      "evidence": "Meselson and Stahl were interested in understanding how DNA replicates. They grew E. coli for several generations in a medium containing a \u201cheavy\u201d isotope of nitrogen (15N), which gets incorporated into nitrogenous bases, and eventually into the DNA (Figure 14.13)."
+      "evidence": "Meselson and Stahl were interested in understanding how DNA replicates. They grew E. coli for several generations in a medium containing a \u201cheavy\u201d isotope of nitrogen (15N), which gets incorporated into nitrogenous bases, and eventually into the DNA."
     },
     {
       "head": "E. coli",
       "head_type": "Organism",
       "relation": "incorporates",
       "relation_type": "CONSUMES",
-      "tail": "heavy isotope of nitrogen (15N)",
+      "tail": "15N",
       "tail_type": "Molecule",
-      "evidence": "Meselson and Stahl were interested in understanding how DNA replicates. They grew E. coli for several generations in a medium containing a \u201cheavy\u201d isotope of nitrogen (15N), which gets incorporated into nitrogenous bases, and eventually into the DNA (Figure 14.13)."
+      "evidence": "Meselson and Stahl were interested in understanding how DNA replicates. They grew E. coli for several generations in a medium containing a \u201cheavy\u201d isotope of nitrogen (15N), which gets incorporated into nitrogenous bases, and eventually into the DNA."
     },
     {
       "head": "DNA",
       "head_type": "Molecule",
-      "relation": "contains",
-      "relation_type": "CONSISTS_OF",
-      "tail": "nitrogenous bases",
-      "tail_type": "Molecule",
-      "evidence": "Meselson and Stahl were interested in understanding how DNA replicates. They grew E. coli for several generations in a medium containing a \u201cheavy\u201d isotope of nitrogen (15N), which gets incorporated into nitrogenous bases, and eventually into the DNA (Figure 14.13)."
+      "relation": "replicates",
+      "relation_type": "REPLICATES",
+      "tail": "semi-conservative replication",
+      "tail_type": "Process",
+      "evidence": "These data support the semi-conservative replication model."
     }
   ]
 }

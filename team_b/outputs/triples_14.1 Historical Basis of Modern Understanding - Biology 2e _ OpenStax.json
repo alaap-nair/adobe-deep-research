@@ -1,25 +1,22 @@
 {
   "model": "mistralai/mistral-small-3.2-24b-instruct",
-  "num_triples": 17,
-  "num_entities": 21,
+  "num_triples": 14,
+  "num_entities": 18,
   "entities": [
     "DNA",
-    "DNA was the transforming principle",
+    "DNA is the genetic material",
     "Frederick Griffith",
     "Friedrich Miescher",
     "Martha Chase",
     "Oswald Avery",
-    "S strain",
     "Streptococcus pneumoniae",
+    "bacteria",
     "bacterial transformation",
     "bacteriophage",
     "capsule",
-    "cell to escape the immune responses of the host mouse",
-    "host bacterial cell",
     "nucleic acid core",
     "nucleic acids",
     "nuclein",
-    "phage DNA was injected into the cell",
     "phage with radioactive phosphorus",
     "phage with radioactive sulfur",
     "protein coat",
@@ -38,8 +35,8 @@
     {
       "head": "Frederick Griffith",
       "head_type": "Organism",
-      "relation": "reported",
-      "relation_type": "PRODUCES",
+      "relation": "conducted",
+      "relation_type": "CATALYZES",
       "tail": "bacterial transformation",
       "tail_type": "Process",
       "evidence": "British bacteriologist Frederick Griffith reported the first demonstration of bacterial transformation\u2014a process in which external DNA is taken up by a cell, thereby changing its morphology and physiology."
@@ -47,14 +44,14 @@
     {
       "head": "Frederick Griffith",
       "head_type": "Organism",
-      "relation": "conducted experiments with",
-      "relation_type": "PART_OF",
+      "relation": "worked with",
+      "relation_type": "MUTUALISTIC_WITH",
       "tail": "Streptococcus pneumoniae",
       "tail_type": "Organism",
       "evidence": "Griffith conducted his experiments with Streptococcus pneumoniae, a bacterium that causes pneumonia."
     },
     {
-      "head": "S strain",
+      "head": "Streptococcus pneumoniae",
       "head_type": "Organism",
       "relation": "has",
       "relation_type": "PART_OF",
@@ -63,55 +60,28 @@
       "evidence": "The S strain is pathogenic (disease-causing), and has a capsule outside its cell wall."
     },
     {
-      "head": "capsule",
-      "head_type": "CellularStructure",
-      "relation": "allows",
-      "relation_type": "REGULATES",
-      "tail": "cell to escape the immune responses of the host mouse",
-      "tail_type": "Process",
-      "evidence": "The capsule allows the cell to escape the immune responses of the host mouse."
-    },
-    {
-      "head": "Frederick Griffith",
-      "head_type": "Organism",
-      "relation": "concluded",
-      "relation_type": "PRODUCES",
-      "tail": "transforming principle",
-      "tail_type": "Process",
-      "evidence": "He called this the transforming principle (Figure 14.3). These experiments are now known as Griffith's transformation experiments."
-    },
-    {
       "head": "Oswald Avery",
       "head_type": "Organism",
       "relation": "isolated",
       "relation_type": "PRODUCES",
-      "tail": "S strain",
-      "tail_type": "Organism",
+      "tail": "DNA",
+      "tail_type": "Molecule",
       "evidence": "They isolated the S strain from the dead mice and isolated the proteins and nucleic acids (RNA and DNA) as these were possible candidates for the molecule of heredity."
     },
     {
-      "head": "Oswald Avery",
-      "head_type": "Organism",
-      "relation": "used enzymes to degrade",
-      "relation_type": "CATALYZES",
-      "tail": "DNA",
-      "tail_type": "Molecule",
-      "evidence": "They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain."
-    },
-    {
-      "head": "Oswald Avery",
-      "head_type": "Organism",
-      "relation": "concluded",
-      "relation_type": "PRODUCES",
-      "tail": "DNA was the transforming principle",
+      "head": "DNA",
+      "head_type": "Molecule",
+      "relation": "is",
+      "relation_type": "BELONGS_TO",
+      "tail": "transforming principle",
       "tail_type": "Process",
-      "evidence": "This led them to conclude that DNA was the transforming principle."
+      "evidence": "He called this the transforming principle (Figure 14.3)."
     },
     {
       "head": "Martha Chase",
       "head_type": "Organism",
       "relation": "studied",
-      "relation_type": "PART_OF",
+      "relation_type": "CATALYZES",
       "tail": "bacteriophage",
       "tail_type": "Organism",
       "evidence": "Chase and Hershey were studying a bacteriophage\u2014a virus that infects bacteria."
@@ -139,9 +109,9 @@
       "head_type": "Organism",
       "relation": "infects",
       "relation_type": "PARASITIC_ON",
-      "tail": "host bacterial cell",
+      "tail": "bacteria",
       "tail_type": "Organism",
-      "evidence": "The bacteriophage infects the host bacterial cell by attaching to its surface, and then it injects its nucleic acids inside the cell."
+      "evidence": "a virus that infects bacteria."
     },
     {
       "head": "bacteriophage",
@@ -156,7 +126,7 @@
       "head": "Martha Chase",
       "head_type": "Organism",
       "relation": "labeled",
-      "relation_type": "PRODUCES",
+      "relation_type": "CATALYZES",
       "tail": "phage with radioactive sulfur",
       "tail_type": "Process",
       "evidence": "They labeled one batch of phage with radioactive sulfur, 35S, to label the protein coat."
@@ -165,7 +135,7 @@
       "head": "Martha Chase",
       "head_type": "Organism",
       "relation": "labeled",
-      "relation_type": "PRODUCES",
+      "relation_type": "CATALYZES",
       "tail": "phage with radioactive phosphorus",
       "tail_type": "Process",
       "evidence": "Another batch of phage were labeled with radioactive phosphorus, 32P."
@@ -175,7 +145,7 @@
       "head_type": "Organism",
       "relation": "concluded",
       "relation_type": "PRODUCES",
-      "tail": "phage DNA was injected into the cell",
+      "tail": "DNA is the genetic material",
       "tail_type": "Process",
       "evidence": "Hershey and Chase concluded that it was the phage DNA that was injected into the cell and carried information to produce more phage particles, thus providing evidence that DNA was the genetic material and not proteins (Figure 14.4)."
     }

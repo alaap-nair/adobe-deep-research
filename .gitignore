@@ -6,4 +6,9 @@ __pycache__/
 results/
 .idea/
 venv/
+venv_eval/
 .DS_Store
+
+# Large source asset: full OpenStax textbook (146 MB) -- exceeds GitHub's 100 MB
+# limit. Kept locally; the processed chapter PDFs (data/Ch*.pdf) are tracked.
+data/ConceptsofBiology-WEB.pdf

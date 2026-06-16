@@ -1,0 +1,14 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "sources": [
+    "/Users/shreyasnair/upsync/adobe-deep-research/data/ConceptsofBiology-WEB.pdf"
+  ],
+  "num_triples": 8388,
+  "num_entities": 6570,
+  "num_relations": 8388,
+  "alias_map_size": 7611,
+  "corpus_triples_path": "/Users/shreyasnair/upsync/adobe-deep-research/outputs/triples_corpus.json",
+  "neo4j": "ok",
+  "qdrant": "ok",
+  "num_chunks": 2738
+}

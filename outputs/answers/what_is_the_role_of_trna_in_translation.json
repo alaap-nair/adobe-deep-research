@@ -1,0 +1,8 @@
+{
+  "question": "What is the role of tRNA in translation?",
+  "answer": "tRNAs serve as the \u201cadaptor molecules\u201d between the mRNA template and the growing polypeptide chain.",
+  "citations": [
+    "triple:d4ea97efce7f1087 | tRNAs --[serve as]--> adaptor molecules"
+  ],
+  "reasoning": "Matched entities: translation, trna. Traversed graph edges: translation --[requires]--> mRNA template; ribosome --[binds]--> mRNA template; mRNA template --[provides]--> tRNA binding specificity. Graph evidence: \"Translation requires the input of an mRNA template, ribosomes, tRNAs, and various enzymatic factors.\". The context explicitly states that tRNAs act as adaptor molecules during translation, linking the mRNA template with the polypeptide chain."
+}

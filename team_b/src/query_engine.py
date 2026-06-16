@@ -9,6 +9,8 @@ import os
 import sys
 import difflib
 import re
+from datetime import datetime, timezone
+from typing import Optional
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
@@ -299,6 +301,8 @@ class QueryEngine:
         top_k: int,
         resolved_entities: list[dict],
         hops: int,
+        as_of: Optional[datetime] = None,
+        include_invalid: bool = False,
     ) -> list[dict]:
         """Re-rank chunks by graph connectivity to the question's entities.
 
@@ -316,7 +320,9 @@ class QueryEngine:
             entity_id = entity.get("entity_id")
             if not entity_id:
                 continue
-            neighborhood = self.get_entity_neighborhood(entity_id, hops=hops)
+            neighborhood = self.get_entity_neighborhood(
+                entity_id, hops=hops, as_of=as_of, include_invalid=include_invalid
+            )
             for node in neighborhood.get("nodes", []):
                 for candidate_name in [node.get("name"), *(node.get("original_names") or [])]:
                     if candidate_name:
@@ -452,14 +458,63 @@ class QueryEngine:
 
     # --- Neo4j graph traversal ---
 
-    def get_entity_neighborhood(self, entity_id: str, hops: int = 1) -> dict:
+    @staticmethod
+    def _temporal_predicate(
+        rel_var: str, as_of: Optional[datetime], include_invalid: bool
+    ) -> Optional[str]:
+        """
+        Build a Cypher boolean fragment selecting temporally-valid edges.
+
+        - include_invalid=True  -> None (no temporal constraint; full history).
+        - as_of is None         -> "currently believed true": not invalidated,
+                                    not retracted.
+        - as_of given           -> point-in-time: the fact had become true by
+                                    `as_of` and was neither invalidated nor
+                                    retracted as of that instant.
+
+        Legacy edges written before the bi-temporal model have all-NULL temporal
+        fields, so every clause below treats them as valid -- the filter is
+        backwards-compatible.
+        """
+        if include_invalid:
+            return None
+        if as_of is None:
+            return f"{rel_var}.invalid_at IS NULL AND {rel_var}.expired_at IS NULL"
+        return (
+            f"({rel_var}.valid_at IS NULL OR {rel_var}.valid_at <= $as_of) AND "
+            f"({rel_var}.invalid_at IS NULL OR {rel_var}.invalid_at > $as_of) AND "
+            f"({rel_var}.expired_at IS NULL OR {rel_var}.expired_at > $as_of)"
+        )
+
+    def get_entity_neighborhood(
+        self,
+        entity_id: str,
+        hops: int = 1,
+        as_of: Optional[datetime] = None,
+        include_invalid: bool = False,
+    ) -> dict:
         """
         Fetch all nodes and edges within N hops of the given entity in Neo4j.
         Returns {"nodes": [...], "edges": [...]}.
+
+        Traversal is scoped to :RELATES_TO edges (so :MENTIONS links to
+        :Episodic provenance nodes never create spurious entity-to-entity hops)
+        and, by default, to temporally-valid edges. Pass `as_of` for a
+        point-in-time view or `include_invalid=True` to see the full history.
         """
+        if as_of is not None and as_of.tzinfo is None:
+            as_of = as_of.replace(tzinfo=timezone.utc)
+
+        predicate = self._temporal_predicate("rel", as_of, include_invalid)
+        where_clause = (
+            f"WHERE all(rel IN relationships(path) WHERE {predicate})"
+            if predicate
+            else ""
+        )
         query = f"""
         MATCH (start:Entity {{entity_id: $entity_id}})
-        OPTIONAL MATCH path = (start)-[*1..{hops}]-(connected:Entity)
+        OPTIONAL MATCH path = (start)-[:RELATES_TO*1..{hops}]-(connected:Entity)
+        {where_clause}
         WITH
             collect(DISTINCT start) + collect(DISTINCT connected) AS raw_nodes,
             collect(DISTINCT path) AS paths
@@ -494,9 +549,12 @@ class QueryEngine:
                 END
             }}] AS edges
         """
+        params = {"entity_id": entity_id}
+        if predicate and as_of is not None:
+            params["as_of"] = as_of
         try:
             with self.neo4j.session() as session:
-                result = session.run(query, entity_id=entity_id).single()
+                result = session.run(query, **params).single()
                 if result is None:
                     return {"nodes": [], "edges": []}
                 return {"nodes": result["nodes"], "edges": result["edges"]}
@@ -505,12 +563,20 @@ class QueryEngine:
 
     # --- Hybrid query ---
 
-    def hybrid_query(self, query: str, top_k: int = 5, hops: int = 1) -> dict:
+    def hybrid_query(
+        self,
+        query: str,
+        top_k: int = 5,
+        hops: int = 1,
+        as_of: Optional[datetime] = None,
+        include_invalid: bool = False,
+    ) -> dict:
         """
         Semantic search + graph expansion.
 
         1. Search Qdrant for matching entities and evidence.
-        2. For each matching entity, fetch its Neo4j neighborhood.
+        2. For each matching entity, fetch its Neo4j neighborhood (temporally
+           filtered -- see get_entity_neighborhood for `as_of`/`include_invalid`).
         3. Return combined results with scores and graph context.
         """
         entity_hits = self.search_entities(query, top_k)
@@ -520,7 +586,9 @@ class QueryEngine:
         neighborhoods = {}
         for hit in entity_hits[:3]:  # limit graph expansion to top 3
             eid = hit["entity_id"]
-            neighborhoods[eid] = self.get_entity_neighborhood(eid, hops)
+            neighborhoods[eid] = self.get_entity_neighborhood(
+                eid, hops, as_of=as_of, include_invalid=include_invalid
+            )
 
         return {
             "entity_matches": entity_hits,
@@ -535,11 +603,15 @@ class QueryEngine:
         top_k_entities: int = None,
         top_k_evidence: int = None,
         hops: int = None,
+        as_of: Optional[datetime] = None,
+        include_invalid: bool = False,
     ) -> dict:
         """
         Retrieve structured context for answer generation.
 
-        Returns query analysis, vector hits, and a deduped graph trace.
+        Returns query analysis, vector hits, and a deduped graph trace. The
+        graph trace is restricted to temporally-valid edges by default; pass
+        `as_of` for a point-in-time view or `include_invalid=True` for history.
         """
         top_k_chunks = top_k_chunks or QA_TOP_K_CHUNKS
         top_k_entities = top_k_entities or QA_TOP_K_ENTITIES
@@ -583,7 +655,8 @@ class QueryEngine:
                 chunk_hits = self._mmr_select(query, candidate_pool, top_k_chunks)
             else:
                 chunk_hits = self._graph_boost_select(
-                    candidate_pool, top_k_chunks, resolved_entities, hops
+                    candidate_pool, top_k_chunks, resolved_entities, hops,
+                    as_of=as_of, include_invalid=include_invalid,
                 )
         else:
             chunk_hits = self._dedupe_textual_hits(
@@ -612,7 +685,9 @@ class QueryEngine:
         retrieved_nodes: list[dict] = []
         traversed_edges: list[dict] = []
         for entity_id in seed_entity_ids:
-            neighborhood = self.get_entity_neighborhood(entity_id, hops=hops)
+            neighborhood = self.get_entity_neighborhood(
+                entity_id, hops=hops, as_of=as_of, include_invalid=include_invalid
+            )
             retrieved_nodes.extend(neighborhood.get("nodes", []))
             traversed_edges.extend(neighborhood.get("edges", []))
 

@@ -102,6 +102,31 @@ def test_chunking_builds_stable_records():
     assert "ATP" in chunks[0]["text"] or "ATP" in chunks[1]["text"]
 
 
+def test_temporal_predicate_currently_valid():
+    query_engine = pytest.importorskip("query_engine")
+    pred = query_engine.QueryEngine._temporal_predicate("rel", as_of=None, include_invalid=False)
+    assert pred == "rel.invalid_at IS NULL AND rel.expired_at IS NULL"
+
+
+def test_temporal_predicate_include_invalid_drops_filter():
+    query_engine = pytest.importorskip("query_engine")
+    pred = query_engine.QueryEngine._temporal_predicate("rel", as_of=None, include_invalid=True)
+    assert pred is None
+
+
+def test_temporal_predicate_as_of_point_in_time():
+    query_engine = pytest.importorskip("query_engine")
+    from datetime import datetime, timezone
+
+    pred = query_engine.QueryEngine._temporal_predicate(
+        "rel", as_of=datetime(2020, 1, 1, tzinfo=timezone.utc), include_invalid=False
+    )
+    # had become true by as_of, and not invalidated/retracted as of that instant
+    assert "rel.valid_at <= $as_of" in pred
+    assert "rel.invalid_at IS NULL OR rel.invalid_at > $as_of" in pred
+    assert "rel.expired_at IS NULL OR rel.expired_at > $as_of" in pred
+
+
 def test_resolve_query_entities_recovers_misspelling(monkeypatch):
     query_engine = pytest.importorskip("query_engine")
 
@@ -190,6 +215,88 @@ def test_retrieve_context_dedupes_and_caps(monkeypatch):
     assert context["graph_trace"]["traversed_edges"][0]["source_name"] == "glycolysis"
     assert "ATP" in context["graph_trace"]["traversed_edges"][0]["evidence"]
     engine.close()
+
+
+def test_parse_cli_args_plain_question():
+    ask = pytest.importorskip("ask")
+    question, as_of, include_invalid = ask.parse_cli_args(["What does", "glycolysis produce"])
+    assert question == "What does glycolysis produce"
+    assert as_of is None
+    assert include_invalid is False
+
+
+def test_parse_cli_args_as_of_and_include_invalid():
+    ask = pytest.importorskip("ask")
+    from datetime import timezone
+
+    question, as_of, include_invalid = ask.parse_cli_args(
+        ["--as-of", "2024-01-31", "--include-invalid", "What", "is", "the", "ETC", "in"]
+    )
+    assert question == "What is the ETC in"
+    assert as_of is not None and as_of.tzinfo == timezone.utc  # naive coerced to UTC
+    assert as_of.year == 2024 and as_of.month == 1 and as_of.day == 31
+    assert include_invalid is True
+
+
+def test_parse_cli_args_as_of_equals_form():
+    ask = pytest.importorskip("ask")
+    question, as_of, _ = ask.parse_cli_args(["--as-of=2020-06-01T00:00:00Z", "telomerase?"])
+    assert question == "telomerase?"
+    assert as_of is not None and as_of.year == 2020
+
+
+def test_parse_cli_args_rejects_bad_as_of():
+    ask = pytest.importorskip("ask")
+    with pytest.raises(ValueError):
+        ask.parse_cli_args(["--as-of", "not-a-date", "q"])
+
+
+def test_ui_backend_forwards_temporal_view(monkeypatch):
+    ui_backend = pytest.importorskip("ui_backend")
+    from datetime import datetime, timezone
+
+    captured = {}
+
+    class FakeEngine:
+        def retrieve_context(self, question, as_of=None, include_invalid=False):
+            captured["as_of"] = as_of
+            captured["include_invalid"] = include_invalid
+            return {"vector_hits": {}, "graph_trace": {}, "query_analysis": {}}
+
+    monkeypatch.setattr(ui_backend, "_model_name", lambda: "fake-model")
+    monkeypatch.setattr(
+        ui_backend, "answer_question",
+        lambda question, context, model: {"answer": "ATP", "citations": [], "reasoning": ""},
+    )
+
+    when = datetime(2024, 1, 31, tzinfo=timezone.utc)
+    res = ui_backend.ask("q", FakeEngine(), as_of=when, include_invalid=True)
+
+    assert captured["as_of"] == when
+    assert captured["include_invalid"] is True
+    assert res["temporal_view"] == {"as_of": when.isoformat(), "include_invalid": True}
+
+
+def test_ui_backend_defaults_to_current_facts(monkeypatch):
+    ui_backend = pytest.importorskip("ui_backend")
+
+    captured = {}
+
+    class FakeEngine:
+        def retrieve_context(self, question, as_of=None, include_invalid=False):
+            captured["as_of"] = as_of
+            captured["include_invalid"] = include_invalid
+            return {"vector_hits": {}, "graph_trace": {}, "query_analysis": {}}
+
+    monkeypatch.setattr(ui_backend, "_model_name", lambda: "fake-model")
+    monkeypatch.setattr(
+        ui_backend, "answer_question",
+        lambda question, context, model: {"answer": "ATP", "citations": [], "reasoning": ""},
+    )
+
+    res = ui_backend.ask("q", FakeEngine())
+    assert captured == {"as_of": None, "include_invalid": False}
+    assert res["temporal_view"] == {"as_of": None, "include_invalid": False}
 
 
 def test_ask_cli_writes_json_and_trace(monkeypatch, tmp_path, capsys):

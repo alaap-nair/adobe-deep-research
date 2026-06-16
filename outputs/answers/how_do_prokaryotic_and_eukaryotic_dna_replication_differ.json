@@ -1,0 +1,13 @@
+{
+  "question": "How do prokaryotic and eukaryotic DNA replication differ?",
+  "answer": "Eukaryotic DNA replication requires multiple replication forks, while prokaryotic replication uses a single origin to rapidly replicate the entire genome. Eukaryotic DNA replication involves more polymerases than prokaryotic replication. Eukaryotic genomes are much more complex and larger in size than prokaryotic genomes. Replication in eukaryotes starts at multiple origins of replication, whereas replication in prokaryotes starts from a single origin of replication.",
+  "citations": [
+    "chunk:mcb_genetics:118 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | a. Both eukaryotic and prokaryotic DNA polymerases build off RNA primers made by primase. b. Eukaryotic DNA replicati...",
+    "triple:7c0f98200ea70841 | Eukaryotic DNA replication --[requires]--> multiple replication forks",
+    "triple:1c5e7a4105e3f477 | Eukaryotic DNA replication --[involves]--> more polymerases",
+    "triple:5f20c1b8baa9c407 | Replication in eukaryotes --[starts at]--> multiple origins of replication",
+    "triple:0d4c6c2bfa1f0c3a | Replication in prokaryotes --[starts from]--> origin of replication",
+    "triple:9ef5ad164e29059b | Eukaryotic genomes --[are larger than]--> prokaryotic genomes"
+  ],
+  "reasoning": "Matched entities: dna, dna replication, eukaryotic dna. Traversed graph edges: DNA --[is the genetic material]--> DNA; DNA --[has strands]--> complementary strands; DNA --[is packaged around]--> histone proteins. Graph evidence: \"Only 32P entered the bacterial cells, indicating that DNA is the genetic material.\". The context provides specific differences between prokaryotic and eukaryotic DNA replication, including the number of replication forks, the number of polymerases involved, the complexity and size of genomes, and the number of origins of replication."
+}

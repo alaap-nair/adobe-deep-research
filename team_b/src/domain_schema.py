@@ -84,6 +84,29 @@ RELATION_TYPES: dict[str, str] = {
 }
 
 
+# Relation types treated as *functional* (single-valued): for a given head
+# entity, at most one tail is currently true. When a new episode asserts a
+# different tail for the same (head, relation_type), the older edge is taken to
+# be contradicted and invalidated (phase-3 temporal conflict resolution).
+#
+# Kept deliberately conservative -- only relations where a second distinct tail
+# is genuinely a contradiction rather than an additional true fact. e.g. a
+# structure has one location (LOCATED_IN) and an organism one taxonomic group
+# (BELONGS_TO), whereas a process legitimately PRODUCES many molecules.
+# Overridable via env KG_FUNCTIONAL_RELATIONS (comma-separated).
+import os as _os
+
+FUNCTIONAL_RELATIONS: set[str] = {
+    r.strip()
+    for r in _os.getenv("KG_FUNCTIONAL_RELATIONS", "LOCATED_IN,BELONGS_TO").split(",")
+    if r.strip()
+}
+
+
+def is_functional_relation(relation_type: str | None) -> bool:
+    return relation_type in FUNCTIONAL_RELATIONS
+
+
 def is_valid_node_type(name: str) -> bool:
     return name in NODE_TYPES
 
@@ -105,8 +128,10 @@ def relation_types_block() -> str:
 __all__ = [
     "NODE_TYPES",
     "RELATION_TYPES",
+    "FUNCTIONAL_RELATIONS",
     "is_valid_node_type",
     "is_valid_relation_type",
+    "is_functional_relation",
     "node_types_block",
     "relation_types_block",
 ]

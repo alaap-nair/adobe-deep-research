@@ -1,0 +1,9 @@
+{
+  "question": "What experimental evidence proved that DNA is the genetic material rather than protein?",
+  "answer": "The decisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that DNA was indeed the genetic material and not proteins.",
+  "citations": [
+    "chunk:mcb_genetics:13 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | The decisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that DN...",
+    "triple:4d382d1b270fc2db | Martha Chase and Alfred Hershey --[conducted]--> decisive experiment"
+  ],
+  "reasoning": "Matched entities: dna, protein, c. Traversed graph edges: DNA --[is the genetic material]--> DNA; DNA --[has strands]--> complementary strands; DNA --[is packaged around]--> histone proteins. Graph evidence: \"Only 32P entered the bacterial cells, indicating that DNA is the genetic material.\". The context explicitly states that the experiment conducted by Martha Chase and Alfred Hershey in 1952 provided confirmatory evidence that DNA is the genetic material and not proteins."
+}

@@ -21,5 +21,9 @@ datasets>=2.14
 langchain-openai>=0.2
 langchain-huggingface>=0.1
 
+# Chat UI (Assignment: Simple Chat UI)
+streamlit>=1.30
+streamlit-agraph>=0.0.45
+
 # Testing
 pytest>=7.0

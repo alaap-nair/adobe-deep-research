@@ -1,21 +1,26 @@
 {
   "model": "mistralai/mistral-small-3.2-24b-instruct",
-  "num_triples": 16,
-  "num_entities": 16,
+  "num_triples": 17,
+  "num_entities": 21,
   "entities": [
     "amino acid",
-    "aminoacyl-tRNA",
     "aminoacyl-tRNA synthetases",
     "anticodon",
+    "charged tRNAs",
     "covalent bond formation",
-    "mRNA",
     "mRNA codon",
+    "mRNA codons",
     "mRNA template",
+    "nonsense codons",
     "peptide bond formation",
     "peptidyl transferase",
     "polypeptides",
+    "protein",
     "rRNAs",
+    "release factors",
     "ribosome",
+    "signal sequence",
+    "signal-recognition proteins",
     "tRNA",
     "tRNAs",
     "three-dimensional structure"
@@ -45,7 +50,7 @@
       "relation": "takes on",
       "relation_type": "CONVERTS_TO",
       "tail": "three-dimensional structure",
-      "tail_type": "Process",
+      "tail_type": "Molecule",
       "evidence": "Mature tRNAs take on a three-dimensional structure through local regions of base pairing stabilized by intramolecular hydrogen bonding."
     },
     {
@@ -98,7 +103,7 @@
       "head_type": "Molecule",
       "relation": "recognizes",
       "relation_type": "BINDS",
-      "tail": "mRNA codon",
+      "tail": "mRNA codons",
       "tail_type": "GeneticElement",
       "evidence": "Each tRNA carries a specific amino acid and recognizes one or more of the mRNA codons that define the order of amino acids in a protein."
     },
@@ -123,11 +128,11 @@
     {
       "head": "ribosome",
       "head_type": "CellularStructure",
-      "relation": "translates",
-      "relation_type": "TRANSLATES_TO",
-      "tail": "mRNA",
+      "relation": "binds",
+      "relation_type": "BINDS",
+      "tail": "charged tRNAs",
       "tail_type": "Molecule",
-      "evidence": "The ribosome is responsible for translating the mRNA into protein."
+      "evidence": "During translation elongation, the mRNA template provides tRNA binding specificity. As the ribosome moves along the mRNA, each mRNA codon comes into register, and specific binding with the corresponding charged tRNA anticodon is ensured."
     },
     {
       "head": "peptidyl transferase",
@@ -139,31 +144,40 @@
       "evidence": "The formation of each peptide bond is catalyzed by peptidyl transferase, an RNA-based enzyme that is integrated into the 50S ribosomal subunit."
     },
     {
-      "head": "ribosome",
-      "head_type": "CellularStructure",
-      "relation": "binds",
+      "head": "release factors",
+      "head_type": "Molecule",
+      "relation": "recognize",
       "relation_type": "BINDS",
-      "tail": "tRNA",
-      "tail_type": "Molecule",
-      "evidence": "During translation elongation, the mRNA template provides tRNA binding specificity."
+      "tail": "nonsense codons",
+      "tail_type": "GeneticElement",
+      "evidence": "Upon aligning with the A site, these nonsense codons are recognized by protein release factors that resemble tRNAs."
     },
     {
-      "head": "ribosome",
-      "head_type": "CellularStructure",
-      "relation": "binds",
-      "relation_type": "BINDS",
-      "tail": "mRNA",
-      "tail_type": "Molecule",
-      "evidence": "During translation elongation, the mRNA template provides tRNA binding specificity."
+      "head": "release factors",
+      "head_type": "Molecule",
+      "relation": "instruct",
+      "relation_type": "REGULATES",
+      "tail": "peptidyl transferase",
+      "tail_type": "Enzyme",
+      "evidence": "The releasing factors in both prokaryotes and eukaryotes instruct peptidyl transferase to add a water molecule to the carboxyl end of the P-site amino acid."
     },
     {
-      "head": "ribosome",
-      "head_type": "CellularStructure",
-      "relation": "binds",
-      "relation_type": "BINDS",
-      "tail": "aminoacyl-tRNA",
+      "head": "signal sequence",
+      "head_type": "GeneticElement",
+      "relation": "directs",
+      "relation_type": "REGULATES",
+      "tail": "protein",
       "tail_type": "Molecule",
-      "evidence": "During translation elongation, the mRNA template provides tRNA binding specificity."
+      "evidence": "A signal sequence is a short sequence at the amino end of a protein that directs it to a specific cellular compartment."
+    },
+    {
+      "head": "signal-recognition proteins",
+      "head_type": "Molecule",
+      "relation": "recognize",
+      "relation_type": "BINDS",
+      "tail": "signal sequence",
+      "tail_type": "GeneticElement",
+      "evidence": "These sequences can be thought of as the protein\u2019s 'train ticket' to its ultimate destination, and are recognized by signal-recognition proteins that act as conductors."
     }
   ]
 }

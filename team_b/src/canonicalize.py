@@ -289,8 +289,16 @@ def apply_canonicalization(
             relation=rel.relation,
             evidence=rel.evidence,
         )
-        # Preserve type fields if Schema-B (W3B) added them dynamically
-        for attr in ("relation_type",):
+        # Preserve W3B type fields and bi-temporal / provenance metadata so a
+        # canonicalization pass never silently drops an edge's history.
+        for attr in (
+            "relation_type",
+            "episode_ids",
+            "valid_at",
+            "invalid_at",
+            "created_at",
+            "expired_at",
+        ):
             if hasattr(rel, attr):
                 setattr(rebuilt, attr, getattr(rel, attr))
         final_relations.append(rebuilt)
@@ -299,9 +307,179 @@ def apply_canonicalization(
     return final_entities, final_relations
 
 
+# ---------------------------------------------------------------------------
+# Incremental resolution: new batch vs entities already in the graph (phase 4)
+# ---------------------------------------------------------------------------
+
+_TEMPORAL_ATTRS = (
+    "relation_type",
+    "episode_ids",
+    "valid_at",
+    "invalid_at",
+    "created_at",
+    "expired_at",
+)
+
+
+def resolve_entities_against(
+    new_entities: list[GraphEntity],
+    new_relations: list[GraphRelation],
+    existing: list[dict],
+    threshold: float = DEFAULT_CLUSTER_THRESHOLD,
+    embedder=None,
+) -> tuple[list[GraphEntity], list[GraphRelation]]:
+    """
+    Resolve a freshly-extracted batch against entities already in the graph.
+
+    `existing` is a list of {entity_id, name, original_names} dicts (e.g. loaded
+    from Neo4j). A new entity is matched to an existing one when their
+    rule_normalize() keys agree, or -- if an `embedder` is supplied -- when their
+    names embed at cosine >= `threshold`. Matched entities adopt the *existing*
+    canonical id and union their surface forms, so incremental ingests attach to
+    established nodes instead of forking near-duplicates (e.g. "PSII" landing on
+    a prior "photosystem II"). Relations are rewritten to the resolved ids with
+    triple_ids recomputed; temporal/provenance metadata is preserved.
+
+    Pure function (no DB access) so it can be unit-tested offline.
+    """
+    if not new_entities:
+        return new_entities, new_relations
+
+    existing_by_id = {ex.get("entity_id"): ex for ex in existing}
+    existing_by_key: dict[str, dict] = {}
+    for ex in existing:
+        key = rule_normalize(ex.get("name", "")) or ex.get("entity_id")
+        existing_by_key.setdefault(key, ex)
+    existing_names = [ex.get("name", "") for ex in existing]
+    existing_vecs = None  # embedded lazily on first miss
+
+    id_remap: dict[str, str] = {}
+    name_for_id: dict[str, str] = {}
+    surfaces_for_id: dict[str, list[str]] = defaultdict(list)
+    type_for_id: dict[str, str | None] = {}
+
+    def _register(rid: str, name: str, surfaces: list[str], node_type):
+        name_for_id.setdefault(rid, name)
+        bucket = surfaces_for_id[rid]
+        for s in surfaces:
+            if s and s not in bucket:
+                bucket.append(s)
+        if type_for_id.get(rid) is None and node_type:
+            type_for_id[rid] = node_type
+
+    for ent in new_entities:
+        key = rule_normalize(ent.name) or ent.entity_id
+        match = existing_by_key.get(key)
+        if match is None and embedder is not None and existing_names:
+            if existing_vecs is None:
+                existing_vecs = embedder(existing_names)
+            new_vec = embedder([ent.name])[0]
+            best_i, best_score = -1, 0.0
+            for i, ev in enumerate(existing_vecs):
+                score = _cosine(new_vec, ev)
+                if score > best_score:
+                    best_score, best_i = score, i
+            if best_i >= 0 and best_score >= threshold:
+                match = existing[best_i]
+
+        if match is not None:
+            rid = match["entity_id"]
+            id_remap[ent.entity_id] = rid
+            prior = existing_by_id.get(rid, {}).get("original_names") or []
+            _register(
+                rid,
+                match.get("name") or ent.name,
+                [*prior, match.get("name"), *ent.original_names, ent.name],
+                ent.node_type,
+            )
+        else:
+            id_remap[ent.entity_id] = ent.entity_id
+            _register(ent.entity_id, ent.name, [*ent.original_names, ent.name], ent.node_type)
+
+    resolved_entities = [
+        GraphEntity(
+            entity_id=rid,
+            name=name_for_id[rid],
+            original_names=[s for s in surfaces_for_id[rid] if s],
+            node_type=type_for_id.get(rid),
+        )
+        for rid in dict.fromkeys(id_remap.values())
+    ]
+
+    final_name_for_id = {e.entity_id: e.name for e in resolved_entities}
+    seen_triple_ids: set[str] = set()
+    resolved_relations: list[GraphRelation] = []
+    for rel in new_relations:
+        new_head = id_remap.get(rel.head_entity_id, rel.head_entity_id)
+        new_tail = id_remap.get(rel.tail_entity_id, rel.tail_entity_id)
+        if new_head == new_tail:
+            continue
+        head_name = final_name_for_id.get(new_head, new_head)
+        tail_name = final_name_for_id.get(new_tail, new_tail)
+        new_tid = triple_id(head_name, rel.relation, tail_name)
+        if new_tid in seen_triple_ids:
+            continue
+        seen_triple_ids.add(new_tid)
+        rebuilt = GraphRelation(
+            triple_id=new_tid,
+            head_entity_id=new_head,
+            tail_entity_id=new_tail,
+            relation=rel.relation,
+            evidence=rel.evidence,
+        )
+        for attr in _TEMPORAL_ATTRS:
+            if hasattr(rel, attr):
+                setattr(rebuilt, attr, getattr(rel, attr))
+        resolved_relations.append(rebuilt)
+
+    return resolved_entities, resolved_relations
+
+
+def _load_existing_entities(driver) -> list[dict]:
+    """Load {entity_id, name, original_names} for every :Entity already stored."""
+    with driver.session() as session:
+        result = session.run(
+            "MATCH (n:Entity) RETURN n.entity_id AS entity_id, n.name AS name, "
+            "n.original_names AS original_names"
+        )
+        return [
+            {
+                "entity_id": r["entity_id"],
+                "name": r["name"] or "",
+                "original_names": r["original_names"] or [],
+            }
+            for r in result
+        ]
+
+
+def resolve_against_graph(
+    driver,
+    entities: list[GraphEntity],
+    relations: list[GraphRelation],
+    threshold: float = DEFAULT_CLUSTER_THRESHOLD,
+    embedder=None,
+) -> tuple[list[GraphEntity], list[GraphRelation]]:
+    """Load existing entities from Neo4j and resolve `entities`/`relations`
+    against them. Defaults to the BGE embedder used elsewhere; falls back to
+    rule-only matching if embeddings are unavailable."""
+    existing = _load_existing_entities(driver)
+    if not existing:
+        return entities, relations
+    if embedder is None:
+        try:
+            from build_vectorstore import embed_texts
+
+            embedder = lambda names: embed_texts(names)  # noqa: E731
+        except Exception:
+            embedder = None
+    return resolve_entities_against(entities, relations, existing, threshold, embedder)
+
+
 __all__ = [
     "apply_canonicalization",
     "cluster_entities",
     "rule_normalize",
+    "resolve_entities_against",
+    "resolve_against_graph",
     "DEFAULT_CLUSTER_THRESHOLD",
 ]
