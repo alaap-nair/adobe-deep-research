@@ -1,0 +1,8 @@
+# Live Personalized Graph Demo backend (Assignment 11 Part 4).
+# Layered on top of the project root requirements (sentence-transformers, neo4j).
+graphiti-core>=0.29
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-dotenv>=1.0
+# sentence-transformers is already in the project root requirements.txt and is
+# reused here for the local bge embedder (no embedding-API key needed).
