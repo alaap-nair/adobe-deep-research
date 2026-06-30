@@ -1,72 +1,84 @@
-# adobe-deep-research
+# Team A: Unified Neo4j Store
 
-Do NOT commit your API key.
-Use a .env file.
-Ensure .env is in .gitignore.
-If you accidentally commit a key, revoke it immediately.
-
-Please add a .env file in the root of the repo. In your .env file, add this:
-OPENROUTER_API_KEY=sk-xxxxxxxxxxxxxxxx
-
-
-Install:
-pip install python-dotenv
-
-"from dotenv import load_dotenv
-import os
-
-load_dotenv()
-
-API_KEY = os.getenv("OPENROUTER_API_KEY")
-
-if not API_KEY:
-    raise ValueError("OPENROUTER_API_KEY not found in environment")"
-
----
-
-## Week 3: Neo4j “Engine” (Unified Store)
-
-This week’s deliverable is a Neo4j-backed engine that stores:
+Team A is the unified-store implementation. It keeps the knowledge graph,
+source chunks, and chunk embeddings in one Neo4j database.
 
 - **Graph structure**: `(:Entity)` nodes + relationships from extracted triples
 - **Vectors inside Neo4j**: `(:Chunk)` nodes with `embedding` vectors + a Neo4j **vector index**
 
-### Setup
+## Setup
 
-1. Install dependencies:
+Run these commands from `team_a/`:
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-2. `.env` (root):
+Create `.env` in `team_a/` or in the repo root:
 
-```bash
+```env
 OPENROUTER_API_KEY=...
-MISTRAL_API_KEY=...        # used for PDF OCR in src/parse_pdf.py
+MISTRAL_API_KEY=...        # optional, used for PDF OCR in src/parse_pdf.py
 NEO4J_URI=bolt://localhost:7687
 NEO4J_USER=neo4j
-NEO4J_PASSWORD=your_password
-# optional
+NEO4J_PASSWORD=password
 NEO4J_DATABASE=neo4j
 EMBEDDING_MODEL=openai/text-embedding-3-small
+QA_MODEL=meta-llama/llama-3.1-8b-instruct
 ```
 
-### Run
-
-1. Extract triples:
+Start Neo4j locally before graph build/query. One simple option is:
 
 ```bash
-python src/run_all.py src/7.2_glycolysis.pdf
+docker run --rm --name team-a-neo4j \
+  -p 7474:7474 -p 7687:7687 \
+  -e NEO4J_AUTH=neo4j/password \
+  neo4j:5-community
 ```
 
-2. Build Neo4j graph + vector index:
+## Run The Pipeline
+
+Extract entities/triples from a text or PDF source:
 
 ```bash
-python src/build_graph.py --input src/7.2_glycolysis.pdf --triples triples.csv
+python src/run_all.py data/passage.txt
 ```
 
-### Visualize (for screenshot)
+For `data/passage.txt`, this writes `triples_passage.csv`.
+
+Build the Neo4j graph, chunks, and vector index:
+
+```bash
+python src/build_graph.py --input data/passage.txt --triples triples_passage.csv
+```
+
+Ask a question against the Neo4j graph/vector index:
+
+```bash
+python ask.py "What does glycolysis produce?"
+```
+
+The CLI prints JSON with `question`, `answer`, `citations`, `reasoning`, and a
+`kg_trace`, and appends runs to `outputs.txt`.
+
+## Other Useful Commands
+
+Run the local biology QA baseline:
+
+```bash
+python bio_qa.py --plain "What is DNA?"
+```
+
+Run the RAGAS comparison scripts:
+
+```bash
+python run_ragas_comparison.py
+python ragas_eval.py data/after.json
+```
+
+## Visualize In Neo4j
 
 In Neo4j Browser:
 

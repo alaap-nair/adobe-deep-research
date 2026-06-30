@@ -34,13 +34,64 @@ exploratory branches (`team-1`, `alaap/assignment-two`) are preserved as `archiv
 
 ## Getting started
 
-Pick an architecture and follow its README. Do not commit API keys — keep them in a
-`.env` (gitignored).
+Pick an architecture and follow its README. Do not commit API keys; keep them in
+a `.env` file in the repo root or in the team subdirectory you are running from.
+Both directories are self-contained, so run commands from inside `team_a/` or
+`team_b/`.
 
 ```bash
-cd team_b   # or team_a
-cat README.md
+cd team_a   # or team_b
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
-Each subdirectory has its own `requirements.txt` and `.env` expectations
-(an `OPENROUTER_API_KEY`, plus local Neo4j / Qdrant).
+Minimum shared `.env` values:
+
+```env
+OPENROUTER_API_KEY=sk-...
+MODEL_NAME=meta-llama/llama-3.1-8b-instruct
+QA_MODEL=meta-llama/llama-3.1-8b-instruct
+NEO4J_URI=bolt://localhost:7687
+NEO4J_USER=neo4j
+NEO4J_PASSWORD=password
+NEO4J_DATABASE=neo4j
+```
+
+Team A uses one Neo4j store for graph data and chunk vectors. Team B uses Neo4j
+for the graph and Qdrant for vectors; `team_b/docker-compose.yml` starts both
+services with the defaults above.
+
+## Quick demo commands
+
+Team A unified-store demo:
+
+```bash
+cd team_a
+source .venv/bin/activate
+python src/run_all.py data/passage.txt
+python src/build_graph.py --input data/passage.txt --triples triples_passage.csv
+python ask.py "What does glycolysis produce?"
+```
+
+Team B dual-store CLI demo:
+
+```bash
+cd team_b
+source .venv/bin/activate
+docker compose up -d
+python src/run_all.py data/passage.txt
+python ask.py "What does glycolysis produce?"
+```
+
+Team B Streamlit demo:
+
+```bash
+cd team_b
+source .venv/bin/activate
+streamlit run app.py
+```
+
+See [`team_a/README.md`](team_a/README.md) and
+[`team_b/README.md`](team_b/README.md) for architecture-specific setup,
+environment variables, evaluation scripts, and demo notes.

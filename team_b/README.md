@@ -1,20 +1,46 @@
-# adobe-deep-research
+# Team B: Dual Neo4j + Qdrant Store
 
-Do NOT commit your API key.
-Use a .env file.
-Ensure .env is in .gitignore.
-If you accidentally commit a key, revoke it immediately.
-
-Please add a .env file in the root of the repo. In your .env file, add this:
-OPENROUTER_API_KEY=sk-xxxxxxxxxxxxxxxx
+Team B is the decoupled implementation. Neo4j stores the typed knowledge graph,
+Qdrant stores vectors for entities, evidence, and chunks, and deterministic IDs
+link results across both stores.
 
 ## Setup
 
-Install dependencies with:
+Run these commands from `team_b/`:
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+Create `.env` in `team_b/` or in the repo root:
+
+```env
+OPENROUTER_API_KEY=...
+MODEL_NAME=meta-llama/llama-3.1-8b-instruct
+QA_MODEL=meta-llama/llama-3.1-8b-instruct
+
+NEO4J_URI=bolt://localhost:7687
+NEO4J_USER=neo4j
+NEO4J_PASSWORD=password
+
+# Optional. Omit QDRANT_URL to use local file storage under ./qdrant_data.
+QDRANT_URL=http://localhost:6333
+QDRANT_PATH=./qdrant_data
+EMBEDDING_MODEL=BAAI/bge-large-en-v1.5
+EMBEDDING_DIM=1024
+```
+
+Start the stores:
+
+```bash
+docker compose up -d
+```
+
+By default, `docker-compose.yml` uses `neo4j/password`, matching the env values
+above. Qdrant can also run in local file mode if `QDRANT_URL` is unset, but the
+Docker flow is the easiest way to reproduce the full demo.
 
 ## Ingest
 
@@ -23,6 +49,17 @@ Build the triples, graph, and vector stores before asking questions:
 ```bash
 python3 src/run_all.py data/passage.txt
 ```
+
+Useful variants:
+
+```bash
+python3 src/run_all.py data/biology_7_2.txt
+python3 src/run_all.py data/genetics/14.2\ DNA\ Structure\ and\ Sequencing\ -\ Biology\ 2e\ _\ OpenStax.txt
+python3 src/run_all.py data/passage.txt --no-graph
+```
+
+Ingestion writes extracted triples under `outputs/`, updates Neo4j/Qdrant when
+available, and writes `outputs/graph_visualization.html` for inspection.
 
 ## Ask
 
@@ -33,6 +70,13 @@ python3 ask.py "What does glycolisis produce"
 ```
 
 The command should print JSON with `question`, `answer`, `citations`, and `reasoning`, and also write matching files under `outputs/answers/`.
+
+Temporal query examples:
+
+```bash
+python3 ask.py --as-of 2024-01-31 "What is the ETC located in?"
+python3 ask.py --include-invalid "What is the ETC located in?"
+```
 
 ## Chat UI
 
@@ -58,3 +102,24 @@ currently a clearly-labeled preview stub; the retrieval and answer are real).
 
 Architecture: `app.py` (Streamlit) → `src/ui_backend.py` (`ask()` adapter) →
 `QueryEngine.retrieve_context()` + `qa_client.answer_question()`.
+
+## Evaluation And Experiments
+
+Run the included test suite:
+
+```bash
+pytest
+```
+
+Run RAGAS/model comparison helpers:
+
+```bash
+python3 src/run_ragas.py
+./scripts/run_rerank_experiment.sh
+./scripts/run_precision_experiments.sh
+python3 scripts/summarize_model_runs.py
+```
+
+The tracked `outputs/` directory contains prior experiment artifacts, model
+runs, traces, and visualizations so the Adobe team can inspect previous results
+and run follow-up experiments from the same baseline.
