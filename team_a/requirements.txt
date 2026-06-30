@@ -5,3 +5,8 @@ gliner
 jsonschema
 mistralai
 neo4j
+openai
+pypdf
+ragas>=0.2
+datasets>=2.14
+langchain-openai>=0.2
