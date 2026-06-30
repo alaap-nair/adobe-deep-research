@@ -1,0 +1,875 @@
+{
+  "meta": {
+    "user": "Maya",
+    "group_id": "maya",
+    "generated": "frozen from live /ask",
+    "note": "Frozen replay of a real Graphiti run over the OpenStax Biology Ch.8 (photosynthesis) corpus. The live demo regenerates this via the FastAPI backend; this file lets the deployed app replay the same run with no backend.",
+    "final_question": "Walk me through how light energy ends up stored in sugar."
+  },
+  "persona": {
+    "name": "Maya",
+    "role": "Cell-biology student prepping for an exam",
+    "blurb": "Maya is studying photosynthesis. As she asks questions and uploads her notes, Graphiti logs each interaction as an episode, extracts entities, and links them to her personal profile node — building a subgraph of what she's been learning."
+  },
+  "episodes": [
+    {
+      "id": "ep1",
+      "index": 1,
+      "type": "query",
+      "title": "Maya asks about the Calvin cycle",
+      "timestamp": "2026-06-14T09:12:00Z",
+      "text": "How does the Calvin cycle fix carbon?",
+      "source_description": "user query",
+      "extracted_entities": [
+        "Calvin cycle",
+        "RuBisCO",
+        "carbon fixation",
+        "carbon dioxide",
+        "RuBP",
+        "3-PGA",
+        "G3P",
+        "stroma"
+      ]
+    },
+    {
+      "id": "ep2",
+      "index": 2,
+      "type": "upload",
+      "title": "Maya uploads her lecture notes on the light reactions",
+      "timestamp": "2026-06-14T15:47:00Z",
+      "text": "Lecture notes — Light-dependent reactions: Pigments (chlorophyll a) in the thylakoid membrane absorb light. Photosystem II splits water, releasing oxygen and electrons. Electrons travel down the electron transport chain to Photosystem I, which reduces NADP to NADPH. The proton gradient drives ATP synthase to make ATP. Net output: ATP + NADPH (and O2 as a byproduct).",
+      "source_description": "Maya's uploaded lecture notes (light_reactions.md)",
+      "extracted_entities": [
+        "light reactions",
+        "photosystem II",
+        "photosystem I",
+        "electron transport chain",
+        "ATP synthase",
+        "thylakoid membrane",
+        "chlorophyll a",
+        "water",
+        "oxygen",
+        "NADPH",
+        "ATP"
+      ]
+    },
+    {
+      "id": "ep3",
+      "index": 3,
+      "type": "query",
+      "title": "Maya connects the two halves",
+      "timestamp": "2026-06-15T11:03:00Z",
+      "text": "What links the light reactions to the Calvin cycle?",
+      "source_description": "user query",
+      "extracted_entities": [
+        "light reactions",
+        "Calvin cycle",
+        "ATP",
+        "NADPH"
+      ]
+    }
+  ],
+  "subgraphs": {
+    "0": {
+      "nodes": [
+        {
+          "id": "maya",
+          "label": "Maya",
+          "type": "profile",
+          "episode": 0
+        }
+      ],
+      "edges": []
+    },
+    "1": {
+      "nodes": [
+        {
+          "id": "maya",
+          "label": "Maya",
+          "type": "profile",
+          "episode": 0
+        },
+        {
+          "id": "calvin_cycle",
+          "label": "Calvin cycle",
+          "type": "Pathway",
+          "episode": 1
+        },
+        {
+          "id": "rubisco",
+          "label": "RuBisCO",
+          "type": "Enzyme",
+          "episode": 1
+        },
+        {
+          "id": "carbon_fixation",
+          "label": "carbon fixation",
+          "type": "Process",
+          "episode": 1
+        },
+        {
+          "id": "co2",
+          "label": "carbon dioxide",
+          "type": "Molecule",
+          "episode": 1
+        },
+        {
+          "id": "rubp",
+          "label": "RuBP",
+          "type": "Molecule",
+          "episode": 1
+        },
+        {
+          "id": "pga",
+          "label": "3-PGA",
+          "type": "Molecule",
+          "episode": 1
+        },
+        {
+          "id": "g3p",
+          "label": "G3P",
+          "type": "Molecule",
+          "episode": 1
+        },
+        {
+          "id": "stroma",
+          "label": "stroma",
+          "type": "CellularStructure",
+          "episode": 1
+        }
+      ],
+      "edges": [
+        {
+          "id": "e_maya_calvin",
+          "source": "maya",
+          "target": "calvin_cycle",
+          "label": "ASKED ABOUT",
+          "episode": 1,
+          "kind": "profile",
+          "evidence": "Episode 1: \"How does the Calvin cycle fix carbon?\""
+        },
+        {
+          "id": "e_rubisco_cf",
+          "source": "rubisco",
+          "target": "carbon_fixation",
+          "label": "CATALYZES",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "RuBisCO catalyzes a reaction between CO2 and RuBP."
+        },
+        {
+          "id": "e_calvin_co2",
+          "source": "calvin_cycle",
+          "target": "co2",
+          "label": "CONSUMES",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "In the stroma, in addition to CO2, two other components are present to initiate the light-independent reactions."
+        },
+        {
+          "id": "e_cf_rubp",
+          "source": "carbon_fixation",
+          "target": "rubp",
+          "label": "USES",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "RuBisCO catalyzes a reaction between CO2 and RuBP."
+        },
+        {
+          "id": "e_cf_pga",
+          "source": "carbon_fixation",
+          "target": "pga",
+          "label": "PRODUCES",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "For each CO2 molecule that reacts with one RuBP, two molecules of 3-phosphoglyceric acid (3-PGA) form."
+        },
+        {
+          "id": "e_calvin_g3p",
+          "source": "calvin_cycle",
+          "target": "g3p",
+          "label": "PRODUCES",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "The Calvin cycle reduces 3-PGA to G3P."
+        },
+        {
+          "id": "e_calvin_stroma",
+          "source": "calvin_cycle",
+          "target": "stroma",
+          "label": "OCCURS IN",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "The light-independent reactions occur in the stroma."
+        },
+        {
+          "id": "e_rubisco_calvin",
+          "source": "rubisco",
+          "target": "calvin_cycle",
+          "label": "ACTS IN",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "RuBisCO initiates the light-independent reactions of the Calvin cycle."
+        }
+      ]
+    },
+    "2": {
+      "nodes": [
+        {
+          "id": "maya",
+          "label": "Maya",
+          "type": "profile",
+          "episode": 0
+        },
+        {
+          "id": "calvin_cycle",
+          "label": "Calvin cycle",
+          "type": "Pathway",
+          "episode": 1
+        },
+        {
+          "id": "rubisco",
+          "label": "RuBisCO",
+          "type": "Enzyme",
+          "episode": 1
+        },
+        {
+          "id": "carbon_fixation",
+          "label": "carbon fixation",
+          "type": "Process",
+          "episode": 1
+        },
+        {
+          "id": "co2",
+          "label": "carbon dioxide",
+          "type": "Molecule",
+          "episode": 1
+        },
+        {
+          "id": "rubp",
+          "label": "RuBP",
+          "type": "Molecule",
+          "episode": 1
+        },
+        {
+          "id": "pga",
+          "label": "3-PGA",
+          "type": "Molecule",
+          "episode": 1
+        },
+        {
+          "id": "g3p",
+          "label": "G3P",
+          "type": "Molecule",
+          "episode": 1
+        },
+        {
+          "id": "stroma",
+          "label": "stroma",
+          "type": "CellularStructure",
+          "episode": 1
+        },
+        {
+          "id": "light_reactions",
+          "label": "light reactions",
+          "type": "Pathway",
+          "episode": 2
+        },
+        {
+          "id": "psii",
+          "label": "photosystem II",
+          "type": "CellularStructure",
+          "episode": 2
+        },
+        {
+          "id": "psi",
+          "label": "photosystem I",
+          "type": "CellularStructure",
+          "episode": 2
+        },
+        {
+          "id": "etc",
+          "label": "electron transport chain",
+          "type": "Process",
+          "episode": 2
+        },
+        {
+          "id": "atp_synthase",
+          "label": "ATP synthase",
+          "type": "Enzyme",
+          "episode": 2
+        },
+        {
+          "id": "thylakoid",
+          "label": "thylakoid membrane",
+          "type": "CellularStructure",
+          "episode": 2
+        },
+        {
+          "id": "chlorophyll",
+          "label": "chlorophyll a",
+          "type": "Molecule",
+          "episode": 2
+        },
+        {
+          "id": "water",
+          "label": "water",
+          "type": "Molecule",
+          "episode": 2
+        },
+        {
+          "id": "oxygen",
+          "label": "oxygen",
+          "type": "Molecule",
+          "episode": 2
+        },
+        {
+          "id": "nadph",
+          "label": "NADPH",
+          "type": "Molecule",
+          "episode": 2
+        },
+        {
+          "id": "atp",
+          "label": "ATP",
+          "type": "Molecule",
+          "episode": 2
+        }
+      ],
+      "edges": [
+        {
+          "id": "e_maya_calvin",
+          "source": "maya",
+          "target": "calvin_cycle",
+          "label": "ASKED ABOUT",
+          "episode": 1,
+          "kind": "profile",
+          "evidence": "Episode 1: \"How does the Calvin cycle fix carbon?\""
+        },
+        {
+          "id": "e_rubisco_cf",
+          "source": "rubisco",
+          "target": "carbon_fixation",
+          "label": "CATALYZES",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "RuBisCO catalyzes a reaction between CO2 and RuBP."
+        },
+        {
+          "id": "e_calvin_co2",
+          "source": "calvin_cycle",
+          "target": "co2",
+          "label": "CONSUMES",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "In the stroma, in addition to CO2, two other components are present to initiate the light-independent reactions."
+        },
+        {
+          "id": "e_cf_rubp",
+          "source": "carbon_fixation",
+          "target": "rubp",
+          "label": "USES",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "RuBisCO catalyzes a reaction between CO2 and RuBP."
+        },
+        {
+          "id": "e_cf_pga",
+          "source": "carbon_fixation",
+          "target": "pga",
+          "label": "PRODUCES",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "For each CO2 molecule that reacts with one RuBP, two molecules of 3-phosphoglyceric acid (3-PGA) form."
+        },
+        {
+          "id": "e_calvin_g3p",
+          "source": "calvin_cycle",
+          "target": "g3p",
+          "label": "PRODUCES",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "The Calvin cycle reduces 3-PGA to G3P."
+        },
+        {
+          "id": "e_calvin_stroma",
+          "source": "calvin_cycle",
+          "target": "stroma",
+          "label": "OCCURS IN",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "The light-independent reactions occur in the stroma."
+        },
+        {
+          "id": "e_rubisco_calvin",
+          "source": "rubisco",
+          "target": "calvin_cycle",
+          "label": "ACTS IN",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "RuBisCO initiates the light-independent reactions of the Calvin cycle."
+        },
+        {
+          "id": "e_maya_light",
+          "source": "maya",
+          "target": "light_reactions",
+          "label": "UPLOADED NOTES",
+          "episode": 2,
+          "kind": "profile",
+          "evidence": "Episode 2: Maya uploaded lecture notes on the light-dependent reactions."
+        },
+        {
+          "id": "e_light_psii",
+          "source": "light_reactions",
+          "target": "psii",
+          "label": "INCLUDES",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "In the photosystem II reaction center, energy from sunlight is used to extract electrons from water."
+        },
+        {
+          "id": "e_psii_water",
+          "source": "psii",
+          "target": "water",
+          "label": "SPLITS",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "Splitting one H2O molecule releases two electrons, two hydrogen atoms, and one atom of oxygen."
+        },
+        {
+          "id": "e_psii_oxygen",
+          "source": "psii",
+          "target": "oxygen",
+          "label": "PRODUCES",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "Splitting one H2O molecule releases two electrons, two hydrogen atoms, and one atom of oxygen."
+        },
+        {
+          "id": "e_psii_etc",
+          "source": "psii",
+          "target": "etc",
+          "label": "FEEDS",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "The electrons travel through the chloroplast electron transport chain to photosystem I."
+        },
+        {
+          "id": "e_etc_psi",
+          "source": "etc",
+          "target": "psi",
+          "label": "FEEDS",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "The electrons travel through the chloroplast electron transport chain to photosystem I (PSI)."
+        },
+        {
+          "id": "e_psi_nadph",
+          "source": "psi",
+          "target": "nadph",
+          "label": "PRODUCES",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "Photosystem I (PSI) reduces NADP to NADPH."
+        },
+        {
+          "id": "e_synthase_atp",
+          "source": "atp_synthase",
+          "target": "atp",
+          "label": "PRODUCES",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "The energy released by the hydrogen ion stream allows ATP synthase to attach a third phosphate group to ADP, forming ATP."
+        },
+        {
+          "id": "e_thylakoid_psii",
+          "source": "thylakoid",
+          "target": "psii",
+          "label": "CONTAINS",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "Chlorophyll and the photosystems are embedded in the thylakoid membrane."
+        },
+        {
+          "id": "e_thylakoid_synthase",
+          "source": "thylakoid",
+          "target": "atp_synthase",
+          "label": "CONTAINS",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "ATP synthase is embedded in the thylakoid membrane."
+        },
+        {
+          "id": "e_chloro_psii",
+          "source": "chlorophyll",
+          "target": "psii",
+          "label": "ABSORBS LIGHT FOR",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "Light energy initiates photosynthesis when pigments such as chlorophyll a absorb specific wavelengths of visible light."
+        }
+      ]
+    },
+    "3": {
+      "nodes": [
+        {
+          "id": "maya",
+          "label": "Maya",
+          "type": "profile",
+          "episode": 0
+        },
+        {
+          "id": "calvin_cycle",
+          "label": "Calvin cycle",
+          "type": "Pathway",
+          "episode": 1
+        },
+        {
+          "id": "rubisco",
+          "label": "RuBisCO",
+          "type": "Enzyme",
+          "episode": 1
+        },
+        {
+          "id": "carbon_fixation",
+          "label": "carbon fixation",
+          "type": "Process",
+          "episode": 1
+        },
+        {
+          "id": "co2",
+          "label": "carbon dioxide",
+          "type": "Molecule",
+          "episode": 1
+        },
+        {
+          "id": "rubp",
+          "label": "RuBP",
+          "type": "Molecule",
+          "episode": 1
+        },
+        {
+          "id": "pga",
+          "label": "3-PGA",
+          "type": "Molecule",
+          "episode": 1
+        },
+        {
+          "id": "g3p",
+          "label": "G3P",
+          "type": "Molecule",
+          "episode": 1
+        },
+        {
+          "id": "stroma",
+          "label": "stroma",
+          "type": "CellularStructure",
+          "episode": 1
+        },
+        {
+          "id": "light_reactions",
+          "label": "light reactions",
+          "type": "Pathway",
+          "episode": 2
+        },
+        {
+          "id": "psii",
+          "label": "photosystem II",
+          "type": "CellularStructure",
+          "episode": 2
+        },
+        {
+          "id": "psi",
+          "label": "photosystem I",
+          "type": "CellularStructure",
+          "episode": 2
+        },
+        {
+          "id": "etc",
+          "label": "electron transport chain",
+          "type": "Process",
+          "episode": 2
+        },
+        {
+          "id": "atp_synthase",
+          "label": "ATP synthase",
+          "type": "Enzyme",
+          "episode": 2
+        },
+        {
+          "id": "thylakoid",
+          "label": "thylakoid membrane",
+          "type": "CellularStructure",
+          "episode": 2
+        },
+        {
+          "id": "chlorophyll",
+          "label": "chlorophyll a",
+          "type": "Molecule",
+          "episode": 2
+        },
+        {
+          "id": "water",
+          "label": "water",
+          "type": "Molecule",
+          "episode": 2
+        },
+        {
+          "id": "oxygen",
+          "label": "oxygen",
+          "type": "Molecule",
+          "episode": 2
+        },
+        {
+          "id": "nadph",
+          "label": "NADPH",
+          "type": "Molecule",
+          "episode": 2
+        },
+        {
+          "id": "atp",
+          "label": "ATP",
+          "type": "Molecule",
+          "episode": 2
+        }
+      ],
+      "edges": [
+        {
+          "id": "e_maya_calvin",
+          "source": "maya",
+          "target": "calvin_cycle",
+          "label": "ASKED ABOUT",
+          "episode": 1,
+          "kind": "profile",
+          "evidence": "Episode 1: \"How does the Calvin cycle fix carbon?\""
+        },
+        {
+          "id": "e_rubisco_cf",
+          "source": "rubisco",
+          "target": "carbon_fixation",
+          "label": "CATALYZES",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "RuBisCO catalyzes a reaction between CO2 and RuBP."
+        },
+        {
+          "id": "e_calvin_co2",
+          "source": "calvin_cycle",
+          "target": "co2",
+          "label": "CONSUMES",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "In the stroma, in addition to CO2, two other components are present to initiate the light-independent reactions."
+        },
+        {
+          "id": "e_cf_rubp",
+          "source": "carbon_fixation",
+          "target": "rubp",
+          "label": "USES",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "RuBisCO catalyzes a reaction between CO2 and RuBP."
+        },
+        {
+          "id": "e_cf_pga",
+          "source": "carbon_fixation",
+          "target": "pga",
+          "label": "PRODUCES",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "For each CO2 molecule that reacts with one RuBP, two molecules of 3-phosphoglyceric acid (3-PGA) form."
+        },
+        {
+          "id": "e_calvin_g3p",
+          "source": "calvin_cycle",
+          "target": "g3p",
+          "label": "PRODUCES",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "The Calvin cycle reduces 3-PGA to G3P."
+        },
+        {
+          "id": "e_calvin_stroma",
+          "source": "calvin_cycle",
+          "target": "stroma",
+          "label": "OCCURS IN",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "The light-independent reactions occur in the stroma."
+        },
+        {
+          "id": "e_rubisco_calvin",
+          "source": "rubisco",
+          "target": "calvin_cycle",
+          "label": "ACTS IN",
+          "episode": 1,
+          "kind": "domain",
+          "evidence": "RuBisCO initiates the light-independent reactions of the Calvin cycle."
+        },
+        {
+          "id": "e_maya_light",
+          "source": "maya",
+          "target": "light_reactions",
+          "label": "UPLOADED NOTES",
+          "episode": 2,
+          "kind": "profile",
+          "evidence": "Episode 2: Maya uploaded lecture notes on the light-dependent reactions."
+        },
+        {
+          "id": "e_light_psii",
+          "source": "light_reactions",
+          "target": "psii",
+          "label": "INCLUDES",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "In the photosystem II reaction center, energy from sunlight is used to extract electrons from water."
+        },
+        {
+          "id": "e_psii_water",
+          "source": "psii",
+          "target": "water",
+          "label": "SPLITS",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "Splitting one H2O molecule releases two electrons, two hydrogen atoms, and one atom of oxygen."
+        },
+        {
+          "id": "e_psii_oxygen",
+          "source": "psii",
+          "target": "oxygen",
+          "label": "PRODUCES",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "Splitting one H2O molecule releases two electrons, two hydrogen atoms, and one atom of oxygen."
+        },
+        {
+          "id": "e_psii_etc",
+          "source": "psii",
+          "target": "etc",
+          "label": "FEEDS",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "The electrons travel through the chloroplast electron transport chain to photosystem I."
+        },
+        {
+          "id": "e_etc_psi",
+          "source": "etc",
+          "target": "psi",
+          "label": "FEEDS",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "The electrons travel through the chloroplast electron transport chain to photosystem I (PSI)."
+        },
+        {
+          "id": "e_psi_nadph",
+          "source": "psi",
+          "target": "nadph",
+          "label": "PRODUCES",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "Photosystem I (PSI) reduces NADP to NADPH."
+        },
+        {
+          "id": "e_synthase_atp",
+          "source": "atp_synthase",
+          "target": "atp",
+          "label": "PRODUCES",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "The energy released by the hydrogen ion stream allows ATP synthase to attach a third phosphate group to ADP, forming ATP."
+        },
+        {
+          "id": "e_thylakoid_psii",
+          "source": "thylakoid",
+          "target": "psii",
+          "label": "CONTAINS",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "Chlorophyll and the photosystems are embedded in the thylakoid membrane."
+        },
+        {
+          "id": "e_thylakoid_synthase",
+          "source": "thylakoid",
+          "target": "atp_synthase",
+          "label": "CONTAINS",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "ATP synthase is embedded in the thylakoid membrane."
+        },
+        {
+          "id": "e_chloro_psii",
+          "source": "chlorophyll",
+          "target": "psii",
+          "label": "ABSORBS LIGHT FOR",
+          "episode": 2,
+          "kind": "domain",
+          "evidence": "Light energy initiates photosynthesis when pigments such as chlorophyll a absorb specific wavelengths of visible light."
+        },
+        {
+          "id": "e_maya_link",
+          "source": "maya",
+          "target": "atp",
+          "label": "CONNECTED",
+          "episode": 3,
+          "kind": "profile",
+          "evidence": "Episode 3: \"What links the light reactions to the Calvin cycle?\""
+        },
+        {
+          "id": "e_atp_calvin",
+          "source": "atp",
+          "target": "calvin_cycle",
+          "label": "POWERS",
+          "episode": 3,
+          "kind": "bridge",
+          "evidence": "ATP produced by the light reactions powers the Calvin cycle's reduction and regeneration stages."
+        },
+        {
+          "id": "e_nadph_calvin",
+          "source": "nadph",
+          "target": "calvin_cycle",
+          "label": "REDUCES",
+          "episode": 3,
+          "kind": "bridge",
+          "evidence": "NADPH from the light reactions provides the reducing power that converts 3-PGA to G3P in the Calvin cycle."
+        },
+        {
+          "id": "e_light_calvin",
+          "source": "light_reactions",
+          "target": "calvin_cycle",
+          "label": "SUPPLIES ENERGY TO",
+          "episode": 3,
+          "kind": "bridge",
+          "evidence": "The light-dependent reactions supply the ATP and NADPH consumed by the light-independent Calvin cycle."
+        }
+      ]
+    }
+  },
+  "ask": {
+    "question": "Walk me through how light energy ends up stored in sugar.",
+    "generalized": {
+      "mode": "Generalized",
+      "subtitle": "Standard KAG pipeline — no personal context",
+      "answer": "Sure, I'd be happy to explain that process, which is known as photosynthesis. Here are the key steps:\n\n1. **Light Absorption**: Chlorophyll and other pigments in the chloroplasts of plant cells absorb light energy, primarily from the visible spectrum.\n\n2. **Light Reactions (Photophosphorylation)**: This absorbed light energy is used to produce two molecules that act as energy sources for the next stage: ATP (through photophosphorylation) and NADPH (through the conversion of NADP+).\n\n   - **Water Splitting**: Water molecules are split, releasing oxygen as a waste product. This occurs in the thylakoid membranes of the chloroplasts.\n\n3. **Calvin Cycle (Dark Reactions)**: The ATP and NADPH produced in the light reactions are used to power the Calvin Cycle, which occurs in the stroma of the chloroplasts. Here's a simplified version of what happens:\n\n   - **Carbon Fixation**: CO2 from the atmosphere is \"fixed\" onto a 5-carbon sugar, RuBP, with the help of an enzyme called Rubisco, creating an unstable 6-carbon compound that immediately splits into two 3-carbon compounds.\n\n   - **Reduction**: The 3-carbon compounds are reduced using the energy from ATP and NADPH, creating G3P (glyceraldehyde 3-phosphate), a type of sugar.\n\n   - **Regeneration**: Some G3P is used to regenerate RuBP, so the cycle can continue. The rest is used to make other carbohydrates like glucose.\n\n4. **Sugar Formation**: The G3P molecules that aren't used to regenerate RuBP can be used to form other carbohydrates, like glucose. This is how light energy ends up stored in sugar.\n\nSo, in summary, light energy is converted into chemical energy (ATP and NADPH), which is then used to power the creation of sugars from CO2. These sugars can be used by the plant for energy and growth, or stored for later use.",
+      "citations": [
+        "corpus: OpenStax Biology Ch.8 — photosynthesis"
+      ],
+      "used_context": []
+    },
+    "personalized": {
+      "mode": "Personalized",
+      "subtitle": "Graphiti user subgraph injected — grounded in Maya's own episodes (LIVE)",
+      "answer": "Great question! Let's connect this to what you've already studied:\n\n1. **Light Reactions (Light-dependent reactions)**: You know that pigments like chlorophyll a absorb light, and photosystems (including Photosystem I) are involved. These reactions produce ATP and NADPH. You've noted that ATP and NADPH power the Calvin cycle, and that Photosystem I reduces NADP to NADPH.\n\n2. **Calvin Cycle (Light-independent reactions)**: This is where the ATP and NADPH produced in the light reactions are used. Here's how it works:\n   - **Carbon Fixation**: CO2 from the atmosphere is incorporated into a 5-carbon sugar, RuBP, catalyzed by the enzyme RuBisCO, forming two molecules of 3-PGA (3-phosphoglycerate).\n   - **Reduction**: The ATP and NADPH produced in the light reactions are used to reduce 3-PGA to G3P (glyceraldehyde 3-phosphate). You've noted that the Calvin cycle reduces 3-PGA to G3P, and that ATP and NADPH reduce 3-PGA to G3P. This is where the energy from light is transferred to sugar.\n   - **Regeneration and Sugar Production**: Some G3P is used to regenerate RuBP, so the cycle can continue. The rest is used to make glucose and other carbohydrates.\n\nSo, light energy is stored in sugar through a two-step process: first, it's converted to chemical energy in the form of ATP and NADPH during the light reactions, and then that energy is used to power the Calvin cycle, reducing CO2 into sugar.",
+      "citations": [
+        "graphiti: Maya's subgraph (maya)"
+      ],
+      "used_context": [
+        "ATP produced by the light reactions powers the Calvin cycle.",
+        "Light-dependent reactions involve pigments such as chlorophyll a that absorb light.",
+        "NADPH produced by the light reactions powers the Calvin cycle.",
+        "Photosystem I reduces NADP to NADPH.",
+        "The Calvin cycle reduces 3-PGA to G3P",
+        "ATP and NADPH reduce 3-PGA to G3P."
+      ]
+    }
+  }
+}

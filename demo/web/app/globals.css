@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@xyflow/react/dist/style.css";
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-spectrum-bg text-spectrum-ink antialiased;
+  font-feature-settings: "ss01", "cv01";
+}
+
+/* React Flow surface — quiet Spectrum canvas, not the default blue */
+.react-flow {
+  background: #fbfbfc;
+}
+.react-flow__attribution {
+  display: none;
+}
+.react-flow__edge-text {
+  font-size: 9px;
+  fill: #7a7a7a;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.react-flow__edge-textbg {
+  fill: #ffffff;
+}
+
+/* subtle dotted background */
+.demo-dot-grid {
+  background-image: radial-gradient(circle, #e3e3e6 1px, transparent 1px);
+  background-size: 22px 22px;
+}

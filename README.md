@@ -92,6 +92,29 @@ source .venv/bin/activate
 streamlit run app.py
 ```
 
+Standalone Graphiti personalized demo:
+
+```bash
+# from repo root
+docker compose -f team_b/docker-compose.yml up -d neo4j
+python3 -m venv .venv-demo
+source .venv-demo/bin/activate
+pip install -r team_b/requirements.txt
+pip install -r demo/backend/requirements.txt
+python -m demo.backend.seed_maya --clear
+uvicorn demo.backend.server:app --port 8000
+```
+
+In another terminal:
+
+```bash
+cd demo/web
+npm install
+NEXT_PUBLIC_API_URL=http://localhost:8000 npm run dev
+```
+
 See [`team_a/README.md`](team_a/README.md) and
 [`team_b/README.md`](team_b/README.md) for architecture-specific setup,
-environment variables, evaluation scripts, and demo notes.
+environment variables, evaluation scripts, and demo notes. See
+[`demo/README.md`](demo/README.md) for the Graphiti demo details, including the
+snapshot-only frontend path.
