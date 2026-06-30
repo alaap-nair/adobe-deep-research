@@ -1,0 +1,200 @@
+{
+  "model": "mistralai/mistral-small-3.1-24b-instruct:free",
+  "num_triples": 28,
+  "num_entities": 23,
+  "entities": [
+    "ATP",
+    "ATP production",
+    "ATP synthase",
+    "FADH\u2082",
+    "NADH",
+    "NAD\u207a",
+    "acetyl-CoA",
+    "aerobic respiration",
+    "carbon dioxide",
+    "cells",
+    "citric acid cycle",
+    "cytosol",
+    "electron transport chain",
+    "glucose",
+    "glycolysis",
+    "inner mitochondrial membrane",
+    "mitochondrion",
+    "oxygen",
+    "phosphorylation of ADP",
+    "potential energy",
+    "proton gradient",
+    "protons",
+    "pyruvate"
+  ],
+  "triples": [
+    {
+      "head": "cells",
+      "relation": "convert",
+      "tail": "glucose",
+      "evidence": "cells convert the chemical energy stored in glucose into ATP"
+    },
+    {
+      "head": "cells",
+      "relation": "convert",
+      "tail": "ATP",
+      "evidence": "cells convert the chemical energy stored in glucose into ATP"
+    },
+    {
+      "head": "aerobic respiration",
+      "relation": "use",
+      "tail": "oxygen",
+      "evidence": "In aerobic respiration, oxygen is the final electron acceptor"
+    },
+    {
+      "head": "glycolysis",
+      "relation": "occur in",
+      "tail": "cytosol",
+      "evidence": "It occurs in the cytosol"
+    },
+    {
+      "head": "glycolysis",
+      "relation": "break down",
+      "tail": "glucose",
+      "evidence": "one molecule of glucose is broken down into two molecules of pyruvate"
+    },
+    {
+      "head": "glycolysis",
+      "relation": "produce",
+      "tail": "ATP",
+      "evidence": "Glycolysis produces a net gain of ATP"
+    },
+    {
+      "head": "glycolysis",
+      "relation": "reduce",
+      "tail": "NAD\u207a",
+      "evidence": "Glycolysis reduces NAD\u207a to NADH"
+    },
+    {
+      "head": "pyruvate",
+      "relation": "transport into",
+      "tail": "mitochondrion",
+      "evidence": "pyruvate is transported into the mitochondrion"
+    },
+    {
+      "head": "pyruvate",
+      "relation": "convert into",
+      "tail": "acetyl-CoA",
+      "evidence": "pyruvate is converted into acetyl-CoA"
+    },
+    {
+      "head": "pyruvate",
+      "relation": "release",
+      "tail": "carbon dioxide",
+      "evidence": "pyruvate is converted into acetyl-CoA, releasing carbon dioxide"
+    },
+    {
+      "head": "pyruvate",
+      "relation": "produce",
+      "tail": "NADH",
+      "evidence": "pyruvate is converted into acetyl-CoA, producing additional NADH"
+    },
+    {
+      "head": "acetyl-CoA",
+      "relation": "enter",
+      "tail": "citric acid cycle",
+      "evidence": "Acetyl-CoA enters the citric acid cycle"
+    },
+    {
+      "head": "citric acid cycle",
+      "relation": "generate",
+      "tail": "carbon dioxide",
+      "evidence": "a series of reactions in the mitochondrial matrix that generates carbon dioxide"
+    },
+    {
+      "head": "citric acid cycle",
+      "relation": "generate",
+      "tail": "NADH",
+      "evidence": "a series of reactions in the mitochondrial matrix that generates NADH"
+    },
+    {
+      "head": "citric acid cycle",
+      "relation": "generate",
+      "tail": "FADH\u2082",
+      "evidence": "a series of reactions in the mitochondrial matrix that generates FADH\u2082"
+    },
+    {
+      "head": "citric acid cycle",
+      "relation": "produce",
+      "tail": "ATP",
+      "evidence": "The citric acid cycle produces a small amount of ATP directly"
+    },
+    {
+      "head": "electron transport chain",
+      "relation": "located in",
+      "tail": "inner mitochondrial membrane",
+      "evidence": "The electron transport chain (ETC) is located in the inner mitochondrial membrane"
+    },
+    {
+      "head": "NADH",
+      "relation": "donate electrons to",
+      "tail": "electron transport chain",
+      "evidence": "NADH and FADH\u2082 donate electrons to the ETC"
+    },
+    {
+      "head": "FADH\u2082",
+      "relation": "donate electrons to",
+      "tail": "electron transport chain",
+      "evidence": "NADH and FADH\u2082 donate electrons to the ETC"
+    },
+    {
+      "head": "electron transport chain",
+      "relation": "pump",
+      "tail": "protons",
+      "evidence": "their energy is used to pump protons (H\u207a) from the matrix into the intermembrane space"
+    },
+    {
+      "head": "proton gradient",
+      "relation": "store",
+      "tail": "potential energy",
+      "evidence": "This gradient stores potential energy"
+    },
+    {
+      "head": "ATP synthase",
+      "relation": "use",
+      "tail": "proton gradient",
+      "evidence": "ATP synthase uses the proton gradient to produce ATP"
+    },
+    {
+      "head": "ATP synthase",
+      "relation": "catalyze",
+      "tail": "phosphorylation of ADP",
+      "evidence": "the enzyme catalyzes the phosphorylation of ADP to ATP"
+    },
+    {
+      "head": "oxygen",
+      "relation": "accept electrons",
+      "tail": "electron transport chain",
+      "evidence": "Oxygen accepts electrons at the end of the electron transport chain"
+    },
+    {
+      "head": "oxygen",
+      "relation": "combine with",
+      "tail": "protons",
+      "evidence": "Oxygen accepts electrons at the end of the electron transport chain and combines with protons to form water"
+    },
+    {
+      "head": "electron transport chain",
+      "relation": "cannot function",
+      "tail": "oxygen",
+      "evidence": "If oxygen is not available, the electron transport chain cannot function"
+    },
+    {
+      "head": "proton gradient",
+      "relation": "collapse",
+      "tail": "oxygen",
+      "evidence": "If oxygen is not available, the proton gradient collapses"
+    },
+    {
+      "head": "ATP production",
+      "relation": "decrease",
+      "tail": "oxygen",
+      "evidence": "ATP production from oxidative phosphorylation decreases"
+    }
+  ]
+}

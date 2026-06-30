@@ -1,0 +1,147 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 13,
+  "num_entities": 21,
+  "entities": [
+    "5' to 3' direction",
+    "DNA double helix to partially unwind",
+    "Prokaryotes",
+    "Prokaryotic DNA",
+    "Prokaryotic RNA polymerase",
+    "Promoter",
+    "RNA polymerase",
+    "Rho protein",
+    "Rho-dependent termination",
+    "Transcription",
+    "consensus sequences",
+    "five polypeptide subunits",
+    "mRNA",
+    "membrane-bound nuclei",
+    "nucleoid region",
+    "plasmids",
+    "region rich in C\u2013G nucleotides",
+    "run of G nucleotides",
+    "transcription initiation",
+    "transcription machinery",
+    "\u03c3 subunit"
+  ],
+  "triples": [
+    {
+      "head": "Prokaryotes",
+      "head_type": "Organism",
+      "relation": "lack",
+      "relation_type": "INHIBITS",
+      "tail": "membrane-bound nuclei",
+      "tail_type": "CellularStructure",
+      "evidence": "The prokaryotes, which include Bacteria and Archaea, are mostly single-celled organisms that, by definition, lack membrane-bound nuclei and other organelles."
+    },
+    {
+      "head": "Prokaryotic DNA",
+      "head_type": "Gene",
+      "relation": "resides in",
+      "relation_type": "LOCATED_IN",
+      "tail": "nucleoid region",
+      "tail_type": "CellularStructure",
+      "evidence": "The central region of the cell in which prokaryotic DNA resides is called the nucleoid region."
+    },
+    {
+      "head": "Prokaryotes",
+      "head_type": "Organism",
+      "relation": "have",
+      "relation_type": "CONSISTS_OF",
+      "tail": "plasmids",
+      "tail_type": "GeneticElement",
+      "evidence": "In addition, prokaryotes often have abundant plasmids, which are shorter, circular DNA molecules that may only contain one or a few genes."
+    },
+    {
+      "head": "Transcription",
+      "head_type": "Process",
+      "relation": "requires",
+      "relation_type": "CONSUMES",
+      "tail": "DNA double helix to partially unwind",
+      "tail_type": "Process",
+      "evidence": "Transcription in prokaryotes (and in eukaryotes) requires the DNA double helix to partially unwind in the region of mRNA synthesis."
+    },
+    {
+      "head": "RNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "synthesizes",
+      "relation_type": "PRODUCES",
+      "tail": "mRNA",
+      "tail_type": "Molecule",
+      "evidence": "RNA is synthesized in its 5'-3' direction, using the enzyme RNA polymerase."
+    },
+    {
+      "head": "Prokaryotic RNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "composed of",
+      "relation_type": "CONSISTS_OF",
+      "tail": "five polypeptide subunits",
+      "tail_type": "Molecule",
+      "evidence": "In E. coli, the polymerase is composed of five polypeptide subunits, two of which are identical."
+    },
+    {
+      "head": "\u03c3 subunit",
+      "head_type": "Molecule",
+      "relation": "involved in",
+      "relation_type": "REGULATES",
+      "tail": "transcription initiation",
+      "tail_type": "Process",
+      "evidence": "The fifth subunit, \u03c3, is involved only in transcription initiation."
+    },
+    {
+      "head": "Promoter",
+      "head_type": "GeneticElement",
+      "relation": "binds",
+      "relation_type": "BINDS",
+      "tail": "transcription machinery",
+      "tail_type": "Process",
+      "evidence": "A promoter is a DNA sequence onto which the transcription machinery, including RNA polymerase, binds and initiates transcription."
+    },
+    {
+      "head": "\u03c3 subunit",
+      "head_type": "Molecule",
+      "relation": "recognizes",
+      "relation_type": "BINDS",
+      "tail": "consensus sequences",
+      "tail_type": "GeneticElement",
+      "evidence": "The \u03c3 subunit of prokaryotic RNA polymerase recognizes consensus sequences found in the promoter region upstream of the transcription start site."
+    },
+    {
+      "head": "RNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "synthesizes mRNA in",
+      "relation_type": "PRODUCES",
+      "tail": "5' to 3' direction",
+      "tail_type": "Process",
+      "evidence": "As elongation proceeds, the DNA is continuously unwound ahead of the core enzyme and rewound behind it. The base pairing between DNA and RNA is not stable enough to maintain the stability of the mRNA synthesis components."
+    },
+    {
+      "head": "Rho protein",
+      "head_type": "Molecule",
+      "relation": "controls",
+      "relation_type": "REGULATES",
+      "tail": "Rho-dependent termination",
+      "tail_type": "Process",
+      "evidence": "Rho-dependent termination is controlled by the rho (\u03c1) protein, which tracks along behind the polymerase on the growing mRNA chain."
+    },
+    {
+      "head": "RNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "encounters",
+      "relation_type": "BINDS",
+      "tail": "run of G nucleotides",
+      "tail_type": "Molecule",
+      "evidence": "Near the end of the gene, the polymerase encounters a run of G nucleotides on the DNA template and it stalls."
+    },
+    {
+      "head": "RNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "encounters",
+      "relation_type": "BINDS",
+      "tail": "region rich in C\u2013G nucleotides",
+      "tail_type": "Molecule",
+      "evidence": "As the polymerase nears the end of the gene being transcribed, it encounters a region rich in C\u2013G nucleotides."
+    }
+  ]
+}

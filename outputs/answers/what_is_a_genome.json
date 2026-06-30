@@ -1,0 +1,10 @@
+{
+  "question": "What is a genome?",
+  "answer": "the complete set of genes",
+  "citations": [
+    "chunk:ch17_biotechnology_and_genomics:51 | data/Ch17_Biotechnology_and_Genomics.pdf | of problems maintaining and shipping the crop. 17.2 Mapping Genomes LEARNING OBJECTIVES By the end of this section, y...",
+    "chunk:ch17_biotechnology_and_genomics:0 | data/Ch17_Biotechnology_and_Genomics.pdf | INTRODUCTION CHAPTER 17 Biotechnology and Genomics 17.1 Biotechnology 17.2 Mapping Genomes 17.3 Whole-Genome Sequenci...",
+    "chunk:mcb_genetics:259 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | to find the initiation site.) 418 15 • Critical Thinking Questions Access for free at openstax.org INTRODUCTION CHAPT..."
+  ],
+  "reasoning": "Matched entities: genome. Traversed graph edges: genetically modified organism (GMO) --[has an artificially changed genome]--> genome; organism --[receives recombinant DNA]--> genetically modified organism (GMO); pharmacogenomics --[studies]--> the genome. Graph evidence: \"genetically modified organism (GMO) organism whose genome has been artificially changed\". The context defines genomics as the study of entire genomes, which includes the complete set of genes, their nucleotide sequence and organization, and their interactions within a species and with other species."
+}

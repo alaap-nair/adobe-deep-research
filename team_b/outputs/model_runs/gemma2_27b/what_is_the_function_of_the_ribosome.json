@@ -1,0 +1,9 @@
+{
+  "question": "What is the function of the ribosome?",
+  "answer": "The ribosome translates mRNA into protein.",
+  "citations": [
+    "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:5 | 15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt | In E. coli, there are between 10,000 and 70,000 ribosomes present in each cell at any given time. A ribosome is a com...",
+    "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:4 | 15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt | on the organism. However, the general structures and functions of the protein synthesis machinery are comparable from..."
+  ],
+  "reasoning": "Matched entities: ribosome, improved function of the intestines. Traversed graph edges: ribosome --[translates]--> mRNA; mRNA --[is read in groups of]--> three nucleotides; mRNA --[is translated on]--> ribosomes. Graph evidence: \"The ribosome is responsible for translating the mRNA into protein.\". The triple 'ribosome --[translates]--> mRNA' states that ribosomes translate mRNA."
+}

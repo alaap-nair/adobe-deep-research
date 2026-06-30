@@ -1,0 +1,539 @@
+{
+  "question": "Which molecule produced by the light-dependent reactions provides the reducing power needed during the reduction stage of the Calvin cycle?",
+  "generated_at": "2026-05-01T07:51:13.332202+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "molecule",
+        "produced",
+        "light",
+        "dependent",
+        "reactions",
+        "provides",
+        "reducing",
+        "power",
+        "needed",
+        "during",
+        "reduction",
+        "stage",
+        "calvin",
+        "cycle",
+        "molecule produced",
+        "produced light",
+        "light dependent",
+        "dependent reactions",
+        "reactions provides",
+        "provides reducing",
+        "reducing power",
+        "power needed",
+        "needed during",
+        "during reduction",
+        "reduction stage",
+        "stage calvin",
+        "calvin cycle",
+        "molecule produced light",
+        "produced light dependent",
+        "light dependent reactions",
+        "dependent reactions provides",
+        "reactions provides reducing",
+        "provides reducing power",
+        "reducing power needed",
+        "power needed during",
+        "needed during reduction",
+        "during reduction stage",
+        "reduction stage calvin",
+        "stage calvin cycle"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:calvin_cycle",
+          "name": "calvin cycle",
+          "matched_text": "calvin",
+          "matched_alias": "calvin cycle",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        },
+        {
+          "entity_id": "ent:carbohydrate_molecules",
+          "name": "carbohydrate molecules",
+          "matched_text": "molecule",
+          "matched_alias": "carbohydrate molecules",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        },
+        {
+          "entity_id": "ent:light-dependent_reactions",
+          "name": "light-dependent reactions",
+          "matched_text": "dependent",
+          "matched_alias": "light-dependent reactions",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:5",
+          "text": "the Calvin cycle can be organized into three basic stages: fixation,\nreduction, and regeneration.\n\nStage 1: Fixation\nIn the stroma, in addition to CO , two other components are present to initiate the light-independent\nreactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three\nmolecules of ribulose bisphosphate (RuBP), as shown in Figure 8.19. RuBP has five atoms of carbon,\nflanked by two phosphates. VISUAL CONNECTION\n2  \n4/14/26, 11:44 AM\n8.3 Using Light Energy to Make Organic Molecules - Biology 2e | OpenStax\nhttps://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules\n2/8",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 5,
+          "snippet": "the Calvin cycle can be organized into three basic stages: fixation,\nreduction, and regeneration.\n\nStage 1: Fixation\nIn the stroma, in addition to CO , two other components are present to initiate the light-independent\nreactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three\nmolecules of ribulose bisphosphate (RuBP), as shown in Figure 8.19. RuBP has five at",
+          "score": 0.7361992618992415,
+          "rerank_score": 5.1977996826171875
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:4",
+          "text": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules\n1/8\n\nFigure 8.18 Light reactions harness energy from the sun to produce chemical bonds, ATP, and NADPH. These energy-carrying molecules\nare made in the stroma where carbon fixation takes place. Credit: Rao, A., Ryan, K., Tag, A., Fletcher, S. and Hawkins, A. Department of\nBiology, Texas A&M University. The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation,\nreduction, and regeneration.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 4,
+          "snippet": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules\n1/8\n\nFigure 8.18 Light reactions harness energy from the sun to produce chemical bonds, ATP, and NADPH. These energy-carrying molecules\nare made in the stroma where carbon fixation takes place. Credit: Rao, A., Ryan, K., Tag, A., Fletcher, S. and Hawkins, A. Department of\nBiology, Texas A&M University. The",
+          "score": 0.7761498114519272,
+          "rerank_score": 4.3507232666015625
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:1",
+          "text": "for long-term energy\nstorage.\n\nThe products of the light-dependent reactions, ATP and NADPH, have lifespans in the range of\nmillionths of seconds, whereas the products of the light-independent reactions (carbohydrates and\nother forms of reduced carbon) can survive almost indefinitely. The carbohydrate molecules made will\nhave a backbone of carbon atoms. But where does the carbon come from? It comes from carbon\ndioxide—the gas that is a waste product of respiration in microbes, fungi, plants, and animals. The Calvin Cycle\nIn plants, carbon dioxide (CO ) enters the leaves through stomata, where it diffuses over short\ndistances through intercellular spaces until it reaches the mesophyll cells.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 1,
+          "snippet": "for long-term energy\nstorage.\n\nThe products of the light-dependent reactions, ATP and NADPH, have lifespans in the range of\nmillionths of seconds, whereas the products of the light-independent reactions (carbohydrates and\nother forms of reduced carbon) can survive almost indefinitely. The carbohydrate molecules made will\nhave a backbone of carbon atoms. But where does the carbon come from? It come",
+          "score": 0.7710062432589619,
+          "rerank_score": 1.5171382427215576
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:9",
+          "text": "CO  is “fixed” from an\ninorganic form into organic molecules.\n\nStage 2: Reduction\nATP and NADPH are used to convert the six molecules of 3-PGA into six molecules of a chemical called\nglyceraldehyde 3-phosphate (G3P). That is a reduction reaction because it involves the gain of\nelectrons by 3-PGA. (Recall that a reduction is the gain of an electron by an atom or molecule.) Six\nmolecules of both ATP and NADPH are used. For ATP, energy is released with the loss of the terminal\nphosphate atom, converting it into ADP; for NADPH, both energy and a hydrogen atom are lost,\nconverting it into NADP . Both of these molecules return to the nearby light-dependent reactions to be\nreused and re-energized.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 9,
+          "snippet": "CO  is “fixed” from an\ninorganic form into organic molecules.\n\nStage 2: Reduction\nATP and NADPH are used to convert the six molecules of 3-PGA into six molecules of a chemical called\nglyceraldehyde 3-phosphate (G3P). That is a reduction reaction because it involves the gain of\nelectrons by 3-PGA. (Recall that a reduction is the gain of an electron by an atom or molecule.) Six\nmolecules of both ATP",
+          "score": 0.7257371132630884,
+          "rerank_score": 0.9766227006912231
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:6",
+          "text": "2/8\n\nFigure 8.19 The Calvin cycle has three stages. In stage 1, the enzyme RuBisCO incorporates carbon dioxide into an organic\nmolecule, 3-PGA. In stage 2, the organic molecule is reduced using electrons supplied by NADPH. In stage 3, RuBP, the\nmolecule that starts the cycle, is regenerated so that the cycle can continue. Only one carbon dioxide molecule is\nincorporated at a time, so the cycle must be completed three times to produce a single three-carbon G3P molecule, and six\ntimes to produce a six-carbon glucose molecule. Credit: Rao, A., Ryan, K., Tag, A., Fletcher, S. and Hawkins, A. Department of\nBiology, Texas A&M University. Which of the following statements is true? a.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 6,
+          "snippet": "2/8\n\nFigure 8.19 The Calvin cycle has three stages. In stage 1, the enzyme RuBisCO incorporates carbon dioxide into an organic\nmolecule, 3-PGA. In stage 2, the organic molecule is reduced using electrons supplied by NADPH. In stage 3, RuBP, the\nmolecule that starts the cycle, is regenerated so that the cycle can continue. Only one carbon dioxide molecule is\nincorporated at a time, so the cycle mus",
+          "score": 0.7301515436357369,
+          "rerank_score": 0.6689916253089905
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:7c0a23831d75710c",
+          "head_entity_id": "ent:photosynthesis",
+          "tail_entity_id": "ent:light-independent_reactions",
+          "relation": "consists of",
+          "evidence": "Photosynthesis takes place in two sequential stages: the light-dependent reactions and the light-independent reactions.",
+          "head_name": "photosynthesis",
+          "tail_name": "light-independent reactions",
+          "score": 0.7295525964225604
+        },
+        {
+          "triple_id": "triple:b221eccb50b972b8",
+          "head_entity_id": "ent:photoautotrophs",
+          "tail_entity_id": "ent:light_energy_into_chemical_energy",
+          "relation": "convert",
+          "evidence": "In the case of photosynthesis, light energy is converted into chemical energy, which photoautotrophs use to build basic carbohydrate molecules (Figure 8.9).",
+          "head_name": "photoautotrophs",
+          "tail_name": "light energy into chemical energy",
+          "score": 0.7278129369302129
+        },
+        {
+          "triple_id": "triple:7281bd04e912771f",
+          "head_entity_id": "ent:photosynthesis",
+          "tail_entity_id": "ent:water",
+          "relation": "requires",
+          "evidence": "Photosynthesis is a multi-step process that requires specific wavelengths of visible sunlight, carbon dioxide (which is low in energy), and water as substrates.",
+          "head_name": "photosynthesis",
+          "tail_name": "water",
+          "score": 0.7138602320647447
+        },
+        {
+          "triple_id": "triple:fe1d076fa71d44c2",
+          "head_entity_id": "ent:light-dependent_reactions",
+          "tail_entity_id": "ent:thylakoid_membrane",
+          "relation": "occurs in",
+          "evidence": "The light-dependent reactions utilize certain molecules to temporarily store the energy: These are referred to as energy carriers.",
+          "head_name": "light-dependent reactions",
+          "tail_name": "thylakoid membrane",
+          "score": 0.7130009275350536
+        },
+        {
+          "triple_id": "triple:704a71fe6fdb8ffd",
+          "head_entity_id": "ent:calvin_cycle",
+          "tail_entity_id": "ent:carbon_dioxide",
+          "relation": "consumes",
+          "evidence": "In the stroma, in addition to CO2, two other components are present to initiate the light-independent reactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three molecules of ribulose bisphosphate (RuBP).",
+          "head_name": "calvin cycle",
+          "tail_name": "carbon dioxide",
+          "score": 0.7118120408438187
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:calvin_cycle",
+        "ent:carbohydrate_molecules",
+        "ent:light-dependent_reactions",
+        "ent:photosynthesis",
+        "ent:light-independent_reactions",
+        "ent:photoautotrophs",
+        "ent:light_energy_into_chemical_energy",
+        "ent:water",
+        "ent:thylakoid_membrane",
+        "ent:carbon_dioxide"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "calvin cycle",
+          "entity_id": "ent:calvin_cycle",
+          "original_names": [
+            "Calvin cycle"
+          ]
+        },
+        {
+          "name": "carbon dioxide",
+          "entity_id": "ent:carbon_dioxide",
+          "original_names": [
+            "carbon dioxide"
+          ]
+        },
+        {
+          "name": "photosynthesis",
+          "entity_id": "ent:photosynthesis",
+          "original_names": [
+            "Photosynthesis",
+            "photosynthesis"
+          ]
+        },
+        {
+          "name": "g3p",
+          "entity_id": "ent:g3p",
+          "original_names": [
+            "G3P"
+          ]
+        },
+        {
+          "name": "atp",
+          "entity_id": "ent:atp",
+          "original_names": [
+            "ATP"
+          ]
+        },
+        {
+          "name": "atp synthase",
+          "entity_id": "ent:atp_synthase",
+          "original_names": [
+            "ATP synthase"
+          ]
+        },
+        {
+          "name": "nadph",
+          "entity_id": "ent:nadph",
+          "original_names": [
+            "NADPH"
+          ]
+        },
+        {
+          "name": "stroma",
+          "entity_id": "ent:stroma",
+          "original_names": [
+            "stroma"
+          ]
+        },
+        {
+          "name": "light-independent reactions",
+          "entity_id": "ent:light-independent_reactions",
+          "original_names": [
+            "light-independent reactions",
+            "Light-independent reactions"
+          ]
+        },
+        {
+          "name": "carbohydrates",
+          "entity_id": "ent:carbohydrates",
+          "original_names": [
+            "carbohydrates"
+          ]
+        },
+        {
+          "name": "carbohydrate molecules",
+          "entity_id": "ent:carbohydrate_molecules",
+          "original_names": [
+            "carbohydrate molecules"
+          ]
+        },
+        {
+          "name": "algae",
+          "entity_id": "ent:algae",
+          "original_names": [
+            "Algae"
+          ]
+        },
+        {
+          "name": "light-dependent reactions",
+          "entity_id": "ent:light-dependent_reactions",
+          "original_names": [
+            "light-dependent reactions",
+            "Light-dependent reactions"
+          ]
+        },
+        {
+          "name": "sunlight",
+          "entity_id": "ent:sunlight",
+          "original_names": [
+            "sunlight"
+          ]
+        },
+        {
+          "name": "oxygen",
+          "entity_id": "ent:oxygen",
+          "original_names": [
+            "oxygen"
+          ]
+        },
+        {
+          "name": "leaves",
+          "entity_id": "ent:leaves",
+          "original_names": [
+            "leaves"
+          ]
+        },
+        {
+          "name": "glyceraldehyde-3-phosphate",
+          "entity_id": "ent:glyceraldehyde-3-phosphate",
+          "original_names": [
+            "glyceraldehyde-3-phosphate"
+          ]
+        },
+        {
+          "name": "plants",
+          "entity_id": "ent:plants",
+          "original_names": [
+            "plants"
+          ]
+        },
+        {
+          "name": "water",
+          "entity_id": "ent:water",
+          "original_names": [
+            "water"
+          ]
+        },
+        {
+          "name": "chloroplast",
+          "entity_id": "ent:chloroplast",
+          "original_names": [
+            "chloroplast",
+            "Chloroplast"
+          ]
+        },
+        {
+          "name": "cyanobacteria",
+          "entity_id": "ent:cyanobacteria",
+          "original_names": [
+            "Cyanobacteria"
+          ]
+        },
+        {
+          "name": "mesophyll",
+          "entity_id": "ent:mesophyll",
+          "original_names": [
+            "mesophyll"
+          ]
+        },
+        {
+          "name": "thylakoid membrane",
+          "entity_id": "ent:thylakoid_membrane",
+          "original_names": [
+            "thylakoid membrane"
+          ]
+        },
+        {
+          "name": "chlorophyll a and b",
+          "entity_id": "ent:chlorophyll_a_and_b",
+          "original_names": [
+            "chlorophyll a and b"
+          ]
+        },
+        {
+          "name": "carotenoids",
+          "entity_id": "ent:carotenoids",
+          "original_names": [
+            "carotenoids"
+          ]
+        },
+        {
+          "name": "fungi",
+          "entity_id": "ent:fungi",
+          "original_names": [
+            "fungi"
+          ]
+        },
+        {
+          "name": "fungus",
+          "entity_id": "ent:fungus",
+          "original_names": [
+            "fungus"
+          ]
+        },
+        {
+          "name": "photosystem ii",
+          "entity_id": "ent:photosystem_ii",
+          "original_names": [
+            "photosystem II"
+          ]
+        },
+        {
+          "name": "chytrids",
+          "entity_id": "ent:chytrids",
+          "original_names": [
+            "Chytrids"
+          ]
+        },
+        {
+          "name": "ascomycota",
+          "entity_id": "ent:ascomycota",
+          "original_names": [
+            "Ascomycota"
+          ]
+        },
+        {
+          "name": "energy from sunlight",
+          "entity_id": "ent:energy_from_sunlight",
+          "original_names": [
+            "energy from sunlight"
+          ]
+        },
+        {
+          "name": "thylakoids",
+          "entity_id": "ent:thylakoids",
+          "original_names": [
+            "thylakoids"
+          ]
+        },
+        {
+          "name": "photoautotrophs",
+          "entity_id": "ent:photoautotrophs",
+          "original_names": [
+            "photoautotrophs"
+          ]
+        },
+        {
+          "name": "specific wavelengths of sunlight",
+          "entity_id": "ent:specific_wavelengths_of_sunlight",
+          "original_names": [
+            "specific wavelengths of sunlight"
+          ]
+        },
+        {
+          "name": "light energy into chemical energy",
+          "entity_id": "ent:light_energy_into_chemical_energy",
+          "original_names": [
+            "light energy into chemical energy"
+          ]
+        },
+        {
+          "name": "electrons from water",
+          "entity_id": "ent:electrons_from_water",
+          "original_names": [
+            "electrons from water"
+          ]
+        },
+        {
+          "name": "short-wavelength blue region",
+          "entity_id": "ent:short-wavelength_blue_region",
+          "original_names": [
+            "short-wavelength blue region"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:carbon_dioxide",
+          "evidence": "In the stroma, in addition to CO2, two other components are present to initiate the light-independent reactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three molecules of ribulose bisphosphate (RuBP).",
+          "target_name": "carbon dioxide",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:704a71fe6fdb8ffd",
+          "source_name": "Calvin cycle",
+          "relation": "consumes"
+        },
+        {
+          "target_entity_id": "ent:carbon_dioxide",
+          "evidence": "Photosynthesis is a multi-step process that requires specific wavelengths of visible sunlight, carbon dioxide (which is low in energy), and water as substrates.",
+          "target_name": "carbon dioxide",
+          "source_entity_id": "ent:photosynthesis",
+          "triple_id": "triple:c08663ef8421e663",
+          "source_name": "Photosynthesis",
+          "relation": "requires"
+        },
+        {
+          "target_entity_id": "ent:g3p",
+          "evidence": "The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration.",
+          "target_name": "G3P",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:13f848f8eb4facfb",
+          "source_name": "Calvin cycle",
+          "relation": "produces"
+        },
+        {
+          "target_entity_id": "ent:g3p",
+          "evidence": "The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration.",
+          "target_name": "G3P",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:8e40d7a51f9db422",
+          "source_name": "Calvin cycle",
+          "relation": "converts to"
+        },
+        {
+          "target_entity_id": "ent:atp",
+          "evidence": "ATP and NADPH are used to convert the six molecules of 3-PGA into six molecules of a chemical called glyceraldehyde 3-phosphate (G3P).",
+          "target_name": "ATP",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:5bdbe1c59267d238",
+          "source_name": "Calvin cycle",
+          "relation": "consumes"
+        },
+        {
+          "target_entity_id": "ent:atp",
+          "evidence": "The energy released by the hydrogen ion stream allows ATP synthase to attach a third phosphate group to ADP, which forms a molecule of ATP (Figure 8.17).",
+          "target_name": "ATP",
+          "source_entity_id": "ent:atp_synthase",
+          "triple_id": "triple:fe14153c451dd6e1",
+          "source_name": "ATP synthase",
+          "relation": "forms"
+        },
+        {
+          "target_entity_id": "ent:nadph",
+          "evidence": "ATP and NADPH are used to convert the six molecules of 3-PGA into six molecules of a chemical called glyceraldehyde 3-phosphate (G3P).",
+          "target_name": "NADPH",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:bfca81382791b43d",
+          "source_name": "Calvin cycle",
+          "relation": "consumes"
+        },
+        {
+          "target_entity_id": "ent:stroma",
+          "evidence": "Once in the mesophyll cells, CO2 diffuses into the stroma of the chloroplast—the site of light-independent reactions of photosynthesis.",
+          "target_name": "stroma",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:c5c8377caf8b4a03",
+          "source_name": "Calvin cycle",
+          "relation": "occurs in"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "Which molecule produced by the light-dependent reactions provides the reducing power needed during the reduction stage of the Calvin cycle?",
+    "answer": "NADPH",
+    "citations": [
+      "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:1 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | for long-term energy storage. The products of the light-dependent reactions, ATP and NADPH, have lifespans in the ran...",
+      "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:9 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | CO is “fixed” from an inorganic form into organic molecules. Stage 2: Reduction ATP and NADPH are used to convert the...",
+      "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:6 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | 2/8 Figure 8.19 The Calvin cycle has three stages. In stage 1, the enzyme RuBisCO incorporates carbon dioxide into an..."
+    ],
+    "reasoning": "Matched entities: calvin cycle, carbohydrate molecules, light-dependent reactions. Traversed graph edges: Calvin cycle --[consumes]--> carbon dioxide; Photosynthesis --[requires]--> carbon dioxide; Calvin cycle --[produces]--> G3P. Graph evidence: \"In the stroma, in addition to CO2, two other components are present to initiate the light-independent reactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three molecules of ribulose bisphosphate (RuBP).\". The context mentions that the light-dependent reactions produce ATP and NADPH. It further states that during the reduction stage of the Calvin cycle, ATP and NADPH are used to convert 3-PGA into G3P, indicating that NADPH provides the reducing power."
+  }
+}

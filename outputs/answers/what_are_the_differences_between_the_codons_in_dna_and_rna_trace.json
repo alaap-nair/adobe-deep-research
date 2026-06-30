@@ -1,0 +1,2319 @@
+{
+  "question": "What are the differences between the codons in DNA and RNA?",
+  "generated_at": "2026-04-15T00:55:53.759244+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "differences",
+        "between",
+        "codons",
+        "dna",
+        "rna",
+        "differences between",
+        "between codons",
+        "codons dna",
+        "dna rna",
+        "differences between codons",
+        "between codons dna",
+        "codons dna rna"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:codons",
+          "name": "codons",
+          "matched_text": "codons",
+          "matched_alias": "codons",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:dna",
+          "name": "dna",
+          "matched_text": "dna",
+          "matched_alias": "dna",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:rna",
+          "name": "rna",
+          "matched_text": "rna",
+          "matched_alias": "rna",
+          "score": 1.0,
+          "match_type": "keyword"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:mcb_genetics:149",
+          "text": "always proceeds from the\nsame DNA strand for each gene, which is called the template strand.\n\nThe mRNA product is complementary to the\ntemplate strand and is almost identical to the other DNA strand, called the nontemplate strand, or the coding\nstrand. The only nucleotide difference is that in mRNA, all of the T nucleotides are replaced with U nucleotides\n(Figure 15.7). In an RNA double helix, A can bind U via two hydrogen bonds, just as in A–T pairing in a DNA double\nhelix. 396\n15 • Genes and Proteins\nAccess for free at openstax.org",
+          "source_name": "/Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf",
+          "chunk_index": 149,
+          "snippet": "always proceeds from the\nsame DNA strand for each gene, which is called the template strand.\n\nThe mRNA product is complementary to the\ntemplate strand and is almost identical to the other DNA strand, called the nontemplate strand, or the coding\nstrand. The only nucleotide difference is that in mRNA, all of the T nucleotides are replaced with U nucleotides\n(Figure 15.7). In an RNA double helix, A c",
+          "score": 0.7350364100961151
+        },
+        {
+          "chunk_id": "chunk:ch15_genes_and_proteins:6",
+          "text": "of this\ninformation for protein synthesis, while keeping the DNA itself intact and protected.\n\nThe copying\nof DNA to RNA is relatively straightforward, with one nucleotide being added to the mRNA strand\nfor every nucleotide read in the DNA strand. The translation to protein is a bit more complex\nbecause three mRNA nucleotides correspond to one amino acid in the polypeptide sequence. However, the translation to protein is still systematic and colinear, such that nucleotides 1 to 3\ncorrespond to amino acid 1, nucleotides 4 to 6 correspond to amino acid 2, and so on. 392\n15 • Genes and Proteins\nAccess for free at openstax.org",
+          "source_name": "data/Ch15_Genes_and_Proteins.pdf",
+          "chunk_index": 6,
+          "snippet": "of this\ninformation for protein synthesis, while keeping the DNA itself intact and protected.\n\nThe copying\nof DNA to RNA is relatively straightforward, with one nucleotide being added to the mRNA strand\nfor every nucleotide read in the DNA strand. The translation to protein is a bit more complex\nbecause three mRNA nucleotides correspond to one amino acid in the polypeptide sequence. However, the t",
+          "score": 0.723415945610505
+        },
+        {
+          "chunk_id": "chunk:ch15_genes_and_proteins:5",
+          "text": "that gives rise to the incredible variation of protein\nstructure and function.\n\nThe Central Dogma: DNA Encodes RNA; RNA Encodes Protein\nThe flow of genetic information in cells from DNA to mRNA to protein is described by the central\ndogma (Figure 15.3), which states that genes specify the sequence of mRNAs, which in turn\nspecify the sequence of amino acids making up all proteins. The decoding of one molecule to\nanother is performed by specific proteins and RNAs. Because the information stored in DNA is so\ncentral to cellular function, it makes intuitive sense that the cell would make mRNA copies of this\ninformation for protein synthesis, while keeping the DNA itself intact and protected.",
+          "source_name": "data/Ch15_Genes_and_Proteins.pdf",
+          "chunk_index": 5,
+          "snippet": "that gives rise to the incredible variation of protein\nstructure and function.\n\nThe Central Dogma: DNA Encodes RNA; RNA Encodes Protein\nThe flow of genetic information in cells from DNA to mRNA to protein is described by the central\ndogma (Figure 15.3), which states that genes specify the sequence of mRNAs, which in turn\nspecify the sequence of amino acids making up all proteins. The decoding of o",
+          "score": 0.7188519245017588
+        },
+        {
+          "chunk_id": "chunk:ch15_genes_and_proteins:130",
+          "text": "Thinking Questions\n19. Imagine if there were 200 commonly occurring\namino acids instead of 20.\n\nGiven what you know\nabout the genetic code, what would be the\nshortest possible codon length? Explain. 20. Discuss how degeneracy of the genetic code\nmakes cells more robust to mutations. 21. A scientist sequencing mRNA identifies the\nfollowing strand:\nCUAUGUGUCGUAACAGCCGAUGACCCG\nWhat is the sequence of the amino acid chain\nthis mRNA makes when it is translated? 22. If mRNA is complementary to the DNA template\nstrand and the DNA template strand is\ncomplementary to the DNA nontemplate strand,\nthen why are base sequences of mRNA and the\nDNA nontemplate strand not identical? Could\nthey ever be? 23.",
+          "source_name": "data/Ch15_Genes_and_Proteins.pdf",
+          "chunk_index": 130,
+          "snippet": "Thinking Questions\n19. Imagine if there were 200 commonly occurring\namino acids instead of 20.\n\nGiven what you know\nabout the genetic code, what would be the\nshortest possible codon length? Explain. 20. Discuss how degeneracy of the genetic code\nmakes cells more robust to mutations. 21. A scientist sequencing mRNA identifies the\nfollowing strand:\nCUAUGUGUCGUAACAGCCGAUGACCCG\nWhat is the sequence of",
+          "score": 0.7173832233756672
+        },
+        {
+          "chunk_id": "chunk:ch15_genes_and_proteins:131",
+          "text": "are base sequences of mRNA and the\nDNA nontemplate strand not identical? Could\nthey ever be? 23.\n\nIn your own words, describe the difference\nbetween rho-dependent and rho-independent\ntermination of transcription in prokaryotes. 24. A fragment of bacterial DNA reads:\n3’\n–TACCTATAATCTCAATTGATAGAAGCACTCTAC–\n5’\n15 • Critical Thinking Questions\n417",
+          "source_name": "data/Ch15_Genes_and_Proteins.pdf",
+          "chunk_index": 131,
+          "snippet": "are base sequences of mRNA and the\nDNA nontemplate strand not identical? Could\nthey ever be? 23.\n\nIn your own words, describe the difference\nbetween rho-dependent and rho-independent\ntermination of transcription in prokaryotes. 24. A fragment of bacterial DNA reads:\n3’\n–TACCTATAATCTCAATTGATAGAAGCACTCTAC–\n5’\n15 • Critical Thinking Questions\n417",
+          "score": 0.7162851439638653
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:160124b653eb53d3",
+          "head_entity_id": "ent:messenger_rna",
+          "tail_entity_id": "ent:protein-coding_information",
+          "relation": "is a copy of",
+          "evidence": "Messenger RNA is a copy of protein-coding information in the coding strand of DNA, with the substitution of U in the RNA for T in the coding sequence.",
+          "head_name": "messenger RNA",
+          "tail_name": "protein-coding information",
+          "score": 0.716025488957755
+        },
+        {
+          "triple_id": "triple:5357e3239ce2fd85",
+          "head_entity_id": "ent:anticodon",
+          "tail_entity_id": "ent:codon",
+          "relation": "base pairs with",
+          "evidence": "the anticodon on the tRNA base pairs with the codon in the mRNA",
+          "head_name": "anticodon",
+          "tail_name": "codon",
+          "score": 0.7111459120753252
+        },
+        {
+          "triple_id": "triple:23d8fb5f89f49753",
+          "head_entity_id": "ent:genetic_code",
+          "tail_entity_id": "ent:polypeptide_alphabet",
+          "relation": "refers to",
+          "evidence": "The genetic code refers to the DNA alphabet (A, T, C, G), the RNA alphabet (A, U, C, G), and the polypeptide alphabet (20 amino acids).",
+          "head_name": "genetic code",
+          "tail_name": "polypeptide alphabet",
+          "score": 0.7042107164727873
+        },
+        {
+          "triple_id": "triple:18489b974c5bf838",
+          "head_entity_id": "ent:12_mrna_codons",
+          "tail_entity_id": "ent:36_nucleotides",
+          "relation": "contains",
+          "evidence": "How many nucleotides are in 12 mRNA codons? c. 36",
+          "head_name": "12 mRNA codons",
+          "tail_name": "36 nucleotides",
+          "score": 0.6919363432787092
+        },
+        {
+          "triple_id": "triple:14fd78bc070f175b",
+          "head_entity_id": "ent:dna",
+          "tail_entity_id": "ent:nucleotides",
+          "relation": "has building blocks",
+          "evidence": "The building blocks of DNA are nucleotides.",
+          "head_name": "DNA",
+          "tail_name": "nucleotides",
+          "score": 0.6885824536393544
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:codons",
+        "ent:dna",
+        "ent:rna",
+        "ent:messenger_rna",
+        "ent:protein-coding_information",
+        "ent:anticodon",
+        "ent:codon",
+        "ent:genetic_code",
+        "ent:polypeptide_alphabet",
+        "ent:12_mrna_codons",
+        "ent:36_nucleotides",
+        "ent:nucleotides"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "codons",
+          "entity_id": "ent:codons",
+          "original_names": [
+            "codons"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "ribosome",
+          "entity_id": "ent:ribosome",
+          "original_names": [
+            "ribosome",
+            "Ribosome"
+          ]
+        },
+        {
+          "name": "intron",
+          "entity_id": "ent:intron",
+          "original_names": [
+            "intron"
+          ]
+        },
+        {
+          "name": "nucleotides",
+          "entity_id": "ent:nucleotides",
+          "original_names": [
+            "nucleotides"
+          ]
+        },
+        {
+          "name": "genes",
+          "entity_id": "ent:genes",
+          "original_names": [
+            "genes"
+          ]
+        },
+        {
+          "name": "itself",
+          "entity_id": "ent:itself",
+          "original_names": [
+            "itself"
+          ]
+        },
+        {
+          "name": "7-methylguanosine cap",
+          "entity_id": "ent:7-methylguanosine_cap",
+          "original_names": [
+            "7-methylguanosine cap"
+          ]
+        },
+        {
+          "name": "t nucleotides with u nucleotides",
+          "entity_id": "ent:t_nucleotides_with_u_nucleotides",
+          "original_names": [
+            "T nucleotides with U nucleotides"
+          ]
+        },
+        {
+          "name": "trna",
+          "entity_id": "ent:trna",
+          "original_names": [
+            "tRNA"
+          ]
+        },
+        {
+          "name": "nontemplate strand",
+          "entity_id": "ent:nontemplate_strand",
+          "original_names": [
+            "nontemplate strand"
+          ]
+        },
+        {
+          "name": "termination",
+          "entity_id": "ent:termination",
+          "original_names": [
+            "termination"
+          ]
+        },
+        {
+          "name": "core enzyme",
+          "entity_id": "ent:core_enzyme",
+          "original_names": [
+            "Core enzyme",
+            "core enzyme"
+          ]
+        },
+        {
+          "name": "elongation",
+          "entity_id": "ent:elongation",
+          "original_names": [
+            "elongation"
+          ]
+        },
+        {
+          "name": "proteins",
+          "entity_id": "ent:proteins",
+          "original_names": [
+            "proteins",
+            "Proteins"
+          ]
+        },
+        {
+          "name": "globin protein",
+          "entity_id": "ent:globin_protein",
+          "original_names": [
+            "globin protein"
+          ]
+        },
+        {
+          "name": "initiation complex",
+          "entity_id": "ent:initiation_complex",
+          "original_names": [
+            "initiation complex"
+          ]
+        },
+        {
+          "name": "ribosomal subunits",
+          "entity_id": "ent:ribosomal_subunits",
+          "original_names": [
+            "ribosomal subunits"
+          ]
+        },
+        {
+          "name": "addition of a specific amino acid",
+          "entity_id": "ent:addition_of_a_specific_amino_acid",
+          "original_names": [
+            "addition of a specific amino acid"
+          ]
+        },
+        {
+          "name": "first and second nucleotides",
+          "entity_id": "ent:first_and_second_nucleotides",
+          "original_names": [
+            "first and second nucleotides"
+          ]
+        },
+        {
+          "name": "one nucleotide",
+          "entity_id": "ent:one_nucleotide",
+          "original_names": [
+            "one nucleotide"
+          ]
+        },
+        {
+          "name": "nucleotide triplet",
+          "entity_id": "ent:nucleotide_triplet",
+          "original_names": [
+            "nucleotide triplet"
+          ]
+        },
+        {
+          "name": "amino acid",
+          "entity_id": "ent:amino_acid",
+          "original_names": [
+            "amino acid",
+            "Amino acid"
+          ]
+        },
+        {
+          "name": "dna",
+          "entity_id": "ent:dna",
+          "original_names": [
+            "DNA"
+          ]
+        },
+        {
+          "name": "complementary strands",
+          "entity_id": "ent:complementary_strands",
+          "original_names": [
+            "complementary strands"
+          ]
+        },
+        {
+          "name": "histone proteins",
+          "entity_id": "ent:histone_proteins",
+          "original_names": [
+            "histone proteins"
+          ]
+        },
+        {
+          "name": "polymerase",
+          "entity_id": "ent:polymerase",
+          "original_names": [
+            "polymerase",
+            "Polymerase"
+          ]
+        },
+        {
+          "name": "glass rods",
+          "entity_id": "ent:glass_rods",
+          "original_names": [
+            "glass rods"
+          ]
+        },
+        {
+          "name": "rna",
+          "entity_id": "ent:rna",
+          "original_names": [
+            "RNA"
+          ]
+        },
+        {
+          "name": "capillary electrophoresis",
+          "entity_id": "ent:capillary_electrophoresis",
+          "original_names": [
+            "capillary electrophoresis"
+          ]
+        },
+        {
+          "name": "deoxyribose",
+          "entity_id": "ent:deoxyribose",
+          "original_names": [
+            "deoxyribose"
+          ]
+        },
+        {
+          "name": "negative electrode",
+          "entity_id": "ent:negative_electrode",
+          "original_names": [
+            "negative electrode"
+          ]
+        },
+        {
+          "name": "two strands",
+          "entity_id": "ent:two_strands",
+          "original_names": [
+            "two strands"
+          ]
+        },
+        {
+          "name": "size",
+          "entity_id": "ent:size",
+          "original_names": [
+            "size"
+          ]
+        },
+        {
+          "name": "predisposition to diseases",
+          "entity_id": "ent:predisposition_to_diseases",
+          "original_names": [
+            "predisposition to diseases"
+          ]
+        },
+        {
+          "name": "buoyant density",
+          "entity_id": "ent:buoyant_density",
+          "original_names": [
+            "buoyant density"
+          ]
+        },
+        {
+          "name": "gradient",
+          "entity_id": "ent:gradient",
+          "original_names": [
+            "gradient"
+          ]
+        },
+        {
+          "name": "too simple a molecule to carry biological information",
+          "entity_id": "ent:too_simple_a_molecule_to_carry_biological_information",
+          "original_names": [
+            "too simple a molecule to carry biological information"
+          ]
+        },
+        {
+          "name": "supercoiling",
+          "entity_id": "ent:supercoiling",
+          "original_names": [
+            "supercoiling"
+          ]
+        },
+        {
+          "name": "nucleosomes",
+          "entity_id": "ent:nucleosomes",
+          "original_names": [
+            "nucleosomes"
+          ]
+        },
+        {
+          "name": "watson and crick",
+          "entity_id": "ent:watson_and_crick",
+          "original_names": [
+            "Watson and Crick"
+          ]
+        },
+        {
+          "name": "cancer therapy",
+          "entity_id": "ent:cancer_therapy",
+          "original_names": [
+            "cancer therapy"
+          ]
+        },
+        {
+          "name": "four tubes",
+          "entity_id": "ent:four_tubes",
+          "original_names": [
+            "four tubes"
+          ]
+        },
+        {
+          "name": "origin of replication",
+          "entity_id": "ent:origin_of_replication",
+          "original_names": [
+            "origin of replication",
+            "Origin of replication"
+          ]
+        },
+        {
+          "name": "27 percent a",
+          "entity_id": "ent:27_percent_a",
+          "original_names": [
+            "27 percent A"
+          ]
+        },
+        {
+          "name": "gel",
+          "entity_id": "ent:gel",
+          "original_names": [
+            "gel"
+          ]
+        },
+        {
+          "name": "replication process",
+          "entity_id": "ent:replication_process",
+          "original_names": [
+            "replication process"
+          ]
+        },
+        {
+          "name": "histones",
+          "entity_id": "ent:histones",
+          "original_names": [
+            "histones"
+          ]
+        },
+        {
+          "name": "histone core",
+          "entity_id": "ent:histone_core",
+          "original_names": [
+            "histone core"
+          ]
+        },
+        {
+          "name": "new vaccine development",
+          "entity_id": "ent:new_vaccine_development",
+          "original_names": [
+            "new vaccine development"
+          ]
+        },
+        {
+          "name": "diagnostics",
+          "entity_id": "ent:diagnostics",
+          "original_names": [
+            "diagnostics"
+          ]
+        },
+        {
+          "name": "saliva",
+          "entity_id": "ent:saliva",
+          "original_names": [
+            "saliva"
+          ]
+        },
+        {
+          "name": "blood",
+          "entity_id": "ent:blood",
+          "original_names": [
+            "blood"
+          ]
+        },
+        {
+          "name": "hair",
+          "entity_id": "ent:hair",
+          "original_names": [
+            "hair"
+          ]
+        },
+        {
+          "name": "researchers",
+          "entity_id": "ent:researchers",
+          "original_names": [
+            "researchers",
+            "Researchers"
+          ]
+        },
+        {
+          "name": "southern blotting",
+          "entity_id": "ent:southern_blotting",
+          "original_names": [
+            "Southern blotting"
+          ]
+        },
+        {
+          "name": "metagenomics",
+          "entity_id": "ent:metagenomics",
+          "original_names": [
+            "metagenomics",
+            "Metagenomics"
+          ]
+        },
+        {
+          "name": "cells",
+          "entity_id": "ent:cells",
+          "original_names": [
+            "cells"
+          ]
+        },
+        {
+          "name": "single-strand binding proteins",
+          "entity_id": "ent:single-strand_binding_proteins",
+          "original_names": [
+            "single-strand binding proteins",
+            "Single-strand binding proteins"
+          ]
+        },
+        {
+          "name": "sliding clamp",
+          "entity_id": "ent:sliding_clamp",
+          "original_names": [
+            "sliding clamp"
+          ]
+        },
+        {
+          "name": "sulfur",
+          "entity_id": "ent:sulfur",
+          "original_names": [
+            "sulfur"
+          ]
+        },
+        {
+          "name": "dna polymerase",
+          "entity_id": "ent:dna_polymerase",
+          "original_names": [
+            "DNA polymerase"
+          ]
+        },
+        {
+          "name": "helicase",
+          "entity_id": "ent:helicase",
+          "original_names": [
+            "helicase",
+            "Helicase"
+          ]
+        },
+        {
+          "name": "32p",
+          "entity_id": "ent:32p",
+          "original_names": [
+            "32P"
+          ]
+        },
+        {
+          "name": "rna primers",
+          "entity_id": "ent:rna_primers",
+          "original_names": [
+            "RNA primers"
+          ]
+        },
+        {
+          "name": "phosphorous",
+          "entity_id": "ent:phosphorous",
+          "original_names": [
+            "phosphorous"
+          ]
+        },
+        {
+          "name": "alcohol",
+          "entity_id": "ent:alcohol",
+          "original_names": [
+            "alcohol"
+          ]
+        },
+        {
+          "name": "dna polymerase enzyme",
+          "entity_id": "ent:dna_polymerase_enzyme",
+          "original_names": [
+            "DNA polymerase enzyme"
+          ]
+        },
+        {
+          "name": "bacterial chromosome",
+          "entity_id": "ent:bacterial_chromosome",
+          "original_names": [
+            "Bacterial chromosome",
+            "bacterial chromosome"
+          ]
+        },
+        {
+          "name": "region rich in c–g nucleotides",
+          "entity_id": "ent:region_rich_in_c–g_nucleotides",
+          "original_names": [
+            "region rich in C–G nucleotides"
+          ]
+        },
+        {
+          "name": "run of g nucleotides",
+          "entity_id": "ent:run_of_g_nucleotides",
+          "original_names": [
+            "run of G nucleotides"
+          ]
+        },
+        {
+          "name": "the holoenzyme",
+          "entity_id": "ent:the_holoenzyme",
+          "original_names": [
+            "the holoenzyme"
+          ]
+        },
+        {
+          "name": "transcription factors",
+          "entity_id": "ent:transcription_factors",
+          "original_names": [
+            "transcription factors",
+            "Transcription factors"
+          ]
+        },
+        {
+          "name": "ribose",
+          "entity_id": "ent:ribose",
+          "original_names": [
+            "ribose"
+          ]
+        },
+        {
+          "name": "5'-3' direction",
+          "entity_id": "ent:5'-3'_direction",
+          "original_names": [
+            "5'-3' direction"
+          ]
+        },
+        {
+          "name": "protein",
+          "entity_id": "ent:protein",
+          "original_names": [
+            "protein",
+            "Protein"
+          ]
+        },
+        {
+          "name": "rna polymerase",
+          "entity_id": "ent:rna_polymerase",
+          "original_names": [
+            "RNA polymerase"
+          ]
+        },
+        {
+          "name": "nucleotides of the template strand",
+          "entity_id": "ent:nucleotides_of_the_template_strand",
+          "original_names": [
+            "nucleotides of the template strand"
+          ]
+        },
+        {
+          "name": "ribonucleases",
+          "entity_id": "ent:ribonucleases",
+          "original_names": [
+            "ribonucleases"
+          ]
+        },
+        {
+          "name": "ribonuclease",
+          "entity_id": "ent:ribonuclease",
+          "original_names": [
+            "ribonuclease"
+          ]
+        },
+        {
+          "name": "scientists",
+          "entity_id": "ent:scientists",
+          "original_names": [
+            "Scientists",
+            "scientists"
+          ]
+        },
+        {
+          "name": "nucleus",
+          "entity_id": "ent:nucleus",
+          "original_names": [
+            "nucleus"
+          ]
+        },
+        {
+          "name": "northern blotting",
+          "entity_id": "ent:northern_blotting",
+          "original_names": [
+            "Northern blotting"
+          ]
+        },
+        {
+          "name": "unstable",
+          "entity_id": "ent:unstable",
+          "original_names": [
+            "unstable"
+          ]
+        },
+        {
+          "name": "each other",
+          "entity_id": "ent:each_other",
+          "original_names": [
+            "each other"
+          ]
+        },
+        {
+          "name": "a right-handed helix",
+          "entity_id": "ent:a_right-handed_helix",
+          "original_names": [
+            "a right-handed helix"
+          ]
+        },
+        {
+          "name": "dna pol iii",
+          "entity_id": "ent:dna_pol_iii",
+          "original_names": [
+            "DNA pol III"
+          ]
+        },
+        {
+          "name": "exonuclease",
+          "entity_id": "ent:exonuclease",
+          "original_names": [
+            "exonuclease"
+          ]
+        },
+        {
+          "name": "dna polymerase iii",
+          "entity_id": "ent:dna_polymerase_iii",
+          "original_names": [
+            "DNA polymerase III"
+          ]
+        },
+        {
+          "name": "phosphodiester bonds",
+          "entity_id": "ent:phosphodiester_bonds",
+          "original_names": [
+            "phosphodiester bonds"
+          ]
+        },
+        {
+          "name": "“+”",
+          "entity_id": "ent:“+”",
+          "original_names": [
+            "“+”"
+          ]
+        },
+        {
+          "name": "“- ”",
+          "entity_id": "ent:“-_”",
+          "original_names": [
+            "“- ”"
+          ]
+        },
+        {
+          "name": "upstream nucleotides",
+          "entity_id": "ent:upstream_nucleotides",
+          "original_names": [
+            "upstream nucleotides"
+          ]
+        },
+        {
+          "name": "polymerase rna editing",
+          "entity_id": "ent:polymerase_rna_editing",
+          "original_names": [
+            "polymerase RNA editing"
+          ]
+        },
+        {
+          "name": "downstream nucleotides",
+          "entity_id": "ent:downstream_nucleotides",
+          "original_names": [
+            "downstream nucleotides"
+          ]
+        },
+        {
+          "name": "proflavin",
+          "entity_id": "ent:proflavin",
+          "original_names": [
+            "proflavin"
+          ]
+        },
+        {
+          "name": "mrnas",
+          "entity_id": "ent:mrnas",
+          "original_names": [
+            "mRNAs"
+          ]
+        },
+        {
+          "name": "nucleic acids",
+          "entity_id": "ent:nucleic_acids",
+          "original_names": [
+            "nucleic acids",
+            "Nucleic acids"
+          ]
+        },
+        {
+          "name": "topoisomerases",
+          "entity_id": "ent:topoisomerases",
+          "original_names": [
+            "Topoisomerases"
+          ]
+        },
+        {
+          "name": "dna gyrase",
+          "entity_id": "ent:dna_gyrase",
+          "original_names": [
+            "DNA gyrase"
+          ]
+        },
+        {
+          "name": "fifth histone",
+          "entity_id": "ent:fifth_histone",
+          "original_names": [
+            "fifth histone"
+          ]
+        },
+        {
+          "name": "fact complex",
+          "entity_id": "ent:fact_complex",
+          "original_names": [
+            "FACT complex"
+          ]
+        },
+        {
+          "name": "146 nucleotides of dna",
+          "entity_id": "ent:146_nucleotides_of_dna",
+          "original_names": [
+            "146 nucleotides of DNA"
+          ]
+        },
+        {
+          "name": "chargaff's findings",
+          "entity_id": "ent:chargaff's_findings",
+          "original_names": [
+            "Chargaff's findings"
+          ]
+        },
+        {
+          "name": "puzzle of the dna molecule",
+          "entity_id": "ent:puzzle_of_the_dna_molecule",
+          "original_names": [
+            "puzzle of the DNA molecule"
+          ]
+        },
+        {
+          "name": "specific pairing",
+          "entity_id": "ent:specific_pairing",
+          "original_names": [
+            "specific pairing"
+          ]
+        },
+        {
+          "name": "certain proteins",
+          "entity_id": "ent:certain_proteins",
+          "original_names": [
+            "certain proteins"
+          ]
+        },
+        {
+          "name": "pre-replication complex",
+          "entity_id": "ent:pre-replication_complex",
+          "original_names": [
+            "pre-replication complex"
+          ]
+        },
+        {
+          "name": "replication in prokaryotes",
+          "entity_id": "ent:replication_in_prokaryotes",
+          "original_names": [
+            "Replication in prokaryotes"
+          ]
+        },
+        {
+          "name": "replication forks",
+          "entity_id": "ent:replication_forks",
+          "original_names": [
+            "replication forks",
+            "Replication forks"
+          ]
+        },
+        {
+          "name": "dna-specific dye",
+          "entity_id": "ent:dna-specific_dye",
+          "original_names": [
+            "DNA-specific dye"
+          ]
+        },
+        {
+          "name": "agarose",
+          "entity_id": "ent:agarose",
+          "original_names": [
+            "agarose"
+          ]
+        },
+        {
+          "name": "the template strand’s sequence",
+          "entity_id": "ent:the_template_strand’s_sequence",
+          "original_names": [
+            "the template strand’s sequence"
+          ]
+        },
+        {
+          "name": "during replication",
+          "entity_id": "ent:during_replication",
+          "original_names": [
+            "during replication"
+          ]
+        },
+        {
+          "name": "eukaryotic dna",
+          "entity_id": "ent:eukaryotic_dna",
+          "original_names": [
+            "Eukaryotic DNA"
+          ]
+        },
+        {
+          "name": "octamer",
+          "entity_id": "ent:octamer",
+          "original_names": [
+            "octamer"
+          ]
+        },
+        {
+          "name": "transcription machinery",
+          "entity_id": "ent:transcription_machinery",
+          "original_names": [
+            "transcription machinery"
+          ]
+        },
+        {
+          "name": "forensic scientists",
+          "entity_id": "ent:forensic_scientists",
+          "original_names": [
+            "Forensic Scientists",
+            "Forensic scientists"
+          ]
+        },
+        {
+          "name": "introns",
+          "entity_id": "ent:introns",
+          "original_names": [
+            "introns"
+          ]
+        },
+        {
+          "name": "novel drugs",
+          "entity_id": "ent:novel_drugs",
+          "original_names": [
+            "novel drugs"
+          ]
+        },
+        {
+          "name": "mapping and sequencing sources",
+          "entity_id": "ent:mapping_and_sequencing_sources",
+          "original_names": [
+            "mapping and sequencing sources"
+          ]
+        },
+        {
+          "name": "cloning gene fragments",
+          "entity_id": "ent:cloning_gene_fragments",
+          "original_names": [
+            "cloning gene fragments"
+          ]
+        },
+        {
+          "name": "lab bench",
+          "entity_id": "ent:lab_bench",
+          "original_names": [
+            "lab bench"
+          ]
+        },
+        {
+          "name": "patients' genomes and proteomes",
+          "entity_id": "ent:patients'_genomes_and_proteomes",
+          "original_names": [
+            "patients' genomes and proteomes"
+          ]
+        },
+        {
+          "name": "messenger rna",
+          "entity_id": "ent:messenger_rna",
+          "original_names": [
+            "messenger RNA"
+          ]
+        },
+        {
+          "name": "southern and northern blotting",
+          "entity_id": "ent:southern_and_northern_blotting",
+          "original_names": [
+            "Southern and Northern blotting"
+          ]
+        },
+        {
+          "name": "studying drug interactions",
+          "entity_id": "ent:studying_drug_interactions",
+          "original_names": [
+            "studying drug interactions"
+          ]
+        },
+        {
+          "name": "proteomics",
+          "entity_id": "ent:proteomics",
+          "original_names": [
+            "Proteomics",
+            "proteomics"
+          ]
+        },
+        {
+          "name": "dna from agrobacterium to plant host",
+          "entity_id": "ent:dna_from_agrobacterium_to_plant_host",
+          "original_names": [
+            "DNA from Agrobacterium to plant host"
+          ]
+        },
+        {
+          "name": "studying microorganisms in the environment",
+          "entity_id": "ent:studying_microorganisms_in_the_environment",
+          "original_names": [
+            "studying microorganisms in the environment"
+          ]
+        },
+        {
+          "name": "generating new biofuels",
+          "entity_id": "ent:generating_new_biofuels",
+          "original_names": [
+            "generating new biofuels"
+          ]
+        },
+        {
+          "name": "cancer",
+          "entity_id": "ent:cancer",
+          "original_names": [
+            "cancer"
+          ]
+        },
+        {
+          "name": "genealogical assessment using mitochondria",
+          "entity_id": "ent:genealogical_assessment_using_mitochondria",
+          "original_names": [
+            "genealogical assessment using mitochondria"
+          ]
+        },
+        {
+          "name": "model organism",
+          "entity_id": "ent:model_organism",
+          "original_names": [
+            "model organism"
+          ]
+        },
+        {
+          "name": "mechanisms of action",
+          "entity_id": "ent:mechanisms_of_action",
+          "original_names": [
+            "mechanisms of action"
+          ]
+        },
+        {
+          "name": "advances in forensic science",
+          "entity_id": "ent:advances_in_forensic_science",
+          "original_names": [
+            "advances in forensic science"
+          ]
+        },
+        {
+          "name": "whole-genome sequences of model organisms",
+          "entity_id": "ent:whole-genome_sequences_of_model_organisms",
+          "original_names": [
+            "whole-genome sequences of model organisms"
+          ]
+        },
+        {
+          "name": "proteins whose expression indicates the disease process",
+          "entity_id": "ent:proteins_whose_expression_indicates_the_disease_process",
+          "original_names": [
+            "proteins whose expression indicates the disease process"
+          ]
+        },
+        {
+          "name": "amplifying dna for sequencing",
+          "entity_id": "ent:amplifying_dna_for_sequencing",
+          "original_names": [
+            "amplifying DNA for sequencing"
+          ]
+        },
+        {
+          "name": "genomics",
+          "entity_id": "ent:genomics",
+          "original_names": [
+            "Genomics",
+            "genomics"
+          ]
+        },
+        {
+          "name": "hgh gene",
+          "entity_id": "ent:hgh_gene",
+          "original_names": [
+            "HGH gene"
+          ]
+        },
+        {
+          "name": "personalized medicine",
+          "entity_id": "ent:personalized_medicine",
+          "original_names": [
+            "personalized medicine"
+          ]
+        },
+        {
+          "name": "proteomics techniques",
+          "entity_id": "ent:proteomics_techniques",
+          "original_names": [
+            "proteomics techniques"
+          ]
+        },
+        {
+          "name": "individual genes",
+          "entity_id": "ent:individual_genes",
+          "original_names": [
+            "individual genes"
+          ]
+        },
+        {
+          "name": "individualized treatment plans",
+          "entity_id": "ent:individualized_treatment_plans",
+          "original_names": [
+            "individualized treatment plans"
+          ]
+        },
+        {
+          "name": "prediction of disease risks at an individual level",
+          "entity_id": "ent:prediction_of_disease_risks_at_an_individual_level",
+          "original_names": [
+            "prediction of disease risks at an individual level"
+          ]
+        },
+        {
+          "name": "different cancer types",
+          "entity_id": "ent:different_cancer_types",
+          "original_names": [
+            "different cancer types"
+          ]
+        },
+        {
+          "name": "molecular weight standard samples",
+          "entity_id": "ent:molecular_weight_standard_samples",
+          "original_names": [
+            "molecular weight standard samples"
+          ]
+        },
+        {
+          "name": "remove tumor-causing genes",
+          "entity_id": "ent:remove_tumor-causing_genes",
+          "original_names": [
+            "remove tumor-causing genes"
+          ]
+        },
+        {
+          "name": "possibility of disease recurrence",
+          "entity_id": "ent:possibility_of_disease_recurrence",
+          "original_names": [
+            "possibility of disease recurrence"
+          ]
+        },
+        {
+          "name": "identifying contaminant foreign dna",
+          "entity_id": "ent:identifying_contaminant_foreign_dna",
+          "original_names": [
+            "identifying contaminant foreign DNA"
+          ]
+        },
+        {
+          "name": "improvements in agriculture",
+          "entity_id": "ent:improvements_in_agriculture",
+          "original_names": [
+            "improvements in agriculture"
+          ]
+        },
+        {
+          "name": "dna from a gel to a nylon membrane",
+          "entity_id": "ent:dna_from_a_gel_to_a_nylon_membrane",
+          "original_names": [
+            "DNA from a gel to a nylon membrane"
+          ]
+        },
+        {
+          "name": "analyze the effect of pollutants",
+          "entity_id": "ent:analyze_the_effect_of_pollutants",
+          "original_names": [
+            "analyze the effect of pollutants"
+          ]
+        },
+        {
+          "name": "identify new species",
+          "entity_id": "ent:identify_new_species",
+          "original_names": [
+            "identify new species"
+          ]
+        },
+        {
+          "name": "multiple species' collective genomes",
+          "entity_id": "ent:multiple_species'_collective_genomes",
+          "original_names": [
+            "multiple species' collective genomes"
+          ]
+        },
+        {
+          "name": "revolutionary application of genomics",
+          "entity_id": "ent:revolutionary_application_of_genomics",
+          "original_names": [
+            "revolutionary application of genomics"
+          ]
+        },
+        {
+          "name": "the collective genomes of multiple species",
+          "entity_id": "ent:the_collective_genomes_of_multiple_species",
+          "original_names": [
+            "the collective genomes of multiple species"
+          ]
+        },
+        {
+          "name": "chromosome",
+          "entity_id": "ent:chromosome",
+          "original_names": [
+            "chromosome"
+          ]
+        },
+        {
+          "name": "euchromatin",
+          "entity_id": "ent:euchromatin",
+          "original_names": [
+            "euchromatin"
+          ]
+        },
+        {
+          "name": "heterochromatin",
+          "entity_id": "ent:heterochromatin",
+          "original_names": [
+            "heterochromatin"
+          ]
+        },
+        {
+          "name": "rna polymerase iii",
+          "entity_id": "ent:rna_polymerase_iii",
+          "original_names": [
+            "RNA polymerase III"
+          ]
+        },
+        {
+          "name": "amino acids",
+          "entity_id": "ent:amino_acids",
+          "original_names": [
+            "amino acids"
+          ]
+        },
+        {
+          "name": "guide rnas",
+          "entity_id": "ent:guide_rnas",
+          "original_names": [
+            "guide RNAs"
+          ]
+        },
+        {
+          "name": "chromosomes",
+          "entity_id": "ent:chromosomes",
+          "original_names": [
+            "chromosomes"
+          ]
+        },
+        {
+          "name": "eukaryotic promoters",
+          "entity_id": "ent:eukaryotic_promoters",
+          "original_names": [
+            "Eukaryotic promoters",
+            "eukaryotic promoters"
+          ]
+        },
+        {
+          "name": "rna polymerase i",
+          "entity_id": "ent:rna_polymerase_i",
+          "original_names": [
+            "RNA polymerase I"
+          ]
+        },
+        {
+          "name": "physical map",
+          "entity_id": "ent:physical_map",
+          "original_names": [
+            "Physical map",
+            "physical map"
+          ]
+        },
+        {
+          "name": "location on the same chromosome",
+          "entity_id": "ent:location_on_the_same_chromosome",
+          "original_names": [
+            "location on the same chromosome"
+          ]
+        },
+        {
+          "name": "hershey and chase",
+          "entity_id": "ent:hershey_and_chase",
+          "original_names": [
+            "Hershey and Chase"
+          ]
+        },
+        {
+          "name": "cell division",
+          "entity_id": "ent:cell_division",
+          "original_names": [
+            "cell division"
+          ]
+        },
+        {
+          "name": "telomeres",
+          "entity_id": "ent:telomeres",
+          "original_names": [
+            "telomeres",
+            "Telomeres"
+          ]
+        },
+        {
+          "name": "lysis buffer",
+          "entity_id": "ent:lysis_buffer",
+          "original_names": [
+            "lysis buffer"
+          ]
+        },
+        {
+          "name": "each strand",
+          "entity_id": "ent:each_strand",
+          "original_names": [
+            "each strand"
+          ]
+        },
+        {
+          "name": "single-stranded dna",
+          "entity_id": "ent:single-stranded_dna",
+          "original_names": [
+            "single-stranded DNA"
+          ]
+        },
+        {
+          "name": "single strands of dna",
+          "entity_id": "ent:single_strands_of_dna",
+          "original_names": [
+            "single strands of DNA"
+          ]
+        },
+        {
+          "name": "the dna pol on the dna strand",
+          "entity_id": "ent:the_dna_pol_on_the_dna_strand",
+          "original_names": [
+            "the DNA pol on the DNA strand"
+          ]
+        },
+        {
+          "name": "wrongly incorporated bases",
+          "entity_id": "ent:wrongly_incorporated_bases",
+          "original_names": [
+            "wrongly incorporated bases"
+          ]
+        },
+        {
+          "name": "correct pairing",
+          "entity_id": "ent:correct_pairing",
+          "original_names": [
+            "correct pairing"
+          ]
+        },
+        {
+          "name": "incorrect nucleotide",
+          "entity_id": "ent:incorrect_nucleotide",
+          "original_names": [
+            "incorrect nucleotide"
+          ]
+        },
+        {
+          "name": "incorrect bases",
+          "entity_id": "ent:incorrect_bases",
+          "original_names": [
+            "incorrect bases"
+          ]
+        },
+        {
+          "name": "correct base",
+          "entity_id": "ent:correct_base",
+          "original_names": [
+            "correct base"
+          ]
+        },
+        {
+          "name": "proofreading ability",
+          "entity_id": "ent:proofreading_ability",
+          "original_names": [
+            "proofreading ability"
+          ]
+        },
+        {
+          "name": "wrong nucleotide",
+          "entity_id": "ent:wrong_nucleotide",
+          "original_names": [
+            "wrong nucleotide"
+          ]
+        },
+        {
+          "name": "phosphodiester bond",
+          "entity_id": "ent:phosphodiester_bond",
+          "original_names": [
+            "phosphodiester bond"
+          ]
+        },
+        {
+          "name": "rna primer",
+          "entity_id": "ent:rna_primer",
+          "original_names": [
+            "RNA primer"
+          ]
+        },
+        {
+          "name": "3' end of primer strand",
+          "entity_id": "ent:3'_end_of_primer_strand",
+          "original_names": [
+            "3' end of primer strand"
+          ]
+        },
+        {
+          "name": "5' to 3' direction",
+          "entity_id": "ent:5'_to_3'_direction",
+          "original_names": [
+            "5' to 3' direction"
+          ]
+        },
+        {
+          "name": "template",
+          "entity_id": "ent:template",
+          "original_names": [
+            "template"
+          ]
+        },
+        {
+          "name": "free 3'-oh group",
+          "entity_id": "ent:free_3'-oh_group",
+          "original_names": [
+            "free 3'-OH group"
+          ]
+        },
+        {
+          "name": "newly added base",
+          "entity_id": "ent:newly_added_base",
+          "original_names": [
+            "newly added base"
+          ]
+        },
+        {
+          "name": "the dna",
+          "entity_id": "ent:the_dna",
+          "original_names": [
+            "the DNA"
+          ]
+        },
+        {
+          "name": "wrong base",
+          "entity_id": "ent:wrong_base",
+          "original_names": [
+            "wrong base"
+          ]
+        },
+        {
+          "name": "replication",
+          "entity_id": "ent:replication",
+          "original_names": [
+            "replication"
+          ]
+        },
+        {
+          "name": "the dna helix",
+          "entity_id": "ent:the_dna_helix",
+          "original_names": [
+            "the DNA helix"
+          ]
+        },
+        {
+          "name": "atp hydrolysis",
+          "entity_id": "ent:atp_hydrolysis",
+          "original_names": [
+            "ATP hydrolysis"
+          ]
+        },
+        {
+          "name": "dna helix",
+          "entity_id": "ent:dna_helix",
+          "original_names": [
+            "DNA helix"
+          ]
+        },
+        {
+          "name": "dna double helix",
+          "entity_id": "ent:dna_double_helix",
+          "original_names": [
+            "DNA double helix"
+          ]
+        },
+        {
+          "name": "bacterial cells",
+          "entity_id": "ent:bacterial_cells",
+          "original_names": [
+            "bacterial cells"
+          ]
+        },
+        {
+          "name": "primase",
+          "entity_id": "ent:primase",
+          "original_names": [
+            "Primase",
+            "primase"
+          ]
+        },
+        {
+          "name": "exonuclease activity",
+          "entity_id": "ent:exonuclease_activity",
+          "original_names": [
+            "exonuclease activity"
+          ]
+        },
+        {
+          "name": "exonuclease activity of dna pol i",
+          "entity_id": "ent:exonuclease_activity_of_dna_pol_i",
+          "original_names": [
+            "exonuclease activity of DNA pol I"
+          ]
+        },
+        {
+          "name": "35s",
+          "entity_id": "ent:35s",
+          "original_names": [
+            "35S"
+          ]
+        },
+        {
+          "name": "signal sequence",
+          "entity_id": "ent:signal_sequence",
+          "original_names": [
+            "Signal sequence",
+            "signal sequence"
+          ]
+        },
+        {
+          "name": "reading frame",
+          "entity_id": "ent:reading_frame",
+          "original_names": [
+            "reading frame"
+          ]
+        },
+        {
+          "name": "er lumen",
+          "entity_id": "ent:er_lumen",
+          "original_names": [
+            "ER lumen"
+          ]
+        },
+        {
+          "name": "abnormal temperature or ph conditions",
+          "entity_id": "ent:abnormal_temperature_or_ph_conditions",
+          "original_names": [
+            "abnormal temperature or pH conditions"
+          ]
+        },
+        {
+          "name": "many proteins",
+          "entity_id": "ent:many_proteins",
+          "original_names": [
+            "many proteins"
+          ]
+        },
+        {
+          "name": "translation",
+          "entity_id": "ent:translation",
+          "original_names": [
+            "translation",
+            "Translation"
+          ]
+        },
+        {
+          "name": "stable linker",
+          "entity_id": "ent:stable_linker",
+          "original_names": [
+            "stable linker"
+          ]
+        },
+        {
+          "name": "a gene is transcribed",
+          "entity_id": "ent:a_gene_is_transcribed",
+          "original_names": [
+            "a gene is transcribed"
+          ]
+        },
+        {
+          "name": "transcription is complete",
+          "entity_id": "ent:transcription_is_complete",
+          "original_names": [
+            "transcription is complete"
+          ]
+        },
+        {
+          "name": "promoter",
+          "entity_id": "ent:promoter",
+          "original_names": [
+            "promoter"
+          ]
+        },
+        {
+          "name": "four subunits",
+          "entity_id": "ent:four_subunits",
+          "original_names": [
+            "four subunits"
+          ]
+        },
+        {
+          "name": "five polypeptide subunits",
+          "entity_id": "ent:five_polypeptide_subunits",
+          "original_names": [
+            "five polypeptide subunits"
+          ]
+        },
+        {
+          "name": "genetic code",
+          "entity_id": "ent:genetic_code",
+          "original_names": [
+            "genetic code"
+          ]
+        },
+        {
+          "name": "dna fragments",
+          "entity_id": "ent:dna_fragments",
+          "original_names": [
+            "DNA fragments"
+          ]
+        },
+        {
+          "name": "bacteria, plants, and animals",
+          "entity_id": "ent:bacteria,_plants,_and_animals",
+          "original_names": [
+            "bacteria, plants, and animals"
+          ]
+        },
+        {
+          "name": "genealogy",
+          "entity_id": "ent:genealogy",
+          "original_names": [
+            "genealogy"
+          ]
+        },
+        {
+          "name": "genomic mapping with different model organisms",
+          "entity_id": "ent:genomic_mapping_with_different_model_organisms",
+          "original_names": [
+            "genomic mapping with different model organisms"
+          ]
+        },
+        {
+          "name": "mice",
+          "entity_id": "ent:mice",
+          "original_names": [
+            "mice"
+          ]
+        },
+        {
+          "name": "polymerase chain reaction",
+          "entity_id": "ent:polymerase_chain_reaction",
+          "original_names": [
+            "Polymerase chain reaction",
+            "polymerase chain reaction"
+          ]
+        },
+        {
+          "name": "more sophisticated markers",
+          "entity_id": "ent:more_sophisticated_markers",
+          "original_names": [
+            "more sophisticated markers"
+          ]
+        },
+        {
+          "name": "dna ligase",
+          "entity_id": "ent:dna_ligase",
+          "original_names": [
+            "DNA ligase"
+          ]
+        },
+        {
+          "name": "fragments in the gel",
+          "entity_id": "ent:fragments_in_the_gel",
+          "original_names": [
+            "fragments in the gel"
+          ]
+        },
+        {
+          "name": "rna analysis",
+          "entity_id": "ent:rna_analysis",
+          "original_names": [
+            "RNA analysis"
+          ]
+        },
+        {
+          "name": "slow softening and rotting process",
+          "entity_id": "ent:slow_softening_and_rotting_process",
+          "original_names": [
+            "slow softening and rotting process"
+          ]
+        },
+        {
+          "name": "short dna fragments",
+          "entity_id": "ent:short_dna_fragments",
+          "original_names": [
+            "short DNA fragments"
+          ]
+        },
+        {
+          "name": "from bt",
+          "entity_id": "ent:from_bt",
+          "original_names": [
+            "from Bt"
+          ]
+        },
+        {
+          "name": "northern blots",
+          "entity_id": "ent:northern_blots",
+          "original_names": [
+            "Northern blots"
+          ]
+        },
+        {
+          "name": "nucleic acid fragments",
+          "entity_id": "ent:nucleic_acid_fragments",
+          "original_names": [
+            "nucleic acid fragments"
+          ]
+        },
+        {
+          "name": "databases and several publications",
+          "entity_id": "ent:databases_and_several_publications",
+          "original_names": [
+            "databases and several publications"
+          ]
+        },
+        {
+          "name": "transgenic plants",
+          "entity_id": "ent:transgenic_plants",
+          "original_names": [
+            "transgenic plants"
+          ]
+        },
+        {
+          "name": "corn, potatoes, and tomatoes",
+          "entity_id": "ent:corn,_potatoes,_and_tomatoes",
+          "original_names": [
+            "corn, potatoes, and tomatoes"
+          ]
+        },
+        {
+          "name": "the entire dna sequence",
+          "entity_id": "ent:the_entire_dna_sequence",
+          "original_names": [
+            "the entire DNA sequence"
+          ]
+        },
+        {
+          "name": "desirable traits",
+          "entity_id": "ent:desirable_traits",
+          "original_names": [
+            "desirable traits"
+          ]
+        },
+        {
+          "name": "horses, bulls, and goats",
+          "entity_id": "ent:horses,_bulls,_and_goats",
+          "original_names": [
+            "horses, bulls, and goats"
+          ]
+        },
+        {
+          "name": "the fragments",
+          "entity_id": "ent:the_fragments",
+          "original_names": [
+            "the fragments"
+          ]
+        },
+        {
+          "name": "nucleic acid samples",
+          "entity_id": "ent:nucleic_acid_samples",
+          "original_names": [
+            "nucleic acid samples"
+          ]
+        },
+        {
+          "name": "proteomic analysis",
+          "entity_id": "ent:proteomic_analysis",
+          "original_names": [
+            "proteomic analysis"
+          ]
+        },
+        {
+          "name": "plasmids",
+          "entity_id": "ent:plasmids",
+          "original_names": [
+            "plasmids",
+            "Plasmids"
+          ]
+        },
+        {
+          "name": "individual’s dna “fingerprint”",
+          "entity_id": "ent:individual’s_dna_“fingerprint”",
+          "original_names": [
+            "individual’s DNA “fingerprint”"
+          ]
+        },
+        {
+          "name": "microsatellite polymorphisms",
+          "entity_id": "ent:microsatellite_polymorphisms",
+          "original_names": [
+            "microsatellite polymorphisms",
+            "Microsatellite polymorphisms"
+          ]
+        },
+        {
+          "name": "information from each technique",
+          "entity_id": "ent:information_from_each_technique",
+          "original_names": [
+            "information from each technique"
+          ]
+        },
+        {
+          "name": "single nucleotide polymorphisms (snps)",
+          "entity_id": "ent:single_nucleotide_polymorphisms_(snps)",
+          "original_names": [
+            "single nucleotide polymorphisms (SNPs)"
+          ]
+        },
+        {
+          "name": "protein microarrays",
+          "entity_id": "ent:protein_microarrays",
+          "original_names": [
+            "protein microarrays"
+          ]
+        },
+        {
+          "name": "the term linkage",
+          "entity_id": "ent:the_term_linkage",
+          "original_names": [
+            "the term linkage"
+          ]
+        },
+        {
+          "name": "recombinant dna technology",
+          "entity_id": "ent:recombinant_dna_technology",
+          "original_names": [
+            "recombinant DNA technology"
+          ]
+        },
+        {
+          "name": "restriction fragment length polymorphisms (rflp)",
+          "entity_id": "ent:restriction_fragment_length_polymorphisms_(rflp)",
+          "original_names": [
+            "restriction fragment length polymorphisms (RFLP)"
+          ]
+        },
+        {
+          "name": "dna fragment from the human genome",
+          "entity_id": "ent:dna_fragment_from_the_human_genome",
+          "original_names": [
+            "DNA fragment from the human genome"
+          ]
+        },
+        {
+          "name": "evolutionary relationships",
+          "entity_id": "ent:evolutionary_relationships",
+          "original_names": [
+            "evolutionary relationships"
+          ]
+        },
+        {
+          "name": "two-hybrid screening",
+          "entity_id": "ent:two-hybrid_screening",
+          "original_names": [
+            "two-hybrid screening"
+          ]
+        },
+        {
+          "name": "computer software",
+          "entity_id": "ent:computer_software",
+          "original_names": [
+            "computer software"
+          ]
+        },
+        {
+          "name": "southern blots",
+          "entity_id": "ent:southern_blots",
+          "original_names": [
+            "Southern blots"
+          ]
+        },
+        {
+          "name": "variable number of tandem repeats (vntrs)",
+          "entity_id": "ent:variable_number_of_tandem_repeats_(vntrs)",
+          "original_names": [
+            "variable number of tandem repeats (VNTRs)"
+          ]
+        },
+        {
+          "name": "plasmid molecules",
+          "entity_id": "ent:plasmid_molecules",
+          "original_names": [
+            "plasmid molecules"
+          ]
+        },
+        {
+          "name": "eukaryote",
+          "entity_id": "ent:eukaryote",
+          "original_names": [
+            "eukaryote"
+          ]
+        },
+        {
+          "name": "rna polymerase ii",
+          "entity_id": "ent:rna_polymerase_ii",
+          "original_names": [
+            "RNA polymerase II"
+          ]
+        },
+        {
+          "name": "pre-trnas",
+          "entity_id": "ent:pre-trnas",
+          "original_names": [
+            "pre-tRNAs"
+          ]
+        },
+        {
+          "name": "a nylon membrane",
+          "entity_id": "ent:a_nylon_membrane",
+          "original_names": [
+            "a nylon membrane"
+          ]
+        },
+        {
+          "name": "transfer of rna",
+          "entity_id": "ent:transfer_of_rna",
+          "original_names": [
+            "transfer of RNA"
+          ]
+        },
+        {
+          "name": "protein-coding information",
+          "entity_id": "ent:protein-coding_information",
+          "original_names": [
+            "protein-coding information"
+          ]
+        },
+        {
+          "name": "anticodon",
+          "entity_id": "ent:anticodon",
+          "original_names": [
+            "anticodon",
+            "Anticodon"
+          ]
+        },
+        {
+          "name": "mrna codon",
+          "entity_id": "ent:mrna_codon",
+          "original_names": [
+            "mRNA codon"
+          ]
+        },
+        {
+          "name": "amino acid binding site",
+          "entity_id": "ent:amino_acid_binding_site",
+          "original_names": [
+            "amino acid binding site"
+          ]
+        },
+        {
+          "name": "activated amino acid",
+          "entity_id": "ent:activated_amino_acid",
+          "original_names": [
+            "activated amino acid"
+          ]
+        },
+        {
+          "name": "exit site",
+          "entity_id": "ent:exit_site",
+          "original_names": [
+            "Exit site"
+          ]
+        },
+        {
+          "name": "amino acid phenylalanine",
+          "entity_id": "ent:amino_acid_phenylalanine",
+          "original_names": [
+            "Amino acid phenylalanine"
+          ]
+        },
+        {
+          "name": "p-site amino acid",
+          "entity_id": "ent:p-site_amino_acid",
+          "original_names": [
+            "P-site amino acid"
+          ]
+        },
+        {
+          "name": "codon",
+          "entity_id": "ent:codon",
+          "original_names": [
+            "codon"
+          ]
+        },
+        {
+          "name": "insertion of an amino acid",
+          "entity_id": "ent:insertion_of_an_amino_acid",
+          "original_names": [
+            "insertion of an amino acid"
+          ]
+        },
+        {
+          "name": "release of a polypeptide chain",
+          "entity_id": "ent:release_of_a_polypeptide_chain",
+          "original_names": [
+            "release of a polypeptide chain"
+          ]
+        },
+        {
+          "name": "initiation of translation",
+          "entity_id": "ent:initiation_of_translation",
+          "original_names": [
+            "initiation of translation"
+          ]
+        },
+        {
+          "name": "all species",
+          "entity_id": "ent:all_species",
+          "original_names": [
+            "all species"
+          ]
+        },
+        {
+          "name": "polypeptide alphabet",
+          "entity_id": "ent:polypeptide_alphabet",
+          "original_names": [
+            "polypeptide alphabet"
+          ]
+        },
+        {
+          "name": "degeneracy",
+          "entity_id": "ent:degeneracy",
+          "original_names": [
+            "degeneracy"
+          ]
+        },
+        {
+          "name": "a given amino acid can be encoded by more than one nucleotide triplet",
+          "entity_id": "ent:a_given_amino_acid_can_be_encoded_by_more_than_one_nucleotide_triplet",
+          "original_names": [
+            "a given amino acid can be encoded by more than one nucleotide triplet"
+          ]
+        },
+        {
+          "name": "cellular mechanism",
+          "entity_id": "ent:cellular_mechanism",
+          "original_names": [
+            "cellular mechanism"
+          ]
+        },
+        {
+          "name": "rna alphabet",
+          "entity_id": "ent:rna_alphabet",
+          "original_names": [
+            "RNA alphabet"
+          ]
+        },
+        {
+          "name": "degenerate",
+          "entity_id": "ent:degenerate",
+          "original_names": [
+            "degenerate"
+          ]
+        },
+        {
+          "name": "dna alphabet",
+          "entity_id": "ent:dna_alphabet",
+          "original_names": [
+            "DNA alphabet"
+          ]
+        },
+        {
+          "name": "life on earth",
+          "entity_id": "ent:life_on_earth",
+          "original_names": [
+            "life on Earth"
+          ]
+        },
+        {
+          "name": "12 mrna codons",
+          "entity_id": "ent:12_mrna_codons",
+          "original_names": [
+            "12 mRNA codons"
+          ]
+        },
+        {
+          "name": "36 nucleotides",
+          "entity_id": "ent:36_nucleotides",
+          "original_names": [
+            "36 nucleotides"
+          ]
+        },
+        {
+          "name": "initiation site",
+          "entity_id": "ent:initiation_site",
+          "original_names": [
+            "initiation site"
+          ]
+        },
+        {
+          "name": "francis crick",
+          "entity_id": "ent:francis_crick",
+          "original_names": [
+            "Francis Crick"
+          ]
+        },
+        {
+          "name": "sydney brenner",
+          "entity_id": "ent:sydney_brenner",
+          "original_names": [
+            "Sydney Brenner"
+          ]
+        },
+        {
+          "name": "friedrich miescher",
+          "entity_id": "ent:friedrich_miescher",
+          "original_names": [
+            "Friedrich Miescher"
+          ]
+        },
+        {
+          "name": "avery, macleod, mccarty",
+          "entity_id": "ent:avery,_macleod,_mccarty",
+          "original_names": [
+            "Avery, MacLeod, McCarty"
+          ]
+        },
+        {
+          "name": "bacteriophage",
+          "entity_id": "ent:bacteriophage",
+          "original_names": [
+            "bacteriophage"
+          ]
+        },
+        {
+          "name": "gel electrophoresis",
+          "entity_id": "ent:gel_electrophoresis",
+          "original_names": [
+            "Gel electrophoresis",
+            "gel electrophoresis"
+          ]
+        },
+        {
+          "name": "gel matrix",
+          "entity_id": "ent:gel_matrix",
+          "original_names": [
+            "gel matrix"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:mrna",
+          "evidence": "Conservation of codons means that a purified mRNA encoding the globin protein in horses could be transferred to a tulip cell, and the tulip would synthesize horse globin.",
+          "target_name": "mRNA",
+          "source_entity_id": "ent:codons",
+          "triple_id": "triple:cdce38b7fda240d8",
+          "source_name": "codons",
+          "relation": "conserve"
+        },
+        {
+          "target_entity_id": "ent:mrna",
+          "evidence": "The entire mRNA is translated in three-nucleotide “steps” of the ribosome.",
+          "target_name": "mRNA",
+          "source_entity_id": "ent:ribosome",
+          "triple_id": "triple:31c277e1d622a50d",
+          "source_name": "ribosome",
+          "relation": "translates"
+        },
+        {
+          "target_entity_id": "ent:mrna",
+          "evidence": "intron non–protein-coding intervening sequences that are spliced from mRNA during processing",
+          "target_name": "mRNA",
+          "source_entity_id": "ent:intron",
+          "triple_id": "triple:dc4790e53bf747c9",
+          "source_name": "intron",
+          "relation": "spliced from"
+        },
+        {
+          "target_entity_id": "ent:nucleotides",
+          "evidence": "the mRNA is degraded so the nucleotides can be reused in another transcription reaction",
+          "target_name": "nucleotides",
+          "source_entity_id": "ent:mrna",
+          "triple_id": "triple:8b5e0d7e102a9b7f",
+          "source_name": "mRNA",
+          "relation": "degraded"
+        },
+        {
+          "target_entity_id": "ent:mrna",
+          "evidence": "Genes are used to make mRNA by the process of transcription; mRNA is used to synthesize proteins by the process of translation.",
+          "target_name": "mRNA",
+          "source_entity_id": "ent:genes",
+          "triple_id": "triple:4ed6e9034b6dac5e",
+          "source_name": "genes",
+          "relation": "make"
+        },
+        {
+          "target_entity_id": "ent:itself",
+          "evidence": "The mRNA folds back on itself, and the complementary C–G nucleotides bind together.",
+          "target_name": "itself",
+          "source_entity_id": "ent:mrna",
+          "triple_id": "triple:9a3f575dacd1381f",
+          "source_name": "mRNA",
+          "relation": "folds back on"
+        },
+        {
+          "target_entity_id": "ent:mrna",
+          "evidence": "7-methylguanosine cap modification added to the 5' end of pre-mRNAs to protect mRNA from degradation and assist translation",
+          "target_name": "mRNA",
+          "source_entity_id": "ent:7-methylguanosine_cap",
+          "triple_id": "triple:b6c24ef9f51ff432",
+          "source_name": "7-methylguanosine cap",
+          "relation": "protects"
+        },
+        {
+          "target_entity_id": "ent:t_nucleotides_with_u_nucleotides",
+          "evidence": "The only nucleotide difference is that in mRNA, all of the T nucleotides are replaced with U nucleotides.",
+          "target_name": "T nucleotides with U nucleotides",
+          "source_entity_id": "ent:mrna",
+          "triple_id": "triple:94166380f5cbf063",
+          "source_name": "mRNA",
+          "relation": "replaces"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What are the differences between the codons in DNA and RNA?",
+    "answer": "The only nucleotide difference is that in mRNA, all of the T nucleotides are replaced with U nucleotides.",
+    "citations": [
+      "chunk:mcb_genetics:149 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | always proceeds from the same DNA strand for each gene, which is called the template strand. The mRNA product is comp...",
+      "triple:94166380f5cbf063 | mRNA --[replaces]--> T nucleotides with U nucleotides"
+    ],
+    "reasoning": "Matched entities: codons, dna, rna. Traversed graph edges: mRNA --[replaces]--> T nucleotides with U nucleotides; codons --[conserve]--> mRNA; ribosome --[translates]--> mRNA. Graph evidence: \"The only nucleotide difference is that in mRNA, all of the T nucleotides are replaced with U nucleotides.\". The context explicitly states that the only difference between the codons in DNA and RNA is the replacement of T nucleotides with U nucleotides in mRNA."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "question": "What is the primary function of DNA?",
+  "answer": "The primary function of DNA is to store and transmit genetic information, which is used to direct the synthesis of proteins through the process of transcription and translation, as described by the central dogma.",
+  "citations": [
+    "chunk:15_1_the_genetic_code_biology_2e_openstax:5 | 15.1 The Genetic Code - Biology 2e _ OpenStax.txt | that gives rise to the incredible variation of protein structure and function. The Central Dogma: DNA Encodes RNA; RN...",
+    "triple:0ab8fe5e588f5741 | DNA --[encodes]--> RNA"
+  ],
+  "reasoning": "Matched entities: dna, improved function of the intestines. Traversed graph edges: Oswald Avery --[used enzymes to degrade]--> DNA; Oswald Avery --[isolated]--> S strain; Oswald Avery --[concluded]--> DNA was the transforming principle. Graph evidence: \"They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.\". The central dogma of molecular biology, as described in the retrieved chunks, states that DNA encodes RNA, which in turn encodes proteins. This indicates that the primary function of DNA is to store and transmit genetic information for protein synthesis."
+}

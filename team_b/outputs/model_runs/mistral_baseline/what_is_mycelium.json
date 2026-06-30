@@ -1,0 +1,8 @@
+{
+  "question": "What is mycelium?",
+  "answer": "A fungal mycelium",
+  "citations": [
+    "chunk:24_1_characteristics_of_fungi_biology_2e_openstax:18 | data/24.1 Characteristics of Fungi - Biology 2e _ OpenStax.pdf | OpenStax https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi 4/11 Figure 24.4 A fungal mycelium..."
+  ],
+  "reasoning": "Matched entities: fungi, basidiomycota, zygomycota. Traversed graph edges: Chytridiomycota --[belongs to]--> fungi; Chytrids --[are]--> Chytridiomycota; Ascomycota --[belongs to]--> fungi. Graph evidence: \"The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).\". The context mentions 'Figure 24.4 A fungal mycelium' which directly indicates that mycelium is a structure associated with fungi."
+}

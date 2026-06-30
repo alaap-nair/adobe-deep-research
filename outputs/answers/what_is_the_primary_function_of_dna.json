@@ -1,0 +1,9 @@
+{
+  "question": "What is the primary function of DNA?",
+  "answer": "DNA encodes RNA; RNA encodes protein",
+  "citations": [
+    "chunk:mcb_genetics:130 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | that gives rise to the incredible variation of protein structure and function. The Central Dogma: DNA Encodes RNA; RN...",
+    "chunk:ch15_genes_and_proteins:1 | data/Ch15_Genes_and_Proteins.pdf | cell. Both genes and the proteins they encode are absolutely essential to life as we know it. 15.1 The Genetic Code L..."
+  ],
+  "reasoning": "Matched entities: dna, a, nonfunctional protein. Traversed graph edges: DNA --[is the genetic material]--> DNA; DNA --[has strands]--> complementary strands; DNA --[is packaged around]--> histone proteins. Graph evidence: \"Only 32P entered the bacterial cells, indicating that DNA is the genetic material.\". The context explicitly states that the central dogma of DNA-protein synthesis involves DNA encoding RNA, which then encodes proteins. This is the primary function of DNA as described in the provided chunks."
+}

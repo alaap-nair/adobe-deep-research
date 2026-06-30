@@ -1,0 +1,9 @@
+{
+  "question": "What is the role of tRNA in translation?",
+  "answer": "tRNA carries a specific amino acid and recognizes the corresponding codon on the mRNA, ensuring the correct amino acid is added to the growing polypeptide chain.",
+  "citations": [
+    "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:10 | 15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt | it is surprising that tRNAs can fit so much specificity into such a small package. Consider that tRNAs need to intera...",
+    "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:7 | 15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt | template, whereas the large subunit sequentially binds tRNAs. Each mRNA molecule is simultaneously translated by many..."
+  ],
+  "reasoning": "Matched entities: trna, alteration of the translational reading frame. Traversed graph edges: tRNA --[carries]--> amino acid; ribosome --[binds]--> tRNA; ribosome --[translates]--> mRNA. Graph evidence: \"Each tRNA carries a specific amino acid and recognizes one or more of the mRNA codons that define the order of amino acids in a protein.\". tRNA carries a specific amino acid and recognizes the corresponding codon on the mRNA, ensuring the correct amino acid is added to the growing polypeptide chain."
+}

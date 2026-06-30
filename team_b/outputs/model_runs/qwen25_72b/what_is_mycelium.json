@@ -1,0 +1,8 @@
+{
+  "question": "What is mycelium?",
+  "answer": "Mycelium is the vegetative part of a fungus, consisting of a network of hyphae that absorb nutrients and grow. In mycorrhizal associations, the fungal mycelia use their extensive network of hyphae and large surface area in contact with the soil to channel water and minerals from the soil into the plant.",
+  "citations": [
+    "chunk:24_3_ecology_of_fungi_biology_2e_openstax:9 | data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf | mycorrhizal partners. In a mycorrhizal association, the fungal mycelia use their extensive network of hyphae and larg..."
+  ],
+  "reasoning": "Matched entities: fungi, basidiomycota, zygomycota. Traversed graph edges: Chytridiomycota --[belongs to]--> fungi; Chytrids --[are]--> Chytridiomycota; Ascomycota --[belongs to]--> fungi. Graph evidence: \"The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).\". The answer is derived from the description of mycorrhizal associations, where the mycelium is described as the part of the fungus that forms an extensive network of hyphae to absorb nutrients and facilitate the exchange of resources between the fungus and the plant."
+}

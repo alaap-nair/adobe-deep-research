@@ -1,0 +1,32 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 7513.44it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Coverage: 20/20 questions have >=1 ground-truth entity in graph (100.0%)
+
+Per-question matched entities:
+  OK q1: calvin cycle, carbon fixation, atp synthase, photosynthesis, rubisco
+  OK q2: photosynthesis, light-dependent reactions, sunlight, light-independent reactions, photosystem i
+  OK q3: calvin cycle, nutrient cycle, carbon fixation, photosynthesis, formation of 3-pga
+  OK q4: lichens, ascomycota, algae, fungi, dermatophytes
+  OK q5: fungi, nutrient cycle, shelf fungi, basidiospores, mycorrhizal relationship
+  OK q6: rubisco, soil, carbon fixation, plants, reaction between co2 and rubp
+  OK q7: oxygen, photosynthesis, water, carbohydrate molecules, mycorrhizal relationship
+  OK q8: carbon fixation, calvin cycle, model research organisms, gametes, mesophyll
+  OK q9: atp, photosynthesis, carbon fixation, calvin cycle, photosystem ii
+  OK q10: calvin cycle, cyanobacteria, nitrogen and phosphorus, nutrient cycle, carbon fixation
+  OK q11: photosynthesis, energy from sunlight, light energy into chemical energy, light-dependent reactions, pigments
+  OK q12: fungi, basidiomycota, zygomycota, ascomycota, shelf fungi
+  OK q13: fungi, basidiomycota, ascomycota, shelf fungi, chytridiomycota
+  OK q14: nadph, photosynthesis, nadp to nadph, photosystem ii, photosystem i
+  OK q15: fungi, nutrient cycle, shelf fungi, basidiospores, yeasts
+  OK q16: calvin cycle, carbohydrate molecules, light-dependent reactions, sunlight, photosynthesis
+  OK q17: atp, oxygen, photosynthesis, light-dependent reactions, photosystem ii
+  OK q18: fungi, plants, calvin cycle, carbohydrate molecules, carbon fixation
+  OK q19: calvin cycle, carbon fixation, photosynthesis, nutrient cycle, light-dependent reactions
+  OK q20: atp synthase, atp, calvin cycle, gametes, carbon fixation

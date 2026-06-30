@@ -1,0 +1,482 @@
+{
+  "question": "What is the function of the ribosome?",
+  "generated_at": "2026-05-01T07:51:44.332756+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "function",
+        "ribosome",
+        "function ribosome"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:ribosome",
+          "name": "ribosome",
+          "matched_text": "ribosome",
+          "matched_alias": "ribosome",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:improved_function_of_the_intestines",
+          "name": "improved function of the intestines",
+          "matched_text": "function",
+          "matched_alias": "improved function of the intestines",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        },
+        {
+          "entity_id": "ent:ribosomes",
+          "name": "ribosomes",
+          "matched_text": "What is the function of the ribosome?",
+          "matched_alias": "ribosomes",
+          "score": 0.7358,
+          "match_type": "semantic"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:5",
+          "text": "In E. coli, there are\nbetween 10,000 and 70,000 ribosomes present in each cell at any given time.\n\nA ribosome is a complex\nmacromolecule composed of structural and catalytic rRNAs, and many distinct polypeptides. In eukaryotes, the\nnucleolus is completely specialized for the synthesis and assembly of rRNAs. Ribosomes exist in the cytoplasm of prokaryotes and in the cytoplasm and rough endoplasmic reticulum of\neukaryotes. Mitochondria and chloroplasts also have their own ribosomes in the matrix and stroma, which look\nmore similar to prokaryotic ribosomes (and have similar drug sensitivities) than the ribosomes just outside their\nouter membranes in the cytoplasm.",
+          "source_name": "15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt",
+          "chunk_index": 5,
+          "snippet": "In E. coli, there are\nbetween 10,000 and 70,000 ribosomes present in each cell at any given time.\n\nA ribosome is a complex\nmacromolecule composed of structural and catalytic rRNAs, and many distinct polypeptides. In eukaryotes, the\nnucleolus is completely specialized for the synthesis and assembly of rRNAs. Ribosomes exist in the cytoplasm of prokaryotes and in the cytoplasm and rough endoplasmic ",
+          "score": 0.743603840125065,
+          "rerank_score": 4.275010585784912
+        },
+        {
+          "chunk_id": "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:10",
+          "text": "it is surprising that tRNAs can fit so much specificity into such a small\npackage.\n\nConsider that tRNAs need to interact with three factors: 1) they must be recognized by the correct\naminoacyl synthetase (see below); 2) they must be recognized by ribosomes; and 3) they must bind to the correct\nsequence in mRNA. FIGURE 15.16 The ribosome and its function. The ribosome is responsible for translating the mRNA into protein. A. The ribosome consists\nof a large and small ribosomal subunit. Assembly of the subunits on the mRNA forms three tRNA binding sites. B. During translation,\ncharged tRNAs enter the Acceptor site, and the anticodon on the tRNA base pairs with the codon in the mRNA.",
+          "source_name": "15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt",
+          "chunk_index": 10,
+          "snippet": "it is surprising that tRNAs can fit so much specificity into such a small\npackage.\n\nConsider that tRNAs need to interact with three factors: 1) they must be recognized by the correct\naminoacyl synthetase (see below); 2) they must be recognized by ribosomes; and 3) they must bind to the correct\nsequence in mRNA. FIGURE 15.16 The ribosome and its function. The ribosome is responsible for translating",
+          "score": 0.7266933121734889,
+          "rerank_score": 3.9694318771362305
+        },
+        {
+          "chunk_id": "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:4",
+          "text": "on the organism.\n\nHowever, the general structures and functions of\nthe protein synthesis machinery are comparable from bacteria to human cells. Translation requires the input of an\nmRNA template, ribosomes, tRNAs, and various enzymatic factors. (Note: A ribosome can be thought of as an\nenzyme whose amino acid binding sites are specified by mRNA.)\nLINK TO LEARNING\nClick through the steps of this PBS interactive (https://openstax.org/l/prokary_protein) to see protein synthesis in\naction. Ribosomes\nEven before an mRNA is translated, a cell must invest energy to build each of its ribosomes. In E. coli, there are\nbetween 10,000 and 70,000 ribosomes present in each cell at any given time.",
+          "source_name": "15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt",
+          "chunk_index": 4,
+          "snippet": "on the organism.\n\nHowever, the general structures and functions of\nthe protein synthesis machinery are comparable from bacteria to human cells. Translation requires the input of an\nmRNA template, ribosomes, tRNAs, and various enzymatic factors. (Note: A ribosome can be thought of as an\nenzyme whose amino acid binding sites are specified by mRNA.)\nLINK TO LEARNING\nClick through the steps of this PB",
+          "score": 0.7385387268076484,
+          "rerank_score": 1.7125986814498901
+        },
+        {
+          "chunk_id": "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:6",
+          "text": "similar drug sensitivities) than the ribosomes just outside their\nouter membranes in the cytoplasm.\n\nRibosomes dissociate into large and small subunits when they are not\nsynthesizing proteins and reassociate during the initiation of translation. In E. coli, the small subunit is described as\n30S, and the large subunit is 50S, for a total of 70S (recall that Svedberg units are not additive). Mammalian\nribosomes have a small 40S subunit and a large 60S subunit, for a total of 80S. The small subunit is responsible for\nbinding the mRNA template, whereas the large subunit sequentially binds tRNAs.",
+          "source_name": "15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt",
+          "chunk_index": 6,
+          "snippet": "similar drug sensitivities) than the ribosomes just outside their\nouter membranes in the cytoplasm.\n\nRibosomes dissociate into large and small subunits when they are not\nsynthesizing proteins and reassociate during the initiation of translation. In E. coli, the small subunit is described as\n30S, and the large subunit is 50S, for a total of 70S (recall that Svedberg units are not additive). Mammali",
+          "score": 0.6851805454472282,
+          "rerank_score": 1.708949089050293
+        },
+        {
+          "chunk_id": "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:1",
+          "text": "molecule that adds the amino acid phenylalanine to a growing polypeptide chain.\n\nThe\nanticodon AAG binds the Codon UUC on the mRNA. The amino acid phenylalanine is attached to the other end of the tRNA. 15.5 Ribosomes and Protein Synthesis\nLEARNING OBJECTIVES\nBy the end of this section, you will be able to do the following:\n•\nDescribe the different steps in protein synthesis\n•\nDiscuss the role of ribosomes in protein synthesis\nThe synthesis of proteins consumes more of a cell’s energy than any other metabolic process. In turn, proteins\naccount for more mass than any other component of living organisms (with the exception of water), and proteins\nperform virtually every function of a cell.",
+          "source_name": "15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt",
+          "chunk_index": 1,
+          "snippet": "molecule that adds the amino acid phenylalanine to a growing polypeptide chain.\n\nThe\nanticodon AAG binds the Codon UUC on the mRNA. The amino acid phenylalanine is attached to the other end of the tRNA. 15.5 Ribosomes and Protein Synthesis\nLEARNING OBJECTIVES\nBy the end of this section, you will be able to do the following:\n•\nDescribe the different steps in protein synthesis\n•\nDiscuss the role of ",
+          "score": 0.703908836755723,
+          "rerank_score": 1.4127041101455688
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:31c277e1d622a50d",
+          "head_entity_id": "ent:ribosome",
+          "tail_entity_id": "ent:mrna",
+          "relation": "translates",
+          "evidence": "The ribosome is responsible for translating the mRNA into protein.",
+          "head_name": "ribosome",
+          "tail_name": "mRNA",
+          "score": 0.796755835903286
+        },
+        {
+          "triple_id": "triple:1de52b2589ca9229",
+          "head_entity_id": "ent:ribosome",
+          "tail_entity_id": "ent:rrnas",
+          "relation": "consists of",
+          "evidence": "A ribosome is a complex macromolecule composed of structural and catalytic rRNAs, and many distinct polypeptides.",
+          "head_name": "ribosome",
+          "tail_name": "rRNAs",
+          "score": 0.7607403557692891
+        },
+        {
+          "triple_id": "triple:ea5b024d1cb9be9b",
+          "head_entity_id": "ent:mrna",
+          "tail_entity_id": "ent:ribosomes",
+          "relation": "is translated on",
+          "evidence": "Translation of the mRNA template on ribosomes converts nucleotide-based genetic information into a protein product.",
+          "head_name": "mRNA",
+          "tail_name": "ribosomes",
+          "score": 0.6940928356710896
+        },
+        {
+          "triple_id": "triple:9c8931d8e1e322fd",
+          "head_entity_id": "ent:pre-rrnas",
+          "tail_entity_id": "ent:ribosomes",
+          "relation": "are processed into",
+          "evidence": "Pre-rRNAs are transcribed, processed, and assembled into ribosomes in the nucleolus.",
+          "head_name": "pre-rRNAs",
+          "tail_name": "ribosomes",
+          "score": 0.670158034612424
+        },
+        {
+          "triple_id": "triple:2da1a65549eed6de",
+          "head_entity_id": "ent:aug",
+          "tail_entity_id": "ent:the_start_codon",
+          "relation": "serves as",
+          "evidence": "Another codon, AUG, also has a special function. In addition to specifying the amino acid methionine, it also serves as the start codon to initiate translation.",
+          "head_name": "AUG",
+          "tail_name": "the start codon",
+          "score": 0.6671701408835837
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:ribosome",
+        "ent:improved_function_of_the_intestines",
+        "ent:ribosomes",
+        "ent:mrna",
+        "ent:rrnas",
+        "ent:pre-rrnas",
+        "ent:aug",
+        "ent:the_start_codon"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "ribosome",
+          "entity_id": "ent:ribosome",
+          "original_names": [
+            "ribosome"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "three nucleotides",
+          "entity_id": "ent:three_nucleotides",
+          "original_names": [
+            "three nucleotides"
+          ]
+        },
+        {
+          "name": "ribosomes",
+          "entity_id": "ent:ribosomes",
+          "original_names": [
+            "ribosomes"
+          ]
+        },
+        {
+          "name": "protein",
+          "entity_id": "ent:protein",
+          "original_names": [
+            "protein"
+          ]
+        },
+        {
+          "name": "rna polymerase",
+          "entity_id": "ent:rna_polymerase",
+          "original_names": [
+            "RNA polymerase"
+          ]
+        },
+        {
+          "name": "prokaryotic rna polymerase",
+          "entity_id": "ent:prokaryotic_rna_polymerase",
+          "original_names": [
+            "Prokaryotic RNA polymerase"
+          ]
+        },
+        {
+          "name": "trna",
+          "entity_id": "ent:trna",
+          "original_names": [
+            "tRNA"
+          ]
+        },
+        {
+          "name": "amino acid",
+          "entity_id": "ent:amino_acid",
+          "original_names": [
+            "amino acid"
+          ]
+        },
+        {
+          "name": "mrna codon",
+          "entity_id": "ent:mrna_codon",
+          "original_names": [
+            "mRNA codon"
+          ]
+        },
+        {
+          "name": "three-dimensional structure",
+          "entity_id": "ent:three-dimensional_structure",
+          "original_names": [
+            "three-dimensional structure"
+          ]
+        },
+        {
+          "name": "aminoacyl-trna",
+          "entity_id": "ent:aminoacyl-trna",
+          "original_names": [
+            "aminoacyl-tRNA"
+          ]
+        },
+        {
+          "name": "polypeptides",
+          "entity_id": "ent:polypeptides",
+          "original_names": [
+            "polypeptides"
+          ]
+        },
+        {
+          "name": "trnas",
+          "entity_id": "ent:trnas",
+          "original_names": [
+            "tRNAs"
+          ]
+        },
+        {
+          "name": "peptide bond formation",
+          "entity_id": "ent:peptide_bond_formation",
+          "original_names": [
+            "peptide bond formation"
+          ]
+        },
+        {
+          "name": "peptidyl transferase",
+          "entity_id": "ent:peptidyl_transferase",
+          "original_names": [
+            "peptidyl transferase"
+          ]
+        },
+        {
+          "name": "mrna template",
+          "entity_id": "ent:mrna_template",
+          "original_names": [
+            "mRNA template"
+          ]
+        },
+        {
+          "name": "rrnas",
+          "entity_id": "ent:rrnas",
+          "original_names": [
+            "rRNAs"
+          ]
+        },
+        {
+          "name": "rna polymerase i",
+          "entity_id": "ent:rna_polymerase_i",
+          "original_names": [
+            "RNA polymerase I"
+          ]
+        },
+        {
+          "name": "improved function of the intestines",
+          "entity_id": "ent:improved_function_of_the_intestines",
+          "original_names": [
+            "improved function of the intestines"
+          ]
+        },
+        {
+          "name": "telomerase reactivation",
+          "entity_id": "ent:telomerase_reactivation",
+          "original_names": [
+            "telomerase reactivation"
+          ]
+        },
+        {
+          "name": "reduced dna damage",
+          "entity_id": "ent:reduced_dna_damage",
+          "original_names": [
+            "reduced DNA damage"
+          ]
+        },
+        {
+          "name": "extension of telomeres",
+          "entity_id": "ent:extension_of_telomeres",
+          "original_names": [
+            "extension of telomeres"
+          ]
+        },
+        {
+          "name": "improved function of the testes",
+          "entity_id": "ent:improved_function_of_the_testes",
+          "original_names": [
+            "improved function of the testes"
+          ]
+        },
+        {
+          "name": "improved function of the spleen",
+          "entity_id": "ent:improved_function_of_the_spleen",
+          "original_names": [
+            "improved function of the spleen"
+          ]
+        },
+        {
+          "name": "reversed neurodegeneration",
+          "entity_id": "ent:reversed_neurodegeneration",
+          "original_names": [
+            "reversed neurodegeneration"
+          ]
+        },
+        {
+          "name": "pre-rrnas",
+          "entity_id": "ent:pre-rrnas",
+          "original_names": [
+            "pre-rRNAs"
+          ]
+        },
+        {
+          "name": "dna",
+          "entity_id": "ent:dna",
+          "original_names": [
+            "DNA"
+          ]
+        },
+        {
+          "name": "dna template strand",
+          "entity_id": "ent:dna_template_strand",
+          "original_names": [
+            "DNA template strand"
+          ]
+        },
+        {
+          "name": "α, α, β, β', and σ subunits",
+          "entity_id": "ent:α,_α,_β,_β',_and_σ_subunits",
+          "original_names": [
+            "α, α, β, β', and σ subunits"
+          ]
+        },
+        {
+          "name": "α-amanitin",
+          "entity_id": "ent:α-amanitin",
+          "original_names": [
+            "α-amanitin"
+          ]
+        },
+        {
+          "name": "nucleolus",
+          "entity_id": "ent:nucleolus",
+          "original_names": [
+            "nucleolus"
+          ]
+        },
+        {
+          "name": "aug",
+          "entity_id": "ent:aug",
+          "original_names": [
+            "AUG"
+          ]
+        },
+        {
+          "name": "methionine",
+          "entity_id": "ent:methionine",
+          "original_names": [
+            "methionine"
+          ]
+        },
+        {
+          "name": "the start codon",
+          "entity_id": "ent:the_start_codon",
+          "original_names": [
+            "the start codon"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:mrna",
+          "evidence": "The ribosome is responsible for translating the mRNA into protein.",
+          "target_name": "mRNA",
+          "source_entity_id": "ent:ribosome",
+          "triple_id": "triple:31c277e1d622a50d",
+          "source_name": "ribosome",
+          "relation": "translates"
+        },
+        {
+          "target_entity_id": "ent:three_nucleotides",
+          "evidence": "The translation to protein is still systematic and colinear, such that nucleotides 1 to 3 correspond to amino acid 1, nucleotides 4 to 6 correspond to amino acid 2, and so on.",
+          "target_name": "three nucleotides",
+          "source_entity_id": "ent:mrna",
+          "triple_id": "triple:e8cdccd9ae4c26b9",
+          "source_name": "mRNA",
+          "relation": "is read in groups of"
+        },
+        {
+          "target_entity_id": "ent:ribosomes",
+          "evidence": "Translation of the mRNA template on ribosomes converts nucleotide-based genetic information into a protein product.",
+          "target_name": "ribosomes",
+          "source_entity_id": "ent:mrna",
+          "triple_id": "triple:ea5b024d1cb9be9b",
+          "source_name": "mRNA",
+          "relation": "is translated on"
+        },
+        {
+          "target_entity_id": "ent:protein",
+          "evidence": "The flow of genetic information in cells from DNA to mRNA to protein is described by the central dogma, which states that genes specify the sequence of mRNAs, which in turn specify the sequence of amino acids making up all proteins.",
+          "target_name": "protein",
+          "source_entity_id": "ent:mrna",
+          "triple_id": "triple:f05018931bdf932f",
+          "source_name": "mRNA",
+          "relation": "encodes"
+        },
+        {
+          "target_entity_id": "ent:mrna",
+          "evidence": "The core enzyme to proceed along the DNA template, synthesizing mRNA in the 5' to 3' direction.",
+          "target_name": "mRNA",
+          "source_entity_id": "ent:rna_polymerase",
+          "triple_id": "triple:53210f8a6dfdd791",
+          "source_name": "RNA polymerase",
+          "relation": "synthesizes"
+        },
+        {
+          "target_entity_id": "ent:mrna",
+          "evidence": "Prokaryotes use the same RNA polymerase to transcribe all of their genes.",
+          "target_name": "mRNA",
+          "source_entity_id": "ent:prokaryotic_rna_polymerase",
+          "triple_id": "triple:2b47706465cbe2cd",
+          "source_name": "Prokaryotic RNA polymerase",
+          "relation": "transcribes"
+        },
+        {
+          "target_entity_id": "ent:mrna",
+          "evidence": "RNA is synthesized in its 5'-3' direction, using the enzyme RNA polymerase.",
+          "target_name": "mRNA",
+          "source_entity_id": "ent:rna_polymerase",
+          "triple_id": "triple:792632432a91bbb1",
+          "source_name": "RNA polymerase",
+          "relation": "transcribes"
+        },
+        {
+          "target_entity_id": "ent:mrna",
+          "evidence": "During translation elongation, the mRNA template provides tRNA binding specificity.",
+          "target_name": "mRNA",
+          "source_entity_id": "ent:ribosome",
+          "triple_id": "triple:f7f51a1dc9772b91",
+          "source_name": "ribosome",
+          "relation": "binds"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What is the function of the ribosome?",
+    "answer": "The ribosome is responsible for translating the mRNA into protein.",
+    "citations": [
+      "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:10 | 15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt | it is surprising that tRNAs can fit so much specificity into such a small package. Consider that tRNAs need to intera...",
+      "triple:31c277e1d622a50d | ribosome --[translates]--> mRNA"
+    ],
+    "reasoning": "Matched entities: ribosome, improved function of the intestines. Traversed graph edges: ribosome --[translates]--> mRNA; mRNA --[is read in groups of]--> three nucleotides; mRNA --[is translated on]--> ribosomes. Graph evidence: \"The ribosome is responsible for translating the mRNA into protein.\". The context explicitly states that the ribosome is responsible for translating mRNA into protein, which directly answers the question about its function."
+  }
+}

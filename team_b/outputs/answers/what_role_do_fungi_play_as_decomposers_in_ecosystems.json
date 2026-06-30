@@ -1,0 +1,9 @@
+{
+  "question": "what role do fungi play as decomposers in ecosystems",
+  "answer": "Fungi play a major role as decomposers and recyclers, making it possible for members of the other kingdoms to be supplied with nutrients and live.",
+  "citations": [
+    "chunk:24_3_ecology_of_fungi_biology_2e_openstax:2 | data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf | sandy soil of the southwestern United States. Fungi that parasitize coral reefs live in the ocean. However, most memb...",
+    "triple:a94c29e21a964ad0 | Fungi --[play a major role as]--> decomposers and recyclers"
+  ],
+  "reasoning": "Matched entities: decomposers, ecosystems, fungi. Traversed graph edges: Fungi --[act as]--> decomposers; Fungi --[control]--> population of damaging pests; Fungi --[influence]--> nutrient cycle. Graph evidence: \"Like bacteria, fungi absorb nutrients across the cell surface and act as decomposers, helping to recycle nutrients by breaking down organic materials to simple molecules.\". The context explicitly states that fungi play a major role as decomposers and recyclers in ecosystems, which helps supply nutrients to other organisms."
+}

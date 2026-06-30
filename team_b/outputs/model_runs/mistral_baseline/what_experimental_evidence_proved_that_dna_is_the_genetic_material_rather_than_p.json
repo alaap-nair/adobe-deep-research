@@ -1,0 +1,9 @@
+{
+  "question": "What experimental evidence proved that DNA is the genetic material rather than protein?",
+  "answer": "The experiment conducted by Martha Chase and Alfred Hershey in 1952 provided confirmatory evidence that DNA was indeed the genetic material and not proteins. They used bacteriophages radiolabeled with either 35S (which labels protein) or 32P (which labels DNA). Only 32P entered the bacterial cells, indicating that DNA is the genetic material.",
+  "citations": [
+    "chunk:14_1_historical_basis_of_modern_understanding_biology_2e_openstax:10 | 14.1 Historical Basis of Modern Understanding - Biology 2e _ OpenStax.txt | The decisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that DN...",
+    "chunk:14_2_dna_structure_and_sequencing_biology_2e_openstax:0 | 14.2 DNA Structure and Sequencing - Biology 2e _ OpenStax.txt | FIGURE 14.4 In Hershey and Chase's experiments, bacteria were infected with phage radiolabeled with either 35S, which..."
+  ],
+  "reasoning": "Matched entities: dna, protein, decaying organic material. Traversed graph edges: Oswald Avery --[used enzymes to degrade]--> DNA; Oswald Avery --[isolated]--> S strain; Oswald Avery --[concluded]--> DNA was the transforming principle. Graph evidence: \"They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.\". The experiment by Hershey and Chase used bacteriophages labeled with radioactive isotopes to differentiate between protein and DNA. The fact that only the radioactive phosphorus (32P), which labels DNA, entered the bacterial cells, proved that DNA is the genetic material."
+}

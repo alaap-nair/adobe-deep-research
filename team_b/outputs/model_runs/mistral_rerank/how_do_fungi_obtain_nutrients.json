@@ -1,0 +1,9 @@
+{
+  "question": "How do fungi obtain nutrients?",
+  "answer": "Fungi obtain nutrients by producing exoenzymes to digest nutrients externally, then absorbing the smaller molecules through their hyphae. They are mostly saprobes, deriving nutrients from decaying organic matter.",
+  "citations": [
+    "chunk:24_3_ecology_of_fungi_biology_2e_openstax:4 | data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf | 2e | OpenStax https://openstax.org/books/biology-2e/pages/24-3-ecology-of-fungi 1/9 Figure 24.19 Bracket fungi. Fungi...",
+    "chunk:24_1_characteristics_of_fungi_biology_2e_openstax:23 | data/24.1 Characteristics of Fungi - Biology 2e _ OpenStax.pdf | 6/11 the hyphae, where they process nutrients in the environment. Then, the smaller molecules produced by this extern..."
+  ],
+  "reasoning": "Matched entities: fungi. Traversed graph edges: Chytridiomycota --[belongs to]--> fungi; Chytrids --[are]--> Chytridiomycota; Ascomycota --[belongs to]--> fungi. Graph evidence: \"The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).\". The context explains that fungi produce exoenzymes to digest nutrients externally and absorb the resulting smaller molecules through their hyphae. It also mentions that fungi are mostly saprobes, obtaining nutrients from decaying organic matter."
+}

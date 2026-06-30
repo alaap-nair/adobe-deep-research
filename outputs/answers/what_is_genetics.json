@@ -1,0 +1,9 @@
+{
+  "question": "What is genetics?",
+  "answer": "I don't know based on the provided context.",
+  "citations": [
+    "chunk:mcb_genetics:2 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | inherited exclusively from the female parent, which can be involved in inherited genetic disorders. On each chromosom...",
+    "chunk:ch17_biotechnology_and_genomics:137 | data/Ch17_Biotechnology_and_Genomics.pdf | to: a. generate new hybrid strains b. improve disease resistance c. improve yield d. all of the above 19. Genomics ca..."
+  ],
+  "reasoning": "Matched entities: reverse genetics. Traversed graph edges: reverse genetics --[resulted in reversing]--> classic genetic methodology; reverse genetics --[determines]--> gene's function; zygote nucleus --[contains]--> genetic information. Graph evidence: \"This technique, reverse genetics, has resulted in reversing the classic genetic methodology.\". The provided context does not contain any information about the definition of genetics."
+}

@@ -1,0 +1,9 @@
+{
+  "question": "What is mycelium?",
+  "answer": "Mycelium is a network of fungal hyphae that forms a large surface area for absorbing water and minerals from the soil.",
+  "citations": [
+    "chunk:24_3_ecology_of_fungi_biology_2e_openstax:10 | data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf | net (Figure 24.21). The fungal partner can belong to the Ascomycota, Basidiomycota or Zygomycota. Endomycorrhizae (\"i...",
+    "chunk:24_3_ecology_of_fungi_biology_2e_openstax:9 | data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf | mycorrhizal partners. In a mycorrhizal association, the fungal mycelia use their extensive network of hyphae and larg..."
+  ],
+  "reasoning": "Matched entities: fungi, basidiomycota, zygomycota. Traversed graph edges: Chytridiomycota --[belongs to]--> fungi; Chytrids --[are]--> Chytridiomycota; Ascomycota --[belongs to]--> fungi. Graph evidence: \"The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).\". Mycelium is described as a network of fungal hyphae that allows for the absorption of water and minerals from the soil."
+}

@@ -1,0 +1,9 @@
+{
+  "question": "Explain the relationship between introns, exons, and alternative splicing in eukaryotic gene expression.",
+  "answer": "In eukaryotic gene expression, introns are non-coding sequences that interrupt exons within a gene. Exons are the coding sequences that are expressed, while introns are removed during pre-mRNA processing through a sequence-specific mechanism called splicing. This process involves spliceosomes, complexes of proteins and RNA molecules, which catalyze the removal of introns and rejoining of exons. The accuracy of splicing is crucial, as even a single nucleotide error can shift the reading frame of exons, resulting in a dysfunctional protein. Alternative splicing allows exons to be removed or rearranged in different ways, enabling the production of multiple protein variants from a single gene.",
+  "citations": [
+    "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:9 | 15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt | exporting the processed mRNA to the cytoplasm. Pre-mRNA Splicing Eukaryotic genes are composed of exons, which corres...",
+    "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:12 | 15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt | introns and reconnecting exons is called splicing (Figure 15.13). Introns are removed and degraded while the pre-mRNA..."
+  ],
+  "reasoning": "Matched entities: exons, introns, splicing. Traversed graph edges: eukaryotic pre-mRNA --[contains]--> exons; eukaryotic pre-mRNA --[undergoes]--> RNA processing; eukaryotic pre-mRNA --[contains]--> introns. Graph evidence: \"The coding sequences (exons) are interrupted by noncoding introns, which must be removed to make a translatable mRNA.\". Model omitted explicit reasoning."
+}

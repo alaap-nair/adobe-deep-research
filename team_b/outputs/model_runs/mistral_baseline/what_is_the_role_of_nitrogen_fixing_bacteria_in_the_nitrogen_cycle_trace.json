@@ -1,0 +1,1041 @@
+{
+  "question": "What is the role of nitrogen-fixing bacteria in the nitrogen cycle?",
+  "generated_at": "2026-05-01T06:41:59.541844+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "role",
+        "nitrogen",
+        "fixing",
+        "bacteria",
+        "nitrogen",
+        "cycle",
+        "role nitrogen",
+        "nitrogen fixing",
+        "fixing bacteria",
+        "bacteria nitrogen",
+        "nitrogen cycle",
+        "role nitrogen fixing",
+        "nitrogen fixing bacteria",
+        "fixing bacteria nitrogen",
+        "bacteria nitrogen cycle"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:bacterial_transformation",
+          "name": "bacterial transformation",
+          "matched_text": "bacteria",
+          "matched_alias": "bacterial transformation",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        },
+        {
+          "entity_id": "ent:calvin_cycle",
+          "name": "calvin cycle",
+          "matched_text": "cycle",
+          "matched_alias": "calvin cycle",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        },
+        {
+          "entity_id": "ent:nitrogenous_bases",
+          "name": "nitrogenous bases",
+          "matched_text": "nitrogen",
+          "matched_alias": "nitrogenous bases",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:24_5_importance_of_fungi_in_human_life_biology_2e_openstax:1",
+          "text": "they are part of the nutrient cycle in ecosystems.\n\nThey have other ecosystem\nroles as well. As animal pathogens, fungi help to control the population of damaging pests. These fungi\nare very specific to the insects they attack, and do not infect other animals or plants. Fungi are currently\nunder investigation as potential microbial insecticides, with several already on the market. For example,\nthe fungus Beauveria bassiana is being tested as a possible biological control agent for the recent\nspread of emerald ash borer a beetle that feeds on ash trees. It has been released in Michigan, Illinois,\nIndiana, Ohio, West Virginia, and Maryland (Figure 24.28). Figure 24.28 Fungal insect control.",
+          "source_name": "data/24.5 Importance of Fungi in Human Life - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 1,
+          "snippet": "they are part of the nutrient cycle in ecosystems.\n\nThey have other ecosystem\nroles as well. As animal pathogens, fungi help to control the population of damaging pests. These fungi\nare very specific to the insects they attack, and do not infect other animals or plants. Fungi are currently\nunder investigation as potential microbial insecticides, with several already on the market. For example,\nthe",
+          "score": 0.6346215179543775
+        },
+        {
+          "chunk_id": "chunk:24_2_classifications_of_fungi_biology_2e_openstax:31",
+          "text": "indicate that trees and their root\nsymbionts share a long evolutionary history.\n\nIt appears that nearly all members of this family form\narbuscular mycorrhizae: the hyphae interact with the root cells forming a mutually beneficial\nassociation in which the plants supply the carbon source and energy in the form of carbohydrates to\nthe fungus, and the fungus supplies essential minerals from the soil to the plant. The exception is\nGeosiphon pyriformis, which hosts the cyanobacterium Nostoc as an endosymbiont. The glomeromycetes do not reproduce sexually and do not survive without the presence of plant roots. Although they have coenocytic hyphae like the zygomycetes, they do not form zygospores.",
+          "source_name": "data/24.2 Classifications of Fungi - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 31,
+          "snippet": "indicate that trees and their root\nsymbionts share a long evolutionary history.\n\nIt appears that nearly all members of this family form\narbuscular mycorrhizae: the hyphae interact with the root cells forming a mutually beneficial\nassociation in which the plants supply the carbon source and energy in the form of carbohydrates to\nthe fungus, and the fungus supplies essential minerals from the soil t",
+          "score": 0.612698933029761
+        },
+        {
+          "chunk_id": "chunk:8_1_overview_of_photosynthesis_biology_2e_openstax:4",
+          "text": "that derive energy from the bacteria. (credit a: modification of work by Steve Hillebrand, U.S.\n\nFish and Wildlife\nService; credit b: modification of work by \"eutrophication&hypoxia\"/Flickr; credit c: modification of work by NASA; credit d: University of\nWashington, NOAA; credit e: modification of work by Mark Amend, West Coast and Polar Regions Undersea Research Center, UAF,\nNOAA)\nThe importance of photosynthesis is not just that it can capture sunlight’s energy. After all, a lizard\nsunning itself on a cold day can use the sun’s energy to warm up in a process called behavioral\nthermoregulation.",
+          "source_name": "data/8.1 Overview of Photosynthesis - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 4,
+          "snippet": "that derive energy from the bacteria. (credit a: modification of work by Steve Hillebrand, U.S.\n\nFish and Wildlife\nService; credit b: modification of work by \"eutrophication&hypoxia\"/Flickr; credit c: modification of work by NASA; credit d: University of\nWashington, NOAA; credit e: modification of work by Mark Amend, West Coast and Polar Regions Undersea Research Center, UAF,\nNOAA)\nThe importance ",
+          "score": 0.6099791695816039
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:0",
+          "text": "8.3 Using Light Energy to Make Organic\nMolecules\nLearning Objectives\nBy the end of this section, you will be able to do the following:\nDescribe the Calvin cycle\nDefine carbon fixation\nExplain how photosynthesis works in the energy cycle of all living organisms\nAfter the energy from the sun is converted into chemical energy and temporarily stored in ATP and\nNADPH molecules, the cell has the fuel needed to build carbohydrate molecules for long-term energy\nstorage.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 0,
+          "snippet": "8.3 Using Light Energy to Make Organic\nMolecules\nLearning Objectives\nBy the end of this section, you will be able to do the following:\nDescribe the Calvin cycle\nDefine carbon fixation\nExplain how photosynthesis works in the energy cycle of all living organisms\nAfter the energy from the sun is converted into chemical energy and temporarily stored in ATP and\nNADPH molecules, the cell has the fuel ne",
+          "score": 0.6035882154881789
+        },
+        {
+          "chunk_id": "chunk:24_3_ecology_of_fungi_biology_2e_openstax:9",
+          "text": "mycorrhizal partners.\n\nIn a mycorrhizal\nassociation, the fungal mycelia use their extensive network of hyphae and large surface area in contact\nwith the soil to channel water and minerals from the soil into the plant. In exchange, the plant supplies\nthe products of photosynthesis to fuel the metabolism of the fungus. There are several basic types of mycorrhizae. Ectomycorrhizae (“outside” mycorrhizae) depend on\nfungi enveloping the roots in a sheath (called a mantle). Hyphae grow from the mantle into the root and\nenvelope the outer layers of the root cells in a network of hyphae called a Hartig net (Figure 24.21). The\nfungal partner can belong to the Ascomycota, Basidiomycota or Zygomycota.",
+          "source_name": "data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 9,
+          "snippet": "mycorrhizal partners.\n\nIn a mycorrhizal\nassociation, the fungal mycelia use their extensive network of hyphae and large surface area in contact\nwith the soil to channel water and minerals from the soil into the plant. In exchange, the plant supplies\nthe products of photosynthesis to fuel the metabolism of the fungus. There are several basic types of mycorrhizae. Ectomycorrhizae (“outside” mycorrhi",
+          "score": 0.6006785305319898
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:98bbf1ffef95c3f1",
+          "head_entity_id": "ent:dna",
+          "tail_entity_id": "ent:nitrogenous_bases",
+          "relation": "contains",
+          "evidence": "Meselson and Stahl were interested in understanding how DNA replicates. They grew E. coli for several generations in a medium containing a “heavy” isotope of nitrogen (15N), which gets incorporated into nitrogenous bases, and eventually into the DNA (Figure 14.13).",
+          "head_name": "DNA",
+          "tail_name": "nitrogenous bases",
+          "score": 0.5982541909229114
+        },
+        {
+          "triple_id": "triple:ee120949d4849bf3",
+          "head_entity_id": "ent:fungi",
+          "tail_entity_id": "ent:nutrient_cycle",
+          "relation": "are part of",
+          "evidence": "As we have seen, fungi influence the well-being of human populations on a large scale because they are part of the nutrient cycle in ecosystems.",
+          "head_name": "fungi",
+          "tail_name": "nutrient cycle",
+          "score": 0.5850959329042864
+        },
+        {
+          "triple_id": "triple:b221eccb50b972b8",
+          "head_entity_id": "ent:photoautotrophs",
+          "tail_entity_id": "ent:light_energy_into_chemical_energy",
+          "relation": "convert",
+          "evidence": "In the case of photosynthesis, light energy is converted into chemical energy, which photoautotrophs use to build basic carbohydrate molecules (Figure 8.9).",
+          "head_name": "photoautotrophs",
+          "tail_name": "light energy into chemical energy",
+          "score": 0.58311480106219
+        },
+        {
+          "triple_id": "triple:a64f1cadd99cc127",
+          "head_entity_id": "ent:glomeromycota",
+          "tail_entity_id": "ent:arbuscular_mycorrhizae",
+          "relation": "form",
+          "evidence": "It appears that nearly all members of this family form arbuscular mycorrhizae: the hyphae interact with the root cells forming a mutually beneficial association in which the plants supply the carbon source and energy in the form of carbohydrates to the fungus, and the fungus supplies essential minerals from the soil to the plant.",
+          "head_name": "glomeromycota",
+          "tail_name": "arbuscular mycorrhizae",
+          "score": 0.5777363493087591
+        },
+        {
+          "triple_id": "triple:5c4612e3193630b2",
+          "head_entity_id": "ent:mycorrhizal_relationship",
+          "tail_entity_id": "ent:productivity_of_farm_land",
+          "relation": "is essential for",
+          "evidence": "The mycorrhizal relationship between fungi and plant roots is essential for the productivity of farm land.",
+          "head_name": "mycorrhizal relationship",
+          "tail_name": "productivity of farm land",
+          "score": 0.5659561242912527
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:bacterial_transformation",
+        "ent:calvin_cycle",
+        "ent:nitrogenous_bases",
+        "ent:dna",
+        "ent:fungi",
+        "ent:nutrient_cycle",
+        "ent:photoautotrophs",
+        "ent:light_energy_into_chemical_energy",
+        "ent:glomeromycota",
+        "ent:arbuscular_mycorrhizae",
+        "ent:mycorrhizal_relationship",
+        "ent:productivity_of_farm_land"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "bacterial transformation",
+          "entity_id": "ent:bacterial_transformation",
+          "original_names": [
+            "bacterial transformation"
+          ]
+        },
+        {
+          "name": "frederick griffith",
+          "entity_id": "ent:frederick_griffith",
+          "original_names": [
+            "Frederick Griffith"
+          ]
+        },
+        {
+          "name": "streptococcus pneumoniae",
+          "entity_id": "ent:streptococcus_pneumoniae",
+          "original_names": [
+            "Streptococcus pneumoniae"
+          ]
+        },
+        {
+          "name": "transforming principle",
+          "entity_id": "ent:transforming_principle",
+          "original_names": [
+            "transforming principle"
+          ]
+        },
+        {
+          "name": "calvin cycle",
+          "entity_id": "ent:calvin_cycle",
+          "original_names": [
+            "Calvin cycle"
+          ]
+        },
+        {
+          "name": "carbon dioxide",
+          "entity_id": "ent:carbon_dioxide",
+          "original_names": [
+            "carbon dioxide"
+          ]
+        },
+        {
+          "name": "photosynthesis",
+          "entity_id": "ent:photosynthesis",
+          "original_names": [
+            "Photosynthesis",
+            "photosynthesis"
+          ]
+        },
+        {
+          "name": "g3p",
+          "entity_id": "ent:g3p",
+          "original_names": [
+            "G3P"
+          ]
+        },
+        {
+          "name": "atp",
+          "entity_id": "ent:atp",
+          "original_names": [
+            "ATP"
+          ]
+        },
+        {
+          "name": "atp synthase",
+          "entity_id": "ent:atp_synthase",
+          "original_names": [
+            "ATP synthase"
+          ]
+        },
+        {
+          "name": "nadph",
+          "entity_id": "ent:nadph",
+          "original_names": [
+            "NADPH"
+          ]
+        },
+        {
+          "name": "stroma",
+          "entity_id": "ent:stroma",
+          "original_names": [
+            "stroma"
+          ]
+        },
+        {
+          "name": "light-independent reactions",
+          "entity_id": "ent:light-independent_reactions",
+          "original_names": [
+            "light-independent reactions",
+            "Light-independent reactions"
+          ]
+        },
+        {
+          "name": "carbohydrates",
+          "entity_id": "ent:carbohydrates",
+          "original_names": [
+            "carbohydrates"
+          ]
+        },
+        {
+          "name": "nitrogenous bases",
+          "entity_id": "ent:nitrogenous_bases",
+          "original_names": [
+            "nitrogenous bases"
+          ]
+        },
+        {
+          "name": "dna",
+          "entity_id": "ent:dna",
+          "original_names": [
+            "DNA"
+          ]
+        },
+        {
+          "name": "oswald avery",
+          "entity_id": "ent:oswald_avery",
+          "original_names": [
+            "Oswald Avery"
+          ]
+        },
+        {
+          "name": "protein",
+          "entity_id": "ent:protein",
+          "original_names": [
+            "protein"
+          ]
+        },
+        {
+          "name": "nucleotides",
+          "entity_id": "ent:nucleotides",
+          "original_names": [
+            "nucleotides"
+          ]
+        },
+        {
+          "name": "histones",
+          "entity_id": "ent:histones",
+          "original_names": [
+            "histones"
+          ]
+        },
+        {
+          "name": "deoxyribose",
+          "entity_id": "ent:deoxyribose",
+          "original_names": [
+            "deoxyribose"
+          ]
+        },
+        {
+          "name": "two strands",
+          "entity_id": "ent:two_strands",
+          "original_names": [
+            "two strands"
+          ]
+        },
+        {
+          "name": "moves toward the positive electrode",
+          "entity_id": "ent:moves_toward_the_positive_electrode",
+          "original_names": [
+            "moves toward the positive electrode"
+          ]
+        },
+        {
+          "name": "gel electrophoresis",
+          "entity_id": "ent:gel_electrophoresis",
+          "original_names": [
+            "gel electrophoresis"
+          ]
+        },
+        {
+          "name": "dna-specific dye",
+          "entity_id": "ent:dna-specific_dye",
+          "original_names": [
+            "DNA-specific dye"
+          ]
+        },
+        {
+          "name": "double helix",
+          "entity_id": "ent:double_helix",
+          "original_names": [
+            "double helix"
+          ]
+        },
+        {
+          "name": "new complementary strand",
+          "entity_id": "ent:new_complementary_strand",
+          "original_names": [
+            "new complementary strand"
+          ]
+        },
+        {
+          "name": "replication",
+          "entity_id": "ent:replication",
+          "original_names": [
+            "replication"
+          ]
+        },
+        {
+          "name": "helicase",
+          "entity_id": "ent:helicase",
+          "original_names": [
+            "Helicase"
+          ]
+        },
+        {
+          "name": "dna polymerase",
+          "entity_id": "ent:dna_polymerase",
+          "original_names": [
+            "DNA polymerase"
+          ]
+        },
+        {
+          "name": "rna",
+          "entity_id": "ent:rna",
+          "original_names": [
+            "RNA"
+          ]
+        },
+        {
+          "name": "genes",
+          "entity_id": "ent:genes",
+          "original_names": [
+            "genes"
+          ]
+        },
+        {
+          "name": "mitochondria",
+          "entity_id": "ent:mitochondria",
+          "original_names": [
+            "mitochondria"
+          ]
+        },
+        {
+          "name": "s strain",
+          "entity_id": "ent:s_strain",
+          "original_names": [
+            "S strain"
+          ]
+        },
+        {
+          "name": "dna was the transforming principle",
+          "entity_id": "ent:dna_was_the_transforming_principle",
+          "original_names": [
+            "DNA was the transforming principle"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "phosphodiester bonds",
+          "entity_id": "ent:phosphodiester_bonds",
+          "original_names": [
+            "phosphodiester bonds"
+          ]
+        },
+        {
+          "name": "dna polymerase iii",
+          "entity_id": "ent:dna_polymerase_iii",
+          "original_names": [
+            "DNA polymerase III"
+          ]
+        },
+        {
+          "name": "nucleosomes",
+          "entity_id": "ent:nucleosomes",
+          "original_names": [
+            "nucleosomes"
+          ]
+        },
+        {
+          "name": "dna helix",
+          "entity_id": "ent:dna_helix",
+          "original_names": [
+            "DNA helix"
+          ]
+        },
+        {
+          "name": "nucleoside triphosphates",
+          "entity_id": "ent:nucleoside_triphosphates",
+          "original_names": [
+            "nucleoside triphosphates"
+          ]
+        },
+        {
+          "name": "dideoxynucleotides",
+          "entity_id": "ent:dideoxynucleotides",
+          "original_names": [
+            "dideoxynucleotides"
+          ]
+        },
+        {
+          "name": "okazaki fragments",
+          "entity_id": "ent:okazaki_fragments",
+          "original_names": [
+            "Okazaki fragments"
+          ]
+        },
+        {
+          "name": "free 3'-oh group",
+          "entity_id": "ent:free_3'-oh_group",
+          "original_names": [
+            "free 3'-OH group"
+          ]
+        },
+        {
+          "name": "leading strand",
+          "entity_id": "ent:leading_strand",
+          "original_names": [
+            "leading strand"
+          ]
+        },
+        {
+          "name": "pcna",
+          "entity_id": "ent:pcna",
+          "original_names": [
+            "PCNA"
+          ]
+        },
+        {
+          "name": "phosphodiester bond",
+          "entity_id": "ent:phosphodiester_bond",
+          "original_names": [
+            "phosphodiester bond"
+          ]
+        },
+        {
+          "name": "wrong nucleotide",
+          "entity_id": "ent:wrong_nucleotide",
+          "original_names": [
+            "wrong nucleotide"
+          ]
+        },
+        {
+          "name": "wrongly incorporated bases",
+          "entity_id": "ent:wrongly_incorporated_bases",
+          "original_names": [
+            "wrongly incorporated bases"
+          ]
+        },
+        {
+          "name": "mistakes during dna replication",
+          "entity_id": "ent:mistakes_during_dna_replication",
+          "original_names": [
+            "mistakes during DNA replication"
+          ]
+        },
+        {
+          "name": "segment of dna",
+          "entity_id": "ent:segment_of_dna",
+          "original_names": [
+            "segment of DNA"
+          ]
+        },
+        {
+          "name": "newly added base",
+          "entity_id": "ent:newly_added_base",
+          "original_names": [
+            "newly added base"
+          ]
+        },
+        {
+          "name": "ribose",
+          "entity_id": "ent:ribose",
+          "original_names": [
+            "ribose"
+          ]
+        },
+        {
+          "name": "amino acids",
+          "entity_id": "ent:amino_acids",
+          "original_names": [
+            "amino acids"
+          ]
+        },
+        {
+          "name": "promoter",
+          "entity_id": "ent:promoter",
+          "original_names": [
+            "promoter"
+          ]
+        },
+        {
+          "name": "trypanosomes",
+          "entity_id": "ent:trypanosomes",
+          "original_names": [
+            "trypanosomes"
+          ]
+        },
+        {
+          "name": "fungi",
+          "entity_id": "ent:fungi",
+          "original_names": [
+            "fungi"
+          ]
+        },
+        {
+          "name": "chytridiomycota",
+          "entity_id": "ent:chytridiomycota",
+          "original_names": [
+            "Chytridiomycota"
+          ]
+        },
+        {
+          "name": "chytrids",
+          "entity_id": "ent:chytrids",
+          "original_names": [
+            "Chytrids"
+          ]
+        },
+        {
+          "name": "ascomycota",
+          "entity_id": "ent:ascomycota",
+          "original_names": [
+            "Ascomycota"
+          ]
+        },
+        {
+          "name": "asci",
+          "entity_id": "ent:asci",
+          "original_names": [
+            "asci"
+          ]
+        },
+        {
+          "name": "ascospores",
+          "entity_id": "ent:ascospores",
+          "original_names": [
+            "ascospores"
+          ]
+        },
+        {
+          "name": "formation of an ascus",
+          "entity_id": "ent:formation_of_an_ascus",
+          "original_names": [
+            "formation of an ascus"
+          ]
+        },
+        {
+          "name": "ascocarp",
+          "entity_id": "ent:ascocarp",
+          "original_names": [
+            "ascocarp"
+          ]
+        },
+        {
+          "name": "conidiophores",
+          "entity_id": "ent:conidiophores",
+          "original_names": [
+            "conidiophores"
+          ]
+        },
+        {
+          "name": "yeasts",
+          "entity_id": "ent:yeasts",
+          "original_names": [
+            "yeasts"
+          ]
+        },
+        {
+          "name": "aspergillus oryzae",
+          "entity_id": "ent:aspergillus_oryzae",
+          "original_names": [
+            "Aspergillus oryzae"
+          ]
+        },
+        {
+          "name": "humans",
+          "entity_id": "ent:humans",
+          "original_names": [
+            "humans"
+          ]
+        },
+        {
+          "name": "plants",
+          "entity_id": "ent:plants",
+          "original_names": [
+            "plants"
+          ]
+        },
+        {
+          "name": "conidiospores",
+          "entity_id": "ent:conidiospores",
+          "original_names": [
+            "conidiospores"
+          ]
+        },
+        {
+          "name": "morels",
+          "entity_id": "ent:morels",
+          "original_names": [
+            "morels"
+          ]
+        },
+        {
+          "name": "truffles",
+          "entity_id": "ent:truffles",
+          "original_names": [
+            "truffles"
+          ]
+        },
+        {
+          "name": "animals",
+          "entity_id": "ent:animals",
+          "original_names": [
+            "animals"
+          ]
+        },
+        {
+          "name": "lichens",
+          "entity_id": "ent:lichens",
+          "original_names": [
+            "lichens"
+          ]
+        },
+        {
+          "name": "ectomycorrhizae",
+          "entity_id": "ent:ectomycorrhizae",
+          "original_names": [
+            "ectomycorrhizae"
+          ]
+        },
+        {
+          "name": "glomeromycota",
+          "entity_id": "ent:glomeromycota",
+          "original_names": [
+            "Glomeromycota"
+          ]
+        },
+        {
+          "name": "nostoc",
+          "entity_id": "ent:nostoc",
+          "original_names": [
+            "Nostoc"
+          ]
+        },
+        {
+          "name": "arbuscular mycorrhizae",
+          "entity_id": "ent:arbuscular_mycorrhizae",
+          "original_names": [
+            "arbuscular mycorrhizae"
+          ]
+        },
+        {
+          "name": "endomycorrhizae",
+          "entity_id": "ent:endomycorrhizae",
+          "original_names": [
+            "endomycorrhizae"
+          ]
+        },
+        {
+          "name": "basidiomycota",
+          "entity_id": "ent:basidiomycota",
+          "original_names": [
+            "Basidiomycota"
+          ]
+        },
+        {
+          "name": "basidiocarp",
+          "entity_id": "ent:basidiocarp",
+          "original_names": [
+            "basidiocarp"
+          ]
+        },
+        {
+          "name": "rusts",
+          "entity_id": "ent:rusts",
+          "original_names": [
+            "rusts"
+          ]
+        },
+        {
+          "name": "shelf fungi",
+          "entity_id": "ent:shelf_fungi",
+          "original_names": [
+            "shelf fungi"
+          ]
+        },
+        {
+          "name": "basidiospores",
+          "entity_id": "ent:basidiospores",
+          "original_names": [
+            "basidiospores"
+          ]
+        },
+        {
+          "name": "basidia",
+          "entity_id": "ent:basidia",
+          "original_names": [
+            "basidia"
+          ]
+        },
+        {
+          "name": "mushrooms",
+          "entity_id": "ent:mushrooms",
+          "original_names": [
+            "mushrooms"
+          ]
+        },
+        {
+          "name": "smuts",
+          "entity_id": "ent:smuts",
+          "original_names": [
+            "smuts"
+          ]
+        },
+        {
+          "name": "zygomycota",
+          "entity_id": "ent:zygomycota",
+          "original_names": [
+            "Zygomycota"
+          ]
+        },
+        {
+          "name": "zygomycetes",
+          "entity_id": "ent:zygomycetes",
+          "original_names": [
+            "Zygomycetes"
+          ]
+        },
+        {
+          "name": "algae",
+          "entity_id": "ent:algae",
+          "original_names": [
+            "Algae"
+          ]
+        },
+        {
+          "name": "fungus",
+          "entity_id": "ent:fungus",
+          "original_names": [
+            "fungus"
+          ]
+        },
+        {
+          "name": "ants",
+          "entity_id": "ent:ants",
+          "original_names": [
+            "ants"
+          ]
+        },
+        {
+          "name": "nitrogen and phosphorus",
+          "entity_id": "ent:nitrogen_and_phosphorus",
+          "original_names": [
+            "nitrogen and phosphorus"
+          ]
+        },
+        {
+          "name": "leaf-cutter ants",
+          "entity_id": "ent:leaf-cutter_ants",
+          "original_names": [
+            "leaf-cutter ants"
+          ]
+        },
+        {
+          "name": "leaves",
+          "entity_id": "ent:leaves",
+          "original_names": [
+            "leaves"
+          ]
+        },
+        {
+          "name": "organic matter",
+          "entity_id": "ent:organic_matter",
+          "original_names": [
+            "organic matter"
+          ]
+        },
+        {
+          "name": "energy from sunlight",
+          "entity_id": "ent:energy_from_sunlight",
+          "original_names": [
+            "energy from sunlight"
+          ]
+        },
+        {
+          "name": "cyanobacteria",
+          "entity_id": "ent:cyanobacteria",
+          "original_names": [
+            "Cyanobacteria"
+          ]
+        },
+        {
+          "name": "parasites",
+          "entity_id": "ent:parasites",
+          "original_names": [
+            "parasites"
+          ]
+        },
+        {
+          "name": "pathogens",
+          "entity_id": "ent:pathogens",
+          "original_names": [
+            "pathogens"
+          ]
+        },
+        {
+          "name": "mycosis",
+          "entity_id": "ent:mycosis",
+          "original_names": [
+            "mycosis"
+          ]
+        },
+        {
+          "name": "mycotoxicosis",
+          "entity_id": "ent:mycotoxicosis",
+          "original_names": [
+            "mycotoxicosis"
+          ]
+        },
+        {
+          "name": "tissue decay",
+          "entity_id": "ent:tissue_decay",
+          "original_names": [
+            "tissue decay"
+          ]
+        },
+        {
+          "name": "model research organisms",
+          "entity_id": "ent:model_research_organisms",
+          "original_names": [
+            "model research organisms"
+          ]
+        },
+        {
+          "name": "population of damaging pests",
+          "entity_id": "ent:population_of_damaging_pests",
+          "original_names": [
+            "population of damaging pests"
+          ]
+        },
+        {
+          "name": "nutrient cycle",
+          "entity_id": "ent:nutrient_cycle",
+          "original_names": [
+            "nutrient cycle"
+          ]
+        },
+        {
+          "name": "fermentation",
+          "entity_id": "ent:fermentation",
+          "original_names": [
+            "fermentation"
+          ]
+        },
+        {
+          "name": "antibiotics",
+          "entity_id": "ent:antibiotics",
+          "original_names": [
+            "antibiotics"
+          ]
+        },
+        {
+          "name": "photoautotrophs",
+          "entity_id": "ent:photoautotrophs",
+          "original_names": [
+            "photoautotrophs"
+          ]
+        },
+        {
+          "name": "specific wavelengths of sunlight",
+          "entity_id": "ent:specific_wavelengths_of_sunlight",
+          "original_names": [
+            "specific wavelengths of sunlight"
+          ]
+        },
+        {
+          "name": "light energy into chemical energy",
+          "entity_id": "ent:light_energy_into_chemical_energy",
+          "original_names": [
+            "light energy into chemical energy"
+          ]
+        },
+        {
+          "name": "mycorrhizal relationship",
+          "entity_id": "ent:mycorrhizal_relationship",
+          "original_names": [
+            "mycorrhizal relationship"
+          ]
+        },
+        {
+          "name": "productivity of farm land",
+          "entity_id": "ent:productivity_of_farm_land",
+          "original_names": [
+            "productivity of farm land"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:bacterial_transformation",
+          "evidence": "British bacteriologist Frederick Griffith reported the first demonstration of bacterial transformation—a process in which external DNA is taken up by a cell, thereby changing its morphology and physiology.",
+          "target_name": "bacterial transformation",
+          "source_entity_id": "ent:frederick_griffith",
+          "triple_id": "triple:60a6cb5959fac9fb",
+          "source_name": "Frederick Griffith",
+          "relation": "reported"
+        },
+        {
+          "target_entity_id": "ent:streptococcus_pneumoniae",
+          "evidence": "Griffith conducted his experiments with Streptococcus pneumoniae, a bacterium that causes pneumonia.",
+          "target_name": "Streptococcus pneumoniae",
+          "source_entity_id": "ent:frederick_griffith",
+          "triple_id": "triple:ddf7e13f58930180",
+          "source_name": "Frederick Griffith",
+          "relation": "conducted experiments with"
+        },
+        {
+          "target_entity_id": "ent:transforming_principle",
+          "evidence": "He called this the transforming principle (Figure 14.3). These experiments are now known as Griffith's transformation experiments.",
+          "target_name": "transforming principle",
+          "source_entity_id": "ent:frederick_griffith",
+          "triple_id": "triple:b3cc418d19f55d6a",
+          "source_name": "Frederick Griffith",
+          "relation": "concluded"
+        },
+        {
+          "target_entity_id": "ent:carbon_dioxide",
+          "evidence": "In the stroma, in addition to CO2, two other components are present to initiate the light-independent reactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three molecules of ribulose bisphosphate (RuBP).",
+          "target_name": "carbon dioxide",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:704a71fe6fdb8ffd",
+          "source_name": "Calvin cycle",
+          "relation": "consumes"
+        },
+        {
+          "target_entity_id": "ent:carbon_dioxide",
+          "evidence": "Photosynthesis is a multi-step process that requires specific wavelengths of visible sunlight, carbon dioxide (which is low in energy), and water as substrates.",
+          "target_name": "carbon dioxide",
+          "source_entity_id": "ent:photosynthesis",
+          "triple_id": "triple:c08663ef8421e663",
+          "source_name": "Photosynthesis",
+          "relation": "requires"
+        },
+        {
+          "target_entity_id": "ent:g3p",
+          "evidence": "The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration.",
+          "target_name": "G3P",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:13f848f8eb4facfb",
+          "source_name": "Calvin cycle",
+          "relation": "produces"
+        },
+        {
+          "target_entity_id": "ent:g3p",
+          "evidence": "The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration.",
+          "target_name": "G3P",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:8e40d7a51f9db422",
+          "source_name": "Calvin cycle",
+          "relation": "converts to"
+        },
+        {
+          "target_entity_id": "ent:atp",
+          "evidence": "ATP and NADPH are used to convert the six molecules of 3-PGA into six molecules of a chemical called glyceraldehyde 3-phosphate (G3P).",
+          "target_name": "ATP",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:5bdbe1c59267d238",
+          "source_name": "Calvin cycle",
+          "relation": "consumes"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What is the role of nitrogen-fixing bacteria in the nitrogen cycle?",
+    "answer": "I don't know based on the provided context.",
+    "citations": [
+      "chunk:24_5_importance_of_fungi_in_human_life_biology_2e_openstax:1 | data/24.5 Importance of Fungi in Human Life - Biology 2e _ OpenStax.pdf | they are part of the nutrient cycle in ecosystems. They have other ecosystem roles as well. As animal pathogens, fung...",
+      "chunk:24_2_classifications_of_fungi_biology_2e_openstax:31 | data/24.2 Classifications of Fungi - Biology 2e _ OpenStax.pdf | indicate that trees and their root symbionts share a long evolutionary history. It appears that nearly all members of..."
+    ],
+    "reasoning": "Matched entities: bacterial transformation, calvin cycle, nitrogenous bases. Traversed graph edges: Frederick Griffith --[reported]--> bacterial transformation; Frederick Griffith --[conducted experiments with]--> Streptococcus pneumoniae; Frederick Griffith --[concluded]--> transforming principle. Graph evidence: \"British bacteriologist Frederick Griffith reported the first demonstration of bacterial transformation—a process in which external DNA is taken up by a cell, thereby changing its morphology and physiology.\". The provided context does not contain any information about nitrogen-fixing bacteria or their role in the nitrogen cycle."
+  }
+}

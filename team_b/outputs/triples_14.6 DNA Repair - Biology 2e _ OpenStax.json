@@ -1,0 +1,298 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 28,
+  "num_entities": 37,
+  "entities": [
+    "3' and 5' ends of the damaged base",
+    "DNA ligase",
+    "DNA polymerase",
+    "active telomerase",
+    "age-related conditions",
+    "cancer",
+    "cancerous cells",
+    "correct pairing of bases",
+    "damaged bases",
+    "extension of telomeres",
+    "germ cells",
+    "impaired tissue injury responses",
+    "improved function of the testes, spleen, and intestines",
+    "mismatch repair enzymes",
+    "mispaired nucleotide",
+    "mistakes during DNA replication",
+    "mutations",
+    "newly added base",
+    "nucleotide excision repair",
+    "organ system failure",
+    "part of the strand",
+    "phosphodiester bond",
+    "phosphodiester linkage",
+    "reduced DNA damage",
+    "reversed neurodegeneration",
+    "segment of DNA",
+    "shortened telomeres",
+    "skin cancer",
+    "somatic cells",
+    "stem cell depletion",
+    "telomerase",
+    "telomerase reactivation",
+    "telomerase-deficient mice",
+    "tissue atrophy",
+    "wrong nucleotide",
+    "wrongly incorporated bases",
+    "xeroderma pigmentosa"
+  ],
+  "triples": [
+    {
+      "head": "telomerase",
+      "head_type": "Enzyme",
+      "relation": "reverses",
+      "relation_type": "INHIBITS",
+      "tail": "age-related conditions",
+      "tail_type": "Process",
+      "evidence": "In 2010, scientists found that telomerase can reverse some age-related conditions in mice."
+    },
+    {
+      "head": "telomerase-deficient mice",
+      "head_type": "Organism",
+      "relation": "have",
+      "relation_type": "LOCATED_IN",
+      "tail": "tissue atrophy",
+      "tail_type": "Process",
+      "evidence": "Telomerase-deficient mice were used in these studies; these mice have tissue atrophy, stem cell depletion, organ system failure, and impaired tissue injury responses."
+    },
+    {
+      "head": "telomerase-deficient mice",
+      "head_type": "Organism",
+      "relation": "have",
+      "relation_type": "LOCATED_IN",
+      "tail": "stem cell depletion",
+      "tail_type": "Process",
+      "evidence": "Telomerase-deficient mice were used in these studies; these mice have tissue atrophy, stem cell depletion, organ system failure, and impaired tissue injury responses."
+    },
+    {
+      "head": "telomerase-deficient mice",
+      "head_type": "Organism",
+      "relation": "have",
+      "relation_type": "LOCATED_IN",
+      "tail": "organ system failure",
+      "tail_type": "Process",
+      "evidence": "Telomerase-deficient mice were used in these studies; these mice have tissue atrophy, stem cell depletion, organ system failure, and impaired tissue injury responses."
+    },
+    {
+      "head": "telomerase-deficient mice",
+      "head_type": "Organism",
+      "relation": "have",
+      "relation_type": "LOCATED_IN",
+      "tail": "impaired tissue injury responses",
+      "tail_type": "Process",
+      "evidence": "Telomerase-deficient mice were used in these studies; these mice have tissue atrophy, stem cell depletion, organ system failure, and impaired tissue injury responses."
+    },
+    {
+      "head": "telomerase reactivation",
+      "head_type": "Process",
+      "relation": "causes",
+      "relation_type": "CONVERTS_TO",
+      "tail": "extension of telomeres",
+      "tail_type": "Process",
+      "evidence": "Telomerase reactivation in these mice caused extension of telomeres, reduced DNA damage, reversed neurodegeneration, and improved the function of the testes, spleen, and intestines."
+    },
+    {
+      "head": "telomerase reactivation",
+      "head_type": "Process",
+      "relation": "causes",
+      "relation_type": "CONVERTS_TO",
+      "tail": "reduced DNA damage",
+      "tail_type": "Process",
+      "evidence": "Telomerase reactivation in these mice caused extension of telomeres, reduced DNA damage, reversed neurodegeneration, and improved the function of the testes, spleen, and intestines."
+    },
+    {
+      "head": "telomerase reactivation",
+      "head_type": "Process",
+      "relation": "causes",
+      "relation_type": "CONVERTS_TO",
+      "tail": "reversed neurodegeneration",
+      "tail_type": "Process",
+      "evidence": "Telomerase reactivation in these mice caused extension of telomeres, reduced DNA damage, reversed neurodegeneration, and improved the function of the testes, spleen, and intestines."
+    },
+    {
+      "head": "telomerase reactivation",
+      "head_type": "Process",
+      "relation": "causes",
+      "relation_type": "CONVERTS_TO",
+      "tail": "improved function of the testes, spleen, and intestines",
+      "tail_type": "Process",
+      "evidence": "Telomerase reactivation in these mice caused extension of telomeres, reduced DNA damage, reversed neurodegeneration, and improved the function of the testes, spleen, and intestines."
+    },
+    {
+      "head": "cancerous cells",
+      "head_type": "Organism",
+      "relation": "have",
+      "relation_type": "LOCATED_IN",
+      "tail": "shortened telomeres",
+      "tail_type": "Process",
+      "evidence": "Scientists have observed that cancerous cells have considerably shortened telomeres and that telomerase is active in these cells."
+    },
+    {
+      "head": "cancerous cells",
+      "head_type": "Organism",
+      "relation": "have",
+      "relation_type": "LOCATED_IN",
+      "tail": "active telomerase",
+      "tail_type": "Process",
+      "evidence": "Scientists have observed that cancerous cells have considerably shortened telomeres and that telomerase is active in these cells."
+    },
+    {
+      "head": "telomerase",
+      "head_type": "Enzyme",
+      "relation": "becomes active",
+      "relation_type": "REGULATES",
+      "tail": "cancerous cells",
+      "tail_type": "Organism",
+      "evidence": "Interestingly, only after the telomeres were shortened in the cancer cells did the telomerase become active."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "corrects",
+      "relation_type": "CATALYZES",
+      "tail": "mistakes during DNA replication",
+      "tail_type": "Process",
+      "evidence": "Most of the mistakes during DNA replication are promptly corrected by the proofreading ability of DNA polymerase itself."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "reads",
+      "relation_type": "BINDS",
+      "tail": "newly added base",
+      "tail_type": "Molecule",
+      "evidence": "In proofreading, the DNA pol reads the newly added base before adding the next one, so a correction can be made."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "checks",
+      "relation_type": "BINDS",
+      "tail": "correct pairing of bases",
+      "tail_type": "Process",
+      "evidence": "The polymerase checks whether the newly added base has paired correctly with the base in the template strand."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "makes a cut",
+      "relation_type": "CATALYZES",
+      "tail": "phosphodiester bond",
+      "tail_type": "Molecule",
+      "evidence": "If an incorrect base has been added, the enzyme makes a cut at the phosphodiester bond and releases the wrong nucleotide."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "releases",
+      "relation_type": "RELEASES",
+      "tail": "wrong nucleotide",
+      "tail_type": "Molecule",
+      "evidence": "If an incorrect base has been added, the enzyme makes a cut at the phosphodiester bond and releases the wrong nucleotide."
+    },
+    {
+      "head": "mismatch repair enzymes",
+      "head_type": "Enzyme",
+      "relation": "recognize",
+      "relation_type": "BINDS",
+      "tail": "mispaired nucleotide",
+      "tail_type": "Molecule",
+      "evidence": "Specific repair enzymes recognize the mispaired nucleotide and excise part of the strand that contains it."
+    },
+    {
+      "head": "mismatch repair enzymes",
+      "head_type": "Enzyme",
+      "relation": "excise",
+      "relation_type": "CATALYZES",
+      "tail": "part of the strand",
+      "tail_type": "Molecule",
+      "evidence": "Specific repair enzymes recognize the mispaired nucleotide and excise part of the strand that contains it."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "removes",
+      "relation_type": "CATALYZES",
+      "tail": "wrongly incorporated bases",
+      "tail_type": "Molecule",
+      "evidence": "Thus, DNA polymerase is able to remove the wrongly incorporated bases from the newly synthesized, non-methylated strand."
+    },
+    {
+      "head": "nucleotide excision repair",
+      "head_type": "Process",
+      "relation": "removes",
+      "relation_type": "CATALYZES",
+      "tail": "damaged bases",
+      "tail_type": "Molecule",
+      "evidence": "Another type of repair mechanism, nucleotide excision repair, is similar to mismatch repair, except that it is used to remove damaged bases rather than mismatched ones."
+    },
+    {
+      "head": "nucleotide excision repair",
+      "head_type": "Process",
+      "relation": "makes a cut",
+      "relation_type": "CATALYZES",
+      "tail": "3' and 5' ends of the damaged base",
+      "tail_type": "Molecule",
+      "evidence": "The repair enzymes replace abnormal bases by making a cut on both the 3' and 5' ends of the damaged base."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "replaces",
+      "relation_type": "CATALYZES",
+      "tail": "segment of DNA",
+      "tail_type": "Molecule",
+      "evidence": "The segment of DNA is removed and replaced with the correctly paired nucleotides by the action of DNA pol."
+    },
+    {
+      "head": "DNA ligase",
+      "head_type": "Enzyme",
+      "relation": "seals",
+      "relation_type": "CATALYZES",
+      "tail": "phosphodiester linkage",
+      "tail_type": "Molecule",
+      "evidence": "Once the bases are filled in, the remaining gap is sealed with a phosphodiester linkage catalyzed by DNA ligase."
+    },
+    {
+      "head": "xeroderma pigmentosa",
+      "head_type": "Process",
+      "relation": "causes",
+      "relation_type": "CONVERTS_TO",
+      "tail": "skin cancer",
+      "tail_type": "Process",
+      "evidence": "People with xeroderma pigmentosa may have a higher risk of contracting skin cancer than those who don't have the condition."
+    },
+    {
+      "head": "mutations",
+      "head_type": "Process",
+      "relation": "cause",
+      "relation_type": "CONVERTS_TO",
+      "tail": "cancer",
+      "tail_type": "Process",
+      "evidence": "Mutations in repair genes have been known to cause cancer."
+    },
+    {
+      "head": "mutations",
+      "head_type": "Process",
+      "relation": "affect",
+      "relation_type": "REGULATES",
+      "tail": "somatic cells",
+      "tail_type": "Organism",
+      "evidence": "If many mutations accumulate in a somatic cell, they may lead to problems such as the uncontrolled cell division observed in cancer."
+    },
+    {
+      "head": "mutations",
+      "head_type": "Process",
+      "relation": "affect",
+      "relation_type": "REGULATES",
+      "tail": "germ cells",
+      "tail_type": "Organism",
+      "evidence": "If a mutation takes place in germ cells, the mutation will be passed on to the next generation, as in the case of hemophilia and xeroderma pigmentosa."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 14,
+  "num_entities": 18,
+  "entities": [
+    "DNA",
+    "DNA is the genetic material",
+    "Frederick Griffith",
+    "Friedrich Miescher",
+    "Martha Chase",
+    "Oswald Avery",
+    "Streptococcus pneumoniae",
+    "bacteria",
+    "bacterial transformation",
+    "bacteriophage",
+    "capsule",
+    "nucleic acid core",
+    "nucleic acids",
+    "nuclein",
+    "phage with radioactive phosphorus",
+    "phage with radioactive sulfur",
+    "protein coat",
+    "transforming principle"
+  ],
+  "triples": [
+    {
+      "head": "Friedrich Miescher",
+      "head_type": "Organism",
+      "relation": "isolated",
+      "relation_type": "PRODUCES",
+      "tail": "nuclein",
+      "tail_type": "Molecule",
+      "evidence": "He named these chemicals (which would eventually be known as DNA) nuclein because they were isolated from the nuclei of the cells."
+    },
+    {
+      "head": "Frederick Griffith",
+      "head_type": "Organism",
+      "relation": "conducted",
+      "relation_type": "CATALYZES",
+      "tail": "bacterial transformation",
+      "tail_type": "Process",
+      "evidence": "British bacteriologist Frederick Griffith reported the first demonstration of bacterial transformation\u2014a process in which external DNA is taken up by a cell, thereby changing its morphology and physiology."
+    },
+    {
+      "head": "Frederick Griffith",
+      "head_type": "Organism",
+      "relation": "worked with",
+      "relation_type": "MUTUALISTIC_WITH",
+      "tail": "Streptococcus pneumoniae",
+      "tail_type": "Organism",
+      "evidence": "Griffith conducted his experiments with Streptococcus pneumoniae, a bacterium that causes pneumonia."
+    },
+    {
+      "head": "Streptococcus pneumoniae",
+      "head_type": "Organism",
+      "relation": "has",
+      "relation_type": "PART_OF",
+      "tail": "capsule",
+      "tail_type": "CellularStructure",
+      "evidence": "The S strain is pathogenic (disease-causing), and has a capsule outside its cell wall."
+    },
+    {
+      "head": "Oswald Avery",
+      "head_type": "Organism",
+      "relation": "isolated",
+      "relation_type": "PRODUCES",
+      "tail": "DNA",
+      "tail_type": "Molecule",
+      "evidence": "They isolated the S strain from the dead mice and isolated the proteins and nucleic acids (RNA and DNA) as these were possible candidates for the molecule of heredity."
+    },
+    {
+      "head": "DNA",
+      "head_type": "Molecule",
+      "relation": "is",
+      "relation_type": "BELONGS_TO",
+      "tail": "transforming principle",
+      "tail_type": "Process",
+      "evidence": "He called this the transforming principle (Figure 14.3)."
+    },
+    {
+      "head": "Martha Chase",
+      "head_type": "Organism",
+      "relation": "studied",
+      "relation_type": "CATALYZES",
+      "tail": "bacteriophage",
+      "tail_type": "Organism",
+      "evidence": "Chase and Hershey were studying a bacteriophage\u2014a virus that infects bacteria."
+    },
+    {
+      "head": "bacteriophage",
+      "head_type": "Organism",
+      "relation": "has",
+      "relation_type": "PART_OF",
+      "tail": "protein coat",
+      "tail_type": "CellularStructure",
+      "evidence": "Viruses typically have a simple structure: a protein coat, called the capsid, and a nucleic acid core that contains the genetic material (either DNA or RNA)."
+    },
+    {
+      "head": "bacteriophage",
+      "head_type": "Organism",
+      "relation": "has",
+      "relation_type": "PART_OF",
+      "tail": "nucleic acid core",
+      "tail_type": "CellularStructure",
+      "evidence": "Viruses typically have a simple structure: a protein coat, called the capsid, and a nucleic acid core that contains the genetic material (either DNA or RNA)."
+    },
+    {
+      "head": "bacteriophage",
+      "head_type": "Organism",
+      "relation": "infects",
+      "relation_type": "PARASITIC_ON",
+      "tail": "bacteria",
+      "tail_type": "Organism",
+      "evidence": "a virus that infects bacteria."
+    },
+    {
+      "head": "bacteriophage",
+      "head_type": "Organism",
+      "relation": "injects",
+      "relation_type": "PRODUCES",
+      "tail": "nucleic acids",
+      "tail_type": "Molecule",
+      "evidence": "The bacteriophage infects the host bacterial cell by attaching to its surface, and then it injects its nucleic acids inside the cell."
+    },
+    {
+      "head": "Martha Chase",
+      "head_type": "Organism",
+      "relation": "labeled",
+      "relation_type": "CATALYZES",
+      "tail": "phage with radioactive sulfur",
+      "tail_type": "Process",
+      "evidence": "They labeled one batch of phage with radioactive sulfur, 35S, to label the protein coat."
+    },
+    {
+      "head": "Martha Chase",
+      "head_type": "Organism",
+      "relation": "labeled",
+      "relation_type": "CATALYZES",
+      "tail": "phage with radioactive phosphorus",
+      "tail_type": "Process",
+      "evidence": "Another batch of phage were labeled with radioactive phosphorus, 32P."
+    },
+    {
+      "head": "Martha Chase",
+      "head_type": "Organism",
+      "relation": "concluded",
+      "relation_type": "PRODUCES",
+      "tail": "DNA is the genetic material",
+      "tail_type": "Process",
+      "evidence": "Hershey and Chase concluded that it was the phage DNA that was injected into the cell and carried information to produce more phage particles, thus providing evidence that DNA was the genetic material and not proteins (Figure 14.4)."
+    }
+  ]
+}

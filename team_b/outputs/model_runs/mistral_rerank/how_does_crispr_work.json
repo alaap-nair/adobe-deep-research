@@ -1,0 +1,9 @@
+{
+  "question": "How does CRISPR work?",
+  "answer": "I don't know based on the provided context.",
+  "citations": [
+    "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:10 | 14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt | confirmed that telomerase is present in human cells. And in 2001, researchers including Diane L. Wright found that te...",
+    "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:6 | 14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt | primer RNA is then removed by RNase H (AKA flap endonuclease) and replaced with DNA nucleotides. The Okazaki fragment..."
+  ],
+  "reasoning": "Matched entities: rna editing, phage dna was injected into the cell, rna processing. Traversed graph edges: guide RNAs --[mediates]--> RNA editing; guide RNAs --[interacts with]--> pre-mRNA; pre-mRNA --[is edited by]--> RNA editing. Graph evidence: \"This process is entirely mediated by RNA molecules. That is, guide RNAs—rather than proteins—serve as the catalysts in RNA editing.\". The provided context does not contain any information about how CRISPR works."
+}

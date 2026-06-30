@@ -1,0 +1,9 @@
+{
+  "question": "What role does DNA polymerase play in DNA replication?",
+  "answer": "DNA polymerase adds nucleotides to the growing DNA chain that is complementary to the template strand.",
+  "citations": [
+    "chunk:14_4_dna_replication_in_prokaryotes_biology_2e_openstax:4 | 14.4 DNA Replication in Prokaryotes - Biology 2e _ OpenStax.txt | from a single site along the chromosome and proceeding around the circle in both directions. This means that approxim...",
+    "chunk:14_4_dna_replication_in_prokaryotes_biology_2e_openstax:9 | 14.4 DNA Replication in Prokaryotes - Biology 2e _ OpenStax.txt | DNA polymerase can now extend this RNA primer, adding nucleotides one-by-one that are complementary to the template s..."
+  ],
+  "reasoning": "Matched entities: dna, dna polymerase, replication. Traversed graph edges: Oswald Avery --[used enzymes to degrade]--> DNA; Oswald Avery --[isolated]--> S strain; Oswald Avery --[concluded]--> DNA was the transforming principle. Graph evidence: \"They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.\". According to the provided text, DNA polymerase adds nucleotides to the growing DNA chain that is complementary to the template strand."
+}

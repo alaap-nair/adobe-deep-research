@@ -1,0 +1,9 @@
+{
+  "question": "What role do fungi play in nutrient cycling in ecosystems?",
+  "answer": "Fungi are part of the nutrient cycle in ecosystems.",
+  "citations": [
+    "chunk:24_5_importance_of_fungi_in_human_life_biology_2e_openstax:1 | data/24.5 Importance of Fungi in Human Life - Biology 2e _ OpenStax.pdf | they are part of the nutrient cycle in ecosystems. They have other ecosystem roles as well. As animal pathogens, fung...",
+    "chunk:24_3_ecology_of_fungi_biology_2e_openstax:4 | data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf | 2e | OpenStax https://openstax.org/books/biology-2e/pages/24-3-ecology-of-fungi 1/9 Figure 24.19 Bracket fungi. Fungi..."
+  ],
+  "reasoning": "Matched entities: fungi, nutrient cycle. Traversed graph edges: Chytridiomycota --[belongs to]--> fungi; Chytrids --[are]--> Chytridiomycota; Ascomycota --[belongs to]--> fungi. Graph evidence: \"The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).\". The text states that fungi are part of the nutrient cycle in ecosystems."
+}

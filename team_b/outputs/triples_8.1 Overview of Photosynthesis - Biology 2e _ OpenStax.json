@@ -1,0 +1,205 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 19,
+  "num_entities": 25,
+  "entities": [
+    "Algae",
+    "Chloroplast",
+    "Cyanobacteria",
+    "Light-dependent reactions",
+    "Light-independent reactions",
+    "Photosynthesis",
+    "Plants",
+    "Thylakoid",
+    "carbohydrate molecules",
+    "carbohydrates",
+    "carbon dioxide",
+    "chlorophyll",
+    "chloroplast",
+    "glyceraldehyde-3-phosphate",
+    "leaves",
+    "light-dependent reactions",
+    "light-independent reactions",
+    "mesophyll",
+    "oxygen",
+    "photosynthesis",
+    "stroma",
+    "sunlight",
+    "thylakoid membrane",
+    "thylakoids",
+    "water"
+  ],
+  "triples": [
+    {
+      "head": "Photosynthesis",
+      "head_type": "Process",
+      "relation": "captures energy",
+      "relation_type": "ABSORBS",
+      "tail": "sunlight",
+      "tail_type": "Molecule",
+      "evidence": "In brief, the energy of sunlight is \u201ccaptured\u201d to energize electrons, whose energy is then stored in the covalent bonds of sugar molecules."
+    },
+    {
+      "head": "Photosynthesis",
+      "head_type": "Process",
+      "relation": "converts to",
+      "relation_type": "CONVERTS_TO",
+      "tail": "carbohydrates",
+      "tail_type": "Molecule",
+      "evidence": "It is the only biological process that can capture energy that originates from sunlight and convert it into chemical compounds (carbohydrates) that every organism uses to power its metabolism."
+    },
+    {
+      "head": "Photosynthesis",
+      "head_type": "Process",
+      "relation": "produces",
+      "relation_type": "PRODUCES",
+      "tail": "oxygen",
+      "tail_type": "Molecule",
+      "evidence": "It is also a source of oxygen necessary for many living organisms."
+    },
+    {
+      "head": "Plants",
+      "head_type": "Organism",
+      "relation": "perform",
+      "relation_type": "CATALYZES",
+      "tail": "photosynthesis",
+      "tail_type": "Process",
+      "evidence": "Plants, algae, and a group of bacteria called cyanobacteria are the only organisms capable of performing photosynthesis."
+    },
+    {
+      "head": "Algae",
+      "head_type": "Organism",
+      "relation": "perform",
+      "relation_type": "CATALYZES",
+      "tail": "photosynthesis",
+      "tail_type": "Process",
+      "evidence": "Plants, algae, and a group of bacteria called cyanobacteria are the only organisms capable of performing photosynthesis."
+    },
+    {
+      "head": "Cyanobacteria",
+      "head_type": "Organism",
+      "relation": "perform",
+      "relation_type": "CATALYZES",
+      "tail": "photosynthesis",
+      "tail_type": "Process",
+      "evidence": "Plants, algae, and a group of bacteria called cyanobacteria are the only organisms capable of performing photosynthesis."
+    },
+    {
+      "head": "Photosynthesis",
+      "head_type": "Process",
+      "relation": "requires",
+      "relation_type": "CONSUMES",
+      "tail": "carbon dioxide",
+      "tail_type": "Molecule",
+      "evidence": "Photosynthesis is a multi-step process that requires specific wavelengths of visible sunlight, carbon dioxide (which is low in energy), and water as substrates."
+    },
+    {
+      "head": "Photosynthesis",
+      "head_type": "Process",
+      "relation": "requires",
+      "relation_type": "CONSUMES",
+      "tail": "water",
+      "tail_type": "Molecule",
+      "evidence": "Photosynthesis is a multi-step process that requires specific wavelengths of visible sunlight, carbon dioxide (which is low in energy), and water as substrates."
+    },
+    {
+      "head": "Photosynthesis",
+      "head_type": "Process",
+      "relation": "produces",
+      "relation_type": "PRODUCES",
+      "tail": "glyceraldehyde-3-phosphate",
+      "tail_type": "Molecule",
+      "evidence": "After the process is complete, it releases oxygen and produces glyceraldehyde-3-phosphate (G3P), as well as simple carbohydrate molecules (high in energy) that can then be converted into glucose, sucrose, or any of dozens of other sugar molecules."
+    },
+    {
+      "head": "Photosynthesis",
+      "head_type": "Process",
+      "relation": "produces",
+      "relation_type": "PRODUCES",
+      "tail": "carbohydrate molecules",
+      "tail_type": "Molecule",
+      "evidence": "After the process is complete, it releases oxygen and produces glyceraldehyde-3-phosphate (G3P), as well as simple carbohydrate molecules (high in energy) that can then be converted into glucose, sucrose, or any of dozens of other sugar molecules."
+    },
+    {
+      "head": "Photosynthesis",
+      "head_type": "Process",
+      "relation": "occurs in",
+      "relation_type": "OCCURS_IN",
+      "tail": "leaves",
+      "tail_type": "CellularStructure",
+      "evidence": "In plants, photosynthesis generally takes place in leaves, which consist of several layers of cells."
+    },
+    {
+      "head": "Photosynthesis",
+      "head_type": "Process",
+      "relation": "occurs in",
+      "relation_type": "OCCURS_IN",
+      "tail": "mesophyll",
+      "tail_type": "CellularStructure",
+      "evidence": "The process of photosynthesis occurs in a middle layer called the mesophyll."
+    },
+    {
+      "head": "Photosynthesis",
+      "head_type": "Process",
+      "relation": "occurs in",
+      "relation_type": "OCCURS_IN",
+      "tail": "chloroplast",
+      "tail_type": "CellularStructure",
+      "evidence": "In all autotrophic eukaryotes, photosynthesis takes place inside an organelle called a chloroplast."
+    },
+    {
+      "head": "Chloroplast",
+      "head_type": "CellularStructure",
+      "relation": "contains",
+      "relation_type": "PART_OF",
+      "tail": "thylakoids",
+      "tail_type": "CellularStructure",
+      "evidence": "Within the chloroplast are stacked, disc-shaped structures called thylakoids."
+    },
+    {
+      "head": "Thylakoid",
+      "head_type": "CellularStructure",
+      "relation": "contains",
+      "relation_type": "PART_OF",
+      "tail": "chlorophyll",
+      "tail_type": "Molecule",
+      "evidence": "Embedded in the thylakoid membrane is chlorophyll, a pigment (molecule that absorbs light) responsible for the initial interaction between light and plant material, and numerous proteins that make up the electron transport chain."
+    },
+    {
+      "head": "Photosynthesis",
+      "head_type": "Process",
+      "relation": "consists of",
+      "relation_type": "CONSISTS_OF",
+      "tail": "light-dependent reactions",
+      "tail_type": "Process",
+      "evidence": "Photosynthesis takes place in two sequential stages: the light-dependent reactions and the light-independent reactions."
+    },
+    {
+      "head": "Photosynthesis",
+      "head_type": "Process",
+      "relation": "consists of",
+      "relation_type": "CONSISTS_OF",
+      "tail": "light-independent reactions",
+      "tail_type": "Process",
+      "evidence": "Photosynthesis takes place in two sequential stages: the light-dependent reactions and the light-independent reactions."
+    },
+    {
+      "head": "Light-dependent reactions",
+      "head_type": "Process",
+      "relation": "occurs in",
+      "relation_type": "OCCURS_IN",
+      "tail": "thylakoid membrane",
+      "tail_type": "CellularStructure",
+      "evidence": "The light-dependent reactions utilize certain molecules to temporarily store the energy: These are referred to as energy carriers."
+    },
+    {
+      "head": "Light-independent reactions",
+      "head_type": "Process",
+      "relation": "occurs in",
+      "relation_type": "OCCURS_IN",
+      "tail": "stroma",
+      "tail_type": "CellularStructure",
+      "evidence": "The Calvin cycle, which takes place in the stroma, uses energy derived from these compounds to make G3P from CO2."
+    }
+  ]
+}

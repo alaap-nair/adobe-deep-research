@@ -1,0 +1,9 @@
+{
+  "question": "What are the differences between the codons in DNA and RNA?",
+  "answer": "The only nucleotide difference is that in mRNA, all of the T nucleotides are replaced with U nucleotides.",
+  "citations": [
+    "chunk:mcb_genetics:149 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | always proceeds from the same DNA strand for each gene, which is called the template strand. The mRNA product is comp...",
+    "triple:94166380f5cbf063 | mRNA --[replaces]--> T nucleotides with U nucleotides"
+  ],
+  "reasoning": "Matched entities: codons, dna, rna. Traversed graph edges: mRNA --[replaces]--> T nucleotides with U nucleotides; codons --[conserve]--> mRNA; ribosome --[translates]--> mRNA. Graph evidence: \"The only nucleotide difference is that in mRNA, all of the T nucleotides are replaced with U nucleotides.\". The context explicitly states that the only difference between the codons in DNA and RNA is the replacement of T nucleotides with U nucleotides in mRNA."
+}

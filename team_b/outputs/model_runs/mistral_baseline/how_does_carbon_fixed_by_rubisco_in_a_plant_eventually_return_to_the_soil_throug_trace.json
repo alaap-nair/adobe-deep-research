@@ -1,0 +1,872 @@
+{
+  "question": "How does carbon fixed by RuBisCO in a plant eventually return to the soil through fungal activity?",
+  "generated_at": "2026-05-01T06:41:39.474832+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "carbon",
+        "fixed",
+        "rubisco",
+        "plant",
+        "eventually",
+        "return",
+        "soil",
+        "through",
+        "fungal",
+        "activity",
+        "carbon fixed",
+        "fixed rubisco",
+        "rubisco plant",
+        "plant eventually",
+        "eventually return",
+        "return soil",
+        "soil through",
+        "through fungal",
+        "fungal activity",
+        "carbon fixed rubisco",
+        "fixed rubisco plant",
+        "rubisco plant eventually",
+        "plant eventually return",
+        "eventually return soil",
+        "return soil through",
+        "soil through fungal",
+        "through fungal activity"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:rubisco",
+          "name": "rubisco",
+          "matched_text": "rubisco",
+          "matched_alias": "rubisco",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:soil",
+          "name": "soil",
+          "matched_text": "soil",
+          "matched_alias": "soil",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:5-carbon_sugar",
+          "name": "5-carbon sugar",
+          "matched_text": "carbon",
+          "matched_alias": "5-carbon sugar",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:24_3_ecology_of_fungi_biology_2e_openstax:9",
+          "text": "mycorrhizal partners.\n\nIn a mycorrhizal\nassociation, the fungal mycelia use their extensive network of hyphae and large surface area in contact\nwith the soil to channel water and minerals from the soil into the plant. In exchange, the plant supplies\nthe products of photosynthesis to fuel the metabolism of the fungus. There are several basic types of mycorrhizae. Ectomycorrhizae (“outside” mycorrhizae) depend on\nfungi enveloping the roots in a sheath (called a mantle). Hyphae grow from the mantle into the root and\nenvelope the outer layers of the root cells in a network of hyphae called a Hartig net (Figure 24.21). The\nfungal partner can belong to the Ascomycota, Basidiomycota or Zygomycota.",
+          "source_name": "data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 9,
+          "snippet": "mycorrhizal partners.\n\nIn a mycorrhizal\nassociation, the fungal mycelia use their extensive network of hyphae and large surface area in contact\nwith the soil to channel water and minerals from the soil into the plant. In exchange, the plant supplies\nthe products of photosynthesis to fuel the metabolism of the fungus. There are several basic types of mycorrhizae. Ectomycorrhizae (“outside” mycorrhi",
+          "score": 0.6992493498706358
+        },
+        {
+          "chunk_id": "chunk:24_3_ecology_of_fungi_biology_2e_openstax:5",
+          "text": "either released into the substrate or remain bound to the outside of the fungal cell\nwall.\n\nLarge molecules are broken down into small molecules, which are transported into the cell by a\nsystem of protein carriers embedded in the cell membrane. Because the movement of small molecules\nand enzymes is dependent on the presence of water, active growth depends on a relatively high\npercentage of moisture in the environment. As saprobes, fungi help maintain a sustainable ecosystem for the animals and plants that share the\nsame habitat. In addition to replenishing the environment with nutrients, fungi interact directly with other\norganisms in beneficial, and sometimes damaging, ways (Figure 24.20).",
+          "source_name": "data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 5,
+          "snippet": "either released into the substrate or remain bound to the outside of the fungal cell\nwall.\n\nLarge molecules are broken down into small molecules, which are transported into the cell by a\nsystem of protein carriers embedded in the cell membrane. Because the movement of small molecules\nand enzymes is dependent on the presence of water, active growth depends on a relatively high\npercentage of moistur",
+          "score": 0.6988748970189292
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:10",
+          "text": "to be\nreused and re-energized.\n\nStage 3: Regeneration\nInterestingly, at this point, only one of the G3P molecules leaves the Calvin cycle and is sent to the\ncytoplasm to contribute to the formation of other compounds needed by the plant. Because the G3P\nexported from the chloroplast has three carbon atoms, it takes three “turns” of the Calvin cycle to fix\nenough net carbon to export one G3P. But each turn makes two G3Ps, thus three turns make six G3Ps. One is exported while the remaining five G3P molecules remain in the cycle and are used to regenerate\nRuBP, which enables the system to prepare for more CO  to be fixed. Three more molecules of ATP are\nused in these regeneration reactions.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 10,
+          "snippet": "to be\nreused and re-energized.\n\nStage 3: Regeneration\nInterestingly, at this point, only one of the G3P molecules leaves the Calvin cycle and is sent to the\ncytoplasm to contribute to the formation of other compounds needed by the plant. Because the G3P\nexported from the chloroplast has three carbon atoms, it takes three “turns” of the Calvin cycle to fix\nenough net carbon to export one G3P. But e",
+          "score": 0.6902382072543936
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:8",
+          "text": "3/8\n\nRuBisCO catalyzes a reaction between CO  and RuBP. For each CO  molecule that reacts with one\nRuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form. PGA has three\ncarbons and one phosphate. Each turn of the cycle involves only one RuBP and one carbon dioxide\nand forms two molecules of 3-PGA. The number of carbon atoms remains the same, as the atoms\nmove to form new bonds during the reactions (3 C atoms from 3CO  + 15 C atoms from 3RuBP = 18 C\natoms in 6 molecules of 3-PGA). This process is called carbon fixation, because CO  is “fixed” from an\ninorganic form into organic molecules.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 8,
+          "snippet": "3/8\n\nRuBisCO catalyzes a reaction between CO  and RuBP. For each CO  molecule that reacts with one\nRuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form. PGA has three\ncarbons and one phosphate. Each turn of the cycle involves only one RuBP and one carbon dioxide\nand forms two molecules of 3-PGA. The number of carbon atoms remains the same, as the atoms\nmove to form new bond",
+          "score": 0.6891660064051743
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:6",
+          "text": "2/8\n\nFigure 8.19 The Calvin cycle has three stages. In stage 1, the enzyme RuBisCO incorporates carbon dioxide into an organic\nmolecule, 3-PGA. In stage 2, the organic molecule is reduced using electrons supplied by NADPH. In stage 3, RuBP, the\nmolecule that starts the cycle, is regenerated so that the cycle can continue. Only one carbon dioxide molecule is\nincorporated at a time, so the cycle must be completed three times to produce a single three-carbon G3P molecule, and six\ntimes to produce a six-carbon glucose molecule. Credit: Rao, A., Ryan, K., Tag, A., Fletcher, S. and Hawkins, A. Department of\nBiology, Texas A&M University. Which of the following statements is true? a.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 6,
+          "snippet": "2/8\n\nFigure 8.19 The Calvin cycle has three stages. In stage 1, the enzyme RuBisCO incorporates carbon dioxide into an organic\nmolecule, 3-PGA. In stage 2, the organic molecule is reduced using electrons supplied by NADPH. In stage 3, RuBP, the\nmolecule that starts the cycle, is regenerated so that the cycle can continue. Only one carbon dioxide molecule is\nincorporated at a time, so the cycle mus",
+          "score": 0.6825380892914784
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:a64f1cadd99cc127",
+          "head_entity_id": "ent:glomeromycota",
+          "tail_entity_id": "ent:arbuscular_mycorrhizae",
+          "relation": "form",
+          "evidence": "It appears that nearly all members of this family form arbuscular mycorrhizae: the hyphae interact with the root cells forming a mutually beneficial association in which the plants supply the carbon source and energy in the form of carbohydrates to the fungus, and the fungus supplies essential minerals from the soil to the plant.",
+          "head_name": "glomeromycota",
+          "tail_name": "arbuscular mycorrhizae",
+          "score": 0.6843805762501837
+        },
+        {
+          "triple_id": "triple:704a71fe6fdb8ffd",
+          "head_entity_id": "ent:calvin_cycle",
+          "tail_entity_id": "ent:carbon_dioxide",
+          "relation": "consumes",
+          "evidence": "In the stroma, in addition to CO2, two other components are present to initiate the light-independent reactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three molecules of ribulose bisphosphate (RuBP).",
+          "head_name": "calvin cycle",
+          "tail_name": "carbon dioxide",
+          "score": 0.6793976738774408
+        },
+        {
+          "triple_id": "triple:b79d2ec5117c2f69",
+          "head_entity_id": "ent:plants",
+          "tail_entity_id": "ent:fungi",
+          "relation": "supply products of photosynthesis",
+          "evidence": "In exchange, the plant supplies the products of photosynthesis to fuel the metabolism of the fungus.",
+          "head_name": "plants",
+          "tail_name": "fungi",
+          "score": 0.6745057736134306
+        },
+        {
+          "triple_id": "triple:30cd207a47b51e2d",
+          "head_entity_id": "ent:rubisco",
+          "tail_entity_id": "ent:carbon_fixation",
+          "relation": "catalyzes",
+          "evidence": "RuBisCO catalyzes a reaction between CO2 and RuBP. For each CO2 molecule that reacts with one RuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form.",
+          "head_name": "rubisco",
+          "tail_name": "carbon fixation",
+          "score": 0.6739792061217943
+        },
+        {
+          "triple_id": "triple:e9d46f7828257c1c",
+          "head_entity_id": "ent:mycorrhizae",
+          "tail_entity_id": "ent:soil",
+          "relation": "channel water and minerals",
+          "evidence": "In a mycorrhizal association, the fungal mycelia use their extensive network of hyphae and large surface area in contact with the soil to channel water and minerals from the soil into the plant.",
+          "head_name": "mycorrhizae",
+          "tail_name": "soil",
+          "score": 0.6562396110091366
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:rubisco",
+        "ent:soil",
+        "ent:5-carbon_sugar",
+        "ent:glomeromycota",
+        "ent:arbuscular_mycorrhizae",
+        "ent:calvin_cycle",
+        "ent:carbon_dioxide",
+        "ent:plants",
+        "ent:fungi",
+        "ent:carbon_fixation",
+        "ent:mycorrhizae"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "rubisco",
+          "entity_id": "ent:rubisco",
+          "original_names": [
+            "RuBisCO"
+          ]
+        },
+        {
+          "name": "reaction between co2 and rubp",
+          "entity_id": "ent:reaction_between_co2_and_rubp",
+          "original_names": [
+            "reaction between CO2 and RuBP"
+          ]
+        },
+        {
+          "name": "formation of 3-pga",
+          "entity_id": "ent:formation_of_3-pga",
+          "original_names": [
+            "formation of 3-PGA"
+          ]
+        },
+        {
+          "name": "carbon fixation",
+          "entity_id": "ent:carbon_fixation",
+          "original_names": [
+            "carbon fixation"
+          ]
+        },
+        {
+          "name": "soil",
+          "entity_id": "ent:soil",
+          "original_names": [
+            "soil"
+          ]
+        },
+        {
+          "name": "mycorrhizae",
+          "entity_id": "ent:mycorrhizae",
+          "original_names": [
+            "mycorrhizae"
+          ]
+        },
+        {
+          "name": "5-carbon sugar",
+          "entity_id": "ent:5-carbon_sugar",
+          "original_names": [
+            "5-carbon sugar"
+          ]
+        },
+        {
+          "name": "nucleotide",
+          "entity_id": "ent:nucleotide",
+          "original_names": [
+            "nucleotide"
+          ]
+        },
+        {
+          "name": "nitrogenous base",
+          "entity_id": "ent:nitrogenous_base",
+          "original_names": [
+            "nitrogenous base"
+          ]
+        },
+        {
+          "name": "phosphate group",
+          "entity_id": "ent:phosphate_group",
+          "original_names": [
+            "phosphate group"
+          ]
+        },
+        {
+          "name": "glomeromycota",
+          "entity_id": "ent:glomeromycota",
+          "original_names": [
+            "Glomeromycota"
+          ]
+        },
+        {
+          "name": "fungi",
+          "entity_id": "ent:fungi",
+          "original_names": [
+            "fungi"
+          ]
+        },
+        {
+          "name": "chytridiomycota",
+          "entity_id": "ent:chytridiomycota",
+          "original_names": [
+            "Chytridiomycota"
+          ]
+        },
+        {
+          "name": "ascomycota",
+          "entity_id": "ent:ascomycota",
+          "original_names": [
+            "Ascomycota"
+          ]
+        },
+        {
+          "name": "basidiomycota",
+          "entity_id": "ent:basidiomycota",
+          "original_names": [
+            "Basidiomycota"
+          ]
+        },
+        {
+          "name": "zygomycota",
+          "entity_id": "ent:zygomycota",
+          "original_names": [
+            "Zygomycota"
+          ]
+        },
+        {
+          "name": "algae",
+          "entity_id": "ent:algae",
+          "original_names": [
+            "Algae"
+          ]
+        },
+        {
+          "name": "ants",
+          "entity_id": "ent:ants",
+          "original_names": [
+            "ants"
+          ]
+        },
+        {
+          "name": "nitrogen and phosphorus",
+          "entity_id": "ent:nitrogen_and_phosphorus",
+          "original_names": [
+            "nitrogen and phosphorus"
+          ]
+        },
+        {
+          "name": "leaf-cutter ants",
+          "entity_id": "ent:leaf-cutter_ants",
+          "original_names": [
+            "leaf-cutter ants"
+          ]
+        },
+        {
+          "name": "leaves",
+          "entity_id": "ent:leaves",
+          "original_names": [
+            "leaves"
+          ]
+        },
+        {
+          "name": "animals",
+          "entity_id": "ent:animals",
+          "original_names": [
+            "animals"
+          ]
+        },
+        {
+          "name": "organic matter",
+          "entity_id": "ent:organic_matter",
+          "original_names": [
+            "organic matter"
+          ]
+        },
+        {
+          "name": "plants",
+          "entity_id": "ent:plants",
+          "original_names": [
+            "plants"
+          ]
+        },
+        {
+          "name": "cyanobacteria",
+          "entity_id": "ent:cyanobacteria",
+          "original_names": [
+            "Cyanobacteria"
+          ]
+        },
+        {
+          "name": "parasites",
+          "entity_id": "ent:parasites",
+          "original_names": [
+            "parasites"
+          ]
+        },
+        {
+          "name": "pathogens",
+          "entity_id": "ent:pathogens",
+          "original_names": [
+            "pathogens"
+          ]
+        },
+        {
+          "name": "mycosis",
+          "entity_id": "ent:mycosis",
+          "original_names": [
+            "mycosis"
+          ]
+        },
+        {
+          "name": "mycotoxicosis",
+          "entity_id": "ent:mycotoxicosis",
+          "original_names": [
+            "mycotoxicosis"
+          ]
+        },
+        {
+          "name": "tissue decay",
+          "entity_id": "ent:tissue_decay",
+          "original_names": [
+            "tissue decay"
+          ]
+        },
+        {
+          "name": "model research organisms",
+          "entity_id": "ent:model_research_organisms",
+          "original_names": [
+            "model research organisms"
+          ]
+        },
+        {
+          "name": "population of damaging pests",
+          "entity_id": "ent:population_of_damaging_pests",
+          "original_names": [
+            "population of damaging pests"
+          ]
+        },
+        {
+          "name": "nutrient cycle",
+          "entity_id": "ent:nutrient_cycle",
+          "original_names": [
+            "nutrient cycle"
+          ]
+        },
+        {
+          "name": "fermentation",
+          "entity_id": "ent:fermentation",
+          "original_names": [
+            "fermentation"
+          ]
+        },
+        {
+          "name": "antibiotics",
+          "entity_id": "ent:antibiotics",
+          "original_names": [
+            "antibiotics"
+          ]
+        },
+        {
+          "name": "nostoc",
+          "entity_id": "ent:nostoc",
+          "original_names": [
+            "Nostoc"
+          ]
+        },
+        {
+          "name": "arbuscular mycorrhizae",
+          "entity_id": "ent:arbuscular_mycorrhizae",
+          "original_names": [
+            "arbuscular mycorrhizae"
+          ]
+        },
+        {
+          "name": "endomycorrhizae",
+          "entity_id": "ent:endomycorrhizae",
+          "original_names": [
+            "endomycorrhizae"
+          ]
+        },
+        {
+          "name": "calvin cycle",
+          "entity_id": "ent:calvin_cycle",
+          "original_names": [
+            "Calvin cycle"
+          ]
+        },
+        {
+          "name": "carbon dioxide",
+          "entity_id": "ent:carbon_dioxide",
+          "original_names": [
+            "carbon dioxide"
+          ]
+        },
+        {
+          "name": "photosynthesis",
+          "entity_id": "ent:photosynthesis",
+          "original_names": [
+            "Photosynthesis",
+            "photosynthesis"
+          ]
+        },
+        {
+          "name": "g3p",
+          "entity_id": "ent:g3p",
+          "original_names": [
+            "G3P"
+          ]
+        },
+        {
+          "name": "atp",
+          "entity_id": "ent:atp",
+          "original_names": [
+            "ATP"
+          ]
+        },
+        {
+          "name": "atp synthase",
+          "entity_id": "ent:atp_synthase",
+          "original_names": [
+            "ATP synthase"
+          ]
+        },
+        {
+          "name": "nadph",
+          "entity_id": "ent:nadph",
+          "original_names": [
+            "NADPH"
+          ]
+        },
+        {
+          "name": "stroma",
+          "entity_id": "ent:stroma",
+          "original_names": [
+            "stroma"
+          ]
+        },
+        {
+          "name": "light-independent reactions",
+          "entity_id": "ent:light-independent_reactions",
+          "original_names": [
+            "light-independent reactions",
+            "Light-independent reactions"
+          ]
+        },
+        {
+          "name": "carbohydrates",
+          "entity_id": "ent:carbohydrates",
+          "original_names": [
+            "carbohydrates"
+          ]
+        },
+        {
+          "name": "light-dependent reactions",
+          "entity_id": "ent:light-dependent_reactions",
+          "original_names": [
+            "light-dependent reactions",
+            "Light-dependent reactions"
+          ]
+        },
+        {
+          "name": "sunlight",
+          "entity_id": "ent:sunlight",
+          "original_names": [
+            "sunlight"
+          ]
+        },
+        {
+          "name": "oxygen",
+          "entity_id": "ent:oxygen",
+          "original_names": [
+            "oxygen"
+          ]
+        },
+        {
+          "name": "glyceraldehyde-3-phosphate",
+          "entity_id": "ent:glyceraldehyde-3-phosphate",
+          "original_names": [
+            "glyceraldehyde-3-phosphate"
+          ]
+        },
+        {
+          "name": "water",
+          "entity_id": "ent:water",
+          "original_names": [
+            "water"
+          ]
+        },
+        {
+          "name": "chloroplast",
+          "entity_id": "ent:chloroplast",
+          "original_names": [
+            "chloroplast",
+            "Chloroplast"
+          ]
+        },
+        {
+          "name": "carbohydrate molecules",
+          "entity_id": "ent:carbohydrate_molecules",
+          "original_names": [
+            "carbohydrate molecules"
+          ]
+        },
+        {
+          "name": "mesophyll",
+          "entity_id": "ent:mesophyll",
+          "original_names": [
+            "mesophyll"
+          ]
+        },
+        {
+          "name": "chytrids",
+          "entity_id": "ent:chytrids",
+          "original_names": [
+            "Chytrids"
+          ]
+        },
+        {
+          "name": "insects",
+          "entity_id": "ent:insects",
+          "original_names": [
+            "insects"
+          ]
+        },
+        {
+          "name": "zoospores",
+          "entity_id": "ent:zoospores",
+          "original_names": [
+            "zoospores"
+          ]
+        },
+        {
+          "name": "flagella",
+          "entity_id": "ent:flagella",
+          "original_names": [
+            "flagella"
+          ]
+        },
+        {
+          "name": "gametes",
+          "entity_id": "ent:gametes",
+          "original_names": [
+            "gametes"
+          ]
+        },
+        {
+          "name": "aquatic environments",
+          "entity_id": "ent:aquatic_environments",
+          "original_names": [
+            "aquatic environments"
+          ]
+        },
+        {
+          "name": "amphibians",
+          "entity_id": "ent:amphibians",
+          "original_names": [
+            "amphibians"
+          ]
+        },
+        {
+          "name": "asci",
+          "entity_id": "ent:asci",
+          "original_names": [
+            "asci"
+          ]
+        },
+        {
+          "name": "ascospores",
+          "entity_id": "ent:ascospores",
+          "original_names": [
+            "ascospores"
+          ]
+        },
+        {
+          "name": "formation of an ascus",
+          "entity_id": "ent:formation_of_an_ascus",
+          "original_names": [
+            "formation of an ascus"
+          ]
+        },
+        {
+          "name": "ascocarp",
+          "entity_id": "ent:ascocarp",
+          "original_names": [
+            "ascocarp"
+          ]
+        },
+        {
+          "name": "conidiophores",
+          "entity_id": "ent:conidiophores",
+          "original_names": [
+            "conidiophores"
+          ]
+        },
+        {
+          "name": "yeasts",
+          "entity_id": "ent:yeasts",
+          "original_names": [
+            "yeasts"
+          ]
+        },
+        {
+          "name": "aspergillus oryzae",
+          "entity_id": "ent:aspergillus_oryzae",
+          "original_names": [
+            "Aspergillus oryzae"
+          ]
+        },
+        {
+          "name": "humans",
+          "entity_id": "ent:humans",
+          "original_names": [
+            "humans"
+          ]
+        },
+        {
+          "name": "conidiospores",
+          "entity_id": "ent:conidiospores",
+          "original_names": [
+            "conidiospores"
+          ]
+        },
+        {
+          "name": "morels",
+          "entity_id": "ent:morels",
+          "original_names": [
+            "morels"
+          ]
+        },
+        {
+          "name": "truffles",
+          "entity_id": "ent:truffles",
+          "original_names": [
+            "truffles"
+          ]
+        },
+        {
+          "name": "lichens",
+          "entity_id": "ent:lichens",
+          "original_names": [
+            "lichens"
+          ]
+        },
+        {
+          "name": "ectomycorrhizae",
+          "entity_id": "ent:ectomycorrhizae",
+          "original_names": [
+            "ectomycorrhizae"
+          ]
+        },
+        {
+          "name": "fungus",
+          "entity_id": "ent:fungus",
+          "original_names": [
+            "fungus"
+          ]
+        },
+        {
+          "name": "substrate",
+          "entity_id": "ent:substrate",
+          "original_names": [
+            "substrate"
+          ]
+        },
+        {
+          "name": "energy from sunlight",
+          "entity_id": "ent:energy_from_sunlight",
+          "original_names": [
+            "energy from sunlight"
+          ]
+        },
+        {
+          "name": "basidiocarp",
+          "entity_id": "ent:basidiocarp",
+          "original_names": [
+            "basidiocarp"
+          ]
+        },
+        {
+          "name": "rusts",
+          "entity_id": "ent:rusts",
+          "original_names": [
+            "rusts"
+          ]
+        },
+        {
+          "name": "shelf fungi",
+          "entity_id": "ent:shelf_fungi",
+          "original_names": [
+            "shelf fungi"
+          ]
+        },
+        {
+          "name": "basidiospores",
+          "entity_id": "ent:basidiospores",
+          "original_names": [
+            "basidiospores"
+          ]
+        },
+        {
+          "name": "basidia",
+          "entity_id": "ent:basidia",
+          "original_names": [
+            "basidia"
+          ]
+        },
+        {
+          "name": "mushrooms",
+          "entity_id": "ent:mushrooms",
+          "original_names": [
+            "mushrooms"
+          ]
+        },
+        {
+          "name": "smuts",
+          "entity_id": "ent:smuts",
+          "original_names": [
+            "smuts"
+          ]
+        },
+        {
+          "name": "zygomycetes",
+          "entity_id": "ent:zygomycetes",
+          "original_names": [
+            "Zygomycetes"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:reaction_between_co2_and_rubp",
+          "evidence": "RuBisCO catalyzes a reaction between CO2 and RuBP. For each CO2 molecule that reacts with one RuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form.",
+          "target_name": "reaction between CO2 and RuBP",
+          "source_entity_id": "ent:rubisco",
+          "triple_id": "triple:947d67f6ad421a32",
+          "source_name": "RuBisCO",
+          "relation": "catalyzes"
+        },
+        {
+          "target_entity_id": "ent:formation_of_3-pga",
+          "evidence": "RuBisCO catalyzes a reaction between CO2 and RuBP. For each CO2 molecule that reacts with one RuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form.",
+          "target_name": "formation of 3-PGA",
+          "source_entity_id": "ent:rubisco",
+          "triple_id": "triple:afca0ae7f9fc768b",
+          "source_name": "RuBisCO",
+          "relation": "catalyzes"
+        },
+        {
+          "target_entity_id": "ent:carbon_fixation",
+          "evidence": "RuBisCO catalyzes a reaction between CO2 and RuBP. For each CO2 molecule that reacts with one RuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form.",
+          "target_name": "carbon fixation",
+          "source_entity_id": "ent:rubisco",
+          "triple_id": "triple:30cd207a47b51e2d",
+          "source_name": "RuBisCO",
+          "relation": "catalyzes"
+        },
+        {
+          "target_entity_id": "ent:soil",
+          "evidence": "In a mycorrhizal association, the fungal mycelia use their extensive network of hyphae and large surface area in contact with the soil to channel water and minerals from the soil into the plant.",
+          "target_name": "soil",
+          "source_entity_id": "ent:mycorrhizae",
+          "triple_id": "triple:e9d46f7828257c1c",
+          "source_name": "mycorrhizae",
+          "relation": "channel water and minerals"
+        },
+        {
+          "target_entity_id": "ent:5-carbon_sugar",
+          "evidence": "The important components of the nucleotide are a nitrogenous (nitrogen-bearing) base, a 5-carbon sugar (pentose), and a phosphate group (Figure 14.5).",
+          "target_name": "5-carbon sugar",
+          "source_entity_id": "ent:nucleotide",
+          "triple_id": "triple:1487b64199c4b981",
+          "source_name": "nucleotide",
+          "relation": "contains"
+        },
+        {
+          "target_entity_id": "ent:nitrogenous_base",
+          "evidence": "The important components of the nucleotide are a nitrogenous (nitrogen-bearing) base, a 5-carbon sugar (pentose), and a phosphate group (Figure 14.5).",
+          "target_name": "nitrogenous base",
+          "source_entity_id": "ent:nucleotide",
+          "triple_id": "triple:02f2087c1f93e1f6",
+          "source_name": "nucleotide",
+          "relation": "contains"
+        },
+        {
+          "target_entity_id": "ent:phosphate_group",
+          "evidence": "The important components of the nucleotide are a nitrogenous (nitrogen-bearing) base, a 5-carbon sugar (pentose), and a phosphate group (Figure 14.5).",
+          "target_name": "phosphate group",
+          "source_entity_id": "ent:nucleotide",
+          "triple_id": "triple:1234e800576bd0ed",
+          "source_name": "nucleotide",
+          "relation": "contains"
+        },
+        {
+          "target_entity_id": "ent:fungi",
+          "evidence": "The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).",
+          "target_name": "fungi",
+          "source_entity_id": "ent:glomeromycota",
+          "triple_id": "triple:a6a92f40d2da11da",
+          "source_name": "Glomeromycota",
+          "relation": "belongs to"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "How does carbon fixed by RuBisCO in a plant eventually return to the soil through fungal activity?",
+    "answer": "The plant supplies the products of photosynthesis to fuel the metabolism of the fungus. In a mycorrhizal association, the fungal mycelia use their extensive network of hyphae and large surface area in contact with the soil to channel water and minerals from the soil into the plant.",
+    "citations": [
+      "triple:b79d2ec5117c2f69 | plants --[supply products of photosynthesis]--> fungi",
+      "triple:e9d46f7828257c1c | mycorrhizae --[channel water and minerals]--> soil"
+    ],
+    "reasoning": "Matched entities: rubisco, soil, 5-carbon sugar. Traversed graph edges: mycorrhizae --[channel water and minerals]--> soil; RuBisCO --[catalyzes]--> reaction between CO2 and RuBP; RuBisCO --[catalyzes]--> formation of 3-PGA. Graph evidence: \"In a mycorrhizal association, the fungal mycelia use their extensive network of hyphae and large surface area in contact with the soil to channel water and minerals from the soil into the plant.\". RuBisCO fixes carbon in plants, which is then supplied to fungi as products of photosynthesis. Fungi, in turn, channel water and minerals from the soil into the plant, facilitating the return of carbon to the soil through their metabolic processes."
+  }
+}

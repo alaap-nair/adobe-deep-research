@@ -1,0 +1,146 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 13,
+  "num_entities": 20,
+  "entities": [
+    "Chargaff\u2019s rules",
+    "DNA",
+    "DNA polymerase",
+    "Erwin Chargaff",
+    "Fred Sanger",
+    "Neanderthals",
+    "adenine",
+    "cytosine",
+    "dideoxynucleotides",
+    "double-helix structure",
+    "gel electrophoresis",
+    "guanine",
+    "histones",
+    "nucleosomes",
+    "present-day humans",
+    "protein",
+    "supercoiling",
+    "the dideoxy chain termination method",
+    "thymine",
+    "two strands"
+  ],
+  "triples": [
+    {
+      "head": "DNA",
+      "head_type": "Molecule",
+      "relation": "is the genetic material",
+      "relation_type": "ENCODES",
+      "tail": "protein",
+      "tail_type": "Molecule",
+      "evidence": "Only 32P entered the bacterial cells, indicating that DNA is the genetic material."
+    },
+    {
+      "head": "Erwin Chargaff",
+      "head_type": "Organism",
+      "relation": "discovered",
+      "relation_type": "ENCODES",
+      "tail": "Chargaff\u2019s rules",
+      "tail_type": "Process",
+      "evidence": "He also discovered something unexpected: That the amount of adenine equaled the amount of thymine, and the amount of cytosine equaled the amount of guanine (that is, A = T and G = C)."
+    },
+    {
+      "head": "adenine",
+      "head_type": "Molecule",
+      "relation": "pairs with",
+      "relation_type": "PAIRS_WITH",
+      "tail": "thymine",
+      "tail_type": "Molecule",
+      "evidence": "A pairs with T, and G pairs with C (suggested by Chargaff's Rules)."
+    },
+    {
+      "head": "cytosine",
+      "head_type": "Molecule",
+      "relation": "pairs with",
+      "relation_type": "PAIRS_WITH",
+      "tail": "guanine",
+      "tail_type": "Molecule",
+      "evidence": "A pairs with T, and G pairs with C (suggested by Chargaff's Rules)."
+    },
+    {
+      "head": "DNA",
+      "head_type": "Molecule",
+      "relation": "is made up of",
+      "relation_type": "CONSISTS_OF",
+      "tail": "two strands",
+      "tail_type": "Molecule",
+      "evidence": "Watson and Crick proposed that DNA is made up of two strands that are twisted around each other to form a right-handed helix."
+    },
+    {
+      "head": "DNA",
+      "head_type": "Molecule",
+      "relation": "has a",
+      "relation_type": "CONSISTS_OF",
+      "tail": "double-helix structure",
+      "tail_type": "Process",
+      "evidence": "Watson and Crick proposed that DNA is made up of two strands that are twisted around each other to form a right-handed helix."
+    },
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "adds",
+      "relation_type": "BINDS",
+      "tail": "dideoxynucleotides",
+      "tail_type": "Molecule",
+      "evidence": "Chain elongation continues until a fluorescent dideoxy nucleotide is incorporated, after which no further elongation takes place."
+    },
+    {
+      "head": "Fred Sanger",
+      "head_type": "Organism",
+      "relation": "developed",
+      "relation_type": "ENCODES",
+      "tail": "the dideoxy chain termination method",
+      "tail_type": "Process",
+      "evidence": "Fred Sanger developed the sequencing method used for the human genome sequencing project, which is widely used today."
+    },
+    {
+      "head": "DNA",
+      "head_type": "Molecule",
+      "relation": "is separated by",
+      "relation_type": "CONSISTS_OF",
+      "tail": "gel electrophoresis",
+      "tail_type": "Process",
+      "evidence": "Gel electrophoresis is a technique used to separate DNA fragments of different sizes."
+    },
+    {
+      "head": "Neanderthals",
+      "head_type": "Organism",
+      "relation": "are the closest ancestors of",
+      "relation_type": "BELONGS_TO",
+      "tail": "present-day humans",
+      "tail_type": "Organism",
+      "evidence": "Neanderthals are the closest ancestors of present-day humans."
+    },
+    {
+      "head": "DNA",
+      "head_type": "Molecule",
+      "relation": "is twisted by",
+      "relation_type": "CONSISTS_OF",
+      "tail": "supercoiling",
+      "tail_type": "Process",
+      "evidence": "The DNA is twisted by what is known as supercoiling."
+    },
+    {
+      "head": "DNA",
+      "head_type": "Molecule",
+      "relation": "is wrapped around",
+      "relation_type": "LOCATED_IN",
+      "tail": "histones",
+      "tail_type": "Molecule",
+      "evidence": "At the most basic level, DNA is wrapped around proteins known as histones to form structures called nucleosomes."
+    },
+    {
+      "head": "DNA",
+      "head_type": "Molecule",
+      "relation": "is packaged into",
+      "relation_type": "CONSISTS_OF",
+      "tail": "nucleosomes",
+      "tail_type": "Molecule",
+      "evidence": "At the most basic level, DNA is wrapped around proteins known as histones to form structures called nucleosomes."
+    }
+  ]
+}

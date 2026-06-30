@@ -1,0 +1,780 @@
+{
+  "question": "What does fixation mean in biology?",
+  "generated_at": "2026-05-01T07:01:57.122376+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "fixation",
+        "mean",
+        "biology",
+        "fixation mean",
+        "mean biology",
+        "fixation mean biology"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:carbon_fixation",
+          "name": "carbon fixation",
+          "matched_text": "fixation",
+          "matched_alias": "carbon fixation",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        },
+        {
+          "entity_id": "ent:calvin_cycle",
+          "name": "calvin cycle",
+          "matched_text": "What does fixation mean in biology?",
+          "matched_alias": "calvin cycle",
+          "score": 0.5899,
+          "match_type": "semantic"
+        },
+        {
+          "entity_id": "ent:a_single,_circular_chromosome",
+          "name": "a single, circular chromosome",
+          "matched_text": "What does fixation mean in biology?",
+          "matched_alias": "a single, circular chromosome",
+          "score": 0.5771,
+          "match_type": "semantic"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:0",
+          "text": "8.3 Using Light Energy to Make Organic\nMolecules\nLearning Objectives\nBy the end of this section, you will be able to do the following:\nDescribe the Calvin cycle\nDefine carbon fixation\nExplain how photosynthesis works in the energy cycle of all living organisms\nAfter the energy from the sun is converted into chemical energy and temporarily stored in ATP and\nNADPH molecules, the cell has the fuel needed to build carbohydrate molecules for long-term energy\nstorage.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 0,
+          "snippet": "8.3 Using Light Energy to Make Organic\nMolecules\nLearning Objectives\nBy the end of this section, you will be able to do the following:\nDescribe the Calvin cycle\nDefine carbon fixation\nExplain how photosynthesis works in the energy cycle of all living organisms\nAfter the energy from the sun is converted into chemical energy and temporarily stored in ATP and\nNADPH molecules, the cell has the fuel ne",
+          "score": 0.625626647741079
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:4",
+          "text": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules\n1/8\n\nFigure 8.18 Light reactions harness energy from the sun to produce chemical bonds, ATP, and NADPH. These energy-carrying molecules\nare made in the stroma where carbon fixation takes place. Credit: Rao, A., Ryan, K., Tag, A., Fletcher, S. and Hawkins, A. Department of\nBiology, Texas A&M University. The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation,\nreduction, and regeneration.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 4,
+          "snippet": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules\n1/8\n\nFigure 8.18 Light reactions harness energy from the sun to produce chemical bonds, ATP, and NADPH. These energy-carrying molecules\nare made in the stroma where carbon fixation takes place. Credit: Rao, A., Ryan, K., Tag, A., Fletcher, S. and Hawkins, A. Department of\nBiology, Texas A&M University. The",
+          "score": 0.6101829814130848
+        },
+        {
+          "chunk_id": "chunk:8_1_overview_of_photosynthesis_biology_2e_openstax:0",
+          "text": "8.1 Overview of Photosynthesis\nLearning Objectives\nBy the end of this section, you will be able to do the following:\nExplain the significance of photosynthesis to other living organisms\nDescribe the main structures involved in photosynthesis\nIdentify the substrates and products of photosynthesis\nPhotosynthesis is essential to almost all life on earth; both plants and animals depend on it. It is the\nonly biological process that can capture energy that originates from sunlight and convert it into\nchemical compounds (carbohydrates) that every organism uses to power its metabolism. It is also a\nsource of oxygen necessary for many living organisms.",
+          "source_name": "data/8.1 Overview of Photosynthesis - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 0,
+          "snippet": "8.1 Overview of Photosynthesis\nLearning Objectives\nBy the end of this section, you will be able to do the following:\nExplain the significance of photosynthesis to other living organisms\nDescribe the main structures involved in photosynthesis\nIdentify the substrates and products of photosynthesis\nPhotosynthesis is essential to almost all life on earth; both plants and animals depend on it. It is th",
+          "score": 0.610144281208285
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:5",
+          "text": "the Calvin cycle can be organized into three basic stages: fixation,\nreduction, and regeneration.\n\nStage 1: Fixation\nIn the stroma, in addition to CO , two other components are present to initiate the light-independent\nreactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three\nmolecules of ribulose bisphosphate (RuBP), as shown in Figure 8.19. RuBP has five atoms of carbon,\nflanked by two phosphates. VISUAL CONNECTION\n2  \n4/14/26, 11:44 AM\n8.3 Using Light Energy to Make Organic Molecules - Biology 2e | OpenStax\nhttps://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules\n2/8",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 5,
+          "snippet": "the Calvin cycle can be organized into three basic stages: fixation,\nreduction, and regeneration.\n\nStage 1: Fixation\nIn the stroma, in addition to CO , two other components are present to initiate the light-independent\nreactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three\nmolecules of ribulose bisphosphate (RuBP), as shown in Figure 8.19. RuBP has five at",
+          "score": 0.6052725236578453
+        },
+        {
+          "chunk_id": "chunk:14_2_dna_structure_and_sequencing_biology_2e_openstax:1",
+          "text": "not within tissues of the\nsame individual or between individuals of the same species.\n\nHe also discovered something unexpected: That the\namount of adenine equaled the amount of thymine, and the amount of cytosine equaled the amount of guanine (that\nis, A = T and G = C). Different species had equal amounts of purines (A+G) and pyrimidines (T + C), but different\nratios of A+T to G+C. These observations became known as Chargaff’s rules. Chargaff's findings proved immensely\nuseful when Watson and Crick were getting ready to propose their DNA double helix model! You can see after\nreading the past few pages how science builds upon previous discoveries, sometimes in a slow and laborious\nprocess.",
+          "source_name": "14.2 DNA Structure and Sequencing - Biology 2e _ OpenStax.txt",
+          "chunk_index": 1,
+          "snippet": "not within tissues of the\nsame individual or between individuals of the same species.\n\nHe also discovered something unexpected: That the\namount of adenine equaled the amount of thymine, and the amount of cytosine equaled the amount of guanine (that\nis, A = T and G = C). Different species had equal amounts of purines (A+G) and pyrimidines (T + C), but different\nratios of A+T to G+C. These observati",
+          "score": 0.5988509782625724
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:13f848f8eb4facfb",
+          "head_entity_id": "ent:calvin_cycle",
+          "tail_entity_id": "ent:g3p",
+          "relation": "produces",
+          "evidence": "The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration.",
+          "head_name": "calvin cycle",
+          "tail_name": "g3p",
+          "score": 0.5879470310478695
+        },
+        {
+          "triple_id": "triple:98959840c97989fc",
+          "head_entity_id": "ent:meselson_and_stahl",
+          "tail_entity_id": "ent:e._coli",
+          "relation": "grew",
+          "evidence": "Meselson and Stahl were interested in understanding how DNA replicates. They grew E. coli for several generations in a medium containing a “heavy” isotope of nitrogen (15N), which gets incorporated into nitrogenous bases, and eventually into the DNA (Figure 14.13).",
+          "head_name": "Meselson and Stahl",
+          "tail_name": "E. coli",
+          "score": 0.5841493560736085
+        },
+        {
+          "triple_id": "triple:5b8fb6528fe3166e",
+          "head_entity_id": "ent:thylakoid",
+          "tail_entity_id": "ent:chlorophyll",
+          "relation": "contains",
+          "evidence": "Embedded in the thylakoid membrane is chlorophyll, a pigment (molecule that absorbs light) responsible for the initial interaction between light and plant material, and numerous proteins that make up the electron transport chain.",
+          "head_name": "thylakoid",
+          "tail_name": "chlorophyll",
+          "score": 0.5759054769135445
+        },
+        {
+          "triple_id": "triple:0ab8fe5e588f5741",
+          "head_entity_id": "ent:dna",
+          "tail_entity_id": "ent:rna",
+          "relation": "encodes",
+          "evidence": "The flow of genetic information in cells from DNA to mRNA to protein is described by the central dogma, which states that genes specify the sequence of mRNAs, which in turn specify the sequence of amino acids making up all proteins.",
+          "head_name": "DNA",
+          "tail_name": "RNA",
+          "score": 0.5725456998269333
+        },
+        {
+          "triple_id": "triple:f2075d31571fe616",
+          "head_entity_id": "ent:pre-mrna",
+          "tail_entity_id": "ent:rna_editing",
+          "relation": "undergoes",
+          "evidence": "RNA editing is not just a phenomenon of trypanosomes. In the mitochondria of some plants, almost all pre-mRNAs are edited.",
+          "head_name": "pre-mRNA",
+          "tail_name": "RNA editing",
+          "score": 0.5652571528576762
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:carbon_fixation",
+        "ent:calvin_cycle",
+        "ent:a_single,_circular_chromosome",
+        "ent:g3p",
+        "ent:meselson_and_stahl",
+        "ent:e._coli",
+        "ent:thylakoid",
+        "ent:chlorophyll",
+        "ent:dna",
+        "ent:rna",
+        "ent:pre-mrna",
+        "ent:rna_editing"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "carbon fixation",
+          "entity_id": "ent:carbon_fixation",
+          "original_names": [
+            "carbon fixation"
+          ]
+        },
+        {
+          "name": "rubisco",
+          "entity_id": "ent:rubisco",
+          "original_names": [
+            "RuBisCO"
+          ]
+        },
+        {
+          "name": "reaction between co2 and rubp",
+          "entity_id": "ent:reaction_between_co2_and_rubp",
+          "original_names": [
+            "reaction between CO2 and RuBP"
+          ]
+        },
+        {
+          "name": "formation of 3-pga",
+          "entity_id": "ent:formation_of_3-pga",
+          "original_names": [
+            "formation of 3-PGA"
+          ]
+        },
+        {
+          "name": "calvin cycle",
+          "entity_id": "ent:calvin_cycle",
+          "original_names": [
+            "Calvin cycle"
+          ]
+        },
+        {
+          "name": "carbon dioxide",
+          "entity_id": "ent:carbon_dioxide",
+          "original_names": [
+            "carbon dioxide"
+          ]
+        },
+        {
+          "name": "photosynthesis",
+          "entity_id": "ent:photosynthesis",
+          "original_names": [
+            "Photosynthesis",
+            "photosynthesis"
+          ]
+        },
+        {
+          "name": "g3p",
+          "entity_id": "ent:g3p",
+          "original_names": [
+            "G3P"
+          ]
+        },
+        {
+          "name": "atp",
+          "entity_id": "ent:atp",
+          "original_names": [
+            "ATP"
+          ]
+        },
+        {
+          "name": "atp synthase",
+          "entity_id": "ent:atp_synthase",
+          "original_names": [
+            "ATP synthase"
+          ]
+        },
+        {
+          "name": "nadph",
+          "entity_id": "ent:nadph",
+          "original_names": [
+            "NADPH"
+          ]
+        },
+        {
+          "name": "stroma",
+          "entity_id": "ent:stroma",
+          "original_names": [
+            "stroma"
+          ]
+        },
+        {
+          "name": "light-independent reactions",
+          "entity_id": "ent:light-independent_reactions",
+          "original_names": [
+            "light-independent reactions",
+            "Light-independent reactions"
+          ]
+        },
+        {
+          "name": "carbohydrates",
+          "entity_id": "ent:carbohydrates",
+          "original_names": [
+            "carbohydrates"
+          ]
+        },
+        {
+          "name": "a single, circular chromosome",
+          "entity_id": "ent:a_single,_circular_chromosome",
+          "original_names": [
+            "a single, circular chromosome"
+          ]
+        },
+        {
+          "name": "prokaryotes",
+          "entity_id": "ent:prokaryotes",
+          "original_names": [
+            "Prokaryotes"
+          ]
+        },
+        {
+          "name": "nucleoid region",
+          "entity_id": "ent:nucleoid_region",
+          "original_names": [
+            "nucleoid region"
+          ]
+        },
+        {
+          "name": "meselson and stahl",
+          "entity_id": "ent:meselson_and_stahl",
+          "original_names": [
+            "Meselson and Stahl"
+          ]
+        },
+        {
+          "name": "e. coli",
+          "entity_id": "ent:e._coli",
+          "original_names": [
+            "E. coli"
+          ]
+        },
+        {
+          "name": "heavy isotope of nitrogen (15n)",
+          "entity_id": "ent:heavy_isotope_of_nitrogen_(15n)",
+          "original_names": [
+            "heavy isotope of nitrogen (15N)"
+          ]
+        },
+        {
+          "name": "thylakoid",
+          "entity_id": "ent:thylakoid",
+          "original_names": [
+            "Thylakoid"
+          ]
+        },
+        {
+          "name": "chlorophyll",
+          "entity_id": "ent:chlorophyll",
+          "original_names": [
+            "chlorophyll"
+          ]
+        },
+        {
+          "name": "dna",
+          "entity_id": "ent:dna",
+          "original_names": [
+            "DNA"
+          ]
+        },
+        {
+          "name": "oswald avery",
+          "entity_id": "ent:oswald_avery",
+          "original_names": [
+            "Oswald Avery"
+          ]
+        },
+        {
+          "name": "s strain",
+          "entity_id": "ent:s_strain",
+          "original_names": [
+            "S strain"
+          ]
+        },
+        {
+          "name": "dna was the transforming principle",
+          "entity_id": "ent:dna_was_the_transforming_principle",
+          "original_names": [
+            "DNA was the transforming principle"
+          ]
+        },
+        {
+          "name": "protein",
+          "entity_id": "ent:protein",
+          "original_names": [
+            "protein"
+          ]
+        },
+        {
+          "name": "mrna",
+          "entity_id": "ent:mrna",
+          "original_names": [
+            "mRNA"
+          ]
+        },
+        {
+          "name": "nucleotides",
+          "entity_id": "ent:nucleotides",
+          "original_names": [
+            "nucleotides"
+          ]
+        },
+        {
+          "name": "phosphodiester bonds",
+          "entity_id": "ent:phosphodiester_bonds",
+          "original_names": [
+            "phosphodiester bonds"
+          ]
+        },
+        {
+          "name": "dna polymerase iii",
+          "entity_id": "ent:dna_polymerase_iii",
+          "original_names": [
+            "DNA polymerase III"
+          ]
+        },
+        {
+          "name": "dna polymerase",
+          "entity_id": "ent:dna_polymerase",
+          "original_names": [
+            "DNA polymerase"
+          ]
+        },
+        {
+          "name": "histones",
+          "entity_id": "ent:histones",
+          "original_names": [
+            "histones"
+          ]
+        },
+        {
+          "name": "nucleosomes",
+          "entity_id": "ent:nucleosomes",
+          "original_names": [
+            "nucleosomes"
+          ]
+        },
+        {
+          "name": "deoxyribose",
+          "entity_id": "ent:deoxyribose",
+          "original_names": [
+            "deoxyribose"
+          ]
+        },
+        {
+          "name": "two strands",
+          "entity_id": "ent:two_strands",
+          "original_names": [
+            "two strands"
+          ]
+        },
+        {
+          "name": "moves toward the positive electrode",
+          "entity_id": "ent:moves_toward_the_positive_electrode",
+          "original_names": [
+            "moves toward the positive electrode"
+          ]
+        },
+        {
+          "name": "gel electrophoresis",
+          "entity_id": "ent:gel_electrophoresis",
+          "original_names": [
+            "gel electrophoresis"
+          ]
+        },
+        {
+          "name": "dna-specific dye",
+          "entity_id": "ent:dna-specific_dye",
+          "original_names": [
+            "DNA-specific dye"
+          ]
+        },
+        {
+          "name": "double helix",
+          "entity_id": "ent:double_helix",
+          "original_names": [
+            "double helix"
+          ]
+        },
+        {
+          "name": "nitrogenous bases",
+          "entity_id": "ent:nitrogenous_bases",
+          "original_names": [
+            "nitrogenous bases"
+          ]
+        },
+        {
+          "name": "new complementary strand",
+          "entity_id": "ent:new_complementary_strand",
+          "original_names": [
+            "new complementary strand"
+          ]
+        },
+        {
+          "name": "replication",
+          "entity_id": "ent:replication",
+          "original_names": [
+            "replication"
+          ]
+        },
+        {
+          "name": "helicase",
+          "entity_id": "ent:helicase",
+          "original_names": [
+            "Helicase"
+          ]
+        },
+        {
+          "name": "rna",
+          "entity_id": "ent:rna",
+          "original_names": [
+            "RNA"
+          ]
+        },
+        {
+          "name": "genes",
+          "entity_id": "ent:genes",
+          "original_names": [
+            "genes"
+          ]
+        },
+        {
+          "name": "mitochondria",
+          "entity_id": "ent:mitochondria",
+          "original_names": [
+            "mitochondria"
+          ]
+        },
+        {
+          "name": "dna helix",
+          "entity_id": "ent:dna_helix",
+          "original_names": [
+            "DNA helix"
+          ]
+        },
+        {
+          "name": "nucleoside triphosphates",
+          "entity_id": "ent:nucleoside_triphosphates",
+          "original_names": [
+            "nucleoside triphosphates"
+          ]
+        },
+        {
+          "name": "dideoxynucleotides",
+          "entity_id": "ent:dideoxynucleotides",
+          "original_names": [
+            "dideoxynucleotides"
+          ]
+        },
+        {
+          "name": "okazaki fragments",
+          "entity_id": "ent:okazaki_fragments",
+          "original_names": [
+            "Okazaki fragments"
+          ]
+        },
+        {
+          "name": "free 3'-oh group",
+          "entity_id": "ent:free_3'-oh_group",
+          "original_names": [
+            "free 3'-OH group"
+          ]
+        },
+        {
+          "name": "leading strand",
+          "entity_id": "ent:leading_strand",
+          "original_names": [
+            "leading strand"
+          ]
+        },
+        {
+          "name": "pcna",
+          "entity_id": "ent:pcna",
+          "original_names": [
+            "PCNA"
+          ]
+        },
+        {
+          "name": "phosphodiester bond",
+          "entity_id": "ent:phosphodiester_bond",
+          "original_names": [
+            "phosphodiester bond"
+          ]
+        },
+        {
+          "name": "wrong nucleotide",
+          "entity_id": "ent:wrong_nucleotide",
+          "original_names": [
+            "wrong nucleotide"
+          ]
+        },
+        {
+          "name": "wrongly incorporated bases",
+          "entity_id": "ent:wrongly_incorporated_bases",
+          "original_names": [
+            "wrongly incorporated bases"
+          ]
+        },
+        {
+          "name": "mistakes during dna replication",
+          "entity_id": "ent:mistakes_during_dna_replication",
+          "original_names": [
+            "mistakes during DNA replication"
+          ]
+        },
+        {
+          "name": "segment of dna",
+          "entity_id": "ent:segment_of_dna",
+          "original_names": [
+            "segment of DNA"
+          ]
+        },
+        {
+          "name": "newly added base",
+          "entity_id": "ent:newly_added_base",
+          "original_names": [
+            "newly added base"
+          ]
+        },
+        {
+          "name": "ribose",
+          "entity_id": "ent:ribose",
+          "original_names": [
+            "ribose"
+          ]
+        },
+        {
+          "name": "amino acids",
+          "entity_id": "ent:amino_acids",
+          "original_names": [
+            "amino acids"
+          ]
+        },
+        {
+          "name": "promoter",
+          "entity_id": "ent:promoter",
+          "original_names": [
+            "promoter"
+          ]
+        },
+        {
+          "name": "trypanosomes",
+          "entity_id": "ent:trypanosomes",
+          "original_names": [
+            "trypanosomes"
+          ]
+        },
+        {
+          "name": "pre-mrna",
+          "entity_id": "ent:pre-mrna",
+          "original_names": [
+            "pre-mRNA"
+          ]
+        },
+        {
+          "name": "rna processing",
+          "entity_id": "ent:rna_processing",
+          "original_names": [
+            "RNA processing"
+          ]
+        },
+        {
+          "name": "eukaryotic pre-mrna",
+          "entity_id": "ent:eukaryotic_pre-mrna",
+          "original_names": [
+            "eukaryotic pre-mRNA"
+          ]
+        },
+        {
+          "name": "rna editing",
+          "entity_id": "ent:rna_editing",
+          "original_names": [
+            "RNA editing"
+          ]
+        },
+        {
+          "name": "guide rnas",
+          "entity_id": "ent:guide_rnas",
+          "original_names": [
+            "guide RNAs"
+          ]
+        },
+        {
+          "name": "mitochondrial dna",
+          "entity_id": "ent:mitochondrial_dna",
+          "original_names": [
+            "mitochondrial DNA"
+          ]
+        },
+        {
+          "name": "rna-stabilizing proteins",
+          "entity_id": "ent:rna-stabilizing_proteins",
+          "original_names": [
+            "RNA-stabilizing proteins"
+          ]
+        },
+        {
+          "name": "intron removal",
+          "entity_id": "ent:intron_removal",
+          "original_names": [
+            "intron removal"
+          ]
+        },
+        {
+          "name": "3' poly-a tail addition",
+          "entity_id": "ent:3'_poly-a_tail_addition",
+          "original_names": [
+            "3' Poly-A Tail addition"
+          ]
+        },
+        {
+          "name": "exons",
+          "entity_id": "ent:exons",
+          "original_names": [
+            "exons"
+          ]
+        },
+        {
+          "name": "5' capping",
+          "entity_id": "ent:5'_capping",
+          "original_names": [
+            "5' capping"
+          ]
+        },
+        {
+          "name": "introns",
+          "entity_id": "ent:introns",
+          "original_names": [
+            "introns"
+          ]
+        },
+        {
+          "name": "splicing",
+          "entity_id": "ent:splicing",
+          "original_names": [
+            "splicing"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:carbon_fixation",
+          "evidence": "RuBisCO catalyzes a reaction between CO2 and RuBP. For each CO2 molecule that reacts with one RuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form.",
+          "target_name": "carbon fixation",
+          "source_entity_id": "ent:rubisco",
+          "triple_id": "triple:30cd207a47b51e2d",
+          "source_name": "RuBisCO",
+          "relation": "catalyzes"
+        },
+        {
+          "target_entity_id": "ent:reaction_between_co2_and_rubp",
+          "evidence": "RuBisCO catalyzes a reaction between CO2 and RuBP. For each CO2 molecule that reacts with one RuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form.",
+          "target_name": "reaction between CO2 and RuBP",
+          "source_entity_id": "ent:rubisco",
+          "triple_id": "triple:947d67f6ad421a32",
+          "source_name": "RuBisCO",
+          "relation": "catalyzes"
+        },
+        {
+          "target_entity_id": "ent:formation_of_3-pga",
+          "evidence": "RuBisCO catalyzes a reaction between CO2 and RuBP. For each CO2 molecule that reacts with one RuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form.",
+          "target_name": "formation of 3-PGA",
+          "source_entity_id": "ent:rubisco",
+          "triple_id": "triple:afca0ae7f9fc768b",
+          "source_name": "RuBisCO",
+          "relation": "catalyzes"
+        },
+        {
+          "target_entity_id": "ent:carbon_dioxide",
+          "evidence": "In the stroma, in addition to CO2, two other components are present to initiate the light-independent reactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three molecules of ribulose bisphosphate (RuBP).",
+          "target_name": "carbon dioxide",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:704a71fe6fdb8ffd",
+          "source_name": "Calvin cycle",
+          "relation": "consumes"
+        },
+        {
+          "target_entity_id": "ent:carbon_dioxide",
+          "evidence": "Photosynthesis is a multi-step process that requires specific wavelengths of visible sunlight, carbon dioxide (which is low in energy), and water as substrates.",
+          "target_name": "carbon dioxide",
+          "source_entity_id": "ent:photosynthesis",
+          "triple_id": "triple:c08663ef8421e663",
+          "source_name": "Photosynthesis",
+          "relation": "requires"
+        },
+        {
+          "target_entity_id": "ent:g3p",
+          "evidence": "The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration.",
+          "target_name": "G3P",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:13f848f8eb4facfb",
+          "source_name": "Calvin cycle",
+          "relation": "produces"
+        },
+        {
+          "target_entity_id": "ent:g3p",
+          "evidence": "The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration.",
+          "target_name": "G3P",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:8e40d7a51f9db422",
+          "source_name": "Calvin cycle",
+          "relation": "converts to"
+        },
+        {
+          "target_entity_id": "ent:atp",
+          "evidence": "ATP and NADPH are used to convert the six molecules of 3-PGA into six molecules of a chemical called glyceraldehyde 3-phosphate (G3P).",
+          "target_name": "ATP",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:5bdbe1c59267d238",
+          "source_name": "Calvin cycle",
+          "relation": "consumes"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What does fixation mean in biology?",
+    "answer": "carbon fixation",
+    "citations": [
+      "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:0 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | 8.3 Using Light Energy to Make Organic Molecules Learning Objectives By the end of this section, you will be able to...",
+      "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:4 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules 1/8 Figure 8.18 Light re..."
+    ],
+    "reasoning": "Matched entities: carbon fixation. Traversed graph edges: RuBisCO --[catalyzes]--> carbon fixation; RuBisCO --[catalyzes]--> reaction between CO2 and RuBP; RuBisCO --[catalyzes]--> formation of 3-PGA. Graph evidence: \"RuBisCO catalyzes a reaction between CO2 and RuBP. For each CO2 molecule that reacts with one RuBP, two molecules of another compound 3-phospho glyceric acid (3-PGA) form.\". The provided text states that the Calvin cycle defines carbon fixation."
+  }
+}

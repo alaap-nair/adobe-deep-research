@@ -1,0 +1,9 @@
+{
+  "question": "What role does DNA polymerase play in DNA replication?",
+  "answer": "DNA polymerase adds nucleotides one-by-one to the growing DNA chain that is complementary to the template strand.",
+  "citations": [
+    "chunk:mcb_genetics:56 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | from a single site along the chromosome and proceeding around the circle in both directions. This means that approxim...",
+    "triple:4692d9cf2663acbd | DNA polymerase --[adds]--> nucleotides"
+  ],
+  "reasoning": "Matched entities: dna, dna polymerase, dna replication. Traversed graph edges: DNA --[is the genetic material]--> DNA; DNA --[has strands]--> complementary strands; DNA --[is packaged around]--> histone proteins. Graph evidence: \"Only 32P entered the bacterial cells, indicating that DNA is the genetic material.\". The context explicitly states that DNA polymerase adds nucleotides one-by-one to the growing DNA chain during DNA replication, which directly answers the question about its role."
+}

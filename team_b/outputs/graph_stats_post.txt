@@ -1,0 +1,28 @@
+Nodes:                 130
+Relationships:         128
+Avg degree:            1.97
+Distinct relations:    57
+
+Top entities by surface-form count:
+    3  thylakoid
+    2  a third phosphate group to adp
+    2  ascomycota
+    2  aspergillus
+    2  aspergillus oryzae
+    2  atp
+    2  atp synthase
+    2  basidiomycota
+    2  batrachochytrium dendrobatidis
+    2  beauveria bassiana
+
+Top 10 relation labels:
+    13  produce
+     9  include
+     7  produces
+     7  are
+     6  occurs in
+     5  belongs to
+     5  cause
+     5  causes
+     4  form mutualistic associations
+     4  contains

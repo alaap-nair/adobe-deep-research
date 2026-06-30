@@ -1,0 +1,201 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 19,
+  "num_entities": 21,
+  "entities": [
+    "Ascomycota",
+    "Basidiomycota",
+    "Glomeromycota",
+    "Zygomycota",
+    "algae",
+    "animals",
+    "ants",
+    "cyanobacteria",
+    "ectomycorrhizae",
+    "endomycorrhizae",
+    "fungi",
+    "fungus",
+    "leaf-cutter ants",
+    "leaves",
+    "lichens",
+    "mycorrhizae",
+    "nitrogen and phosphorus",
+    "organic matter",
+    "plants",
+    "soil",
+    "substrate"
+  ],
+  "triples": [
+    {
+      "head": "fungi",
+      "head_type": "Organism",
+      "relation": "are decomposers",
+      "relation_type": "DECOMPOSES",
+      "tail": "organic matter",
+      "tail_type": "Molecule",
+      "evidence": "Like bacteria, they act behind the scenes as major decomposers."
+    },
+    {
+      "head": "fungi",
+      "head_type": "Organism",
+      "relation": "release elements",
+      "relation_type": "RELEASES",
+      "tail": "nitrogen and phosphorus",
+      "tail_type": "Molecule",
+      "evidence": "The action of fungi releases these elements from decaying matter, making them available to other living organisms."
+    },
+    {
+      "head": "fungi",
+      "head_type": "Organism",
+      "relation": "form mutualistic associations",
+      "relation_type": "MUTUALISTIC_WITH",
+      "tail": "cyanobacteria",
+      "tail_type": "Organism",
+      "evidence": "Fungi form mutualistic associations with many types of organisms, including cyanobacteria, algae, plants, and animals."
+    },
+    {
+      "head": "fungi",
+      "head_type": "Organism",
+      "relation": "form mutualistic associations",
+      "relation_type": "MUTUALISTIC_WITH",
+      "tail": "algae",
+      "tail_type": "Organism",
+      "evidence": "Fungi form mutualistic associations with many types of organisms, including cyanobacteria, algae, plants, and animals."
+    },
+    {
+      "head": "fungi",
+      "head_type": "Organism",
+      "relation": "form mutualistic associations",
+      "relation_type": "MUTUALISTIC_WITH",
+      "tail": "plants",
+      "tail_type": "Organism",
+      "evidence": "Fungi form mutualistic associations with many types of organisms, including cyanobacteria, algae, plants, and animals."
+    },
+    {
+      "head": "fungi",
+      "head_type": "Organism",
+      "relation": "form mutualistic associations",
+      "relation_type": "MUTUALISTIC_WITH",
+      "tail": "animals",
+      "tail_type": "Organism",
+      "evidence": "Fungi form mutualistic associations with many types of organisms, including cyanobacteria, algae, plants, and animals."
+    },
+    {
+      "head": "mycorrhizae",
+      "head_type": "Process",
+      "relation": "channel water and minerals",
+      "relation_type": "CONSUMES",
+      "tail": "soil",
+      "tail_type": "Molecule",
+      "evidence": "In a mycorrhizal association, the fungal mycelia use their extensive network of hyphae and large surface area in contact with the soil to channel water and minerals from the soil into the plant."
+    },
+    {
+      "head": "plants",
+      "head_type": "Organism",
+      "relation": "supply products of photosynthesis",
+      "relation_type": "PRODUCES",
+      "tail": "fungus",
+      "tail_type": "Organism",
+      "evidence": "In exchange, the plant supplies the products of photosynthesis to fuel the metabolism of the fungus."
+    },
+    {
+      "head": "ectomycorrhizae",
+      "head_type": "Process",
+      "relation": "depend on fungi",
+      "relation_type": "MUTUALISTIC_WITH",
+      "tail": "Ascomycota",
+      "tail_type": "TaxonomicGroup",
+      "evidence": "The fungal partner can belong to the Ascomycota, Basidiomycota or Zygomycota."
+    },
+    {
+      "head": "ectomycorrhizae",
+      "head_type": "Process",
+      "relation": "depend on fungi",
+      "relation_type": "MUTUALISTIC_WITH",
+      "tail": "Basidiomycota",
+      "tail_type": "TaxonomicGroup",
+      "evidence": "The fungal partner can belong to the Ascomycota, Basidiomycota or Zygomycota."
+    },
+    {
+      "head": "ectomycorrhizae",
+      "head_type": "Process",
+      "relation": "depend on fungi",
+      "relation_type": "MUTUALISTIC_WITH",
+      "tail": "Zygomycota",
+      "tail_type": "TaxonomicGroup",
+      "evidence": "The fungal partner can belong to the Ascomycota, Basidiomycota or Zygomycota."
+    },
+    {
+      "head": "endomycorrhizae",
+      "head_type": "Process",
+      "relation": "are produced by fungi",
+      "relation_type": "PRODUCES",
+      "tail": "Glomeromycota",
+      "tail_type": "TaxonomicGroup",
+      "evidence": "The fungal partners of endomycorrhizal associates all belong to the Glomeromycota."
+    },
+    {
+      "head": "lichens",
+      "head_type": "Organism",
+      "relation": "are formed by a fungus",
+      "relation_type": "CONSISTS_OF",
+      "tail": "Ascomycota",
+      "tail_type": "TaxonomicGroup",
+      "evidence": "Lichens display a range of colors and textures and can survive in the most unusual and hostile habitats."
+    },
+    {
+      "head": "lichens",
+      "head_type": "Organism",
+      "relation": "are formed by a fungus",
+      "relation_type": "CONSISTS_OF",
+      "tail": "Basidiomycota",
+      "tail_type": "TaxonomicGroup",
+      "evidence": "Lichens display a range of colors and textures and can survive in the most unusual and hostile habitats."
+    },
+    {
+      "head": "fungus",
+      "head_type": "Organism",
+      "relation": "supplies minerals and protection",
+      "relation_type": "PRODUCES",
+      "tail": "algae",
+      "tail_type": "Organism",
+      "evidence": "In return, the fungus supplies minerals and protection from dryness and excessive light by encasing the algae in its mycelium."
+    },
+    {
+      "head": "fungus",
+      "head_type": "Organism",
+      "relation": "attaches the lichen",
+      "relation_type": "PART_OF",
+      "tail": "substrate",
+      "tail_type": "Molecule",
+      "evidence": "The fungus also attaches the lichen to its substrate."
+    },
+    {
+      "head": "leaf-cutter ants",
+      "head_type": "Organism",
+      "relation": "farm fungi",
+      "relation_type": "MUTUALISTIC_WITH",
+      "tail": "fungi",
+      "tail_type": "Organism",
+      "evidence": "Leaf-cutter ants of Central and South America literally farm fungi."
+    },
+    {
+      "head": "fungi",
+      "head_type": "Organism",
+      "relation": "digest cellulose",
+      "relation_type": "DECOMPOSES",
+      "tail": "leaves",
+      "tail_type": "Molecule",
+      "evidence": "Fungi are cultivated in these disk gardens, digesting the cellulose in the leaves that the ants cannot break down."
+    },
+    {
+      "head": "ants",
+      "head_type": "Organism",
+      "relation": "feed on fungi",
+      "relation_type": "CONSUMES",
+      "tail": "fungi",
+      "tail_type": "Organism",
+      "evidence": "Once smaller sugar molecules are produced and consumed by the fungi, the fungi in turn become a meal for the ants."
+    }
+  ]
+}

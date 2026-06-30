@@ -1,0 +1,128 @@
+[
+  {
+    "question": "What is the primary function of DNA?",
+    "ground_truth": "DNA encodes RNA; RNA encodes protein.",
+    "difficulty": "Standard",
+    "rating": 4
+  },
+  {
+    "question": "What is the primary function of RNA?",
+    "ground_truth": "Convert genetic information from DNA into proteins.",
+    "difficulty": "Standard",
+    "rating": 4
+  },
+  {
+    "question": "What is CRISPR?",
+    "ground_truth": "CRISPR is a genome-editing technology.",
+    "difficulty": "Standard",
+    "rating": 5
+  },
+  {
+    "question": "How does protein synthesis work?",
+    "ground_truth": "Protein synthesis creates proteins by transcribing information from the DNA, ultimately resulting in a protein.",
+    "difficulty": "Standard",
+    "rating": 5
+  },
+  {
+    "question": "What is a genome?",
+    "ground_truth": "The complete set of genetic instructions found in a cell.",
+    "difficulty": "Standard",
+    "rating": 4
+  },
+  {
+    "question": "How does RNA regulate gene expression?",
+    "ground_truth": "RNA controls gene expression by inhibiting, degrading, or modifying the stability/accessibility of genetic information.",
+    "difficulty": "Multi-hop",
+    "rating": 3
+  },
+  {
+    "question": "What are the differences between the codons in DNA and RNA?",
+    "ground_truth": "DNA codons use thymine whereas RNA codons use uracil to pair with adenine.",
+    "difficulty": "Multi-hop",
+    "rating": 5
+  },
+  {
+    "question": "Why is RNA only a single helix?",
+    "ground_truth": "Its extra hydroxyl group makes a double helix bulky and unstable.",
+    "difficulty": "Multi-hop",
+    "rating": 1
+  },
+  {
+    "question": "What is genetics?",
+    "ground_truth": "The study of genes, heredity, and specific traits passed down from parents to offspring.",
+    "difficulty": "Broad/Contextual",
+    "rating": 1
+  },
+  {
+    "question": "How does CRISPR work?",
+    "ground_truth": "It uses a guide RNA to lead a Cas9 enzyme to a specific DNA sequence.",
+    "difficulty": "Multi-hop",
+    "rating": 1
+  },
+
+  {
+    "question": "What role does DNA polymerase play in DNA replication?",
+    "ground_truth": "DNA polymerase synthesizes new DNA strands by adding nucleotides complementary to the template strand.",
+    "difficulty": "Standard",
+    "set": "new"
+  },
+  {
+    "question": "What is the function of the ribosome?",
+    "ground_truth": "The ribosome translates mRNA into protein by linking amino acids into a polypeptide chain.",
+    "difficulty": "Standard",
+    "set": "new"
+  },
+  {
+    "question": "What is a plasmid?",
+    "ground_truth": "A plasmid is a small circular DNA molecule found in bacteria, often used as a vector in molecular cloning.",
+    "difficulty": "Standard",
+    "set": "new"
+  },
+  {
+    "question": "What does telomerase do?",
+    "ground_truth": "Telomerase extends the telomere regions at the ends of chromosomes, preventing their shortening during DNA replication.",
+    "difficulty": "Standard",
+    "set": "new"
+  },
+  {
+    "question": "What is the role of tRNA in translation?",
+    "ground_truth": "tRNA carries specific amino acids to the ribosome and matches them to mRNA codons via its anticodon.",
+    "difficulty": "Standard",
+    "set": "new"
+  },
+  {
+    "question": "How do prokaryotic and eukaryotic DNA replication differ?",
+    "ground_truth": "Prokaryotes have a single origin of replication on their circular chromosome, while eukaryotes have multiple origins on linear chromosomes and must also replicate telomeres.",
+    "difficulty": "System Breaker",
+    "set": "new",
+    "targets_failure": "context_precision — requires cross-referencing prokaryote and eukaryote retrieval contexts without mixing noise"
+  },
+  {
+    "question": "Why do mutations in DNA polymerase proofreading lead to cancer?",
+    "ground_truth": "Without proofreading, replication errors accumulate, causing mutations in genes that control cell growth, which can lead to uncontrolled cell division and cancer.",
+    "difficulty": "System Breaker",
+    "set": "new",
+    "targets_failure": "context_recall — requires chaining DNA polymerase -> proofreading -> mutations -> cancer across multiple graph hops"
+  },
+  {
+    "question": "Explain the relationship between introns, exons, and alternative splicing in eukaryotic gene expression.",
+    "ground_truth": "Eukaryotic genes contain introns (non-coding) and exons (coding). During RNA processing, introns are removed and exons can be joined in different combinations via alternative splicing, allowing one gene to produce multiple protein variants.",
+    "difficulty": "System Breaker",
+    "set": "new",
+    "targets_failure": "answer_relevancy — complex multi-part question that the system may answer only partially"
+  },
+  {
+    "question": "What experimental evidence proved that DNA is the genetic material rather than protein?",
+    "ground_truth": "The Hershey-Chase experiment used bacteriophage T2 with radioactive phosphorus (32P) labeling DNA and radioactive sulfur (35S) labeling protein. Only 32P entered bacterial cells, proving DNA carries genetic information.",
+    "difficulty": "System Breaker",
+    "set": "new",
+    "targets_failure": "context_recall — requires retrieving specific experimental details (Hershey-Chase, 32P, 35S) scattered across chunks"
+  },
+  {
+    "question": "How does the wobble hypothesis explain codon degeneracy?",
+    "ground_truth": "The wobble hypothesis states that the third base of a codon can form non-standard base pairs with the anticodon of tRNA, allowing a single tRNA to recognize multiple codons that code for the same amino acid.",
+    "difficulty": "System Breaker",
+    "set": "new",
+    "targets_failure": "entity_resolution — 'wobble hypothesis' and 'codon degeneracy' are specific terms that may not match to graph entities"
+  }
+]

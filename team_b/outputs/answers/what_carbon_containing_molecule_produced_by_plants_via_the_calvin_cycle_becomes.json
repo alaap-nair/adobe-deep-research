@@ -1,0 +1,10 @@
+{
+  "question": "What carbon-containing molecule produced by plants via the Calvin cycle becomes the energy source for symbiotic mycorrhizal fungi?",
+  "answer": "carbohydrates",
+  "citations": [
+    "chunk:24_3_ecology_of_fungi_biology_2e_openstax:9 | data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf | mycorrhizal partners. In a mycorrhizal association, the fungal mycelia use their extensive network of hyphae and larg...",
+    "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:1 | data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf | for long-term energy storage. The products of the light-dependent reactions, ATP and NADPH, have lifespans in the ran...",
+    "triple:b79d2ec5117c2f69 | plants --[supply products of photosynthesis]--> fungi"
+  ],
+  "reasoning": "Matched entities: fungi, plants, calvin cycle. Traversed graph edges: chytridiomycota --[belongs to]--> fungi; chytrids --[are]--> chytridiomycota; zygomycota --[belongs to]--> fungi. Graph evidence: \"The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).\". The context indicates that plants supply the products of photosynthesis to fuel the metabolism of fungi. The products of the light-independent reactions (Calvin cycle) include carbohydrates, which are carbon-containing molecules. Therefore, carbohydrates produced by plants via the Calvin cycle serve as the energy source for symbiotic mycorrhizal fungi."
+}

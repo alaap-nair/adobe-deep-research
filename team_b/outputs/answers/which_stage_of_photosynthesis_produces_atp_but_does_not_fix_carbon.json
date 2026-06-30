@@ -1,0 +1,9 @@
+{
+  "question": "Which stage of photosynthesis produces ATP but does NOT fix carbon?",
+  "answer": "light-dependent reactions",
+  "citations": [
+    "chunk:8_1_overview_of_photosynthesis_biology_2e_openstax:17 | data/8.1 Overview of Photosynthesis - Biology 2e _ OpenStax.pdf | 6/8 Figure 8.7 Photosynthesis takes place in two stages: light-dependent reactions and the Calvin cycle. Light-depend...",
+    "triple:7c0a23831d75710c | photosynthesis --[consists of]--> light-independent reactions"
+  ],
+  "reasoning": "Matched entities: atp, photosynthesis, carbon fixation. Traversed graph edges: atp synthase --[forms]--> atp; atp synthase --[attaches]--> a third phosphate group to adp; calvin cycle --[consumes]--> atp. Graph evidence: \"The energy released by the hydrogen ion stream allows ATP synthase to attach a third phosphate group to ADP, which forms a molecule of ATP (Figure 8.17).\". The light-dependent reactions of photosynthesis, which take place in the thylakoid membrane, use light energy to produce ATP and NADPH. The Calvin cycle, which occurs in the stroma, is responsible for carbon fixation and does not produce ATP."
+}

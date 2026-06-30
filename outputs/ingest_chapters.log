@@ -1,0 +1,1988 @@
+=== Ch14 ===
+Loaded passage (73055 chars)
+Extracting triples via OpenRouter...
+  Split into 27 chunks (limit 3500 chars)
+  Chunk 1/27 (1675 chars)...
+  Chunk 2/27 (2720 chars)...
+  Chunk 3/27 (3040 chars)...
+  Chunk 4/27 (2980 chars)...
+  Chunk 5/27 (1952 chars)...
+  Chunk 6/27 (2791 chars)...
+  Chunk 7/27 (2317 chars)...
+  Warning: skipping triple 7: 1 validation error for Triple
+tail
+  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_too_short
+  Warning: skipping triple 8: 1 validation error for Triple
+tail
+  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_too_short
+  Warning: skipping triple 11: 1 validation error for Triple
+tail
+  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_too_short
+  Warning: skipping triple 23: 2 validation errors for Triple
+relation
+  Value error, Relation too long: was a relatively expensive and long process [type=value_error, input_value='was a relatively expensive and long process', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+tail
+  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_too_short
+  Warning: skipping triple 24: 2 validation errors for Triple
+relation
+  Value error, Relation too long: compounded the problem through safety concerns [type=value_error, input_value='compounded the problem through safety concerns', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+tail
+  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_too_short
+  Chunk 8/27 (3283 chars)...
+  Chunk 9/27 (3091 chars)...
+  Chunk 10/27 (2880 chars)...
+  Chunk 11/27 (2753 chars)...
+  Chunk 12/27 (3495 chars)...
+  Chunk 13/27 (1281 chars)...
+  Chunk 14/27 (3404 chars)...
+  Chunk 15/27 (2664 chars)...
+  Chunk 16/27 (3045 chars)...
+  Chunk 17/27 (3370 chars)...
+  Warning: skipping triple 0: 1 validation error for Triple
+relation
+  Value error, Relation too long: adds a short DNA fragment to [type=value_error, input_value='adds a short DNA fragment to', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Chunk 18/27 (3500 chars)...
+  Chunk 19/27 (3000 chars)...
+  Chunk 20/27 (3276 chars)...
+  Chunk 21/27 (3499 chars)...
+  Warning: skipping triple 17: 1 validation error for Triple
+tail
+  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_too_short
+  Chunk 22/27 (760 chars)...
+  Chunk 23/27 (3495 chars)...
+  Warning: skipping triple 16: 1 validation error for Triple
+tail
+  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_too_short
+  Chunk 24/27 (1310 chars)...
+  Warning: skipping triple 8: 1 validation error for Triple
+relation
+  Value error, Relation too long: removes bases on 5' and 3' end [type=value_error, input_value="removes bases on 5' and 3' end", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Warning: skipping triple 10: 1 validation error for Triple
+relation
+  Value error, Relation too long: attaches ends of newly synthesized fragment [type=value_error, input_value='attaches ends of newly synthesized fragment', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Chunk 25/27 (2930 chars)...
+  Chunk 26/27 (2886 chars)...
+  Chunk 27/27 (1582 chars)...
+Model used: mistralai/mistral-small-3.2-24b-instruct
+Number of triples: 524
+Unique entities: 664
+  DNA --[retrieved from]--> hair
+  DNA --[retrieved from]--> blood
+  DNA --[retrieved from]--> saliva
+  DNA analysis --[applied to]--> determining paternity
+  DNA analysis --[applied to]--> tracing genealogy
+  DNA analysis --[applied to]--> identifying pathogens
+  DNA analysis --[applied to]--> archeological research
+  DNA analysis --[applied to]--> tracing disease outbreaks
+  DNA analysis --[applied to]--> studying human migration patterns
+  DNA --[used in]--> diagnostics
+  DNA --[used in]--> new vaccine development
+  DNA --[used in]--> cancer therapy
+  DNA --[determines]--> predisposition to diseases
+  human cell --[has]--> 23 pairs of chromosomes
+  chromosomes --[inherited from]--> female parent
+  chromosomes --[inherited from]--> male parent
+  mitochondrial genome --[inherited from]--> female parent
+  chromosome --[contains]--> genes
+  gene --[codes for]--> functional product
+  human haploid genome --[contains]--> 3 billion base pairs
+  human haploid genome --[has]--> 20,000 to 25,000 functional genes
+  Friedrich Miescher --[isolated]--> nucleic acids
+  Friedrich Miescher --[named]--> nuclein
+  Frederick Griffith --[reported]--> bacterial transformation
+  Frederick Griffith --[conducted experiments with]--> Streptococcus pneumoniae
+  Streptococcus pneumoniae --[has strains]--> R and S
+  S strain --[is pathogenic]--> disease-causing
+  S strain --[has]--> capsule
+  capsule --[allows]--> cell to escape immune responses
+  Frederick Griffith --[injected]--> living S strain into mice
+  Frederick Griffith --[injected]--> live R strain into mice
+  Frederick Griffith --[injected]--> heat-killed S strain into mice
+  Frederick Griffith --[injected]--> mixture of live R strain and heat-killed S strain into mice
+  Frederick Griffith --[concluded]--> transforming principle
+  S. pneumoniae --[has strains]--> R strain
+  S. pneumoniae --[has strains]--> S strain
+  R strain --[is non-pathogenic]--> non-pathogenic
+  S strain --[is pathogenic]--> pathogenic
+  Griffith --[injected mouse with]--> heat-killed S strain
+  Griffith --[injected mouse with]--> live R strain
+  mouse --[died from]--> injection
+  mouse --[recovered]--> S strain
+  Griffith --[concluded]--> transforming principle
+  Avery, MacLeod, McCarty --[isolated]--> S strain
+  Avery, MacLeod, McCarty --[isolated]--> proteins
+  Avery, MacLeod, McCarty --[isolated]--> nucleic acids
+  Avery, MacLeod, McCarty --[used enzymes to degrade]--> components
+  Avery, MacLeod, McCarty --[found]--> DNA degradation prevents transformation
+  Avery, MacLeod, McCarty --[concluded]--> DNA is transforming principle
+  Forensic Scientists --[used DNA analysis]--> solve immigration case
+  Dr. Alec Jeffreys --[invented]--> DNA fingerprinting
+  Dr. Alec Jeffreys --[took DNA samples from]--> mother and children
+  Dr. Alec Jeffreys --[compared DNA samples with]--> boy’s DNA
+  Dr. Alec Jeffreys --[found match in]--> boy’s DNA
+  Dr. Alec Jeffreys --[concluded]--> boy is mother’s son
+  Forensic scientists --[analyze]--> documents
+  Forensic scientists --[analyze]--> handwriting
+  Forensic scientists --[analyze]--> firearms
+  Forensic scientists --[analyze]--> biological samples
+  Forensic scientists --[analyze DNA content of]--> hair
+  Forensic scientists --[analyze DNA content of]--> semen
+  Forensic scientists --[analyze DNA content of]--> saliva
+  Forensic scientists --[analyze DNA content of]--> blood
+  Forensic scientists --[compare DNA with]--> database of DNA profiles
+  Forensic scientists --[appear at]--> court hearings
+  Forensic scientists --[employed in]--> crime labs
+  forensic scientist --[should have]--> bachelor's degree
+  forensic scientist --[should have]--> experience
+  Avery, McCarty and McLeod --[demonstrated]--> DNA was the informational component transferred during transformation
+  DNA --[was considered]--> too simple a molecule to carry biological information
+  Proteins --[were regarded as]--> more likely candidates
+  Martha Chase and Alfred Hershey --[conducted]--> decisive experiment
+  Martha Chase and Alfred Hershey --[provided]--> confirmatory evidence
+  bacteriophage --[infects]--> bacteria
+  bacteriophage --[has]--> protein coat
+  bacteriophage --[has]--> nucleic acid core
+  bacteriophage --[attaches to]--> host bacterial cell
+  bacteriophage --[injects]--> nucleic acids
+  phage DNA --[makes]--> multiple copies of itself
+  Hershey and Chase --[selected]--> radioactive elements
+  Hershey and Chase --[labeled]--> batch of phage with radioactive sulfur
+  Hershey and Chase --[labeled]--> batch of phage with radioactive phosphorus
+  phosphorous --[is found in]--> DNA
+  sulfur --[is absent from]--> DNA
+  sulfur --[is present in]--> amino acids
+  Hershey and Chase --[allowed to infect]--> cells
+  Hershey and Chase --[examined]--> cells
+  Hershey and Chase --[spun down]--> phage and bacterial suspension
+  Hershey and Chase --[concluded]--> phage DNA was injected into the cell
+  phage --[infected bacteria]--> bacteria
+  32P --[entered]--> bacterial cells
+  32P --[labels]--> DNA
+  35S --[labels]--> protein
+  DNA --[is the genetic material]--> DNA
+  Erwin Chargaff --[examined]--> DNA content
+  adenine --[equals]--> thymine
+  cytosine --[equals]--> guanine
+  Chargaff's rules --[became known as]--> Chargaff’s rules
+  Chargaff's findings --[proved useful]--> Watson and Crick
+  DNA --[has building blocks]--> nucleotides
+  nucleotide --[has components]--> nitrogenous base
+  nucleotide --[has components]--> 5-carbon sugar
+  nucleotide --[has components]--> phosphate group
+  nucleotide --[named depending on]--> nitrogenous base
+  nitrogenous base --[can be]--> purine
+  nitrogenous base --[can be]--> pyrimidine
+  purine --[includes]--> adenine
+  purine --[includes]--> guanine
+  pyrimidine --[includes]--> cytosine
+  pyrimidine --[includes]--> thymine
+  purines --[have]--> double ring structure
+  purines --[have]--> six-membered ring
+  purines --[have]--> five-membered ring
+  pyrimidines --[have]--> single six-membered ring structure
+  DNA --[have]--> deoxyribose
+  RNA --[have]--> ribose
+  phosphate --[makes]--> DNA and RNA acidic
+  phosphate --[connected to]--> 5' carbon of the sugar
+  DNA nucleotides --[attached to]--> hydroxyl group
+  RNA nucleotides --[contains]--> hydroxyl group
+  base --[attached to]--> 1' carbon of the sugar
+  nucleotides --[produce]--> phosphodiester bonds
+  phosphate residue --[forms]--> second ester linkage
+  polynucleotide --[has]--> free 5' phosphate
+  polynucleotide --[has]--> free 3'-OH
+  base --[attached to]--> five-carbon sugar
+  nucleotide --[composed of]--> nucleoside
+  Francis Crick --[worked with]--> James Watson
+  Francis Crick --[determined]--> structure of DNA
+  James Watson --[determined]--> structure of DNA
+  Linus Pauling --[discovered]--> secondary structure of proteins
+  Linus Pauling --[used]--> X-ray crystallography
+  Maurice Wilkins --[explored]--> structure of DNA
+  Rosalind Franklin --[used]--> X-ray diffraction methods
+  Watson and Crick --[pieced together]--> puzzle of the DNA molecule
+  James Watson --[awarded]--> Nobel Prize in Medicine
+  Francis Crick --[awarded]--> Nobel Prize in Medicine
+  Maurice Wilkins --[awarded]--> Nobel Prize in Medicine
+  X-ray diffraction pattern --[helped elucidate]--> DNA double-helix structure
+  DNA --[is made up of]--> two strands
+  two strands --[are twisted around]--> each other
+  two strands --[form]--> a right-handed helix
+  Base pairing --[takes place between]--> a purine and pyrimidine
+  A --[pairs with]--> T
+  G --[pairs with]--> C
+  adenine and thymine --[form]--> two hydrogen bonds
+  cytosine and guanine --[form]--> three hydrogen bonds
+  sugar and phosphate --[form the backbone of]--> the structure
+  nitrogenous bases --[are stacked inside]--> the structure
+  base pair --[is separated from]--> the next base pair
+  base pair --[is separated by]--> a distance of 0.34 nm
+  turn of the helix --[measures]--> 3.4 nm
+  turn of the helix --[contains]--> 10 base pairs
+  DNA double-helix --[has a diameter of]--> 2 nm
+  pairing between a purine and pyrimidine --[explains]--> the uniform diameter
+  antiparallel orientation of the two DNA strands --[explains]--> the uniform diameter
+  twisting of the two strands --[results in]--> the formation of uniformly spaced major and minor grooves
+  major and minor grooves --[are binding sites for]--> DNA binding proteins
+  currently available technology and automated machines --[make the process]--> cheaper, safer, and can be completed in a matter of hours
+  Fred Sanger --[developed the sequencing method]--> used for the human genome sequencing project
+  dideoxy chain termination method --[is known as]--> Sanger’s work
+  ddNTPs --[differ from]--> deoxynucleotides
+  ddNTP --[prevents]--> DNA strand extension
+  DNA fragments --[generated by]--> predetermined ratio of deoxynucleotides to dideoxynucleotides
+  dideoxy chain termination method --[uses]--> dye-labeled dideoxynucleotides
+  DNA --[separated by]--> capillary electrophoresis
+  DNA sequence --[read from]--> electropherogram
+  DNA sample --[denatured by]--> heating
+  DNA --[divided into]--> four tubes
+  tubes --[labeled as]--> A, T, G, and C
+  dideoxynucleotides --[carries]--> fluorescent label
+  chain elongation --[continues until]--> fluorescent dideoxy nucleotide incorporation
+  Sanger --[received]--> Nobel Prize in Chemistry
+  Sanger’s genome sequencing --[led to]--> race to sequence human genomes
+  gel electrophoresis --[used to separate]--> DNA fragments
+  gel --[made of]--> agarose
+  agarose powder --[added to]--> buffer
+  DNA --[loaded on]--> gel
+  DNA --[moves from]--> negative electrode
+  DNA --[separated according to]--> size
+  gel --[stained with]--> DNA-specific dye
+  DNA --[separated on the basis of]--> size
+  Neanderthals --[are the closest ancestors of]--> present-day humans
+  Neanderthals --[lived in]--> Europe and Western Asia
+  Green's team --[studied]--> fossil remains
+  Green's team --[employed]--> sample preparation and DNA sequencing
+  Green's team --[sequenced]--> four billion base pairs
+  Neanderthal genome --[compared with]--> present-day humans
+  Neanderthal genome --[had greater similarity to]--> people living outside Africa
+  Neanderthal genome --[suggest interbreeding between]--> Neanderthals and early modern humans
+  Green and his colleagues --[discovered DNA segments among]--> people in Europe and Asia
+  Neanderthals --[are as closely related to]--> people from Papua New Guinea
+  Neanderthal fossil remains --[located only in]--> Europe and West Asia
+  genetic exchange --[took place between]--> Neanderthals and modern humans
+  Several genes --[underwent changes from]--> Neanderthals
+  These genes --[involved in]--> cranial structure, metabolism, skin morphology, and cognitive development
+  RUNX2 --[is different in]--> modern day humans and Neanderthals
+  RUNX2 --[responsible for]--> the prominent frontal bone, bell-shaped rib cage, and dental differences seen in Neanderthals
+  evolutionary change in RUNX2 --[important in the origin of]--> modern-day humans
+  Prokaryotes --[are much simpler than]--> eukaryotes
+  prokaryote --[contains]--> chromosome
+  chromosome --[located in]--> nucleoid region
+  eukaryote --[contains]--> nucleus
+  eukaryotic cells --[separate]--> DNA and RNA synthesis
+  eukaryotic cells --[separate]--> protein synthesis
+  prokaryotic cells --[combine]--> DNA and RNA synthesis
+  prokaryotic cells --[combine]--> protein synthesis
+  E.coli --[has genome size]--> 4.6 million base pairs
+  DNA --[twisted by]--> supercoiling
+  supercoiling --[involves]--> proteins
+  supercoiling --[involves]--> DNA gyrase
+  eukaryotes --[employ]--> packing strategy
+  DNA --[wrapped around]--> histones
+  histones --[form]--> nucleosomes
+  histones --[composed of]--> octamer
+  DNA --[wrapped around]--> histone core
+  nucleosome --[linked by]--> linker DNA
+  nucleosomes --[compacted by]--> fifth histone
+  chromosomes --[condensed by]--> scaffolding proteins
+  interphase --[contains]--> heterochromatin
+  interphase --[contains]--> euchromatin
+  heterochromatin --[contains]--> genes
+  euchromatin --[contains]--> genes
+  DNA --[reveals]--> replication process
+  Watson and Crick --[postulated]--> specific pairing
+  double-helix model --[suggests]--> two strands separate during replication
+  conservative replication --[involves]--> parental DNA remains together
+  semi-conservative method --[suggests]--> each parental DNA strand acts as a template
+  dispersive model --[involves]--> both copies of DNA have double-stranded segments
+  Meselson and Stahl --[experimented with]--> E. coli
+  DNA grown in 15N --[sediments to]--> lower level in cesium chloride solution
+  DNA grown in 15N --[switched to]--> media containing 14N
+  semi-conservative replication model --[supported by]--> Meselson and Stahl experiment
+  E. coli culture --[placed into]--> medium containing 14N
+  cells --[harvested]--> DNA
+  DNA --[loaded into]--> gradient
+  DNA --[form a band]--> buoyant density
+  DNA grown in 15N --[form a band]--> higher density position
+  Meselson and Stahl --[noted]--> single band
+  single band --[suggested]--> semi-conservative or dispersive mode of replication
+  DNA harvested from cells --[formed]--> two bands
+  results --[explained by]--> semi-conservative manner
+  DNA replication --[serves as]--> template
+  new strands --[complementary to]--> parental strands
+  daughter DNA copies --[divided equally into]--> daughter cells
+  DNA replication --[well studied in]--> prokaryotes
+  E. coli --[has]--> 4.6 million base pairs
+  DNA replication --[employs]--> structural proteins and enzymes
+  DNA polymerase --[adds]--> nucleotides
+  addition of nucleotides --[requires]--> energy
+  energy --[obtained from]--> nucleoside triphosphates
+  nucleoside triphosphates --[serve as]--> source of DNA nucleotides and energy
+  energy released --[used to form]--> phosphodiester bond
+  prokaryotes --[known to have]--> three main types of polymerases
+  DNA pol III --[is the enzyme]--> DNA polymerase
+  DNA pol I --[is important for]--> DNA replication
+  DNA pol I --[is required for]--> repair
+  DNA pol II --[is required for]--> repair
+  replication machinery --[knows where to begin]--> origins of replication
+  E. coli --[has]--> a single origin of replication
+  origin of replication --[is recognized by]--> certain proteins
+  helicase --[unwinds]--> DNA
+  helicase --[requires]--> ATP hydrolysis
+  replication forks --[are formed at]--> origin of replication
+  single-strand binding proteins --[coat]--> single strands of DNA
+  DNA polymerase --[adds nucleotides in]--> 5' to 3' direction
+  strand --[extended in]--> direction
+  DNA polymerase --[requires]--> free 3'-OH group
+  DNA polymerase --[forms]--> phosphodiester bond
+  primer --[provides]--> free 3'-OH end
+  RNA primase --[synthesizes]--> RNA segment
+  RNA segment --[is complementary to]--> template DNA
+  RNA segment --[called]--> primer
+  DNA polymerase --[extends]--> RNA primer
+  DNA Helicase --[separates]--> two strands of DNA
+  Single-strand binding proteins --[bind to]--> each strand
+  Primase --[binds to]--> single stranded DNA
+  Primase --[synthesizes]--> RNA primer
+  RNA primer --[allows]--> DNA polymerase
+  Topoisomerase --[binds to]--> double helix
+  Topoisomerase --[prevents]--> over-winding of DNA double helix
+  DNA polymerase --[extends in]--> 5' to 3' direction
+  leading strand --[synthesized continuously towards]--> replication fork
+  lagging strand --[extended away from]--> replication fork
+  Okazaki fragments --[require]--> primer
+  leading strand --[extended from]--> single primer
+  lagging strand --[needs]--> new primer
+  sliding clamp --[holds]--> DNA polymerase
+  sliding clamp --[binds to]--> DNA
+  RNA primers --[are replaced by]--> DNA
+  exonuclease activity of DNA pol I --[removes]--> RNA primers
+  DNA pol I --[fills in]--> gaps
+  DNA ligase --[seals]--> nicks
+  DNA ligase --[catalyzes]--> formation of phosphodiester linkages
+  DNA copies --[move into]--> two different cells
+  DNA --[unwinds at]--> origin of replication
+  Helicase --[opens]--> DNA
+  Single-strand binding proteins --[coat]--> DNA
+  Topoisomerase --[binds at]--> region ahead of the replication fork
+  Primase --[synthesizes]--> RNA primers
+  DNA polymerase III --[starts adding]--> nucleotides
+  exonuclease activity --[removes]--> RNA primers
+  DNA pol I --[fills]--> gaps
+  DNA ligase --[seals]--> gap between the two DNA fragments
+  DNA pol I --[removes]--> RNA primer
+  DNA pol III --[adds]--> nucleotides
+  Helicase --[opens]--> DNA helix
+  Ligase --[seals]--> gaps between the Okazaki fragments
+  Topoisomerase --[relieves]--> strain on DNA
+  Single-strand binding proteins (SSB) --[binds to]--> single-stranded DNA
+  Eukaryotic genomes --[are larger than]--> Prokaryotic genomes
+  Eukaryotes --[have]--> linear chromosomes
+  Human genome --[has]--> 3 billion base pairs per haploid set of chromosomes
+  Humans --[have]--> 100,000 origins of replication
+  Eukaryotic replication --[has rate]--> 100 nucleotides per second
+  Yeast --[has]--> autonomously replicating sequences
+  Eukaryotes --[have]--> 14 DNA polymerases
+  Eukaryotic DNA --[is bound to]--> histones
+  Histones --[are removed and replaced]--> during replication
+  Chromatin --[undergoes]--> chemical modifications
+  Origin of replication --[forms]--> pre-replication complex
+  Replication forks --[are formed]--> at replication origin
+  Topoisomerases --[resolve]--> supercoiling
+  Primase --[forms]--> primers
+  DNA pol --[starts synthesis]--> using primer
+  DNA pol ε --[synthesizes continuously]--> leading strand
+  pol δ --[synthesizes]--> lagging strand
+  PCNA --[holds in place]--> DNA pol
+  pol δ --[displaces]--> primer RNA
+  RNase H --[removes]--> displaced primer RNA
+  DNA ligase --[seals]--> gaps
+  DNA pol --[adds nucleotides in]--> 5' to 3' direction
+  telomerase --[adds]--> telomeres
+  telomerase --[contains]--> catalytic part and RNA template
+  telomerase --[is active in]--> germ cells and adult stem cells
+  telomerase --[is not active in]--> adult somatic cells
+  Elizabeth Blackburn, Carol W. Greider, and Jack W. Szostak --[received Nobel Prize for]--> discovery of telomerase
+  telomerase --[is present in]--> human cells
+  telomerase --[is necessary for]--> cells in human embryos to proliferate
+  Cells --[undergo]--> cell division
+  Telomeres --[are shortened]--> Cells
+  Telomere shortening --[is associated with]--> aging
+  Telomerase --[can reverse]--> age-related conditions
+  Telomerase-deficient mice --[have]--> tissue atrophy
+  Telomerase-deficient mice --[have]--> stem cell depletion
+  Telomerase-deficient mice --[have]--> organ system failure
+  Telomerase-deficient mice --[have]--> impaired tissue injury responses
+  Telomerase reactivation --[causes]--> extension of telomeres
+  Telomerase reactivation --[causes]--> reduced DNA damage
+  Telomerase reactivation --[reversed]--> neurodegeneration
+  Telomerase reactivation --[improved]--> function of the testes
+  Telomerase reactivation --[improved]--> function of the spleen
+  Telomerase reactivation --[improved]--> function of the intestines
+  Telomere reactivation --[has potential for]--> treating age-related diseases
+  Cancer --[is characterized by]--> uncontrolled cell division
+  Cancerous cells --[have]--> shortened telomeres
+  Cancerous cells --[have]--> active telomerase
+  Telomerase --[becomes active]--> telomeres are shortened
+  Drugs --[can inhibit]--> action of telomerase
+  DNA replication --[is a]--> highly accurate process
+  DNA polymerase --[can insert]--> wrong base
+  Uncorrected mistakes --[may lead to]--> serious consequences
+  Repair mechanisms --[correct]--> mistakes
+  Mistakes --[lead to]--> mutations
+  DNA polymerase --[has]--> proofreading ability
+  DNA polymerase --[reads]--> newly added base
+  DNA polymerase --[checks]--> correct pairing
+  DNA polymerase --[makes a cut]--> phosphodiester bond
+  DNA polymerase --[releases]--> wrong nucleotide
+  DNA polymerase --[removes]--> incorrect nucleotide
+  Some errors --[are corrected]--> after replication
+  Mismatch repair --[involves]--> excising part of the strand
+  mismatch repair enzymes --[recognize]--> incorrect base
+  adenine --[acquires]--> methyl group
+  parental DNA strand --[have]--> methyl groups
+  newly synthesized strand --[lacks]--> methyl groups
+  DNA polymerase --[remove]--> wrongly incorporated bases
+  eukaryotes --[involve]--> recognition of unsealed nicks
+  mismatch repair proteins --[detect]--> incorrectly added base
+  mismatch repair proteins --[remove]--> incorrectly added base
+  nucleotide excision repair --[remove]--> damaged bases
+  repair enzymes --[replace]--> abnormal bases
+  DNA pol --[replace]--> segment of DNA
+  DNA ligase --[seal]--> remaining gap
+  nucleotide excision repair --[employ]--> UV exposure
+  UV light --[cause]--> formation of pyrimidine dimers
+  xeroderma pigmentosa --[have]--> skin highly sensitive to UV rays
+  xeroderma pigmentosa --[not repair]--> damage
+  xeroderma pigmentosa --[have defect in]--> nucleotide excision repair enzymes
+  thymine dimers --[distort]--> structure of DNA double helix
+  xeroderma pigmentosa --[have higher risk of]--> skin cancer
+  mutations --[arise from]--> DNA replication errors
+  mutations --[occur because of]--> damage to DNA
+  mutations --[are of types]--> induced or spontaneous
+  induced mutations --[result from]--> exposure to chemicals, UV rays, x-rays, or other environmental agents
+  mustard gas --[has effects]--> mutation-inducing
+  spontaneous mutations --[occur without]--> exposure to environmental agents
+  point mutations --[affect]--> a single base pair
+  nucleotide mutations --[are commonly]--> substitutions
+  transition substitution --[refers to]--> a purine or pyrimidine being replaced by a base of the same kind
+  transversion substitution --[refers to]--> a purine being replaced by a pyrimidine, or vice versa
+  silent mutations --[are usually due to]--> a substitution in the third base of a codon
+  point mutations --[can result in]--> the replacement of one amino acid by another
+  point mutations --[can generate]--> a stop codon
+  trinucleotide repeat expansions --[result in]--> repeated regions of the same amino acid
+  mutations --[can be the result of]--> the addition of a base (insertion) or the removal of a base (deletion)
+  frameshift mutation --[results in]--> the alteration of the translational reading frame
+  translocation --[involves]--> a piece of DNA from one chromosome getting translocated to another chromosome or to another region of the same chromosome
+  mutations in repair genes --[cause]--> cancer
+  mutated repair genes --[are implicated in]--> certain forms of pancreatic cancer, colon cancer, and colorectal cancer
+  mutations --[can affect]--> somatic cells or germ cells
+  many mutations in a somatic cell --[may lead to]--> uncontrolled cell division observed in cancer
+  mutation in germ cells --[will be passed on to]--> the next generation
+  electrophoresis --[used to separate]--> DNA fragments
+  endonuclease --[cleave]--> the phosphodiester bond
+  exonuclease --[cleave]--> nucleotides
+  helicase --[helps to open up]--> the DNA helix
+  induced mutation --[results from]--> exposure to chemicals or environmental agents
+  lagging strand --[replicated in]--> short fragments
+  leading strand --[synthesized continuously in]--> the 5'-3' direction
+  ligase --[catalyzes the formation of]--> a phosphodiester linkage
+  mismatch repair --[removes]--> mismatched bases
+  mutation --[results in]--> variation in the nucleotide sequence of a genome
+  nucleotide excision repair --[removes]--> the wrong base
+  Okazaki fragment --[synthesized in]--> short stretches
+  point mutation --[affects]--> a single base
+  primase --[synthesizes]--> the RNA primer
+  primer --[required to initiate]--> replication
+  proofreading --[reads]--> the newly added base
+  replication fork --[formed during]--> initiation of replication
+  single-strand binding protein --[binds to]--> the single-stranded DNA
+  sliding clamp --[holds]--> the DNA pol on the DNA strand
+  spontaneous mutation --[takes place in]--> the cells
+  telomerase --[functions to maintain]--> telomeres at chromosome ends
+  telomere --[located at]--> the end of linear chromosomes
+  topoisomerase --[prevents]--> overwinding of DNA
+  transformation --[takes up]--> external DNA
+  transition --[replaces]--> a purine with a purine or a pyrimidine with another pyrimidine
+  transversion --[replaces]--> a purine by a pyrimidine or a pyrimidine by a purine
+  Friedrich Miescher --[isolated]--> DNA from white blood cells
+  Friedrich Miescher --[called it]--> nuclein
+  Frederick Griffith's experiments --[provided the first hint that]--> DNA may be the transforming principle
+  Avery, MacLeod, and McCarty --[showed that]--> DNA is required for the transformation of bacteria
+  Hershey and Chase --[proved that]--> DNA is the genetic material
+  Chargaff --[found that]--> the ratio of A = T and C = G
+  Chargaff --[found that]--> the percentage content of A, T, G, and C is different for different species
+  DNA --[proposed by]--> Watson and Crick
+  double helix --[have]--> complementary base sequences
+  double helix --[have]--> anti-parallel orientations
+  backbone --[formed by]--> alternating deoxyribose sugars and phosphates
+  nitrogenous bases --[stacked like]--> rungs inside
+  double helix --[has diameter]--> 2 nm
+  purine --[pairs with]--> pyrimidine
+  one turn of the helix --[has]--> 10 base pairs
+  prokaryotes --[are simpler than]--> eukaryotes
+  most prokaryotes --[contain]--> a single, circular chromosome
+  eukaryotic chromosomes --[contain]--> a linear DNA molecule
+  DNA --[is packaged]--> nucleosomes
+  DNA replication --[occurs during]--> cell division
+  DNA replication --[involves separation of]--> two strands of the double helix
+  Conservative model --[conserves]--> parental DNA
+  Semi-conservative model --[retains]--> parental strand
+  Meselson and Stahl experiment --[supports]--> semi-conservative model
+  Replication in prokaryotes --[starts from]--> origin of replication
+  Helicase --[opens]--> DNA double helix
+  Single-strand binding proteins --[bind to]--> single-stranded DNA
+  DNA polymerase --[adds nucleotides to]--> 3' end of primer strand
+  Leading strand --[is synthesized continuously]--> direction of the replication fork
+  Lagging strand --[is synthesized in]--> Okazaki fragments
+  DNA ligase --[creates bonds between]--> 3'-OH and 5' phosphate
+  Replication in eukaryotes --[starts at]--> multiple origins of replication
+  Telomerase --[extends]--> ends of chromosomes
+  DNA polymerase --[edits DNA]--> DNA
+  DNA polymerase --[removes incorrect bases]--> incorrect bases
+  DNA polymerase --[replaces incorrect bases]--> correct base
+  mismatch repair mechanism --[employs enzymes]--> mismatch repair enzymes
+  mismatch repair enzymes --[recognize wrongly incorporated base]--> wrongly incorporated base
+  mismatch repair enzymes --[excise wrongly incorporated base]--> wrongly incorporated base
+  mismatch repair enzymes --[replace wrongly incorporated base]--> correct base
+  nucleotide excision repair --[removes damaged base]--> damaged base
+  DNA polymerase --[copies template]--> template
+  DNA ligase --[creates phosphodiester bond]--> phosphodiester bond
+  mistakes --[result in mutation]--> mutation
+  mutation --[defined as permanent change]--> permanent change in the DNA sequence
+  mutation --[can be of many types]--> substitution, deletion, insertion, and trinucleotide repeat expansions
+  mutations in repair genes --[lead to serious consequences]--> serious consequences such as cancer
+  mutations --[can be induced]--> induced
+  mutations --[may occur spontaneously]--> spontaneously
+  protein synthesis --[occurs together with]--> DNA replication
+  Okazaki fragments --[joined by]--> enzyme
+  frameshift mutation --[results in]--> insertion of three nucleotides
+  DNA --[contains]--> 27 percent A
+  Hershey and Chase --[helped confirm]--> DNA was the hereditary material
+  Bacterial transformation --[is a concern because]--> Pathogenic bacteria could introduce disease-causing genes in non-pathogenic bacteria
+  Bacterial transformation --[is a concern because]--> Antibiotic resistance genes could be introduced to new bacteria to create superbugs
+  Bacterial transformation --[is a concern because]--> Bacteriophages could spread DNA encoding toxins to new bacteria
+  DNA double helix --[does not have]--> uracil
+  Meselson and Stahl's experiments --[proved]--> DNA replicates by semi-conservative mode
+  5'-3' strand --[has complementary sequence]--> 3'-TTACGATG-5'
+  Meselson and Stahl --[supported]--> Watson and Crick’s double-helix model
+  replication fork --[not involved in]--> ligase
+  primase --[synthesizes]--> DNA primer
+  DNA polymerase --[builds off]--> RNA primers
+  Primase --[makes]--> RNA primers
+  Eukaryotic DNA replication --[requires]--> multiple replication forks
+  Prokaryotic replication --[uses]--> a single origin
+  DNA replication --[occurs in]--> the nucleus
+  Eukaryotic DNA replication --[involves]--> more polymerases
+  DNA polymerase --[reads]--> the DNA
+  DNA polymerase proofreading --[is the initial mechanism for]--> repairing nucleotide errors in DNA
+  DNA pol mutation --[causes]--> significantly more mutations
+  Prokaryotes --[have]--> a single circular chromosome
+  Telomerase --[maintains]--> the ends of the linear chromosomes
+  DNA pol --[has]--> exonuclease function
+  DNA replication --[is]--> bidirectional
+  DNA replication --[is]--> discontinuous
+  Okazaki fragments --[are formed]--> during DNA replication
+  Helicase --[affects]--> replication
+  Primer --[has role in]--> DNA replication
+  Quinolone antibiotics --[block]--> topoisomerase activity
+  Linear chromosomes --[ensure]--> complete replication of ends
+  Mutation of mismatch repair enzyme --[affects]--> gene function
+  Adult with tanning history --[has mutation]--> ATGGGGATATGGCAT
+  Healthy adult --[has protein-coding region]--> ATGGGGATATGAGCAT
+
+Saved to /Users/shreyasnair/upsync/adobe-deep-research/outputs/triples_Ch14_DNA_Structure_and_Function.json
+Neo4j: 664 nodes, 545 relationships
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 6618.69it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+Qdrant: 664 entity vectors, 545 evidence vectors, 541 chunk vectors
+Visualization saved to /Users/shreyasnair/upsync/adobe-deep-research/outputs/graph_visualization.html
+=== Ch15 ===
+Loaded passage (78050 chars)
+Extracting triples via OpenRouter...
+  Split into 30 chunks (limit 3500 chars)
+  Chunk 1/30 (2169 chars)...
+  Chunk 2/30 (2566 chars)...
+  Chunk 3/30 (3284 chars)...
+  Chunk 4/30 (2371 chars)...
+  Chunk 5/30 (3389 chars)...
+  Chunk 6/30 (3498 chars)...
+  Warning: skipping triple 13: 1 validation error for Triple
+tail
+  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_too_short
+  Warning: skipping triple 16: 1 validation error for Triple
+relation
+  Value error, Relation too long: use the same RNA polymerase to transcribe [type=value_error, input_value='use the same RNA polymerase to transcribe', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Warning: skipping triple 29: 1 validation error for Triple
+relation
+  Value error, Relation too long: is a DNA sequence onto which [type=value_error, input_value='is a DNA sequence onto which', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Chunk 7/30 (233 chars)...
+  Chunk 8/30 (3485 chars)...
+  Chunk 9/30 (2696 chars)...
+  Chunk 10/30 (3500 chars)...
+  Chunk 11/30 (2744 chars)...
+  Chunk 12/30 (3500 chars)...
+  Chunk 13/30 (437 chars)...
+  Chunk 14/30 (3093 chars)...
+  Chunk 15/30 (3411 chars)...
+  Chunk 16/30 (3087 chars)...
+  Warning: skipping triple 11: 1 validation error for Triple
+relation
+  Value error, Relation too long: are transcribed, processed, and assembled into [type=value_error, input_value='are transcribed, processed, and assembled into', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Chunk 17/30 (1949 chars)...
+  Chunk 18/30 (3378 chars)...
+  Chunk 19/30 (2286 chars)...
+  Chunk 20/30 (2837 chars)...
+  Chunk 21/30 (3498 chars)...
+  Chunk 22/30 (2345 chars)...
+  Chunk 23/30 (2407 chars)...
+  Chunk 24/30 (3497 chars)...
+  Chunk 25/30 (976 chars)...
+  Chunk 26/30 (3496 chars)...
+  Chunk 27/30 (999 chars)...
+  Chunk 28/30 (2785 chars)...
+  Chunk 29/30 (2782 chars)...
+  Chunk 30/30 (1272 chars)...
+Model used: mistralai/mistral-small-3.2-24b-instruct
+Number of triples: 583
+Unique entities: 665
+  genes --[are composed of]--> DNA
+  genes --[are arranged on]--> chromosomes
+  genes --[specify sequences of]--> amino acids
+  amino acids --[are building blocks of]--> proteins
+  proteins --[orchestrate]--> nearly every function of the cell
+  transcription --[generates]--> messenger RNA (mRNA)
+  mRNA --[is a copy of]--> genes
+  translation --[converts]--> nucleotide-based genetic information
+  translation --[produces]--> protein product
+  protein sequences --[consist of]--> 20 commonly occurring amino acids
+  amino acid sequence --[is responsible for]--> variation in protein structure and function
+  amino acid --[is composed of]--> amino group
+  amino acid --[is composed of]--> carboxyl group
+  amino acid --[is composed of]--> side chain
+  side chain --[gives rise to]--> variation of protein structure and function
+  genes --[specify the sequence of]--> mRNAs
+  mRNAs --[specify the sequence of]--> amino acids
+  DNA --[is copied to]--> RNA
+  three mRNA nucleotides --[correspond to]--> one amino acid
+  amino acid --[is defined by]--> triplet codon
+  nucleotide doublets --[are insufficient to specify]--> every amino acid
+  nucleotide triplets --[encode]--> amino acids
+  amino acid --[encoded by]--> nucleotide triplet
+  Francis Crick --[used]--> proflavin
+  Sydney Brenner --[used]--> proflavin
+  proflavin --[insert]--> nucleotides
+  nucleotide triplet --[called]--> codons
+  insertion of one or two nucleotides --[change]--> triplet reading frame
+  insertion of three nucleotides --[cause]--> extra amino acid
+  scientists --[solve]--> genetic code
+  codons --[instruct]--> addition of a specific amino acid
+  three of the 64 codons --[terminate]--> protein synthesis
+  three of the 64 codons --[called]--> nonsense codons
+  three of the 64 codons --[called]--> stop codons
+  AUG --[specify]--> amino acid methionine
+  AUG --[serve as]--> start codon
+  AUG start codon --[set]--> reading frame for translation
+  mRNA --[read in groups of three]--> codons
+  arrangement of the coding table --[reveal]--> structure of the code
+  codons --[specified by]--> first and second nucleotides
+  pyrimidine half --[end with]--> U or C
+  purine half --[end with]--> A or G
+  alanine --[get]--> whole block of four codons
+  threonine --[get]--> whole block of four codons
+  proline --[get]--> whole block of four codons
+  histidine --[get]--> pyrimidine half of their block
+  asparagine --[get]--> pyrimidine half of their block
+  glutamate --[get]--> purine half of their block
+  lysine --[get]--> purine half of their block
+  single amino acid --[specified by]--> multiple similar codons
+  degeneracy --[believed to be]--> cellular mechanism
+  codons --[differ by]--> one nucleotide
+  amino acids --[encoded by]--> similar codons
+  aspartate --[occupy]--> GA* block
+  glutamate --[occupy]--> GA* block
+  amino acid --[specify]--> amino acid
+  genetic code --[is universal]--> all species
+  codons --[conserve]--> mRNA
+  mRNA --[encode]--> globin protein
+  tulip cell --[synthesize]--> horse globin
+  genetic code --[share]--> life on Earth
+  deletion of two nucleotides --[shifts]--> reading frame
+  deletion of two nucleotides --[changes]--> protein message
+  deletion of two nucleotides --[creates]--> nonfunctional protein
+  deletion of two nucleotides --[terminates]--> protein synthesis
+  genes --[carry]--> chromosomes
+  genes --[made of]--> DNA
+  mammals --[are]--> diploid
+  strawberry --[is]--> octoploid
+  kiwi --[is]--> hexaploid
+  DNA extraction buffer --[composed of]--> water
+  DNA extraction buffer --[composed of]--> dish detergent
+  DNA extraction buffer --[composed of]--> table salt
+  DNA extraction buffer --[mixed by]--> inversion
+  strawberry --[ground using]--> plastic bag
+  kiwi --[ground using]--> plastic bag
+  strawberry --[ground using]--> mortar and pestle
+  kiwi --[ground using]--> mortar and pestle
+  strawberry --[ground using]--> metal bowl
+  kiwi --[ground using]--> metal bowl
+  strawberry --[ground using]--> blunt instrument
+  kiwi --[ground using]--> blunt instrument
+  fruit mixture --[filtered through]--> cheesecloth
+  fruit mixture --[filtered through]--> porous cloth
+  test tube --[contains]--> ice-cold ethanol
+  test tube --[contains]--> isopropanol
+  test tube --[contains]--> white precipitated DNA
+  DNA --[gathered using]--> glass rods
+  Prokaryotes --[include]--> Bacteria
+  Prokaryotes --[include]--> Archaea
+  Prokaryotes --[lack]--> membrane-bound nuclei
+  Prokaryotes --[lack]--> organelles
+  Bacterial chromosome --[organized around]--> histone proteins
+  Prokaryotic DNA --[resides in]--> nucleoid region
+  Prokaryotes --[have]--> plasmids
+  Plasmids --[transferred independently of]--> bacterial chromosome
+  Transcription --[requires]--> DNA double helix to partially unwind
+  Transcription --[proceeds from]--> template strand
+  mRNA product --[complementary to]--> template strand
+  mRNA product --[almost identical to]--> nontemplate strand
+  mRNA --[replaces]--> T nucleotides with U nucleotides
+  Messenger RNA --[is a copy of]--> protein-coding information
+  RNA --[base pair with]--> nucleotides of the template strand
+  RNA --[is synthesized in]--> 5'-3' direction
+  RNA --[uses the enzyme]--> RNA polymerase
+  DNA --[unwinds ahead of]--> polymerase
+  DNA --[rewinds behind]--> polymerase
+  Nucleotide pair --[corresponds to]--> initiation site
+  Nucleotides --[are denoted with]--> “- ”
+  Nucleotides --[are called]--> upstream nucleotides
+  Nucleotides --[are denoted with]--> “+”
+  Nucleotides --[are called]--> downstream nucleotides
+  Prokaryotes --[do not have]--> membrane-enclosed nuclei
+  Prokaryotes --[can occur simultaneously]--> transcription, translation, and mRNA degradation
+  Prokaryotic transcripts --[cover more than one]--> gene or cistron
+  Polycistronic mRNAs --[are translated to produce]--> more than one kind of protein
+  RNA polymerase --[is composed of]--> five polypeptide subunits
+  RNA polymerase --[comprise the polymerase core enzyme]--> four subunits
+  RNA polymerase --[assemble every time]--> a gene is transcribed
+  RNA polymerase --[disassemble once]--> transcription is complete
+  α-subunits --[are necessary to assemble]--> the polymerase on the DNA
+  β-subunit --[binds to]--> the ribonucleoside triphosphate
+  β' subunit --[binds]--> the DNA template strand
+  σ subunit --[is involved in]--> transcription initiation
+  σ subunit --[confers transcriptional specificity]--> the polymerase begins to synthesize mRNA from an appropriate initiation site
+  Core enzyme --[would transcribe from]--> random sites
+  Core enzyme --[would produce]--> mRNA molecules that specified protein gibberish
+  Polymerase --[is called]--> the holoenzyme
+  Promoters --[exist upstream of]--> the genes they regulate
+  Promoter --[determines]--> whether the corresponding gene is transcribed all the time, some of the time, or infrequently
+  Promoters --[vary among]--> prokaryotic genomes
+  Promoters --[have]--> two promoter consensus sequences
+  -10 sequence --[has consensus sequence]--> TATAAT
+  -35 sequence --[has consensus sequence]--> TTGACA
+  consensus sequences --[recognized and bound by]--> σ
+  subunits of the core enzyme --[bind to]--> the site
+  A–T-rich -10 region --[facilitates]--> unwinding of the DNA template
+  transcription initiation phase --[ends with]--> production of abortive transcripts
+  σ subunit of prokaryotic RNA polymerase --[recognizes]--> consensus sequences
+  σ subunit --[dissociates from]--> the polymerase
+  transcription elongation phase --[begins with]--> release of the σ subunit
+  dissociation of σ --[allows]--> core enzyme to proceed
+  core enzyme --[synthesizes]--> mRNA
+  RNA polymerase --[acts as]--> stable linker
+  rho (ρ) protein --[tracks along]--> the polymerase
+  polymerase --[encounters]--> run of G nucleotides
+  rho protein --[collides with]--> the polymerase
+  interaction with rho --[releases]--> the mRNA
+  polymerase --[encounters]--> region rich in C–G nucleotides
+  mRNA --[folds back on]--> itself
+  stable hairpin --[causes]--> polymerase to stall
+  complementary U–A region --[forms]--> weak interaction
+  stalled polymerase --[induces]--> instability
+  core enzyme --[breaks away]--> new mRNA transcript
+  transcription --[is complete]--> termination
+  prokaryotic transcript --[has been used]--> synthesis of numerous copies of the encoded protein
+  transcription, translation, and mRNA degradation --[occur in]--> same 5' to 3' direction
+  presence of a nucleus --[precludes]--> simultaneous transcription and translation
+  polymerases --[transcribe]--> bacterial gene
+  ribosomes --[translate]--> mRNA transcripts
+  ribosomes --[produce]--> polypeptides
+  eukaryotes --[employ]--> three different polymerases
+  eukaryotic mRNAs --[specify]--> single protein
+  eukaryotes --[require]--> transcription factors
+  transcription factors --[bind to]--> promoter region
+  transcription factors --[recruit]--> polymerase
+  eukaryotes --[have]--> three polymerases
+  RNA polymerase I --[located in]--> nucleolus
+  RNA polymerase I --[synthesizes]--> rRNAs
+  rRNAs --[are components of]--> ribosome
+  RNA polymerase I --[transcribes]--> all rRNAs except 5S rRNA
+  RNA polymerase I --[is insensitive to]--> α-amanitin
+  RNA polymerase II --[located in]--> nucleus
+  RNA polymerase II --[transcribes]--> all protein-coding nuclear pre-mRNAs
+  RNA polymerase II --[is extremely sensitive to]--> α-amanitin
+  RNA polymerase III --[located in]--> nucleus
+  RNA polymerase III --[transcribes]--> 5S rRNA, tRNAs, and small nuclear RNAs
+  RNA polymerase III --[is moderately sensitive to]--> α-amanitin
+  RNA polymerase II --[synthesizes]--> all protein-coding nuclear pre-mRNAs
+  Eukaryotic pre-mRNAs --[undergo]--> extensive processing
+  tRNAs --[serve as]--> adaptor molecules
+  Small nuclear RNAs --[have functions in]--> splicing pre-mRNAs and regulating transcription factors
+  α-amanitin --[affects]--> the three polymerases
+  RNA polymerase II --[transcribes]--> the vast majority of eukaryotic genes
+  Eukaryotic promoters --[have]--> a sequence similar to the -10 sequence of prokaryotes
+  TATA box --[has the consensus sequence]--> TATAAA
+  TATA box --[located at]--> -25 to -35 bases relative to the initiation (+1) site
+  TATA box --[conserves]--> the A–T rich element
+  A–T bonds --[have]--> low thermostability
+  Eukaryotes --[assemble]--> a complex of transcription factors
+  Transcription factors --[bind to]--> the promoter
+  Basal transcription factors --[are called]--> TFII
+  TFIID --[includes]--> a TATA-binding protein (TBP)
+  Transcription factors --[recognize]--> promoter
+  RNA polymerase II --[binds]--> promoter
+  RNA polymerase II --[forms]--> transcription initiation complex
+  Eukaryotic promoters --[have]--> CAAT box
+  Eukaryotic promoters --[contain]--> GC-rich boxes
+  Eukaryotic promoters --[contain]--> octamer boxes
+  Cellular factors --[bind]--> GC-rich boxes
+  Cellular factors --[bind]--> octamer boxes
+  Basal transcription factors --[form]--> preinitiation complex
+  Preinitiation complex --[recruits]--> RNA polymerase II
+  Transcription factors --[bind]--> upstream enhancers
+  Transcription factors --[bind]--> silencers
+  Enhancers --[affect]--> efficiency of transcription
+  Silencers --[affect]--> efficiency of transcription
+  RNA polymerase I --[transcribes]--> genes
+  RNA polymerase III --[transcribes]--> genes
+  genes --[may evolve]--> eukaryotic promoters
+  gene --[encodes structural protein]--> structural protein
+  promoter --[recruits transcription factors]--> transcription factors
+  promoters --[evolve faster than]--> protein-coding genes
+  preinitiation complex --[binds sequences]--> core promoter sequences
+  promoter evolution --[corresponds to]--> evolution of humans
+  promoter --[makes more or less]--> gene product
+  RNA polymerase II --[transcribes]--> eukaryotic genes
+  DNA --[is packaged around]--> histone proteins
+  nucleosomes --[include]--> 146 nucleotides of DNA
+  transcription machinery --[moves histones]--> histones
+  FACT complex --[pulls histones away]--> DNA template
+  FACT complex --[replaces histones]--> nucleosomes
+  RNA polymerase II --[takes place beyond]--> end of the gene
+  pre-mRNA tail --[is removed by]--> cleavage during mRNA processing
+  RNA polymerases I and III --[require]--> termination signals
+  RNA polymerase I --[contain]--> 18-nucleotide sequence
+  18-nucleotide sequence --[recognized by]--> termination protein
+  RNA polymerase III --[involves]--> mRNA hairpin
+  mRNA hairpin --[similar to]--> rho-independent termination of transcription in prokaryotes
+  eukaryotic pre-mRNAs --[undergo processing]--> protein-synthesis machinery
+  eukaryotic pre-mRNA --[undergo extensive processing]--> translated
+  eukaryotic protein-coding sequences --[are interrupted by]--> noncoding introns
+  pre-mRNAs --[are coated in]--> RNA-stabilizing proteins
+  pre-mRNA processing --[involves addition of]--> stabilizing and signaling factors
+  pre-mRNA processing --[involves removal of]--> introns
+  mRNA transcript --[can be edited]--> after transcription
+  trypanosomes --[include]--> Trypanosoma brucei
+  trypanosomes --[are carried by]--> tsetse flies
+  trypanosomes --[have organelles]--> mitochondria
+  mitochondria --[express their own DNA]--> eukaryote
+  mitochondrial DNA of trypanosomes --[exhibit exception to]--> central dogma
+  mitochondrial DNA of trypanosomes --[undergo RNA editing]--> remedy
+  Trypanosoma brucei --[causes]--> sleeping sickness
+  mRNAs --[must be modified by]--> nucleotides
+  genes --[encode]--> guide RNAs
+  guide RNAs --[interacts with]--> pre-mRNA transcript
+  guide RNA --[has more]--> A nucleotides
+  guide RNA --[loops out]--> regions
+  guide RNAs --[have]--> poly-U tail
+  guide RNAs --[mediate]--> RNA editing
+  guide RNAs --[serve as]--> catalysts in RNA editing
+  RNA editing --[is a phenomenon of]--> trypanosomes
+  RNA editing --[has been identified in]--> mammals
+  mitochondria --[have]--> RNA-based method for regulating gene expression
+  edits --[differ depending on]--> cellular conditions
+  RNA editing --[may be a holdover from]--> primordial time
+  pre-mRNA --[is added]--> 7-methylguanosine cap
+  7-methylguanosine cap --[protects]--> nascent mRNA
+  factors --[recognize]--> the cap
+  pre-mRNA --[is cleaved by]--> endonuclease
+  poly-A polymerase --[adds]--> poly-A tail
+  poly-A tail --[protects]--> pre-mRNA
+  Eukaryotic genes --[are composed of]--> exons and introns
+  introns --[do not encode]--> functional proteins
+  introns --[came as a surprise to]--> researchers
+  genes of higher eukaryotes --[contain]--> introns
+  introns --[may correspond to]--> regulatory sequences
+  introns --[slow down]--> gene expression
+  introns --[may be]--> nonfunctional sequence remnants
+  introns --[can be mutated]--> sequences
+  introns --[must be removed]--> pre-mRNA
+  splicing --[involves]--> removal of introns
+  introns --[are removed]--> nucleus
+  splicing --[occurs by]--> sequence-specific mechanism
+  intron --[is marked with]--> specific nucleotides
+  splicing of pre-mRNAs --[is conducted by]--> spliceosomes
+  spliceosomes --[are composed of]--> proteins and RNA molecules
+  spliceosomes --[recognize]--> sequences at the 5' and 3' end of the intron
+  errors in splicing --[are implicated in]--> cancers and other human diseases
+  pre-tRNAs --[are transcribed and processed in]--> nucleus
+  tRNAs and rRNAs --[are first transcribed as]--> long precursor molecule
+  enzymes --[cleave]--> precursors into subunits
+  pre-rRNAs --[undergo]--> methylation
+  pre-tRNA molecules --[undergo]--> methylation
+  subunit excision --[occurs in]--> eukaryotic pre-RNAs
+  Mature rRNAs --[make up]--> 50 percent of each ribosome
+  Ribosome’s RNA molecules --[are]--> structural
+  Ribosome’s RNA molecules --[have]--> catalytic activities
+  Ribosome’s RNA molecules --[have]--> binding activities
+  Mature tRNAs --[take on]--> three-dimensional structure
+  tRNA --[positions]--> amino acid binding site
+  tRNA --[positions]--> anticodon
+  Anticodon --[interacts with]--> mRNA codon
+  Anticodon AAG --[binds]--> Codon UUC
+  Amino acid phenylalanine --[is attached to]--> tRNA
+  Protein synthesis --[consumes]--> cell’s energy
+  Proteins --[account for]--> mass of living organisms
+  Proteins --[perform]--> functions of a cell
+  Translation --[involves]--> decoding of mRNA message
+  Amino acids --[are strung together by]--> peptide bonds
+  Amino acid --[has]--> amino group
+  Amino acid --[has]--> carboxyl group
+  Polypeptides --[are formed when]--> amino group forms peptide bond with carboxyl group
+  Reaction --[is catalyzed by]--> ribosomes
+  peptide bond --[links]--> carboxyl end
+  peptide bond --[links]--> amino end
+  peptide bond --[produces]--> water molecule
+  mRNA template --[contributes to]--> translation
+  ribosomes --[consist of]--> rRNAs and polypeptides
+  translation --[requires]--> mRNA template
+  translation --[requires]--> ribosomes
+  translation --[requires]--> tRNAs
+  translation --[requires]--> enzymatic factors
+  ribosome --[binds]--> mRNA template
+  ribosome --[binds]--> tRNAs
+  ribosome --[synthesizes]--> protein
+  ribosome --[exists in]--> cytoplasm of prokaryotes
+  ribosome --[exists in]--> cytoplasm and rough endoplasmic reticulum of eukaryotes
+  ribosome --[exists in]--> matrix and stroma of mitochondria and chloroplasts
+  ribosome --[dissociates into]--> large and small subunits
+  ribosome --[reassociates during]--> initiation of translation
+  small subunit --[binds]--> mRNA template
+  large subunit --[binds]--> tRNAs
+  mRNA molecule --[translated by]--> ribosomes
+  tRNAs --[transcribed from]--> genes by RNA polymerase III
+  tRNAs --[carries]--> specific amino acid
+  tRNAs --[recognizes]--> mRNA codons
+  tRNAs --[binds to]--> ribosome
+  tRNAs --[adds]--> amino acid to polypeptide chain
+  tRNAs --[translates]--> language of RNA into language of proteins
+  codon --[encodes]--> initiation of translation
+  tRNA anticodon --[base pair with]--> mRNA codons
+  tRNA --[bind to]--> mRNA
+  ribosome --[translates]--> mRNA into protein
+  ribosome --[consists of]--> large and small ribosomal subunit
+  charged tRNAs --[enter]--> Acceptor site
+  anticodon --[base pairs with]--> codon
+  ribosome --[move]--> 3’ end of the mRNA
+  tRNA --[exit at]--> Exit site
+  RNA polymerase III --[creates]--> RNA portion of the adaptor molecule
+  tRNA molecule --[linked to]--> amino acid
+  aminoacyl tRNA synthetases --[bind to]--> amino acid
+  aminoacyl-tRNA synthetases --[hydrolyze]--> ATP
+  aminoacyl-tRNA synthetases --[catalyze]--> covalent bond formation
+  aminoacyl-tRNA synthetases --[require]--> ATP
+  activated amino acid --[transferred to]--> tRNA
+  high-energy bond --[attaches]--> amino acid to tRNA
+  tRNA --[named for]--> amino acid
+  initiation complex --[involves]--> 30S ribosome
+  initiation complex --[involves]--> mRNA template
+  initiation complex --[involves]--> initiation factors
+  initiation complex --[involves]--> tRNAfMet
+  Shine-Dalgarno sequence --[interacts with]--> rRNA molecules
+  Shine-Dalgarno sequence --[anchors]--> 30S ribosomal subunit
+  Guanosine triphosphate --[acts as]--> energy source
+  initiator tRNA --[interacts with]--> start codon
+  initiator tRNA --[carries]--> methionine
+  formylation --[creates]--> faux peptide bond
+  fMet-tRNAfMet --[mediated by]--> initiation factor IF-2
+  fMet --[begins]--> polypeptide chain
+  AUG --[inserts]--> non-formylated methionine
+  30S ribosomal subunit --[joined by]--> 50S subunit
+  30S ribosomal subunit --[forms]--> translation complex
+  eukaryotes --[forms]--> initiation complex
+  initiation complex --[comprises]--> mRNA
+  initiation complex --[comprises]--> 40S small ribosomal subunit
+  initiation complex --[comprises]--> eukaryotic IFs
+  initiation complex --[comprises]--> nucleoside triphosphates (GTP and ATP)
+  Met-tRNAi --[is not]--> formylated
+  Met-tRNAi --[can bind]--> IFs
+  eukaryotic initiation complex --[recognizes]--> 7-methylguanosine cap
+  cap-binding protein (CBP) --[assists]--> movement of the ribosome
+  initiation complex --[tracks along]--> mRNA
+  initiation complex --[searches for]--> AUG start codon
+  Kozak’s rules --[state]--> consensus sequence
+  consensus sequence --[appears around]--> AUG
+  60S subunit --[binds to]--> complex of Met-tRNAi, mRNA, and the 40S subunit
+  translation complex --[consists of]--> three compartments
+  A (aminoacyl) site --[binds]--> incoming charged aminoacyl tRNAs
+  P (peptidyl) site --[binds]--> charged tRNAs carrying amino acids
+  E (exit) site --[releases]--> dissociated tRNAs
+  initiating methionyl-tRNA --[occupies]--> P site
+  mRNA template --[provides]--> tRNA binding specificity
+  ribosome --[binds]--> tRNAs nonspecifically and randomly
+  elongation factors --[hydrolyze]--> GTP
+  GTP energy --[is required for]--> binding of a new aminoacyl-tRNA to the A site
+  GTP energy --[is required for]--> translocation to the P site
+  peptide bonds --[form between]--> amino group of the amino acid attached to the A-site tRNA and the carboxyl group of the amino acid attached to the P-site tRNA
+  peptidyl transferase --[catalyzes]--> formation of each peptide bond
+  peptidyl transferase --[is integrated into]--> 50S ribosomal subunit
+  peptide bond formation --[derived from]--> high-energy bond
+  A-site tRNA --[moves to]--> P site
+  P-site tRNA --[moves to]--> E site
+  P-site tRNA --[expelled from]--> ribosome
+  E. coli translation apparatus --[takes]--> 0.05 seconds
+  E. coli translation apparatus --[translates]--> 200-amino-acid protein
+  initiator tRNA anticodon --[recognizes]--> start codon
+  large ribosomal subunit --[joins]--> small subunit
+  ribosome --[recruits]--> second tRNA
+  mRNA --[moves relative to]--> ribosome
+  successive tRNAs --[move through]--> ribosome
+  ribosome --[forms]--> polypeptide chain
+  release factor --[enters]--> A site
+  tetracycline --[blocks]--> A site
+  chloramphenicol --[blocks]--> peptidyl transfer
+  nonsense codon --[recognized by]--> protein release factors
+  protein release factors --[instruct]--> peptidyl transferase
+  peptidyl transferase --[adds]--> water molecule
+  P-site amino acid --[detaches from]--> tRNA
+  ribosomal subunits --[dissociate from]--> mRNA
+  ribosomal subunits --[dissociate from]--> each other
+  ribosomal subunits --[recruited into]--> translation initiation complex
+  mRNA --[degraded]--> nucleotides
+  Translation --[is terminated by]--> STOP codon
+  STOP codon --[has no corresponding]--> tRNAs
+  Release Factor protein --[enters and catalyzes]--> hydrolysis
+  Hydrolysis --[releases]--> free carboxyl terminus
+  Additional factors --[use energy in]--> GTP hydrolysis
+  GTP hydrolysis --[disassembles]--> ribosomal subunits and mRNA
+  Amino acids --[may be chemically modified]--> during and after translation
+  Signal sequence --[directs]--> protein to specific cellular compartment
+  Signal sequence --[is recognized by]--> signal-recognition proteins
+  Signal sequence --[directs protein to]--> mitochondria or chloroplasts
+  Protein --[folds spontaneously]--> many proteins
+  Some proteins --[require]--> chaperones
+  Chaperones --[prevent]--> proteins from aggregating
+  Protein --[could take on dysfunctional shape]--> abnormal temperature or pH conditions
+  Proteins --[contain signal sequence]--> N-terminus
+  Signal --[is recognized by]--> SRP
+  Ribosome --[is targeted to]--> translocation channel in the ER membrane
+  Protein --[goes directly from ribosome]--> ER lumen
+  Proteins --[can be secreted from]--> ER
+  7-methylguanosine cap --[added to]--> pre-mRNAs
+  7-methylguanosine cap --[protects]--> mRNA
+  7-methylguanosine cap --[assists]--> translation
+  aminoacyl tRNA synthetase --[charges]--> tRNA molecules
+  aminoacyl tRNA synthetase --[catalyzes]--> bond
+  anticodon --[corresponds to]--> mRNA codon
+  CAAT box --[involved in]--> binding transcription factors
+  central dogma --[states]--> genes specify the sequence of mRNAs
+  central dogma --[states]--> mRNAs specify the sequence of proteins
+  codon --[specifies]--> insertion of an amino acid
+  codon --[specifies]--> release of a polypeptide chain
+  RNA --[specify]--> protein
+  consensus DNA sequence --[used by]--> many species
+  core enzyme --[consists of]--> α, α, β, and β'
+  core enzyme --[performs]--> elongation
+  degeneracy --[describes]--> a given amino acid can be encoded by more than one nucleotide triplet
+  downstream --[following]--> initiation site
+  exon --[present in]--> protein-coding mRNA
+  FACT complex --[facilitates]--> chromatin transcription
+  FACT complex --[disassembles]--> nucleosomes
+  FACT complex --[reassembles]--> nucleosomes
+  GC-rich box --[binds]--> cellular factors
+  GC-rich box --[increases]--> efficiency of transcription
+  hairpin structure --[forms]--> intramolecular hydrogen bonds
+  holoenzyme --[consists of]--> α, α, β, β', and σ
+  holoenzyme --[responsible for]--> transcription initiation
+  initiation site --[proceeds in]--> mRNA synthesis
+  initiator tRNA --[binds to]--> ribosome P site
+  initiator tRNA --[links to]--> special methionine
+  intron --[spliced from]--> mRNA
+  Kozak’s rules --[determines]--> correct initiation AUG
+  nonsense codon --[specifies]--> termination of translation
+  nontemplate strand --[identical to]--> mRNA
+  Octamer box --[binds]--> cellular factors
+  Octamer box --[increases]--> efficiency of transcription
+  peptidyl transferase --[catalyzes]--> formation of peptide bonds
+  plasmid --[contains]--> one or a few genes
+  poly-A tail --[added to]--> pre-mRNAs
+  polysome --[contains]--> mRNA molecule
+  promoter --[binds]--> RNA polymerase
+  reading frame --[specifies]--> protein
+  rho-dependent termination --[involves]--> rho protein
+  rho-independent termination --[causes]--> hairpin formation
+  polymerase RNA editing --[directs alteration of]--> nucleotides
+  Shine-Dalgarno sequence --[initiates]--> prokaryotic translation
+  signal sequence --[directs]--> protein
+  small nuclear RNA molecules --[synthesized by]--> RNA polymerase III
+  small nuclear RNA molecules --[include]--> splicing pre-mRNAs
+  small nuclear RNA molecules --[include]--> regulating transcription factors
+  splicing --[process of]--> removing introns
+  splicing --[process of]--> reconnecting exons
+  start codon --[specifies]--> methionine
+  TATA box --[helps to establish]--> initiation site
+  template strand --[specifies]--> complementary mRNA molecule
+  transcription bubble --[allows for]--> transcription of mRNA
+  upstream nucleotides --[preceding]--> initiation site
+  genetic code --[refers to]--> DNA alphabet
+  genetic code --[refers to]--> RNA alphabet
+  genetic code --[refers to]--> polypeptide alphabet
+  central dogma --[describes]--> flow of genetic information
+  genes --[make]--> mRNA
+  mRNA --[synthesize]--> proteins
+  genetic code --[is]--> degenerate
+  most amino acids --[have]--> several similar codons
+  almost every species --[uses]--> same genetic code
+  prokaryotes --[initiates mRNA synthesis at]--> promoter sequence
+  prokaryotic polymerase --[consists of]--> core enzyme
+  prokaryotic polymerase --[assists with]--> initiation
+  elongation --[synthesizes]--> mRNA
+  termination --[liberates]--> mRNA
+  termination --[occurs by]--> rho protein interaction
+  termination --[occurs by]--> formation of mRNA hairpin
+  eukaryotic transcription --[involves]--> RNA polymerase II
+  eukaryotic transcription --[involves]--> RNA polymerase I
+  eukaryotic transcription --[involves]--> RNA polymerase III
+  RNA polymerase II --[transcribes]--> protein-coding genes
+  RNA polymerase I --[transcribes]--> rRNA genes
+  RNA polymerase III --[transcribes]--> small RNAs
+  initiation of transcription --[involves]--> binding of transcription factors
+  FACT complex --[moves and reassembles]--> nucleosomes
+  RNA polymerases I and III --[terminate transcription by]--> protein-dependent methods
+  RNA polymerases I and III --[terminate transcription by]--> RNA hairpin-dependent methods
+  RNA polymerase II --[transcribes beyond]--> gene template
+  RNA polymerase II --[cleaves]--> excess
+  eukaryotic pre-mRNAs --[modified with]--> 5' methylguanosine cap
+  eukaryotic pre-mRNAs --[modified with]--> poly-A tail
+  5' methylguanosine cap --[protects]--> mature mRNA
+  5' methylguanosine cap --[helps export]--> mature mRNA
+  pre-mRNAs --[undergo]--> splicing
+  finished mRNAs --[undergo]--> 5' capping
+  finished mRNAs --[undergo]--> 3' polyadenylation
+  finished mRNAs --[undergo]--> intron splicing
+  finished mRNAs --[are exported from]--> the nucleus to the cytoplasm
+  pre-rRNAs --[are processed by]--> intramolecular cleavage
+  pre-rRNAs --[are processed by]--> splicing
+  pre-rRNAs --[are processed by]--> methylation
+  pre-rRNAs --[are processed by]--> chemical conversion of nucleotides
+  pre-tRNAs --[are processed by]--> intramolecular cleavage
+  pre-tRNAs --[are processed by]--> splicing
+  pre-tRNAs --[are processed by]--> methylation
+  pre-tRNAs --[are processed by]--> chemical conversion of nucleotides
+  RNA editing --[perform]--> insert missing bases
+  small ribosomal subunit --[binds to]--> the mRNA template
+  small ribosomal subunit --[binds to]--> the Shine-Dalgarno sequence
+  small ribosomal subunit --[binds to]--> the 5' cap
+  Translation --[begins at]--> the initiating AUG
+  Translation --[specifies]--> methionine
+  peptide bonds --[occur between]--> sequential amino acids
+  charged tRNAs --[enter]--> the ribosomal A site
+  ribosome --[binds with]--> amino acid
+  ribosome --[translates]--> mRNA
+  nonsense codon --[binds with]--> release factor
+  release factor --[dissociates]--> components
+  release factor --[frees]--> new protein
+  protein --[occurs during]--> translation
+  protein --[occurs after]--> translation
+  scientist --[splices]--> eukaryotic promoter
+  scientist --[inserts]--> bacterial gene
+  errors --[are implicated in]--> cancers and other human diseases
+  tetracycline --[blocks]--> A site on the bacterial ribosome
+  tetracycline --[affects]--> tRNA binding to the ribosome
+  chloramphenicol --[affects]--> growth of the protein chain
+  AUC and AUA codons --[specify]--> isoleucine
+  genetic code --[explains]--> degeneracy
+  12 mRNA codons --[contains]--> 36 nucleotides
+  central dogma of molecular biology --[contradicts]--> reverse transcriptase enzymes
+  E. coli polymerase --[confers specificity to transcription]--> σ subunit
+  -10 and -35 regions --[are called consensus sequences because]--> they are similar in all bacterial species
+  promoters --[can be found in]--> GC box
+  promoters --[can be found in]--> TATA box
+  α-amanitin --[affects]--> 18S and 28S rRNAs
+  α-amanitin --[affects]--> pre-mRNAs
+  α-amanitin --[affects]--> 5S rRNAs and tRNAs
+  α-amanitin --[affects]--> other small nuclear RNAs
+  Enhancers --[bind]--> transcription factors
+  Enhancers --[increase]--> efficiency of gene expression
+  Promoters --[essential for]--> transcription initiation
+  Promoters --[bind]--> transcription factors
+  7-methylguanosine cap --[important for]--> initiating translation
+  methylation --[enhances stability of]--> pre-tRNAs and pre-rRNAs
+  RNA components of ribosomes --[synthesized in]--> nucleolus
+  species --[has at least]--> 20 types of aminoacyl tRNA synthetases
+  mutation --[makes nonfunctional]--> 60S ribosomal subunit
+  60S ribosomal subunit --[cannot catalyze]--> formation of peptide bonds
+  RNA polymerase deficiency --[prevents]--> making proteins
+  defect in RNA polymerase I activity --[causes]--> the defect
+  nonsense mutations --[harbor]--> Chronic lymphocytic leukemia patients
+  nonsense mutations --[change]--> the final location and sequence of a pre-mRNA
+  single nucleotide changes --[have]--> vastly different effects on protein function
+  insertion mutation --[changes]--> the sequence to 5’-UGCCAUGGUUAAUAACACAUGAGGCCUGAAC– 3’
+  insertion mutations --[have]--> dramatic effects on proteins
+
+Saved to /Users/shreyasnair/upsync/adobe-deep-research/outputs/triples_Ch15_Genes_and_Proteins.json
+Neo4j: 1274 nodes, 1128 relationships
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 6763.30it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+Qdrant: 1274 entity vectors, 1128 evidence vectors, 675 chunk vectors
+Visualization saved to /Users/shreyasnair/upsync/adobe-deep-research/outputs/graph_visualization.html
+=== Ch17 ===
+Loaded passage (81335 chars)
+Extracting triples via OpenRouter...
+  Split into 32 chunks (limit 3500 chars)
+  Chunk 1/32 (1923 chars)...
+  Chunk 2/32 (2675 chars)...
+  Chunk 3/32 (2689 chars)...
+  Chunk 4/32 (2154 chars)...
+  Chunk 5/32 (3497 chars)...
+  Chunk 6/32 (1638 chars)...
+  Warning: skipping triple 4: 1 validation error for Triple
+relation
+  Value error, Relation too long: may engineer plasmids to express proteins [type=value_error, input_value='may engineer plasmids to express proteins', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Chunk 7/32 (3499 chars)...
+  Warning: skipping triple 11: 1 validation error for Triple
+relation
+  Value error, Relation too long: use somatic cell nuclear transfer for [type=value_error, input_value='use somatic cell nuclear transfer for', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Chunk 8/32 (2500 chars)...
+  Chunk 9/32 (2731 chars)...
+  Chunk 10/32 (2547 chars)...
+  Chunk 11/32 (3494 chars)...
+  Chunk 12/32 (1086 chars)...
+  Chunk 13/32 (3468 chars)...
+  Warning: skipping triple 12: 1 validation error for Triple
+relation
+  Value error, Relation too long: is a region on the chromosome that shows [type=value_error, input_value='is a region on the chromosome that shows', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Chunk 14/32 (2334 chars)...
+  Chunk 15/32 (1443 chars)...
+  Chunk 16/32 (3498 chars)...
+  Chunk 17/32 (3138 chars)...
+  Chunk 18/32 (3499 chars)...
+  Warning: skipping triple 12: 1 validation error for Triple
+relation
+  Value error, Relation too long: used as a model to understand [type=value_error, input_value='used as a model to understand', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Chunk 19/32 (722 chars)...
+  Chunk 20/32 (3492 chars)...
+  Chunk 21/32 (3367 chars)...
+  Chunk 22/32 (2765 chars)...
+  Warning: skipping triple 14: 1 validation error for Triple
+relation
+  Value error, Relation too long: have used information from DNA samples [type=value_error, input_value='have used information from DNA samples', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Warning: skipping triple 19: 1 validation error for Triple
+relation
+  Value error, Relation too long: could use desirable traits to create [type=value_error, input_value='could use desirable traits to create', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Warning: skipping triple 20: 1 validation error for Triple
+relation
+  Value error, Relation too long: could use desirable traits to enhance [type=value_error, input_value='could use desirable traits to enhance', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Chunk 23/32 (3499 chars)...
+  Warning: skipping triple 11: 1 validation error for Triple
+tail
+  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_too_short
+  Warning: skipping triple 12: 1 validation error for Triple
+tail
+  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_too_short
+  Warning: skipping triple 13: 1 validation error for Triple
+tail
+  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_too_short
+  Warning: skipping triple 14: 1 validation error for Triple
+tail
+  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_too_short
+  Warning: skipping triple 15: 1 validation error for Triple
+tail
+  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_too_short
+  Chunk 24/32 (1157 chars)...
+  Chunk 25/32 (2787 chars)...
+  Chunk 26/32 (3500 chars)...
+  Chunk 27/32 (504 chars)...
+  Chunk 28/32 (3496 chars)...
+  Warning: skipping triple 25: 1 validation error for Triple
+relation
+  Value error, Relation too long: can separate on the basis of [type=value_error, input_value='can separate on the basis of', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Chunk 29/32 (682 chars)...
+  Chunk 30/32 (3500 chars)...
+  Warning: skipping triple 12: 1 validation error for Triple
+relation
+  Value error, Relation too long: is dynamic and in constant flux [type=value_error, input_value='is dynamic and in constant flux', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Warning: skipping triple 17: 1 validation error for Triple
+relation
+  Value error, Relation too long: use biomarkers and protein signatures to analyze [type=value_error, input_value='use biomarkers and protein signatures to analyze', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Warning: skipping triple 22: 1 validation error for Triple
+tail
+  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_too_short
+  Chunk 31/32 (3080 chars)...
+  Warning: skipping triple 11: 1 validation error for Triple
+relation
+  Value error, Relation too long: can be used for advances in [type=value_error, input_value='can be used for advances in', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Warning: skipping triple 15: 1 validation error for Triple
+relation
+  Value error, Relation too long: can be used in agriculture to [type=value_error, input_value='can be used in agriculture to', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Warning: skipping triple 16: 1 validation error for Triple
+relation
+  Value error, Relation too long: can be used on a personal level to [type=value_error, input_value='can be used on a personal level to', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+  Chunk 32/32 (891 chars)...
+Model used: mistralai/mistral-small-3.2-24b-instruct
+Number of triples: 590
+Unique entities: 787
+  Genomics --[is the study of]--> entire genomes
+  Genomics --[includes the study of]--> complete set of genes
+  Genomics --[includes the study of]--> nucleotide sequence
+  Genomics --[includes the study of]--> organization of genes
+  Genomics --[includes the study of]--> interactions within a species
+  Genomics --[includes the study of]--> interactions with other species
+  DNA sequencing technology --[has contributed to]--> advances in genomics
+  Genomic information --[has helped]--> anthropologists
+  Genomic information --[has aided]--> the medical field
+  Biotechnology --[is the use of]--> biological agents
+  Biotechnology --[was used for]--> breeding livestock and crops
+  Discovery of the structure of DNA --[has led to]--> growth of biotechnology
+  Genomics --[compares the DNA of]--> different organisms
+  technology --[are in]--> medicine
+  technology --[are in]--> agriculture
+  biotechnology --[has applications]--> fermentation
+  biotechnology --[has applications]--> treating oil spills
+  biotechnology --[has applications]--> producing biofuels
+  organisms --[produce]--> antibiotics
+  first antibiotic --[discovered]--> penicillin
+  pharmaceutical companies --[produce and test]--> antibiotics
+  nucleic acids --[are made of]--> nucleotides
+  DNA --[has strands]--> complementary strands
+  high temperatures --[can separate]--> DNA strands
+  DNA polymerase enzyme --[can replicate]--> DNA
+  RNA --[leave]--> nucleus
+  researchers --[analyze]--> messenger RNA
+  RNA --[are less stable than]--> DNA
+  researchers --[use techniques to extract]--> DNA
+  lysis buffer --[breaks]--> cells
+  enzymes --[break apart]--> lipid molecules
+  proteases --[break down]--> proteins
+  ribonucleases --[break down]--> RNA
+  alcohol --[precipitates]--> DNA
+  human genomic DNA --[is usually visible as]--> gelatinous, white mass
+  DNA samples --[can be stored]--> frozen at –80°C
+  Scientists --[perform]--> RNA analysis
+  RNA --[is]--> unstable
+  RNA extraction --[involves]--> buffers and enzymes
+  Gel electrophoresis --[uses]--> electric field
+  Gel electrophoresis --[separates]--> nucleic acids
+  Nucleic acids --[load into]--> gel matrix
+  Smaller molecules --[move faster than]--> larger molecules
+  Researchers --[run]--> molecular weight standard samples
+  Scientists --[use]--> Polymerase chain reaction
+  PCR --[amplifies]--> specific DNA regions
+  Researchers --[use PCR for]--> cloning gene fragments
+  Researchers --[use PCR for]--> identifying contaminant foreign DNA
+  Researchers --[use PCR for]--> amplifying DNA for sequencing
+  polymerase chain reaction --[amplify]--> a specific DNA sequence
+  Primers --[combine with]--> genomic DNA
+  Primers --[combine with]--> Taq polymerase
+  Primers --[combine with]--> deoxynucleotides
+  Taq polymerase --[is]--> a DNA polymerase
+  Taq polymerase --[isolated from]--> Thermus aquaticus
+  Taq polymerase --[withstand]--> high temperatures
+  Thermus aquaticus --[grows in]--> Lower Geyser Basin of Yellowstone National Park
+  Reverse transcriptase PCR --[similar to]--> PCR
+  Reverse transcriptase PCR --[amplify]--> DNA fragments
+  Reverse transcriptase PCR --[use]--> cDNA
+  cDNA --[made from]--> an RNA template
+  cDNA --[recreate]--> the original DNA template strand
+  cDNA --[amplify]--> regular PCR
+  reverse transcription --[require]--> reverse transcriptase
+  Scientists --[probe]--> nucleic acid samples
+  Scientists --[design]--> short DNA fragments
+  Scientists --[label]--> short DNA fragments
+  Gel electrophoresis --[separate]--> nucleic acid fragments
+  Scientists --[transfer]--> fragments in the gel
+  Scientists --[probe]--> nucleic acid fragments
+  Southern blotting --[transfer]--> DNA
+  Northern blotting --[transfer]--> RNA
+  Scientists --[use]--> Southern blots
+  Scientists --[use]--> Northern blots
+  Southern blots --[detect]--> certain DNA sequences
+  Northern blots --[detect]--> gene expression
+  Scientists --[use]--> Southern blotting
+  Scientists --[separate]--> DNA fragments
+  Scientists --[transfer]--> DNA fragments
+  Scientists --[incubate]--> DNA fragments
+  Scientists --[run]--> RNA
+  Scientists --[run]--> proteins
+  Scientists --[detect]--> proteins
+  Molecular Cloning --[refers to]--> reproductive cloning
+  Molecular Cloning --[allows]--> researchers to manipulate and study specific genes
+  Plasmid --[is]--> a small circular DNA molecule
+  Plasmid --[replicates]--> independently of the chromosomal DNA
+  Scientists --[use]--> plasmid molecules
+  Scientists --[introduce]--> plasmids
+  Scientists --[call]--> DNA fragment from the human genome
+  Plasmids --[occur]--> naturally in bacterial populations
+  Plasmids --[have]--> genes that contribute favorable traits
+  Scientists --[repurpose]--> plasmids
+  Scientists --[engineer]--> plasmids
+  Plasmid vectors --[have]--> multiple cloning site
+  Multiple cloning site --[contains]--> multiple sites
+  Restriction endonucleases --[recognize]--> specific DNA sequences
+  Restriction endonucleases --[cut]--> DNA sequences
+  Restriction endonucleases --[make]--> staggered cuts
+  Scientists --[add]--> DNA ligase
+  DNA ligase --[joins]--> DNA fragments
+  Plasmids --[contain]--> foreign DNA
+  Recombinant DNA molecules --[are called]--> chimeric molecules
+  Proteins --[are expressed from]--> recombinant DNA molecules
+  Recombinant DNA --[may need to move into]--> a different vector
+  Foreign genomic DNA --[was degraded by]--> nucleases
+  unicellular organisms --[produce]--> clones
+  nuclear DNA --[duplicates by]--> mitosis
+  reproductive cloning --[is a method]--> to clone an organism
+  multicellular organisms --[undergo reproduction by]--> sexual means
+  parthenogenesis --[occurs when]--> an embryo grows without fertilization
+  unfertilized egg --[develops into]--> male
+  haploid egg --[fuses with]--> sperm cells
+  zygote nucleus --[contains]--> genetic information
+  egg cell --[contains]--> cytoplasmic material
+  egg cell's haploid nucleus --[replaced by]--> diploid nucleus
+  somatic cell nuclear transfer --[is the technique of]--> transferring a diploid nucleus
+  Dolly --[is the first cloned]--> animal
+  Dolly --[died of]--> respiratory complications
+  DNA's age --[may affect]--> cloned individual's life expectancy
+  scientists --[have cloned]--> horses, bulls, and goats
+  cloned animals --[exhibit]--> abnormalities
+  therapeutic cloning --[produces]--> stem cells
+  Freda Miller and Elaine Fuchs --[discovered]--> stem cells in skin
+  stem cells --[help]--> skin repair
+  Dolly the sheep --[was cloned]--> first mammal
+  donor egg cell --[removed nucleus from]--> Dolly the sheep
+  second sheep --[introduced nucleus from]--> donor egg cell
+  cell --[divided to]--> blastocyst stage
+  blastocyst stage --[implanted in]--> surrogate mother
+  genetic engineering --[is alteration of]--> organism’s genotype
+  genetic engineering --[uses recombinant DNA technology]--> modify organism’s DNA
+  recombinant DNA vectors --[generated by]--> molecular cloning
+  organism --[receives recombinant DNA]--> genetically modified organism (GMO)
+  host organism --[is transgenic]--> foreign DNA from different species
+  scientists --[genetically modified]--> bacteria, plants, and animals
+  US --[uses GMOs]--> Roundup-ready soybeans and borer-resistant corn
+  classical methods --[began with]--> given phenotype
+  modern techniques --[start at]--> DNA sequence level
+  reverse genetics --[resulted in reversing]--> classic genetic methodology
+  gene targeting --[uses recombinant DNA vectors]--> alter gene's expression
+  gene targeting --[introduces mutations in]--> gene
+  gene targeting --[eliminates gene's expression]--> deleting gene sequence
+  biotechnology --[used for]--> medicinal purposes
+  Biotechnology --[provides methods]--> treat disease
+  Biotechnology in agriculture --[can enhance]--> resistance to disease
+  Biotechnology in agriculture --[can enhance]--> resistance to pest
+  Biotechnology in agriculture --[can enhance]--> resistance to environmental stress
+  Biotechnology in agriculture --[can improve]--> crop yield
+  Biotechnology in agriculture --[can improve]--> crop quality
+  Genetic diagnosis --[involves]--> testing for suspected genetic defects
+  Doctors --[advise]--> genetic testing
+  Doctors --[advise]--> biopsy
+  Doctors --[base treatment plans on]--> genetic test findings
+  Doctors --[advise]--> genetic testing for other female relatives
+  Doctors --[offer genetic testing for]--> fetuses
+  Gene therapy --[is a technique]--> cure disease
+  Gene therapy --[involves]--> introduction of a good gene
+  Good gene --[is introduced into]--> diseased cells
+  Good gene --[is introduced as part of]--> a vector
+  Vector --[is transmitted by]--> a virus
+  Virus --[can infect]--> the host cell
+  Virus --[can deliver]--> foreign DNA
+  Advanced gene therapy --[tries to correct]--> the mutation
+  Traditional vaccination strategies --[use]--> weakened or inactive forms of microorganisms
+  Modern techniques --[use]--> genes of microorganisms cloned into vectors
+  Doctors --[introduce]--> the antigen into the body
+  Medical field --[has used]--> genes cloned from the influenza virus
+  Antibiotics --[are a product]--> biotechnology
+  Microorganisms --[naturally produce]--> antibiotics
+  Cultivating and manipulating fungal cells --[produces]--> antibiotics
+  Scientists --[used]--> recombinant DNA technology
+  recombinant DNA technology --[produced]--> human insulin
+  human insulin --[produced in]--> E. coli
+  pig insulin --[caused]--> allergic reactions
+  doctors --[use]--> human growth hormone
+  Researchers --[cloned]--> HGH gene
+  HGH gene --[inserted into]--> E. coli cells
+  desired genes --[expressed in]--> animals
+  animals --[modified to express]--> recombinant DNA
+  transgenic sheep and goat milk --[expressed in]--> human proteins
+  chicken eggs --[expressed in]--> human proteins
+  scientists --[used]--> mice
+  Manipulating the DNA of plants --[helped to create]--> desirable traits
+  plants --[received]--> recombinant DNA
+  government agencies --[monitor]--> transgenic plants
+  scientists --[genetically engineered]--> corn, potatoes, and tomatoes
+  Gene transfer --[occurs naturally between]--> species in microbial populations
+  Agrobacterium tumefaciens --[transfer DNA to]--> plant
+  A. tumefaciens --[affects]--> many plants
+  Researchers --[use natural transfer]--> DNA from Agrobacterium to plant host
+  A. tumefaciens --[have plasmids]--> Ti plasmids
+  DNA from Ti plasmid --[integrates into]--> infected plant cell’s genome
+  Researchers --[manipulate Ti plasmids]--> remove tumor-causing genes
+  Ti plasmids --[carry genes]--> antibiotic resistance genes
+  Bacillus thuringiensis --[produces protein crystals]--> during sporulation
+  Insects --[ingest Bt toxin]--> activate the toxin
+  Insects --[stop feeding]--> plants
+  Bt toxin --[activates in]--> insects' intestines
+  Modern biotechnology --[allows plants to encode]--> own crystal Bt toxin
+  Scientists --[cloned toxin genes]--> from Bt
+  Bt toxin --[is safe for]--> environment
+  Scientists --[used antisense RNA technology]--> slow softening and rotting process
+  Genome mapping --[is the process of]--> finding locations of genes
+  Genetic map --[lists genes and]--> their location on a chromosome
+  Genetic maps --[use genetic markers]--> similar to landmarks
+  Genetic marker --[co-segregates with]--> specific trait
+  Physical maps --[present details of]--> smaller chromosome regions
+  Physical map --[represents distance]--> in nucleotides
+  Genome’s --[require both]--> genetic linkage maps and physical maps
+  researchers --[study]--> individual genes
+  Human genome maps --[help]--> identify human disease-causing genes
+  genome mapping --[use]--> live microbes to clean up pollutants
+  genome mapping --[use]--> prevent pollution
+  Research involving plant genome mapping --[lead to]--> producing higher crop yields
+  Research involving plant genome mapping --[lead to]--> developing plants that better adapt to climate change
+  genetic maps --[begin with]--> linkage analysis
+  linkage analysis --[analyzes]--> recombination frequency between genes
+  linkage analysis --[determine]--> if genes are linked or show independent assortment
+  Scientists --[used]--> the term linkage
+  Early geneticists --[relied on]--> observing phenotypic changes
+  Gregor Mendel --[proposed]--> traits were determined by
+  genes --[are physically linked by]--> location on the same chromosome
+  gene mapping --[led to developing]--> the first genetic maps
+  flower’s color --[were linked traits]--> plant pollen’s shape
+  genes encoding flower’s color --[are in close proximity on]--> the same chromosome
+  genes encoding plant pollen’s shape --[are in close proximity on]--> the same chromosome
+  genetic recombination --[occurs by]--> crossing over DNA between homologous DNA strands
+  linkage analysis --[involves studying]--> the recombination frequency between any two genes
+  greater distance between two genes --[leads to higher chance of]--> recombination event
+  recombination frequency between two genes --[is less than 50 percent]--> they are linked
+  generation of genetic maps --[requires]--> markers
+  early genetic maps --[based on]--> known genes as markers
+  scientists --[use]--> more sophisticated markers
+  scientists --[use in generating genetic maps]--> restriction fragment length polymorphisms (RFLP)
+  scientists --[use in generating genetic maps]--> variable number of tandem repeats (VNTRs)
+  scientists --[use in generating genetic maps]--> microsatellite polymorphisms
+  scientists --[use in generating genetic maps]--> single nucleotide polymorphisms (SNPs)
+  RFLPs --[are detected when]--> DNA is cut with a restriction endonuclease
+  restriction endonuclease --[recognizes]--> specific sequences in the DNA
+  DNA fragments --[are analyzed using]--> gel electrophoresis
+  individual’s DNA --[gives rise to]--> unique pattern of bands
+  scientists --[refer to]--> individual’s DNA “fingerprint”
+  certain chromosome regions --[are subject to]--> polymorphism
+  VNTRs --[are repeated sets of]--> nucleotides present in DNA’s non-coding regions
+  non-coding DNA --[has no known biological function]--> research shows that much of this DNA is actually transcribed
+  Microsatellite polymorphisms --[are similar to]--> VNTRs
+  SNPs --[are variations in]--> a single nucleotide
+  Genetic maps --[rely on]--> the natural process of recombination
+  Recombination level --[affects]--> mapping
+  Some parts of the genome --[are]--> recombination hotspots
+  Physical map --[provides detail of]--> the actual physical distance between genetic markers
+  Physical map --[provides detail of]--> the number of nucleotides
+  Cytogenetic mapping --[uses information from]--> microscopic analysis of stained chromosome sections
+  Cytogenetic mapping --[determines]--> the approximate distance between genetic markers
+  Radiation hybrid mapping --[uses]--> radiation
+  Radiation hybrid mapping --[overcomes the limitation of]--> genetic mapping
+  Sequence mapping --[resulted from]--> DNA sequencing technology
+  Creating genomic libraries --[speeds]--> the physical mapping process
+  Creating cDNA libraries --[speeds]--> the physical mapping process
+  Sequence-tagged site --[is a]--> unique sequence in the genome
+  Sequence-tagged site --[has]--> a known exact chromosomal location
+  Expressed sequence tag --[is a]--> short STS
+  Single sequence length polymorphism --[is a]--> common STS
+  Single sequence length polymorphism --[provides a link between]--> genetic and physical maps
+  Genetic maps --[provide]--> outline
+  Physical maps --[provide]--> details
+  Scientists --[use]--> information from each technique
+  Scientists --[use]--> genomic mapping with different model organisms
+  Genome mapping --[is]--> an ongoing process
+  Genome mapping --[is similar to]--> completing a complicated puzzle
+  Mapping information --[goes into]--> central databases
+  NCBI --[has created]--> a genome viewer tool
+  website --[displays comparison of]--> gene sequences
+  website --[provides information about]--> Human Insulin Receptor gene
+  Online Mendelian Inheritance in Man (OMIM) --[is a catalog of]--> human genes and genetic disorders
+  Online Mendelian Inheritance in Man (OMIM) --[shows information about]--> genome mapping
+  Online Mendelian Inheritance in Man (OMIM) --[details history and research of]--> trait and disorder
+  whole-genome sequencing --[determines]--> entire genome’s DNA sequence
+  whole-genome sequencing --[is a approach to]--> problem solving
+  whole-exome sequencing --[is a alternative to]--> whole genome sequencing
+  whole-exome sequencing --[sequences]--> DNA’s coding regions
+  whole-exome sequencing --[revealed defect in]--> pathway that controls apoptosis
+  whole-exome sequencing --[led to cure for]--> genetic disorder
+  chain termination method --[involves DNA replication of]--> single-stranded template
+  chain termination method --[uses]--> primer and dNTP
+  chain termination method --[mixes with]--> fluorescently labeled dideoxynucleotides (ddNTPs)
+  ddNTPs --[are missing]--> hydroxyl group
+  ddNTPs --[are labeled with]--> different color of fluorophore
+  ddNTPs --[terminates]--> DNA replication process
+  electrophoresis --[processes]--> reaction mixture
+  ddNTPs --[are fluorescently labeled]--> each band on the gel
+  fluorophore-labeled ddNTPs --[help identify]--> the ddNTP incorporated at that position
+  gel --[produces]--> the template strand’s sequence
+  dideoxynucleotide --[is similar in structure to]--> a deoxynucleotide
+  dideoxynucleotide --[stops]--> DNA synthesis
+  shotgun sequencing method --[cuts]--> DNA fragment copies
+  scientists --[analyze]--> the fragments
+  scientists --[reform]--> the entire DNA sequence
+  larger sequence --[is assembled from]--> overlapping shorter sequences
+  shotgun sequencing --[analyzed]--> one end of each fragment
+  pairwise-end sequencing --[analyzes]--> each fragment’s end
+  pairwise-end sequencing --[is more cumbersome than]--> shotgun sequencing
+  next-generation sequencing --[is a group of]--> automated techniques
+  next-generation sequencing --[used for]--> rapid DNA sequencing
+  next-generation sequencing --[can generate]--> sequences of hundreds of thousands or millions of short fragments
+  next-generation sequencing --[use]--> sophisticated software
+  sequence alignment --[is an arrangement of]--> proteins, DNA, or RNA
+  sequence alignment --[used to identify]--> similar regions between cell types or species
+  sequence alignment --[used to construct]--> phylogenetic trees
+  BLAST --[is a]--> software program
+  Fred Sanger --[used]--> bacterial virus
+  Craig Venter --[sequenced]--> bacterium Haemophilus influenzae
+  74 different laboratories --[collaborated on sequencing]--> genome of the yeast Saccharomyces cerevisiae
+  model organisms --[include]--> mouse Mus musculus, the fruit fly Drosophila melanogaster, the nematode Caenorhabditis elegans, and humans Homo sapiens
+  entire genomes sequenced --[helps with]--> research efforts in model organisms
+  genome annotation --[is]--> biological information to gene sequences
+  genome annotation --[helps with]--> basic experiments in molecular biology
+  DNA microarrays --[are methods]--> scientists use to detect gene expression
+  DNA microarrays --[analyze]--> different DNA fragments
+  DNA microarrays --[identify]--> active genes and sequences
+  microarrays --[discover]--> one million genotypic abnormalities
+  genome sequencing --[allows discovery of]--> future onset diseases
+  genome sequencing --[allows decisions about]--> lifestyle
+  genome sequencing --[allows decisions about]--> medication
+  genome sequencing --[allows decisions about]--> having children
+  genomics --[can contribute to]--> developing novel enzymes
+  novel enzymes --[convert]--> biomass to biofuel
+  genomics --[can improve]--> monitoring methods
+  genomics --[has aided in developing]--> agrochemicals
+  genomics --[has aided in developing]--> pharmaceuticals
+  genomics --[could lead to]--> discrimination based on genetics
+  genomics --[could lead to]--> human genetic engineering
+  genomics --[could lead to]--> legal issues regarding health and privacy
+  genomics --[is used in]--> metagenomics
+  genomics --[is used in]--> pharmacogenomics
+  genomics --[is used in]--> mitochondrial genomics
+  genomics --[is most common in]--> understanding and finding cures for diseases
+  predicting disease risk --[involves]--> genome analysis at the individual level
+  predicting disease risk --[is most applicable when]--> the problem resides within a single gene defect
+  single gene defect --[accounts for]--> approximately 5 percent of diseases in developed countries
+  common diseases --[are]--> multi-factored or polygenic
+  polygenic --[involves]--> two or more genes
+  polygenic --[involves]--> environmental factors
+  genome analysis --[predicted]--> Quake's propensity to acquire various diseases
+  genome analysis --[found]--> a rare genetic mutation
+  genome analysis --[predicted]--> Quake had a 23 percent risk of developing prostate cancer
+  genome analysis --[predicted]--> Quake had a 1.4 percent risk of developing Alzheimer’s
+  scientists --[used]--> databases and several publications
+  PCA3 --[is expressed in]--> prostate epithelial cells
+  PCA3 --[is overexpressed in]--> cancerous cells
+  PCA3 concentration --[is indicative of]--> prostate cancer
+  PCA3 test --[is a better indicator of]--> cancer
+  PSA test --[measures the level of]--> PSA (prostate-specific antigen)
+  United States Preventative Services Task Force --[recommended against]--> using the PSA test
+  screening --[does not reduce]--> the risk of death from prostate cancer
+  prostate cancer --[often develops]--> very slowly
+  PCA3 test --[is more accurate]--> PSA test
+  Pharmacogenomics --[involves evaluating]--> drug effectiveness and safety
+  Pharmacogenomics --[uses information from]--> an individual's genomic sequence
+  genomic responses --[can be studied using]--> experimental animals
+  genomic responses --[can be studied using]--> live cells
+  changes in gene expression --[provide information about]--> the transcription profile
+  genes involved in cellular growth --[when disturbed]--> lead to cancerous cell growth
+  genome-wide studies --[can help to find]--> new genes involved in drug toxicity
+  medical professionals --[can use]--> personal genome sequence information
+  medical professionals --[can prescribe]--> medications
+  microbiology --[traditionally taught]--> study microorganisms under pure culture conditions
+  pure culture --[involves isolating]--> a single cell type
+  microorganisms --[can go through]--> several generations
+  microorganisms --[resist culturing]--> in isolation
+  most microorganisms --[do not live as]--> isolated entities
+  metagenomics --[is the study of]--> the collective genomes of multiple species
+  metagenomics --[can be used to]--> identify new species
+  metagenomics --[can be used to]--> analyze the effect of pollutants
+  Metagenomics --[involves isolating]--> DNA
+  Microbial Genomics --[is used to find]--> better ways to harness biofuels
+  Microbial world --[is a resource for]--> genes that encode new enzymes
+  Microbial world --[is a resource for]--> new organic compounds
+  Microorganisms --[are used to create]--> products
+  Microbial genomics --[is helping to develop]--> diagnostic tools
+  Microbial genomics --[is helping to develop]--> improved vaccines
+  Microbial genomics --[is helping to develop]--> new disease treatments
+  Microbial genomics --[is helping to develop]--> advanced environmental cleanup techniques
+  Mitochondria --[contain]--> their own DNA
+  Mitochondrial DNA --[mutates at]--> a rapid rate
+  Scientists --[use mitochondrial DNA to study]--> evolutionary relationships
+  Mitochondrial DNA --[passes from]--> the mother
+  Scientists --[use mitochondrial genomics to trace]--> genealogy
+  Genomic analysis --[has become useful in]--> forensic analysis
+  Genomics --[can reduce]--> trials and failures
+  Genomics --[helps improve]--> crop breeding
+  Scientists --[use genomic data to identify]--> desirable traits
+  Proteins --[perform function]--> genes
+  Proteins --[comprise]--> amino acids
+  Enzymes --[are]--> proteins
+  Proteins --[act as]--> catalysts
+  Proteins --[are]--> regulatory molecules
+  Proteins --[are]--> hormones
+  Transport proteins --[help transport]--> oxygen
+  Antibodies --[are]--> proteins
+  Proteome --[is]--> set of proteins
+  Proteomics --[studies]--> proteomes' function
+  Proteomics --[complements]--> genomics
+  Proteomics --[requires]--> techniques for protein analysis
+  Mass spectrometry --[identifies]--> molecule's characteristics
+  X-ray crystallography --[enables scientists]--> determine protein crystal's three-dimensional structure
+  Nuclear magnetic resonance (NMR) --[uses]--> atoms' magnetic properties
+  scientists --[use]--> protein microarrays
+  protein microarrays --[based on]--> large-scale adaptations of the basic two-hybrid screen
+  scientists --[use]--> computer software
+  genomic- and proteomic-scale analyses --[part of]--> systems biology
+  systems biology --[study of]--> whole biological systems
+  European Bioinformatics Institute --[developing and establishing]--> effective tools
+  Human Proteome Organization (HUPO) --[developing and establishing]--> effective tools
+  proteins --[direct products of]--> genes
+  proteomes --[use to compare]--> protein profiles of different cells
+  researchers --[use information from]--> proteomics
+  researchers --[identify]--> novel drugs
+  researchers --[understand]--> mechanisms of action
+  Scientists --[use]--> two-hybrid screening
+  transcription factor --[splits into]--> DNA-binding domain and activator domain
+  binding domain --[binds]--> promoter
+  bait protein --[attaches to]--> BD
+  prey protein --[attaches to]--> AD
+  transcription --[occurs]--> prey catches bait
+  Scientists --[are challenged by]--> proteomic analysis
+  mass spectrometry --[is good for]--> detecting small protein amounts
+  proteins --[are]--> unstable molecules
+  Researchers --[study]--> patients' genomes and proteomes
+  Researchers --[study]--> cancer
+  Proteomic approaches --[improve]--> screening and early cancer detection
+  Researchers --[identify]--> proteins whose expression indicates the disease process
+  individual protein --[is]--> biomarker
+  set of proteins with altered expression levels --[is]--> protein signature
+  biomarker or protein signature --[must secrete in]--> body fluids
+  biomarkers --[have]--> high rate of false-negative results
+  false negative --[is]--> incorrect test result
+  CA-125 --[is example of]--> protein biomarkers in cancer detection
+  PSA --[is example of]--> protein biomarkers in cancer detection
+  protein signatures --[may be more reliable than]--> biomarkers
+  Researchers --[use proteomics to develop]--> individualized treatment plans
+  Researchers --[use proteomics to predict]--> possibility of disease recurrence
+  National Cancer Institute --[has developed]--> programs to improve cancer detection and treatment
+  Clinical Proteomic Technologies for Cancer and the Early Detection Research Network --[are efforts to identify]--> protein signatures specific to different cancer types
+  Biomedical Proteomics Program --[identifies]--> protein signatures
+  Biomedical Proteomics Program --[designs]--> effective therapies for cancer patients
+  antibiotic resistance --[is the ability]--> an organism
+  biomarker --[is a protein]--> individual protein
+  biotechnology --[uses biological agents]--> biological agents
+  cDNA library --[is a collection]--> cloned cDNA sequences
+  cellular cloning --[produces identical cell populations]--> identical cell populations
+  chain termination method --[uses labeled dideoxynucleotides]--> labeled dideoxynucleotides
+  clone --[is an exact replica]--> exact replica
+  contig --[is a sequence]--> larger sequence of DNA
+  cytogenetic mapping --[uses a microscope]--> a microscope
+  deoxynucleotide --[is a DNA monomer]--> individual DNA monomer
+  dideoxynucleotide --[is a DNA monomer]--> individual DNA monomer
+  DNA microarray --[detects gene expression]--> gene expression
+  expressed sequence tag (EST) --[is a short STS]--> short STS
+  false negative --[is a test result]--> incorrect test result
+  foreign DNA --[belongs to a different species]--> a different species
+  gel electrophoresis --[separates molecules]--> molecules
+  gene targeting --[alters the sequence]--> a specific gene
+  gene therapy --[cures inheritable diseases]--> inheritable diseases
+  genetic diagnosis --[analyzes disease-causing genes]--> disease-causing genes
+  genetic engineering --[alters the genetic makeup]--> an organism
+  genetic map --[outlines genes]--> genes and their location
+  genetic marker --[is a gene]--> gene or sequence
+  genetic recombination --[exchanges DNA]--> homologous chromosome pairs
+  genetic testing --[tests for the presence]--> disease-causing genes
+  genetically modified organism (GMO) --[has an artificially changed genome]--> genome
+  genome annotation --[attaches biological information]--> gene sequences
+  genome mapping --[finds the location]--> genes on each chromosome
+  genomic library --[is a collection]--> cloned DNA
+  genomics --[studies entire genomes]--> entire genomes
+  host DNA --[is present]--> the genome of the organism
+  linkage analysis --[analyzes recombining genes]--> recombining genes
+  lysis buffer --[breaks the cell membrane]--> the cell membrane
+  metabolome --[is a set]--> metabolites
+  metabolomics --[studies small molecule metabolites]--> small molecule metabolites
+  metagenomics --[studies multiple species' collective genomes]--> multiple species' collective genomes
+  microsatellite polymorphism --[varies between individuals]--> individuals
+  model organism --[is studied by researchers]--> researchers
+  molecular cloning --[clones DNA fragments]--> DNA fragments
+  multiple cloning site (MCS) --[recognizes multiple restriction endonucleases]--> multiple restriction endonucleases
+  Northern blotting --[involves]--> transfer of RNA
+  Northern blotting --[involves]--> a nylon membrane
+  pharmacogenomics --[studies]--> drug interactions
+  pharmacogenomics --[studies]--> the genome
+  pharmacogenomics --[studies]--> the proteome
+  pharmacogenomics --[also called]--> toxicogenomics
+  physical map --[represents]--> the physical distance
+  physical map --[represents]--> genes
+  physical map --[represents]--> genetic markers
+  polygenic --[causes]--> phenotypic characteristic
+  polygenic --[caused by]--> two or more genes
+  polymerase chain reaction --[technique to]--> amplify DNA
+  probe --[determines presence of]--> complementary sequence
+  protease --[breaks down]--> proteins
+  protein signature --[is set of]--> uniquely expressed proteins
+  proteome --[is set of]--> proteins
+  pure culture --[is growth of]--> single cell type
+  radiation hybrid mapping --[obtained by]--> fragmenting the chromosome with x-rays
+  recombinant DNA --[combines]--> DNA fragments
+  recombinant protein --[is product of]--> gene
+  reproductive cloning --[clones]--> entire organism
+  restriction endonuclease --[recognizes and cleaves]--> specific DNA sequences
+  restriction fragment length polymorphism (RFLP) --[is variation in]--> length of DNA fragments
+  reverse genetics --[determines]--> gene's function
+  reverse transcriptase PCR (RT-PCR) --[involves]--> converting RNA to DNA
+  ribonuclease --[breaks down]--> RNA
+  sequence mapping --[obtained after]--> DNA sequencing
+  shotgun sequencing --[sequences]--> multiple DNA fragments
+  single nucleotide polymorphism (SNP) --[is variation in]--> single nucleotide
+  Southern blotting --[transfers]--> DNA from a gel to a nylon membrane
+  systems biology --[studies]--> whole biological systems
+  Ti plasmid --[derived from]--> Agrobacterium tumefaciens
+  transgenic organism --[receives]--> DNA from a different species
+  variable number of tandem repeats (VNTRs) --[is variation in]--> number of tandem repeats
+  whole-genome sequencing --[determines]--> entire genome's DNA sequence
+  nucleic acids --[can be isolated from]--> cells
+  PCR --[can amplify]--> short DNA or RNA stretches
+  Researchers --[can use]--> Southern and Northern blotting
+  cloning --[may refer to]--> cloning small DNA fragments
+  cloning --[may refer to]--> cloning cell populations
+  cloning --[may refer to]--> cloning entire organisms
+  Medical professionals --[perform]--> genetic testing
+  Medical professionals --[use]--> gene therapy
+  transgenic organisms --[possess]--> DNA from a different species
+  vaccines --[are examples of]--> products obtained by recombinant DNA technology
+  antibiotics --[are examples of]--> products obtained by recombinant DNA technology
+  hormones --[are examples of]--> products obtained by recombinant DNA technology
+  Scientists --[create]--> transgenic plants
+  genome mapping --[is similar to]--> solving a big, complicated puzzle
+  genetic maps --[provide outline for]--> locating genes within a genome
+  researchers --[combine information]--> mapping and sequencing sources
+  whole-genome sequencing --[treat genetic diseases]--> genetic diseases
+  doctors --[use whole-genome sequencing]--> whole-genome sequencing
+  genomics --[has applications]--> biofuel development
+  genomics --[has applications]--> agriculture
+  genomics --[has applications]--> pharmaceuticals
+  genomics --[has applications]--> pollution control
+  modern-day sequencing strategies --[involves]--> chain termination method
+  researchers --[use]--> whole-genome sequences of model organisms
+  automation --[may lead to]--> personalized medicine
+  researchers --[apply]--> genomics
+  researchers --[use genomics for]--> personalized medicine
+  researchers --[use genomics for]--> prediction of disease risks at an individual level
+  researchers --[use genomics for]--> studying drug interactions
+  researchers --[use genomics for]--> studying microorganisms in the environment
+  researchers --[apply genomics to]--> generating new biofuels
+  researchers --[apply genomics to]--> genealogical assessment using mitochondria
+  researchers --[apply genomics to]--> advances in forensic science
+  researchers --[apply genomics to]--> improvements in agriculture
+  proteomics --[is the study of]--> the entire set of proteins expressed by a given type of cell under certain environmental conditions
+  proteomics approaches --[rely on]--> protein analysis
+  researchers --[upgrade]--> proteomics techniques
+  researchers --[use proteomics to study]--> different cancer types
+  medical professionals --[use]--> different biomarkers and protein signatures
+  researchers --[left genomic DNA]--> lab bench
+  genomic DNA --[was degraded by]--> nucleases
+  United States Preventative Services Task Force --[recommended against]--> using the PSA test to screen healthy people for prostate cancer
+  GMOs --[are created by]--> generating genomic DNA fragments with restriction endonucleases
+  GMOs --[are created by]--> introducing recombinant DNA into an organism by any means
+  GMOs --[are created by]--> overexpressing proteins in E. coli
+  gene therapy --[can be used to introduce]--> foreign DNA into cells of tissues to cure inheritable disease
+  Insulin --[is produced by]--> molecular cloning
+  Insulin --[is a]--> recombinant protein
+  Bt toxin --[is produced by]--> bacteria
+  Flavr Savr Tomato --[was created to have]--> better flavor and shelf-life
+  Flavr Savr Tomato --[does not undergo]--> soft rot
+  ESTs --[are generated after]--> a cDNA library is made
+  ESTs --[are useful for]--> mapping using sequence information
+  Linkage analysis --[is based on]--> the natural recombination process
+  Genetic recombination --[occurs by]--> crossing over
+  Information --[is used in]--> cytogenetic mapping
+  The chain termination method --[uses]--> labeled ddNTPs
+  Sequencing an individual person’s genome --[is]--> currently possible
+  Sequencing an individual person’s genome --[could lead to]--> legal issues regarding discrimination and privacy
+  Sequencing an individual person’s genome --[could help make]--> informed choices about medical treatment
+  A biomarker --[is a]--> molecule in the genome or proteome
+  A protein signature --[is a]--> unique set of proteins present in a diseased state
+  researcher --[study]--> cancer cells
+  scientist --[introduce]--> gene for herbicide resistance
+  genome sequencing --[answer]--> questions about yourself
+  genome mapping --[find]--> cure for cancer
+  metagenomics --[be]--> revolutionary application of genomics
+  genomics --[predict]--> disease risk and treatment options
+  proteomics --[used in]--> cancer detection and treatment
+
+Saved to /Users/shreyasnair/upsync/adobe-deep-research/outputs/triples_Ch17_Biotechnology_and_Genomics.json
+Neo4j: 1986 nodes, 1718 relationships
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 7070.37it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+Qdrant: 1986 entity vectors, 1718 evidence vectors, 816 chunk vectors
+Visualization saved to /Users/shreyasnair/upsync/adobe-deep-research/outputs/graph_visualization.html
+=== DONE ===

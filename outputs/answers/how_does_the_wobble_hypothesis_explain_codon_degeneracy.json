@@ -1,0 +1,9 @@
+{
+  "question": "How does the wobble hypothesis explain codon degeneracy?",
+  "answer": "I don't know based on the provided context.",
+  "citations": [
+    "chunk:mcb_genetics:138 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | asparagine (Asn). Others get the purine half of their block, like glutamate (Glu) and lysine (Lys). Note that some am...",
+    "chunk:ch15_genes_and_proteins:130 | data/Ch15_Genes_and_Proteins.pdf | Thinking Questions 19. Imagine if there were 200 commonly occurring amino acids instead of 20. Given what you know ab..."
+  ],
+  "reasoning": "Matched entities: codon, degeneracy, a. Traversed graph edges: codon --[specifies]--> insertion of an amino acid; codon --[specifies]--> release of a polypeptide chain; codon --[encodes]--> initiation of translation. Graph evidence: \"codon three consecutive nucleotides in mRNA that specify the insertion of an amino acid or the release of a polypeptide chain during translation\". The provided context does not mention the wobble hypothesis or provide any explanation related to it."
+}

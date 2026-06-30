@@ -1,0 +1,9 @@
+{
+  "question": "What pigment absorbs light energy during the light-dependent reactions of photosynthesis?",
+  "answer": "chlorophyll",
+  "citations": [
+    "chunk:8_1_overview_of_photosynthesis_biology_2e_openstax:15 | data/8.1 Overview of Photosynthesis - Biology 2e _ OpenStax.pdf | from sunlight is absorbed by chlorophyll and that energy is converted into stored chemical energy. In the light-indep...",
+    "triple:5b8fb6528fe3166e | thylakoid --[contains]--> chlorophyll"
+  ],
+  "reasoning": "Matched entities: photosynthesis, energy from sunlight, light energy into chemical energy. Traversed graph edges: Algae --[perform]--> Photosynthesis; fungi --[form mutualistic associations]--> Algae; fungus --[supplies minerals and protection]--> Algae. Graph evidence: \"Plants, algae, and a group of bacteria called cyanobacteria are the only organisms capable of performing photosynthesis.\". The context explicitly states that chlorophyll absorbs light energy from sunlight during the light-dependent reactions of photosynthesis."
+}

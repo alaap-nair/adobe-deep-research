@@ -1,0 +1,8 @@
+{
+  "question": "Why do mutations in DNA polymerase proofreading lead to cancer?",
+  "answer": "Mutations in DNA polymerase proofreading can lead to cancer because they result in uncorrected mistakes during DNA replication, which may cause serious consequences such as mutations in DNA repair mechanisms. These mutations can lead to defects in repair enzymes, increasing the risk of mutations accumulating in somatic cells, potentially resulting in uncontrolled cell division characteristic of cancer.",
+  "citations": [
+    "triple:5b216722e6d52ad7 | mutations in repair genes --[cause]--> cancer"
+  ],
+  "reasoning": "Matched entities: cancer, dna, dna polymerase. Traversed graph edges: mutations in repair genes --[cause]--> cancer; Oswald Avery --[used enzymes to degrade]--> DNA; Oswald Avery --[isolated]--> S strain. Graph evidence: \"Mutations in repair genes have been known to cause cancer.\". The answer is based on the evidence that mutations in DNA polymerase proofreading can lead to uncorrected mistakes during DNA replication, which may result in serious consequences such as cancer. This is supported by the evidence that mutations in repair genes have been known to cause cancer."
+}

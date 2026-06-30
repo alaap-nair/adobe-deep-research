@@ -1,0 +1,9 @@
+{
+  "question": "What does telomerase do?",
+  "answer": "Telomerase extends the ends of chromosomes and maintains telomeres at chromosome ends.",
+  "citations": [
+    "triple:c06d0ab23a17b0ed | telomerase --[extends]--> ends of chromosomes",
+    "triple:23173d7454ab4750 | telomerase --[functions to maintain]--> telomeres at chromosome ends"
+  ],
+  "reasoning": "Matched entities: telomerase. Traversed graph edges: telomerase --[is not active in]--> adult somatic cells; telomerase --[maintains]--> the ends of the linear chromosomes; telomerase --[is present in]--> human cells. Graph evidence: \"It is not active in adult somatic cells.\". The evidence indicates that telomerase extends the ends of chromosomes and maintains telomeres at chromosome ends, as supported by the provided citations."
+}

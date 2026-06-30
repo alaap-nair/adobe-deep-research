@@ -1,0 +1,13 @@
+{
+  "question": "Explain the relationship between introns, exons, and alternative splicing in eukaryotic gene expression.",
+  "answer": "Eukaryotic genes are composed of exons, which are protein-coding sequences, and introns, which are noncoding intervening sequences. Introns are removed and degraded during the splicing process, where exons are reconnected to form the final mRNA. This process ensures that only the coding sequences (exons) are present in the mature mRNA, which is then exported to the cytoplasm for translation. The precise removal of introns is crucial as any error can shift the reading frame and result in a dysfunctional protein.",
+  "citations": [
+    "chunk:mcb_genetics:194 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | exporting the processed mRNA to the cytoplasm. Pre-mRNA Splicing Eukaryotic genes are composed of exons, which corres...",
+    "chunk:mcb_genetics:197 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | introns and reconnecting exons is called splicing (Figure 15.13). Introns are removed and degraded while the pre-mRNA...",
+    "chunk:mcb_genetics:186 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | The eukaryotic pre-mRNA undergoes extensive processing before it is ready to be translated. Eukaryotic protein- codin...",
+    "triple:10cf2f5b5aaf8026 | eukaryotic genes --[are composed of]--> exons and introns",
+    "triple:4c48bdcfa2890687 | pre-mRNAs --[undergo]--> splicing",
+    "triple:c04b51f71842e95d | splicing --[process of]--> reconnecting exons"
+  ],
+  "reasoning": "Matched entities: gene, gene expression, introns. Traversed graph edges: gene --[codes for]--> functional product; gene --[encodes structural protein]--> structural protein; recombinant protein --[is product of]--> gene. Graph evidence: \"A gene is defined as a sequence of DNA that codes for a functional product.\". The context explains that eukaryotic genes contain both exons and introns. Exons are the coding sequences, while introns are noncoding and must be removed during the splicing process. The splicing process involves the precise removal of introns and the reconnection of exons to form the mature mRNA. This process is essential for ensuring that the mRNA is correctly translated into a functional protein."
+}

@@ -1,0 +1,13 @@
+{
+  "question": "Explain the relationship between introns, exons, and alternative splicing in eukaryotic gene expression.",
+  "answer": "Eukaryotic genes are composed of exons, which are protein-coding sequences, and introns, which are noncoding intervening sequences. The process of removing introns and reconnecting exons is called splicing. Splicing is conducted by spliceosomes, which are complexes of proteins and RNA molecules. Introns are removed and degraded while the pre-mRNA is still in the nucleus. The splicing process ensures that introns are removed and exons are rejoined with high precision.",
+  "citations": [
+    "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:9 | 15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt | exporting the processed mRNA to the cytoplasm. Pre-mRNA Splicing Eukaryotic genes are composed of exons, which corres...",
+    "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:12 | 15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt | introns and reconnecting exons is called splicing (Figure 15.13). Introns are removed and degraded while the pre-mRNA...",
+    "triple:fb97f3248c4f8d0d | pre-mRNA --[contains]--> introns",
+    "triple:e0d0d6310fd8b66c | pre-mRNA --[contains]--> exons",
+    "triple:b99df5ef39b1da6b | introns --[are removed by]--> splicing",
+    "triple:5214faddc2dc7e97 | spliceosomes --[catalyzes]--> splicing"
+  ],
+  "reasoning": "Matched entities: exons, introns, splicing. Traversed graph edges: pre-mRNA --[contains]--> exons; eukaryotic pre-mRNA --[contains]--> exons; eukaryotic pre-mRNA --[undergoes]--> RNA processing. Graph evidence: \"Eukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they are expressed).\". The context explains that eukaryotic genes contain exons and introns. Exons are protein-coding sequences, while introns are noncoding sequences that are removed during splicing. Splicing is the process of removing introns and reconnecting exons, which is conducted by spliceosomes. This process ensures the accurate removal of introns and the precise joining of exons."
+}

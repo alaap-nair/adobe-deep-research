@@ -1,0 +1,13 @@
+{
+  "question": "Explain the relationship between introns, exons, and alternative splicing in eukaryotic gene expression.",
+  "answer": "Eukaryotic genes are composed of exons, which are protein-coding sequences, and introns, which are noncoding intervening sequences. The process of removing introns and reconnecting exons is called splicing. Splicing is conducted by spliceosomes and ensures that introns are removed and exons are rejoined with precision. Alternative splicing allows for the production of different mRNA transcripts from a single gene, increasing the diversity of proteins that can be produced.",
+  "citations": [
+    "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:9 | 15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt | exporting the processed mRNA to the cytoplasm. Pre-mRNA Splicing Eukaryotic genes are composed of exons, which corres...",
+    "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:12 | 15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt | introns and reconnecting exons is called splicing (Figure 15.13). Introns are removed and degraded while the pre-mRNA...",
+    "triple:fb97f3248c4f8d0d | pre-mRNA --[contains]--> introns",
+    "triple:e0d0d6310fd8b66c | pre-mRNA --[contains]--> exons",
+    "triple:b99df5ef39b1da6b | introns --[are removed by]--> splicing",
+    "triple:5214faddc2dc7e97 | spliceosomes --[catalyzes]--> splicing"
+  ],
+  "reasoning": "Matched entities: exons, introns, splicing. Traversed graph edges: pre-mRNA --[contains]--> exons; eukaryotic pre-mRNA --[contains]--> exons; eukaryotic pre-mRNA --[undergoes]--> RNA processing. Graph evidence: \"Eukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they are expressed).\". The context explains that eukaryotic genes contain exons (coding sequences) and introns (noncoding sequences). Splicing is the process of removing introns and joining exons, which is crucial for producing functional mRNA. The context also mentions that splicing is conducted by spliceosomes, ensuring precision in the removal of introns and joining of exons. Alternative splicing, though not explicitly detailed, is implied as a mechanism that can produce different mRNA transcripts from a single gene."
+}

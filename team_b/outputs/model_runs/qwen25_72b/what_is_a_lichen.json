@@ -1,0 +1,8 @@
+{
+  "question": "What is a lichen?",
+  "answer": "Lichens are not a single organism, but a mutualism where a fungus (usually a member of the Ascomycota or Basidiomycota) lives in a physical and physiological relationship with a photosynthetic organism (a eukaryotic alga or a prokaryotic cyanobacterium).",
+  "citations": [
+    "chunk:24_3_ecology_of_fungi_biology_2e_openstax:20 | data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf | . Lichens have many forms. They may be (a) crust-like, (b) hair-like, or (c) leaf-like. (credit a: modification of wo..."
+  ],
+  "reasoning": "Matched entities: lichens. Traversed graph edges: lichens --[are formed by a fungus]--> Ascomycota; Ascomycota --[produce]--> asci; Ascomycota --[produce]--> ascospores. Graph evidence: \"Lichens display a range of colors and textures and can survive in the most unusual and hostile habitats.\". The provided context explicitly states that lichens are a mutualistic relationship between a fungus and a photosynthetic organism, which can be an alga or a cyanobacterium."
+}

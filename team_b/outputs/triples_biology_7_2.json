@@ -1,0 +1,197 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 18,
+  "num_entities": 26,
+  "entities": [
+    "ATP",
+    "GLUT proteins",
+    "NADH",
+    "aldolase",
+    "cytoplasm",
+    "dihydroxyacetone-phosphate into glyceraldehyde-3-phosphate",
+    "facilitated diffusion of glucose",
+    "formation of ATP",
+    "formation of pyruvate",
+    "fructose-1,6-bisphosphate",
+    "fructose-1,6-bisphosphate into dihydroxyacetone phosphate and glyceraldehyde-3-phosphate",
+    "glucose",
+    "glucose-6-phosphate",
+    "glucose-6-phosphate into fructose-6-phosphate",
+    "glycolysis",
+    "hexokinase",
+    "isomerase",
+    "phosphofructokinase",
+    "phosphoglycerate kinase",
+    "phosphorylation of fructose-6-phosphate",
+    "phosphorylation of glucose",
+    "pyruvate",
+    "pyruvate kinase",
+    "two ATP molecules",
+    "two NADH molecules",
+    "two distinct phases"
+  ],
+  "triples": [
+    {
+      "head": "glycolysis",
+      "head_type": "Process",
+      "relation": "breaks down",
+      "relation_type": "CONSUMES",
+      "tail": "glucose",
+      "tail_type": "Molecule",
+      "evidence": "Glycolysis is the first step in the breakdown of glucose to extract energy for cellular metabolism."
+    },
+    {
+      "head": "glycolysis",
+      "head_type": "Process",
+      "relation": "produces",
+      "relation_type": "PRODUCES",
+      "tail": "pyruvate",
+      "tail_type": "Molecule",
+      "evidence": "Glycolysis begins with the six-carbon ring-shaped structure of a single glucose molecule and ends with two molecules of a three-carbon sugar called pyruvate."
+    },
+    {
+      "head": "glycolysis",
+      "head_type": "Process",
+      "relation": "produces",
+      "relation_type": "PRODUCES",
+      "tail": "ATP",
+      "tail_type": "Molecule",
+      "evidence": "Glycolysis begins with glucose and produces two pyruvate molecules, four new ATP molecules, and two molecules of NADH."
+    },
+    {
+      "head": "glycolysis",
+      "head_type": "Process",
+      "relation": "produces",
+      "relation_type": "PRODUCES",
+      "tail": "NADH",
+      "tail_type": "Molecule",
+      "evidence": "Glycolysis begins with glucose and produces two pyruvate molecules, four new ATP molecules, and two molecules of NADH."
+    },
+    {
+      "head": "hexokinase",
+      "head_type": "Enzyme",
+      "relation": "catalyzes",
+      "relation_type": "CATALYZES",
+      "tail": "phosphorylation of glucose",
+      "tail_type": "ChemicalReaction",
+      "evidence": "The first step in glycolysis (Figure 7.8) is catalyzed by hexokinase, an enzyme with broad specificity that catalyzes the phosphorylation of six-carbon sugars."
+    },
+    {
+      "head": "hexokinase",
+      "head_type": "Enzyme",
+      "relation": "produces",
+      "relation_type": "PRODUCES",
+      "tail": "glucose-6-phosphate",
+      "tail_type": "Molecule",
+      "evidence": "Hexokinase phosphorylates glucose using ATP as the source of the phosphate, producing glucose-6-phosphate, a more reactive form of glucose."
+    },
+    {
+      "head": "isomerase",
+      "head_type": "Enzyme",
+      "relation": "converts",
+      "relation_type": "CONVERTS_TO",
+      "tail": "glucose-6-phosphate into fructose-6-phosphate",
+      "tail_type": "ChemicalReaction",
+      "evidence": "In the second step of glycolysis, an isomerase converts glucose-6-phosphate into one of its isomers, fructose-6-phosphate."
+    },
+    {
+      "head": "phosphofructokinase",
+      "head_type": "Enzyme",
+      "relation": "catalyzes",
+      "relation_type": "CATALYZES",
+      "tail": "phosphorylation of fructose-6-phosphate",
+      "tail_type": "ChemicalReaction",
+      "evidence": "The third step is the phosphorylation of fructose-6-phosphate, catalyzed by the enzyme phosphofructokinase."
+    },
+    {
+      "head": "phosphofructokinase",
+      "head_type": "Enzyme",
+      "relation": "produces",
+      "relation_type": "PRODUCES",
+      "tail": "fructose-1,6-bisphosphate",
+      "tail_type": "Molecule",
+      "evidence": "A second ATP molecule donates a high-energy phosphate to fructose-6-phosphate, producing fructose-1,6-bisphosphate."
+    },
+    {
+      "head": "aldolase",
+      "head_type": "Enzyme",
+      "relation": "cleaves",
+      "relation_type": "CONVERTS_TO",
+      "tail": "fructose-1,6-bisphosphate into dihydroxyacetone phosphate and glyceraldehyde-3-phosphate",
+      "tail_type": "ChemicalReaction",
+      "evidence": "The fourth step in glycolysis employs an enzyme, aldolase, to cleave fructose-1,6-bisphosphate into two three-carbon isomers: dihydroxyacetone phosphate and glyceraldehyde-3-phosphate."
+    },
+    {
+      "head": "isomerase",
+      "head_type": "Enzyme",
+      "relation": "transforms",
+      "relation_type": "CONVERTS_TO",
+      "tail": "dihydroxyacetone-phosphate into glyceraldehyde-3-phosphate",
+      "tail_type": "ChemicalReaction",
+      "evidence": "In the fifth step, an isomerase transforms the dihydroxyacetone-phosphate into its isomer, glyceraldehyde-3-phosphate."
+    },
+    {
+      "head": "glycolysis",
+      "head_type": "Process",
+      "relation": "occurs in",
+      "relation_type": "OCCURS_IN",
+      "tail": "cytoplasm",
+      "tail_type": "CellularStructure",
+      "evidence": "Glycolysis takes place in the cytoplasm of both prokaryotic and eukaryotic cells."
+    },
+    {
+      "head": "GLUT proteins",
+      "head_type": "Molecule",
+      "relation": "assist in",
+      "relation_type": "REGULATES",
+      "tail": "facilitated diffusion of glucose",
+      "tail_type": "Process",
+      "evidence": "These transporters assist in the facilitated diffusion of glucose."
+    },
+    {
+      "head": "glycolysis",
+      "head_type": "Process",
+      "relation": "consists of",
+      "relation_type": "CONSISTS_OF",
+      "tail": "two distinct phases",
+      "tail_type": "Process",
+      "evidence": "Glycolysis consists of two distinct phases."
+    },
+    {
+      "head": "phosphoglycerate kinase",
+      "head_type": "Enzyme",
+      "relation": "catalyzes",
+      "relation_type": "CATALYZES",
+      "tail": "formation of ATP",
+      "tail_type": "ChemicalReaction",
+      "evidence": "In the seventh step, catalyzed by phosphoglycerate kinase, 1,3-bisphosphoglycerate donates a high-energy phosphate to ADP, forming one molecule of ATP."
+    },
+    {
+      "head": "pyruvate kinase",
+      "head_type": "Enzyme",
+      "relation": "catalyzes",
+      "relation_type": "CATALYZES",
+      "tail": "formation of pyruvate",
+      "tail_type": "ChemicalReaction",
+      "evidence": "The last step in glycolysis is catalyzed by the enzyme pyruvate kinase and results in the production of a second ATP molecule by substrate-level phosphorylation and the compound pyruvic acid (or its salt form, pyruvate)."
+    },
+    {
+      "head": "glycolysis",
+      "head_type": "Process",
+      "relation": "produces",
+      "relation_type": "PRODUCES",
+      "tail": "two ATP molecules",
+      "tail_type": "Molecule",
+      "evidence": "Glycolysis begins with glucose and produces two pyruvate molecules, four new ATP molecules, and two molecules of NADH."
+    },
+    {
+      "head": "glycolysis",
+      "head_type": "Process",
+      "relation": "produces",
+      "relation_type": "PRODUCES",
+      "tail": "two NADH molecules",
+      "tail_type": "Molecule",
+      "evidence": "Glycolysis begins with glucose and produces two pyruvate molecules, four new ATP molecules, and two molecules of NADH."
+    }
+  ]
+}

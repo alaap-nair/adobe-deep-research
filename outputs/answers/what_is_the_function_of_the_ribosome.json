@@ -1,0 +1,9 @@
+{
+  "question": "What is the function of the ribosome?",
+  "answer": "translating the mRNA into protein",
+  "citations": [
+    "chunk:ch15_genes_and_proteins:81 | data/Ch15_Genes_and_Proteins.pdf | In E. coli, there are between 10,000 and 70,000 ribosomes present in each cell at any given time. A ribosome is a com...",
+    "chunk:ch15_genes_and_proteins:80 | data/Ch15_Genes_and_Proteins.pdf | on the organism. However, the general structures and functions of the protein synthesis machinery are comparable from..."
+  ],
+  "reasoning": "Matched entities: ribosome, nonfunctional protein, t. Traversed graph edges: ribosome --[exists in]--> matrix and stroma of mitochondria and chloroplasts; ribosome --[translates]--> mRNA; intron --[spliced from]--> mRNA. Graph evidence: \"Mitochondria and chloroplasts also have their own ribosomes in the matrix and stroma, which look more similar to prokaryotic ribosomes (and have similar drug sensitivities) than the ribosomes just outside their outer membranes in the cytoplasm.\". The evidence directly states that the ribosome is responsible for translating mRNA into protein."
+}

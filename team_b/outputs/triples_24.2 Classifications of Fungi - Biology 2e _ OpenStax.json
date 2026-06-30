@@ -1,0 +1,418 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 41,
+  "num_entities": 40,
+  "entities": [
+    "Ascomycota",
+    "Aspergillus oryzae",
+    "Basidiomycota",
+    "Chytridiomycota",
+    "Chytrids",
+    "Fungi",
+    "Glomeromycota",
+    "Nostoc",
+    "Rhizopus stolonifer",
+    "Zygomycetes",
+    "Zygomycota",
+    "amphibians",
+    "animals",
+    "aquatic environments",
+    "arbuscular mycorrhizae",
+    "asci",
+    "ascocarp",
+    "ascospores",
+    "basidia",
+    "basidiocarp",
+    "basidiospores",
+    "conidiophores",
+    "conidiospores",
+    "decaying organic material",
+    "flagella",
+    "formation of an ascus",
+    "gametes",
+    "humans",
+    "insects",
+    "morels",
+    "mushrooms",
+    "plants",
+    "rusts",
+    "shelf fungi",
+    "smuts",
+    "sporangiospores",
+    "truffles",
+    "yeasts",
+    "zoospores",
+    "zygospore"
+  ],
+  "triples": [
+    {
+      "head": "Chytridiomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "belongs to",
+      "relation_type": "BELONGS_TO",
+      "tail": "Fungi",
+      "tail_type": "TaxonomicGroup",
+      "evidence": "The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10)."
+    },
+    {
+      "head": "Zygomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "belongs to",
+      "relation_type": "BELONGS_TO",
+      "tail": "Fungi",
+      "tail_type": "TaxonomicGroup",
+      "evidence": "The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10)."
+    },
+    {
+      "head": "Ascomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "belongs to",
+      "relation_type": "BELONGS_TO",
+      "tail": "Fungi",
+      "tail_type": "TaxonomicGroup",
+      "evidence": "The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10)."
+    },
+    {
+      "head": "Basidiomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "belongs to",
+      "relation_type": "BELONGS_TO",
+      "tail": "Fungi",
+      "tail_type": "TaxonomicGroup",
+      "evidence": "The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10)."
+    },
+    {
+      "head": "Glomeromycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "belongs to",
+      "relation_type": "BELONGS_TO",
+      "tail": "Fungi",
+      "tail_type": "TaxonomicGroup",
+      "evidence": "The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10)."
+    },
+    {
+      "head": "Chytrids",
+      "head_type": "Organism",
+      "relation": "are",
+      "relation_type": "BELONGS_TO",
+      "tail": "Chytridiomycota",
+      "tail_type": "TaxonomicGroup",
+      "evidence": "The only class in the Phylum Chytridiomycota is the Chytridiomycetes. The chytrids are the simplest and most primitive Eumycota, or true fungi."
+    },
+    {
+      "head": "Chytrids",
+      "head_type": "Organism",
+      "relation": "have",
+      "relation_type": "LOCATED_IN",
+      "tail": "flagella",
+      "tail_type": "CellularStructure",
+      "evidence": "The Chytrids are the only fungi that have retained flagella."
+    },
+    {
+      "head": "Chytrids",
+      "head_type": "Organism",
+      "relation": "produce",
+      "relation_type": "PRODUCES",
+      "tail": "gametes",
+      "tail_type": "Molecule",
+      "evidence": "They produce both gametes and diploid zoospores that swim with the help of a single flagellum."
+    },
+    {
+      "head": "Chytrids",
+      "head_type": "Organism",
+      "relation": "produce",
+      "relation_type": "PRODUCES",
+      "tail": "zoospores",
+      "tail_type": "Molecule",
+      "evidence": "They produce both gametes and diploid zoospores that swim with the help of a single flagellum."
+    },
+    {
+      "head": "Chytrids",
+      "head_type": "Organism",
+      "relation": "live in",
+      "relation_type": "LOCATED_IN",
+      "tail": "aquatic environments",
+      "tail_type": "EcologicalRole",
+      "evidence": "Chytrids usually live in aquatic environments, although some species live on land."
+    },
+    {
+      "head": "Chytrids",
+      "head_type": "Organism",
+      "relation": "are",
+      "relation_type": "PARASITIC_ON",
+      "tail": "plants",
+      "tail_type": "Organism",
+      "evidence": "Some species thrive as parasites on plants, insects, or amphibians (Figure 24.11), while others are saprobes."
+    },
+    {
+      "head": "Chytrids",
+      "head_type": "Organism",
+      "relation": "are",
+      "relation_type": "PARASITIC_ON",
+      "tail": "insects",
+      "tail_type": "Organism",
+      "evidence": "Some species thrive as parasites on plants, insects, or amphibians (Figure 24.11), while others are saprobes."
+    },
+    {
+      "head": "Chytrids",
+      "head_type": "Organism",
+      "relation": "are",
+      "relation_type": "PARASITIC_ON",
+      "tail": "amphibians",
+      "tail_type": "Organism",
+      "evidence": "Some species thrive as parasites on plants, insects, or amphibians (Figure 24.11), while others are saprobes."
+    },
+    {
+      "head": "Zygomycetes",
+      "head_type": "Organism",
+      "relation": "belong to",
+      "relation_type": "BELONGS_TO",
+      "tail": "Zygomycota",
+      "tail_type": "TaxonomicGroup",
+      "evidence": "The zygomycetes are a relatively small group of fungi belonging to the Phylum Zygomycota."
+    },
+    {
+      "head": "Zygomycetes",
+      "head_type": "Organism",
+      "relation": "include",
+      "relation_type": "PART_OF",
+      "tail": "Rhizopus stolonifer",
+      "tail_type": "Organism",
+      "evidence": "They include the familiar bread mold, Rhizopus stolonifer, which rapidly propagates on the surfaces of breads, fruits, and vegetables."
+    },
+    {
+      "head": "Zygomycetes",
+      "head_type": "Organism",
+      "relation": "live off",
+      "relation_type": "DECOMPOSES",
+      "tail": "decaying organic material",
+      "tail_type": "Molecule",
+      "evidence": "Most species are saprobes, living off decaying organic material; a few are parasites, particularly of insects."
+    },
+    {
+      "head": "Zygomycetes",
+      "head_type": "Organism",
+      "relation": "are",
+      "relation_type": "PARASITIC_ON",
+      "tail": "insects",
+      "tail_type": "Organism",
+      "evidence": "Most species are saprobes, living off decaying organic material; a few are parasites, particularly of insects."
+    },
+    {
+      "head": "Zygomycetes",
+      "head_type": "Organism",
+      "relation": "produce",
+      "relation_type": "PRODUCES",
+      "tail": "sporangiospores",
+      "tail_type": "Molecule",
+      "evidence": "The fungi usually reproduce asexually by producing sporangiospores (Figure 24.12)."
+    },
+    {
+      "head": "Zygomycetes",
+      "head_type": "Organism",
+      "relation": "produce",
+      "relation_type": "PRODUCES",
+      "tail": "zygospore",
+      "tail_type": "Molecule",
+      "evidence": "Each zygospore can contain several diploid nuclei."
+    },
+    {
+      "head": "Ascomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "characterized by",
+      "relation_type": "CONSISTS_OF",
+      "tail": "formation of an ascus",
+      "tail_type": "CellularStructure",
+      "evidence": "The Phylum Ascomycota, which is characterized by the formation of an ascus (plural, asci), a sac-like structure that contains haploid ascospores."
+    },
+    {
+      "head": "Ascomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "include",
+      "relation_type": "PART_OF",
+      "tail": "yeasts",
+      "tail_type": "Organism",
+      "evidence": "Some play a beneficial role for humanity, such as the yeasts used in baking, brewing, and wine fermentation, and directly as food delicacies such as truffles and morels."
+    },
+    {
+      "head": "Ascomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "include",
+      "relation_type": "PART_OF",
+      "tail": "truffles",
+      "tail_type": "Organism",
+      "evidence": "Some play a beneficial role for humanity, such as the yeasts used in baking, brewing, and wine fermentation, and directly as food delicacies such as truffles and morels."
+    },
+    {
+      "head": "Ascomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "include",
+      "relation_type": "PART_OF",
+      "tail": "morels",
+      "tail_type": "Organism",
+      "evidence": "Some play a beneficial role for humanity, such as the yeasts used in baking, brewing, and wine fermentation, and directly as food delicacies such as truffles and morels."
+    },
+    {
+      "head": "Ascomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "include",
+      "relation_type": "PART_OF",
+      "tail": "Aspergillus oryzae",
+      "tail_type": "Organism",
+      "evidence": "Aspergillus oryzae is used in the fermentation of rice to produce sake."
+    },
+    {
+      "head": "Ascomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "parasitize",
+      "relation_type": "PARASITIC_ON",
+      "tail": "plants",
+      "tail_type": "Organism",
+      "evidence": "Other ascomycetes parasitize plants and animals, including humans."
+    },
+    {
+      "head": "Ascomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "parasitize",
+      "relation_type": "PARASITIC_ON",
+      "tail": "animals",
+      "tail_type": "Organism",
+      "evidence": "Other ascomycetes parasitize plants and animals, including humans."
+    },
+    {
+      "head": "Ascomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "parasitize",
+      "relation_type": "PARASITIC_ON",
+      "tail": "humans",
+      "tail_type": "Organism",
+      "evidence": "Other ascomycetes parasitize plants and animals, including humans."
+    },
+    {
+      "head": "Ascomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "produce",
+      "relation_type": "PRODUCES",
+      "tail": "conidiophores",
+      "tail_type": "CellularStructure",
+      "evidence": "Asexual reproduction is frequent and involves the production of conidiophores that release haploid conidiospores (Figure 24.14)."
+    },
+    {
+      "head": "Ascomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "produce",
+      "relation_type": "PRODUCES",
+      "tail": "conidiospores",
+      "tail_type": "Molecule",
+      "evidence": "Asexual reproduction is frequent and involves the production of conidiophores that release haploid conidiospores (Figure 24.14)."
+    },
+    {
+      "head": "Ascomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "produce",
+      "relation_type": "PRODUCES",
+      "tail": "asci",
+      "tail_type": "CellularStructure",
+      "evidence": "Sexual reproduction starts with the development of special hyphae from either one of two types of mating strains (Figure 24.14)."
+    },
+    {
+      "head": "Ascomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "produce",
+      "relation_type": "PRODUCES",
+      "tail": "ascocarp",
+      "tail_type": "CellularStructure",
+      "evidence": "Thousands of asci fill a fruiting body called the ascocarp."
+    },
+    {
+      "head": "Ascomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "produce",
+      "relation_type": "PRODUCES",
+      "tail": "ascospores",
+      "tail_type": "Molecule",
+      "evidence": "The spores in each ascus contain the meiotic products of a single diploid nucleus. The ascospores are then released, germinate, and form hyphae that are disseminated in the environment and start new mycelia (Figure 24.15)."
+    },
+    {
+      "head": "Basidiomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "include",
+      "relation_type": "PART_OF",
+      "tail": "mushrooms",
+      "tail_type": "Organism",
+      "evidence": "The basidia, which are the reproductive organs of these fungi, are often contained within the familiar mushroom, commonly seen in fields after rain, on the supermarket shelves, and growing on your lawn (Figure 24.16)."
+    },
+    {
+      "head": "Basidiomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "include",
+      "relation_type": "PART_OF",
+      "tail": "shelf fungi",
+      "tail_type": "Organism",
+      "evidence": "This group also includes shelf fungi, which cling to the bark of trees like small shelves."
+    },
+    {
+      "head": "Basidiomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "include",
+      "relation_type": "PART_OF",
+      "tail": "smuts",
+      "tail_type": "Organism",
+      "evidence": "This group also includes smuts and rusts, which are important plant pathogens."
+    },
+    {
+      "head": "Basidiomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "include",
+      "relation_type": "PART_OF",
+      "tail": "rusts",
+      "tail_type": "Organism",
+      "evidence": "This group also includes smuts and rusts, which are important plant pathogens."
+    },
+    {
+      "head": "Basidiomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "produce",
+      "relation_type": "PRODUCES",
+      "tail": "basidia",
+      "tail_type": "CellularStructure",
+      "evidence": "The fungi in the Phylum Basidiomycota are easily recognizable under a light microscope by their club-shaped fruiting bodies called basidia (singular, basidium), which are the swollen terminal cells of hyphae."
+    },
+    {
+      "head": "Basidiomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "produce",
+      "relation_type": "PRODUCES",
+      "tail": "basidiospores",
+      "tail_type": "Molecule",
+      "evidence": "The sexual spores form in the club-shaped basidium and are called basidiospores."
+    },
+    {
+      "head": "Basidiomycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "produce",
+      "relation_type": "PRODUCES",
+      "tail": "basidiocarp",
+      "tail_type": "CellularStructure",
+      "evidence": "Eventually, the secondary mycelium generates a basidiocarp, a fruiting body that protrudes from the ground\u2014this is what we think of as a mushroom."
+    },
+    {
+      "head": "Glomeromycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "form",
+      "relation_type": "MUTUALISTIC_WITH",
+      "tail": "arbuscular mycorrhizae",
+      "tail_type": "EcologicalRole",
+      "evidence": "It appears that nearly all members of this family form arbuscular mycorrhizae: the hyphae interact with the root cells forming a mutually beneficial association in which the plants supply the carbon source and energy in the form of carbohydrates to the fungus, and the fungus supplies essential minerals from the soil to the plant."
+    },
+    {
+      "head": "Glomeromycota",
+      "head_type": "TaxonomicGroup",
+      "relation": "host",
+      "relation_type": "MUTUALISTIC_WITH",
+      "tail": "Nostoc",
+      "tail_type": "Organism",
+      "evidence": "The exception is Geosiphon pyriformis, which hosts the cyanobacterium Nostoc as an endosymbiont."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "question": "What is a plasmid?",
+  "answer": "A plasmid, or vector, is a small circular DNA molecule that replicates independently of the chromosomal DNA.",
+  "citations": [
+    "chunk:mcb_genetics:280 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | ways to improve health. Cloning small genome fragments allows researchers to manipulate and study specific genes (and...",
+    "triple:eb685a0ab55ffc0d | Plasmid --[replicates]--> independently of the chromosomal DNA",
+    "triple:f008f270930f2a1b | Plasmid --[is]--> a small circular DNA molecule"
+  ],
+  "reasoning": "Matched entities: plasmid. Traversed graph edges: Plasmid --[replicates]--> independently of the chromosomal DNA; Plasmid --[contains]--> one or a few genes; Plasmid --[is]--> a small circular DNA molecule. Graph evidence: \"A plasmid, or vector, is a small circular DNA molecule that replicates independently of the chromosomal DNA.\". The context defines a plasmid as a small circular DNA molecule that replicates independently of the chromosomal DNA, which matches the provided evidence."
+}

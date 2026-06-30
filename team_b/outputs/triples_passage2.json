@@ -1,0 +1,301 @@
+{
+  "model": "mistralai/mistral-small-3.1-24b-instruct:free",
+  "num_triples": 41,
+  "num_entities": 46,
+  "entities": [
+    "3-phosphoglycerate",
+    "ATP",
+    "ATP synthase",
+    "C4 plants",
+    "CAM plants",
+    "Calvin cycle",
+    "Chlorophyll",
+    "Electron transport chain",
+    "Electrons",
+    "G3P molecules",
+    "Light energy",
+    "Light reactions",
+    "Light-dependent reactions",
+    "NADPH",
+    "NADP\u207a",
+    "NADP\u207a reductase",
+    "Photolysis",
+    "Photorespiration",
+    "Photosynthesis",
+    "Photosystem I",
+    "Photosystem II",
+    "RuBP",
+    "RuBisCO",
+    "Water molecules",
+    "algae",
+    "bacteria",
+    "carbon dioxide",
+    "carbon fixation",
+    "chlorophyll",
+    "chloroplasts",
+    "electron transport chain",
+    "electrons",
+    "ferredoxin",
+    "glucose",
+    "light energy",
+    "oxygen",
+    "photolysis",
+    "photorespiration",
+    "plants",
+    "proton gradient",
+    "protons",
+    "ribulose-1,5-bisphosphate",
+    "stroma",
+    "sunlight",
+    "thylakoid membranes",
+    "water"
+  ],
+  "triples": [
+    {
+      "head": "Photosynthesis",
+      "relation": "is process of",
+      "tail": "plants",
+      "evidence": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose."
+    },
+    {
+      "head": "Photosynthesis",
+      "relation": "is process of",
+      "tail": "algae",
+      "evidence": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose."
+    },
+    {
+      "head": "Photosynthesis",
+      "relation": "is process of",
+      "tail": "bacteria",
+      "evidence": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in glucose."
+    },
+    {
+      "head": "Photosynthesis",
+      "relation": "occurs in",
+      "tail": "chloroplasts",
+      "evidence": "It occurs primarily in the chloroplasts of plant cells."
+    },
+    {
+      "head": "Photosynthesis",
+      "relation": "requires",
+      "tail": "carbon dioxide",
+      "evidence": "Photosynthesis requires carbon dioxide, water, and sunlight as inputs and produces glucose and oxygen as outputs."
+    },
+    {
+      "head": "Photosynthesis",
+      "relation": "requires",
+      "tail": "water",
+      "evidence": "Photosynthesis requires carbon dioxide, water, and sunlight as inputs and produces glucose and oxygen as outputs."
+    },
+    {
+      "head": "Photosynthesis",
+      "relation": "requires",
+      "tail": "sunlight",
+      "evidence": "Photosynthesis requires carbon dioxide, water, and sunlight as inputs and produces glucose and oxygen as outputs."
+    },
+    {
+      "head": "Photosynthesis",
+      "relation": "produces",
+      "tail": "glucose",
+      "evidence": "Photosynthesis requires carbon dioxide, water, and sunlight as inputs and produces glucose and oxygen as outputs."
+    },
+    {
+      "head": "Photosynthesis",
+      "relation": "produces",
+      "tail": "oxygen",
+      "evidence": "Photosynthesis requires carbon dioxide, water, and sunlight as inputs and produces glucose and oxygen as outputs."
+    },
+    {
+      "head": "Light-dependent reactions",
+      "relation": "take place in",
+      "tail": "thylakoid membranes",
+      "evidence": "The light-dependent reactions take place in the thylakoid membranes of the chloroplast."
+    },
+    {
+      "head": "Chlorophyll",
+      "relation": "absorbs",
+      "tail": "light energy",
+      "evidence": "Chlorophyll and other pigments in photosystem II absorb light energy, which excites electrons to a higher energy state."
+    },
+    {
+      "head": "Photosystem II",
+      "relation": "contains",
+      "tail": "chlorophyll",
+      "evidence": "Chlorophyll and other pigments in photosystem II absorb light energy, which excites electrons to a higher energy state."
+    },
+    {
+      "head": "Light energy",
+      "relation": "excites",
+      "tail": "electrons",
+      "evidence": "Chlorophyll and other pigments in photosystem II absorb light energy, which excites electrons to a higher energy state."
+    },
+    {
+      "head": "Water molecules",
+      "relation": "undergo",
+      "tail": "photolysis",
+      "evidence": "Water molecules are split in a process called photolysis, releasing oxygen, protons, and electrons."
+    },
+    {
+      "head": "Photolysis",
+      "relation": "releases",
+      "tail": "oxygen",
+      "evidence": "Water molecules are split in a process called photolysis, releasing oxygen, protons, and electrons."
+    },
+    {
+      "head": "Photolysis",
+      "relation": "releases",
+      "tail": "protons",
+      "evidence": "Water molecules are split in a process called photolysis, releasing oxygen, protons, and electrons."
+    },
+    {
+      "head": "Photolysis",
+      "relation": "releases",
+      "tail": "electrons",
+      "evidence": "Water molecules are split in a process called photolysis, releasing oxygen, protons, and electrons."
+    },
+    {
+      "head": "Electrons",
+      "relation": "pass through",
+      "tail": "electron transport chain",
+      "evidence": "The excited electrons pass through an electron transport chain, which pumps protons into the thylakoid lumen, generating a proton gradient."
+    },
+    {
+      "head": "Electron transport chain",
+      "relation": "pumps",
+      "tail": "protons",
+      "evidence": "The excited electrons pass through an electron transport chain, which pumps protons into the thylakoid lumen, generating a proton gradient."
+    },
+    {
+      "head": "Electron transport chain",
+      "relation": "generates",
+      "tail": "proton gradient",
+      "evidence": "The excited electrons pass through an electron transport chain, which pumps protons into the thylakoid lumen, generating a proton gradient."
+    },
+    {
+      "head": "Photosystem I",
+      "relation": "absorbs",
+      "tail": "light energy",
+      "evidence": "Photosystem I absorbs additional light energy and re-energizes the electrons."
+    },
+    {
+      "head": "Photosystem I",
+      "relation": "re-energizes",
+      "tail": "electrons",
+      "evidence": "Photosystem I absorbs additional light energy and re-energizes the electrons."
+    },
+    {
+      "head": "Electrons",
+      "relation": "transferred to",
+      "tail": "ferredoxin",
+      "evidence": "These electrons are transferred to ferredoxin and then used by the enzyme NADP\u207a reductase to reduce NADP\u207a to NADPH."
+    },
+    {
+      "head": "NADP\u207a reductase",
+      "relation": "reduces",
+      "tail": "NADP\u207a",
+      "evidence": "These electrons are transferred to ferredoxin and then used by the enzyme NADP\u207a reductase to reduce NADP\u207a to NADPH."
+    },
+    {
+      "head": "ATP synthase",
+      "relation": "synthesizes",
+      "tail": "ATP",
+      "evidence": "ATP synthase uses the proton gradient across the thylakoid membrane to synthesize ATP from ADP and inorganic phosphate."
+    },
+    {
+      "head": "ATP synthase",
+      "relation": "uses",
+      "tail": "proton gradient",
+      "evidence": "ATP synthase uses the proton gradient across the thylakoid membrane to synthesize ATP from ADP and inorganic phosphate."
+    },
+    {
+      "head": "Light reactions",
+      "relation": "produce",
+      "tail": "ATP",
+      "evidence": "Together, ATP and NADPH are the primary energy carriers produced by the light reactions."
+    },
+    {
+      "head": "Light reactions",
+      "relation": "produce",
+      "tail": "NADPH",
+      "evidence": "Together, ATP and NADPH are the primary energy carriers produced by the light reactions."
+    },
+    {
+      "head": "Calvin cycle",
+      "relation": "occurs in",
+      "tail": "stroma",
+      "evidence": "The Calvin cycle occurs in the stroma of the chloroplast and does not directly require light."
+    },
+    {
+      "head": "RuBisCO",
+      "relation": "catalyzes",
+      "tail": "carbon fixation",
+      "evidence": "The enzyme RuBisCO catalyzes the fixation of carbon dioxide by combining it with ribulose-1,5-bisphosphate (RuBP), producing two molecules of 3-phosphoglycerate (3-PGA)."
+    },
+    {
+      "head": "RuBisCO",
+      "relation": "combines",
+      "tail": "carbon dioxide",
+      "evidence": "The enzyme RuBisCO catalyzes the fixation of carbon dioxide by combining it with ribulose-1,5-bisphosphate (RuBP), producing two molecules of 3-phosphoglycerate (3-PGA)."
+    },
+    {
+      "head": "RuBisCO",
+      "relation": "combines",
+      "tail": "ribulose-1,5-bisphosphate",
+      "evidence": "The enzyme RuBisCO catalyzes the fixation of carbon dioxide by combining it with ribulose-1,5-bisphosphate (RuBP), producing two molecules of 3-phosphoglycerate (3-PGA)."
+    },
+    {
+      "head": "RuBisCO",
+      "relation": "produces",
+      "tail": "3-phosphoglycerate",
+      "evidence": "The enzyme RuBisCO catalyzes the fixation of carbon dioxide by combining it with ribulose-1,5-bisphosphate (RuBP), producing two molecules of 3-phosphoglycerate (3-PGA)."
+    },
+    {
+      "head": "ATP",
+      "relation": "reduces",
+      "tail": "3-phosphoglycerate",
+      "evidence": "ATP and NADPH from the light reactions are used to reduce 3-PGA into glyceraldehyde-3-phosphate (G3P)."
+    },
+    {
+      "head": "NADPH",
+      "relation": "reduces",
+      "tail": "3-phosphoglycerate",
+      "evidence": "ATP and NADPH from the light reactions are used to reduce 3-PGA into glyceraldehyde-3-phosphate (G3P)."
+    },
+    {
+      "head": "G3P molecules",
+      "relation": "synthesize",
+      "tail": "glucose",
+      "evidence": "Some G3P molecules are used to synthesize glucose, while the rest are recycled to regenerate RuBP, allowing the cycle to continue."
+    },
+    {
+      "head": "G3P molecules",
+      "relation": "regenerate",
+      "tail": "RuBP",
+      "evidence": "Some G3P molecules are used to synthesize glucose, while the rest are recycled to regenerate RuBP, allowing the cycle to continue."
+    },
+    {
+      "head": "RuBisCO",
+      "relation": "binds",
+      "tail": "oxygen",
+      "evidence": "Under high temperatures or low carbon dioxide concentrations, RuBisCO can bind oxygen instead of carbon dioxide in a process called photorespiration."
+    },
+    {
+      "head": "Photorespiration",
+      "relation": "consumes",
+      "tail": "ATP",
+      "evidence": "Photorespiration reduces the efficiency of photosynthesis because it consumes ATP without producing useful carbon fixation products."
+    },
+    {
+      "head": "C4 plants",
+      "relation": "minimize",
+      "tail": "photorespiration",
+      "evidence": "C4 plants and CAM plants have evolved mechanisms to concentrate carbon dioxide near RuBisCO, minimizing photorespiration and improving photosynthetic efficiency in hot or arid environments."
+    },
+    {
+      "head": "CAM plants",
+      "relation": "minimize",
+      "tail": "photorespiration",
+      "evidence": "C4 plants and CAM plants have evolved mechanisms to concentrate carbon dioxide near RuBisCO, minimizing photorespiration and improving photosynthetic efficiency in hot or arid environments."
+    }
+  ]
+}

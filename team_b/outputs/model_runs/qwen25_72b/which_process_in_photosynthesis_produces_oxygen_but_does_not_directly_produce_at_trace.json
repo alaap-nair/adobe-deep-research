@@ -1,0 +1,628 @@
+{
+  "question": "Which process in photosynthesis produces oxygen but does NOT directly produce ATP?",
+  "generated_at": "2026-05-01T06:51:12.491957+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "process",
+        "photosynthesis",
+        "produces",
+        "oxygen",
+        "but",
+        "not",
+        "directly",
+        "produce",
+        "atp",
+        "process photosynthesis",
+        "photosynthesis produces",
+        "produces oxygen",
+        "oxygen but",
+        "but not",
+        "not directly",
+        "directly produce",
+        "produce atp",
+        "process photosynthesis produces",
+        "photosynthesis produces oxygen",
+        "produces oxygen but",
+        "oxygen but not",
+        "but not directly",
+        "not directly produce",
+        "directly produce atp"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:atp",
+          "name": "atp",
+          "matched_text": "atp",
+          "matched_alias": "atp",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:oxygen",
+          "name": "oxygen",
+          "matched_text": "oxygen",
+          "matched_alias": "oxygen",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:photosynthesis",
+          "name": "photosynthesis",
+          "matched_text": "photosynthesis",
+          "matched_alias": "photosynthesis",
+          "score": 1.0,
+          "match_type": "keyword"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:11",
+          "text": "Three more molecules of ATP are\nused in these regeneration reactions.\n\nLINK TO LEARNING\nThis link leads to an animation of photosynthesis and the Calvin cycle. EVOLUTION CONNECTION\nPhotosynthesis\nDuring the evolution of photosynthesis, a major shift occurred from the bacterial type of\nphotosynthesis that involves only one photosystem and is typically anoxygenic (does not\ngenerate oxygen) into modern oxygenic (does generate oxygen) photosynthesis, employing\ntwo photosystems. This modern oxygenic photosynthesis is used by many organisms—from\ngiant tropical leaves in the rainforest to tiny cyanobacterial cells—and the process and\ncomponents of this photosynthesis remain largely the same.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 11,
+          "snippet": "Three more molecules of ATP are\nused in these regeneration reactions.\n\nLINK TO LEARNING\nThis link leads to an animation of photosynthesis and the Calvin cycle. EVOLUTION CONNECTION\nPhotosynthesis\nDuring the evolution of photosynthesis, a major shift occurred from the bacterial type of\nphotosynthesis that involves only one photosystem and is typically anoxygenic (does not\ngenerate oxygen) into mode",
+          "score": 0.7606539008027302
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:18",
+          "text": "is wasteful to photosynthesis. Both are\nbyproducts of reactions that move on to other reactions.\n\nPhotosynthesis absorbs light energy to build\ncarbohydrates in chloroplasts, and aerobic cellular respiration releases energy by using oxygen to\nmetabolize carbohydrates in the cytoplasm and mitochondria. Both processes use electron transport\nchains to capture the energy necessary to drive other reactions. These two powerhouse processes,\nphotosynthesis and cellular respiration, function in biological, cyclical harmony to allow organisms to\naccess life-sustaining energy that originates millions of miles away in a burning star humans call the\nsun.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 18,
+          "snippet": "is wasteful to photosynthesis. Both are\nbyproducts of reactions that move on to other reactions.\n\nPhotosynthesis absorbs light energy to build\ncarbohydrates in chloroplasts, and aerobic cellular respiration releases energy by using oxygen to\nmetabolize carbohydrates in the cytoplasm and mitochondria. Both processes use electron transport\nchains to capture the energy necessary to drive other reacti",
+          "score": 0.7580337733420052
+        },
+        {
+          "chunk_id": "chunk:8_1_overview_of_photosynthesis_biology_2e_openstax:10",
+          "text": "/books/biology-2e/pages/8-1-overview-of-photosynthesis\n4/8\n\nFigure 8.5 The basic equation for photosynthesis is deceptively simple. In reality, the process takes place in many steps involving\nintermediate reactants and products. Glucose, the primary energy source in cells, is made from two three-carbon G3Ps. Although the equation looks simple, the many steps that take place during photosynthesis are actually\nquite complex. Before learning the details of how photoautotrophs turn sunlight into food, it is important\nto become familiar with the structures involved. Basic Photosynthetic Structures\nIn plants, photosynthesis generally takes place in leaves, which consist of several layers of cells.",
+          "source_name": "data/8.1 Overview of Photosynthesis - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 10,
+          "snippet": "/books/biology-2e/pages/8-1-overview-of-photosynthesis\n4/8\n\nFigure 8.5 The basic equation for photosynthesis is deceptively simple. In reality, the process takes place in many steps involving\nintermediate reactants and products. Glucose, the primary energy source in cells, is made from two three-carbon G3Ps. Although the equation looks simple, the many steps that take place during photosynthesis a",
+          "score": 0.7487692512225661
+        },
+        {
+          "chunk_id": "chunk:8_3_using_light_energy_to_make_organic_molecules_biology_2e_openstax:20",
+          "text": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules\n7/8\n\nprocess in which the chemical energy stored in sugars is converted into ATP, a source of chemical energy that can be used by the rest of\nthe cell. In the process of converting the energy stored in the sugars to ATP, CO2 is released and oxygen is consumed. Credit: Rao, A.,\nRyan, and Tag, A. Department of Biology, Texas A&M University. Figure 8.22 Photosynthesis consumes carbon dioxide and produces oxygen. Aerobic respiration consumes oxygen and produces carbon\ndioxide. These two processes play an important role in the carbon cycle.",
+          "source_name": "data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 20,
+          "snippet": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules\n7/8\n\nprocess in which the chemical energy stored in sugars is converted into ATP, a source of chemical energy that can be used by the rest of\nthe cell. In the process of converting the energy stored in the sugars to ATP, CO2 is released and oxygen is consumed. Credit: Rao, A.,\nRyan, and Tag, A. Department ",
+          "score": 0.7451362214150178
+        },
+        {
+          "chunk_id": "chunk:8_2_the_light_dependent_reactions_of_photosynthesis_biology_2e_openstax:20",
+          "text": "in Figure 8.16. Protein\ncomplexes and pigment molecules work together to produce NADPH and ATP.\n\nThe numbering of the\nphotosystems is derived from the order in which they were discovered, not in the order of the transfer of\nelectrons. 4/14/26, 11:44 AM\n8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e | OpenStax\nhttps://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis\n8/12",
+          "source_name": "data/8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 20,
+          "snippet": "in Figure 8.16. Protein\ncomplexes and pigment molecules work together to produce NADPH and ATP.\n\nThe numbering of the\nphotosystems is derived from the order in which they were discovered, not in the order of the transfer of\nelectrons. 4/14/26, 11:44 AM\n8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e | OpenStax\nhttps://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-rea",
+          "score": 0.7416071673632567
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:a8e0bdc03ce9232c",
+          "head_entity_id": "ent:photosynthesis",
+          "tail_entity_id": "ent:light-dependent_reactions",
+          "relation": "consists of",
+          "evidence": "Photosynthesis takes place in two sequential stages: the light-dependent reactions and the light-independent reactions.",
+          "head_name": "photosynthesis",
+          "tail_name": "light-dependent reactions",
+          "score": 0.7429902970093065
+        },
+        {
+          "triple_id": "triple:7281bd04e912771f",
+          "head_entity_id": "ent:photosynthesis",
+          "tail_entity_id": "ent:water",
+          "relation": "requires",
+          "evidence": "Photosynthesis is a multi-step process that requires specific wavelengths of visible sunlight, carbon dioxide (which is low in energy), and water as substrates.",
+          "head_name": "photosynthesis",
+          "tail_name": "water",
+          "score": 0.7406300010905005
+        },
+        {
+          "triple_id": "triple:927ce17ce150d2d2",
+          "head_entity_id": "ent:photosystem_ii",
+          "tail_entity_id": "ent:electrons_from_water",
+          "relation": "extracts",
+          "evidence": "In the photosystem II (PSII) reaction center, energy from sunlight is used to extract electrons from water.",
+          "head_name": "photosystem ii",
+          "tail_name": "electrons from water",
+          "score": 0.6909223629660572
+        },
+        {
+          "triple_id": "triple:ffce76c71960b045",
+          "head_entity_id": "ent:photosynthesis",
+          "tail_entity_id": "ent:leaves",
+          "relation": "occurs in",
+          "evidence": "In plants, photosynthesis generally takes place in leaves, which consist of several layers of cells.",
+          "head_name": "photosynthesis",
+          "tail_name": "leaves",
+          "score": 0.6882819564653384
+        },
+        {
+          "triple_id": "triple:34347d9d7d0e2b7e",
+          "head_entity_id": "ent:photosynthesis",
+          "tail_entity_id": "ent:mesophyll",
+          "relation": "occurs in",
+          "evidence": "The process of photosynthesis occurs in a middle layer called the mesophyll.",
+          "head_name": "photosynthesis",
+          "tail_name": "mesophyll",
+          "score": 0.6843852316187158
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:atp",
+        "ent:oxygen",
+        "ent:photosynthesis",
+        "ent:light-dependent_reactions",
+        "ent:water",
+        "ent:photosystem_ii",
+        "ent:electrons_from_water",
+        "ent:leaves",
+        "ent:mesophyll"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "atp",
+          "entity_id": "ent:atp",
+          "original_names": [
+            "ATP"
+          ]
+        },
+        {
+          "name": "atp synthase",
+          "entity_id": "ent:atp_synthase",
+          "original_names": [
+            "ATP synthase"
+          ]
+        },
+        {
+          "name": "a third phosphate group to adp",
+          "entity_id": "ent:a_third_phosphate_group_to_adp",
+          "original_names": [
+            "a third phosphate group to ADP"
+          ]
+        },
+        {
+          "name": "calvin cycle",
+          "entity_id": "ent:calvin_cycle",
+          "original_names": [
+            "Calvin cycle"
+          ]
+        },
+        {
+          "name": "carbon dioxide",
+          "entity_id": "ent:carbon_dioxide",
+          "original_names": [
+            "carbon dioxide"
+          ]
+        },
+        {
+          "name": "g3p",
+          "entity_id": "ent:g3p",
+          "original_names": [
+            "G3P"
+          ]
+        },
+        {
+          "name": "nadph",
+          "entity_id": "ent:nadph",
+          "original_names": [
+            "NADPH"
+          ]
+        },
+        {
+          "name": "stroma",
+          "entity_id": "ent:stroma",
+          "original_names": [
+            "stroma"
+          ]
+        },
+        {
+          "name": "carbohydrates",
+          "entity_id": "ent:carbohydrates",
+          "original_names": [
+            "carbohydrates"
+          ]
+        },
+        {
+          "name": "oxygen",
+          "entity_id": "ent:oxygen",
+          "original_names": [
+            "oxygen"
+          ]
+        },
+        {
+          "name": "photosynthesis",
+          "entity_id": "ent:photosynthesis",
+          "original_names": [
+            "Photosynthesis",
+            "photosynthesis"
+          ]
+        },
+        {
+          "name": "algae",
+          "entity_id": "ent:algae",
+          "original_names": [
+            "Algae"
+          ]
+        },
+        {
+          "name": "light-dependent reactions",
+          "entity_id": "ent:light-dependent_reactions",
+          "original_names": [
+            "light-dependent reactions",
+            "Light-dependent reactions"
+          ]
+        },
+        {
+          "name": "sunlight",
+          "entity_id": "ent:sunlight",
+          "original_names": [
+            "sunlight"
+          ]
+        },
+        {
+          "name": "leaves",
+          "entity_id": "ent:leaves",
+          "original_names": [
+            "leaves"
+          ]
+        },
+        {
+          "name": "glyceraldehyde-3-phosphate",
+          "entity_id": "ent:glyceraldehyde-3-phosphate",
+          "original_names": [
+            "glyceraldehyde-3-phosphate"
+          ]
+        },
+        {
+          "name": "plants",
+          "entity_id": "ent:plants",
+          "original_names": [
+            "plants"
+          ]
+        },
+        {
+          "name": "water",
+          "entity_id": "ent:water",
+          "original_names": [
+            "water"
+          ]
+        },
+        {
+          "name": "light-independent reactions",
+          "entity_id": "ent:light-independent_reactions",
+          "original_names": [
+            "light-independent reactions",
+            "Light-independent reactions"
+          ]
+        },
+        {
+          "name": "chloroplast",
+          "entity_id": "ent:chloroplast",
+          "original_names": [
+            "chloroplast",
+            "Chloroplast"
+          ]
+        },
+        {
+          "name": "carbohydrate molecules",
+          "entity_id": "ent:carbohydrate_molecules",
+          "original_names": [
+            "carbohydrate molecules"
+          ]
+        },
+        {
+          "name": "cyanobacteria",
+          "entity_id": "ent:cyanobacteria",
+          "original_names": [
+            "Cyanobacteria"
+          ]
+        },
+        {
+          "name": "mesophyll",
+          "entity_id": "ent:mesophyll",
+          "original_names": [
+            "mesophyll"
+          ]
+        },
+        {
+          "name": "photosystem ii",
+          "entity_id": "ent:photosystem_ii",
+          "original_names": [
+            "photosystem II"
+          ]
+        },
+        {
+          "name": "electrons from water",
+          "entity_id": "ent:electrons_from_water",
+          "original_names": [
+            "electrons from water"
+          ]
+        },
+        {
+          "name": "fungi",
+          "entity_id": "ent:fungi",
+          "original_names": [
+            "fungi"
+          ]
+        },
+        {
+          "name": "fungus",
+          "entity_id": "ent:fungus",
+          "original_names": [
+            "fungus"
+          ]
+        },
+        {
+          "name": "thylakoid membrane",
+          "entity_id": "ent:thylakoid_membrane",
+          "original_names": [
+            "thylakoid membrane"
+          ]
+        },
+        {
+          "name": "chytrids",
+          "entity_id": "ent:chytrids",
+          "original_names": [
+            "Chytrids"
+          ]
+        },
+        {
+          "name": "ascomycota",
+          "entity_id": "ent:ascomycota",
+          "original_names": [
+            "Ascomycota"
+          ]
+        },
+        {
+          "name": "energy from sunlight",
+          "entity_id": "ent:energy_from_sunlight",
+          "original_names": [
+            "energy from sunlight"
+          ]
+        },
+        {
+          "name": "thylakoids",
+          "entity_id": "ent:thylakoids",
+          "original_names": [
+            "thylakoids"
+          ]
+        },
+        {
+          "name": "chlorophyll a and b",
+          "entity_id": "ent:chlorophyll_a_and_b",
+          "original_names": [
+            "chlorophyll a and b"
+          ]
+        },
+        {
+          "name": "carotenoids",
+          "entity_id": "ent:carotenoids",
+          "original_names": [
+            "carotenoids"
+          ]
+        },
+        {
+          "name": "chytridiomycota",
+          "entity_id": "ent:chytridiomycota",
+          "original_names": [
+            "Chytridiomycota"
+          ]
+        },
+        {
+          "name": "glomeromycota",
+          "entity_id": "ent:glomeromycota",
+          "original_names": [
+            "Glomeromycota"
+          ]
+        },
+        {
+          "name": "basidiomycota",
+          "entity_id": "ent:basidiomycota",
+          "original_names": [
+            "Basidiomycota"
+          ]
+        },
+        {
+          "name": "zygomycota",
+          "entity_id": "ent:zygomycota",
+          "original_names": [
+            "Zygomycota"
+          ]
+        },
+        {
+          "name": "ants",
+          "entity_id": "ent:ants",
+          "original_names": [
+            "ants"
+          ]
+        },
+        {
+          "name": "nitrogen and phosphorus",
+          "entity_id": "ent:nitrogen_and_phosphorus",
+          "original_names": [
+            "nitrogen and phosphorus"
+          ]
+        },
+        {
+          "name": "leaf-cutter ants",
+          "entity_id": "ent:leaf-cutter_ants",
+          "original_names": [
+            "leaf-cutter ants"
+          ]
+        },
+        {
+          "name": "animals",
+          "entity_id": "ent:animals",
+          "original_names": [
+            "animals"
+          ]
+        },
+        {
+          "name": "organic matter",
+          "entity_id": "ent:organic_matter",
+          "original_names": [
+            "organic matter"
+          ]
+        },
+        {
+          "name": "parasites",
+          "entity_id": "ent:parasites",
+          "original_names": [
+            "parasites"
+          ]
+        },
+        {
+          "name": "pathogens",
+          "entity_id": "ent:pathogens",
+          "original_names": [
+            "pathogens"
+          ]
+        },
+        {
+          "name": "mycosis",
+          "entity_id": "ent:mycosis",
+          "original_names": [
+            "mycosis"
+          ]
+        },
+        {
+          "name": "mycotoxicosis",
+          "entity_id": "ent:mycotoxicosis",
+          "original_names": [
+            "mycotoxicosis"
+          ]
+        },
+        {
+          "name": "tissue decay",
+          "entity_id": "ent:tissue_decay",
+          "original_names": [
+            "tissue decay"
+          ]
+        },
+        {
+          "name": "model research organisms",
+          "entity_id": "ent:model_research_organisms",
+          "original_names": [
+            "model research organisms"
+          ]
+        },
+        {
+          "name": "population of damaging pests",
+          "entity_id": "ent:population_of_damaging_pests",
+          "original_names": [
+            "population of damaging pests"
+          ]
+        },
+        {
+          "name": "nutrient cycle",
+          "entity_id": "ent:nutrient_cycle",
+          "original_names": [
+            "nutrient cycle"
+          ]
+        },
+        {
+          "name": "fermentation",
+          "entity_id": "ent:fermentation",
+          "original_names": [
+            "fermentation"
+          ]
+        },
+        {
+          "name": "antibiotics",
+          "entity_id": "ent:antibiotics",
+          "original_names": [
+            "antibiotics"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:atp",
+          "evidence": "The energy released by the hydrogen ion stream allows ATP synthase to attach a third phosphate group to ADP, which forms a molecule of ATP (Figure 8.17).",
+          "target_name": "ATP",
+          "source_entity_id": "ent:atp_synthase",
+          "triple_id": "triple:fe14153c451dd6e1",
+          "source_name": "ATP synthase",
+          "relation": "forms"
+        },
+        {
+          "target_entity_id": "ent:a_third_phosphate_group_to_adp",
+          "evidence": "The energy released by the hydrogen ion stream allows ATP synthase to attach a third phosphate group to ADP, which forms a molecule of ATP (Figure 8.17).",
+          "target_name": "a third phosphate group to ADP",
+          "source_entity_id": "ent:atp_synthase",
+          "triple_id": "triple:058ac06ef3970837",
+          "source_name": "ATP synthase",
+          "relation": "attaches"
+        },
+        {
+          "target_entity_id": "ent:atp",
+          "evidence": "ATP and NADPH are used to convert the six molecules of 3-PGA into six molecules of a chemical called glyceraldehyde 3-phosphate (G3P).",
+          "target_name": "ATP",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:5bdbe1c59267d238",
+          "source_name": "Calvin cycle",
+          "relation": "consumes"
+        },
+        {
+          "target_entity_id": "ent:carbon_dioxide",
+          "evidence": "In the stroma, in addition to CO2, two other components are present to initiate the light-independent reactions: an enzyme called ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO), and three molecules of ribulose bisphosphate (RuBP).",
+          "target_name": "carbon dioxide",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:704a71fe6fdb8ffd",
+          "source_name": "Calvin cycle",
+          "relation": "consumes"
+        },
+        {
+          "target_entity_id": "ent:g3p",
+          "evidence": "The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration.",
+          "target_name": "G3P",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:13f848f8eb4facfb",
+          "source_name": "Calvin cycle",
+          "relation": "produces"
+        },
+        {
+          "target_entity_id": "ent:nadph",
+          "evidence": "ATP and NADPH are used to convert the six molecules of 3-PGA into six molecules of a chemical called glyceraldehyde 3-phosphate (G3P).",
+          "target_name": "NADPH",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:bfca81382791b43d",
+          "source_name": "Calvin cycle",
+          "relation": "consumes"
+        },
+        {
+          "target_entity_id": "ent:stroma",
+          "evidence": "Once in the mesophyll cells, CO2 diffuses into the stroma of the chloroplast—the site of light-independent reactions of photosynthesis.",
+          "target_name": "stroma",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:c5c8377caf8b4a03",
+          "source_name": "Calvin cycle",
+          "relation": "occurs in"
+        },
+        {
+          "target_entity_id": "ent:g3p",
+          "evidence": "The light-independent reactions of the Calvin cycle can be organized into three basic stages: fixation, reduction, and regeneration.",
+          "target_name": "G3P",
+          "source_entity_id": "ent:calvin_cycle",
+          "triple_id": "triple:8e40d7a51f9db422",
+          "source_name": "Calvin cycle",
+          "relation": "converts to"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "Which process in photosynthesis produces oxygen but does NOT directly produce ATP?",
+    "answer": "Photosystem II",
+    "citations": [
+      "triple:927ce17ce150d2d2 | photosystem ii --[extracts]--> electrons from water"
+    ],
+    "reasoning": "Matched entities: atp, oxygen, photosynthesis. Traversed graph edges: ATP synthase --[forms]--> ATP; ATP synthase --[attaches]--> a third phosphate group to ADP; Calvin cycle --[consumes]--> ATP. Graph evidence: \"The energy released by the hydrogen ion stream allows ATP synthase to attach a third phosphate group to ADP, which forms a molecule of ATP (Figure 8.17).\". Photosystem II extracts electrons from water, which results in the production of oxygen. However, it does not directly produce ATP; this is a function of the electron transport chain and ATP synthase."
+  }
+}

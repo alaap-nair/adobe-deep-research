@@ -1,0 +1,8 @@
+{
+  "question": "How do prokaryotic and eukaryotic DNA replication differ?",
+  "answer": "Prokaryotic DNA replication differs from eukaryotic DNA replication in several ways: prokaryotes have a single origin of replication, while eukaryotes have multiple origins; the rate of replication is faster in prokaryotes (1000 nucleotides/s) compared to eukaryotes (50 to 100 nucleotides/s); prokaryotes have 5 types of DNA polymerases, whereas eukaryotes have 14; prokaryotes do not have telomerase, but eukaryotes do; and in prokaryotes, RNA primers are removed by DNA pol I, while in eukaryotes, they are removed by RNase H.",
+  "citations": [
+    "chunk:14_5_dna_replication_in_eukaryotes_biology_2e_openstax:3 | 14.5 DNA Replication in Eukaryotes - Biology 2e _ OpenStax.txt | replication, a pre-replication complex is made with other initiator proteins. Helicase and other proteins are then re..."
+  ],
+  "reasoning": "Matched entities: dna, replication, eukaryotic pre-mrna. Traversed graph edges: Oswald Avery --[used enzymes to degrade]--> DNA; Oswald Avery --[isolated]--> S strain; Oswald Avery --[concluded]--> DNA was the transforming principle. Graph evidence: \"They used enzymes that specifically degraded each component and then used each mixture separately to transform the R strain.\". The differences in DNA replication between prokaryotes and eukaryotes are clearly outlined in the provided text, including the number of origins of replication, replication rates, types of DNA polymerases, presence of telomerase, and mechanisms for RNA primer removal."
+}

@@ -1,0 +1,75 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_questions": 9,
+  "averages": {
+    "faithfulness": 0.8889,
+    "answer_relevancy": 0.4903,
+    "context_recall": 0.5556,
+    "context_precision": 0.5566
+  },
+  "per_question": [
+    {
+      "question": "What is the primary function of DNA?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7195,
+      "context_recall": 1.0,
+      "context_precision": 0.75
+    },
+    {
+      "question": "What is the primary function of RNA?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7232,
+      "context_recall": 1.0,
+      "context_precision": 0.6528
+    },
+    {
+      "question": "What is CRISPR?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0,
+      "context_recall": 0.0,
+      "context_precision": 0.0
+    },
+    {
+      "question": "How does protein synthesis work?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8424,
+      "context_recall": 0.0,
+      "context_precision": 0.9861
+    },
+    {
+      "question": "What is a genome?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6518,
+      "context_recall": 1.0,
+      "context_precision": 0.9267
+    },
+    {
+      "question": "How does RNA regulate gene expression?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6284,
+      "context_recall": 0.0,
+      "context_precision": 0.2111
+    },
+    {
+      "question": "What are the differences between the codons in DNA and RNA?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8476,
+      "context_recall": 1.0,
+      "context_precision": 0.4826
+    },
+    {
+      "question": "What is genetics?",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "question": "How does CRISPR work?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0,
+      "context_recall": 0.0,
+      "context_precision": 0.0
+    }
+  ]
+}

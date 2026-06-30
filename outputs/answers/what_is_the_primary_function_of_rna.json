@@ -1,0 +1,9 @@
+{
+  "question": "What is the primary function of RNA?",
+  "answer": "RNA encodes protein",
+  "citations": [
+    "chunk:ch15_genes_and_proteins:5 | data/Ch15_Genes_and_Proteins.pdf | that gives rise to the incredible variation of protein structure and function. The Central Dogma: DNA Encodes RNA; RN...",
+    "triple:10e32d9d4a0e2a2b | DNA --[is copied to]--> RNA"
+  ],
+  "reasoning": "Matched entities: rna, a, nonfunctional protein. Traversed graph edges: DNA --[is copied to]--> RNA; RNA --[have]--> ribose; DNA --[is the genetic material]--> DNA. Graph evidence: \"The copying of DNA to RNA is relatively straightforward, with one nucleotide being added to the mRNA strand for every nucleotide read in the DNA strand.\". The context mentions the central dogma which states that DNA encodes RNA and RNA encodes protein. Additionally, it is stated that DNA is copied to RNA."
+}

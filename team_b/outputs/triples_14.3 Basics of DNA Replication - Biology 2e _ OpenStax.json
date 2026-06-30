@@ -1,0 +1,72 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 6,
+  "num_entities": 9,
+  "entities": [
+    "15N",
+    "DNA",
+    "DNA strand",
+    "E. coli",
+    "Meselson and Stahl",
+    "double helix",
+    "replication",
+    "semi-conservative replication",
+    "template"
+  ],
+  "triples": [
+    {
+      "head": "DNA",
+      "head_type": "Molecule",
+      "relation": "has structure",
+      "relation_type": "CONSISTS_OF",
+      "tail": "double helix",
+      "tail_type": "Molecule",
+      "evidence": "The elucidation of the structure of the double helix provided a hint as to how DNA divides and makes copies of itself."
+    },
+    {
+      "head": "DNA",
+      "head_type": "Molecule",
+      "relation": "separates during",
+      "relation_type": "PART_OF",
+      "tail": "replication",
+      "tail_type": "Process",
+      "evidence": "The double-helix model suggests that the two strands of the double helix separate during replication, and each strand serves as a template from which the new complementary strand is copied."
+    },
+    {
+      "head": "DNA strand",
+      "head_type": "Molecule",
+      "relation": "serves as",
+      "relation_type": "PART_OF",
+      "tail": "template",
+      "tail_type": "Molecule",
+      "evidence": "The double-helix model suggests that the two strands of the double helix separate during replication, and each strand serves as a template from which the new complementary strand is copied."
+    },
+    {
+      "head": "Meselson and Stahl",
+      "head_type": "Organism",
+      "relation": "grew",
+      "relation_type": "CONSUMES",
+      "tail": "E. coli",
+      "tail_type": "Organism",
+      "evidence": "Meselson and Stahl were interested in understanding how DNA replicates. They grew E. coli for several generations in a medium containing a \u201cheavy\u201d isotope of nitrogen (15N), which gets incorporated into nitrogenous bases, and eventually into the DNA."
+    },
+    {
+      "head": "E. coli",
+      "head_type": "Organism",
+      "relation": "incorporates",
+      "relation_type": "CONSUMES",
+      "tail": "15N",
+      "tail_type": "Molecule",
+      "evidence": "Meselson and Stahl were interested in understanding how DNA replicates. They grew E. coli for several generations in a medium containing a \u201cheavy\u201d isotope of nitrogen (15N), which gets incorporated into nitrogenous bases, and eventually into the DNA."
+    },
+    {
+      "head": "DNA",
+      "head_type": "Molecule",
+      "relation": "replicates",
+      "relation_type": "REPLICATES",
+      "tail": "semi-conservative replication",
+      "tail_type": "Process",
+      "evidence": "These data support the semi-conservative replication model."
+    }
+  ]
+}

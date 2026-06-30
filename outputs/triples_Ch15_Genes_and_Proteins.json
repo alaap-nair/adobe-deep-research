@@ -1,0 +1,4172 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 583,
+  "num_entities": 665,
+  "entities": [
+    "-10 and -35 regions",
+    "-10 sequence",
+    "-25 to -35 bases relative to the initiation (+1) site",
+    "-35 sequence",
+    "0.05 seconds",
+    "12 mRNA codons",
+    "146 nucleotides of DNA",
+    "18-nucleotide sequence",
+    "18S and 28S rRNAs",
+    "20 commonly occurring amino acids",
+    "20 types of aminoacyl tRNA synthetases",
+    "200-amino-acid protein",
+    "3' polyadenylation",
+    "30S ribosomal subunit",
+    "30S ribosome",
+    "36 nucleotides",
+    "3\u2019 end of the mRNA",
+    "40S small ribosomal subunit",
+    "5' capping",
+    "5' methylguanosine cap",
+    "5'-3' direction",
+    "50 percent of each ribosome",
+    "50S ribosomal subunit",
+    "50S subunit",
+    "5S rRNA, tRNAs, and small nuclear RNAs",
+    "5S rRNAs and tRNAs",
+    "60S ribosomal subunit",
+    "60S subunit",
+    "7-methylguanosine cap",
+    "A (aminoacyl) site",
+    "A nucleotides",
+    "A or G",
+    "A site",
+    "A site on the bacterial ribosome",
+    "A-site tRNA",
+    "ATP",
+    "AUC and AUA codons",
+    "AUG",
+    "AUG start codon",
+    "Acceptor site",
+    "Additional factors",
+    "Amino acid",
+    "Amino acid phenylalanine",
+    "Amino acids",
+    "Anticodon",
+    "Anticodon AAG",
+    "Archaea",
+    "A\u2013T bonds",
+    "A\u2013T-rich -10 region",
+    "Bacteria",
+    "Bacterial chromosome",
+    "Basal transcription factors",
+    "CAAT box",
+    "Cellular factors",
+    "Chaperones",
+    "Chronic lymphocytic leukemia patients",
+    "Codon UUC",
+    "Core enzyme",
+    "DNA",
+    "DNA alphabet",
+    "DNA double helix to partially unwind",
+    "DNA extraction buffer",
+    "DNA template",
+    "E (exit) site",
+    "E site",
+    "E. coli polymerase",
+    "E. coli translation apparatus",
+    "ER",
+    "ER lumen",
+    "Enhancers",
+    "Eukaryotes",
+    "Eukaryotic genes",
+    "Eukaryotic pre-mRNAs",
+    "Eukaryotic promoters",
+    "Exit site",
+    "FACT complex",
+    "Francis Crick",
+    "GA* block",
+    "GC box",
+    "GC-rich box",
+    "GC-rich boxes",
+    "GTP",
+    "GTP energy",
+    "GTP hydrolysis",
+    "Guanosine triphosphate",
+    "Hydrolysis",
+    "IFs",
+    "Kozak\u2019s rules",
+    "Mature rRNAs",
+    "Mature tRNAs",
+    "Messenger RNA",
+    "Met-tRNAi",
+    "N-terminus",
+    "Nucleotide pair",
+    "Nucleotides",
+    "Octamer box",
+    "P (peptidyl) site",
+    "P site",
+    "P-site amino acid",
+    "P-site tRNA",
+    "Plasmids",
+    "Polycistronic mRNAs",
+    "Polymerase",
+    "Polypeptides",
+    "Preinitiation complex",
+    "Prokaryotes",
+    "Prokaryotic DNA",
+    "Prokaryotic transcripts",
+    "Promoter",
+    "Promoters",
+    "Protein",
+    "Protein synthesis",
+    "Proteins",
+    "RNA",
+    "RNA alphabet",
+    "RNA components of ribosomes",
+    "RNA editing",
+    "RNA hairpin-dependent methods",
+    "RNA polymerase",
+    "RNA polymerase I",
+    "RNA polymerase II",
+    "RNA polymerase III",
+    "RNA polymerase deficiency",
+    "RNA polymerases I and III",
+    "RNA portion of the adaptor molecule",
+    "RNA-based method for regulating gene expression",
+    "RNA-stabilizing proteins",
+    "Reaction",
+    "Release Factor protein",
+    "Ribosome",
+    "Ribosome\u2019s RNA molecules",
+    "SRP",
+    "STOP codon",
+    "Shine-Dalgarno sequence",
+    "Signal",
+    "Signal sequence",
+    "Silencers",
+    "Small nuclear RNAs",
+    "Some proteins",
+    "Sydney Brenner",
+    "T nucleotides with U nucleotides",
+    "TATA box",
+    "TATAAA",
+    "TATAAT",
+    "TFII",
+    "TFIID",
+    "TTGACA",
+    "Transcription",
+    "Transcription factors",
+    "Translation",
+    "Trypanosoma brucei",
+    "U or C",
+    "a TATA-binding protein (TBP)",
+    "a complex of transcription factors",
+    "a gene is transcribed",
+    "a given amino acid can be encoded by more than one nucleotide triplet",
+    "a sequence similar to the -10 sequence of prokaryotes",
+    "abnormal temperature or pH conditions",
+    "activated amino acid",
+    "adaptor molecules",
+    "addition of a specific amino acid",
+    "after transcription",
+    "alanine",
+    "all protein-coding nuclear pre-mRNAs",
+    "all rRNAs except 5S rRNA",
+    "all species",
+    "almost every species",
+    "amino acid",
+    "amino acid binding site",
+    "amino acid methionine",
+    "amino acid sequence",
+    "amino acid to polypeptide chain",
+    "amino acid to tRNA",
+    "amino acids",
+    "amino end",
+    "amino group",
+    "amino group forms peptide bond with carboxyl group",
+    "amino group of the amino acid attached to the A-site tRNA and the carboxyl group of the amino acid attached to the P-site tRNA",
+    "aminoacyl tRNA synthetase",
+    "aminoacyl tRNA synthetases",
+    "aminoacyl-tRNA synthetases",
+    "anticodon",
+    "arrangement of the coding table",
+    "asparagine",
+    "aspartate",
+    "bacterial chromosome",
+    "bacterial gene",
+    "binding activities",
+    "binding of a new aminoacyl-tRNA to the A site",
+    "binding of transcription factors",
+    "binding transcription factors",
+    "blunt instrument",
+    "bond",
+    "cancers and other human diseases",
+    "cap-binding protein (CBP)",
+    "carboxyl end",
+    "carboxyl group",
+    "catalysts in RNA editing",
+    "catalytic activities",
+    "cellular conditions",
+    "cellular factors",
+    "cellular mechanism",
+    "cell\u2019s energy",
+    "central dogma",
+    "central dogma of molecular biology",
+    "chaperones",
+    "charged tRNAs",
+    "charged tRNAs carrying amino acids",
+    "cheesecloth",
+    "chemical conversion of nucleotides",
+    "chloramphenicol",
+    "chromatin transcription",
+    "chromosomes",
+    "cleavage during mRNA processing",
+    "codon",
+    "codons",
+    "complementary U\u2013A region",
+    "complementary mRNA molecule",
+    "complex of Met-tRNAi, mRNA, and the 40S subunit",
+    "components",
+    "consensus DNA sequence",
+    "consensus sequence",
+    "consensus sequences",
+    "core enzyme",
+    "core enzyme to proceed",
+    "core promoter sequences",
+    "correct initiation AUG",
+    "covalent bond formation",
+    "cytoplasm and rough endoplasmic reticulum of eukaryotes",
+    "cytoplasm of prokaryotes",
+    "decoding of mRNA message",
+    "defect in RNA polymerase I activity",
+    "degeneracy",
+    "degenerate",
+    "deletion of two nucleotides",
+    "diploid",
+    "dish detergent",
+    "dissociated tRNAs",
+    "dissociation of \u03c3",
+    "downstream",
+    "downstream nucleotides",
+    "dramatic effects on proteins",
+    "during and after translation",
+    "each other",
+    "edits",
+    "efficiency of gene expression",
+    "efficiency of transcription",
+    "elongation",
+    "elongation factors",
+    "end of the gene",
+    "endonuclease",
+    "energy source",
+    "enzymatic factors",
+    "enzymes",
+    "errors",
+    "errors in splicing",
+    "eukaryote",
+    "eukaryotes",
+    "eukaryotic IFs",
+    "eukaryotic genes",
+    "eukaryotic initiation complex",
+    "eukaryotic mRNAs",
+    "eukaryotic pre-RNAs",
+    "eukaryotic pre-mRNA",
+    "eukaryotic pre-mRNAs",
+    "eukaryotic promoter",
+    "eukaryotic promoters",
+    "eukaryotic protein-coding sequences",
+    "eukaryotic transcription",
+    "every amino acid",
+    "evolution of humans",
+    "excess",
+    "exon",
+    "exons and introns",
+    "extensive processing",
+    "extra amino acid",
+    "fMet",
+    "fMet-tRNAfMet",
+    "factors",
+    "faux peptide bond",
+    "finished mRNAs",
+    "first and second nucleotides",
+    "five polypeptide subunits",
+    "flow of genetic information",
+    "formation of each peptide bond",
+    "formation of mRNA hairpin",
+    "formation of peptide bonds",
+    "formylated",
+    "formylation",
+    "four subunits",
+    "free carboxyl terminus",
+    "fruit mixture",
+    "functional proteins",
+    "functions of a cell",
+    "gene",
+    "gene expression",
+    "gene or cistron",
+    "gene product",
+    "gene template",
+    "genes",
+    "genes by RNA polymerase III",
+    "genes of higher eukaryotes",
+    "genes specify the sequence of mRNAs",
+    "genetic code",
+    "glass rods",
+    "globin protein",
+    "glutamate",
+    "growth of the protein chain",
+    "guide RNA",
+    "guide RNAs",
+    "hairpin formation",
+    "hairpin structure",
+    "hexaploid",
+    "high-energy bond",
+    "histidine",
+    "histone proteins",
+    "histones",
+    "holoenzyme",
+    "horse globin",
+    "hydrolysis",
+    "ice-cold ethanol",
+    "incoming charged aminoacyl tRNAs",
+    "initiating methionyl-tRNA",
+    "initiating translation",
+    "initiation",
+    "initiation complex",
+    "initiation factor IF-2",
+    "initiation factors",
+    "initiation of transcription",
+    "initiation of translation",
+    "initiation site",
+    "initiator tRNA",
+    "initiator tRNA anticodon",
+    "insert missing bases",
+    "insertion mutation",
+    "insertion mutations",
+    "insertion of an amino acid",
+    "insertion of one or two nucleotides",
+    "insertion of three nucleotides",
+    "instability",
+    "interaction with rho",
+    "intramolecular cleavage",
+    "intramolecular hydrogen bonds",
+    "intron",
+    "intron splicing",
+    "introns",
+    "inversion",
+    "isoleucine",
+    "isopropanol",
+    "itself",
+    "kiwi",
+    "language of RNA into language of proteins",
+    "large and small ribosomal subunit",
+    "large and small subunits",
+    "large ribosomal subunit",
+    "large subunit",
+    "life on Earth",
+    "long precursor molecule",
+    "low thermostability",
+    "lysine",
+    "mRNA",
+    "mRNA codon",
+    "mRNA codons",
+    "mRNA hairpin",
+    "mRNA into protein",
+    "mRNA molecule",
+    "mRNA molecules that specified protein gibberish",
+    "mRNA product",
+    "mRNA synthesis",
+    "mRNA template",
+    "mRNA transcript",
+    "mRNA transcripts",
+    "mRNAs",
+    "mRNAs specify the sequence of proteins",
+    "making proteins",
+    "mammals",
+    "many proteins",
+    "many species",
+    "mass of living organisms",
+    "matrix and stroma of mitochondria and chloroplasts",
+    "mature mRNA",
+    "membrane-bound nuclei",
+    "membrane-enclosed nuclei",
+    "messenger RNA (mRNA)",
+    "metal bowl",
+    "methionine",
+    "methylation",
+    "mitochondria",
+    "mitochondria or chloroplasts",
+    "mitochondrial DNA of trypanosomes",
+    "more than one kind of protein",
+    "mortar and pestle",
+    "most amino acids",
+    "movement of the ribosome",
+    "multiple similar codons",
+    "mutation",
+    "nascent mRNA",
+    "nearly every function of the cell",
+    "new mRNA transcript",
+    "new protein",
+    "non-formylated methionine",
+    "noncoding introns",
+    "nonfunctional protein",
+    "nonfunctional sequence remnants",
+    "nonsense codon",
+    "nonsense codons",
+    "nonsense mutations",
+    "nontemplate strand",
+    "nucleoid region",
+    "nucleolus",
+    "nucleoside triphosphates (GTP and ATP)",
+    "nucleosomes",
+    "nucleotide doublets",
+    "nucleotide triplet",
+    "nucleotide triplets",
+    "nucleotide-based genetic information",
+    "nucleotides",
+    "nucleotides of the template strand",
+    "nucleus",
+    "octamer boxes",
+    "octoploid",
+    "one amino acid",
+    "one nucleotide",
+    "one or a few genes",
+    "organelles",
+    "other small nuclear RNAs",
+    "peptide bond",
+    "peptide bond formation",
+    "peptide bonds",
+    "peptidyl transfer",
+    "peptidyl transferase",
+    "plasmid",
+    "plasmids",
+    "plastic bag",
+    "poly-A polymerase",
+    "poly-A tail",
+    "poly-U tail",
+    "polymerase",
+    "polymerase RNA editing",
+    "polymerase to stall",
+    "polymerases",
+    "polypeptide alphabet",
+    "polypeptide chain",
+    "polypeptides",
+    "polysome",
+    "porous cloth",
+    "pre-mRNA",
+    "pre-mRNA processing",
+    "pre-mRNA tail",
+    "pre-mRNA transcript",
+    "pre-mRNAs",
+    "pre-rRNAs",
+    "pre-tRNA molecules",
+    "pre-tRNAs",
+    "pre-tRNAs and pre-rRNAs",
+    "precursors into subunits",
+    "preinitiation complex",
+    "presence of a nucleus",
+    "primordial time",
+    "production of abortive transcripts",
+    "proflavin",
+    "prokaryotes",
+    "prokaryotic genomes",
+    "prokaryotic polymerase",
+    "prokaryotic transcript",
+    "prokaryotic translation",
+    "proline",
+    "promoter",
+    "promoter evolution",
+    "promoter region",
+    "promoter sequence",
+    "promoters",
+    "protein",
+    "protein message",
+    "protein product",
+    "protein release factors",
+    "protein sequences",
+    "protein synthesis",
+    "protein to specific cellular compartment",
+    "protein-coding genes",
+    "protein-coding information",
+    "protein-coding mRNA",
+    "protein-dependent methods",
+    "protein-synthesis machinery",
+    "proteins",
+    "proteins and RNA molecules",
+    "proteins from aggregating",
+    "purine half",
+    "purine half of their block",
+    "pyrimidine half",
+    "pyrimidine half of their block",
+    "rRNA genes",
+    "rRNA molecules",
+    "rRNAs",
+    "rRNAs and polypeptides",
+    "random sites",
+    "reading frame",
+    "reading frame for translation",
+    "reconnecting exons",
+    "region rich in C\u2013G nucleotides",
+    "regions",
+    "regulating transcription factors",
+    "regulatory sequences",
+    "release factor",
+    "release of a polypeptide chain",
+    "release of the \u03c3 subunit",
+    "remedy",
+    "removal of introns",
+    "removing introns",
+    "researchers",
+    "reverse transcriptase enzymes",
+    "rho (\u03c1) protein",
+    "rho protein",
+    "rho protein interaction",
+    "rho-dependent termination",
+    "rho-independent termination",
+    "rho-independent termination of transcription in prokaryotes",
+    "ribosomal subunits",
+    "ribosomal subunits and mRNA",
+    "ribosome",
+    "ribosome P site",
+    "ribosomes",
+    "run of G nucleotides",
+    "same 5' to 3' direction",
+    "same genetic code",
+    "scientist",
+    "scientists",
+    "second tRNA",
+    "sequence-specific mechanism",
+    "sequences",
+    "sequences at the 5' and 3' end of the intron",
+    "sequential amino acids",
+    "several similar codons",
+    "side chain",
+    "signal sequence",
+    "signal-recognition proteins",
+    "silencers",
+    "similar codons",
+    "simultaneous transcription and translation",
+    "single amino acid",
+    "single nucleotide changes",
+    "single protein",
+    "sleeping sickness",
+    "small RNAs",
+    "small nuclear RNA molecules",
+    "small ribosomal subunit",
+    "small subunit",
+    "special methionine",
+    "species",
+    "specific amino acid",
+    "specific nucleotides",
+    "spliceosomes",
+    "splicing",
+    "splicing of pre-mRNAs",
+    "splicing pre-mRNAs",
+    "splicing pre-mRNAs and regulating transcription factors",
+    "stabilizing and signaling factors",
+    "stable hairpin",
+    "stable linker",
+    "stalled polymerase",
+    "start codon",
+    "stop codons",
+    "strawberry",
+    "structural",
+    "structural protein",
+    "structure of the code",
+    "subunit excision",
+    "subunits of the core enzyme",
+    "successive tRNAs",
+    "synthesis of numerous copies of the encoded protein",
+    "tRNA",
+    "tRNA anticodon",
+    "tRNA binding specificity",
+    "tRNA binding to the ribosome",
+    "tRNA molecule",
+    "tRNA molecules",
+    "tRNAfMet",
+    "tRNAs",
+    "tRNAs and rRNAs",
+    "tRNAs nonspecifically and randomly",
+    "table salt",
+    "template strand",
+    "termination",
+    "termination of translation",
+    "termination protein",
+    "termination signals",
+    "test tube",
+    "tetracycline",
+    "the 5' cap",
+    "the A\u2013T rich element",
+    "the DNA template strand",
+    "the Shine-Dalgarno sequence",
+    "the cap",
+    "the defect",
+    "the final location and sequence of a pre-mRNA",
+    "the genes they regulate",
+    "the holoenzyme",
+    "the initiating AUG",
+    "the mRNA",
+    "the mRNA template",
+    "the nucleus to the cytoplasm",
+    "the polymerase",
+    "the polymerase begins to synthesize mRNA from an appropriate initiation site",
+    "the polymerase on the DNA",
+    "the promoter",
+    "the ribonucleoside triphosphate",
+    "the ribosomal A site",
+    "the sequence to 5\u2019-UGCCAUGGUUAAUAACACAUGAGGCCUGAAC\u2013 3\u2019",
+    "the site",
+    "the three polymerases",
+    "the vast majority of eukaryotic genes",
+    "they are similar in all bacterial species",
+    "three compartments",
+    "three different polymerases",
+    "three mRNA nucleotides",
+    "three of the 64 codons",
+    "three polymerases",
+    "three-dimensional structure",
+    "threonine",
+    "transcription",
+    "transcription bubble",
+    "transcription elongation phase",
+    "transcription factors",
+    "transcription initiation",
+    "transcription initiation complex",
+    "transcription initiation phase",
+    "transcription is complete",
+    "transcription machinery",
+    "transcription of mRNA",
+    "transcription, translation, and mRNA degradation",
+    "translated",
+    "translation",
+    "translation complex",
+    "translation initiation complex",
+    "translocation channel in the ER membrane",
+    "translocation to the P site",
+    "triplet codon",
+    "triplet reading frame",
+    "trypanosomes",
+    "tsetse flies",
+    "tulip cell",
+    "two promoter consensus sequences",
+    "unwinding of the DNA template",
+    "upstream enhancers",
+    "upstream nucleotides",
+    "variation in protein structure and function",
+    "variation of protein structure and function",
+    "vastly different effects on protein function",
+    "water",
+    "water molecule",
+    "weak interaction",
+    "whether the corresponding gene is transcribed all the time, some of the time, or infrequently",
+    "white precipitated DNA",
+    "whole block of four codons",
+    "\u03b1, \u03b1, \u03b2, and \u03b2'",
+    "\u03b1, \u03b1, \u03b2, \u03b2', and \u03c3",
+    "\u03b1-amanitin",
+    "\u03b1-subunits",
+    "\u03b2' subunit",
+    "\u03b2-subunit",
+    "\u03c3",
+    "\u03c3 subunit",
+    "\u03c3 subunit of prokaryotic RNA polymerase",
+    "\u201c+\u201d",
+    "\u201c- \u201d"
+  ],
+  "triples": [
+    {
+      "head": "genes",
+      "relation": "are composed of",
+      "tail": "DNA",
+      "evidence": "Genes are composed of DNA and are linearly arranged on chromosomes."
+    },
+    {
+      "head": "genes",
+      "relation": "are arranged on",
+      "tail": "chromosomes",
+      "evidence": "Genes are composed of DNA and are linearly arranged on chromosomes."
+    },
+    {
+      "head": "genes",
+      "relation": "specify sequences of",
+      "tail": "amino acids",
+      "evidence": "Genes specify the sequences of amino acids, which are the building blocks of proteins."
+    },
+    {
+      "head": "amino acids",
+      "relation": "are building blocks of",
+      "tail": "proteins",
+      "evidence": "Genes specify the sequences of amino acids, which are the building blocks of proteins."
+    },
+    {
+      "head": "proteins",
+      "relation": "orchestrate",
+      "tail": "nearly every function of the cell",
+      "evidence": "In turn, proteins are responsible for orchestrating nearly every function of the cell."
+    },
+    {
+      "head": "transcription",
+      "relation": "generates",
+      "tail": "messenger RNA (mRNA)",
+      "evidence": "The cellular process of transcription generates messenger RNA (mRNA), a mobile molecular copy of one or more genes with an alphabet of A, C, G, and uracil (U)."
+    },
+    {
+      "head": "mRNA",
+      "relation": "is a copy of",
+      "tail": "genes",
+      "evidence": "The cellular process of transcription generates messenger RNA (mRNA), a mobile molecular copy of one or more genes with an alphabet of A, C, G, and uracil (U)."
+    },
+    {
+      "head": "translation",
+      "relation": "converts",
+      "tail": "nucleotide-based genetic information",
+      "evidence": "Translation of the mRNA template on ribosomes converts nucleotide-based genetic information into a protein product."
+    },
+    {
+      "head": "translation",
+      "relation": "produces",
+      "tail": "protein product",
+      "evidence": "Translation of the mRNA template on ribosomes converts nucleotide-based genetic information into a protein product."
+    },
+    {
+      "head": "protein sequences",
+      "relation": "consist of",
+      "tail": "20 commonly occurring amino acids",
+      "evidence": "Protein sequences consist of 20 commonly occurring amino acids; therefore, it can be said that the protein alphabet consists of 20 \u201cletters\u201d (Figure 15.2)."
+    },
+    {
+      "head": "amino acid sequence",
+      "relation": "is responsible for",
+      "tail": "variation in protein structure and function",
+      "evidence": "Variation in amino acid sequence is responsible for the enormous variation in protein structure and function."
+    },
+    {
+      "head": "amino acid",
+      "relation": "is composed of",
+      "tail": "amino group",
+      "evidence": "Each amino acid is composed of an amino group (NH3+), a carboxyl group (COO-), and a side chain (blue)."
+    },
+    {
+      "head": "amino acid",
+      "relation": "is composed of",
+      "tail": "carboxyl group",
+      "evidence": "Each amino acid is composed of an amino group (NH3+), a carboxyl group (COO-), and a side chain (blue)."
+    },
+    {
+      "head": "amino acid",
+      "relation": "is composed of",
+      "tail": "side chain",
+      "evidence": "Each amino acid is composed of an amino group (NH3+), a carboxyl group (COO-), and a side chain (blue)."
+    },
+    {
+      "head": "side chain",
+      "relation": "gives rise to",
+      "tail": "variation of protein structure and function",
+      "evidence": "It is the variety of amino acid side chains that gives rise to the incredible variation of protein structure and function."
+    },
+    {
+      "head": "genes",
+      "relation": "specify the sequence of",
+      "tail": "mRNAs",
+      "evidence": "The central dogma (Figure 15.3), which states that genes specify the sequence of mRNAs, which in turn specify the sequence of amino acids making up all proteins."
+    },
+    {
+      "head": "mRNAs",
+      "relation": "specify the sequence of",
+      "tail": "amino acids",
+      "evidence": "The central dogma (Figure 15.3), which states that genes specify the sequence of mRNAs, which in turn specify the sequence of amino acids making up all proteins."
+    },
+    {
+      "head": "DNA",
+      "relation": "is copied to",
+      "tail": "RNA",
+      "evidence": "The copying of DNA to RNA is relatively straightforward, with one nucleotide being added to the mRNA strand for every nucleotide read in the DNA strand."
+    },
+    {
+      "head": "three mRNA nucleotides",
+      "relation": "correspond to",
+      "tail": "one amino acid",
+      "evidence": "The translation to protein is a bit more complex because three mRNA nucleotides correspond to one amino acid in the polypeptide sequence."
+    },
+    {
+      "head": "amino acid",
+      "relation": "is defined by",
+      "tail": "triplet codon",
+      "evidence": "Each amino acid is defined by a three-nucleotide sequence called the triplet codon."
+    },
+    {
+      "head": "nucleotide doublets",
+      "relation": "are insufficient to specify",
+      "tail": "every amino acid",
+      "evidence": "Nucleotide doublets would not be sufficient to specify every amino acid because there are only 16 possible two-nucleotide combinations (42)."
+    },
+    {
+      "head": "nucleotide triplets",
+      "relation": "encode",
+      "tail": "amino acids",
+      "evidence": "Scientists theorized that amino acids were encoded by nucleotide"
+    },
+    {
+      "head": "amino acid",
+      "relation": "encoded by",
+      "tail": "nucleotide triplet",
+      "evidence": "a given amino acid could be encoded by more than one nucleotide triplet."
+    },
+    {
+      "head": "Francis Crick",
+      "relation": "used",
+      "tail": "proflavin",
+      "evidence": "Francis Crick and Sydney Brenner used the chemical mutagen proflavin to insert one, two, or three nucleotides into the gene of a virus."
+    },
+    {
+      "head": "Sydney Brenner",
+      "relation": "used",
+      "tail": "proflavin",
+      "evidence": "Francis Crick and Sydney Brenner used the chemical mutagen proflavin to insert one, two, or three nucleotides into the gene of a virus."
+    },
+    {
+      "head": "proflavin",
+      "relation": "insert",
+      "tail": "nucleotides",
+      "evidence": "Francis Crick and Sydney Brenner used the chemical mutagen proflavin to insert one, two, or three nucleotides into the gene of a virus."
+    },
+    {
+      "head": "nucleotide triplet",
+      "relation": "called",
+      "tail": "codons",
+      "evidence": "These nucleotide triplets are called codons."
+    },
+    {
+      "head": "insertion of one or two nucleotides",
+      "relation": "change",
+      "tail": "triplet reading frame",
+      "evidence": "The insertion of one or two nucleotides completely changed the triplet reading frame, thereby altering the message for every subsequent amino acid (Figure 15.5)."
+    },
+    {
+      "head": "insertion of three nucleotides",
+      "relation": "cause",
+      "tail": "extra amino acid",
+      "evidence": "Though insertion of three nucleotides caused an extra amino acid to be inserted during translation, the integrity of the rest of the protein was maintained."
+    },
+    {
+      "head": "scientists",
+      "relation": "solve",
+      "tail": "genetic code",
+      "evidence": "Scientists painstakingly solved the genetic code by translating synthetic mRNAs in vitro and sequencing the proteins they specified (Figure 15.4)."
+    },
+    {
+      "head": "codons",
+      "relation": "instruct",
+      "tail": "addition of a specific amino acid",
+      "evidence": "In addition to codons that instruct the addition of a specific amino acid to a polypeptide chain, three of the 64 codons terminate protein synthesis and release the polypeptide from the translation machinery."
+    },
+    {
+      "head": "three of the 64 codons",
+      "relation": "terminate",
+      "tail": "protein synthesis",
+      "evidence": "In addition to codons that instruct the addition of a specific amino acid to a polypeptide chain, three of the 64 codons terminate protein synthesis and release the polypeptide from the translation machinery."
+    },
+    {
+      "head": "three of the 64 codons",
+      "relation": "called",
+      "tail": "nonsense codons",
+      "evidence": "These triplets are called nonsense codons, or stop codons."
+    },
+    {
+      "head": "three of the 64 codons",
+      "relation": "called",
+      "tail": "stop codons",
+      "evidence": "These triplets are called nonsense codons, or stop codons."
+    },
+    {
+      "head": "AUG",
+      "relation": "specify",
+      "tail": "amino acid methionine",
+      "evidence": "Another codon, AUG, also has a special function. In addition to specifying the amino acid methionine, it also serves as the start codon to initiate translation."
+    },
+    {
+      "head": "AUG",
+      "relation": "serve as",
+      "tail": "start codon",
+      "evidence": "Another codon, AUG, also has a special function. In addition to specifying the amino acid methionine, it also serves as the start codon to initiate translation."
+    },
+    {
+      "head": "AUG start codon",
+      "relation": "set",
+      "tail": "reading frame for translation",
+      "evidence": "The reading frame for translation is set by the AUG start codon near the 5' end of the mRNA."
+    },
+    {
+      "head": "mRNA",
+      "relation": "read in groups of three",
+      "tail": "codons",
+      "evidence": "Following the start codon, the mRNA is read in groups of three until a stop codon is encountered."
+    },
+    {
+      "head": "arrangement of the coding table",
+      "relation": "reveal",
+      "tail": "structure of the code",
+      "evidence": "The arrangement of the coding table reveals the structure of the code."
+    },
+    {
+      "head": "codons",
+      "relation": "specified by",
+      "tail": "first and second nucleotides",
+      "evidence": "There are sixteen \"blocks\" of codons, each specified by the first and second nucleotides of the codons within the block, e.g., the \"AC*\" block that corresponds to the amino acid threonine (Thr)."
+    },
+    {
+      "head": "pyrimidine half",
+      "relation": "end with",
+      "tail": "U or C",
+      "evidence": "Some blocks are divided into a pyrimidine half, in which the codon ends with U or C, and a purine half, in which the codon ends with A or G."
+    },
+    {
+      "head": "purine half",
+      "relation": "end with",
+      "tail": "A or G",
+      "evidence": "Some blocks are divided into a pyrimidine half, in which the codon ends with U or C, and a purine half, in which the codon ends with A or G."
+    },
+    {
+      "head": "alanine",
+      "relation": "get",
+      "tail": "whole block of four codons",
+      "evidence": "Some amino acids get a whole block of four codons, like alanine (Ala), threonine (Thr) and proline (Pro)."
+    },
+    {
+      "head": "threonine",
+      "relation": "get",
+      "tail": "whole block of four codons",
+      "evidence": "Some amino acids get a whole block of four codons, like alanine (Ala), threonine (Thr) and proline (Pro)."
+    },
+    {
+      "head": "proline",
+      "relation": "get",
+      "tail": "whole block of four codons",
+      "evidence": "Some amino acids get a whole block of four codons, like alanine (Ala), threonine (Thr) and proline (Pro)."
+    },
+    {
+      "head": "histidine",
+      "relation": "get",
+      "tail": "pyrimidine half of their block",
+      "evidence": "Some get the pyrimidine half of their block, like histidine (His) and asparagine (Asn)."
+    },
+    {
+      "head": "asparagine",
+      "relation": "get",
+      "tail": "pyrimidine half of their block",
+      "evidence": "Some get the pyrimidine half of their block, like histidine (His) and asparagine (Asn)."
+    },
+    {
+      "head": "glutamate",
+      "relation": "get",
+      "tail": "purine half of their block",
+      "evidence": "Others get the purine half of their block, like glutamate (Glu) and lysine (Lys)."
+    },
+    {
+      "head": "lysine",
+      "relation": "get",
+      "tail": "purine half of their block",
+      "evidence": "Others get the purine half of their block, like glutamate (Glu) and lysine (Lys)."
+    },
+    {
+      "head": "single amino acid",
+      "relation": "specified by",
+      "tail": "multiple similar codons",
+      "evidence": "The specification of a single amino acid by multiple similar codons is called \"degeneracy.\""
+    },
+    {
+      "head": "degeneracy",
+      "relation": "believed to be",
+      "tail": "cellular mechanism",
+      "evidence": "Degeneracy is believed to be a cellular mechanism to reduce the negative impact of random mutations."
+    },
+    {
+      "head": "codons",
+      "relation": "differ by",
+      "tail": "one nucleotide",
+      "evidence": "Codons that specify the same amino acid typically only differ by one nucleotide."
+    },
+    {
+      "head": "amino acids",
+      "relation": "encoded by",
+      "tail": "similar codons",
+      "evidence": "In addition, amino acids with chemically similar side chains are encoded by similar codons."
+    },
+    {
+      "head": "aspartate",
+      "relation": "occupy",
+      "tail": "GA* block",
+      "evidence": "For example, aspartate (Asp) and glutamate (Glu), which occupy the GA* block, are both negatively charged."
+    },
+    {
+      "head": "glutamate",
+      "relation": "occupy",
+      "tail": "GA* block",
+      "evidence": "For example, aspartate (Asp) and glutamate (Glu), which occupy the GA* block, are both negatively charged."
+    },
+    {
+      "head": "amino acid",
+      "relation": "specify",
+      "tail": "amino acid",
+      "evidence": "specify the same amino acid but have no effect or specify a similar amino acid, preventing the protein from being rendered completely nonfunctional."
+    },
+    {
+      "head": "genetic code",
+      "relation": "is universal",
+      "tail": "all species",
+      "evidence": "The genetic code is nearly universal. With a few minor exceptions, virtually all species use the same genetic code for protein synthesis."
+    },
+    {
+      "head": "codons",
+      "relation": "conserve",
+      "tail": "mRNA",
+      "evidence": "Conservation of codons means that a purified mRNA encoding the globin protein in horses could be transferred to a tulip cell, and the tulip would synthesize horse globin."
+    },
+    {
+      "head": "mRNA",
+      "relation": "encode",
+      "tail": "globin protein",
+      "evidence": "Conservation of codons means that a purified mRNA encoding the globin protein in horses could be transferred to a tulip cell, and the tulip would synthesize horse globin."
+    },
+    {
+      "head": "tulip cell",
+      "relation": "synthesize",
+      "tail": "horse globin",
+      "evidence": "Conservation of codons means that a purified mRNA encoding the globin protein in horses could be transferred to a tulip cell, and the tulip would synthesize horse globin."
+    },
+    {
+      "head": "genetic code",
+      "relation": "share",
+      "tail": "life on Earth",
+      "evidence": "That there is only one genetic code is powerful evidence that all of life on Earth shares a common origin, especially considering that there are about 1084 possible combinations of 20 amino acids and 64 triplet codons."
+    },
+    {
+      "head": "deletion of two nucleotides",
+      "relation": "shifts",
+      "tail": "reading frame",
+      "evidence": "The deletion of two nucleotides shifts the reading frame of an mRNA and changes the entire protein message, creating a nonfunctional protein or terminating protein synthesis altogether."
+    },
+    {
+      "head": "deletion of two nucleotides",
+      "relation": "changes",
+      "tail": "protein message",
+      "evidence": "The deletion of two nucleotides shifts the reading frame of an mRNA and changes the entire protein message, creating a nonfunctional protein or terminating protein synthesis altogether."
+    },
+    {
+      "head": "deletion of two nucleotides",
+      "relation": "creates",
+      "tail": "nonfunctional protein",
+      "evidence": "The deletion of two nucleotides shifts the reading frame of an mRNA and changes the entire protein message, creating a nonfunctional protein or terminating protein synthesis altogether."
+    },
+    {
+      "head": "deletion of two nucleotides",
+      "relation": "terminates",
+      "tail": "protein synthesis",
+      "evidence": "The deletion of two nucleotides shifts the reading frame of an mRNA and changes the entire protein message, creating a nonfunctional protein or terminating protein synthesis altogether."
+    },
+    {
+      "head": "genes",
+      "relation": "carry",
+      "tail": "chromosomes",
+      "evidence": "Genes are carried on chromosomes and are made of DNA."
+    },
+    {
+      "head": "genes",
+      "relation": "made of",
+      "tail": "DNA",
+      "evidence": "Genes are carried on chromosomes and are made of DNA."
+    },
+    {
+      "head": "mammals",
+      "relation": "are",
+      "tail": "diploid",
+      "evidence": "All mammals are diploid, meaning they have two copies of each chromosome."
+    },
+    {
+      "head": "strawberry",
+      "relation": "is",
+      "tail": "octoploid",
+      "evidence": "However, not all plants are diploid. The common strawberry is octoploid (8n) and the cultivated kiwi is hexaploid (6n)."
+    },
+    {
+      "head": "kiwi",
+      "relation": "is",
+      "tail": "hexaploid",
+      "evidence": "However, not all plants are diploid. The common strawberry is octoploid (8n) and the cultivated kiwi is hexaploid (6n)."
+    },
+    {
+      "head": "DNA extraction buffer",
+      "relation": "composed of",
+      "tail": "water",
+      "evidence": "Prepare a bottle of DNA extraction buffer from 900 mL water, 50 mL dish detergent, and two teaspoons of table salt."
+    },
+    {
+      "head": "DNA extraction buffer",
+      "relation": "composed of",
+      "tail": "dish detergent",
+      "evidence": "Prepare a bottle of DNA extraction buffer from 900 mL water, 50 mL dish detergent, and two teaspoons of table salt."
+    },
+    {
+      "head": "DNA extraction buffer",
+      "relation": "composed of",
+      "tail": "table salt",
+      "evidence": "Prepare a bottle of DNA extraction buffer from 900 mL water, 50 mL dish detergent, and two teaspoons of table salt."
+    },
+    {
+      "head": "DNA extraction buffer",
+      "relation": "mixed by",
+      "tail": "inversion",
+      "evidence": "Mix by inversion (cap it and turn it upside down a few times)."
+    },
+    {
+      "head": "strawberry",
+      "relation": "ground using",
+      "tail": "plastic bag",
+      "evidence": "Grind a strawberry and a kiwi by hand in a plastic bag, or using a mortar and pestle, or with a metal bowl and the end of a blunt instrument."
+    },
+    {
+      "head": "kiwi",
+      "relation": "ground using",
+      "tail": "plastic bag",
+      "evidence": "Grind a strawberry and a kiwi by hand in a plastic bag, or using a mortar and pestle, or with a metal bowl and the end of a blunt instrument."
+    },
+    {
+      "head": "strawberry",
+      "relation": "ground using",
+      "tail": "mortar and pestle",
+      "evidence": "Grind a strawberry and a kiwi by hand in a plastic bag, or using a mortar and pestle, or with a metal bowl and the end of a blunt instrument."
+    },
+    {
+      "head": "kiwi",
+      "relation": "ground using",
+      "tail": "mortar and pestle",
+      "evidence": "Grind a strawberry and a kiwi by hand in a plastic bag, or using a mortar and pestle, or with a metal bowl and the end of a blunt instrument."
+    },
+    {
+      "head": "strawberry",
+      "relation": "ground using",
+      "tail": "metal bowl",
+      "evidence": "Grind a strawberry and a kiwi by hand in a plastic bag, or using a mortar and pestle, or with a metal bowl and the end of a blunt instrument."
+    },
+    {
+      "head": "kiwi",
+      "relation": "ground using",
+      "tail": "metal bowl",
+      "evidence": "Grind a strawberry and a kiwi by hand in a plastic bag, or using a mortar and pestle, or with a metal bowl and the end of a blunt instrument."
+    },
+    {
+      "head": "strawberry",
+      "relation": "ground using",
+      "tail": "blunt instrument",
+      "evidence": "Grind a strawberry and a kiwi by hand in a plastic bag, or using a mortar and pestle, or with a metal bowl and the end of a blunt instrument."
+    },
+    {
+      "head": "kiwi",
+      "relation": "ground using",
+      "tail": "blunt instrument",
+      "evidence": "Grind a strawberry and a kiwi by hand in a plastic bag, or using a mortar and pestle, or with a metal bowl and the end of a blunt instrument."
+    },
+    {
+      "head": "fruit mixture",
+      "relation": "filtered through",
+      "tail": "cheesecloth",
+      "evidence": "Remove cellular debris by filtering each fruit mixture through cheesecloth or porous cloth and into a funnel placed in a test tube or an appropriate container."
+    },
+    {
+      "head": "fruit mixture",
+      "relation": "filtered through",
+      "tail": "porous cloth",
+      "evidence": "Remove cellular debris by filtering each fruit mixture through cheesecloth or porous cloth and into a funnel placed in a test tube or an appropriate container."
+    },
+    {
+      "head": "test tube",
+      "relation": "contains",
+      "tail": "ice-cold ethanol",
+      "evidence": "Pour ice-cold ethanol or isopropanol (rubbing alcohol) into the test tube."
+    },
+    {
+      "head": "test tube",
+      "relation": "contains",
+      "tail": "isopropanol",
+      "evidence": "Pour ice-cold ethanol or isopropanol (rubbing alcohol) into the test tube."
+    },
+    {
+      "head": "test tube",
+      "relation": "contains",
+      "tail": "white precipitated DNA",
+      "evidence": "You should observe white, precipitated DNA."
+    },
+    {
+      "head": "DNA",
+      "relation": "gathered using",
+      "tail": "glass rods",
+      "evidence": "Gather the DNA from each fruit by winding it around separate glass rods."
+    },
+    {
+      "head": "Prokaryotes",
+      "relation": "include",
+      "tail": "Bacteria",
+      "evidence": "The prokaryotes, which include Bacteria and Archaea, are mostly single-celled organisms that, by definition, lack membrane-bound nuclei and other organelles."
+    },
+    {
+      "head": "Prokaryotes",
+      "relation": "include",
+      "tail": "Archaea",
+      "evidence": "The prokaryotes, which include Bacteria and Archaea, are mostly single-celled organisms that, by definition, lack membrane-bound nuclei and other organelles."
+    },
+    {
+      "head": "Prokaryotes",
+      "relation": "lack",
+      "tail": "membrane-bound nuclei",
+      "evidence": "The prokaryotes, which include Bacteria and Archaea, are mostly single-celled organisms that, by definition, lack membrane-bound nuclei and other organelles."
+    },
+    {
+      "head": "Prokaryotes",
+      "relation": "lack",
+      "tail": "organelles",
+      "evidence": "The prokaryotes, which include Bacteria and Archaea, are mostly single-celled organisms that, by definition, lack membrane-bound nuclei and other organelles."
+    },
+    {
+      "head": "Bacterial chromosome",
+      "relation": "organized around",
+      "tail": "histone proteins",
+      "evidence": "A bacterial chromosome is a closed circle that, unlike eukaryotic chromosomes, is not organized around histone proteins."
+    },
+    {
+      "head": "Prokaryotic DNA",
+      "relation": "resides in",
+      "tail": "nucleoid region",
+      "evidence": "The central region of the cell in which prokaryotic DNA resides is called the nucleoid region."
+    },
+    {
+      "head": "Prokaryotes",
+      "relation": "have",
+      "tail": "plasmids",
+      "evidence": "In addition, prokaryotes often have abundant plasmids, which are shorter, circular DNA molecules that may only contain one or a few genes."
+    },
+    {
+      "head": "Plasmids",
+      "relation": "transferred independently of",
+      "tail": "bacterial chromosome",
+      "evidence": "Plasmids can be transferred independently of the bacterial chromosome during cell division and often carry traits such as those involved with antibiotic resistance."
+    },
+    {
+      "head": "Transcription",
+      "relation": "requires",
+      "tail": "DNA double helix to partially unwind",
+      "evidence": "Transcription in prokaryotes (and in eukaryotes) requires the DNA double helix to partially unwind in the region of mRNA synthesis."
+    },
+    {
+      "head": "Transcription",
+      "relation": "proceeds from",
+      "tail": "template strand",
+      "evidence": "Transcription always proceeds from the same DNA strand for each gene, which is called the template strand."
+    },
+    {
+      "head": "mRNA product",
+      "relation": "complementary to",
+      "tail": "template strand",
+      "evidence": "The mRNA product is complementary to the template strand and is almost identical to the other DNA strand, called the nontemplate strand, or the coding strand."
+    },
+    {
+      "head": "mRNA product",
+      "relation": "almost identical to",
+      "tail": "nontemplate strand",
+      "evidence": "The mRNA product is complementary to the template strand and is almost identical to the other DNA strand, called the nontemplate strand, or the coding strand."
+    },
+    {
+      "head": "mRNA",
+      "relation": "replaces",
+      "tail": "T nucleotides with U nucleotides",
+      "evidence": "The only nucleotide difference is that in mRNA, all of the T nucleotides are replaced with U nucleotides."
+    },
+    {
+      "head": "Messenger RNA",
+      "relation": "is a copy of",
+      "tail": "protein-coding information",
+      "evidence": "Messenger RNA is a copy of protein-coding information in the coding strand of DNA, with the substitution of U in the RNA for T in the coding sequence."
+    },
+    {
+      "head": "RNA",
+      "relation": "base pair with",
+      "tail": "nucleotides of the template strand",
+      "evidence": "However, new RNA nucleotides base pair with the nucleotides of the template strand."
+    },
+    {
+      "head": "RNA",
+      "relation": "is synthesized in",
+      "tail": "5'-3' direction",
+      "evidence": "RNA is synthesized in its 5'-3' direction, using the enzyme RNA polymerase."
+    },
+    {
+      "head": "RNA",
+      "relation": "uses the enzyme",
+      "tail": "RNA polymerase",
+      "evidence": "RNA is synthesized in its 5'-3' direction, using the enzyme RNA polymerase."
+    },
+    {
+      "head": "DNA",
+      "relation": "unwinds ahead of",
+      "tail": "polymerase",
+      "evidence": "As the template is read, the DNA unwinds ahead of the polymerase and then rewinds behind it."
+    },
+    {
+      "head": "DNA",
+      "relation": "rewinds behind",
+      "tail": "polymerase",
+      "evidence": "As the template is read, the DNA unwinds ahead of the polymerase and then rewinds behind it."
+    },
+    {
+      "head": "Nucleotide pair",
+      "relation": "corresponds to",
+      "tail": "initiation site",
+      "evidence": "The nucleotide pair in the DNA double helix that corresponds to the site from which the first 5' mRNA nucleotide is transcribed is called the +1 site, or the initiation site."
+    },
+    {
+      "head": "Nucleotides",
+      "relation": "are denoted with",
+      "tail": "\u201c- \u201d",
+      "evidence": "Nucleotides preceding the initiation site are denoted with a \u201c- \u201d and are designated upstream nucleotides."
+    },
+    {
+      "head": "Nucleotides",
+      "relation": "are called",
+      "tail": "upstream nucleotides",
+      "evidence": "Nucleotides preceding the initiation site are denoted with a \u201c- \u201d and are designated upstream nucleotides."
+    },
+    {
+      "head": "Nucleotides",
+      "relation": "are denoted with",
+      "tail": "\u201c+\u201d",
+      "evidence": "Conversely, nucleotides following the initiation site are denoted with \u201c+\u201d numbering and are called downstream nucleotides."
+    },
+    {
+      "head": "Nucleotides",
+      "relation": "are called",
+      "tail": "downstream nucleotides",
+      "evidence": "Conversely, nucleotides following the initiation site are denoted with \u201c+\u201d numbering and are called downstream nucleotides."
+    },
+    {
+      "head": "Prokaryotes",
+      "relation": "do not have",
+      "tail": "membrane-enclosed nuclei",
+      "evidence": "Prokaryotes do not have membrane-enclosed nuclei."
+    },
+    {
+      "head": "Prokaryotes",
+      "relation": "can occur simultaneously",
+      "tail": "transcription, translation, and mRNA degradation",
+      "evidence": "Therefore, the processes of transcription, translation, and mRNA degradation can all occur simultaneously."
+    },
+    {
+      "head": "Prokaryotic transcripts",
+      "relation": "cover more than one",
+      "tail": "gene or cistron",
+      "evidence": "Prokaryotic genomes are very compact, and prokaryotic transcripts often cover more than one gene or cistron (a coding sequence for a single protein)."
+    },
+    {
+      "head": "Polycistronic mRNAs",
+      "relation": "are translated to produce",
+      "tail": "more than one kind of protein",
+      "evidence": "Polycistronic mRNAs are then translated to produce more than one kind of protein."
+    },
+    {
+      "head": "RNA polymerase",
+      "relation": "is composed of",
+      "tail": "five polypeptide subunits",
+      "evidence": "In E. coli, the polymerase is composed of five polypeptide subunits, two of which are identical."
+    },
+    {
+      "head": "RNA polymerase",
+      "relation": "comprise the polymerase core enzyme",
+      "tail": "four subunits",
+      "evidence": "Four of these subunits, denoted \u03b1, \u03b1, \u03b2, and \u03b2', comprise the polymerase core enzyme."
+    },
+    {
+      "head": "RNA polymerase",
+      "relation": "assemble every time",
+      "tail": "a gene is transcribed",
+      "evidence": "These subunits assemble every time a gene is transcribed, and they disassemble once transcription is complete."
+    },
+    {
+      "head": "RNA polymerase",
+      "relation": "disassemble once",
+      "tail": "transcription is complete",
+      "evidence": "These subunits assemble every time a gene is transcribed, and they disassemble once transcription is complete."
+    },
+    {
+      "head": "\u03b1-subunits",
+      "relation": "are necessary to assemble",
+      "tail": "the polymerase on the DNA",
+      "evidence": "Each subunit has a unique role; the two \u03b1-subunits are necessary to assemble the polymerase on the DNA; the \u03b2-subunit binds to the ribonucleoside triphosphate that will become part of the nascent mRNA molecule; and the \u03b2' subunit binds the DNA template strand."
+    },
+    {
+      "head": "\u03b2-subunit",
+      "relation": "binds to",
+      "tail": "the ribonucleoside triphosphate",
+      "evidence": "Each subunit has a unique role; the two \u03b1-subunits are necessary to assemble the polymerase on the DNA; the \u03b2-subunit binds to the ribonucleoside triphosphate that will become part of the nascent mRNA molecule; and the \u03b2' subunit binds the DNA template strand."
+    },
+    {
+      "head": "\u03b2' subunit",
+      "relation": "binds",
+      "tail": "the DNA template strand",
+      "evidence": "Each subunit has a unique role; the two \u03b1-subunits are necessary to assemble the polymerase on the DNA; the \u03b2-subunit binds to the ribonucleoside triphosphate that will become part of the nascent mRNA molecule; and the \u03b2' subunit binds the DNA template strand."
+    },
+    {
+      "head": "\u03c3 subunit",
+      "relation": "is involved in",
+      "tail": "transcription initiation",
+      "evidence": "The fifth subunit, \u03c3, is involved only in transcription initiation."
+    },
+    {
+      "head": "\u03c3 subunit",
+      "relation": "confers transcriptional specificity",
+      "tail": "the polymerase begins to synthesize mRNA from an appropriate initiation site",
+      "evidence": "It confers transcriptional specificity such that the polymerase begins to synthesize mRNA from an appropriate initiation site."
+    },
+    {
+      "head": "Core enzyme",
+      "relation": "would transcribe from",
+      "tail": "random sites",
+      "evidence": "Without \u03c3, the core enzyme would transcribe from random sites and would produce mRNA molecules that specified protein gibberish."
+    },
+    {
+      "head": "Core enzyme",
+      "relation": "would produce",
+      "tail": "mRNA molecules that specified protein gibberish",
+      "evidence": "Without \u03c3, the core enzyme would transcribe from random sites and would produce mRNA molecules that specified protein gibberish."
+    },
+    {
+      "head": "Polymerase",
+      "relation": "is called",
+      "tail": "the holoenzyme",
+      "evidence": "The polymerase comprised of all five subunits is called the holoenzyme."
+    },
+    {
+      "head": "Promoters",
+      "relation": "exist upstream of",
+      "tail": "the genes they regulate",
+      "evidence": "In most cases, promoters exist upstream of the genes they regulate."
+    },
+    {
+      "head": "Promoter",
+      "relation": "determines",
+      "tail": "whether the corresponding gene is transcribed all the time, some of the time, or infrequently",
+      "evidence": "The specific sequence of a promoter is very important because it determines whether the corresponding gene is transcribed all the time, some of the time, or infrequently."
+    },
+    {
+      "head": "Promoters",
+      "relation": "vary among",
+      "tail": "prokaryotic genomes",
+      "evidence": "Although promoters vary among prokaryotic genomes, a few elements are evolutionarily conserved in many species."
+    },
+    {
+      "head": "Promoters",
+      "relation": "have",
+      "tail": "two promoter consensus sequences",
+      "evidence": "At the -10 and -35 regions upstream of the initiation site, there are two promoter consensus sequences, or regions that are similar across all promoters and across various bacterial species (Figure"
+    },
+    {
+      "head": "-10 sequence",
+      "relation": "has consensus sequence",
+      "tail": "TATAAT",
+      "evidence": "The -10 sequence, called the -10 region, has the consensus sequence TATAAT."
+    },
+    {
+      "head": "-35 sequence",
+      "relation": "has consensus sequence",
+      "tail": "TTGACA",
+      "evidence": "The -35 sequence has the consensus sequence TTGACA."
+    },
+    {
+      "head": "consensus sequences",
+      "relation": "recognized and bound by",
+      "tail": "\u03c3",
+      "evidence": "These consensus sequences are recognized and bound by \u03c3."
+    },
+    {
+      "head": "subunits of the core enzyme",
+      "relation": "bind to",
+      "tail": "the site",
+      "evidence": "this interaction is made, the subunits of the core enzyme bind to the site."
+    },
+    {
+      "head": "A\u2013T-rich -10 region",
+      "relation": "facilitates",
+      "tail": "unwinding of the DNA template",
+      "evidence": "The A\u2013T-rich -10 region facilitates unwinding of the DNA template, and several phosphodiester bonds are made."
+    },
+    {
+      "head": "transcription initiation phase",
+      "relation": "ends with",
+      "tail": "production of abortive transcripts",
+      "evidence": "The transcription initiation phase ends with the production of abortive transcripts, which are polymers of approximately 10 nucleotides that are made and released."
+    },
+    {
+      "head": "\u03c3 subunit of prokaryotic RNA polymerase",
+      "relation": "recognizes",
+      "tail": "consensus sequences",
+      "evidence": "The \u03c3 subunit of prokaryotic RNA polymerase recognizes consensus sequences found in the promoter region upstream of the transcription start site."
+    },
+    {
+      "head": "\u03c3 subunit",
+      "relation": "dissociates from",
+      "tail": "the polymerase",
+      "evidence": "The \u03c3 subunit dissociates from the polymerase after transcription has been initiated."
+    },
+    {
+      "head": "transcription elongation phase",
+      "relation": "begins with",
+      "tail": "release of the \u03c3 subunit",
+      "evidence": "The transcription elongation phase begins with the release of the \u03c3 subunit from the polymerase."
+    },
+    {
+      "head": "dissociation of \u03c3",
+      "relation": "allows",
+      "tail": "core enzyme to proceed",
+      "evidence": "The dissociation of \u03c3 allows the core enzyme to proceed along the DNA template, synthesizing mRNA in the 5' to 3' direction at a rate of approximately 40 nucleotides per second."
+    },
+    {
+      "head": "core enzyme",
+      "relation": "synthesizes",
+      "tail": "mRNA",
+      "evidence": "The dissociation of \u03c3 allows the core enzyme to proceed along the DNA template, synthesizing mRNA in the 5' to 3' direction at a rate of approximately 40 nucleotides per second."
+    },
+    {
+      "head": "RNA polymerase",
+      "relation": "acts as",
+      "tail": "stable linker",
+      "evidence": "The RNA polymerase acts as a stable linker between the DNA template and the nascent RNA strands to ensure that elongation is not interrupted prematurely."
+    },
+    {
+      "head": "rho (\u03c1) protein",
+      "relation": "tracks along",
+      "tail": "the polymerase",
+      "evidence": "Rho-dependent termination is controlled by the rho (\u03c1) protein, which tracks along behind the polymerase on the growing mRNA chain."
+    },
+    {
+      "head": "polymerase",
+      "relation": "encounters",
+      "tail": "run of G nucleotides",
+      "evidence": "Near the end of the gene, the polymerase encounters a run of G nucleotides on the DNA template and it stalls."
+    },
+    {
+      "head": "rho protein",
+      "relation": "collides with",
+      "tail": "the polymerase",
+      "evidence": "As a result, the rho protein collides with the polymerase."
+    },
+    {
+      "head": "interaction with rho",
+      "relation": "releases",
+      "tail": "the mRNA",
+      "evidence": "The interaction with rho releases the mRNA from the transcription bubble."
+    },
+    {
+      "head": "polymerase",
+      "relation": "encounters",
+      "tail": "region rich in C\u2013G nucleotides",
+      "evidence": "As the polymerase nears the end of the gene being transcribed, it encounters a region rich in C\u2013G nucleotides."
+    },
+    {
+      "head": "mRNA",
+      "relation": "folds back on",
+      "tail": "itself",
+      "evidence": "The mRNA folds back on itself, and the complementary C\u2013G nucleotides bind together."
+    },
+    {
+      "head": "stable hairpin",
+      "relation": "causes",
+      "tail": "polymerase to stall",
+      "evidence": "The result is a stable hairpin that causes the polymerase to stall as soon as it begins to transcribe a region rich in A\u2013T nucleotides."
+    },
+    {
+      "head": "complementary U\u2013A region",
+      "relation": "forms",
+      "tail": "weak interaction",
+      "evidence": "The complementary U\u2013A region of the mRNA transcript forms only a weak interaction with the template DNA."
+    },
+    {
+      "head": "stalled polymerase",
+      "relation": "induces",
+      "tail": "instability",
+      "evidence": "This, coupled with the stalled polymerase, induces enough instability for the core enzyme to break away and liberate the new mRNA transcript."
+    },
+    {
+      "head": "core enzyme",
+      "relation": "breaks away",
+      "tail": "new mRNA transcript",
+      "evidence": "This, coupled with the stalled polymerase, induces enough instability for the core enzyme to break away and liberate the new mRNA transcript."
+    },
+    {
+      "head": "transcription",
+      "relation": "is complete",
+      "tail": "termination",
+      "evidence": "Upon termination, the process of transcription is complete."
+    },
+    {
+      "head": "prokaryotic transcript",
+      "relation": "has been used",
+      "tail": "synthesis of numerous copies of the encoded protein",
+      "evidence": "By the time termination occurs, the prokaryotic transcript would already have been used to begin synthesis of numerous copies of the encoded protein because these processes can occur concurrently."
+    },
+    {
+      "head": "transcription, translation, and mRNA degradation",
+      "relation": "occur in",
+      "tail": "same 5' to 3' direction",
+      "evidence": "The unification of transcription, translation, and even mRNA degradation is possible because all of these processes occur in the same 5' to 3' direction, and because there is no membranous compartmentalization in the prokaryotic cell (Figure 15.9)."
+    },
+    {
+      "head": "presence of a nucleus",
+      "relation": "precludes",
+      "tail": "simultaneous transcription and translation",
+      "evidence": "In contrast, the presence of a nucleus in eukaryotic cells precludes simultaneous transcription and translation."
+    },
+    {
+      "head": "polymerases",
+      "relation": "transcribe",
+      "tail": "bacterial gene",
+      "evidence": "Multiple polymerases can transcribe a single bacterial gene while numerous ribosomes concurrently translate the mRNA transcripts into polypeptides."
+    },
+    {
+      "head": "ribosomes",
+      "relation": "translate",
+      "tail": "mRNA transcripts",
+      "evidence": "Multiple polymerases can transcribe a single bacterial gene while numerous ribosomes concurrently translate the mRNA transcripts into polypeptides."
+    },
+    {
+      "head": "ribosomes",
+      "relation": "produce",
+      "tail": "polypeptides",
+      "evidence": "Multiple polymerases can transcribe a single bacterial gene while numerous ribosomes concurrently translate the mRNA transcripts into polypeptides."
+    },
+    {
+      "head": "eukaryotes",
+      "relation": "employ",
+      "tail": "three different polymerases",
+      "evidence": "Eukaryotes also employ three different polymerases that each transcribe a different subset of genes."
+    },
+    {
+      "head": "eukaryotic mRNAs",
+      "relation": "specify",
+      "tail": "single protein",
+      "evidence": "Eukaryotic mRNAs are usually monogenic, meaning that they specify a single protein."
+    },
+    {
+      "head": "eukaryotes",
+      "relation": "require",
+      "tail": "transcription factors",
+      "evidence": "Unlike the prokaryotic polymerase that can bind to a DNA template on its own, eukaryotes require several other proteins, called transcription factors, to first bind to the promoter region and then to help recruit the appropriate polymerase."
+    },
+    {
+      "head": "transcription factors",
+      "relation": "bind to",
+      "tail": "promoter region",
+      "evidence": "Unlike the prokaryotic polymerase that can bind to a DNA template on its own, eukaryotes require several other proteins, called transcription factors, to first bind to the promoter region and then to help recruit the appropriate polymerase."
+    },
+    {
+      "head": "transcription factors",
+      "relation": "recruit",
+      "tail": "polymerase",
+      "evidence": "Unlike the prokaryotic polymerase that can bind to a DNA template on its own, eukaryotes require several other proteins, called transcription factors, to first bind to the promoter region and then to help recruit the appropriate polymerase."
+    },
+    {
+      "head": "eukaryotes",
+      "relation": "have",
+      "tail": "three polymerases",
+      "evidence": "Instead of a single polymerase comprising five subunits, the eukaryotes have three polymerases that are each made up of 10 subunits or more."
+    },
+    {
+      "head": "RNA polymerase I",
+      "relation": "located in",
+      "tail": "nucleolus",
+      "evidence": "RNA polymerase I is located in the nucleolus, a specialized nuclear substructure in which ribosomal RNA (rRNA) is transcribed, processed, and assembled into ribosomes (Table 15.1)."
+    },
+    {
+      "head": "RNA polymerase I",
+      "relation": "synthesizes",
+      "tail": "rRNAs",
+      "evidence": "RNA polymerase I synthesizes all of the rRNAs from the tandemly duplicated set of 18S, 5.8S, and 28S ribosomal genes."
+    },
+    {
+      "head": "rRNAs",
+      "relation": "are components of",
+      "tail": "ribosome",
+      "evidence": "The rRNAs are components of the ribosome and are essential to the process of translation."
+    },
+    {
+      "head": "RNA polymerase I",
+      "relation": "transcribes",
+      "tail": "all rRNAs except 5S rRNA",
+      "evidence": "RNA Polymerase Cellular Compartment Product of Transcription \u03b1-Amanitin Sensitivity I Nucleolus All rRNAs except 5S rRNA Insensitive"
+    },
+    {
+      "head": "RNA polymerase I",
+      "relation": "is insensitive to",
+      "tail": "\u03b1-amanitin",
+      "evidence": "RNA Polymerase Cellular Compartment Product of Transcription \u03b1-Amanitin Sensitivity I Nucleolus All rRNAs except 5S rRNA Insensitive"
+    },
+    {
+      "head": "RNA polymerase II",
+      "relation": "located in",
+      "tail": "nucleus",
+      "evidence": "RNA Polymerase Cellular Compartment Product of Transcription \u03b1-Amanitin Sensitivity II Nucleus All protein-coding nuclear pre-mRNAs Extremely sensitive"
+    },
+    {
+      "head": "RNA polymerase II",
+      "relation": "transcribes",
+      "tail": "all protein-coding nuclear pre-mRNAs",
+      "evidence": "RNA Polymerase Cellular Compartment Product of Transcription \u03b1-Amanitin Sensitivity II Nucleus All protein-coding nuclear pre-mRNAs Extremely sensitive"
+    },
+    {
+      "head": "RNA polymerase II",
+      "relation": "is extremely sensitive to",
+      "tail": "\u03b1-amanitin",
+      "evidence": "RNA Polymerase Cellular Compartment Product of Transcription \u03b1-Amanitin Sensitivity II Nucleus All protein-coding nuclear pre-mRNAs Extremely sensitive"
+    },
+    {
+      "head": "RNA polymerase III",
+      "relation": "located in",
+      "tail": "nucleus",
+      "evidence": "RNA Polymerase Cellular Compartment Product of Transcription \u03b1-Amanitin Sensitivity III Nucleus 5S rRNA, tRNAs, and small nuclear RNAs Moderately sensitive"
+    },
+    {
+      "head": "RNA polymerase III",
+      "relation": "transcribes",
+      "tail": "5S rRNA, tRNAs, and small nuclear RNAs",
+      "evidence": "RNA Polymerase Cellular Compartment Product of Transcription \u03b1-Amanitin Sensitivity III Nucleus 5S rRNA, tRNAs, and small nuclear RNAs Moderately sensitive"
+    },
+    {
+      "head": "RNA polymerase III",
+      "relation": "is moderately sensitive to",
+      "tail": "\u03b1-amanitin",
+      "evidence": "RNA Polymerase Cellular Compartment Product of Transcription \u03b1-Amanitin Sensitivity III Nucleus 5S rRNA, tRNAs, and small nuclear RNAs Moderately sensitive"
+    },
+    {
+      "head": "RNA polymerase II",
+      "relation": "synthesizes",
+      "tail": "all protein-coding nuclear pre-mRNAs",
+      "evidence": "RNA polymerase II is located in the nucleus and synthesizes all protein-coding nuclear pre-mRNAs."
+    },
+    {
+      "head": "Eukaryotic pre-mRNAs",
+      "relation": "undergo",
+      "tail": "extensive processing",
+      "evidence": "Eukaryotic pre- mRNAs undergo extensive processing after transcription but before translation."
+    },
+    {
+      "head": "tRNAs",
+      "relation": "serve as",
+      "tail": "adaptor molecules",
+      "evidence": "The tRNAs have a critical role in translation; they serve as the \u201cadaptor molecules\u201d between the mRNA template and the growing polypeptide chain."
+    },
+    {
+      "head": "Small nuclear RNAs",
+      "relation": "have functions in",
+      "tail": "splicing pre-mRNAs and regulating transcription factors",
+      "evidence": "Small nuclear RNAs have a variety of functions, including \u201csplicing\u201d pre-mRNAs and regulating transcription factors."
+    },
+    {
+      "head": "\u03b1-amanitin",
+      "relation": "affects",
+      "tail": "the three polymerases",
+      "evidence": "Interestingly, the \u03b1-amanitin affects the three polymerases very differently (Table 15.1)."
+    },
+    {
+      "head": "RNA polymerase II",
+      "relation": "transcribes",
+      "tail": "the vast majority of eukaryotic genes",
+      "evidence": "Because RNA polymerase II transcribes the vast majority of genes, we will focus on this polymerase in our subsequent discussions about eukaryotic transcription factors and promoters."
+    },
+    {
+      "head": "Eukaryotic promoters",
+      "relation": "have",
+      "tail": "a sequence similar to the -10 sequence of prokaryotes",
+      "evidence": "Eukaryotic promoters are much larger and more intricate than prokaryotic promoters. However, both have a sequence similar to the -10 sequence of prokaryotes."
+    },
+    {
+      "head": "TATA box",
+      "relation": "has the consensus sequence",
+      "tail": "TATAAA",
+      "evidence": "In eukaryotes, this sequence is called the TATA box, and has the consensus sequence TATAAA on the coding strand."
+    },
+    {
+      "head": "TATA box",
+      "relation": "located at",
+      "tail": "-25 to -35 bases relative to the initiation (+1) site",
+      "evidence": "It is located at -25 to -35 bases relative to the initiation (+1) site (Figure 15.10)."
+    },
+    {
+      "head": "TATA box",
+      "relation": "conserves",
+      "tail": "the A\u2013T rich element",
+      "evidence": "This sequence is not identical to the E. coli -10 box, but it conserves the A\u2013T rich element."
+    },
+    {
+      "head": "A\u2013T bonds",
+      "relation": "have",
+      "tail": "low thermostability",
+      "evidence": "The thermostability of A\u2013T bonds is low and this helps the DNA template to locally unwind in preparation for transcription."
+    },
+    {
+      "head": "Eukaryotes",
+      "relation": "assemble",
+      "tail": "a complex of transcription factors",
+      "evidence": "Instead of the simple \u03c3 factor that helps bind the prokaryotic RNA polymerase to its promoter, eukaryotes assemble a complex of transcription factors required to recruit RNA polymerase II to a protein coding gene."
+    },
+    {
+      "head": "Transcription factors",
+      "relation": "bind to",
+      "tail": "the promoter",
+      "evidence": "Transcription factors that bind to the promoter are called basal transcription factors."
+    },
+    {
+      "head": "Basal transcription factors",
+      "relation": "are called",
+      "tail": "TFII",
+      "evidence": "These basal factors are all called TFII (for Transcription Factor/polymerase II) plus an additional letter (A-J)."
+    },
+    {
+      "head": "TFIID",
+      "relation": "includes",
+      "tail": "a TATA-binding protein (TBP)",
+      "evidence": "The core complex is TFIID, which includes a TATA-binding protein (TBP)."
+    },
+    {
+      "head": "Transcription factors",
+      "relation": "recognize",
+      "tail": "promoter",
+      "evidence": "Transcription factors recognize the promoter."
+    },
+    {
+      "head": "RNA polymerase II",
+      "relation": "binds",
+      "tail": "promoter",
+      "evidence": "RNA polymerase II then binds and forms the transcription initiation complex."
+    },
+    {
+      "head": "RNA polymerase II",
+      "relation": "forms",
+      "tail": "transcription initiation complex",
+      "evidence": "RNA polymerase II then binds and forms the transcription initiation complex."
+    },
+    {
+      "head": "Eukaryotic promoters",
+      "relation": "have",
+      "tail": "CAAT box",
+      "evidence": "Some eukaryotic promoters also have a conserved CAAT box (GGCCAATCT) at approximately -80."
+    },
+    {
+      "head": "Eukaryotic promoters",
+      "relation": "contain",
+      "tail": "GC-rich boxes",
+      "evidence": "Further upstream of the TATA box, eukaryotic promoters may also contain one or more GC-rich boxes (GGCG) or octamer boxes (ATTTGCAT)."
+    },
+    {
+      "head": "Eukaryotic promoters",
+      "relation": "contain",
+      "tail": "octamer boxes",
+      "evidence": "Further upstream of the TATA box, eukaryotic promoters may also contain one or more GC-rich boxes (GGCG) or octamer boxes (ATTTGCAT)."
+    },
+    {
+      "head": "Cellular factors",
+      "relation": "bind",
+      "tail": "GC-rich boxes",
+      "evidence": "These elements bind cellular factors that increase the efficiency of transcription initiation and are often identified in more \u201cactive\u201d genes that are constantly being expressed by the cell."
+    },
+    {
+      "head": "Cellular factors",
+      "relation": "bind",
+      "tail": "octamer boxes",
+      "evidence": "These elements bind cellular factors that increase the efficiency of transcription initiation and are often identified in more \u201cactive\u201d genes that are constantly being expressed by the cell."
+    },
+    {
+      "head": "Basal transcription factors",
+      "relation": "form",
+      "tail": "preinitiation complex",
+      "evidence": "Basal transcription factors are crucial in the formation of a preinitiation complex on the DNA template that subsequently recruits RNA polymerase II for transcription initiation."
+    },
+    {
+      "head": "Preinitiation complex",
+      "relation": "recruits",
+      "tail": "RNA polymerase II",
+      "evidence": "Basal transcription factors are crucial in the formation of a preinitiation complex on the DNA template that subsequently recruits RNA polymerase II for transcription initiation."
+    },
+    {
+      "head": "Transcription factors",
+      "relation": "bind",
+      "tail": "upstream enhancers",
+      "evidence": "An army of other transcription factors, which bind to upstream enhancers and silencers, also help to regulate the frequency with which pre-mRNA is synthesized from a gene."
+    },
+    {
+      "head": "Transcription factors",
+      "relation": "bind",
+      "tail": "silencers",
+      "evidence": "An army of other transcription factors, which bind to upstream enhancers and silencers, also help to regulate the frequency with which pre-mRNA is synthesized from a gene."
+    },
+    {
+      "head": "Enhancers",
+      "relation": "affect",
+      "tail": "efficiency of transcription",
+      "evidence": "Enhancers and silencers affect the efficiency of transcription but are not necessary for transcription to proceed."
+    },
+    {
+      "head": "Silencers",
+      "relation": "affect",
+      "tail": "efficiency of transcription",
+      "evidence": "Enhancers and silencers affect the efficiency of transcription but are not necessary for transcription to proceed."
+    },
+    {
+      "head": "RNA polymerase I",
+      "relation": "transcribes",
+      "tail": "genes",
+      "evidence": "RNA polymerase I transcribes genes that have two GC-rich promoter sequences in the -45 to +20 region."
+    },
+    {
+      "head": "RNA polymerase III",
+      "relation": "transcribes",
+      "tail": "genes",
+      "evidence": "Genes that are transcribed by RNA polymerase III have upstream promoters or promoters that occur within the genes themselves."
+    },
+    {
+      "head": "genes",
+      "relation": "may evolve",
+      "tail": "eukaryotic promoters",
+      "evidence": "However, eukaryotic promoters and other gene regulatory sequences may evolve as well."
+    },
+    {
+      "head": "gene",
+      "relation": "encodes structural protein",
+      "tail": "structural protein",
+      "evidence": "Maybe the gene encodes a structural protein that the cell needs to synthesize in abundance for a certain function."
+    },
+    {
+      "head": "promoter",
+      "relation": "recruits transcription factors",
+      "tail": "transcription factors",
+      "evidence": "If this is the case, it would be beneficial to the cell for that gene\u2019s promoter to recruit transcription factors more efficiently and increase gene expression."
+    },
+    {
+      "head": "promoters",
+      "relation": "evolve faster than",
+      "tail": "protein-coding genes",
+      "evidence": "they found that promoters evolve even faster than protein-coding genes."
+    },
+    {
+      "head": "preinitiation complex",
+      "relation": "binds sequences",
+      "tail": "core promoter sequences",
+      "evidence": "when researchers limited their examination to human core promoter sequences that were defined experimentally as sequences that bind the preinitiation complex"
+    },
+    {
+      "head": "promoter evolution",
+      "relation": "corresponds to",
+      "tail": "evolution of humans",
+      "evidence": "It is still unclear how promoter evolution might correspond to the evolution of humans or other complex organisms."
+    },
+    {
+      "head": "promoter",
+      "relation": "makes more or less",
+      "tail": "gene product",
+      "evidence": "the evolution of a promoter to effectively make more or less of a given gene product is an intriguing alternative to the evolution of the genes themselves."
+    },
+    {
+      "head": "RNA polymerase II",
+      "relation": "transcribes",
+      "tail": "eukaryotic genes",
+      "evidence": "RNA polymerase II transcribes the major share of eukaryotic genes"
+    },
+    {
+      "head": "DNA",
+      "relation": "is packaged around",
+      "tail": "histone proteins",
+      "evidence": "The DNA is tightly packaged around charged histone proteins at repeated intervals."
+    },
+    {
+      "head": "nucleosomes",
+      "relation": "include",
+      "tail": "146 nucleotides of DNA",
+      "evidence": "These DNA\u2013histone complexes, collectively called nucleosomes, are regularly spaced and include 146 nucleotides of DNA wound around eight histones like thread around a spool."
+    },
+    {
+      "head": "transcription machinery",
+      "relation": "moves histones",
+      "tail": "histones",
+      "evidence": "For polynucleotide synthesis to occur, the transcription machinery needs to move histones out of the way every time it encounters a nucleosome."
+    },
+    {
+      "head": "FACT complex",
+      "relation": "pulls histones away",
+      "tail": "DNA template",
+      "evidence": "This is accomplished by a special protein complex called FACT, which stands for \u201cfacilitates chromatin transcription.\u201d This complex pulls histones away from the DNA template as the polymerase moves along it."
+    },
+    {
+      "head": "FACT complex",
+      "relation": "replaces histones",
+      "tail": "nucleosomes",
+      "evidence": "Once the pre-mRNA is synthesized, the FACT complex replaces the histones to recreate the nucleosomes."
+    },
+    {
+      "head": "RNA polymerase II",
+      "relation": "takes place beyond",
+      "tail": "end of the gene",
+      "evidence": "Unlike in prokaryotes, elongation by RNA polymerase II in eukaryotes takes place 1,000 to 2,000 nucleotides beyond the end of the gene being transcribed."
+    },
+    {
+      "head": "pre-mRNA tail",
+      "relation": "is removed by",
+      "tail": "cleavage during mRNA processing",
+      "evidence": "This pre-mRNA tail is subsequently removed by cleavage during mRNA processing."
+    },
+    {
+      "head": "RNA polymerases I and III",
+      "relation": "require",
+      "tail": "termination signals",
+      "evidence": "On the other hand, RNA polymerases I and III require termination signals."
+    },
+    {
+      "head": "RNA polymerase I",
+      "relation": "contain",
+      "tail": "18-nucleotide sequence",
+      "evidence": "by RNA polymerase I contain a specific 18-nucleotide sequence that is recognized by a termination protein."
+    },
+    {
+      "head": "18-nucleotide sequence",
+      "relation": "recognized by",
+      "tail": "termination protein",
+      "evidence": "by RNA polymerase I contain a specific 18-nucleotide sequence that is recognized by a termination protein."
+    },
+    {
+      "head": "RNA polymerase III",
+      "relation": "involves",
+      "tail": "mRNA hairpin",
+      "evidence": "The process of termination in RNA polymerase III involves an mRNA hairpin similar to rho-independent termination of transcription in prokaryotes."
+    },
+    {
+      "head": "mRNA hairpin",
+      "relation": "similar to",
+      "tail": "rho-independent termination of transcription in prokaryotes",
+      "evidence": "The process of termination in RNA polymerase III involves an mRNA hairpin similar to rho-independent termination of transcription in prokaryotes."
+    },
+    {
+      "head": "eukaryotic pre-mRNAs",
+      "relation": "undergo processing",
+      "tail": "protein-synthesis machinery",
+      "evidence": "Eukaryotic (and prokaryotic) tRNAs and rRNAs also undergo processing before they can function as components in the protein-synthesis machinery."
+    },
+    {
+      "head": "eukaryotic pre-mRNA",
+      "relation": "undergo extensive processing",
+      "tail": "translated",
+      "evidence": "The eukaryotic pre-mRNA undergoes extensive processing before it is ready to be translated."
+    },
+    {
+      "head": "eukaryotic protein-coding sequences",
+      "relation": "are interrupted by",
+      "tail": "noncoding introns",
+      "evidence": "Eukaryotic protein-coding sequences are not continuous, as they are in prokaryotes. The coding sequences (exons) are interrupted by noncoding introns, which must be removed to make a translatable mRNA."
+    },
+    {
+      "head": "pre-mRNAs",
+      "relation": "are coated in",
+      "tail": "RNA-stabilizing proteins",
+      "evidence": "Pre-mRNAs are first coated in RNA-stabilizing proteins; these protect the pre-mRNA from degradation while it is processed and exported out of the nucleus."
+    },
+    {
+      "head": "pre-mRNA processing",
+      "relation": "involves addition of",
+      "tail": "stabilizing and signaling factors",
+      "evidence": "The three most important steps of pre-mRNA processing are the addition of stabilizing and signaling factors at the 5' and 3' ends of the molecule, and the removal of the introns"
+    },
+    {
+      "head": "pre-mRNA processing",
+      "relation": "involves removal of",
+      "tail": "introns",
+      "evidence": "The three most important steps of pre-mRNA processing are the addition of stabilizing and signaling factors at the 5' and 3' ends of the molecule, and the removal of the introns"
+    },
+    {
+      "head": "mRNA transcript",
+      "relation": "can be edited",
+      "tail": "after transcription",
+      "evidence": "In rare cases, the mRNA transcript can be \u201cedited\u201d after it is transcribed."
+    },
+    {
+      "head": "trypanosomes",
+      "relation": "include",
+      "tail": "Trypanosoma brucei",
+      "evidence": "The trypanosomes are a group of protozoa that include the pathogen Trypanosoma brucei, which causes nagana in cattle and sleeping sickness in humans throughout great areas of Africa"
+    },
+    {
+      "head": "trypanosomes",
+      "relation": "are carried by",
+      "tail": "tsetse flies",
+      "evidence": "The trypanosome is carried by biting flies in the genus Glossina (commonly called tsetse flies)."
+    },
+    {
+      "head": "trypanosomes",
+      "relation": "have organelles",
+      "tail": "mitochondria",
+      "evidence": "Trypanosomes, and virtually all other eukaryotes, have organelles called mitochondria that supply the cell with chemical energy."
+    },
+    {
+      "head": "mitochondria",
+      "relation": "express their own DNA",
+      "tail": "eukaryote",
+      "evidence": "Mitochondria are organelles that express their own DNA and are believed to be the remnants of a symbiotic relationship between a eukaryote and an engulfed prokaryote."
+    },
+    {
+      "head": "mitochondrial DNA of trypanosomes",
+      "relation": "exhibit exception to",
+      "tail": "central dogma",
+      "evidence": "The mitochondrial DNA of trypanosomes exhibit an interesting exception to the central dogma: their pre-mRNAs do not have the correct information to specify a functional protein."
+    },
+    {
+      "head": "mitochondrial DNA of trypanosomes",
+      "relation": "undergo RNA editing",
+      "tail": "remedy",
+      "evidence": "The cell performs an additional RNA processing step called RNA editing to remedy this."
+    },
+    {
+      "head": "Trypanosoma brucei",
+      "relation": "causes",
+      "tail": "sleeping sickness",
+      "evidence": "Trypanosoma brucei is the causative agent of sleeping sickness in humans."
+    },
+    {
+      "head": "mRNAs",
+      "relation": "must be modified by",
+      "tail": "nucleotides",
+      "evidence": "The mRNAs of this pathogen must be modified by the addition of nucleotides before protein synthesis can occur."
+    },
+    {
+      "head": "genes",
+      "relation": "encode",
+      "tail": "guide RNAs",
+      "evidence": "Other genes in the mitochondrial genome encode 40- to 80-nucleotide guide RNAs."
+    },
+    {
+      "head": "guide RNAs",
+      "relation": "interacts with",
+      "tail": "pre-mRNA transcript",
+      "evidence": "One or more of these molecules interacts by complementary base pairing with some of the nucleotides in the pre-mRNA transcript."
+    },
+    {
+      "head": "guide RNA",
+      "relation": "has more",
+      "tail": "A nucleotides",
+      "evidence": "However, the guide RNA has more A nucleotides than the pre-mRNA has U nucleotides with which to bind."
+    },
+    {
+      "head": "guide RNA",
+      "relation": "loops out",
+      "tail": "regions",
+      "evidence": "In these regions, the guide RNA loops out."
+    },
+    {
+      "head": "guide RNAs",
+      "relation": "have",
+      "tail": "poly-U tail",
+      "evidence": "The 3' ends of guide RNAs have a long poly-U tail, and these U bases are inserted in regions of the pre-mRNA transcript at which the guide RNAs are looped."
+    },
+    {
+      "head": "guide RNAs",
+      "relation": "mediate",
+      "tail": "RNA editing",
+      "evidence": "This process is entirely mediated by RNA molecules."
+    },
+    {
+      "head": "guide RNAs",
+      "relation": "serve as",
+      "tail": "catalysts in RNA editing",
+      "evidence": "That is, guide RNAs\u2014rather than proteins\u2014serve as the catalysts in RNA editing."
+    },
+    {
+      "head": "RNA editing",
+      "relation": "is a phenomenon of",
+      "tail": "trypanosomes",
+      "evidence": "RNA editing is not just a phenomenon of trypanosomes."
+    },
+    {
+      "head": "RNA editing",
+      "relation": "has been identified in",
+      "tail": "mammals",
+      "evidence": "RNA editing has also been identified in mammals such as rats, rabbits, and even humans."
+    },
+    {
+      "head": "mitochondria",
+      "relation": "have",
+      "tail": "RNA-based method for regulating gene expression",
+      "evidence": "One possibility is that the mitochondria, being remnants of ancient prokaryotes, have an equally ancient RNA-based method for regulating gene expression."
+    },
+    {
+      "head": "edits",
+      "relation": "differ depending on",
+      "tail": "cellular conditions",
+      "evidence": "In support of this hypothesis, edits made to pre-mRNAs differ depending on cellular conditions."
+    },
+    {
+      "head": "RNA editing",
+      "relation": "may be a holdover from",
+      "tail": "primordial time",
+      "evidence": "Although speculative, the process of RNA editing may be a holdover from a primordial time when RNA molecules, instead of proteins, were responsible for catalyzing reactions."
+    },
+    {
+      "head": "pre-mRNA",
+      "relation": "is added",
+      "tail": "7-methylguanosine cap",
+      "evidence": "While the pre-mRNA is still being synthesized, a 7-methylguanosine cap is added to the 5' end of the growing transcript by a phosphate linkage."
+    },
+    {
+      "head": "7-methylguanosine cap",
+      "relation": "protects",
+      "tail": "nascent mRNA",
+      "evidence": "This functional group protects the nascent mRNA from degradation."
+    },
+    {
+      "head": "factors",
+      "relation": "recognize",
+      "tail": "the cap",
+      "evidence": "In addition, factors involved in protein synthesis recognize the cap to help initiate translation by ribosomes."
+    },
+    {
+      "head": "pre-mRNA",
+      "relation": "is cleaved by",
+      "tail": "endonuclease",
+      "evidence": "Once elongation is complete, the pre-mRNA is cleaved by an endonuclease between an AAUAAA consensus sequence and a GU-rich sequence, leaving the AAUAAA sequence on the pre-mRNA."
+    },
+    {
+      "head": "poly-A polymerase",
+      "relation": "adds",
+      "tail": "poly-A tail",
+      "evidence": "An enzyme called poly-A polymerase then adds a string of approximately 200 A residues, called the poly-A tail."
+    },
+    {
+      "head": "poly-A tail",
+      "relation": "protects",
+      "tail": "pre-mRNA",
+      "evidence": "This modification further protects the pre-mRNA from degradation and is also the binding site for a protein necessary for exporting the processed mRNA to the cytoplasm."
+    },
+    {
+      "head": "Eukaryotic genes",
+      "relation": "are composed of",
+      "tail": "exons and introns",
+      "evidence": "Eukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they are expressed), and intervening sequences called introns (int-ron denotes their intervening role), which may be involved in gene regulation but are removed from the pre-mRNA during processing."
+    },
+    {
+      "head": "introns",
+      "relation": "do not encode",
+      "tail": "functional proteins",
+      "evidence": "Intron sequences in mRNA do not encode functional proteins."
+    },
+    {
+      "head": "introns",
+      "relation": "came as a surprise to",
+      "tail": "researchers",
+      "evidence": "The discovery of introns came as a surprise to researchers in the 1970s who expected that pre-mRNAs would specify protein sequences without further processing, as they had observed in prokaryotes."
+    },
+    {
+      "head": "genes of higher eukaryotes",
+      "relation": "contain",
+      "tail": "introns",
+      "evidence": "The genes of higher eukaryotes very often contain one or more introns."
+    },
+    {
+      "head": "introns",
+      "relation": "may correspond to",
+      "tail": "regulatory sequences",
+      "evidence": "These regions may correspond to regulatory sequences; however, the biological significance of having many introns or having very long introns in a gene is unclear."
+    },
+    {
+      "head": "introns",
+      "relation": "slow down",
+      "tail": "gene expression",
+      "evidence": "It is possible that introns slow down gene expression because it takes longer to transcribe pre-mRNAs with lots of"
+    },
+    {
+      "head": "introns",
+      "relation": "may be",
+      "tail": "nonfunctional sequence remnants",
+      "evidence": "introns may be nonfunctional sequence remnants left over from the fusion of ancient genes throughout the course of evolution."
+    },
+    {
+      "head": "introns",
+      "relation": "can be mutated",
+      "tail": "sequences",
+      "evidence": "For the most part, the sequences of introns can be mutated without ultimately affecting the protein product."
+    },
+    {
+      "head": "introns",
+      "relation": "must be removed",
+      "tail": "pre-mRNA",
+      "evidence": "All of a pre-mRNA\u2019s introns must be completely and precisely removed before protein synthesis."
+    },
+    {
+      "head": "splicing",
+      "relation": "involves",
+      "tail": "removal of introns",
+      "evidence": "The process of removing introns and reconnecting exons is called splicing."
+    },
+    {
+      "head": "introns",
+      "relation": "are removed",
+      "tail": "nucleus",
+      "evidence": "Introns are removed and degraded while the pre-mRNA is still in the nucleus."
+    },
+    {
+      "head": "splicing",
+      "relation": "occurs by",
+      "tail": "sequence-specific mechanism",
+      "evidence": "Splicing occurs by a sequence-specific mechanism that ensures introns will be removed and exons rejoined with the accuracy and precision of a single nucleotide."
+    },
+    {
+      "head": "intron",
+      "relation": "is marked with",
+      "tail": "specific nucleotides",
+      "evidence": "Although the intron itself is noncoding, the beginning and end of each intron is marked with specific nucleotides: GU at the 5' end and AG at the 3' end of the intron."
+    },
+    {
+      "head": "splicing of pre-mRNAs",
+      "relation": "is conducted by",
+      "tail": "spliceosomes",
+      "evidence": "The splicing of pre-mRNAs is conducted by complexes of proteins and RNA molecules called spliceosomes."
+    },
+    {
+      "head": "spliceosomes",
+      "relation": "are composed of",
+      "tail": "proteins and RNA molecules",
+      "evidence": "The splicing process is catalyzed by protein complexes called spliceosomes that are composed of proteins and RNA molecules called small nuclear RNAs (snRNAs)."
+    },
+    {
+      "head": "spliceosomes",
+      "relation": "recognize",
+      "tail": "sequences at the 5' and 3' end of the intron",
+      "evidence": "Spliceosomes recognize sequences at the 5' and 3' end of the intron."
+    },
+    {
+      "head": "errors in splicing",
+      "relation": "are implicated in",
+      "tail": "cancers and other human diseases",
+      "evidence": "Errors in splicing are implicated in cancers and other human diseases."
+    },
+    {
+      "head": "pre-tRNAs",
+      "relation": "are transcribed and processed in",
+      "tail": "nucleus",
+      "evidence": "Pre-tRNAs are transcribed and processed in the nucleus and then released into the cytoplasm where they are linked to free amino acids for protein synthesis."
+    },
+    {
+      "head": "tRNAs and rRNAs",
+      "relation": "are first transcribed as",
+      "tail": "long precursor molecule",
+      "evidence": "Most of the tRNAs and rRNAs in eukaryotes and prokaryotes are first transcribed as a long precursor molecule that spans multiple rRNAs or tRNAs."
+    },
+    {
+      "head": "enzymes",
+      "relation": "cleave",
+      "tail": "precursors into subunits",
+      "evidence": "Enzymes then cleave the precursors into subunits corresponding to each structural RNA."
+    },
+    {
+      "head": "pre-rRNAs",
+      "relation": "undergo",
+      "tail": "methylation",
+      "evidence": "Some of the bases of pre-rRNAs are methylated; that is, a \u2013CH3 methyl functional group is added for stability."
+    },
+    {
+      "head": "pre-tRNA molecules",
+      "relation": "undergo",
+      "tail": "methylation",
+      "evidence": "Pre-tRNA molecules also undergo methylation."
+    },
+    {
+      "head": "subunit excision",
+      "relation": "occurs in",
+      "tail": "eukaryotic pre-RNAs",
+      "evidence": "As with pre-mRNAs, subunit excision occurs in eukaryotic pre-RNAs destined to become tRNAs or rRNAs."
+    },
+    {
+      "head": "Mature rRNAs",
+      "relation": "make up",
+      "tail": "50 percent of each ribosome",
+      "evidence": "Mature rRNAs make up approximately 50 percent of each ribosome."
+    },
+    {
+      "head": "Ribosome\u2019s RNA molecules",
+      "relation": "are",
+      "tail": "structural",
+      "evidence": "Some of a ribosome\u2019s RNA molecules are purely structural, whereas others have catalytic or binding activities."
+    },
+    {
+      "head": "Ribosome\u2019s RNA molecules",
+      "relation": "have",
+      "tail": "catalytic activities",
+      "evidence": "Some of a ribosome\u2019s RNA molecules are purely structural, whereas others have catalytic or binding activities."
+    },
+    {
+      "head": "Ribosome\u2019s RNA molecules",
+      "relation": "have",
+      "tail": "binding activities",
+      "evidence": "Some of a ribosome\u2019s RNA molecules are purely structural, whereas others have catalytic or binding activities."
+    },
+    {
+      "head": "Mature tRNAs",
+      "relation": "take on",
+      "tail": "three-dimensional structure",
+      "evidence": "Mature tRNAs take on a three-dimensional structure through local regions of base pairing stabilized by intramolecular hydrogen bonding."
+    },
+    {
+      "head": "tRNA",
+      "relation": "positions",
+      "tail": "amino acid binding site",
+      "evidence": "The tRNA folds to position the amino acid binding site at one end and the anticodon at the other end (Figure 15.14)."
+    },
+    {
+      "head": "tRNA",
+      "relation": "positions",
+      "tail": "anticodon",
+      "evidence": "The tRNA folds to position the amino acid binding site at one end and the anticodon at the other end (Figure 15.14)."
+    },
+    {
+      "head": "Anticodon",
+      "relation": "interacts with",
+      "tail": "mRNA codon",
+      "evidence": "The anticodon is a three-nucleotide sequence in a tRNA that interacts with an mRNA codon through complementary base pairing."
+    },
+    {
+      "head": "Anticodon AAG",
+      "relation": "binds",
+      "tail": "Codon UUC",
+      "evidence": "The anticodon AAG binds the Codon UUC on the mRNA."
+    },
+    {
+      "head": "Amino acid phenylalanine",
+      "relation": "is attached to",
+      "tail": "tRNA",
+      "evidence": "The amino acid phenylalanine is attached to the other end of the tRNA."
+    },
+    {
+      "head": "Protein synthesis",
+      "relation": "consumes",
+      "tail": "cell\u2019s energy",
+      "evidence": "The synthesis of proteins consumes more of a cell\u2019s energy than any other metabolic process."
+    },
+    {
+      "head": "Proteins",
+      "relation": "account for",
+      "tail": "mass of living organisms",
+      "evidence": "proteins account for more mass than any other component of living organisms (with the exception of water)"
+    },
+    {
+      "head": "Proteins",
+      "relation": "perform",
+      "tail": "functions of a cell",
+      "evidence": "proteins perform virtually every function of a cell."
+    },
+    {
+      "head": "Translation",
+      "relation": "involves",
+      "tail": "decoding of mRNA message",
+      "evidence": "The process of translation, or protein synthesis, involves the decoding of an mRNA message into a polypeptide product."
+    },
+    {
+      "head": "Amino acids",
+      "relation": "are strung together by",
+      "tail": "peptide bonds",
+      "evidence": "Amino acids are covalently strung together by interlinking peptide bonds in lengths ranging from approximately 50 to more than 1000 amino acid residues."
+    },
+    {
+      "head": "Amino acid",
+      "relation": "has",
+      "tail": "amino group",
+      "evidence": "Each individual amino acid has an amino group (NH2) and a carboxyl (COOH) group."
+    },
+    {
+      "head": "Amino acid",
+      "relation": "has",
+      "tail": "carboxyl group",
+      "evidence": "Each individual amino acid has an amino group (NH2) and a carboxyl (COOH) group."
+    },
+    {
+      "head": "Polypeptides",
+      "relation": "are formed when",
+      "tail": "amino group forms peptide bond with carboxyl group",
+      "evidence": "Polypeptides are formed when the amino group of one amino acid forms an amide (i.e., peptide) bond with the carboxyl group of another amino acid (Figure 15.15)."
+    },
+    {
+      "head": "Reaction",
+      "relation": "is catalyzed by",
+      "tail": "ribosomes",
+      "evidence": "This reaction is catalyzed by ribosomes and generates one water molecule."
+    },
+    {
+      "head": "peptide bond",
+      "relation": "links",
+      "tail": "carboxyl end",
+      "evidence": "A peptide bond links the carboxyl end of one amino acid with the amino end of another, producing one water molecule during the process."
+    },
+    {
+      "head": "peptide bond",
+      "relation": "links",
+      "tail": "amino end",
+      "evidence": "A peptide bond links the carboxyl end of one amino acid with the amino end of another, producing one water molecule during the process."
+    },
+    {
+      "head": "peptide bond",
+      "relation": "produces",
+      "tail": "water molecule",
+      "evidence": "A peptide bond links the carboxyl end of one amino acid with the amino end of another, producing one water molecule during the process."
+    },
+    {
+      "head": "mRNA template",
+      "relation": "contributes to",
+      "tail": "translation",
+      "evidence": "In addition to the mRNA template, many molecules and macromolecules contribute to the process of translation."
+    },
+    {
+      "head": "ribosomes",
+      "relation": "consist of",
+      "tail": "rRNAs and polypeptides",
+      "evidence": "ribosomes may consist of different numbers of rRNAs and polypeptides depending on the organism."
+    },
+    {
+      "head": "translation",
+      "relation": "requires",
+      "tail": "mRNA template",
+      "evidence": "Translation requires the input of an mRNA template, ribosomes, tRNAs, and various enzymatic factors."
+    },
+    {
+      "head": "translation",
+      "relation": "requires",
+      "tail": "ribosomes",
+      "evidence": "Translation requires the input of an mRNA template, ribosomes, tRNAs, and various enzymatic factors."
+    },
+    {
+      "head": "translation",
+      "relation": "requires",
+      "tail": "tRNAs",
+      "evidence": "Translation requires the input of an mRNA template, ribosomes, tRNAs, and various enzymatic factors."
+    },
+    {
+      "head": "translation",
+      "relation": "requires",
+      "tail": "enzymatic factors",
+      "evidence": "Translation requires the input of an mRNA template, ribosomes, tRNAs, and various enzymatic factors."
+    },
+    {
+      "head": "ribosome",
+      "relation": "binds",
+      "tail": "mRNA template",
+      "evidence": "A ribosome can be thought of as an enzyme whose amino acid binding sites are specified by mRNA."
+    },
+    {
+      "head": "ribosome",
+      "relation": "binds",
+      "tail": "tRNAs",
+      "evidence": "The small subunit is responsible for binding the mRNA template, whereas the large subunit sequentially binds tRNAs."
+    },
+    {
+      "head": "ribosome",
+      "relation": "synthesizes",
+      "tail": "protein",
+      "evidence": "all synthesizing protein in the same direction: reading the mRNA from 5' to 3' and synthesizing the polypeptide from the N terminus to the C terminus."
+    },
+    {
+      "head": "ribosome",
+      "relation": "exists in",
+      "tail": "cytoplasm of prokaryotes",
+      "evidence": "Ribosomes exist in the cytoplasm of prokaryotes and in the cytoplasm and rough endoplasmic reticulum of eukaryotes."
+    },
+    {
+      "head": "ribosome",
+      "relation": "exists in",
+      "tail": "cytoplasm and rough endoplasmic reticulum of eukaryotes",
+      "evidence": "Ribosomes exist in the cytoplasm of prokaryotes and in the cytoplasm and rough endoplasmic reticulum of eukaryotes."
+    },
+    {
+      "head": "ribosome",
+      "relation": "exists in",
+      "tail": "matrix and stroma of mitochondria and chloroplasts",
+      "evidence": "Mitochondria and chloroplasts also have their own ribosomes in the matrix and stroma, which look more similar to prokaryotic ribosomes (and have similar drug sensitivities) than the ribosomes just outside their outer membranes in the cytoplasm."
+    },
+    {
+      "head": "ribosome",
+      "relation": "dissociates into",
+      "tail": "large and small subunits",
+      "evidence": "Ribosomes dissociate into large and small subunits when they are not synthesizing proteins and reassociate during the initiation of translation."
+    },
+    {
+      "head": "ribosome",
+      "relation": "reassociates during",
+      "tail": "initiation of translation",
+      "evidence": "Ribosomes dissociate into large and small subunits when they are not synthesizing proteins and reassociate during the initiation of translation."
+    },
+    {
+      "head": "small subunit",
+      "relation": "binds",
+      "tail": "mRNA template",
+      "evidence": "The small subunit is responsible for binding the mRNA template, whereas the large subunit sequentially binds tRNAs."
+    },
+    {
+      "head": "large subunit",
+      "relation": "binds",
+      "tail": "tRNAs",
+      "evidence": "The small subunit is responsible for binding the mRNA template, whereas the large subunit sequentially binds tRNAs."
+    },
+    {
+      "head": "mRNA molecule",
+      "relation": "translated by",
+      "tail": "ribosomes",
+      "evidence": "Each mRNA molecule is simultaneously translated by many ribosomes, all synthesizing protein in the same direction: reading the mRNA from 5' to 3' and synthesizing the polypeptide from the N terminus to the C terminus."
+    },
+    {
+      "head": "tRNAs",
+      "relation": "transcribed from",
+      "tail": "genes by RNA polymerase III",
+      "evidence": "The tRNAs are structural RNA molecules that were transcribed from genes by RNA polymerase III."
+    },
+    {
+      "head": "tRNAs",
+      "relation": "carries",
+      "tail": "specific amino acid",
+      "evidence": "Each tRNA carries a specific amino acid and recognizes one or more of the mRNA codons that define the order of amino acids in a protein."
+    },
+    {
+      "head": "tRNAs",
+      "relation": "recognizes",
+      "tail": "mRNA codons",
+      "evidence": "Each tRNA carries a specific amino acid and recognizes one or more of the mRNA codons that define the order of amino acids in a protein."
+    },
+    {
+      "head": "tRNAs",
+      "relation": "binds to",
+      "tail": "ribosome",
+      "evidence": "Aminoacyl-tRNAs bind to the ribosome and add the corresponding amino acid to the polypeptide chain."
+    },
+    {
+      "head": "tRNAs",
+      "relation": "adds",
+      "tail": "amino acid to polypeptide chain",
+      "evidence": "Aminoacyl-tRNAs bind to the ribosome and add the corresponding amino acid to the polypeptide chain."
+    },
+    {
+      "head": "tRNAs",
+      "relation": "translates",
+      "tail": "language of RNA into language of proteins",
+      "evidence": "Therefore, tRNAs are the molecules that actually \u201ctranslate\u201d the language of RNA into the language of proteins."
+    },
+    {
+      "head": "codon",
+      "relation": "encodes",
+      "tail": "initiation of translation",
+      "evidence": "Of these 61, one codon (AUG) also encodes the initiation of translation."
+    },
+    {
+      "head": "tRNA anticodon",
+      "relation": "base pair with",
+      "tail": "mRNA codons",
+      "evidence": "Each tRNA anticodon can base pair with one or more of the mRNA codons for its amino acid."
+    },
+    {
+      "head": "tRNA",
+      "relation": "bind to",
+      "tail": "mRNA",
+      "evidence": "they must bind to the correct sequence in mRNA."
+    },
+    {
+      "head": "ribosome",
+      "relation": "translates",
+      "tail": "mRNA into protein",
+      "evidence": "The ribosome is responsible for translating the mRNA into protein."
+    },
+    {
+      "head": "ribosome",
+      "relation": "consists of",
+      "tail": "large and small ribosomal subunit",
+      "evidence": "The ribosome consists of a large and small ribosomal subunit."
+    },
+    {
+      "head": "charged tRNAs",
+      "relation": "enter",
+      "tail": "Acceptor site",
+      "evidence": "charged tRNAs enter the Acceptor site"
+    },
+    {
+      "head": "anticodon",
+      "relation": "base pairs with",
+      "tail": "codon",
+      "evidence": "the anticodon on the tRNA base pairs with the codon in the mRNA"
+    },
+    {
+      "head": "ribosome",
+      "relation": "move",
+      "tail": "3\u2019 end of the mRNA",
+      "evidence": "the ribosome will move three nucleotides toward the 3\u2019 end of the mRNA"
+    },
+    {
+      "head": "tRNA",
+      "relation": "exit at",
+      "tail": "Exit site",
+      "evidence": "allow the empty tRNA to exit at the Exit site"
+    },
+    {
+      "head": "RNA polymerase III",
+      "relation": "creates",
+      "tail": "RNA portion of the adaptor molecule",
+      "evidence": "The process of pre-tRNA synthesis by RNA polymerase III only creates the RNA portion of the adaptor molecule."
+    },
+    {
+      "head": "tRNA molecule",
+      "relation": "linked to",
+      "tail": "amino acid",
+      "evidence": "each tRNA molecule is linked to its correct amino acid by one of a group of enzymes called aminoacyl tRNA synthetases"
+    },
+    {
+      "head": "aminoacyl tRNA synthetases",
+      "relation": "bind to",
+      "tail": "amino acid",
+      "evidence": "These enzymes first bind and"
+    },
+    {
+      "head": "aminoacyl-tRNA synthetases",
+      "relation": "hydrolyze",
+      "tail": "ATP",
+      "evidence": "hydrolyze ATP to catalyze a high-energy bond between an amino acid and adenosine monophosphate (AMP); a pyrophosphate molecule is expelled in this reaction."
+    },
+    {
+      "head": "aminoacyl-tRNA synthetases",
+      "relation": "catalyze",
+      "tail": "covalent bond formation",
+      "evidence": "Aminoacyl-tRNA synthetases catalyze covalent bond formation between the tRNA and the correct amino acid in preparation for translation."
+    },
+    {
+      "head": "aminoacyl-tRNA synthetases",
+      "relation": "require",
+      "tail": "ATP",
+      "evidence": "All of the synthetases require energy, in the form of ATP, to make sure the correct amino acid is attached to the tRNA with the correct anticodon sequence."
+    },
+    {
+      "head": "activated amino acid",
+      "relation": "transferred to",
+      "tail": "tRNA",
+      "evidence": "The activated amino acid is then transferred to the tRNA, and AMP is released."
+    },
+    {
+      "head": "high-energy bond",
+      "relation": "attaches",
+      "tail": "amino acid to tRNA",
+      "evidence": "The term 'charging' is appropriate, since the high-energy bond that attaches an amino acid to its tRNA is later used to drive the formation of the peptide bond."
+    },
+    {
+      "head": "tRNA",
+      "relation": "named for",
+      "tail": "amino acid",
+      "evidence": "Each tRNA is named for its amino acid."
+    },
+    {
+      "head": "initiation complex",
+      "relation": "involves",
+      "tail": "30S ribosome",
+      "evidence": "In E. coli, this complex involves the small 30S ribosome, the mRNA template, three initiation factors (IFs; IF-1, IF-2, and IF-3), and a special initiator tRNA, called tRNAfMet."
+    },
+    {
+      "head": "initiation complex",
+      "relation": "involves",
+      "tail": "mRNA template",
+      "evidence": "In E. coli, this complex involves the small 30S ribosome, the mRNA template, three initiation factors (IFs; IF-1, IF-2, and IF-3), and a special initiator tRNA, called tRNAfMet."
+    },
+    {
+      "head": "initiation complex",
+      "relation": "involves",
+      "tail": "initiation factors",
+      "evidence": "In E. coli, this complex involves the small 30S ribosome, the mRNA template, three initiation factors (IFs; IF-1, IF-2, and IF-3), and a special initiator tRNA, called tRNAfMet."
+    },
+    {
+      "head": "initiation complex",
+      "relation": "involves",
+      "tail": "tRNAfMet",
+      "evidence": "In E. coli, this complex involves the small 30S ribosome, the mRNA template, three initiation factors (IFs; IF-1, IF-2, and IF-3), and a special initiator tRNA, called tRNAfMet."
+    },
+    {
+      "head": "Shine-Dalgarno sequence",
+      "relation": "interacts with",
+      "tail": "rRNA molecules",
+      "evidence": "In E. coli mRNA, a sequence upstream of the first AUG codon, called the Shine-Dalgarno sequence (AGGAGG), interacts with the rRNA molecules that compose the ribosome."
+    },
+    {
+      "head": "Shine-Dalgarno sequence",
+      "relation": "anchors",
+      "tail": "30S ribosomal subunit",
+      "evidence": "This interaction anchors the 30S ribosomal subunit at the correct location on the mRNA template."
+    },
+    {
+      "head": "Guanosine triphosphate",
+      "relation": "acts as",
+      "tail": "energy source",
+      "evidence": "Guanosine triphosphate (GTP), which is a purine nucleotide triphosphate, acts as an energy source during translation\u2014both at the start of elongation and during the ribosome\u2019s translocation."
+    },
+    {
+      "head": "initiator tRNA",
+      "relation": "interacts with",
+      "tail": "start codon",
+      "evidence": "The initiator tRNA then interacts with the start codon AUG (or rarely, GUG)."
+    },
+    {
+      "head": "initiator tRNA",
+      "relation": "carries",
+      "tail": "methionine",
+      "evidence": "This tRNA carries the amino acid methionine, which is formylated after its attachment to the tRNA."
+    },
+    {
+      "head": "formylation",
+      "relation": "creates",
+      "tail": "faux peptide bond",
+      "evidence": "The formylation creates a 'faux' peptide bond between the formyl carboxyl group and the amino group of the methionine."
+    },
+    {
+      "head": "fMet-tRNAfMet",
+      "relation": "mediated by",
+      "tail": "initiation factor IF-2",
+      "evidence": "Binding of the fMet-tRNAfMet is mediated by the initiation factor IF-2."
+    },
+    {
+      "head": "fMet",
+      "relation": "begins",
+      "tail": "polypeptide chain",
+      "evidence": "The fMet begins every polypeptide chain synthesized by E. coli, but it is usually removed after translation is complete."
+    },
+    {
+      "head": "AUG",
+      "relation": "inserts",
+      "tail": "non-formylated methionine",
+      "evidence": "When an in-frame AUG is encountered during translation elongation, a non-formylated methionine is inserted by a regular Met-tRNAMet."
+    },
+    {
+      "head": "30S ribosomal subunit",
+      "relation": "joined by",
+      "tail": "50S subunit",
+      "evidence": "30S ribosomal subunit is joined by the 50S subunit to form the translation complex."
+    },
+    {
+      "head": "30S ribosomal subunit",
+      "relation": "forms",
+      "tail": "translation complex",
+      "evidence": "30S ribosomal subunit is joined by the 50S subunit to form the translation complex."
+    },
+    {
+      "head": "eukaryotes",
+      "relation": "forms",
+      "tail": "initiation complex",
+      "evidence": "In eukaryotes, a similar initiation complex forms, comprising mRNA, the 40S small ribosomal subunit, eukaryotic IFs, and nucleoside triphosphates (GTP and ATP)."
+    },
+    {
+      "head": "initiation complex",
+      "relation": "comprises",
+      "tail": "mRNA",
+      "evidence": "In eukaryotes, a similar initiation complex forms, comprising mRNA, the 40S small ribosomal subunit, eukaryotic IFs, and nucleoside triphosphates (GTP and ATP)."
+    },
+    {
+      "head": "initiation complex",
+      "relation": "comprises",
+      "tail": "40S small ribosomal subunit",
+      "evidence": "In eukaryotes, a similar initiation complex forms, comprising mRNA, the 40S small ribosomal subunit, eukaryotic IFs, and nucleoside triphosphates (GTP and ATP)."
+    },
+    {
+      "head": "initiation complex",
+      "relation": "comprises",
+      "tail": "eukaryotic IFs",
+      "evidence": "In eukaryotes, a similar initiation complex forms, comprising mRNA, the 40S small ribosomal subunit, eukaryotic IFs, and nucleoside triphosphates (GTP and ATP)."
+    },
+    {
+      "head": "initiation complex",
+      "relation": "comprises",
+      "tail": "nucleoside triphosphates (GTP and ATP)",
+      "evidence": "In eukaryotes, a similar initiation complex forms, comprising mRNA, the 40S small ribosomal subunit, eukaryotic IFs, and nucleoside triphosphates (GTP and ATP)."
+    },
+    {
+      "head": "Met-tRNAi",
+      "relation": "is not",
+      "tail": "formylated",
+      "evidence": "The methionine on the charged initiator tRNA, called Met-tRNAi, is not formylated."
+    },
+    {
+      "head": "Met-tRNAi",
+      "relation": "can bind",
+      "tail": "IFs",
+      "evidence": "Met-tRNAi is distinct from other Met-tRNAs in that it can bind IFs."
+    },
+    {
+      "head": "eukaryotic initiation complex",
+      "relation": "recognizes",
+      "tail": "7-methylguanosine cap",
+      "evidence": "Instead of depositing at the Shine-Dalgarno sequence, the eukaryotic initiation complex recognizes the 7-methylguanosine cap at the 5' end of the mRNA."
+    },
+    {
+      "head": "cap-binding protein (CBP)",
+      "relation": "assists",
+      "tail": "movement of the ribosome",
+      "evidence": "A cap-binding protein (CBP) and several other IFs assist the movement of the ribosome to the 5' cap."
+    },
+    {
+      "head": "initiation complex",
+      "relation": "tracks along",
+      "tail": "mRNA",
+      "evidence": "Once at the cap, the initiation complex tracks along the mRNA in the 5' to 3' direction, searching for the AUG start codon."
+    },
+    {
+      "head": "initiation complex",
+      "relation": "searches for",
+      "tail": "AUG start codon",
+      "evidence": "Once at the cap, the initiation complex tracks along the mRNA in the 5' to 3' direction, searching for the AUG start codon."
+    },
+    {
+      "head": "Kozak\u2019s rules",
+      "relation": "state",
+      "tail": "consensus sequence",
+      "evidence": "Kozak\u2019s rules state that the following consensus sequence must appear around the AUG of vertebrate genes: 5'-gccRccAUGG-3'."
+    },
+    {
+      "head": "consensus sequence",
+      "relation": "appears around",
+      "tail": "AUG",
+      "evidence": "Kozak\u2019s rules state that the following consensus sequence must appear around the AUG of vertebrate genes: 5'-gccRccAUGG-3'."
+    },
+    {
+      "head": "60S subunit",
+      "relation": "binds to",
+      "tail": "complex of Met-tRNAi, mRNA, and the 40S subunit",
+      "evidence": "Once the appropriate AUG is identified, the other proteins and CBP dissociate, and the 60S subunit binds to the complex of Met-tRNAi, mRNA, and the 40S subunit."
+    },
+    {
+      "head": "translation complex",
+      "relation": "consists of",
+      "tail": "three compartments",
+      "evidence": "When the translation complex is formed, the tRNA binding region of the ribosome consists of three compartments."
+    },
+    {
+      "head": "A (aminoacyl) site",
+      "relation": "binds",
+      "tail": "incoming charged aminoacyl tRNAs",
+      "evidence": "The A (aminoacyl) site binds incoming charged aminoacyl tRNAs."
+    },
+    {
+      "head": "P (peptidyl) site",
+      "relation": "binds",
+      "tail": "charged tRNAs carrying amino acids",
+      "evidence": "The P (peptidyl) site binds charged tRNAs carrying amino acids that have formed peptide bonds with the growing polypeptide chain but have not yet dissociated from their corresponding tRNA."
+    },
+    {
+      "head": "E (exit) site",
+      "relation": "releases",
+      "tail": "dissociated tRNAs",
+      "evidence": "The E (exit) site releases dissociated tRNAs so that they can be recharged with free amino acids."
+    },
+    {
+      "head": "initiating methionyl-tRNA",
+      "relation": "occupies",
+      "tail": "P site",
+      "evidence": "The initiating methionyl-tRNA, however, occupies the P site at the beginning of the elongation phase of translation in both prokaryotes and eukaryotes."
+    },
+    {
+      "head": "mRNA template",
+      "relation": "provides",
+      "tail": "tRNA binding specificity",
+      "evidence": "During translation elongation, the mRNA template provides tRNA binding specificity."
+    },
+    {
+      "head": "ribosome",
+      "relation": "binds",
+      "tail": "tRNAs nonspecifically and randomly",
+      "evidence": "If mRNA were not present in the elongation complex, the ribosome would bind tRNAs nonspecifically and randomly."
+    },
+    {
+      "head": "elongation factors",
+      "relation": "hydrolyze",
+      "tail": "GTP",
+      "evidence": "The energy for each step along the ribosome is donated by elongation factors that hydrolyze GTP."
+    },
+    {
+      "head": "GTP energy",
+      "relation": "is required for",
+      "tail": "binding of a new aminoacyl-tRNA to the A site",
+      "evidence": "GTP energy is required both for the binding of a new aminoacyl-tRNA to the A site and for its translocation to the P site after formation of the peptide bond."
+    },
+    {
+      "head": "GTP energy",
+      "relation": "is required for",
+      "tail": "translocation to the P site",
+      "evidence": "GTP energy is required both for the binding of a new aminoacyl-tRNA to the A site and for its translocation to the P site after formation of the peptide bond."
+    },
+    {
+      "head": "peptide bonds",
+      "relation": "form between",
+      "tail": "amino group of the amino acid attached to the A-site tRNA and the carboxyl group of the amino acid attached to the P-site tRNA",
+      "evidence": "Peptide bonds form between the amino group of the amino acid attached to the A-site tRNA and the carboxyl group of the amino acid attached to the P-site tRNA."
+    },
+    {
+      "head": "peptidyl transferase",
+      "relation": "catalyzes",
+      "tail": "formation of each peptide bond",
+      "evidence": "The formation of each peptide bond is catalyzed by peptidyl transferase, an RNA-based enzyme that is integrated into the 50S ribosomal subunit."
+    },
+    {
+      "head": "peptidyl transferase",
+      "relation": "is integrated into",
+      "tail": "50S ribosomal subunit",
+      "evidence": "The formation of each peptide bond is catalyzed by peptidyl transferase, an RNA-based enzyme that is integrated into the 50S ribosomal subunit."
+    },
+    {
+      "head": "peptide bond formation",
+      "relation": "derived from",
+      "tail": "high-energy bond",
+      "evidence": "energy for each peptide bond formation is derived from the high-energy bond linking each amino acid to its tRNA."
+    },
+    {
+      "head": "A-site tRNA",
+      "relation": "moves to",
+      "tail": "P site",
+      "evidence": "the A-site tRNA that now holds the growing peptide chain moves to the P site"
+    },
+    {
+      "head": "P-site tRNA",
+      "relation": "moves to",
+      "tail": "E site",
+      "evidence": "the P-site tRNA that is now empty moves to the E site"
+    },
+    {
+      "head": "P-site tRNA",
+      "relation": "expelled from",
+      "tail": "ribosome",
+      "evidence": "the P-site tRNA that is now empty moves to the E site and is expelled from the ribosome"
+    },
+    {
+      "head": "E. coli translation apparatus",
+      "relation": "takes",
+      "tail": "0.05 seconds",
+      "evidence": "the E. coli translation apparatus takes only 0.05 seconds to add each amino acid"
+    },
+    {
+      "head": "E. coli translation apparatus",
+      "relation": "translates",
+      "tail": "200-amino-acid protein",
+      "evidence": "a 200-amino-acid protein can be translated in just 10 seconds"
+    },
+    {
+      "head": "initiator tRNA anticodon",
+      "relation": "recognizes",
+      "tail": "start codon",
+      "evidence": "Translation begins when an initiator tRNA anticodon recognizes a start codon on mRNA bound to a small ribosomal subunit."
+    },
+    {
+      "head": "large ribosomal subunit",
+      "relation": "joins",
+      "tail": "small subunit",
+      "evidence": "The large ribosomal subunit joins the small subunit"
+    },
+    {
+      "head": "ribosome",
+      "relation": "recruits",
+      "tail": "second tRNA",
+      "evidence": "a second tRNA is recruited"
+    },
+    {
+      "head": "mRNA",
+      "relation": "moves relative to",
+      "tail": "ribosome",
+      "evidence": "As the mRNA moves relative to the ribosome"
+    },
+    {
+      "head": "successive tRNAs",
+      "relation": "move through",
+      "tail": "ribosome",
+      "evidence": "successive tRNAs move through the ribosome"
+    },
+    {
+      "head": "ribosome",
+      "relation": "forms",
+      "tail": "polypeptide chain",
+      "evidence": "the polypeptide chain is formed"
+    },
+    {
+      "head": "release factor",
+      "relation": "enters",
+      "tail": "A site",
+      "evidence": "Entry of a release factor into the A site terminates translation"
+    },
+    {
+      "head": "tetracycline",
+      "relation": "blocks",
+      "tail": "A site",
+      "evidence": "tetracycline blocks the A site on the bacterial ribosome"
+    },
+    {
+      "head": "chloramphenicol",
+      "relation": "blocks",
+      "tail": "peptidyl transfer",
+      "evidence": "chloramphenicol blocks peptidyl transfer"
+    },
+    {
+      "head": "nonsense codon",
+      "relation": "recognized by",
+      "tail": "protein release factors",
+      "evidence": "these nonsense codons are recognized by protein release factors that resemble tRNAs"
+    },
+    {
+      "head": "protein release factors",
+      "relation": "instruct",
+      "tail": "peptidyl transferase",
+      "evidence": "The releasing factors in both prokaryotes and eukaryotes instruct peptidyl transferase to add a water molecule to the carboxyl end of the P-site amino acid."
+    },
+    {
+      "head": "peptidyl transferase",
+      "relation": "adds",
+      "tail": "water molecule",
+      "evidence": "instruct peptidyl transferase to add a water molecule to the carboxyl end of the P-site amino acid."
+    },
+    {
+      "head": "P-site amino acid",
+      "relation": "detaches from",
+      "tail": "tRNA",
+      "evidence": "This reaction forces the P-site amino acid to detach from its tRNA"
+    },
+    {
+      "head": "ribosomal subunits",
+      "relation": "dissociate from",
+      "tail": "mRNA",
+      "evidence": "The small and large ribosomal subunits dissociate from the mRNA"
+    },
+    {
+      "head": "ribosomal subunits",
+      "relation": "dissociate from",
+      "tail": "each other",
+      "evidence": "The small and large ribosomal subunits dissociate from the mRNA and from each other"
+    },
+    {
+      "head": "ribosomal subunits",
+      "relation": "recruited into",
+      "tail": "translation initiation complex",
+      "evidence": "they are recruited almost immediately into another translation initiation complex"
+    },
+    {
+      "head": "mRNA",
+      "relation": "degraded",
+      "tail": "nucleotides",
+      "evidence": "the mRNA is degraded so the nucleotides can be reused in another transcription reaction"
+    },
+    {
+      "head": "Translation",
+      "relation": "is terminated by",
+      "tail": "STOP codon",
+      "evidence": "Translation is terminated when a STOP codon is in the A-site of the ribosome."
+    },
+    {
+      "head": "STOP codon",
+      "relation": "has no corresponding",
+      "tail": "tRNAs",
+      "evidence": "Since there are no tRNAs corresponding to the STOP codons, the Release Factor protein enters and catalyzes the hydrolysis between the last amino acid and its tRNA."
+    },
+    {
+      "head": "Release Factor protein",
+      "relation": "enters and catalyzes",
+      "tail": "hydrolysis",
+      "evidence": "the Release Factor protein enters and catalyzes the hydrolysis between the last amino acid and its tRNA."
+    },
+    {
+      "head": "Hydrolysis",
+      "relation": "releases",
+      "tail": "free carboxyl terminus",
+      "evidence": "This hydrolysis releases the free carboxyl terminus (C-term) of the protein."
+    },
+    {
+      "head": "Additional factors",
+      "relation": "use energy in",
+      "tail": "GTP hydrolysis",
+      "evidence": "Additional factors use the energy in GTP hydrolysis to disassemble the large and small ribosomal subunits and mRNA."
+    },
+    {
+      "head": "GTP hydrolysis",
+      "relation": "disassembles",
+      "tail": "ribosomal subunits and mRNA",
+      "evidence": "Additional factors use the energy in GTP hydrolysis to disassemble the large and small ribosomal subunits and mRNA."
+    },
+    {
+      "head": "Amino acids",
+      "relation": "may be chemically modified",
+      "tail": "during and after translation",
+      "evidence": "During and after translation, individual amino acids may be chemically modified, signal sequences appended, and the new protein \u201cfolded\u201d into a distinct three-dimensional structure as a result of intramolecular interactions."
+    },
+    {
+      "head": "Signal sequence",
+      "relation": "directs",
+      "tail": "protein to specific cellular compartment",
+      "evidence": "A signal sequence is a short sequence at the amino end of a protein that directs it to a specific cellular compartment."
+    },
+    {
+      "head": "Signal sequence",
+      "relation": "is recognized by",
+      "tail": "signal-recognition proteins",
+      "evidence": "These sequences can be thought of as the protein\u2019s \u201ctrain ticket\u201d to its ultimate destination, and are recognized by signal-recognition proteins that act as conductors."
+    },
+    {
+      "head": "Signal sequence",
+      "relation": "directs protein to",
+      "tail": "mitochondria or chloroplasts",
+      "evidence": "For instance, a specific signal sequence terminus will direct a protein to the mitochondria or chloroplasts (in plants)."
+    },
+    {
+      "head": "Protein",
+      "relation": "folds spontaneously",
+      "tail": "many proteins",
+      "evidence": "Many proteins fold spontaneously, but some proteins require helper molecules, called chaperones, to prevent them from aggregating during the complicated process of folding."
+    },
+    {
+      "head": "Some proteins",
+      "relation": "require",
+      "tail": "chaperones",
+      "evidence": "Many proteins fold spontaneously, but some proteins require helper molecules, called chaperones, to prevent them from aggregating during the complicated process of folding."
+    },
+    {
+      "head": "Chaperones",
+      "relation": "prevent",
+      "tail": "proteins from aggregating",
+      "evidence": "Many proteins fold spontaneously, but some proteins require helper molecules, called chaperones, to prevent them from aggregating during the complicated process of folding."
+    },
+    {
+      "head": "Protein",
+      "relation": "could take on dysfunctional shape",
+      "tail": "abnormal temperature or pH conditions",
+      "evidence": "Even if a protein is properly specified by its corresponding mRNA, it could take on a completely dysfunctional shape if abnormal temperature or pH conditions prevent it from folding correctly."
+    },
+    {
+      "head": "Proteins",
+      "relation": "contain signal sequence",
+      "tail": "N-terminus",
+      "evidence": "Proteins that will be secreted from the cell will contain a signal sequence at the N-terminus."
+    },
+    {
+      "head": "Signal",
+      "relation": "is recognized by",
+      "tail": "SRP",
+      "evidence": "The signal will be recognized by SRP as soon as the amino acids emerge from the ribosome, and the ribosome will be targeted to the translocation channel in the ER membrane."
+    },
+    {
+      "head": "Ribosome",
+      "relation": "is targeted to",
+      "tail": "translocation channel in the ER membrane",
+      "evidence": "The signal will be recognized by SRP as soon as the amino acids emerge from the ribosome, and the ribosome will be targeted to the translocation channel in the ER membrane."
+    },
+    {
+      "head": "Protein",
+      "relation": "goes directly from ribosome",
+      "tail": "ER lumen",
+      "evidence": "The rest of the protein will go directly from the ribosome, across the ER membrane and into the ER lumen."
+    },
+    {
+      "head": "Proteins",
+      "relation": "can be secreted from",
+      "tail": "ER",
+      "evidence": "From the ER, proteins can be secreted from the cell via vesicle trafficking."
+    },
+    {
+      "head": "7-methylguanosine cap",
+      "relation": "added to",
+      "tail": "pre-mRNAs",
+      "evidence": "7-methylguanosine cap modification added to the 5' end of pre-mRNAs to protect mRNA from degradation and assist translation"
+    },
+    {
+      "head": "7-methylguanosine cap",
+      "relation": "protects",
+      "tail": "mRNA",
+      "evidence": "7-methylguanosine cap modification added to the 5' end of pre-mRNAs to protect mRNA from degradation and assist translation"
+    },
+    {
+      "head": "7-methylguanosine cap",
+      "relation": "assists",
+      "tail": "translation",
+      "evidence": "7-methylguanosine cap modification added to the 5' end of pre-mRNAs to protect mRNA from degradation and assist translation"
+    },
+    {
+      "head": "aminoacyl tRNA synthetase",
+      "relation": "charges",
+      "tail": "tRNA molecules",
+      "evidence": "aminoacyl tRNA synthetase enzyme that \u201ccharges\u201d tRNA molecules by catalyzing a bond between the tRNA and a corresponding amino acid"
+    },
+    {
+      "head": "aminoacyl tRNA synthetase",
+      "relation": "catalyzes",
+      "tail": "bond",
+      "evidence": "aminoacyl tRNA synthetase enzyme that \u201ccharges\u201d tRNA molecules by catalyzing a bond between the tRNA and a corresponding amino acid"
+    },
+    {
+      "head": "anticodon",
+      "relation": "corresponds to",
+      "tail": "mRNA codon",
+      "evidence": "anticodon three-nucleotide sequence in a tRNA molecule that corresponds to an mRNA codon"
+    },
+    {
+      "head": "CAAT box",
+      "relation": "involved in",
+      "tail": "binding transcription factors",
+      "evidence": "CAAT box (GGCCAATCT) essential eukaryotic promoter sequence involved in binding transcription factors"
+    },
+    {
+      "head": "central dogma",
+      "relation": "states",
+      "tail": "genes specify the sequence of mRNAs",
+      "evidence": "central dogma states that genes specify the sequence of mRNAs, which in turn specify the sequence of proteins"
+    },
+    {
+      "head": "central dogma",
+      "relation": "states",
+      "tail": "mRNAs specify the sequence of proteins",
+      "evidence": "central dogma states that genes specify the sequence of mRNAs, which in turn specify the sequence of proteins"
+    },
+    {
+      "head": "codon",
+      "relation": "specifies",
+      "tail": "insertion of an amino acid",
+      "evidence": "codon three consecutive nucleotides in mRNA that specify the insertion of an amino acid or the release of a polypeptide chain during translation"
+    },
+    {
+      "head": "codon",
+      "relation": "specifies",
+      "tail": "release of a polypeptide chain",
+      "evidence": "codon three consecutive nucleotides in mRNA that specify the insertion of an amino acid or the release of a polypeptide chain during translation"
+    },
+    {
+      "head": "RNA",
+      "relation": "specify",
+      "tail": "protein",
+      "evidence": "colinear in terms of RNA and protein, three \u201cunits\u201d of RNA (nucleotides) specify one \u201cunit\u201d of protein (amino acid) in a consecutive fashion"
+    },
+    {
+      "head": "consensus DNA sequence",
+      "relation": "used by",
+      "tail": "many species",
+      "evidence": "consensus DNA sequence that is used by many species to perform the same or similar functions"
+    },
+    {
+      "head": "core enzyme",
+      "relation": "consists of",
+      "tail": "\u03b1, \u03b1, \u03b2, and \u03b2'",
+      "evidence": "core enzyme prokaryotic RNA polymerase consisting of \u03b1, \u03b1, \u03b2, and \u03b2' but missing \u03c3; this complex performs elongation"
+    },
+    {
+      "head": "core enzyme",
+      "relation": "performs",
+      "tail": "elongation",
+      "evidence": "core enzyme prokaryotic RNA polymerase consisting of \u03b1, \u03b1, \u03b2, and \u03b2' but missing \u03c3; this complex performs elongation"
+    },
+    {
+      "head": "degeneracy",
+      "relation": "describes",
+      "tail": "a given amino acid can be encoded by more than one nucleotide triplet",
+      "evidence": "degeneracy (of the genetic code) describes that a given amino acid can be encoded by more than one nucleotide triplet; the code is degenerate, but not ambiguous"
+    },
+    {
+      "head": "downstream",
+      "relation": "following",
+      "tail": "initiation site",
+      "evidence": "downstream nucleotides following the initiation site in the direction of mRNA transcription; in general, sequences that are toward the 3' end relative to a site on the mRNA"
+    },
+    {
+      "head": "exon",
+      "relation": "present in",
+      "tail": "protein-coding mRNA",
+      "evidence": "exon sequence present in protein-coding mRNA after completion of pre-mRNA splicing"
+    },
+    {
+      "head": "FACT complex",
+      "relation": "facilitates",
+      "tail": "chromatin transcription",
+      "evidence": "FACT complex that \u201cfacilitates chromatin transcription\u201d by disassembling nucleosomes ahead of a transcribing RNA polymerase II and reassembling them after the polymerase passes by"
+    },
+    {
+      "head": "FACT complex",
+      "relation": "disassembles",
+      "tail": "nucleosomes",
+      "evidence": "FACT complex that \u201cfacilitates chromatin transcription\u201d by disassembling nucleosomes ahead of a transcribing RNA polymerase II and reassembling them after the polymerase passes by"
+    },
+    {
+      "head": "FACT complex",
+      "relation": "reassembles",
+      "tail": "nucleosomes",
+      "evidence": "FACT complex that \u201cfacilitates chromatin transcription\u201d by disassembling nucleosomes ahead of a transcribing RNA polymerase II and reassembling them after the polymerase passes by"
+    },
+    {
+      "head": "GC-rich box",
+      "relation": "binds",
+      "tail": "cellular factors",
+      "evidence": "GC-rich box (GGCG) nonessential eukaryotic promoter sequence that binds cellular factors to increase the efficiency of transcription; may be present several times in a promoter"
+    },
+    {
+      "head": "GC-rich box",
+      "relation": "increases",
+      "tail": "efficiency of transcription",
+      "evidence": "GC-rich box (GGCG) nonessential eukaryotic promoter sequence that binds cellular factors to increase the efficiency of transcription; may be present several times in a promoter"
+    },
+    {
+      "head": "hairpin structure",
+      "relation": "forms",
+      "tail": "intramolecular hydrogen bonds",
+      "evidence": "hairpin structure of RNA when it folds back on itself and forms intramolecular hydrogen bonds between complementary nucleotides"
+    },
+    {
+      "head": "holoenzyme",
+      "relation": "consists of",
+      "tail": "\u03b1, \u03b1, \u03b2, \u03b2', and \u03c3",
+      "evidence": "holoenzyme prokaryotic RNA polymerase consisting of \u03b1, \u03b1, \u03b2, \u03b2', and \u03c3; this complex is responsible for transcription initiation"
+    },
+    {
+      "head": "holoenzyme",
+      "relation": "responsible for",
+      "tail": "transcription initiation",
+      "evidence": "holoenzyme prokaryotic RNA polymerase consisting of \u03b1, \u03b1, \u03b2, \u03b2', and \u03c3; this complex is responsible for transcription initiation"
+    },
+    {
+      "head": "initiation site",
+      "relation": "proceeds in",
+      "tail": "mRNA synthesis",
+      "evidence": "initiation site nucleotide from which mRNA synthesis proceeds in the 5' to 3' direction; denoted with a \u201c+1\u201d"
+    },
+    {
+      "head": "initiator tRNA",
+      "relation": "binds to",
+      "tail": "ribosome P site",
+      "evidence": "initiator tRNA in prokaryotes, called ; in eukaryotes, called tRNAi; a tRNA that interacts with a start codon, binds directly to the ribosome P site, and links to a special methionine to begin a polypeptide chain"
+    },
+    {
+      "head": "initiator tRNA",
+      "relation": "links to",
+      "tail": "special methionine",
+      "evidence": "initiator tRNA in prokaryotes, called ; in eukaryotes, called tRNAi; a tRNA that interacts with a start codon, binds directly to the ribosome P site, and links to a special methionine to begin a polypeptide chain"
+    },
+    {
+      "head": "intron",
+      "relation": "spliced from",
+      "tail": "mRNA",
+      "evidence": "intron non\u2013protein-coding intervening sequences that are spliced from mRNA during processing"
+    },
+    {
+      "head": "Kozak\u2019s rules",
+      "relation": "determines",
+      "tail": "correct initiation AUG",
+      "evidence": "Kozak\u2019s rules determines the correct initiation AUG in a eukaryotic mRNA; the following consensus sequence must appear around the AUG: 5\u2019- GCC(purine)CCAUGG-3\u2019; the bolded bases are most important"
+    },
+    {
+      "head": "nonsense codon",
+      "relation": "specifies",
+      "tail": "termination of translation",
+      "evidence": "nonsense codon one of the three mRNA codons that specifies termination of translation"
+    },
+    {
+      "head": "nontemplate strand",
+      "relation": "identical to",
+      "tail": "mRNA",
+      "evidence": "nontemplate strand strand of DNA that is not used to transcribe mRNA; this strand is identical to the mRNA except that T nucleotides in the DNA are replaced by U nucleotides in the mRNA"
+    },
+    {
+      "head": "Octamer box",
+      "relation": "binds",
+      "tail": "cellular factors",
+      "evidence": "Octamer box (ATTTGCAT) nonessential eukaryotic promoter sequence that binds cellular factors to increase the efficiency of transcription; may be present several times in a promoter"
+    },
+    {
+      "head": "Octamer box",
+      "relation": "increases",
+      "tail": "efficiency of transcription",
+      "evidence": "Octamer box (ATTTGCAT) nonessential eukaryotic promoter sequence that binds cellular factors to increase the efficiency of transcription; may be present several times in a promoter"
+    },
+    {
+      "head": "peptidyl transferase",
+      "relation": "catalyzes",
+      "tail": "formation of peptide bonds",
+      "evidence": "peptidyl transferase RNA-based enzyme that is integrated into the 50S ribosomal subunit and catalyzes the formation of peptide bonds"
+    },
+    {
+      "head": "plasmid",
+      "relation": "contains",
+      "tail": "one or a few genes",
+      "evidence": "plasmid extrachromosomal, covalently closed, circular DNA molecule that may only contain one or a few genes; common in prokaryotes"
+    },
+    {
+      "head": "poly-A tail",
+      "relation": "added to",
+      "tail": "pre-mRNAs",
+      "evidence": "poly-A tail modification added to the 3' end of pre- mRNAs to protect mRNA"
+    },
+    {
+      "head": "polysome",
+      "relation": "contains",
+      "tail": "mRNA molecule",
+      "evidence": "polysome mRNA molecule simultaneously being translated by many ribosomes"
+    },
+    {
+      "head": "promoter",
+      "relation": "binds",
+      "tail": "RNA polymerase",
+      "evidence": "promoter DNA sequence to which RNA polymerase and associated factors bind and initiate transcription"
+    },
+    {
+      "head": "reading frame",
+      "relation": "specifies",
+      "tail": "protein",
+      "evidence": "reading frame sequence of triplet codons in mRNA that specify a particular protein"
+    },
+    {
+      "head": "rho-dependent termination",
+      "relation": "involves",
+      "tail": "rho protein",
+      "evidence": "rho-dependent termination in prokaryotes, termination of transcription by an interaction between RNA polymerase and the rho protein at a run of G nucleotides on the DNA template"
+    },
+    {
+      "head": "rho-independent termination",
+      "relation": "causes",
+      "tail": "hairpin formation",
+      "evidence": "rho-independent termination sequence-dependent termination of prokaryotic mRNA synthesis; caused by hairpin formation in the mRNA that stalls the"
+    },
+    {
+      "head": "polymerase RNA editing",
+      "relation": "directs alteration of",
+      "tail": "nucleotides",
+      "evidence": "polymerase RNA editing direct alteration of one or more nucleotides in an mRNA that has already been synthesized"
+    },
+    {
+      "head": "Shine-Dalgarno sequence",
+      "relation": "initiates",
+      "tail": "prokaryotic translation",
+      "evidence": "Shine-Dalgarno sequence (AGGAGG); initiates prokaryotic translation by interacting with rRNA molecules comprising the 30S ribosome"
+    },
+    {
+      "head": "signal sequence",
+      "relation": "directs",
+      "tail": "protein",
+      "evidence": "signal sequence short tail of amino acids that directs a protein to a specific cellular compartment"
+    },
+    {
+      "head": "small nuclear RNA molecules",
+      "relation": "synthesized by",
+      "tail": "RNA polymerase III",
+      "evidence": "small nuclear RNA molecules synthesized by RNA polymerase III that have a variety of functions, including splicing pre-mRNAs and regulating transcription factors"
+    },
+    {
+      "head": "small nuclear RNA molecules",
+      "relation": "include",
+      "tail": "splicing pre-mRNAs",
+      "evidence": "small nuclear RNA molecules synthesized by RNA polymerase III that have a variety of functions, including splicing pre-mRNAs and regulating transcription factors"
+    },
+    {
+      "head": "small nuclear RNA molecules",
+      "relation": "include",
+      "tail": "regulating transcription factors",
+      "evidence": "small nuclear RNA molecules synthesized by RNA polymerase III that have a variety of functions, including splicing pre-mRNAs and regulating transcription factors"
+    },
+    {
+      "head": "splicing",
+      "relation": "process of",
+      "tail": "removing introns",
+      "evidence": "splicing process of removing introns and reconnecting exons in a pre-mRNA"
+    },
+    {
+      "head": "splicing",
+      "relation": "process of",
+      "tail": "reconnecting exons",
+      "evidence": "splicing process of removing introns and reconnecting exons in a pre-mRNA"
+    },
+    {
+      "head": "start codon",
+      "relation": "specifies",
+      "tail": "methionine",
+      "evidence": "start codon AUG (or rarely, GUG) on an mRNA from which translation begins; always specifies methionine"
+    },
+    {
+      "head": "TATA box",
+      "relation": "helps to establish",
+      "tail": "initiation site",
+      "evidence": "TATA box conserved promoter sequence in eukaryotes and prokaryotes that helps to establish the initiation site for transcription"
+    },
+    {
+      "head": "template strand",
+      "relation": "specifies",
+      "tail": "complementary mRNA molecule",
+      "evidence": "template strand strand of DNA that specifies the complementary mRNA molecule"
+    },
+    {
+      "head": "transcription bubble",
+      "relation": "allows for",
+      "tail": "transcription of mRNA",
+      "evidence": "transcription bubble region of locally unwound DNA that allows for transcription of mRNA"
+    },
+    {
+      "head": "upstream nucleotides",
+      "relation": "preceding",
+      "tail": "initiation site",
+      "evidence": "upstream nucleotides preceding the initiation site; in general, sequences toward the 5' end relative to a site on the mRNA"
+    },
+    {
+      "head": "genetic code",
+      "relation": "refers to",
+      "tail": "DNA alphabet",
+      "evidence": "The genetic code refers to the DNA alphabet (A, T, C, G), the RNA alphabet (A, U, C, G), and the polypeptide alphabet (20 amino acids)."
+    },
+    {
+      "head": "genetic code",
+      "relation": "refers to",
+      "tail": "RNA alphabet",
+      "evidence": "The genetic code refers to the DNA alphabet (A, T, C, G), the RNA alphabet (A, U, C, G), and the polypeptide alphabet (20 amino acids)."
+    },
+    {
+      "head": "genetic code",
+      "relation": "refers to",
+      "tail": "polypeptide alphabet",
+      "evidence": "The genetic code refers to the DNA alphabet (A, T, C, G), the RNA alphabet (A, U, C, G), and the polypeptide alphabet (20 amino acids)."
+    },
+    {
+      "head": "central dogma",
+      "relation": "describes",
+      "tail": "flow of genetic information",
+      "evidence": "The central dogma describes the flow of genetic information in the cell from genes to mRNA to proteins."
+    },
+    {
+      "head": "genes",
+      "relation": "make",
+      "tail": "mRNA",
+      "evidence": "Genes are used to make mRNA by the process of transcription; mRNA is used to synthesize proteins by the process of translation."
+    },
+    {
+      "head": "mRNA",
+      "relation": "synthesize",
+      "tail": "proteins",
+      "evidence": "Genes are used to make mRNA by the process of transcription; mRNA is used to synthesize proteins by the process of translation."
+    },
+    {
+      "head": "genetic code",
+      "relation": "is",
+      "tail": "degenerate",
+      "evidence": "The genetic code is degenerate because 64 triplet codons in mRNA specify only 20 amino acids and three nonsense codons."
+    },
+    {
+      "head": "most amino acids",
+      "relation": "have",
+      "tail": "several similar codons",
+      "evidence": "Most amino acids have several similar codons."
+    },
+    {
+      "head": "almost every species",
+      "relation": "uses",
+      "tail": "same genetic code",
+      "evidence": "Almost every species on the planet uses the same genetic code."
+    },
+    {
+      "head": "prokaryotes",
+      "relation": "initiates mRNA synthesis at",
+      "tail": "promoter sequence",
+      "evidence": "In prokaryotes, mRNA synthesis is initiated at a promoter sequence on the DNA template comprising two consensus sequences that recruit RNA polymerase."
+    },
+    {
+      "head": "prokaryotic polymerase",
+      "relation": "consists of",
+      "tail": "core enzyme",
+      "evidence": "The prokaryotic polymerase consists of a core enzyme of four protein subunits and a \u03c3 protein that assists only with initiation."
+    },
+    {
+      "head": "prokaryotic polymerase",
+      "relation": "assists with",
+      "tail": "initiation",
+      "evidence": "The prokaryotic polymerase consists of a core enzyme of four protein subunits and a \u03c3 protein that assists only with initiation."
+    },
+    {
+      "head": "elongation",
+      "relation": "synthesizes",
+      "tail": "mRNA",
+      "evidence": "Elongation synthesizes mRNA in the 5' to 3' direction at a rate of 40 nucleotides per second."
+    },
+    {
+      "head": "termination",
+      "relation": "liberates",
+      "tail": "mRNA",
+      "evidence": "Termination liberates the mRNA and occurs either by rho protein interaction or by the formation of an mRNA hairpin."
+    },
+    {
+      "head": "termination",
+      "relation": "occurs by",
+      "tail": "rho protein interaction",
+      "evidence": "Termination liberates the mRNA and occurs either by rho protein interaction or by the formation of an mRNA hairpin."
+    },
+    {
+      "head": "termination",
+      "relation": "occurs by",
+      "tail": "formation of mRNA hairpin",
+      "evidence": "Termination liberates the mRNA and occurs either by rho protein interaction or by the formation of an mRNA hairpin."
+    },
+    {
+      "head": "eukaryotic transcription",
+      "relation": "involves",
+      "tail": "RNA polymerase II",
+      "evidence": "Transcription in eukaryotes involves one of three types of polymerases, depending on the gene being transcribed. RNA polymerase II transcribes all of the protein-coding genes, whereas RNA polymerase I transcribes the tandemly duplicated rRNA genes, and RNA polymerase III transcribes various small RNAs, like the 5S rRNA, tRNA, and small nuclear RNA genes."
+    },
+    {
+      "head": "eukaryotic transcription",
+      "relation": "involves",
+      "tail": "RNA polymerase I",
+      "evidence": "Transcription in eukaryotes involves one of three types of polymerases, depending on the gene being transcribed. RNA polymerase II transcribes all of the protein-coding genes, whereas RNA polymerase I transcribes the tandemly duplicated rRNA genes, and RNA polymerase III transcribes various small RNAs, like the 5S rRNA, tRNA, and small nuclear RNA genes."
+    },
+    {
+      "head": "eukaryotic transcription",
+      "relation": "involves",
+      "tail": "RNA polymerase III",
+      "evidence": "Transcription in eukaryotes involves one of three types of polymerases, depending on the gene being transcribed. RNA polymerase II transcribes all of the protein-coding genes, whereas RNA polymerase I transcribes the tandemly duplicated rRNA genes, and RNA polymerase III transcribes various small RNAs, like the 5S rRNA, tRNA, and small nuclear RNA genes."
+    },
+    {
+      "head": "RNA polymerase II",
+      "relation": "transcribes",
+      "tail": "protein-coding genes",
+      "evidence": "Transcription in eukaryotes involves one of three types of polymerases, depending on the gene being transcribed. RNA polymerase II transcribes all of the protein-coding genes, whereas RNA polymerase I transcribes the tandemly duplicated rRNA genes, and RNA polymerase III transcribes various small RNAs, like the 5S rRNA, tRNA, and small nuclear RNA genes."
+    },
+    {
+      "head": "RNA polymerase I",
+      "relation": "transcribes",
+      "tail": "rRNA genes",
+      "evidence": "Transcription in eukaryotes involves one of three types of polymerases, depending on the gene being transcribed. RNA polymerase II transcribes all of the protein-coding genes, whereas RNA polymerase I transcribes the tandemly duplicated rRNA genes, and RNA polymerase III transcribes various small RNAs, like the 5S rRNA, tRNA, and small nuclear RNA genes."
+    },
+    {
+      "head": "RNA polymerase III",
+      "relation": "transcribes",
+      "tail": "small RNAs",
+      "evidence": "Transcription in eukaryotes involves one of three types of polymerases, depending on the gene being transcribed. RNA polymerase II transcribes all of the protein-coding genes, whereas RNA polymerase I transcribes the tandemly duplicated rRNA genes, and RNA polymerase III transcribes various small RNAs, like the 5S rRNA, tRNA, and small nuclear RNA genes."
+    },
+    {
+      "head": "initiation of transcription",
+      "relation": "involves",
+      "tail": "binding of transcription factors",
+      "evidence": "The initiation of transcription in eukaryotes involves the binding of several transcription factors to complex promoter sequences that are usually located upstream of the gene being copied."
+    },
+    {
+      "head": "FACT complex",
+      "relation": "moves and reassembles",
+      "tail": "nucleosomes",
+      "evidence": "The mRNA is synthesized in the 5' to 3' direction, and the FACT complex moves and reassembles nucleosomes as the polymerase passes by."
+    },
+    {
+      "head": "RNA polymerases I and III",
+      "relation": "terminate transcription by",
+      "tail": "protein-dependent methods",
+      "evidence": "Whereas RNA polymerases I and III terminate transcription by protein- or RNA hairpin-dependent methods, RNA polymerase II transcribes for 1,000 or more nucleotides beyond the gene template and cleaves the excess during pre-mRNA processing."
+    },
+    {
+      "head": "RNA polymerases I and III",
+      "relation": "terminate transcription by",
+      "tail": "RNA hairpin-dependent methods",
+      "evidence": "Whereas RNA polymerases I and III terminate transcription by protein- or RNA hairpin-dependent methods, RNA polymerase II transcribes for 1,000 or more nucleotides beyond the gene template and cleaves the excess during pre-mRNA processing."
+    },
+    {
+      "head": "RNA polymerase II",
+      "relation": "transcribes beyond",
+      "tail": "gene template",
+      "evidence": "Whereas RNA polymerases I and III terminate transcription by protein- or RNA hairpin-dependent methods, RNA polymerase II transcribes for 1,000 or more nucleotides beyond the gene template and cleaves the excess during pre-mRNA processing."
+    },
+    {
+      "head": "RNA polymerase II",
+      "relation": "cleaves",
+      "tail": "excess",
+      "evidence": "Whereas RNA polymerases I and III terminate transcription by protein- or RNA hairpin-dependent methods, RNA polymerase II transcribes for 1,000 or more nucleotides beyond the gene template and cleaves the excess during pre-mRNA processing."
+    },
+    {
+      "head": "eukaryotic pre-mRNAs",
+      "relation": "modified with",
+      "tail": "5' methylguanosine cap",
+      "evidence": "Eukaryotic pre-mRNAs are modified with a 5' methylguanosine cap and a poly-A tail."
+    },
+    {
+      "head": "eukaryotic pre-mRNAs",
+      "relation": "modified with",
+      "tail": "poly-A tail",
+      "evidence": "Eukaryotic pre-mRNAs are modified with a 5' methylguanosine cap and a poly-A tail."
+    },
+    {
+      "head": "5' methylguanosine cap",
+      "relation": "protects",
+      "tail": "mature mRNA",
+      "evidence": "These structures protect the mature mRNA from degradation and help export it from the nucleus."
+    },
+    {
+      "head": "5' methylguanosine cap",
+      "relation": "helps export",
+      "tail": "mature mRNA",
+      "evidence": "These structures protect the mature mRNA from degradation and help export it from the nucleus."
+    },
+    {
+      "head": "pre-mRNAs",
+      "relation": "undergo",
+      "tail": "splicing",
+      "evidence": "Pre-mRNAs also undergo splicing, in which introns are removed and exons are"
+    },
+    {
+      "head": "finished mRNAs",
+      "relation": "undergo",
+      "tail": "5' capping",
+      "evidence": "Only finished mRNAs that have undergone 5' capping, 3' polyadenylation, and intron splicing are exported from the nucleus to the cytoplasm."
+    },
+    {
+      "head": "finished mRNAs",
+      "relation": "undergo",
+      "tail": "3' polyadenylation",
+      "evidence": "Only finished mRNAs that have undergone 5' capping, 3' polyadenylation, and intron splicing are exported from the nucleus to the cytoplasm."
+    },
+    {
+      "head": "finished mRNAs",
+      "relation": "undergo",
+      "tail": "intron splicing",
+      "evidence": "Only finished mRNAs that have undergone 5' capping, 3' polyadenylation, and intron splicing are exported from the nucleus to the cytoplasm."
+    },
+    {
+      "head": "finished mRNAs",
+      "relation": "are exported from",
+      "tail": "the nucleus to the cytoplasm",
+      "evidence": "Only finished mRNAs that have undergone 5' capping, 3' polyadenylation, and intron splicing are exported from the nucleus to the cytoplasm."
+    },
+    {
+      "head": "pre-rRNAs",
+      "relation": "are processed by",
+      "tail": "intramolecular cleavage",
+      "evidence": "Pre- rRNAs and pre-tRNAs may be processed by intramolecular cleavage, splicing, methylation, and chemical conversion of nucleotides."
+    },
+    {
+      "head": "pre-rRNAs",
+      "relation": "are processed by",
+      "tail": "splicing",
+      "evidence": "Pre- rRNAs and pre-tRNAs may be processed by intramolecular cleavage, splicing, methylation, and chemical conversion of nucleotides."
+    },
+    {
+      "head": "pre-rRNAs",
+      "relation": "are processed by",
+      "tail": "methylation",
+      "evidence": "Pre- rRNAs and pre-tRNAs may be processed by intramolecular cleavage, splicing, methylation, and chemical conversion of nucleotides."
+    },
+    {
+      "head": "pre-rRNAs",
+      "relation": "are processed by",
+      "tail": "chemical conversion of nucleotides",
+      "evidence": "Pre- rRNAs and pre-tRNAs may be processed by intramolecular cleavage, splicing, methylation, and chemical conversion of nucleotides."
+    },
+    {
+      "head": "pre-tRNAs",
+      "relation": "are processed by",
+      "tail": "intramolecular cleavage",
+      "evidence": "Pre- rRNAs and pre-tRNAs may be processed by intramolecular cleavage, splicing, methylation, and chemical conversion of nucleotides."
+    },
+    {
+      "head": "pre-tRNAs",
+      "relation": "are processed by",
+      "tail": "splicing",
+      "evidence": "Pre- rRNAs and pre-tRNAs may be processed by intramolecular cleavage, splicing, methylation, and chemical conversion of nucleotides."
+    },
+    {
+      "head": "pre-tRNAs",
+      "relation": "are processed by",
+      "tail": "methylation",
+      "evidence": "Pre- rRNAs and pre-tRNAs may be processed by intramolecular cleavage, splicing, methylation, and chemical conversion of nucleotides."
+    },
+    {
+      "head": "pre-tRNAs",
+      "relation": "are processed by",
+      "tail": "chemical conversion of nucleotides",
+      "evidence": "Pre- rRNAs and pre-tRNAs may be processed by intramolecular cleavage, splicing, methylation, and chemical conversion of nucleotides."
+    },
+    {
+      "head": "RNA editing",
+      "relation": "perform",
+      "tail": "insert missing bases",
+      "evidence": "Rarely, RNA editing is also performed to insert missing bases after an mRNA has been synthesized."
+    },
+    {
+      "head": "small ribosomal subunit",
+      "relation": "binds to",
+      "tail": "the mRNA template",
+      "evidence": "The small ribosomal subunit binds to the mRNA template either at the Shine-Dalgarno sequence (prokaryotes) or the 5' cap (eukaryotes)."
+    },
+    {
+      "head": "small ribosomal subunit",
+      "relation": "binds to",
+      "tail": "the Shine-Dalgarno sequence",
+      "evidence": "The small ribosomal subunit binds to the mRNA template either at the Shine-Dalgarno sequence (prokaryotes) or the 5' cap (eukaryotes)."
+    },
+    {
+      "head": "small ribosomal subunit",
+      "relation": "binds to",
+      "tail": "the 5' cap",
+      "evidence": "The small ribosomal subunit binds to the mRNA template either at the Shine-Dalgarno sequence (prokaryotes) or the 5' cap (eukaryotes)."
+    },
+    {
+      "head": "Translation",
+      "relation": "begins at",
+      "tail": "the initiating AUG",
+      "evidence": "Translation begins at the initiating AUG on the mRNA, specifying methionine."
+    },
+    {
+      "head": "Translation",
+      "relation": "specifies",
+      "tail": "methionine",
+      "evidence": "Translation begins at the initiating AUG on the mRNA, specifying methionine."
+    },
+    {
+      "head": "peptide bonds",
+      "relation": "occur between",
+      "tail": "sequential amino acids",
+      "evidence": "The formation of peptide bonds occurs between sequential amino acids matched to the mRNA template by their tRNAs according to the genetic code."
+    },
+    {
+      "head": "charged tRNAs",
+      "relation": "enter",
+      "tail": "the ribosomal A site",
+      "evidence": "Charged tRNAs enter the ribosomal A site, and their amino acid 15 \u2022 Chapter Summary 415"
+    },
+    {
+      "head": "ribosome",
+      "relation": "binds with",
+      "tail": "amino acid",
+      "evidence": "bonds with the amino acid at the P site."
+    },
+    {
+      "head": "ribosome",
+      "relation": "translates",
+      "tail": "mRNA",
+      "evidence": "The entire mRNA is translated in three-nucleotide \u201csteps\u201d of the ribosome."
+    },
+    {
+      "head": "nonsense codon",
+      "relation": "binds with",
+      "tail": "release factor",
+      "evidence": "When a nonsense codon is encountered, a release factor binds and dissociates the components and frees the new protein."
+    },
+    {
+      "head": "release factor",
+      "relation": "dissociates",
+      "tail": "components",
+      "evidence": "When a nonsense codon is encountered, a release factor binds and dissociates the components and frees the new protein."
+    },
+    {
+      "head": "release factor",
+      "relation": "frees",
+      "tail": "new protein",
+      "evidence": "When a nonsense codon is encountered, a release factor binds and dissociates the components and frees the new protein."
+    },
+    {
+      "head": "protein",
+      "relation": "occurs during",
+      "tail": "translation",
+      "evidence": "Folding of the protein occurs during and after translation."
+    },
+    {
+      "head": "protein",
+      "relation": "occurs after",
+      "tail": "translation",
+      "evidence": "Folding of the protein occurs during and after translation."
+    },
+    {
+      "head": "scientist",
+      "relation": "splices",
+      "tail": "eukaryotic promoter",
+      "evidence": "A scientist splices a eukaryotic promoter in front of a bacterial gene and inserts the gene in a bacterial chromosome."
+    },
+    {
+      "head": "scientist",
+      "relation": "inserts",
+      "tail": "bacterial gene",
+      "evidence": "A scientist splices a eukaryotic promoter in front of a bacterial gene and inserts the gene in a bacterial chromosome."
+    },
+    {
+      "head": "errors",
+      "relation": "are implicated in",
+      "tail": "cancers and other human diseases",
+      "evidence": "Errors in splicing are implicated in cancers and other human diseases."
+    },
+    {
+      "head": "tetracycline",
+      "relation": "blocks",
+      "tail": "A site on the bacterial ribosome",
+      "evidence": "tetracycline blocks the A site on the bacterial ribosome"
+    },
+    {
+      "head": "tetracycline",
+      "relation": "affects",
+      "tail": "tRNA binding to the ribosome",
+      "evidence": "Tetracycline would directly affect: a. tRNA binding to the ribosome"
+    },
+    {
+      "head": "chloramphenicol",
+      "relation": "affects",
+      "tail": "growth of the protein chain",
+      "evidence": "Chloramphenicol would directly affect c. growth of the protein chain"
+    },
+    {
+      "head": "AUC and AUA codons",
+      "relation": "specify",
+      "tail": "isoleucine",
+      "evidence": "The AUC and AUA codons in mRNA both specify isoleucine."
+    },
+    {
+      "head": "genetic code",
+      "relation": "explains",
+      "tail": "degeneracy",
+      "evidence": "What feature of the genetic code explains this? d. degeneracy"
+    },
+    {
+      "head": "12 mRNA codons",
+      "relation": "contains",
+      "tail": "36 nucleotides",
+      "evidence": "How many nucleotides are in 12 mRNA codons? c. 36"
+    },
+    {
+      "head": "central dogma of molecular biology",
+      "relation": "contradicts",
+      "tail": "reverse transcriptase enzymes",
+      "evidence": "Which event contradicts the central dogma of molecular biology? c. Scientists use reverse transcriptase enzymes to make DNA from RNA."
+    },
+    {
+      "head": "E. coli polymerase",
+      "relation": "confers specificity to transcription",
+      "tail": "\u03c3 subunit",
+      "evidence": "Which subunit of the E. coli polymerase confers specificity to transcription? d. \u03c3"
+    },
+    {
+      "head": "-10 and -35 regions",
+      "relation": "are called consensus sequences because",
+      "tail": "they are similar in all bacterial species",
+      "evidence": "The -10 and -35 regions of prokaryotic promoters are called consensus sequences because b. they are similar in all bacterial species"
+    },
+    {
+      "head": "promoters",
+      "relation": "can be found in",
+      "tail": "GC box",
+      "evidence": "Which feature of promoters can be found in both prokaryotes and eukaryotes? a. GC box"
+    },
+    {
+      "head": "promoters",
+      "relation": "can be found in",
+      "tail": "TATA box",
+      "evidence": "Which feature of promoters can be found in both prokaryotes and eukaryotes? b. TATA box"
+    },
+    {
+      "head": "\u03b1-amanitin",
+      "relation": "affects",
+      "tail": "18S and 28S rRNAs",
+      "evidence": "levels of \u03b1-amanitin?"
+    },
+    {
+      "head": "\u03b1-amanitin",
+      "relation": "affects",
+      "tail": "pre-mRNAs",
+      "evidence": "levels of \u03b1-amanitin?"
+    },
+    {
+      "head": "\u03b1-amanitin",
+      "relation": "affects",
+      "tail": "5S rRNAs and tRNAs",
+      "evidence": "levels of \u03b1-amanitin?"
+    },
+    {
+      "head": "\u03b1-amanitin",
+      "relation": "affects",
+      "tail": "other small nuclear RNAs",
+      "evidence": "levels of \u03b1-amanitin?"
+    },
+    {
+      "head": "Enhancers",
+      "relation": "bind",
+      "tail": "transcription factors",
+      "evidence": "Enhancers bind transcription factors to silence gene expression, while promoters activate transcription."
+    },
+    {
+      "head": "Enhancers",
+      "relation": "increase",
+      "tail": "efficiency of gene expression",
+      "evidence": "Enhancers increase the efficiency of gene expression, but are not essential for transcription."
+    },
+    {
+      "head": "Promoters",
+      "relation": "essential for",
+      "tail": "transcription initiation",
+      "evidence": "Promoter recognition is essential to transcription initiation."
+    },
+    {
+      "head": "Promoters",
+      "relation": "bind",
+      "tail": "transcription factors",
+      "evidence": "Promoters bind transcription factors to increase the efficiency of transcription."
+    },
+    {
+      "head": "7-methylguanosine cap",
+      "relation": "important for",
+      "tail": "initiating translation",
+      "evidence": "Which pre-mRNA processing step is important for initiating translation?"
+    },
+    {
+      "head": "methylation",
+      "relation": "enhances stability of",
+      "tail": "pre-tRNAs and pre-rRNAs",
+      "evidence": "What processing step enhances the stability of pre-tRNAs and pre-rRNAs?"
+    },
+    {
+      "head": "RNA components of ribosomes",
+      "relation": "synthesized in",
+      "tail": "nucleolus",
+      "evidence": "The RNA components of ribosomes are synthesized in the ________."
+    },
+    {
+      "head": "species",
+      "relation": "has at least",
+      "tail": "20 types of aminoacyl tRNA synthetases",
+      "evidence": "In any given species, there are at least how many types of aminoacyl tRNA synthetases?"
+    },
+    {
+      "head": "mutation",
+      "relation": "makes nonfunctional",
+      "tail": "60S ribosomal subunit",
+      "evidence": "A scientist introduces a mutation that makes the 60S ribosomal subunit nonfunctional in a human cell line."
+    },
+    {
+      "head": "60S ribosomal subunit",
+      "relation": "cannot catalyze",
+      "tail": "formation of peptide bonds",
+      "evidence": "The ribosome cannot catalyze the formation of peptide bonds between the tRNAs in the A and P sites."
+    },
+    {
+      "head": "RNA polymerase deficiency",
+      "relation": "prevents",
+      "tail": "making proteins",
+      "evidence": "A scientist observes that a cell has an RNA polymerase deficiency that prevents it from making proteins."
+    },
+    {
+      "head": "defect in RNA polymerase I activity",
+      "relation": "causes",
+      "tail": "the defect",
+      "evidence": "Describe three additional observations that would together support the conclusion that a defect in RNA polymerase I activity, and not problems with the other polymerases, causes the defect."
+    },
+    {
+      "head": "nonsense mutations",
+      "relation": "harbor",
+      "tail": "Chronic lymphocytic leukemia patients",
+      "evidence": "Chronic lymphocytic leukemia patients often harbor nonsense mutations in their spliceosome machinery."
+    },
+    {
+      "head": "nonsense mutations",
+      "relation": "change",
+      "tail": "the final location and sequence of a pre-mRNA",
+      "evidence": "Describe how this mutation of the spliceosome would change the final location and sequence of a pre-mRNA."
+    },
+    {
+      "head": "single nucleotide changes",
+      "relation": "have",
+      "tail": "vastly different effects on protein function",
+      "evidence": "Explain how single nucleotide changes can have vastly different effects on protein function."
+    },
+    {
+      "head": "insertion mutation",
+      "relation": "changes",
+      "tail": "the sequence to 5\u2019-UGCCAUGGUUAAUAACACAUGAGGCCUGAAC\u2013 3\u2019",
+      "evidence": "A normal mRNA that reads 5\u2019 \u2013 UGCCAUGGUAAUAACACAUGAGGCCUGAAC\u2013 3\u2019 has an insertion mutation that changes the sequence to 5\u2019-UGCCAUGGUUAAUAACACAUGAGGCCUGAAC\u2013 3\u2019."
+    },
+    {
+      "head": "insertion mutations",
+      "relation": "have",
+      "tail": "dramatic effects on proteins",
+      "evidence": "explain how insertion mutations can have dramatic effects on proteins."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "question": "Explain the relationship between introns, exons, and alternative splicing in eukaryotic gene expression.",
+  "answer": "In eukaryotic gene expression, introns are non-coding sequences within a gene that are removed during RNA processing, while exons are the coding sequences that are joined together. Alternative splicing allows for different combinations of exons to be included in the final mRNA, leading to the production of multiple protein isoforms from a single gene.",
+  "citations": [
+    "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:9 | 15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt | exporting the processed mRNA to the cytoplasm. Pre-mRNA Splicing Eukaryotic genes are composed of exons, which corres...",
+    "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:12 | 15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt | introns and reconnecting exons is called splicing (Figure 15.13). Introns are removed and degraded while the pre-mRNA..."
+  ],
+  "reasoning": "Matched entities: exons, introns, splicing. Traversed graph edges: eukaryotic pre-mRNA --[contains]--> exons; eukaryotic pre-mRNA --[undergoes]--> RNA processing; eukaryotic pre-mRNA --[contains]--> introns. Graph evidence: \"The coding sequences (exons) are interrupted by noncoding introns, which must be removed to make a translatable mRNA.\". The provided text describes introns as non-coding sequences within genes that are removed during RNA processing. Exons are the coding sequences that are joined together. The text also mentions that alternative splicing allows for different combinations of exons to be included in the final mRNA, leading to multiple protein isoforms from a single gene."
+}

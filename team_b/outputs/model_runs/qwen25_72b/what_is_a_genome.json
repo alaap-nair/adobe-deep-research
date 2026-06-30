@@ -1,0 +1,9 @@
+{
+  "question": "What is a genome?",
+  "answer": "A genome is the complete set of an organism's genetic material, composed of DNA, which is arranged into genes and includes the sequences that specify the amino acid sequences of proteins.",
+  "citations": [
+    "triple:e8c3f9710a352d28 | genes --[are composed of]--> DNA",
+    "chunk:15_1_the_genetic_code_biology_2e_openstax:0 | 15.1 The Genetic Code - Biology 2e _ OpenStax.txt | INTRODUCTION CHAPTER 15 Genes and Proteins 15.1 The Genetic Code 15.2 Prokaryotic Transcription 15.3 Eukaryotic Trans..."
+  ],
+  "reasoning": "Matched entities: neanderthal genome. Traversed graph edges: Neanderthal genome --[has]--> 2 to 3 percent greater similarity to people living outside Africa; Neanderthal genome --[contains]--> DNA segments similar to contemporary human sequences; Neanderthal genome --[was sequenced by]--> Richard E. Green et al.. Graph evidence: \"After comparing the sequences, the researchers found that the Neanderthal genome had 2 to 3 percent greater similarity to people living outside Africa than to people in Africa.\". The genome is defined based on the composition of genes, which are made of DNA and specify the sequences of amino acids in proteins."
+}

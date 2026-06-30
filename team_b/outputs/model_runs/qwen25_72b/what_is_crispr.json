@@ -1,0 +1,9 @@
+{
+  "question": "What is CRISPR?",
+  "answer": "I don't know based on the provided context.",
+  "citations": [
+    "chunk:14_6_dna_repair_biology_2e_openstax:5 | 14.6 DNA Repair - Biology 2e _ OpenStax.txt | by the correct one. FIGURE 14.17 Proofreading by DNA polymerase corrects errors during replication. Some errors are n...",
+    "chunk:14_1_historical_basis_of_modern_understanding_biology_2e_openstax:10 | 14.1 Historical Basis of Modern Understanding - Biology 2e _ OpenStax.txt | The decisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that DN..."
+  ],
+  "reasoning": "Matched entities: rna editing, dna ligase, telomerase. Traversed graph edges: guide RNAs --[mediates]--> RNA editing; guide RNAs --[interacts with]--> pre-mRNA; pre-mRNA --[is edited by]--> RNA editing. Graph evidence: \"This process is entirely mediated by RNA molecules. That is, guide RNAs—rather than proteins—serve as the catalysts in RNA editing.\". The provided context does not contain any information about CRISPR."
+}

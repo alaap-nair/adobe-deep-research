@@ -1,0 +1,10 @@
+{
+  "question": "How does protein synthesis work?",
+  "answer": "Protein synthesis involves the decoding of an mRNA message into a polypeptide product. It requires an mRNA template, ribosomes, tRNAs, and various enzymatic factors. The ribosome translates the mRNA into protein by linking amino acids together to form polypeptides.",
+  "citations": [
+    "chunk:mcb_genetics:203 | /Users/shreyasnair/upsync/adobe-deep-research/data/mcb_genetics.pdf | perform virtually every function of a cell. The process of translation, or protein synthesis, involves the decoding o...",
+    "triple:6d2485d05389740c | translation --[involves]--> decoding of mRNA message",
+    "triple:c1d3044d206478df | ribosome --[translates]--> mRNA into protein"
+  ],
+  "reasoning": "Matched entities: protein, protein synthesis, sanger’s work. Traversed graph edges: ribosome --[translates]--> mRNA into protein; 35S --[labels]--> protein; ribosome --[synthesizes]--> protein. Graph evidence: \"The ribosome is responsible for translating the mRNA into protein.\". The context describes protein synthesis as the process of translating an mRNA message into a polypeptide product, involving ribosomes, tRNAs, and enzymatic factors. The ribosome's role in translating mRNA into protein is explicitly mentioned."
+}

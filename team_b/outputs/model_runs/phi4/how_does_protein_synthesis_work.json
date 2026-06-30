@@ -1,0 +1,9 @@
+{
+  "question": "How does protein synthesis work?",
+  "answer": "Protein synthesis involves the decoding of an mRNA template into a polypeptide product. This process requires the input of mRNA, ribosomes, tRNAs, and various enzymatic factors. Ribosomes, which can be thought of as enzymes, catalyze peptide bond formation between amino acids specified by the mRNA.",
+  "citations": [
+    "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:4 | 15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt | on the organism. However, the general structures and functions of the protein synthesis machinery are comparable from...",
+    "chunk:15_5_ribosomes_and_protein_synthesis_biology_2e_openstax:2 | 15.5 Ribosomes and Protein Synthesis - Biology 2e _ OpenStax.txt | perform virtually every function of a cell. The process of translation, or protein synthesis, involves the decoding o..."
+  ],
+  "reasoning": "Matched entities: protein, protein synthesis. Traversed graph edges: DNA --[is the genetic material]--> protein; Oswald Avery --[used enzymes to degrade]--> DNA; DNA --[consists of]--> nucleotides. Graph evidence: \"Only 32P entered the bacterial cells, indicating that DNA is the genetic material.\". The answer is based on the provided context, which describes the process of protein synthesis involving mRNA, ribosomes, tRNAs, and enzymatic factors. The citations are selected from the chunks that directly explain the steps and components involved in protein synthesis."
+}

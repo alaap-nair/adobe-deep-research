@@ -1,0 +1,456 @@
+===== START 18:49:23 :: data/8.1 Overview of Photosynthesis - Biology 2e _ OpenStax.pdf =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loaded passage (11472 chars)
+Extracting triples via OpenRouter...
+  Warning: skipping triple 10: 1 validation error for Triple
+relation
+  Value error, Relation too long: synthesize sugars by extracting energy from [type=value_error, input_value='synthesize sugars by extracting energy from', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+Model used: mistralai/mistral-small-3.2-24b-instruct
+Number of triples: 32
+Unique entities: 42
+  Photosynthesis --[is essential to]--> life on earth
+  Photosynthesis --[captures energy from]--> sunlight
+  Photosynthesis --[converts energy into]--> chemical compounds
+  Photosynthesis --[produces]--> oxygen
+  Photosynthesis --[stores energy in]--> sugar molecules
+  Plants --[perform]--> photosynthesis
+  Algae --[perform]--> photosynthesis
+  Cyanobacteria --[perform]--> photosynthesis
+  Photoautotrophs --[use light to manufacture]--> food
+  Heterotrophs --[rely on]--> sugars produced by photosynthetic organisms
+  Photosynthesis --[requires]--> specific wavelengths of visible sunlight
+  Photosynthesis --[requires]--> carbon dioxide
+  Photosynthesis --[requires]--> water
+  Photosynthesis --[releases]--> oxygen
+  Photosynthesis --[produces]--> glyceraldehyde-3-phosphate
+  Photosynthesis --[produces]--> simple carbohydrate molecules
+  Photosynthesis --[takes place in]--> leaves
+  Photosynthesis --[occurs in]--> mesophyll
+  Gas exchange --[occurs through]--> stomata
+  Stomata --[are regulated by]--> guard cells
+  Photosynthesis --[takes place in]--> chloroplasts
+  Chloroplasts --[contain]--> thylakoids
+  Thylakoid membrane --[contains]--> chlorophyll
+  Thylakoid membrane --[contains]--> electron transport chain
+  Stack of thylakoids --[is called]--> granum
+  Photosynthesis --[consists of]--> light-dependent reactions
+  Photosynthesis --[consists of]--> light-independent reactions
+  Light-dependent reactions --[convert energy into]--> stored chemical energy
+  Light-independent reactions --[assemble]--> sugar molecules from carbon dioxide
+  Light-independent reactions --[require products of]--> light-dependent reactions
+  Light-dependent reactions --[utilize]--> energy carriers
+  Energy carriers --[move energy from]--> light-dependent reactions to light-independent reactions
+
+Saved to /Users/jasonyi/Desktop/adobe-deep-research/outputs/triples_8.1 Overview of Photosynthesis - Biology 2e _ OpenStax.json
+Neo4j: 63 nodes, 69 relationships
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 7279.42it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Qdrant: 63 entity vectors, 69 evidence vectors, 24 chunk vectors
+Visualization saved to /Users/jasonyi/Desktop/adobe-deep-research/outputs/graph_visualization.html
+===== END   18:50:35 :: data/8.1 Overview of Photosynthesis - Biology 2e _ OpenStax.pdf (exit=0) =====
+===== START 18:50:35 :: data/8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e _ OpenStax.pdf =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loaded passage (18755 chars)
+Extracting triples via OpenRouter...
+Model used: mistralai/mistral-small-3.2-24b-instruct
+Number of triples: 35
+Unique entities: 59
+  photoautotrophs --[capture]--> visible light energy
+  photoautotrophs --[convert]--> chemical energy
+  light energy --[convert into]--> chemical energy
+  photoautotrophs --[use]--> chemical energy
+  sun --[emit]--> electromagnetic radiation
+  visible light --[constitute]--> one of many types of electromagnetic radiation
+  electromagnetic spectrum --[range of]--> all possible frequencies of radiation
+  wavelengths --[relate to]--> amount of energy
+  longer wavelengths --[carry]--> less energy
+  short wavelengths --[carry]--> most energy
+  light energy --[initiate]--> photosynthesis
+  pigments --[absorb]--> specific wavelengths of visible light
+  chlorophylls and carotenoids --[are]--> two major classes of photosynthetic pigments
+  chlorophyll a and chlorophyll b --[found in]--> higher plant chloroplasts
+  carotenoids --[function as]--> photosynthetic pigments
+  pigments --[absorb]--> specific wavelengths
+  chlorophyll a --[absorbs]--> wavelengths from either end of the visible spectrum
+  chlorophyll a --[reflect or transmit]--> green
+  carotenoids --[absorb]--> short-wavelength blue region
+  photosynthetic organisms --[have]--> mixture of pigments
+  light-dependent reactions --[convert]--> solar energy into chemical energy
+  light-dependent reactions --[produce]--> NADPH and ATP
+  photosystem II and photosystem I --[found in]--> thylakoid membrane
+  photosystems --[have]--> basic structure
+  light-harvesting complex --[pass energy]--> reaction center
+  chlorophyll a molecules --[undergo oxidation]--> excitation
+  PSII and PSI --[are]--> major components of the photosynthetic electron transport chain
+  cytochrome complex --[transfers]--> electrons from PSII to PSI
+  PSII --[split]--> water
+  electrons --[move through]--> proteins between PSII and PSI
+  energy --[used to move]--> hydrogen atoms from the stromal side of the membrane to the thylakoid lumen
+  hydrogen ions --[build up energy]--> because of diffusion and because they all have the same electrical charge
+  hydrogen ions --[rush through]--> ATP synthase
+  ATP synthase --[attach]--> third phosphate group to ADP
+  flow of hydrogen ions through ATP synthase --[called]--> chemiosmosis
+
+Saved to /Users/jasonyi/Desktop/adobe-deep-research/outputs/triples_8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e _ OpenStax.json
+Neo4j: 113 nodes, 104 relationships
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 7768.22it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Qdrant: 113 entity vectors, 104 evidence vectors, 59 chunk vectors
+Visualization saved to /Users/jasonyi/Desktop/adobe-deep-research/outputs/graph_visualization.html
+===== END   18:51:15 :: data/8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e _ OpenStax.pdf (exit=0) =====
+===== START 18:51:15 :: data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loaded passage (11776 chars)
+Extracting triples via OpenRouter...
+Model used: mistralai/mistral-small-3.2-24b-instruct
+Number of triples: 20
+Unique entities: 24
+  ATP --[stores energy in]--> carbohydrate molecules
+  NADPH --[stores energy in]--> carbohydrate molecules
+  carbon dioxide --[is waste product of]--> respiration
+  carbon dioxide --[enters leaves through]--> stomata
+  carbon dioxide --[diffuses into]--> stroma of the chloroplast
+  RuBisCO --[catalyzes reaction between]--> carbon dioxide and RuBP
+  carbon dioxide --[forms]--> 3-phospho glyceric acid
+  carbon fixation --[involves]--> carbon dioxide
+  ATP and NADPH --[convert]--> 3-PGA into G3P
+  G3P --[leaves]--> Calvin cycle
+  G3P --[regenerates]--> RuBP
+  photosynthesis --[involves]--> two photosystems
+  photosystems --[absorb]--> light
+  cacti --[capture and store]--> carbon dioxide
+  cacti --[use captured carbon dioxide for]--> photosynthesis
+  photosynthesis --[absorbs]--> light energy
+  photosynthesis --[consumes]--> carbon dioxide
+  photosynthesis --[produces]--> oxygen
+  cellular respiration --[consumes]--> oxygen
+  cellular respiration --[produces]--> carbon dioxide
+
+Saved to /Users/jasonyi/Desktop/adobe-deep-research/outputs/triples_8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.json
+Neo4j: 130 nodes, 123 relationships
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 4721.13it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Qdrant: 130 entity vectors, 123 evidence vectors, 81 chunk vectors
+Visualization saved to /Users/jasonyi/Desktop/adobe-deep-research/outputs/graph_visualization.html
+===== END   18:51:35 :: data/8.3 Using Light Energy to Make Organic Molecules - Biology 2e _ OpenStax.pdf (exit=0) =====
+===== START 18:51:35 :: data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loaded passage (16171 chars)
+Extracting triples via OpenRouter...
+  Warning: skipping triple 24: 1 validation error for Triple
+relation
+  Value error, Relation too long: live in a physical and physiological relationship with [type=value_error, input_value='live in a physical and p...gical relationship with', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+Model used: mistralai/mistral-small-3.2-24b-instruct
+Number of triples: 32
+Unique entities: 45
+  Fungi --[play a role in]--> ecosystems
+  Fungi --[colonize]--> most habitats on Earth
+  Fungi --[thrive in]--> tundra
+  Fungi --[act as]--> major decomposers
+  Fungi --[break down]--> organic matter
+  Chytrids --[are found in]--> aquatic environments
+  Coccidioides immitis --[thrive in]--> dry and sandy soil of the southwestern United States
+  Fungi --[parasitize]--> coral reefs
+  Fungi --[grow on]--> forest floor
+  Fungi --[play a major role as]--> decomposers and recyclers
+  Fungi --[release]--> elements from decaying matter
+  Fungi --[return]--> trace elements to the environment
+  Fungi --[produce]--> exoenzymes
+  Fungi --[help maintain]--> sustainable ecosystem
+  Fungi --[form mutualistic associations with]--> cyanobacteria, algae, plants, and animals
+  Fungi --[establish]--> mycorrhizae
+  Fungi --[channel]--> water and minerals from the soil into the plant
+  Plant --[supply]--> products of photosynthesis to the fungus
+  Ectomycorrhizae --[depend on]--> fungi enveloping the roots in a sheath
+  Endomycorrhizae --[are produced when]--> the fungi grow inside the root
+  Orchids --[rely on]--> mycorrhizal partner
+  Fungi --[live inside tissue without damaging]--> host plant
+  Endophytes --[release]--> toxins that repel herbivores
+  Fungi --[preceded]--> the invasion of ancestral freshwater plants onto dry land
+  Photosynthetic organism --[provides]--> carbon and energy in the form of carbohydrates
+  Fungus --[supplies]--> minerals and protection from dryness and excessive light
+  Fungi --[have evolved mutualisms with]--> numerous insects in Phylum Arthropoda
+  Arthropods --[depend on]--> the fungus for protection from predators and pathogens
+  Leaf-cutter ants --[farm]--> fungi
+  Fungi --[digest]--> the cellulose in the leaves
+  Fungi --[require passage through]--> the digestive system of herbivores
+  Animals --[eat]--> truffles
+
+Saved to /Users/jasonyi/Desktop/adobe-deep-research/outputs/triples_24.3 Ecology of Fungi - Biology 2e _ OpenStax.json
+Neo4j: 174 nodes, 155 relationships
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 6781.15it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Qdrant: 174 entity vectors, 155 evidence vectors, 111 chunk vectors
+Visualization saved to /Users/jasonyi/Desktop/adobe-deep-research/outputs/graph_visualization.html
+===== END   18:52:02 :: data/24.3 Ecology of Fungi - Biology 2e _ OpenStax.pdf (exit=0) =====
+===== START 18:52:02 :: data/24.1 Characteristics of Fungi - Biology 2e _ OpenStax.pdf =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loaded passage (19607 chars)
+Extracting triples via OpenRouter...
+  Warning: skipping triple 25: 1 validation error for Triple
+tail
+  Field required [type=missing, input_value={'head': 'Fungi', 'relati...cellular organization.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+  Warning: skipping triple 30: 1 validation error for Triple
+tail
+  Field required [type=missing, input_value={'head': 'Most members of...m Fungi are nonmotile.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+  Warning: skipping triple 35: 1 validation error for Triple
+tail
+  Field required [type=missing, input_value={'head': 'Most fungi', 'r...ing oxygen to survive.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+  Warning: skipping triple 36: 1 validation error for Triple
+tail
+  Field required [type=missing, input_value={'head': 'Yeasts', 'relat...facultative anaerobes.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+  Warning: skipping triple 37: 1 validation error for Triple
+tail
+  Field required [type=missing, input_value={'head': 'Fungi', 'relati...teria and most plants.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+  Warning: skipping triple 40: 1 validation error for Triple
+tail
+  Field required [type=missing, input_value={'head': 'Fungi', 'relati...e, as found in plants.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+  Warning: skipping triple 41: 1 validation error for Triple
+tail
+  Field required [type=missing, input_value={'head': 'Fungi', 'relati...caying organic matter.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+  Warning: skipping triple 43: 1 validation error for Triple
+tail
+  Field required [type=missing, input_value={'head': 'Some fungi', 'r...her plants or animals.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+  Warning: skipping triple 46: 1 validation error for Triple
+tail
+  Field required [type=missing, input_value={'head': 'Fungi', 'relati...g a ride on an animal.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+  Warning: skipping triple 50: 1 validation error for Triple
+relation
+  Value error, Relation too long: often undergo sexual reproduction in response to [type=value_error, input_value='often undergo sexual reproduction in response to', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+Model used: mistralai/mistral-small-3.2-24b-instruct
+Number of triples: 41
+Unique entities: 55
+  Fungi --[are related to]--> animals
+  Fungi --[are not capable of]--> photosynthesis
+  Fungi --[use]--> complex organic compounds
+  Fungi --[share traits with]--> animals
+  Fungal cell walls --[are composed of]--> chitin
+  Fungi --[produce]--> pigments
+  Fungi --[store carbohydrates as]--> glycogen
+  Fungi --[absorb nutrients across]--> the cell surface
+  Fungi --[act as]--> decomposers
+  Some fungal organisms --[multiply only]--> asexually
+  Most fungi --[produce]--> a large number of spores
+  Fungi --[form associations with]--> other organisms
+  Most terrestrial plants --[form symbiotic relationships with]--> fungi
+  Fungus --[form]--> mycorrhizae
+  Fungus and plant --[exchange]--> nutrients and water
+  Lichens --[are an association between]--> a fungus and its photosynthetic partner
+  Dutch elm disease --[is caused by]--> the fungus Ophiostoma ulmi
+  Elm bark beetle --[acts as a vector for]--> Dutch elm disease
+  Fungal infections --[are challenging to treat]--> in humans
+  Fungi --[do not respond to]--> traditional antibiotic therapy
+  Fungal infections --[may prove deadly for]--> individuals with compromised immune systems
+  Food industry --[uses]--> yeasts
+  Fungi --[are the source of]--> many commercial enzymes and antibiotics
+  Fungi --[were classified as]--> plants
+  Fungi --[are more closely related to]--> animals than plants
+  Fungal cells --[contain]--> a membrane-bound nucleus
+  Fungal cells --[do not have]--> chloroplasts or chlorophyll
+  Fungal cell walls --[contain]--> chitin and glucans
+  Fungi --[have plasma membranes stabilized by]--> ergosterol
+  Fungi --[produce]--> threadlike hyphae
+  Fungi --[display stages]--> vegetative and reproductive
+  Fungal hyphae --[are divided by]--> septa
+  Fungi --[thrive in]--> moist and slightly acidic environments
+  Fungi --[do not fix nitrogen from]--> the atmosphere
+  Fungi --[perform digestion before]--> ingestion
+  Fungal exoenzymes --[break down]--> insoluble compounds
+  Some fungi --[resort to predation of]--> nematodes
+  Fungi --[reproduce]--> sexually and/or asexually
+  Fungi --[reproduce asexually by]--> fragmentation, budding, or producing spores
+  Fungi --[produce asexual spores through]--> mitosis
+  Fungi --[introduce genetic variation through]--> sexual reproduction
+
+Saved to /Users/jasonyi/Desktop/adobe-deep-research/outputs/triples_24.1 Characteristics of Fungi - Biology 2e _ OpenStax.json
+Neo4j: 221 nodes, 196 relationships
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 7646.27it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Qdrant: 221 entity vectors, 196 evidence vectors, 148 chunk vectors
+Visualization saved to /Users/jasonyi/Desktop/adobe-deep-research/outputs/graph_visualization.html
+===== END   18:52:35 :: data/24.1 Characteristics of Fungi - Biology 2e _ OpenStax.pdf (exit=0) =====
+===== START 18:52:35 :: data/24.2 Classifications of Fungi - Biology 2e _ OpenStax.pdf =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loaded passage (17569 chars)
+Extracting triples via OpenRouter...
+Model used: mistralai/mistral-small-3.2-24b-instruct
+Number of triples: 36
+Unique entities: 40
+  kingdom Fungi --[contains]--> five major phyla
+  Deuteromycota --[is a]--> form phylum
+  Chytridiomycota --[is a]--> phylum of fungi
+  Zygomycota --[is a]--> phylum of fungi
+  Ascomycota --[is a]--> phylum of fungi
+  Basidiomycota --[is a]--> phylum of fungi
+  Glomeromycota --[is a]--> phylum of fungi
+  Chytridiomycota --[contains]--> Chytridiomycetes
+  chytrids --[are]--> unicellular
+  chytrids --[have]--> flagella
+  chytrids --[produce]--> gametes and diploid zoospores
+  chytrids --[live in]--> aquatic environments
+  chytrids --[include]--> Allomyces
+  Allomyces --[has]--> asexual and sexual phases
+  Zygomycota --[includes]--> Rhizopus stolonifer
+  Zygomycota --[have]--> coenocytic hyphae
+  Zygomycota --[reproduce asexually by]--> sporangiospores
+  Zygomycota --[have]--> sexual reproduction
+  Zygomycota --[produce]--> zygospore
+  Zygomycota --[undergo]--> meiosis
+  Ascomycota --[characterized by]--> formation of an ascus
+  Ascomycota --[produce]--> hyphae
+  Ascomycota --[include]--> yeasts
+  Ascomycota --[include]--> Aspergillus oryzae
+  Ascomycota --[reproduce asexually by]--> conidiophores
+  Ascomycota --[reproduce sexually by]--> asci
+  Ascomycota --[produce]--> ascospores
+  Basidiomycota --[include]--> mushrooms
+  Basidiomycota --[include]--> shelf fungi
+  Basidiomycota --[include]--> smuts and rusts
+  Basidiomycota --[produce]--> basidiospores
+  Basidiomycota --[undergo]--> karyogamy
+  Basidiomycota --[produce]--> basidiocarp
+  Glomeromycota --[form]--> arbuscular mycorrhizae
+  Glomeromycota --[host]--> Nostoc
+  Glomeromycota --[do not reproduce]--> sexually
+
+Saved to /Users/jasonyi/Desktop/adobe-deep-research/outputs/triples_24.2 Classifications of Fungi - Biology 2e _ OpenStax.json
+Neo4j: 257 nodes, 232 relationships
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights:  71%|███████   | 278/391 [00:00<00:00, 2770.58it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 3135.35it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Qdrant: 257 entity vectors, 232 evidence vectors, 181 chunk vectors
+Visualization saved to /Users/jasonyi/Desktop/adobe-deep-research/outputs/graph_visualization.html
+===== END   18:53:19 :: data/24.2 Classifications of Fungi - Biology 2e _ OpenStax.pdf (exit=0) =====
+===== START 18:53:19 :: data/24.4 Fungal Parasites and Pathogens - Biology 2e _ OpenStax.pdf =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loaded passage (10866 chars)
+Extracting triples via OpenRouter...
+Model used: mistralai/mistral-small-3.2-24b-instruct
+Number of triples: 21
+Unique entities: 38
+  Parasitism --[describes]--> symbiotic relationship
+  Pathogens --[cause]--> disease
+  Claviceps purpurea --[causes]--> ergot
+  Ergot --[refers to]--> ergotism
+  Ergot --[produces]--> lysergic acid
+  Aflatoxins --[released by]--> Aspergillus
+  Mycosis --[results from]--> fungal disease
+  Mycotoxicosis --[describes]--> poisoning by fungal toxins
+  Mycetismus --[describes]--> ingestion of preformed toxins
+  Batrachochytrium dendrobatidis --[causes]--> decline of frog population
+  Pseudogymnoascus destructans --[causes]--> white-nose syndrome
+  Dermatophytes --[secrete]--> extracellular enzymes
+  Systemic mycoses --[spread to]--> internal organs
+  Coccidioidomycosis --[causes]--> symptoms similar to tuberculosis
+  Histoplasma capsulatum --[causes]--> pulmonary infections
+  Opportunistic mycoses --[affect]--> individuals with compromised immune system
+  Candida sp. --[causes]--> vaginal or oral thrush
+  Mycetismus --[causes]--> human fatalities
+  Dutch elm disease --[affects]--> elm species
+  Ophiostoma ulmi --[causes]--> Dutch elm disease
+  Elm bark beetle --[transmits]--> Dutch elm disease
+
+Saved to /Users/jasonyi/Desktop/adobe-deep-research/outputs/triples_24.4 Fungal Parasites and Pathogens - Biology 2e _ OpenStax.json
+Neo4j: 292 nodes, 253 relationships
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 7045.04it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Qdrant: 292 entity vectors, 253 evidence vectors, 199 chunk vectors
+Visualization saved to /Users/jasonyi/Desktop/adobe-deep-research/outputs/graph_visualization.html
+===== END   18:54:08 :: data/24.4 Fungal Parasites and Pathogens - Biology 2e _ OpenStax.pdf (exit=0) =====
+===== START 18:54:08 :: data/24.5 Importance of Fungi in Human Life - Biology 2e _ OpenStax.pdf =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loaded passage (5386 chars)
+Extracting triples via OpenRouter...
+  Warning: skipping triple 18: 1 validation error for Triple
+relation
+  Value error, Relation too long: produces and modifies proteins similar to [type=value_error, input_value='produces and modifies proteins similar to', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+Model used: mistralai/mistral-small-3.2-24b-instruct
+Number of triples: 19
+Unique entities: 28
+  Fungi --[influence]--> nutrient cycle
+  Fungi --[control]--> population of damaging pests
+  Fungi --[are specific to]--> insects they attack
+  Beauveria bassiana --[is tested as]--> biological control agent
+  Beauveria bassiana --[parasitizes]--> emerald ash borer
+  Fungi --[have mycorrhizal relationship with]--> plant roots
+  Fungi --[are eaten as]--> mushrooms
+  Penicillium --[ripen]--> many cheeses
+  Wild yeasts --[ferment]--> sugars into CO2 and ethyl alcohol
+  Louis Pasteur --[developed]--> reliable strain of brewer’s yeast
+  Fungi --[produce]--> antibiotics
+  Fungi --[produce]--> cyclosporine
+  Fungi --[produce]--> precursors of steroid hormones
+  Fungi --[produce]--> ergot alkaloids
+  Psilocybe semilanceata and Gymnopilus junonius --[contain]--> psilocybin
+  Fungi --[are used as]--> model research organisms
+  Neurospora crassa --[achieved advances in]--> modern genetics
+  S. cerevisiae --[served as starting point for]--> discovering analogous human genes
+  Yeast --[is better for]--> recombinant DNA technology experiments
+
+Saved to /Users/jasonyi/Desktop/adobe-deep-research/outputs/triples_24.5 Importance of Fungi in Human Life - Biology 2e _ OpenStax.json
+Neo4j: 318 nodes, 272 relationships
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 7239.12it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Qdrant: 318 entity vectors, 272 evidence vectors, 208 chunk vectors
+Visualization saved to /Users/jasonyi/Desktop/adobe-deep-research/outputs/graph_visualization.html
+===== END   18:54:34 :: data/24.5 Importance of Fungi in Human Life - Biology 2e _ OpenStax.pdf (exit=0) =====

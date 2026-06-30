@@ -1,0 +1,9 @@
+{
+  "question": "What is genetics?",
+  "answer": "Genetics is the study of heredity and the variation of inherited characteristics.",
+  "citations": [
+    "chunk:15_1_the_genetic_code_biology_2e_openstax:0 | 15.1 The Genetic Code - Biology 2e _ OpenStax.txt | INTRODUCTION CHAPTER 15 Genes and Proteins 15.1 The Genetic Code 15.2 Prokaryotic Transcription 15.3 Eukaryotic Trans...",
+    "chunk:14_1_historical_basis_of_modern_understanding_biology_2e_openstax:10 | 14.1 Historical Basis of Modern Understanding - Biology 2e _ OpenStax.txt | The decisive experiment, conducted by Martha Chase and Alfred Hershey in 1952, provided confirmatory evidence that DN..."
+  ],
+  "reasoning": "Matched entities: modern genetics. Traversed graph edges: Neurospora crassa --[achieved advances in]--> modern genetics; genes --[specify the sequences of]--> amino acids; codons --[define]--> amino acids. Graph evidence: \"Many advances in modern genetics were achieved by the use of the red bread mold Neurospora crassa.\". The provided text states that genes are composed of DNA and specify the sequences of amino acids, which are the building blocks of proteins. This implies that genetics is the study of heredity and the variation of inherited characteristics."
+}

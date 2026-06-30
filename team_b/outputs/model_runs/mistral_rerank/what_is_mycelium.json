@@ -1,0 +1,8 @@
+{
+  "question": "What is mycelium?",
+  "answer": "A mass of hyphae",
+  "citations": [
+    "chunk:24_1_characteristics_of_fungi_biology_2e_openstax:16 | data/24.1 Characteristics of Fungi - Biology 2e _ OpenStax.pdf | similar morphology to coccus bacteria; however, yeast is a eukaryotic organism (note the nucleus). (credit: modificat..."
+  ],
+  "reasoning": "Matched entities: fungi, basidiomycota, zygomycota. Traversed graph edges: Chytridiomycota --[belongs to]--> fungi; Chytrids --[are]--> Chytridiomycota; Ascomycota --[belongs to]--> fungi. Graph evidence: \"The five true phyla of fungi are the Chytridiomycota (Chytrids), the Zygomycota (conjugated fungi), the Ascomycota (sac fungi), the Basidiomycota (club fungi) and the recently described Phylum Glomeromycota (Figure 24.10).\". The context describes the mycelium as a mass of hyphae, which is a key characteristic mentioned in the provided information."
+}

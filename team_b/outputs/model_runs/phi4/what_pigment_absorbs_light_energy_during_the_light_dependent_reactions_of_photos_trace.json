@@ -1,0 +1,799 @@
+{
+  "question": "What pigment absorbs light energy during the light-dependent reactions of photosynthesis?",
+  "generated_at": "2026-05-01T07:10:03.852156+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "pigment",
+        "absorbs",
+        "light",
+        "energy",
+        "during",
+        "light",
+        "dependent",
+        "reactions",
+        "photosynthesis",
+        "pigment absorbs",
+        "absorbs light",
+        "light energy",
+        "energy during",
+        "during light",
+        "light dependent",
+        "dependent reactions",
+        "reactions photosynthesis",
+        "pigment absorbs light",
+        "absorbs light energy",
+        "light energy during",
+        "energy during light",
+        "during light dependent",
+        "light dependent reactions",
+        "dependent reactions photosynthesis"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:photosynthesis",
+          "name": "photosynthesis",
+          "matched_text": "photosynthesis",
+          "matched_alias": "photosynthesis",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:energy_from_sunlight",
+          "name": "energy from sunlight",
+          "matched_text": "energy",
+          "matched_alias": "energy from sunlight",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        },
+        {
+          "entity_id": "ent:light_energy_into_chemical_energy",
+          "name": "light energy into chemical energy",
+          "matched_text": "light energy",
+          "matched_alias": "light energy into chemical energy",
+          "score": 0.95,
+          "match_type": "fuzzy"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:8_2_the_light_dependent_reactions_of_photosynthesis_biology_2e_openstax:19",
+          "text": "a\nspectrophotometer, scientists can identify which wavelengths of light an organism can absorb.\n\nAdditional methods for the identification of plant pigments include various types of chromatography\nthat separate the pigments by their relative affinities to solid and mobile phases. How Light-Dependent Reactions Work\nThe overall function of light-dependent reactions is to convert solar energy into chemical energy in the\nform of NADPH and ATP. This chemical energy supports the light-independent reactions and fuels the\nassembly of sugar molecules. The light-dependent reactions are depicted in Figure 8.16. Protein\ncomplexes and pigment molecules work together to produce NADPH and ATP.",
+          "source_name": "data/8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 19,
+          "snippet": "a\nspectrophotometer, scientists can identify which wavelengths of light an organism can absorb.\n\nAdditional methods for the identification of plant pigments include various types of chromatography\nthat separate the pigments by their relative affinities to solid and mobile phases. How Light-Dependent Reactions Work\nThe overall function of light-dependent reactions is to convert solar energy into ch",
+          "score": 0.810768156906218
+        },
+        {
+          "chunk_id": "chunk:8_2_the_light_dependent_reactions_of_photosynthesis_biology_2e_openstax:13",
+          "text": "efficient molecules for\nthe disposal of excess energy.\n\nWhen a leaf is exposed to full sun, the light-dependent reactions are\nrequired to process an enormous amount of energy; if that energy is not handled properly, it can do\nsignificant damage. Therefore, many carotenoids reside in the thylakoid membrane, absorb excess\nenergy, and safely dissipate that energy as heat. Each type of pigment can be identified by the specific pattern of wavelengths it absorbs from visible\nlight: This is termed the absorption spectrum. The graph in Figure 8.14 shows the absorption spectra\nfor chlorophyll a, chlorophyll b, and a type of carotenoid pigment called β-carotene (which absorbs blue\nand green light).",
+          "source_name": "data/8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 13,
+          "snippet": "efficient molecules for\nthe disposal of excess energy.\n\nWhen a leaf is exposed to full sun, the light-dependent reactions are\nrequired to process an enormous amount of energy; if that energy is not handled properly, it can do\nsignificant damage. Therefore, many carotenoids reside in the thylakoid membrane, absorb excess\nenergy, and safely dissipate that energy as heat. Each type of pigment can be ",
+          "score": 0.8031674388817629
+        },
+        {
+          "chunk_id": "chunk:8_2_the_light_dependent_reactions_of_photosynthesis_biology_2e_openstax:14",
+          "text": "b, and a type of carotenoid pigment called β-carotene (which absorbs blue\nand green light).\n\nNotice how each pigment has a distinct set of peaks and troughs, revealing a highly\nspecific pattern of absorption. Chlorophyll a absorbs wavelengths from either end of the visible\nspectrum (blue and red), but not green. Because green is reflected or transmitted, chlorophyll appears\n4/14/26, 11:44 AM\n8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e | OpenStax\nhttps://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis\n6/12",
+          "source_name": "data/8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 14,
+          "snippet": "b, and a type of carotenoid pigment called β-carotene (which absorbs blue\nand green light).\n\nNotice how each pigment has a distinct set of peaks and troughs, revealing a highly\nspecific pattern of absorption. Chlorophyll a absorbs wavelengths from either end of the visible\nspectrum (blue and red), but not green. Because green is reflected or transmitted, chlorophyll appears\n4/14/26, 11:44 AM\n8.2 T",
+          "score": 0.7889421876292102
+        },
+        {
+          "chunk_id": "chunk:8_2_the_light_dependent_reactions_of_photosynthesis_biology_2e_openstax:0",
+          "text": "8.2 The Light-Dependent Reactions of\nPhotosynthesis\nLearning Objectives\nBy the end of this section, you will be able to do the following:\nExplain how plants absorb energy from sunlight\nDescribe short and long wavelengths of light\nDescribe how and where photosynthesis takes place within a plant\nHow can light energy be used to make food? When a person turns on a lamp, electrical energy\nbecomes light energy. Like all other forms of kinetic energy, light can travel, change form, and be\nharnessed to do work. In the case of photosynthesis, light energy is converted into chemical energy,\nwhich photoautotrophs use to build basic carbohydrate molecules (Figure 8.9).",
+          "source_name": "data/8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 0,
+          "snippet": "8.2 The Light-Dependent Reactions of\nPhotosynthesis\nLearning Objectives\nBy the end of this section, you will be able to do the following:\nExplain how plants absorb energy from sunlight\nDescribe short and long wavelengths of light\nDescribe how and where photosynthesis takes place within a plant\nHow can light energy be used to make food? When a person turns on a lamp, electrical energy\nbecomes light",
+          "score": 0.7631252469988972
+        },
+        {
+          "chunk_id": "chunk:8_2_the_light_dependent_reactions_of_photosynthesis_biology_2e_openstax:24",
+          "text": "energy has now been captured by biological molecules but is not stored\nin any useful form yet.\n\nThe energy is transferred from chlorophyll to chlorophyll until eventually (after\n4/14/26, 11:44 AM\n8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e | OpenStax\nhttps://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis\n9/12",
+          "source_name": "data/8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e _ OpenStax.pdf",
+          "chunk_index": 24,
+          "snippet": "energy has now been captured by biological molecules but is not stored\nin any useful form yet.\n\nThe energy is transferred from chlorophyll to chlorophyll until eventually (after\n4/14/26, 11:44 AM\n8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e | OpenStax\nhttps://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis\n9/12",
+          "score": 0.7475785011195479
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:184e1e878a203569",
+          "head_entity_id": "ent:pigments",
+          "tail_entity_id": "ent:specific_wavelengths_of_sunlight",
+          "relation": "absorb",
+          "evidence": "Light energy initiates the process of photosynthesis when pigments absorb specific wavelengths of visible light.",
+          "head_name": "pigments",
+          "tail_name": "specific wavelengths of sunlight",
+          "score": 0.7910815502250353
+        },
+        {
+          "triple_id": "triple:a2f6d8c18290b8ea",
+          "head_entity_id": "ent:plants",
+          "tail_entity_id": "ent:energy_from_sunlight",
+          "relation": "absorb",
+          "evidence": "Explain how plants absorb energy from sunlight",
+          "head_name": "plants",
+          "tail_name": "energy from sunlight",
+          "score": 0.7464692510816671
+        },
+        {
+          "triple_id": "triple:5b8fb6528fe3166e",
+          "head_entity_id": "ent:thylakoid",
+          "tail_entity_id": "ent:chlorophyll",
+          "relation": "contains",
+          "evidence": "Embedded in the thylakoid membrane is chlorophyll, a pigment (molecule that absorbs light) responsible for the initial interaction between light and plant material, and numerous proteins that make up the electron transport chain.",
+          "head_name": "thylakoid",
+          "tail_name": "chlorophyll",
+          "score": 0.743916820626156
+        },
+        {
+          "triple_id": "triple:a8e0bdc03ce9232c",
+          "head_entity_id": "ent:photosynthesis",
+          "tail_entity_id": "ent:light-dependent_reactions",
+          "relation": "consists of",
+          "evidence": "Photosynthesis takes place in two sequential stages: the light-dependent reactions and the light-independent reactions.",
+          "head_name": "photosynthesis",
+          "tail_name": "light-dependent reactions",
+          "score": 0.7233706437119506
+        },
+        {
+          "triple_id": "triple:d2773d9170b09530",
+          "head_entity_id": "ent:chlorophyll_a",
+          "tail_entity_id": "ent:wavelengths_from_either_end_of_the_visible_spectrum_(blue_and_red)",
+          "relation": "absorbs",
+          "evidence": "Chlorophyll a absorbs wavelengths from either end of the visible spectrum (blue and red), but not green.",
+          "head_name": "chlorophyll a",
+          "tail_name": "wavelengths from either end of the visible spectrum (blue and red)",
+          "score": 0.7177352281999372
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:photosynthesis",
+        "ent:energy_from_sunlight",
+        "ent:light_energy_into_chemical_energy",
+        "ent:pigments",
+        "ent:specific_wavelengths_of_sunlight",
+        "ent:plants",
+        "ent:thylakoid",
+        "ent:chlorophyll",
+        "ent:light-dependent_reactions",
+        "ent:chlorophyll_a",
+        "ent:wavelengths_from_either_end_of_the_visible_spectrum_(blue_and_red)"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "photosynthesis",
+          "entity_id": "ent:photosynthesis",
+          "original_names": [
+            "Photosynthesis",
+            "photosynthesis"
+          ]
+        },
+        {
+          "name": "algae",
+          "entity_id": "ent:algae",
+          "original_names": [
+            "Algae"
+          ]
+        },
+        {
+          "name": "fungi",
+          "entity_id": "ent:fungi",
+          "original_names": [
+            "fungi"
+          ]
+        },
+        {
+          "name": "fungus",
+          "entity_id": "ent:fungus",
+          "original_names": [
+            "fungus"
+          ]
+        },
+        {
+          "name": "light-dependent reactions",
+          "entity_id": "ent:light-dependent_reactions",
+          "original_names": [
+            "light-dependent reactions",
+            "Light-dependent reactions"
+          ]
+        },
+        {
+          "name": "thylakoid membrane",
+          "entity_id": "ent:thylakoid_membrane",
+          "original_names": [
+            "thylakoid membrane"
+          ]
+        },
+        {
+          "name": "sunlight",
+          "entity_id": "ent:sunlight",
+          "original_names": [
+            "sunlight"
+          ]
+        },
+        {
+          "name": "oxygen",
+          "entity_id": "ent:oxygen",
+          "original_names": [
+            "oxygen"
+          ]
+        },
+        {
+          "name": "photosystem ii",
+          "entity_id": "ent:photosystem_ii",
+          "original_names": [
+            "photosystem II"
+          ]
+        },
+        {
+          "name": "leaves",
+          "entity_id": "ent:leaves",
+          "original_names": [
+            "leaves"
+          ]
+        },
+        {
+          "name": "glyceraldehyde-3-phosphate",
+          "entity_id": "ent:glyceraldehyde-3-phosphate",
+          "original_names": [
+            "glyceraldehyde-3-phosphate"
+          ]
+        },
+        {
+          "name": "plants",
+          "entity_id": "ent:plants",
+          "original_names": [
+            "plants"
+          ]
+        },
+        {
+          "name": "chytrids",
+          "entity_id": "ent:chytrids",
+          "original_names": [
+            "Chytrids"
+          ]
+        },
+        {
+          "name": "ascomycota",
+          "entity_id": "ent:ascomycota",
+          "original_names": [
+            "Ascomycota"
+          ]
+        },
+        {
+          "name": "energy from sunlight",
+          "entity_id": "ent:energy_from_sunlight",
+          "original_names": [
+            "energy from sunlight"
+          ]
+        },
+        {
+          "name": "water",
+          "entity_id": "ent:water",
+          "original_names": [
+            "water"
+          ]
+        },
+        {
+          "name": "light-independent reactions",
+          "entity_id": "ent:light-independent_reactions",
+          "original_names": [
+            "light-independent reactions",
+            "Light-independent reactions"
+          ]
+        },
+        {
+          "name": "stroma",
+          "entity_id": "ent:stroma",
+          "original_names": [
+            "stroma"
+          ]
+        },
+        {
+          "name": "chloroplast",
+          "entity_id": "ent:chloroplast",
+          "original_names": [
+            "chloroplast",
+            "Chloroplast"
+          ]
+        },
+        {
+          "name": "thylakoids",
+          "entity_id": "ent:thylakoids",
+          "original_names": [
+            "thylakoids"
+          ]
+        },
+        {
+          "name": "carbon dioxide",
+          "entity_id": "ent:carbon_dioxide",
+          "original_names": [
+            "carbon dioxide"
+          ]
+        },
+        {
+          "name": "calvin cycle",
+          "entity_id": "ent:calvin_cycle",
+          "original_names": [
+            "Calvin cycle"
+          ]
+        },
+        {
+          "name": "carbohydrates",
+          "entity_id": "ent:carbohydrates",
+          "original_names": [
+            "carbohydrates"
+          ]
+        },
+        {
+          "name": "carbohydrate molecules",
+          "entity_id": "ent:carbohydrate_molecules",
+          "original_names": [
+            "carbohydrate molecules"
+          ]
+        },
+        {
+          "name": "cyanobacteria",
+          "entity_id": "ent:cyanobacteria",
+          "original_names": [
+            "Cyanobacteria"
+          ]
+        },
+        {
+          "name": "mesophyll",
+          "entity_id": "ent:mesophyll",
+          "original_names": [
+            "mesophyll"
+          ]
+        },
+        {
+          "name": "light energy into chemical energy",
+          "entity_id": "ent:light_energy_into_chemical_energy",
+          "original_names": [
+            "light energy into chemical energy"
+          ]
+        },
+        {
+          "name": "photoautotrophs",
+          "entity_id": "ent:photoautotrophs",
+          "original_names": [
+            "photoautotrophs"
+          ]
+        },
+        {
+          "name": "specific wavelengths of sunlight",
+          "entity_id": "ent:specific_wavelengths_of_sunlight",
+          "original_names": [
+            "specific wavelengths of sunlight"
+          ]
+        },
+        {
+          "name": "pigments",
+          "entity_id": "ent:pigments",
+          "original_names": [
+            "pigments"
+          ]
+        },
+        {
+          "name": "specific wavelengths of visible light",
+          "entity_id": "ent:specific_wavelengths_of_visible_light",
+          "original_names": [
+            "specific wavelengths of visible light"
+          ]
+        },
+        {
+          "name": "insects",
+          "entity_id": "ent:insects",
+          "original_names": [
+            "insects"
+          ]
+        },
+        {
+          "name": "zoospores",
+          "entity_id": "ent:zoospores",
+          "original_names": [
+            "zoospores"
+          ]
+        },
+        {
+          "name": "chytridiomycota",
+          "entity_id": "ent:chytridiomycota",
+          "original_names": [
+            "Chytridiomycota"
+          ]
+        },
+        {
+          "name": "flagella",
+          "entity_id": "ent:flagella",
+          "original_names": [
+            "flagella"
+          ]
+        },
+        {
+          "name": "gametes",
+          "entity_id": "ent:gametes",
+          "original_names": [
+            "gametes"
+          ]
+        },
+        {
+          "name": "aquatic environments",
+          "entity_id": "ent:aquatic_environments",
+          "original_names": [
+            "aquatic environments"
+          ]
+        },
+        {
+          "name": "amphibians",
+          "entity_id": "ent:amphibians",
+          "original_names": [
+            "amphibians"
+          ]
+        },
+        {
+          "name": "asci",
+          "entity_id": "ent:asci",
+          "original_names": [
+            "asci"
+          ]
+        },
+        {
+          "name": "ascospores",
+          "entity_id": "ent:ascospores",
+          "original_names": [
+            "ascospores"
+          ]
+        },
+        {
+          "name": "formation of an ascus",
+          "entity_id": "ent:formation_of_an_ascus",
+          "original_names": [
+            "formation of an ascus"
+          ]
+        },
+        {
+          "name": "ascocarp",
+          "entity_id": "ent:ascocarp",
+          "original_names": [
+            "ascocarp"
+          ]
+        },
+        {
+          "name": "conidiophores",
+          "entity_id": "ent:conidiophores",
+          "original_names": [
+            "conidiophores"
+          ]
+        },
+        {
+          "name": "yeasts",
+          "entity_id": "ent:yeasts",
+          "original_names": [
+            "yeasts"
+          ]
+        },
+        {
+          "name": "aspergillus oryzae",
+          "entity_id": "ent:aspergillus_oryzae",
+          "original_names": [
+            "Aspergillus oryzae"
+          ]
+        },
+        {
+          "name": "humans",
+          "entity_id": "ent:humans",
+          "original_names": [
+            "humans"
+          ]
+        },
+        {
+          "name": "conidiospores",
+          "entity_id": "ent:conidiospores",
+          "original_names": [
+            "conidiospores"
+          ]
+        },
+        {
+          "name": "morels",
+          "entity_id": "ent:morels",
+          "original_names": [
+            "morels"
+          ]
+        },
+        {
+          "name": "truffles",
+          "entity_id": "ent:truffles",
+          "original_names": [
+            "truffles"
+          ]
+        },
+        {
+          "name": "animals",
+          "entity_id": "ent:animals",
+          "original_names": [
+            "animals"
+          ]
+        },
+        {
+          "name": "lichens",
+          "entity_id": "ent:lichens",
+          "original_names": [
+            "lichens"
+          ]
+        },
+        {
+          "name": "ectomycorrhizae",
+          "entity_id": "ent:ectomycorrhizae",
+          "original_names": [
+            "ectomycorrhizae"
+          ]
+        },
+        {
+          "name": "substrate",
+          "entity_id": "ent:substrate",
+          "original_names": [
+            "substrate"
+          ]
+        },
+        {
+          "name": "glomeromycota",
+          "entity_id": "ent:glomeromycota",
+          "original_names": [
+            "Glomeromycota"
+          ]
+        },
+        {
+          "name": "basidiomycota",
+          "entity_id": "ent:basidiomycota",
+          "original_names": [
+            "Basidiomycota"
+          ]
+        },
+        {
+          "name": "zygomycota",
+          "entity_id": "ent:zygomycota",
+          "original_names": [
+            "Zygomycota"
+          ]
+        },
+        {
+          "name": "ants",
+          "entity_id": "ent:ants",
+          "original_names": [
+            "ants"
+          ]
+        },
+        {
+          "name": "nitrogen and phosphorus",
+          "entity_id": "ent:nitrogen_and_phosphorus",
+          "original_names": [
+            "nitrogen and phosphorus"
+          ]
+        },
+        {
+          "name": "leaf-cutter ants",
+          "entity_id": "ent:leaf-cutter_ants",
+          "original_names": [
+            "leaf-cutter ants"
+          ]
+        },
+        {
+          "name": "organic matter",
+          "entity_id": "ent:organic_matter",
+          "original_names": [
+            "organic matter"
+          ]
+        },
+        {
+          "name": "parasites",
+          "entity_id": "ent:parasites",
+          "original_names": [
+            "parasites"
+          ]
+        },
+        {
+          "name": "pathogens",
+          "entity_id": "ent:pathogens",
+          "original_names": [
+            "pathogens"
+          ]
+        },
+        {
+          "name": "mycosis",
+          "entity_id": "ent:mycosis",
+          "original_names": [
+            "mycosis"
+          ]
+        },
+        {
+          "name": "mycotoxicosis",
+          "entity_id": "ent:mycotoxicosis",
+          "original_names": [
+            "mycotoxicosis"
+          ]
+        },
+        {
+          "name": "tissue decay",
+          "entity_id": "ent:tissue_decay",
+          "original_names": [
+            "tissue decay"
+          ]
+        },
+        {
+          "name": "model research organisms",
+          "entity_id": "ent:model_research_organisms",
+          "original_names": [
+            "model research organisms"
+          ]
+        },
+        {
+          "name": "population of damaging pests",
+          "entity_id": "ent:population_of_damaging_pests",
+          "original_names": [
+            "population of damaging pests"
+          ]
+        },
+        {
+          "name": "nutrient cycle",
+          "entity_id": "ent:nutrient_cycle",
+          "original_names": [
+            "nutrient cycle"
+          ]
+        },
+        {
+          "name": "fermentation",
+          "entity_id": "ent:fermentation",
+          "original_names": [
+            "fermentation"
+          ]
+        },
+        {
+          "name": "antibiotics",
+          "entity_id": "ent:antibiotics",
+          "original_names": [
+            "antibiotics"
+          ]
+        },
+        {
+          "name": "thylakoid",
+          "entity_id": "ent:thylakoid",
+          "original_names": [
+            "Thylakoid"
+          ]
+        },
+        {
+          "name": "chlorophyll",
+          "entity_id": "ent:chlorophyll",
+          "original_names": [
+            "chlorophyll"
+          ]
+        },
+        {
+          "name": "chlorophyll a and b",
+          "entity_id": "ent:chlorophyll_a_and_b",
+          "original_names": [
+            "chlorophyll a and b"
+          ]
+        },
+        {
+          "name": "carotenoids",
+          "entity_id": "ent:carotenoids",
+          "original_names": [
+            "carotenoids"
+          ]
+        },
+        {
+          "name": "chlorophyll a",
+          "entity_id": "ent:chlorophyll_a",
+          "original_names": [
+            "chlorophyll a"
+          ]
+        },
+        {
+          "name": "green light",
+          "entity_id": "ent:green_light",
+          "original_names": [
+            "green light"
+          ]
+        },
+        {
+          "name": "wavelengths from either end of the visible spectrum (blue and red)",
+          "entity_id": "ent:wavelengths_from_either_end_of_the_visible_spectrum_(blue_and_red)",
+          "original_names": [
+            "wavelengths from either end of the visible spectrum (blue and red)"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:photosynthesis",
+          "evidence": "Plants, algae, and a group of bacteria called cyanobacteria are the only organisms capable of performing photosynthesis.",
+          "target_name": "Photosynthesis",
+          "source_entity_id": "ent:algae",
+          "triple_id": "triple:690c7576fe5dce50",
+          "source_name": "Algae",
+          "relation": "perform"
+        },
+        {
+          "target_entity_id": "ent:algae",
+          "evidence": "Fungi form mutualistic associations with many types of organisms, including cyanobacteria, algae, plants, and animals.",
+          "target_name": "Algae",
+          "source_entity_id": "ent:fungi",
+          "triple_id": "triple:5818d78d75d8c3c9",
+          "source_name": "fungi",
+          "relation": "form mutualistic associations"
+        },
+        {
+          "target_entity_id": "ent:algae",
+          "evidence": "In return, the fungus supplies minerals and protection from dryness and excessive light by encasing the algae in its mycelium.",
+          "target_name": "Algae",
+          "source_entity_id": "ent:fungus",
+          "triple_id": "triple:0328719d7d83afdf",
+          "source_name": "fungus",
+          "relation": "supplies minerals and protection"
+        },
+        {
+          "target_entity_id": "ent:light-dependent_reactions",
+          "evidence": "Photosynthesis takes place in two sequential stages: the light-dependent reactions and the light-independent reactions.",
+          "target_name": "light-dependent reactions",
+          "source_entity_id": "ent:photosynthesis",
+          "triple_id": "triple:a8e0bdc03ce9232c",
+          "source_name": "Photosynthesis",
+          "relation": "consists of"
+        },
+        {
+          "target_entity_id": "ent:thylakoid_membrane",
+          "evidence": "The light-dependent reactions utilize certain molecules to temporarily store the energy: These are referred to as energy carriers.",
+          "target_name": "thylakoid membrane",
+          "source_entity_id": "ent:light-dependent_reactions",
+          "triple_id": "triple:fe1d076fa71d44c2",
+          "source_name": "light-dependent reactions",
+          "relation": "occurs in"
+        },
+        {
+          "target_entity_id": "ent:sunlight",
+          "evidence": "In brief, the energy of sunlight is “captured” to energize electrons, whose energy is then stored in the covalent bonds of sugar molecules.",
+          "target_name": "sunlight",
+          "source_entity_id": "ent:photosynthesis",
+          "triple_id": "triple:e3eb5680c4a84de2",
+          "source_name": "Photosynthesis",
+          "relation": "captures energy"
+        },
+        {
+          "target_entity_id": "ent:oxygen",
+          "evidence": "It is also a source of oxygen necessary for many living organisms.",
+          "target_name": "oxygen",
+          "source_entity_id": "ent:photosynthesis",
+          "triple_id": "triple:a0da3547a3d42f6d",
+          "source_name": "Photosynthesis",
+          "relation": "produces"
+        },
+        {
+          "target_entity_id": "ent:oxygen",
+          "evidence": "Splitting one H2O molecule releases two electrons, two hydrogen atoms, and one atom of oxygen.",
+          "target_name": "oxygen",
+          "source_entity_id": "ent:photosystem_ii",
+          "triple_id": "triple:6721ffd838554603",
+          "source_name": "photosystem II",
+          "relation": "produces"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "What pigment absorbs light energy during the light-dependent reactions of photosynthesis?",
+    "answer": "chlorophyll",
+    "citations": [
+      "triple:5b8fb6528fe3166e | thylakoid --[contains]--> chlorophyll",
+      "triple:d2773d9170b09530 | chlorophyll a --[absorbs]--> wavelengths from either end of the visible spectrum (blue and red)"
+    ],
+    "reasoning": "Matched entities: photosynthesis, energy from sunlight, light energy into chemical energy. Traversed graph edges: Algae --[perform]--> Photosynthesis; fungi --[form mutualistic associations]--> Algae; fungus --[supplies minerals and protection]--> Algae. Graph evidence: \"Plants, algae, and a group of bacteria called cyanobacteria are the only organisms capable of performing photosynthesis.\". The context indicates that chlorophyll a absorbs light energy during the light-dependent reactions of photosynthesis, specifically absorbing wavelengths from the blue and red ends of the visible spectrum."
+  }
+}

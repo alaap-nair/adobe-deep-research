@@ -1,0 +1,164 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 15,
+  "num_entities": 20,
+  "entities": [
+    "-25 to -35 bases relative to the initiation site",
+    "5S rRNA, tRNAs, and small nuclear RNAs",
+    "FACT",
+    "RNA polymerase I",
+    "RNA polymerase II",
+    "RNA polymerase III",
+    "TATA box",
+    "TATA-binding protein (TBP)",
+    "TFIID",
+    "a single bacterial gene",
+    "chromatin transcription",
+    "mRNA transcripts",
+    "multiple polymerases",
+    "nucleolus",
+    "nucleus",
+    "numerous ribosomes",
+    "pre-mRNA",
+    "protein-coding nuclear pre-mRNAs",
+    "rRNAs",
+    "\u03b1-amanitin"
+  ],
+  "triples": [
+    {
+      "head": "multiple polymerases",
+      "head_type": "Enzyme",
+      "relation": "transcribe",
+      "relation_type": "TRANSCRIBES_TO",
+      "tail": "a single bacterial gene",
+      "tail_type": "Gene",
+      "evidence": "Multiple polymerases can transcribe a single bacterial gene while numerous ribosomes concurrently translate the mRNA transcripts into polypeptides."
+    },
+    {
+      "head": "numerous ribosomes",
+      "head_type": "CellularStructure",
+      "relation": "translate",
+      "relation_type": "TRANSLATES_TO",
+      "tail": "mRNA transcripts",
+      "tail_type": "Molecule",
+      "evidence": "Multiple polymerases can transcribe a single bacterial gene while numerous ribosomes concurrently translate the mRNA transcripts into polypeptides."
+    },
+    {
+      "head": "RNA polymerase I",
+      "head_type": "Enzyme",
+      "relation": "transcribes",
+      "relation_type": "TRANSCRIBES_TO",
+      "tail": "rRNAs",
+      "tail_type": "Molecule",
+      "evidence": "RNA polymerase I is located in the nucleolus, a specialized nuclear substructure in which ribosomal RNA (rRNA) is transcribed, processed, and assembled into ribosomes."
+    },
+    {
+      "head": "RNA polymerase I",
+      "head_type": "Enzyme",
+      "relation": "located in",
+      "relation_type": "LOCATED_IN",
+      "tail": "nucleolus",
+      "tail_type": "CellularStructure",
+      "evidence": "RNA polymerase I is located in the nucleolus, a specialized nuclear substructure in which ribosomal RNA (rRNA) is transcribed, processed, and assembled into ribosomes."
+    },
+    {
+      "head": "RNA polymerase II",
+      "head_type": "Enzyme",
+      "relation": "transcribes",
+      "relation_type": "TRANSCRIBES_TO",
+      "tail": "protein-coding nuclear pre-mRNAs",
+      "tail_type": "Molecule",
+      "evidence": "RNA polymerase II is located in the nucleus and synthesizes all protein-coding nuclear pre-mRNAs."
+    },
+    {
+      "head": "RNA polymerase II",
+      "head_type": "Enzyme",
+      "relation": "located in",
+      "relation_type": "LOCATED_IN",
+      "tail": "nucleus",
+      "tail_type": "CellularStructure",
+      "evidence": "RNA polymerase II is located in the nucleus and synthesizes all protein-coding nuclear pre-mRNAs."
+    },
+    {
+      "head": "RNA polymerase III",
+      "head_type": "Enzyme",
+      "relation": "transcribes",
+      "relation_type": "TRANSCRIBES_TO",
+      "tail": "5S rRNA, tRNAs, and small nuclear RNAs",
+      "tail_type": "Molecule",
+      "evidence": "RNA polymerase III is also located in the nucleus. This polymerase transcribes a variety of structural RNAs that includes the 5S pre-rRNA, transfer pre-RNAs (pre-tRNAs), and small nuclear pre-RNAs."
+    },
+    {
+      "head": "RNA polymerase III",
+      "head_type": "Enzyme",
+      "relation": "located in",
+      "relation_type": "LOCATED_IN",
+      "tail": "nucleus",
+      "tail_type": "CellularStructure",
+      "evidence": "RNA polymerase III is also located in the nucleus. This polymerase transcribes a variety of structural RNAs that includes the 5S pre-rRNA, transfer pre-RNAs (pre-tRNAs), and small nuclear pre-RNAs."
+    },
+    {
+      "head": "RNA polymerase I",
+      "head_type": "Enzyme",
+      "relation": "insensitive to",
+      "relation_type": "INHIBITS",
+      "tail": "\u03b1-amanitin",
+      "tail_type": "Molecule",
+      "evidence": "RNA polymerase I is completely insensitive to \u03b1-amanitin, meaning that the polymerase can transcribe DNA in vitro in the presence of this poison."
+    },
+    {
+      "head": "RNA polymerase II",
+      "head_type": "Enzyme",
+      "relation": "sensitive to",
+      "relation_type": "INHIBITS",
+      "tail": "\u03b1-amanitin",
+      "tail_type": "Molecule",
+      "evidence": "In contrast, RNA polymerase II is extremely sensitive to \u03b1-amanitin. The toxin prevents the enzyme from progressing down the DNA, and thus inhibits transcription."
+    },
+    {
+      "head": "RNA polymerase III",
+      "head_type": "Enzyme",
+      "relation": "moderately sensitive to",
+      "relation_type": "INHIBITS",
+      "tail": "\u03b1-amanitin",
+      "tail_type": "Molecule",
+      "evidence": "RNA polymerase III is moderately sensitive to the toxin."
+    },
+    {
+      "head": "TATA box",
+      "head_type": "GeneticElement",
+      "relation": "located at",
+      "relation_type": "LOCATED_IN",
+      "tail": "-25 to -35 bases relative to the initiation site",
+      "tail_type": "Molecule",
+      "evidence": "This sequence is not identical to the E. coli -10 box, but it conserves the A\u2013T rich element. The thermostability of A\u2013T bonds is low and this helps the DNA template to locally unwind in preparation for transcription."
+    },
+    {
+      "head": "TFIID",
+      "head_type": "Enzyme",
+      "relation": "includes",
+      "relation_type": "CONSISTS_OF",
+      "tail": "TATA-binding protein (TBP)",
+      "tail_type": "Molecule",
+      "evidence": "The core complex is TFIID, which includes a TATA-binding protein (TBP)."
+    },
+    {
+      "head": "FACT",
+      "head_type": "Enzyme",
+      "relation": "facilitates",
+      "relation_type": "REGULATES",
+      "tail": "chromatin transcription",
+      "tail_type": "Process",
+      "evidence": "This is accomplished by a special protein complex called FACT, which stands for \u201cfacilitates chromatin transcription.\u201d"
+    },
+    {
+      "head": "RNA polymerase II",
+      "head_type": "Enzyme",
+      "relation": "transcribes",
+      "relation_type": "TRANSCRIBES_TO",
+      "tail": "pre-mRNA",
+      "tail_type": "Molecule",
+      "evidence": "As discussed previously, RNA polymerase II transcribes the major share of eukaryotic genes, so in this section we will focus on how this polymerase accomplishes elongation and termination."
+    }
+  ]
+}

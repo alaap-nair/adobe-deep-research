@@ -1,0 +1,9 @@
+{
+  "question": "How does carbon fixed by RuBisCO in a plant eventually return to the soil through fungal activity?",
+  "answer": "The plant supplies the products of photosynthesis to fuel the metabolism of the fungus. In a mycorrhizal association, the fungal mycelia use their extensive network of hyphae and large surface area in contact with the soil to channel water and minerals from the soil into the plant.",
+  "citations": [
+    "triple:b79d2ec5117c2f69 | plants --[supply products of photosynthesis]--> fungi",
+    "triple:e9d46f7828257c1c | mycorrhizae --[channel water and minerals]--> soil"
+  ],
+  "reasoning": "Matched entities: rubisco, soil, carbon fixation. Traversed graph edges: mycorrhizae --[channel water and minerals]--> soil; rubisco --[catalyzes]--> reaction between co2 and rubp; rubisco --[catalyzes]--> formation of 3-pga. Graph evidence: \"In a mycorrhizal association, the fungal mycelia use their extensive network of hyphae and large surface area in contact with the soil to channel water and minerals from the soil into the plant.\". RuBisCO fixes carbon in plants, which is then supplied to fungi as products of photosynthesis. Fungi, in turn, channel water and minerals from the soil into the plant, facilitating the return of carbon to the soil through their metabolic activities."
+}

@@ -1,0 +1,8 @@
+{
+  "question": "Where do the light-dependent reactions of photosynthesis take place?",
+  "answer": "thylakoid membrane",
+  "citations": [
+    "chunk:8_1_overview_of_photosynthesis_biology_2e_openstax:17 | data/8.1 Overview of Photosynthesis - Biology 2e _ OpenStax.pdf | 6/8 Figure 8.7 Photosynthesis takes place in two stages: light-dependent reactions and the Calvin cycle. Light-depend..."
+  ],
+  "reasoning": "Matched entities: photosynthesis, light-dependent reactions, sunlight. Traversed graph edges: plants --[perform]--> photosynthesis; plants --[absorb]--> energy from sunlight; chytrids --[are]--> plants. Graph evidence: \"Plants, algae, and a group of bacteria called cyanobacteria are the only organisms capable of performing photosynthesis.\". The context explicitly states that light-dependent reactions take place in the thylakoid membrane."
+}

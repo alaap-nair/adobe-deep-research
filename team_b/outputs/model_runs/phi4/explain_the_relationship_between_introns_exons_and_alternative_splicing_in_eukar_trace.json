@@ -1,0 +1,353 @@
+{
+  "question": "Explain the relationship between introns, exons, and alternative splicing in eukaryotic gene expression.",
+  "generated_at": "2026-05-01T07:13:43.844528+00:00",
+  "retrieval_context": {
+    "query_analysis": {
+      "keywords": [
+        "explain",
+        "relationship",
+        "between",
+        "introns",
+        "exons",
+        "alternative",
+        "splicing",
+        "eukaryotic",
+        "gene",
+        "expression",
+        "explain relationship",
+        "relationship between",
+        "between introns",
+        "introns exons",
+        "exons alternative",
+        "alternative splicing",
+        "splicing eukaryotic",
+        "eukaryotic gene",
+        "gene expression",
+        "explain relationship between",
+        "relationship between introns",
+        "between introns exons",
+        "introns exons alternative",
+        "exons alternative splicing",
+        "alternative splicing eukaryotic",
+        "splicing eukaryotic gene",
+        "eukaryotic gene expression"
+      ],
+      "resolved_entities": [
+        {
+          "entity_id": "ent:exons",
+          "name": "exons",
+          "matched_text": "exons",
+          "matched_alias": "exons",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:introns",
+          "name": "introns",
+          "matched_text": "introns",
+          "matched_alias": "introns",
+          "score": 1.0,
+          "match_type": "keyword"
+        },
+        {
+          "entity_id": "ent:splicing",
+          "name": "splicing",
+          "matched_text": "splicing",
+          "matched_alias": "splicing",
+          "score": 1.0,
+          "match_type": "keyword"
+        }
+      ]
+    },
+    "vector_hits": {
+      "chunks": [
+        {
+          "chunk_id": "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:9",
+          "text": "exporting the\nprocessed mRNA to the cytoplasm.\n\nPre-mRNA Splicing\nEukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they\nare expressed), and intervening sequences called introns (int-ron denotes their intervening role), which may be\ninvolved in gene regulation but are removed from the pre-mRNA during processing. Intron sequences in mRNA do\nnot encode functional proteins. The discovery of introns came as a surprise to researchers in the 1970s who expected that pre-mRNAs would\nspecify protein sequences without further processing, as they had observed in prokaryotes. The genes of higher\neukaryotes very often contain one or more introns.",
+          "source_name": "15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 9,
+          "snippet": "exporting the\nprocessed mRNA to the cytoplasm.\n\nPre-mRNA Splicing\nEukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they\nare expressed), and intervening sequences called introns (int-ron denotes their intervening role), which may be\ninvolved in gene regulation but are removed from the pre-mRNA during processing. Intron sequences in mRNA do\nn",
+          "score": 0.7754055472019422
+        },
+        {
+          "chunk_id": "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:12",
+          "text": "introns and reconnecting exons is called splicing (Figure 15.13).\n\nIntrons are\nremoved and degraded while the pre-mRNA is still in the nucleus. Splicing occurs by a sequence-specific\nmechanism that ensures introns will be removed and exons rejoined with the accuracy and precision of a single\nnucleotide. Although the intron itself is noncoding, the beginning and end of each intron is marked with specific\nnucleotides: GU at the 5' end and AG at the 3' end of the intron. The splicing of pre-mRNAs is conducted by\ncomplexes of proteins and RNA molecules called spliceosomes. VISUAL CONNECTION\nFIGURE 15.13 Pre-mRNA splicing involves the precise removal of introns from the primary RNA transcript.",
+          "source_name": "15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 12,
+          "snippet": "introns and reconnecting exons is called splicing (Figure 15.13).\n\nIntrons are\nremoved and degraded while the pre-mRNA is still in the nucleus. Splicing occurs by a sequence-specific\nmechanism that ensures introns will be removed and exons rejoined with the accuracy and precision of a single\nnucleotide. Although the intron itself is noncoding, the beginning and end of each intron is marked with sp",
+          "score": 0.7362068819572063
+        },
+        {
+          "chunk_id": "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:1",
+          "text": "The eukaryotic pre-mRNA undergoes extensive processing before it is ready to be translated.\n\nEukaryotic protein-\ncoding sequences are not continuous, as they are in prokaryotes. The coding sequences (exons) are interrupted by\nnoncoding introns, which must be removed to make a translatable mRNA. The additional steps involved in\neukaryotic mRNA maturation also create a molecule with a much longer half-life than a prokaryotic mRNA. Eukaryotic mRNAs last for several hours, whereas the typical E. coli mRNA lasts no more than five seconds. Pre-mRNAs are first coated in RNA-stabilizing proteins; these protect the pre-mRNA from degradation while it is\nprocessed and exported out of the nucleus.",
+          "source_name": "15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 1,
+          "snippet": "The eukaryotic pre-mRNA undergoes extensive processing before it is ready to be translated.\n\nEukaryotic protein-\ncoding sequences are not continuous, as they are in prokaryotes. The coding sequences (exons) are interrupted by\nnoncoding introns, which must be removed to make a translatable mRNA. The additional steps involved in\neukaryotic mRNA maturation also create a molecule with a much longer ha",
+          "score": 0.7209558606554491
+        },
+        {
+          "chunk_id": "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:10",
+          "text": "had observed in prokaryotes. The genes of higher\neukaryotes very often contain one or more introns.\n\nThese regions may correspond to regulatory sequences;\nhowever, the biological significance of having many introns or having very long introns in a gene is unclear. It is\npossible that introns slow down gene expression because it takes longer to transcribe pre-mRNAs with lots of\n404\n15 • Genes and Proteins\nAccess for free at openstax.org",
+          "source_name": "15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 10,
+          "snippet": "had observed in prokaryotes. The genes of higher\neukaryotes very often contain one or more introns.\n\nThese regions may correspond to regulatory sequences;\nhowever, the biological significance of having many introns or having very long introns in a gene is unclear. It is\npossible that introns slow down gene expression because it takes longer to transcribe pre-mRNAs with lots of\n404\n15 • Genes and P",
+          "score": 0.7166084855904752
+        },
+        {
+          "chunk_id": "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:11",
+          "text": "introns. Alternatively, introns may be nonfunctional sequence remnants left over from the fusion of ancient genes\nthroughout the course of evolution. This is supported by the fact that separate exons often encode separate protein\nsubunits or domains. For the most part, the sequences of introns can be mutated without ultimately affecting the\nprotein product. All of a pre-mRNA’s introns must be completely and precisely removed before protein synthesis. If the process errs\nby even a single nucleotide, the reading frame of the rejoined exons would shift, and the resulting protein would be\ndysfunctional. The process of removing introns and reconnecting exons is called splicing (Figure 15.13).",
+          "source_name": "15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt",
+          "chunk_index": 11,
+          "snippet": "introns. Alternatively, introns may be nonfunctional sequence remnants left over from the fusion of ancient genes\nthroughout the course of evolution. This is supported by the fact that separate exons often encode separate protein\nsubunits or domains. For the most part, the sequences of introns can be mutated without ultimately affecting the\nprotein product. All of a pre-mRNA’s introns must be comp",
+          "score": 0.7101716292523323
+        }
+      ],
+      "evidence": [
+        {
+          "triple_id": "triple:fb97f3248c4f8d0d",
+          "head_entity_id": "ent:pre-mrna",
+          "tail_entity_id": "ent:introns",
+          "relation": "contains",
+          "evidence": "Eukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they are expressed), and intervening sequences called introns (int-ron denotes their intervening role).",
+          "head_name": "pre-mRNA",
+          "tail_name": "introns",
+          "score": 0.8194560777237834
+        },
+        {
+          "triple_id": "triple:e0d0d6310fd8b66c",
+          "head_entity_id": "ent:pre-mrna",
+          "tail_entity_id": "ent:exons",
+          "relation": "contains",
+          "evidence": "Eukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they are expressed).",
+          "head_name": "pre-mRNA",
+          "tail_name": "exons",
+          "score": 0.7973857724648512
+        },
+        {
+          "triple_id": "triple:b99df5ef39b1da6b",
+          "head_entity_id": "ent:introns",
+          "tail_entity_id": "ent:splicing",
+          "relation": "are removed by",
+          "evidence": "The process of removing introns and reconnecting exons is called splicing.",
+          "head_name": "introns",
+          "tail_name": "splicing",
+          "score": 0.7402785356564029
+        },
+        {
+          "triple_id": "triple:5214faddc2dc7e97",
+          "head_entity_id": "ent:spliceosomes",
+          "tail_entity_id": "ent:splicing",
+          "relation": "catalyzes",
+          "evidence": "The splicing of pre-mRNAs is conducted by complexes of proteins and RNA molecules called spliceosomes.",
+          "head_name": "spliceosomes",
+          "tail_name": "splicing",
+          "score": 0.7249493053552052
+        },
+        {
+          "triple_id": "triple:9c1f9d47fd4a3fe4",
+          "head_entity_id": "ent:eukaryotic_pre-mrna",
+          "tail_entity_id": "ent:rna_processing",
+          "relation": "undergoes",
+          "evidence": "The eukaryotic pre-mRNA undergoes extensive processing before it is ready to be translated.",
+          "head_name": "eukaryotic pre-mRNA",
+          "tail_name": "RNA processing",
+          "score": 0.71459940054087
+        }
+      ]
+    },
+    "graph_trace": {
+      "seed_entity_ids": [
+        "ent:exons",
+        "ent:introns",
+        "ent:splicing",
+        "ent:pre-mrna",
+        "ent:spliceosomes",
+        "ent:eukaryotic_pre-mrna",
+        "ent:rna_processing"
+      ],
+      "retrieved_nodes": [
+        {
+          "name": "exons",
+          "entity_id": "ent:exons",
+          "original_names": [
+            "exons"
+          ]
+        },
+        {
+          "name": "eukaryotic pre-mrna",
+          "entity_id": "ent:eukaryotic_pre-mrna",
+          "original_names": [
+            "eukaryotic pre-mRNA"
+          ]
+        },
+        {
+          "name": "rna processing",
+          "entity_id": "ent:rna_processing",
+          "original_names": [
+            "RNA processing"
+          ]
+        },
+        {
+          "name": "introns",
+          "entity_id": "ent:introns",
+          "original_names": [
+            "introns"
+          ]
+        },
+        {
+          "name": "pre-mrna",
+          "entity_id": "ent:pre-mrna",
+          "original_names": [
+            "pre-mRNA"
+          ]
+        },
+        {
+          "name": "rna editing",
+          "entity_id": "ent:rna_editing",
+          "original_names": [
+            "RNA editing"
+          ]
+        },
+        {
+          "name": "rna-stabilizing proteins",
+          "entity_id": "ent:rna-stabilizing_proteins",
+          "original_names": [
+            "RNA-stabilizing proteins"
+          ]
+        },
+        {
+          "name": "intron removal",
+          "entity_id": "ent:intron_removal",
+          "original_names": [
+            "intron removal"
+          ]
+        },
+        {
+          "name": "guide rnas",
+          "entity_id": "ent:guide_rnas",
+          "original_names": [
+            "guide RNAs"
+          ]
+        },
+        {
+          "name": "3' poly-a tail addition",
+          "entity_id": "ent:3'_poly-a_tail_addition",
+          "original_names": [
+            "3' Poly-A Tail addition"
+          ]
+        },
+        {
+          "name": "5' capping",
+          "entity_id": "ent:5'_capping",
+          "original_names": [
+            "5' capping"
+          ]
+        },
+        {
+          "name": "splicing",
+          "entity_id": "ent:splicing",
+          "original_names": [
+            "splicing"
+          ]
+        },
+        {
+          "name": "spliceosomes",
+          "entity_id": "ent:spliceosomes",
+          "original_names": [
+            "spliceosomes"
+          ]
+        },
+        {
+          "name": "mitochondrial dna",
+          "entity_id": "ent:mitochondrial_dna",
+          "original_names": [
+            "mitochondrial DNA"
+          ]
+        }
+      ],
+      "traversed_edges": [
+        {
+          "target_entity_id": "ent:exons",
+          "evidence": "The coding sequences (exons) are interrupted by noncoding introns, which must be removed to make a translatable mRNA.",
+          "target_name": "exons",
+          "source_entity_id": "ent:eukaryotic_pre-mrna",
+          "triple_id": "triple:d95f92a86e7d577e",
+          "source_name": "eukaryotic pre-mRNA",
+          "relation": "contains"
+        },
+        {
+          "target_entity_id": "ent:rna_processing",
+          "evidence": "The eukaryotic pre-mRNA undergoes extensive processing before it is ready to be translated.",
+          "target_name": "RNA processing",
+          "source_entity_id": "ent:eukaryotic_pre-mrna",
+          "triple_id": "triple:9c1f9d47fd4a3fe4",
+          "source_name": "eukaryotic pre-mRNA",
+          "relation": "undergoes"
+        },
+        {
+          "target_entity_id": "ent:introns",
+          "evidence": "The coding sequences (exons) are interrupted by noncoding introns, which must be removed to make a translatable mRNA.",
+          "target_name": "introns",
+          "source_entity_id": "ent:eukaryotic_pre-mrna",
+          "triple_id": "triple:43404b398dd4cfbe",
+          "source_name": "eukaryotic pre-mRNA",
+          "relation": "contains"
+        },
+        {
+          "target_entity_id": "ent:exons",
+          "evidence": "Eukaryotic genes are composed of exons, which correspond to protein-coding sequences (ex-on signifies that they are expressed).",
+          "target_name": "exons",
+          "source_entity_id": "ent:pre-mrna",
+          "triple_id": "triple:e0d0d6310fd8b66c",
+          "source_name": "pre-mRNA",
+          "relation": "contains"
+        },
+        {
+          "target_entity_id": "ent:rna_processing",
+          "evidence": "After transcription, eukaryotic pre-mRNAs must undergo several processing steps before they can be translated.",
+          "target_name": "RNA processing",
+          "source_entity_id": "ent:pre-mrna",
+          "triple_id": "triple:39c6c000d5bd5ad0",
+          "source_name": "pre-mRNA",
+          "relation": "undergoes"
+        },
+        {
+          "target_entity_id": "ent:rna_editing",
+          "evidence": "In rare cases, the mRNA transcript can be 'edited' after it is transcribed.",
+          "target_name": "RNA editing",
+          "source_entity_id": "ent:pre-mrna",
+          "triple_id": "triple:ca8f9d0bd58a41df",
+          "source_name": "pre-mRNA",
+          "relation": "is edited by"
+        },
+        {
+          "target_entity_id": "ent:rna-stabilizing_proteins",
+          "evidence": "Pre-mRNAs are first coated in RNA-stabilizing proteins; these protect the pre-mRNA from degradation while it is processed and exported out of the nucleus.",
+          "target_name": "RNA-stabilizing proteins",
+          "source_entity_id": "ent:pre-mrna",
+          "triple_id": "triple:ed75ac3783d1f29d",
+          "source_name": "pre-mRNA",
+          "relation": "is coated in"
+        },
+        {
+          "target_entity_id": "ent:intron_removal",
+          "evidence": "The three most important steps of pre-mRNA processing are the addition of stabilizing and signaling factors at the 5' and 3' ends of the molecule, and the removal of the introns.",
+          "target_name": "intron removal",
+          "source_entity_id": "ent:pre-mrna",
+          "triple_id": "triple:509bfec925c7b180",
+          "source_name": "pre-mRNA",
+          "relation": "undergoes"
+        }
+      ]
+    }
+  },
+  "result": {
+    "question": "Explain the relationship between introns, exons, and alternative splicing in eukaryotic gene expression.",
+    "answer": "In eukaryotic gene expression, introns are non-coding sequences that interrupt exons within a gene. Exons are the coding sequences that are expressed, while introns are removed during pre-mRNA processing through a sequence-specific mechanism called splicing. This process involves spliceosomes, complexes of proteins and RNA molecules, which catalyze the removal of introns and rejoining of exons. The accuracy of splicing is crucial, as even a single nucleotide error can shift the reading frame of exons, resulting in a dysfunctional protein. Alternative splicing allows exons to be removed or rearranged in different ways, enabling the production of multiple protein variants from a single gene.",
+    "citations": [
+      "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:9 | 15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt | exporting the processed mRNA to the cytoplasm. Pre-mRNA Splicing Eukaryotic genes are composed of exons, which corres...",
+      "chunk:15_4_rna_processing_in_eukaryotes_biology_2e_openstax:12 | 15.4 RNA Processing in Eukaryotes - Biology 2e _ OpenStax.txt | introns and reconnecting exons is called splicing (Figure 15.13). Introns are removed and degraded while the pre-mRNA..."
+    ],
+    "reasoning": "Matched entities: exons, introns, splicing. Traversed graph edges: eukaryotic pre-mRNA --[contains]--> exons; eukaryotic pre-mRNA --[undergoes]--> RNA processing; eukaryotic pre-mRNA --[contains]--> introns. Graph evidence: \"The coding sequences (exons) are interrupted by noncoding introns, which must be removed to make a translatable mRNA.\". Model omitted explicit reasoning."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "question": "What does telomerase do?",
+  "answer": "Telomerase adds telomeres to the ends of chromosomes.",
+  "citations": [
+    "chunk:14_6_dna_repair_biology_2e_openstax:0 | 14.6 DNA Repair - Biology 2e _ OpenStax.txt | Telomerase and Aging Cells that undergo cell division continue to have their telomeres shortened because most somatic...",
+    "chunk:14_6_dna_repair_biology_2e_openstax:1 | 14.6 DNA Repair - Biology 2e _ OpenStax.txt | older. In 2010, scientists found that telomerase can reverse some age-related conditions in mice. This may have poten..."
+  ],
+  "reasoning": "Matched entities: telomerase. Traversed graph edges: telomerase --[is active in]--> germ cells and adult stem cells; telomerase --[adds]--> telomeres; telomerase --[contains]--> RNA template. Graph evidence: \"Telomerase is typically active in germ cells and adult stem cells.\". Telomerase adds telomeres to the ends of chromosomes by a separate enzyme."
+}

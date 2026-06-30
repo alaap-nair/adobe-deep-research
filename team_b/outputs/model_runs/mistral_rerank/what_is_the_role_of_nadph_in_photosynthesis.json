@@ -1,0 +1,9 @@
+{
+  "question": "What is the role of NADPH in photosynthesis?",
+  "answer": "NADPH is produced in the light-dependent reactions of photosynthesis and is used in the Calvin cycle to convert 3-PGA into G3P.",
+  "citations": [
+    "chunk:8_2_the_light_dependent_reactions_of_photosynthesis_biology_2e_openstax:20 | data/8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e _ OpenStax.pdf | in Figure 8.16. Protein complexes and pigment molecules work together to produce NADPH and ATP. The numbering of the...",
+    "triple:bfca81382791b43d | Calvin cycle --[consumes]--> NADPH"
+  ],
+  "reasoning": "Matched entities: nadph, photosynthesis. Traversed graph edges: Calvin cycle --[consumes]--> NADPH; Calvin cycle --[consumes]--> carbon dioxide; Calvin cycle --[produces]--> G3P. Graph evidence: \"ATP and NADPH are used to convert the six molecules of 3-PGA into six molecules of a chemical called glyceraldehyde 3-phosphate (G3P).\". The context indicates that NADPH is produced during the light-dependent reactions of photosynthesis and is subsequently used in the Calvin cycle to convert 3-PGA into G3P."
+}

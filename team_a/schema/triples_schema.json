@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Knowledge Graph Triples",
+  "description": "Schema for extracted (head, relation, tail, evidence) triples",
+  "type": "object",
+  "required": ["triples"],
+  "properties": {
+    "triples": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/triple" }
+    }
+  },
+  "definitions": {
+    "triple": {
+      "type": "object",
+      "required": ["head", "relation", "tail", "evidence"],
+      "properties": {
+        "head": { "type": "string", "minLength": 1 },
+        "relation": { "type": "string", "enum": [
+          "occurs_in", "produces", "converts_to", "uses", "requires",
+          "inhibits", "activates", "transports_to", "donates_electrons_to", "accepts_electrons_from"
+        ]},
+        "tail": { "type": "string", "minLength": 1 },
+        "evidence": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

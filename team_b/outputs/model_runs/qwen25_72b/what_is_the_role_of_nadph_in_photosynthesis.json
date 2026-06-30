@@ -1,0 +1,10 @@
+{
+  "question": "What is the role of NADPH in photosynthesis?",
+  "answer": "NADPH is used to convert the six molecules of 3-PGA into six molecules of glyceraldehyde 3-phosphate (G3P) in the Calvin cycle, which occurs in the stroma of the chloroplast.",
+  "citations": [
+    "triple:bfca81382791b43d | Calvin cycle --[consumes]--> NADPH",
+    "triple:13f848f8eb4facfb | Calvin cycle --[produces]--> G3P",
+    "triple:c5c8377caf8b4a03 | Calvin cycle --[occurs in]--> stroma"
+  ],
+  "reasoning": "Matched entities: nadph, photosynthesis. Traversed graph edges: Calvin cycle --[consumes]--> NADPH; Calvin cycle --[consumes]--> carbon dioxide; Calvin cycle --[produces]--> G3P. Graph evidence: \"ATP and NADPH are used to convert the six molecules of 3-PGA into six molecules of a chemical called glyceraldehyde 3-phosphate (G3P).\". The evidence indicates that NADPH is consumed in the Calvin cycle to produce G3P, which is a key step in the light-independent reactions of photosynthesis."
+}

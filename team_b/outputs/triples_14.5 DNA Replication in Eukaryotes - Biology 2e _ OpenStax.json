@@ -1,0 +1,139 @@
+{
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "num_triples": 12,
+  "num_entities": 22,
+  "entities": [
+    "DNA",
+    "DNA fragment",
+    "DNA helix",
+    "DNA ligase",
+    "DNA pol",
+    "DNA pol \u03b1",
+    "DNA pol \u03b4",
+    "DNA pol \u03b5",
+    "DNA polymerase",
+    "Helicase",
+    "PCNA",
+    "Primase",
+    "RNA template",
+    "RNase H",
+    "Telomerase",
+    "gaps",
+    "germ cells and adult stem cells",
+    "lagging strand",
+    "leading strand",
+    "primer RNA",
+    "primers",
+    "telomeres"
+  ],
+  "triples": [
+    {
+      "head": "DNA polymerase",
+      "head_type": "Enzyme",
+      "relation": "replicates",
+      "relation_type": "REPLICATES",
+      "tail": "DNA",
+      "tail_type": "Gene",
+      "evidence": "The essential steps of replication are the same as in prokaryotes. Before replication can start, the DNA has to be made available as a template."
+    },
+    {
+      "head": "Helicase",
+      "head_type": "Enzyme",
+      "relation": "opens",
+      "relation_type": "CATALYZES",
+      "tail": "DNA helix",
+      "tail_type": "Gene",
+      "evidence": "A helicase using the energy from ATP hydrolysis opens up the DNA helix."
+    },
+    {
+      "head": "Primase",
+      "head_type": "Enzyme",
+      "relation": "forms",
+      "relation_type": "PRODUCES",
+      "tail": "primers",
+      "tail_type": "GeneticElement",
+      "evidence": "Primers are formed by the enzyme primase, and using the primer, DNA pol can start synthesis."
+    },
+    {
+      "head": "DNA pol \u03b1",
+      "head_type": "Enzyme",
+      "relation": "adds",
+      "relation_type": "PRODUCES",
+      "tail": "DNA fragment",
+      "tail_type": "Gene",
+      "evidence": "DNA pol \u03b1 adds a short (20 to 30 nucleotides) DNA fragment to the RNA primer on both strands, and then hands off to a second polymerase."
+    },
+    {
+      "head": "DNA pol \u03b5",
+      "head_type": "Enzyme",
+      "relation": "synthesizes",
+      "relation_type": "PRODUCES",
+      "tail": "leading strand",
+      "tail_type": "Gene",
+      "evidence": "While the leading strand is continuously synthesized by the enzyme pol \u03b5, the lagging strand is synthesized by pol \u03b4."
+    },
+    {
+      "head": "DNA pol \u03b4",
+      "head_type": "Enzyme",
+      "relation": "synthesizes",
+      "relation_type": "PRODUCES",
+      "tail": "lagging strand",
+      "tail_type": "Gene",
+      "evidence": "While the leading strand is continuously synthesized by the enzyme pol \u03b5, the lagging strand is synthesized by pol \u03b4."
+    },
+    {
+      "head": "PCNA",
+      "head_type": "Molecule",
+      "relation": "holds",
+      "relation_type": "BINDS",
+      "tail": "DNA pol",
+      "tail_type": "Enzyme",
+      "evidence": "A sliding clamp protein known as PCNA (proliferating cell nuclear antigen) holds the DNA pol in place so that it does not slide off the DNA."
+    },
+    {
+      "head": "RNase H",
+      "head_type": "Enzyme",
+      "relation": "removes",
+      "relation_type": "DECOMPOSES",
+      "tail": "primer RNA",
+      "tail_type": "GeneticElement",
+      "evidence": "The displaced primer RNA is then removed by RNase H (AKA flap endonuclease) and replaced with DNA nucleotides."
+    },
+    {
+      "head": "DNA ligase",
+      "head_type": "Enzyme",
+      "relation": "seals",
+      "relation_type": "CATALYZES",
+      "tail": "gaps",
+      "tail_type": "Gene",
+      "evidence": "The gaps that remain are sealed by DNA ligase, which forms the phosphodiester bond."
+    },
+    {
+      "head": "Telomerase",
+      "head_type": "Enzyme",
+      "relation": "adds",
+      "relation_type": "PRODUCES",
+      "tail": "telomeres",
+      "tail_type": "GeneticElement",
+      "evidence": "The telomeres are added to the ends of chromosomes by a separate enzyme, telomerase."
+    },
+    {
+      "head": "Telomerase",
+      "head_type": "Enzyme",
+      "relation": "contains",
+      "relation_type": "CONSISTS_OF",
+      "tail": "RNA template",
+      "tail_type": "GeneticElement",
+      "evidence": "The telomerase enzyme contains a catalytic part and a built-in RNA template."
+    },
+    {
+      "head": "Telomerase",
+      "head_type": "Enzyme",
+      "relation": "is active in",
+      "relation_type": "LOCATED_IN",
+      "tail": "germ cells and adult stem cells",
+      "tail_type": "Organism",
+      "evidence": "Telomerase is typically active in germ cells and adult stem cells."
+    }
+  ]
+}
